@@ -39,18 +39,18 @@ jobs:
         run: truncate -s 0 data/discovery.log || true
 
       - name: Discover YC companies
-        run: PYTHONPATH=. python tools/discover_yc_companies.py
+        run: PYTHONPATH=. python discovery/discover_yc_companies.py
 
       - name: Discover VC companies
-        run: PYTHONPATH=. python tools/discover_vc_companies.py
+        run: PYTHONPATH=. python discovery/discover_vc_companies.py
 
       - name: Discover industry companies
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: PYTHONPATH=. python tools/discover_industry_companies.py
+        run: PYTHONPATH=. python discovery/discover_industry_companies.py
 
       - name: Detect ATS for new companies
-        run: PYTHONPATH=. python tools/discover_companies.py
+        run: PYTHONPATH=. python discovery/discover_companies.py
 
       - name: Write step summary
         run: PYTHONPATH=. python pipeline/write_discovery_summary.py

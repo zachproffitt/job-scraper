@@ -55,11 +55,11 @@ Non-engineering and contract roles are filtered out.
 
 ~5,000 candidates in `data/company_names.txt`, sourced from:
 
-- **Y Combinator** — all active batches via Algolia (`tools/discover_yc_companies.py`)
-- **VC portfolios** — Founders Fund, Khosla Ventures (`tools/discover_vc_companies.py`)
-- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`tools/discover_industry_companies.py`)
+- **Y Combinator** — all active batches via Algolia (`discovery/discover_yc_companies.py`)
+- **VC portfolios** — Founders Fund, Khosla Ventures (`discovery/discover_vc_companies.py`)
+- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`discovery/discover_industry_companies.py`)
 
-ATS detection (`tools/discover_companies.py`) runs over the candidate list and populates `data/companies.json` with confirmed companies and their slugs.
+ATS detection (`discovery/discover_companies.py`) runs over the candidate list and populates `data/companies.json` with confirmed companies and their slugs.
 
 > *More ATS scrapers and company sources are actively being added.*
 
