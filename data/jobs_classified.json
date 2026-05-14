@@ -20178,7 +20178,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ee7506b6"
+    "source_hash": "58d2e470"
   },
   "ashby-astronomer-eb1c8e1a-3990-4078-8d53-d7c22dbf9281": {
     "is_engineering": false,
@@ -21329,25 +21329,24 @@
   "ashby-langchain-d3f8de08-2e2b-4c3f-be1f-e63ca51f1d93": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": true,
-    "job_summary": "Build and architect LangSmith's observability and evaluation platform across full-stack Go, Python, and TypeScript, driving tracing, monitoring, and AI system reliability at production scale. Lead technical direction for high-throughput data systems handling millions of developer interactions across Fortune 500 companies.",
+    "is_hybrid": false,
+    "job_summary": "Build LangSmith's full-stack AI observability platform\u2014backend services, APIs, and frontend product surfaces\u2014handling tracing, evaluation, and monitoring workflows at production scale. You'll drive architectural decisions across Go, Python, and TypeScript while establishing engineering standards and mentoring a growing team.",
     "skills": [
-      "Python",
       "Go",
+      "Python",
       "TypeScript",
       "React",
       "PostgreSQL",
-      "Redis",
       "AWS",
-      "Distributed Systems"
+      "Distributed Systems",
+      "Production Observability"
     ],
     "level": "principal",
-    "comp": "$230k-$270k",
+    "comp": "$230,000-$270,000",
     "comp_extras": [
-      "equity",
-      "bonus"
+      "equity"
     ],
-    "source_hash": "d7d4220c"
+    "source_hash": "d5d3abf4"
   },
   "greenhouse-anthropic-5211184008": {
     "is_engineering": false,
@@ -24253,11 +24252,11 @@
     "job_summary": null,
     "skills": [],
     "level": "senior",
-    "comp": "$140k-$185k",
+    "comp": "$140,000-$185,000",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "fe1b30f3"
+    "source_hash": "2ad13aeb"
   },
   "ashby-suno-81beeb40-3870-4a35-9370-1335d2afddd9": {
     "is_engineering": false,
@@ -24319,5 +24318,863 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "27fc0ec1"
+  },
+  "greenhouse-figma-5994499004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "add92953"
+  },
+  "greenhouse-airbnb-7917687": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$179,000\u2014$207,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "344ea7a0"
+  },
+  "greenhouse-trueanomalyinc-5138120007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement security detection capabilities, incident response playbooks, and SIEM/EDR automation across corporate and cloud environments. Build the detection and response infrastructure for a defense contractor securing space systems, with on-call incident response duties and access to classified space operations.",
+    "skills": [
+      "Python",
+      "PowerShell",
+      "Bash",
+      "SIEM (Splunk/Elastic)",
+      "EDR platforms",
+      "MITRE ATT&CK",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$115k-$165k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "445a8496"
+  },
+  "greenhouse-airbnb-7926527": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$212,000\u2013$265,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "d147fed7"
+  },
+  "ashby-turion-space-66b0e0e5-bd12-4242-a739-642a0e86fe10": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the development, integration, and execution of mission operations across the spacecraft lifecycle, serving as the primary operational integrator between engineering, ground software, and flight teams. Drive operational procedures, flight rules, constraints, and risk mitigations while supporting real-time operations and mentoring junior engineers on small, fast-paced teams in rapidly evolving mission environments.",
+    "skills": [
+      "Python",
+      "MATLAB",
+      "TS/SCI Clearance",
+      "Spacecraft Operations",
+      "Mission Planning",
+      "FMEA",
+      "GEO Operations"
+    ],
+    "level": "senior",
+    "comp": "$140,000-$190,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7af12e4c"
+  },
+  "greenhouse-stripe-7616135": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "282a208b"
+  },
+  "ashby-turion-space-efc634a0-9568-46ee-80f7-38d629cae0d2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement guidance, navigation, and control algorithms for satellite rendezvous and proximity operations missions, including modeling, simulation, hardware-in-the-loop testing, and on-orbit validation. Lead technical strategy for GNC subsystems on small satellite platforms in low Earth orbit, mentoring junior engineers and owning functional areas such as embedded flight code processes.",
+    "skills": [
+      "C++",
+      "Python",
+      "MATLAB",
+      "Orbital Mechanics",
+      "Control Systems",
+      "TS/SCI Clearance",
+      "Hardware-in-the-Loop Testing",
+      "Rendezvous and Proximity Operations"
+    ],
+    "level": "senior",
+    "comp": "$150,000-$213,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c6bff697"
+  },
+  "lever-q-ctrl-c6ef13cf-fb59-4e66-a17c-b16d7f1cdbe3": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build software solutions for calibration and optimization of superconducting quantum hardware, including routines for tuning two-qubit gates and processor-scale optimization. Work at the intersection of control theory, physics, and AI to solve quantum computing challenges at scale.",
+    "skills": [
+      "Python",
+      "Quantum Computing",
+      "Control Theory",
+      "Machine Learning",
+      "Optimization",
+      "Physics Simulation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c7933e68"
+  },
+  "ashby-openai-493f5328-27bc-4987-9cc1-47ec3793a4d5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$302k-$335k",
+    "comp_extras": [],
+    "source_hash": "84979e95"
+  },
+  "ashby-openai-5a1a0c32-0b82-482a-8149-e6b096c3e732": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and ship new Android experiences for ChatGPT, expanding mobile AI capabilities. Drive foundational improvements in app architecture, performance optimization, and testing frameworks while collaborating across product, design, and research teams.",
+    "skills": [
+      "Android",
+      "Kotlin",
+      "Java",
+      "Performance Optimization",
+      "App Architecture",
+      "Testing Frameworks"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb84d896"
+  },
+  "ashby-openai-72a58872-70e2-4340-a259-e9bea3596883": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead the design, development, and operation of identity and access management infrastructure spanning cloud platforms, internal systems, and critical engineering services at OpenAI. You'll architect authentication, authorization, and policy enforcement systems protecting model weights and customer data across mission-critical infrastructure with strong reliability and security requirements.",
+    "skills": [
+      "Go",
+      "Rust",
+      "Python",
+      "Kubernetes",
+      "Cloud Infrastructure",
+      "Identity Systems",
+      "Distributed Systems",
+      "Infrastructure-as-Code"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c03f50bb"
+  },
+  "greenhouse-vast-4681527006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$40k-$57k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cfe76978"
+  },
+  "ashby-openai-e9fa3446-0b1e-48c0-a567-ef85f1621b76": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build real-time backend systems and data pipelines that capture, process, and translate product and usage signals across OpenAI's B2B API surfaces. Operate in high-scale, low-latency, privacy-constrained environments while partnering with data science and research teams to improve products and models through production feedback loops.",
+    "skills": [
+      "Distributed Systems",
+      "Data Pipelines",
+      "PostgreSQL",
+      "Kafka",
+      "Python",
+      "API Services",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": "$293K-$385K",
+    "comp_extras": [],
+    "source_hash": "c3a5ffa8"
+  },
+  "ashby-openai-73e59b84-2e87-4637-8c4a-d271784afb30": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$239k-$265k",
+    "comp_extras": [],
+    "source_hash": "db8559ea"
+  },
+  "ashby-openai-5ba67ffa-ee05-44d3-8a6a-3e259fa3147d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$162k-$180k",
+    "comp_extras": [],
+    "source_hash": "dc43b408"
+  },
+  "greenhouse-andurilindustries-5138059007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Architect and implement mission-critical Teamcenter customizations, integrations, and scalable PLM solutions that connect CAD, ERP, MES, and manufacturing systems into a unified engineering backbone for defense hardware production. You'll work in a greenfield environment building next-generation systems with modern software practices, avoiding legacy PLM patterns.",
+    "skills": [
+      "Teamcenter",
+      "ITK",
+      "C++",
+      "Java",
+      "C#",
+      "SOA",
+      "Active Workspace",
+      "BMIDE"
+    ],
+    "level": "senior",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "190647b6"
+  },
+  "greenhouse-waymo-7264855": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$238,000\u2014$302,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "929d6278"
+  },
+  "greenhouse-scaleai-4695258005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "99d44065"
+  },
+  "greenhouse-andurilindustries-5138188007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1f914585"
+  },
+  "greenhouse-scaleai-4695266005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bbe9d2fc"
+  },
+  "greenhouse-andurilindustries-5138086007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "84c27650"
+  },
+  "greenhouse-andurilindustries-5137605007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$56k-$116k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5c645b0a"
+  },
+  "greenhouse-andurilindustries-5138057007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement mission-critical Teamcenter customizations, integrations, and enterprise platform solutions that connect CAD, ERP, MES, and manufacturing systems at scale. Work in a defense technology context with export-controlled data and high-reliability requirements.",
+    "skills": [
+      "Teamcenter",
+      "ITK",
+      "C++",
+      "Java",
+      "Git",
+      "Oracle",
+      "AWS",
+      "Security Clearance"
+    ],
+    "level": "senior",
+    "comp": "$166,000\u2014$220,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3bedda77"
+  },
+  "greenhouse-andurilindustries-5018841007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$165k-$218k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e289f29a"
+  },
+  "greenhouse-andurilindustries-5138077007": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70-$75k",
+    "comp_extras": [],
+    "source_hash": "252fa827"
+  },
+  "greenhouse-archer56-7728464003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, install, and maintain data acquisition systems and instrumentation for Archer's all-electric eVTOL flight test aircraft. Lead instrumentation planning across strain, temperature, vibration, pressure, and airdata monitoring systems while supporting developmental test and certification activities.",
+    "skills": [
+      "Data Acquisition Systems",
+      "Flight Test Instrumentation",
+      "Python",
+      "C++",
+      "MATLAB",
+      "Telemetry Systems",
+      "XML",
+      "VBA"
+    ],
+    "level": "senior",
+    "comp": "$140,680-$200,600",
+    "comp_extras": [],
+    "source_hash": "ed5ac817"
+  },
+  "greenhouse-recursionpharmaceuticals-7926706": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$176,400-$207,500",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "095d2a1a"
+  },
+  "greenhouse-epicgames-5995717004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e28662b2"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5983551004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain kernel security features for PlayStation systems, including debugging sophisticated security issues and collaborating on open-source kernel projects. Work with low-level systems code in a security-critical gaming platform.",
+    "skills": [
+      "C",
+      "C++",
+      "Kernel Development",
+      "Git",
+      "FreeBSD",
+      "Operating Systems",
+      "Security"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0ffe79fc"
+  },
+  "greenhouse-andurilindustries-4952720007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2014$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e3f726fd"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5983553004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain kernel security features for PlayStation systems, ensuring robust protection against sophisticated threats. Work with low-level system code and open-source projects in a production gaming environment with 100+ million active users.",
+    "skills": [
+      "C",
+      "C++",
+      "Kernel Development",
+      "Git",
+      "FreeBSD",
+      "Operating Systems",
+      "Debugging",
+      "Open-Source Projects"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0b68190e"
+  },
+  "lever-palantir-e24202f1-fccd-470f-b001-e24d901735a4": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and deploy software solutions for customers using Palantir's data platforms and AI capabilities. Work directly with customers on real-world problems while contributing to production systems at scale.",
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "54dedd9d"
+  },
+  "lever-palantir-655f9937-a4ce-4e7d-80e2-a6659af07329": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build software on Palantir's data-driven decision platforms, delivering real customer outcomes in AI-powered solutions and critical infrastructure across government and enterprise. You'll work at the same standard as full engineers on problems spanning supply chain forecasting, healthcare, and national security.",
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "07e700d5"
+  },
+  "lever-palantir-e6789b17-62fb-4226-a079-f8c17ff19e2d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and deploy AI-powered software solutions for Palantir's commercial customers, working on real-world problems in data-driven operations and decision-making. You'll be held to full engineer performance standards and gain direct exposure to critical industries while working on the company's core platforms.",
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "36bed023"
+  },
+  "lever-palantir-5c4c65c5-77da-4d36-856c-4ade87631019": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and deploy AI-powered software solutions for U.S. government customers, helping them integrate Palantir's data platforms to make faster operational decisions. Work on critical government use cases including supply chain forecasting, search and rescue, and drug development.",
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "725a0a2f"
+  },
+  "lever-palantir-7b269a3a-77c7-4060-9171-4fb655dfc676": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build software on Palantir's data-driven platforms to deliver customer outcomes, including AI-powered solutions and enterprise systems that help organizations make faster, data-informed decisions.",
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cea31577"
+  },
+  "greenhouse-marqeta-7926736": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Automate and manage AWS Aurora, MySQL, PostgreSQL, and NoSQL databases powering Marqeta's card-issuing platform processing 5 billion transactions annually. Design and implement high-availability, disaster-recovery, and multi-region database architecture while mentoring junior engineers and maintaining 24/7 operational excellence.",
+    "skills": [
+      "AWS Aurora",
+      "PostgreSQL",
+      "MySQL",
+      "DynamoDB",
+      "Terraform",
+      "Python",
+      "Datadog",
+      "Linux"
+    ],
+    "level": "senior",
+    "comp": "CAD 116,000 - CAD 145,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "064ab053"
+  },
+  "lever-palantir-5c7bb70c-83ea-43e7-8055-0c8f319f4333": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build software solutions deployed at U.S. government agencies, helping customers operationalize AI-powered data systems and transform organizational decision-making. Work on critical infrastructure at scale with direct customer impact and merit-based career progression.",
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6e84a594"
+  },
+  "lever-deepgenomics-d519265d-30c2-4194-92b0-d7194c4ca0a6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb28ff7b"
+  },
+  "greenhouse-disco-8547728002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5e4ce80f"
+  },
+  "greenhouse-disco-8547613002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "31fe811b"
+  },
+  "ashby-coderabbit-98655faa-b801-44a1-a900-a3e4c8a25337": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b094995d"
+  },
+  "greenhouse-natera-5995919004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5965ec05"
+  },
+  "greenhouse-disco-8547730002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5108ec4f"
+  },
+  "greenhouse-workleap-5133092007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$90k-$110k CAD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "d994f415"
+  },
+  "ashby-clipboard-4871e102-00a5-4693-8e2f-8672435f1ba2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead and manage a software engineering team, owning process, delivery, and technical quality while mentoring engineers and aligning product roadmap with business goals. Partner with distributed teams in a fast-paced startup environment where you'll maintain hands-on technical involvement through code review and system design guidance.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "NestJS",
+      "Microservices Architecture"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0af0eaea"
+  },
+  "greenhouse-carbon-5134096007": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$90,400-$135,600",
+    "comp_extras": [],
+    "source_hash": "a44420e2"
+  },
+  "ashby-finni-health-0c69d524-9c08-4855-bf64-00ac7e5074d0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80,000-$85,000",
+    "comp_extras": [],
+    "source_hash": "194cd804"
+  },
+  "greenhouse-natera-5995921004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cdd8b79b"
+  },
+  "bamboo-chowdeck-81": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "00ad68c0"
+  },
+  "greenhouse-usenourish-5220987008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a1ea8ac1"
+  },
+  "lever-Instrumentl-e978458e-551a-4ced-aa86-83078658fdef": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a43f1bf6"
+  },
+  "greenhouse-block-5218231008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$149,400\u2014$270,000 USD",
+    "comp_extras": [],
+    "source_hash": "bcadaaf6"
+  },
+  "greenhouse-databricks-8550331002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$180,000\u2014$247,500 USD",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "3f5a9292"
+  },
+  "ashby-thndr-e3516292-32a3-4e1e-882b-990f3fa6ab8b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aed2e0cd"
+  },
+  "greenhouse-okta-7923030": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and maintain security automation, infrastructure, and integrations across Okta's enterprise security tools and cloud platforms using code-first approaches. Lead technical evaluations and implementations of endpoint detection, cloud security, and identity infrastructure to protect organizational security posture at scale.",
+    "skills": [
+      "Python",
+      "Terraform",
+      "Okta",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Bash",
+      "Go"
+    ],
+    "level": "staff",
+    "comp": "$141,000\u2014$193,600 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7709296e"
+  },
+  "ashby-clipboard-2f7bc179-c657-455f-a0a1-e0c43ec7bd4c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead and mentor a distributed engineering team, owning delivery, process optimization, and technical guidance across product initiatives. You'll balance hands-on technical review with people leadership, scaling team capability and impact in a fast-growing healthcare marketplace.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "NestJS",
+      "Microservices Architecture"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "09a3515e"
+  },
+  "greenhouse-instacart-7658241": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design the semantic layer and ontologies for Instacart's Ads AI agents, building dbt models and curated datasets in Snowflake to power campaign analysis, performance diagnosis, and ROI recommendations. Own end-to-end evaluation frameworks and A/B experiments to quantify agent impact on ROAS lift and operational efficiency across millions of merchants and campaigns.",
+    "skills": [
+      "Python",
+      "SQL",
+      "dbt",
+      "Snowflake",
+      "Airflow",
+      "A/B Testing",
+      "Machine Learning",
+      "Ads Analytics"
+    ],
+    "level": "mid",
+    "comp": "CAD$115,000\u2013$121,500",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c0f64530"
+  },
+  "greenhouse-robinhood-7489476": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and deploy machine learning models and evaluation frameworks for customer support systems including intent classification, agent orchestration, and personalization at scale. Work in a regulated financial environment integrating advanced AI techniques with product and engineering teams to deliver production-ready systems.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Machine Learning",
+      "LLMs",
+      "Retrieval-Augmented Generation",
+      "A/B Testing",
+      "Causal Inference",
+      "Agent Systems"
+    ],
+    "level": "mid",
+    "comp": "$123k-$185k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "96ee215c"
   }
 }

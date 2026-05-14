@@ -3800,5 +3800,35 @@
     "slug": "Skydropx",
     "name": "SkydropX",
     "summary": "SkydropX provides logistics and fulfillment services for e-commerce businesses, offering warehousing, order processing, and shipping solutions across Mexico and Latin America."
+  },
+  {
+    "slug": "brex",
+    "name": "Brex",
+    "summary": "Brex provides financial infrastructure and business banking services for startups and high-growth companies, offering corporate credit cards, business accounts, and software tools to manage cash flow and expenses."
+  },
+  {
+    "slug": "gusto",
+    "name": "Gusto",
+    "summary": "Gusto provides payroll, benefits, and HR management software for small and medium-sized businesses, handling employee payment processing, tax compliance, health insurance administration, and workforce management tools."
+  },
+  {
+    "slug": "toast",
+    "name": "Toast",
+    "summary": "Toast is a cloud-based point-of-sale and restaurant management platform that helps restaurants manage orders, payments, inventory, and staff scheduling. The company serves full-service restaurants, quick-service restaurants, and other food service establishments globally."
+  },
+  {
+    "slug": "spacex",
+    "name": "SpaceX",
+    "summary": "SpaceX designs and manufactures rockets and spacecraft for transporting cargo and people to orbit and beyond, including the Falcon 9 and Falcon Heavy launch vehicles, the Dragon spacecraft for cargo resupply and crew transport to the International Space Station, and the Starship vehicle intended for lunar and Mars missions. The company operates in the commercial spaceflight and aerospace industry, competing with traditional launch providers while also contracting with government agencies like NASA."
+  },
+  {
+    "slug": "plaid",
+    "name": "Plaid",
+    "summary": "Plaid builds financial infrastructure that connects applications to bank accounts and financial institutions, enabling developers to access transaction data, verify account information, and initiate payments through a single API. The company operates in the financial technology and open banking space, serving fintechs, traditional banks, and enterprises that need to integrate banking capabilities into their platforms."
+  },
+  {
+    "slug": "confluent",
+    "name": "Confluent",
+    "summary": "Confluent builds an event streaming platform that enables organizations to capture, store, and process continuous streams of data in real time. The company provides both cloud-managed and self-hosted solutions based on Apache Kafka, serving enterprises across financial services, e-commerce, healthcare, and other data-intensive industries."
   }
 ]
