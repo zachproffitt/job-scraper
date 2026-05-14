@@ -6303,5 +6303,183 @@
     "slug": "samsungresearchamerica",
     "website": "https://sra.samsung.com",
     "category": []
+  },
+  {
+    "name": "Brex",
+    "ats": "greenhouse",
+    "slug": "brex",
+    "website": "https://brex.com",
+    "category": []
+  },
+  {
+    "name": "Gusto",
+    "ats": "greenhouse",
+    "slug": "gusto",
+    "website": "https://gusto.com",
+    "category": []
+  },
+  {
+    "name": "Toast",
+    "ats": "greenhouse",
+    "slug": "toast",
+    "website": "https://toasttab.com",
+    "category": []
+  },
+  {
+    "name": "SpaceX",
+    "ats": "greenhouse",
+    "slug": "spacex",
+    "website": "https://spacex.com",
+    "category": []
+  },
+  {
+    "name": "Plaid",
+    "ats": "lever",
+    "slug": "plaid",
+    "website": "https://plaid.com",
+    "category": []
+  },
+  {
+    "name": "Confluent",
+    "ats": "ashby",
+    "slug": "confluent",
+    "website": "https://confluent.io",
+    "category": []
+  },
+  {
+    "name": "Apple",
+    "ats": "custom",
+    "slug": "",
+    "website": "https://apple.com",
+    "category": [],
+    "notes": "Custom in-house ATS (jobs.apple.com)"
+  },
+  {
+    "name": "Google",
+    "ats": "custom",
+    "slug": "",
+    "website": "https://google.com",
+    "category": [],
+    "notes": "Custom in-house ATS (careers.google.com)"
+  },
+  {
+    "name": "Meta",
+    "ats": "custom",
+    "slug": "",
+    "website": "https://meta.com",
+    "category": [],
+    "notes": "Custom in-house ATS (metacareers.com)"
+  },
+  {
+    "name": "Amazon",
+    "ats": "custom",
+    "slug": "",
+    "website": "https://amazon.com",
+    "category": [],
+    "notes": "Custom in-house ATS (amazon.jobs)"
+  },
+  {
+    "name": "Tesla",
+    "ats": "custom",
+    "slug": "",
+    "website": "https://tesla.com",
+    "category": [],
+    "notes": "Custom in-house ATS (tesla.com/careers)"
+  },
+  {
+    "name": "Salesforce",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://salesforce.com",
+    "category": [],
+    "notes": "Workday with CSRF protection \u2014 unauthenticated API blocked"
+  },
+  {
+    "name": "AMD",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://amd.com",
+    "category": [],
+    "notes": "Workday with CSRF protection \u2014 unauthenticated API blocked"
+  },
+  {
+    "name": "Cisco",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://cisco.com",
+    "category": [],
+    "notes": "Workday with CSRF protection \u2014 unauthenticated API blocked"
+  },
+  {
+    "name": "Uber",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://uber.com",
+    "category": [],
+    "notes": "Workday \u2014 board slug unknown, API blocked"
+  },
+  {
+    "name": "Shopify",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://shopify.com",
+    "category": [],
+    "notes": "Workday \u2014 board slug unknown, API blocked"
+  },
+  {
+    "name": "DoorDash",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://doordash.com",
+    "category": [],
+    "notes": "Workday \u2014 board slug unknown, API blocked"
+  },
+  {
+    "name": "Snap",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://snap.com",
+    "category": [],
+    "notes": "Workday \u2014 board slug unknown, API blocked"
+  },
+  {
+    "name": "Coinbase",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://coinbase.com",
+    "category": [],
+    "notes": "Greenhouse but SPA-rendered \u2014 board not accessible without JS"
+  },
+  {
+    "name": "Cruise",
+    "ats": "inactive",
+    "slug": "",
+    "website": "https://cruise.com",
+    "category": [],
+    "notes": "Company shut down AV operations late 2023"
+  },
+  {
+    "name": "Rippling",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://rippling.com",
+    "category": [],
+    "notes": "Uses own HR platform \u2014 app.rippling.com/hiring/rippling, board not publicly accessible"
+  },
+  {
+    "name": "HashiCorp",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://hashicorp.com",
+    "category": [],
+    "notes": "Acquired by IBM 2024 \u2014 ATS migrated, not detected"
+  },
+  {
+    "name": "Elastic",
+    "ats": "blocked",
+    "slug": "",
+    "website": "https://elastic.co",
+    "category": [],
+    "notes": "ATS not detected \u2014 careers page JS-rendered"
   }
 ]
