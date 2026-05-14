@@ -13,10 +13,13 @@ Usage:
 Supported VCs:
     Founders Fund   — WordPress REST API (company post type)
     Khosla Ventures — img alt + href pairs on portfolio page
+    Greylock        — WordPress REST API (/wp/v2/portfolio, 157 companies)
+    Sequoia         — WordPress REST API (/wp/v2/company, 406 companies)
 
-TODO (needs better name extraction — og:title returns marketing slogans):
-    Greylock, a16z, Sequoia, Bessemer, Lightspeed
-    Options: Playwright rendering, or Claude to clean up og:title strings.
+TODO (no public API available):
+    a16z       — JS-rendered, no WP API, no extractable data without Playwright
+    Bessemer   — WP API returns 401 (auth required)
+    Lightspeed — WP API accessible but no company post type registered
 """
 
 import re
@@ -109,9 +112,69 @@ def scrape_khosla(client: httpx.Client) -> list[tuple[str, str]]:
     return results
 
 
+def scrape_greylock(client: httpx.Client) -> list[tuple[str, str]]:
+    """Fetch via WordPress REST API (/wp/v2/portfolio). No external domains — slug used as guess."""
+    results = []
+    page = 1
+    total = None
+    while True:
+        r = client.get(
+            f"https://greylock.com/wp-json/wp/v2/portfolio?per_page=100&page={page}&_fields=title,slug",
+            timeout=15,
+        )
+        if r.status_code != 200:
+            break
+        data = r.json()
+        if not data:
+            break
+        if total is None:
+            total = int(r.headers.get("X-WP-Total", 0))
+        for c in data:
+            name = c.get("title", {}).get("rendered", "").strip()
+            slug = c.get("slug", "").strip()
+            if name and slug:
+                results.append((name, f"{slug}.com"))
+        page += 1
+        if len(results) >= (total or 999):
+            break
+    log(f"Greylock: {len(results)} companies")
+    return results
+
+
+def scrape_sequoia(client: httpx.Client) -> list[tuple[str, str]]:
+    """Fetch via WordPress REST API (/wp/v2/company). No external domains — slug used as guess."""
+    results = []
+    page = 1
+    total = None
+    while True:
+        r = client.get(
+            f"https://www.sequoiacap.com/wp-json/wp/v2/company?per_page=100&page={page}&_fields=title,slug",
+            timeout=15,
+        )
+        if r.status_code != 200:
+            break
+        data = r.json()
+        if not data:
+            break
+        if total is None:
+            total = int(r.headers.get("X-WP-Total", 0))
+        for c in data:
+            name = c.get("title", {}).get("rendered", "").strip()
+            slug = c.get("slug", "").strip()
+            if name and slug:
+                results.append((name, f"{slug}.com"))
+        page += 1
+        if len(results) >= (total or 999):
+            break
+    log(f"Sequoia: {len(results)} companies")
+    return results
+
+
 VC_SCRAPERS = [
     ("Founders Fund", scrape_founders_fund),
     ("Khosla Ventures", scrape_khosla),
+    ("Greylock", scrape_greylock),
+    ("Sequoia", scrape_sequoia),
 ]
 
 

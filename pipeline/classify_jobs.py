@@ -114,8 +114,8 @@ For each job posting provided, extract the following fields. Use judgment — if
    Respond with exactly one of: yes / no
 
 6. HYBRID: Does this role require some in-office days while also allowing some remote work?
-   yes = explicitly mentions hybrid, flexible schedule, or "X days in office per week/month"
-   no = fully remote, fully on-site, or not mentioned
+   yes = the description requires in-office days alongside remote work — "X days in office per week/month", "hybrid", or equivalent phrasing. Description content takes priority over location labels: if the description requires in-office time, mark yes even if the posting or title says "Remote".
+   no = fully remote (no in-office requirement stated in the description), fully on-site, or work arrangement not mentioned
    Respond with exactly one of: yes / no
 
 7. COMP: Base salary range stated in the posting.
