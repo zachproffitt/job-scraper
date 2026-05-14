@@ -24814,34 +24814,34 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build software on Palantir's data-driven decision platforms, delivering real customer outcomes in AI-powered solutions and critical infrastructure across government and enterprise. You'll work at the same standard as full engineers on problems spanning supply chain forecasting, healthcare, and national security.",
+    "job_summary": "Build software solutions on Palantir's data platforms, working on real customer problems including AI-powered deployments and organizational transformation. Work held to the same standards as full engineers with direct impact on critical industries.",
     "skills": [],
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "07e700d5"
+    "source_hash": "08e0cf51"
   },
   "lever-palantir-e6789b17-62fb-4226-a079-f8c17ff19e2d": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and deploy AI-powered software solutions for Palantir's commercial customers, working on real-world problems in data-driven operations and decision-making. You'll be held to full engineer performance standards and gain direct exposure to critical industries while working on the company's core platforms.",
+    "job_summary": "Build software and deliver customer outcomes by helping clients deploy AI-powered solutions and transforming how organizations operate with Palantir's data platforms. You'll work on critical problems across diverse industries with real deployment responsibility.",
     "skills": [],
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "36bed023"
+    "source_hash": "f5a1a9fd"
   },
   "lever-palantir-5c4c65c5-77da-4d36-856c-4ade87631019": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and deploy AI-powered software solutions for U.S. government customers, helping them integrate Palantir's data platforms to make faster operational decisions. Work on critical government use cases including supply chain forecasting, search and rescue, and drug development.",
+    "job_summary": "Build software and deploy AI-powered solutions for government customers, helping organizations unlock critical data insights and operational outcomes. Work on real problems at scale within defense and national security institutions.",
     "skills": [],
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "725a0a2f"
+    "source_hash": "9b764a3b"
   },
   "lever-palantir-7b269a3a-77c7-4060-9171-4fb655dfc676": {
     "is_engineering": true,
@@ -24881,12 +24881,12 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build software solutions deployed at U.S. government agencies, helping customers operationalize AI-powered data systems and transform organizational decision-making. Work on critical infrastructure at scale with direct customer impact and merit-based career progression.",
+    "job_summary": "Build and deploy AI-powered software solutions for U.S. Government customers, helping critical institutions transform data-driven operations. Work on real production systems at scale with direct customer impact and access to classified environments.",
     "skills": [],
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6e84a594"
+    "source_hash": "2a27d3c0"
   },
   "lever-deepgenomics-d519265d-30c2-4194-92b0-d7194c4ca0a6": {
     "is_engineering": false,
@@ -25007,9 +25007,9 @@
     "job_summary": null,
     "skills": [],
     "level": null,
-    "comp": "$80,000-$85,000",
+    "comp": "$55-$70/hour",
     "comp_extras": [],
-    "source_hash": "194cd804"
+    "source_hash": "8a088ea2"
   },
   "greenhouse-natera-5995921004": {
     "is_engineering": false,
@@ -25176,5 +25176,1016 @@
       "equity"
     ],
     "source_hash": "96ee215c"
+  },
+  "greenhouse-airbnb-7912589": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead a high-performing engineering team building trust and safety systems that protect Airbnb's global platform of millions of hosts and guests. Drive technical strategy for critical systems that detect fraud, ensure security, and maintain community integrity at scale.",
+    "skills": [
+      "Java",
+      "Python",
+      "Go",
+      "AI/ML Systems",
+      "Machine Learning",
+      "Distributed Systems",
+      "Security Systems"
+    ],
+    "level": "manager",
+    "comp": "\u20b96,600,000\u2014\u20b99,400,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7048480e"
+  },
+  "greenhouse-anthropic-5219486008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build production-grade safeguards infrastructure that hardens research prototypes into reliable systems protecting Claude and its users. Own deployment, monitoring, and reliability for safety systems operating in real-time, and develop data and evaluation infrastructure to measure safeguard effectiveness at scale.",
+    "skills": [
+      "Python",
+      "Large Language Models",
+      "Production Systems",
+      "Data Pipelines",
+      "Machine Learning Deployment",
+      "Trust and Safety",
+      "Monitoring and Observability",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "$405,000\u2013$485,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "05f79823"
+  },
+  "greenhouse-axiom-8550626002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$130k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9738d799"
+  },
+  "greenhouse-axiom-8550621002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$130k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "73d27ac4"
+  },
+  "ashby-cohere-d986c304-fa10-4c1a-9afe-f75af7b4dd67": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a9e5614b"
+  },
+  "greenhouse-rocketlab-7734865003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$65,000\u2013$84,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "577efcf6"
+  },
+  "greenhouse-axiom-8550624002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$130k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "5939b478"
+  },
+  "ashby-cohere-6aa3cb2b-ee8b-4c92-b505-3a7509f80d7f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain petabyte-scale storage infrastructure supporting frontier AI model training and evaluation workloads. Work on distributed data pipelines that transform unstructured data across S3, GCS, and POSIX backends at the cutting edge of what's technically possible.",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Apache Spark",
+      "Apache Beam",
+      "S3",
+      "GCS",
+      "Distributed Systems",
+      "BigQuery"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f19fcfd8"
+  },
+  "greenhouse-kairospower-5540310004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7b45cfc9"
+  },
+  "greenhouse-axiom-8550627002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$74k-$130k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c22a1dd1"
+  },
+  "ashby-openai-fada5332-3ae3-46f2-afa2-10c5878bdd25": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "19018725"
+  },
+  "ashby-openai-c3458423-2cd6-40c0-bb5d-a5c3726a1d08": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$226k-$285k",
+    "comp_extras": [],
+    "source_hash": "8c2bce50"
+  },
+  "ashby-openai-b8e04f48-df50-45b2-ad98-ff3e3b99bff5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d835b354"
+  },
+  "ashby-openai-063d1957-23f0-4976-b8bd-93a0d4a31cfb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a296de9a"
+  },
+  "ashby-openai-bbee5a3c-d856-4086-9445-5fed1a68148a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$239k-$265k",
+    "comp_extras": [],
+    "source_hash": "7d9ab9d4"
+  },
+  "greenhouse-andurilindustries-5138191007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cc0086a7"
+  },
+  "greenhouse-andurilindustries-5123338007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3320ad2d"
+  },
+  "lever-cfsenergy-fd73ad96-4aaa-4254-9906-e3a402535f14": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "55fe937d"
+  },
+  "greenhouse-roblox-7185278": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build and own the ML Platform that powers hundreds of use cases and billions of inferences per day\u2014designing APIs, SDKs, CLIs, and serving infrastructure that let ML teams train, evaluate, deploy, and operate models in weeks. Optimize for developer experience, scale, reliability, and cost across training and inference workloads serving Discovery, Safety, Economy, and Creation use cases.",
+    "skills": [
+      "gRPC",
+      "REST APIs",
+      "Model Serving",
+      "ML model lifecycle",
+      "GPU resource management",
+      "Python",
+      "Kubernetes",
+      "Infrastructure-as-Code"
+    ],
+    "level": "principal",
+    "comp": "$277170-$343340",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "72eb1d82"
+  },
+  "greenhouse-andurilindustries-5136528007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, train, and deploy reinforcement learning policies for legged robotic platforms using GPU-parallelized simulation, from Isaac Gym training through real-world deployment on physical systems. Work in defense robotics with direct impact on Department of Defense and Intelligence Community capabilities operating in contested, unstructured environments.",
+    "skills": [
+      "Reinforcement Learning",
+      "PyTorch",
+      "Python",
+      "Isaac Gym",
+      "Physics Simulation",
+      "PPO",
+      "SAC",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$220k-$336k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "51a67e0c"
+  },
+  "greenhouse-archer56-7728465003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$100k-$137.5k",
+    "comp_extras": [],
+    "source_hash": "a6bec5a1"
+  },
+  "greenhouse-gitlab-8535048002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$150,000\u2014$235,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5141ae3e"
+  },
+  "greenhouse-lightmatter-5208196008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$166k-$262k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "aa912e4f"
+  },
+  "greenhouse-tailscale-4695053005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$250,000-$275,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "06161644"
+  },
+  "greenhouse-slingshotaerospace-5996552004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "141de80b"
+  },
+  "ashby-rula-01f1a2b8-dcae-4a8b-bd37-fe09cea3bdf9": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and integrate marketing technology stacks (CDPs, marketing automation platforms, analytics tools) to drive growth across patient, provider, and partner segments. Lead technical initiatives in a fast-paced martech environment while mentoring peers and shaping an AI-forward engineering culture.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Kafka",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a60b7d9f"
+  },
+  "greenhouse-neuralink-7483748003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design computational models and machine vision algorithms for brain-computer interfaces, optimizing electrical stimulation parameters and sensory neural encoding. Work on next-generation bidirectional neural interfaces with real in-vivo electrophysiology and closed-loop BCI experiments.",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Neural Stimulation",
+      "NEURON",
+      "Finite Element Modeling",
+      "In-vivo Electrophysiology",
+      "Machine Vision"
+    ],
+    "level": "intern",
+    "comp": "$35/hr",
+    "comp_extras": [],
+    "source_hash": "41134f4b"
+  },
+  "greenhouse-tailscale-4695254005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$160,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3360481f"
+  },
+  "greenhouse-grafanalabs-5996452004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$204k-$254k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e8b0cb61"
+  },
+  "lever-palantir-1ef0cb77-03a2-4b60-b61d-ace924ef06e7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "14b7ec81"
+  },
+  "lever-palantir-1a581b97-ce5b-4b4c-84b0-dd54cf8cfe14": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7b18c489"
+  },
+  "lever-palantir-9804d4d1-bd2f-42d5-ae3e-3e3e51aa3830": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2f5cf67f"
+  },
+  "greenhouse-tailscale-4695251005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$214,400 CAD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d0123e26"
+  },
+  "lever-palantir-e0857612-4181-4f8e-8421-2609e7951b7b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2ff7fe49"
+  },
+  "lever-palantir-3e53ec44-d8f3-4b0b-b77f-c481e9cd06fd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c8aeb5fd"
+  },
+  "ashby-Coder-e22c9328-dad2-4999-8f1f-01b7ab0c4447": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fc6b57ad"
+  },
+  "greenhouse-tailscale-4695034005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$335,000\u2014$368,500 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8142557e"
+  },
+  "greenhouse-natera-5995908004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "159e695b"
+  },
+  "lever-grailbio-23b5a949-c951-4071-99c6-625ee3092c9e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3c55c761"
+  },
+  "greenhouse-vectranetworks-7925997": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$90,600\u2014$122,600",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "04110767"
+  },
+  "ashby-ramp-16fb536d-fe10-4ea7-8956-d6d0cbddd6f5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f5431307"
+  },
+  "ashby-anyscale-73a973b1-6377-4144-a6e5-610b78719882": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and optimize the Ray C++ distributed computing backend, including the scheduler, runtime, memory subsystems, and fault tolerance infrastructure. Work on high-performance distributed systems at scale, mentoring junior engineers and leading architectural improvements for a system powering AI applications at companies like OpenAI and Spotify.",
+    "skills": [
+      "C++",
+      "Distributed Systems",
+      "GPU Programming",
+      "Ray",
+      "Fault Tolerance",
+      "Tensor Parallelism",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ccb7cf3"
+  },
+  "ashby-blissway-d6fc4670-63e6-47f7-aceb-99993557ecef": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fdbe22f4"
+  },
+  "ashby-9-mothers-87342437-0377-4256-93a8-05e29795fd54": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own the high-speed imaging capability end-to-end for counter-drone and firearms systems, designing test setups and extracting quantitative kinematic data that directly informs mechanical engineering decisions. Work in an active test environment with live fire, requiring comfort around firearms and field testing in central Texas conditions.",
+    "skills": [
+      "Photron Fastcam",
+      "Phantom cameras",
+      "PFA",
+      "ProAnalyst",
+      "Motion analysis software",
+      "Data acquisition systems",
+      "Trigger circuit design",
+      "Ballistics testing"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8378d674"
+  },
+  "ashby-finni-health-4b4aa60d-a4d1-4f47-8068-996120c02930": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$20-$25/hour",
+    "comp_extras": [],
+    "source_hash": "e9912de9"
+  },
+  "ashby-finni-health-4177bb2a-2ef8-4ed7-8288-48f17d12594f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$23.00-$27.00 per hour",
+    "comp_extras": [],
+    "source_hash": "57e203d1"
+  },
+  "ashby-blaxel-4acea42a-589d-42b1-949e-d4ec4b8907a2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Deploy and debug Blaxel's serverless AI agent infrastructure in customer production environments, working across their architecture, APIs, and deployment pipelines. You'll own customer success from technical discovery through implementation, translating real-world constraints into working systems while feeding product learnings back to the platform team.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "Kubernetes",
+      "AWS",
+      "Docker",
+      "Go",
+      "Rust",
+      "CI/CD"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6cddfd27"
+  },
+  "ashby-gecko-robotics-f1dc5c24-f814-40bf-af02-f5c460ea97f3": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and extend a server-side rendering application that streams GB-scale 3D models to a React frontend, powering critical infrastructure visualization within Cantilever. Work across backend APIs, frontend applications, and system architecture to deliver scalable solutions for complex 3D workflows in real-world deployment environments where performance and reliability are critical.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Python",
+      "GCP",
+      "Unreal Engine",
+      "Backend APIs",
+      "3D Graphics/Visualization",
+      "Real-time Streaming"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "db969df0"
+  },
+  "ashby-latent-49828d69-881c-4431-be8b-bcd7455aa069": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "00e25982"
+  },
+  "ashby-blissway-075a528d-b831-4917-b55e-8579142d1e8c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fc3f2a2d"
+  },
+  "workable-hokali-D4319D3367": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "66cab3c0"
+  },
+  "ashby-Vetcove-27974b9b-dd28-431a-b649-f72f47161fcd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$120k-$210k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "8ca9bb8c"
+  },
+  "greenhouse-mongodb-7926859": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$108,160",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "13659d9e"
+  },
+  "greenhouse-databricks-8460873002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d399f2e8"
+  },
+  "greenhouse-pinterest-7678705": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$120,321-$247,718",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7b85a0d5"
+  },
+  "greenhouse-okta-7926592": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$155k-$213.4k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bd7b8e87"
+  },
+  "greenhouse-cloudflare-7921646": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$244,000-$336,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8965c678"
+  },
+  "greenhouse-instacart-7927222": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$174,000\u2014$219,500 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1c13321e"
+  },
+  "greenhouse-instacart-7927224": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "CAN$176,000-CAN$185,500",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fb22f284"
+  },
+  "greenhouse-brex-8550358002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$85,880 - $107,350",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "407a514f"
+  },
+  "greenhouse-brex-8550462002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$85,880-$107,350",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "24686bc9"
+  },
+  "greenhouse-brex-8550468002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$76k-$95k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cab96ab1"
+  },
+  "greenhouse-gusto-7927184": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "513300bb"
+  },
+  "greenhouse-toast-7926993": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$160k-$249k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "548043ca"
+  },
+  "greenhouse-gusto-7927179": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "102625b0"
+  },
+  "greenhouse-spacex-8550748002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c75cacc8"
+  },
+  "greenhouse-toast-7927002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0a1868ab"
+  },
+  "greenhouse-spacex-8550471002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$27.00-$45.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d03f4eb8"
+  },
+  "greenhouse-spacex-8395321002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "55e61968"
+  },
+  "greenhouse-toast-7926997": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4adadf6a"
+  },
+  "greenhouse-spacex-8194455002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c50d6021"
+  },
+  "greenhouse-okta-7926636": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$123k-$169.4k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0a5dc9b6"
+  },
+  "greenhouse-spacex-8545923002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$125k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "159d12a3"
+  },
+  "greenhouse-spacex-8548271002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$30.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3c3b0a4e"
+  },
+  "ashby-Coder-d1910459-7922-45a0-bb39-2a9ed1eed71d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e9c3b911"
   }
 }
