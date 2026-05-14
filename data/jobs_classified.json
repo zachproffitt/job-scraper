@@ -21224,7 +21224,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cc77cfac"
+    "source_hash": "611c851b"
   },
   "greenhouse-ursamajor-4695187005": {
     "is_engineering": false,
@@ -23993,5 +23993,202 @@
       "equity"
     ],
     "source_hash": "358dc890"
+  },
+  "ashby-openai-81f4b924-3456-4e4d-85c0-d02c2f974297": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$162k-$180k",
+    "comp_extras": [],
+    "source_hash": "02b1cd89"
+  },
+  "greenhouse-andurilindustries-4588656007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop flight control algorithms, guidance laws, and navigation solutions for autonomous drone platforms. Design and validate GNC software through simulation and flight testing in defense applications requiring security clearance and on-site presence in Costa Mesa.",
+    "skills": [
+      "MATLAB",
+      "Simulink",
+      "C/C++",
+      "Kalman Filtering",
+      "Control Systems",
+      "State Estimation",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$168k-$252k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1981f6e1"
+  },
+  "greenhouse-andurilindustries-5136834007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and scale simulation environments (Isaac Gym, Isaac Lab, MuJoCo) for RL/IL training, including physics fidelity, domain randomization, and deployment pipelines. Own the telemetry, safety systems, and real-world diagnostics that connect sim to field operations on autonomous robotic systems for defense applications.",
+    "skills": [
+      "Python",
+      "C++",
+      "Isaac Gym",
+      "Isaac Lab",
+      "MuJoCo",
+      "URDF/MJCF",
+      "ROS2",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b6b14555"
+  },
+  "greenhouse-andurilindustries-4632178007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop flight control algorithms, guidance laws, and navigation solutions for autonomous drone platforms. Design and validate Software-In-The-Loop and Hardware-In-The-Loop test environments for airborne systems operating in GPS and communication-denied environments; requires Secret security clearance.",
+    "skills": [
+      "MATLAB",
+      "Simulink",
+      "C/C++",
+      "Kalman Filtering",
+      "Control Systems",
+      "State Estimation",
+      "Embedded Systems",
+      "TS/SCI Clearance"
+    ],
+    "level": "mid",
+    "comp": "$138k-$207k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "499a562e"
+  },
+  "greenhouse-astranis-4681688006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$125k USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "affe7296"
+  },
+  "greenhouse-andurilindustries-5136832007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, train, and deploy learned manipulation policies for robotic systems using imitation learning and behavior cloning, owning the full pipeline from teleoperation data collection through real-world evaluation on hardware. Work on defense robotics at scale with access to cutting-edge hardware and national security impact requiring security clearance.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Imitation Learning",
+      "Behavior Cloning",
+      "Robot Manipulation",
+      "Visuomotor Control",
+      "Teleoperation Systems",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e7f8d373"
+  },
+  "greenhouse-rockstargames-7734679003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build high-volume, highly scalable server-side online services for Rockstar Games franchises, including matchmaking, cloud saves, leaderboards, and player inventory systems. Work with distributed systems at scale serving millions of concurrent players across console and PC platforms.",
+    "skills": [
+      "C#",
+      ".NET",
+      "SQL Server",
+      "C++",
+      "API design",
+      "Distributed Systems",
+      "Windows Server",
+      "Perforce"
+    ],
+    "level": "senior",
+    "comp": "$101,100\u2013$134,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7764fb4e"
+  },
+  "greenhouse-rockstargames-7711702003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Develop high-volume, highly scalable server-side online services for game franchises including matchmaking, cloud saves, leaderboards, and player inventory systems. Build distributed systems serving millions of concurrent players across console and external clients with expertise in Windows Server, SQL Server, and .NET infrastructure.",
+    "skills": [
+      "C#",
+      "C++",
+      ".NET",
+      "SQL Server",
+      "API Design",
+      "Distributed Systems",
+      "Perforce",
+      "Xbox Live"
+    ],
+    "level": "mid",
+    "comp": "$101,100-$134,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "f49b03de"
+  },
+  "ashby-suno-d3c20b29-3ec9-49a7-b4b1-743d27bd9255": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "02cd9a59"
+  },
+  "greenhouse-natera-5849849004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7d61e5a7"
+  },
+  "greenhouse-grafanalabs-5995149004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u00a372k-\u00a390k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f941f5c2"
   }
 }
