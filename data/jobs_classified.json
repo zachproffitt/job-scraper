@@ -26614,7 +26614,7 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d695a7c1"
+    "source_hash": "4658d4e1"
   },
   "greenhouse-usenourish-5221426008": {
     "is_engineering": false,
@@ -26854,5 +26854,311 @@
       "bonus"
     ],
     "source_hash": "a633a6a4"
+  },
+  "greenhouse-roblox-7923268": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build character animation systems and tools for the Roblox game engine, helping developers create engaging experiences at scale. You'll analyze existing animation tech, author documentation, and implement innovative features while optimizing for performance across mobile and desktop platforms.",
+    "skills": [
+      "C++",
+      "Lua",
+      "Game Engine Architecture",
+      "3D Math",
+      "Animation Systems",
+      "Mobile Performance Optimization"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "30d3b71e"
+  },
+  "ashby-rula-e5500bc1-5dd1-4a93-8571-20f77f0f66ad": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own the AI foundation for generative AI across mental healthcare, architecting production-grade systems (RAG, agentic loops) that power patient engagement and provider workflows at scale. Design durable, compliant solutions in a regulated healthcare environment with real-world clinical constraints.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "GCP",
+      "RAG",
+      "LangChain",
+      "LlamaIndex",
+      "MLOps"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a35cef06"
+  },
+  "greenhouse-andurilindustries-5138391007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Architect and implement distributed systems for manufacturing execution\u2014work order management, scheduling, material flow, and capacity planning\u2014that transform Anduril's factories into adaptive, software-defined production networks. You'll bridge manufacturing operations and platform infrastructure at scale, ensuring production requirements shape broader technical decisions in a defense technology environment with export-controlled systems.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "AWS",
+      "Manufacturing Execution Systems",
+      "Distributed Systems Architecture",
+      "Remix",
+      "TS/SCI Clearance",
+      "Enterprise Resource Planning"
+    ],
+    "level": "staff",
+    "comp": "$220,000\u2014$292,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3ec15dce"
+  },
+  "greenhouse-stripe-7926728": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50b136c9"
+  },
+  "ashby-benchling-44878b38-eead-4cde-bc3e-040c1814a592": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f1652e75"
+  },
+  "greenhouse-altoslabs-5991207004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$109,200-$140,000",
+    "comp_extras": [],
+    "source_hash": "566339cb"
+  },
+  "ashby-brettonai-eecf782b-8897-4e5d-8cd1-883b6bb5073d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and own the design system in code, creating production-grade React components and patterns that compliance analysts depend on for hours at a time. Design interfaces that make AI agent behavior legible and auditable in financial services, where trust is non-negotiable.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "CSS",
+      "Figma",
+      "Claude Code",
+      "Cursor",
+      "Accessibility",
+      "PostHog"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a39f8455"
+  },
+  "greenhouse-natera-5992119004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9696911b"
+  },
+  "ashby-Mapbox-497f955d-b325-44cd-bc25-001169d78fbf": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain high-traffic distributed APIs and ETL pipelines that serve billions of map requests daily to millions of developers globally. Lead architectural decisions for geospatial data processing at scale while mentoring engineers and balancing rapid feature development with operational reliability.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "AWS",
+      "PostgreSQL",
+      "Kubernetes",
+      "Geospatial Data",
+      "Distributed Systems",
+      "Microservices"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8927c23a"
+  },
+  "ashby-latent-a3328583-c451-4540-8d19-a686ebfb96eb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f023fad8"
+  },
+  "ashby-latent-e1ee3c3b-cd90-4493-9c3b-62f3caf200e7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e7c7851d"
+  },
+  "greenhouse-recidiviz-4657637006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$97,000",
+    "comp_extras": [],
+    "source_hash": "e32f2b36"
+  },
+  "greenhouse-gusto-7927447": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f735c0c4"
+  },
+  "greenhouse-spacex-8543670002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build security infrastructure for Starlink's satellite constellation, routers, and gateways, including cryptographic services, secure boot, and network security across factory processes and production systems. Work on inter-planetary scale systems requiring cryptographic primitives, operating system security, and adversary detection at different levels of abstraction.",
+    "skills": [
+      "Python",
+      "C++",
+      "Golang",
+      "Applied Cryptography",
+      "Operating System Security",
+      "Network Security",
+      "TPM",
+      "HSM"
+    ],
+    "level": "mid",
+    "comp": "$130k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1b1db9a1"
+  },
+  "greenhouse-robinhood-7760310": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$73k-$110k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "191813bb"
+  },
+  "greenhouse-spacex-8543671002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build security infrastructure for Starlink's satellite internet system, including cryptographic services, secure boot, and security features for routers, dishes, gateways, and satellites. Work across a complex, mission-critical system serving millions of users globally with high reliability and adversarial threat modeling requirements.",
+    "skills": [
+      "Python",
+      "C++",
+      "Go",
+      "Applied Cryptography",
+      "Network Security",
+      "Operating System Security",
+      "TPM",
+      "HSM"
+    ],
+    "level": "mid",
+    "comp": "$130k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "66992d8f"
+  },
+  "greenhouse-spacex-8548791002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8fd08f38"
+  },
+  "ashby-vapi-94e93b56-c7ac-4765-9ffb-aefcbe0bb795": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and own end-to-end testing infrastructure for a production voice AI platform handling 1M+ calls daily. Test complex distributed systems (LLMs, STT, TTS, telephony integrations) and define QA practices for a non-deterministic product at scale.",
+    "skills": [
+      "Playwright",
+      "TypeScript",
+      "JavaScript",
+      "Distributed Systems Testing",
+      "AI Coding Agents",
+      "Conversational AI",
+      "LLM Evals",
+      "Voice AI"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4509bef6"
+  },
+  "greenhouse-spacex-8543668002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build security infrastructure for Starlink's satellite constellation, routers, dishes, and gateways, including cryptographic services and secure boot systems. Work on internet-scale systems with ITAR compliance requirements and the mission to provide secure internet to underserved communities globally.",
+    "skills": [
+      "Python",
+      "C++",
+      "Go",
+      "Applied Cryptography",
+      "Operating System Security",
+      "Network Security",
+      "TPM",
+      "HSM"
+    ],
+    "level": "mid",
+    "comp": "$130k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5b162996"
   }
 }
