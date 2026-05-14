@@ -22206,7 +22206,7 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f6be0cfb"
+    "source_hash": "cf048834"
   },
   "greenhouse-scopely-5128789008": {
     "is_engineering": false,
@@ -23434,5 +23434,564 @@
       "equity"
     ],
     "source_hash": "1bc8aeb5"
+  },
+  "ashby-openai-da9700e0-060e-44a3-9a0a-57e723e877ce": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f8ec0627"
+  },
+  "greenhouse-planetlabs-7822385": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$162,600\u2014$203,200",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8d366bb0"
+  },
+  "greenhouse-trueanomalyinc-5137655007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build rapid prototypes and automated workflows that transform business questions into working applications, integrating corporate APIs, databases, and data sources for executive decision-making. Work in space technology domain subject to ITAR export controls requiring U.S. citizenship or equivalent authorization.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Go",
+      "REST APIs",
+      "SQL",
+      "NoSQL",
+      "ETL/Data Pipelines",
+      "AI-assisted Development Tools"
+    ],
+    "level": "junior",
+    "comp": "$70k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "abb9bfbd"
+  },
+  "greenhouse-airbnb-7094964": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and extend Airbnb's semantic layer and data transformation platform that serves 4,000+ internal data producers and consumers. Work on query rewriting services, data abstraction layers, and infrastructure that democratizes access to high-quality data models and metrics across the company.",
+    "skills": [
+      "Data warehouse technologies",
+      "DSL/API design",
+      "Query rewriting",
+      "Semantic layers",
+      "Python",
+      "SQL",
+      "Distributed systems",
+      "OOP"
+    ],
+    "level": "senior",
+    "comp": "$196,000\u2013$230,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "22594846"
+  },
+  "greenhouse-rocketlab-7733889003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$20-$30 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4073d737"
+  },
+  "greenhouse-nuro-7902399": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$87k-$118k",
+    "comp_extras": [],
+    "source_hash": "edadf29f"
+  },
+  "ashby-openai-2796d32a-9f7c-4008-a2c5-50dd53b0f2fe": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build data pipelines and canonical datasets powering OpenAI's experimentation platform, data warehouse, and product analytics at massive scale. Work with infrastructure, research, and product teams to enable trustworthy, statistically rigorous experimentation across frontier AI products.",
+    "skills": [
+      "Python",
+      "Spark",
+      "Airflow",
+      "Distributed Systems",
+      "ETL",
+      "AWS (S3)",
+      "Scala",
+      "Java"
+    ],
+    "level": "senior",
+    "comp": "$293k-$325k",
+    "comp_extras": [],
+    "source_hash": "9b692d59"
+  },
+  "lever-palantir-9cd66de4-610b-4254-9027-3cb55aae1efa": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "69d3b4dd"
+  },
+  "greenhouse-ginkgobioworks-5137770007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and operate high-throughput screening workflows for small-molecule and functional genomics assays, including HTS workcells, Drug-Seq, and imaging/viability platforms. Lead a technical team across multiple concurrent programs while driving operational excellence, assay optimization, and automation improvements on internal robotic systems.",
+    "skills": [
+      "High-Throughput Screening",
+      "Drug-Seq",
+      "NGS",
+      "CRISPR",
+      "Experimental Design",
+      "LIMS",
+      "Automation",
+      "Statistical Analysis"
+    ],
+    "level": "senior",
+    "comp": "$160k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fa96d357"
+  },
+  "greenhouse-scopely-5215599008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain core client systems for a large-scale 4X Strategy MMO in Unity, including asset loading, UI frameworks, performance monitoring, and platform integration across mobile and PC. Work on systems at massive scale supporting millions of daily players, with focus on performance optimization, memory management, and cross-platform stability.",
+    "skills": [
+      "Unity",
+      "C#",
+      "iOS",
+      "Android",
+      "Git",
+      "Jenkins",
+      "AssetBundles",
+      "Memory Management"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "66a21568"
+  },
+  "greenhouse-singlestore-7868658": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and implement core distributed systems for SingleStore's cloud-native database platform, with focus on billing systems, control plane, and managed service infrastructure. Lead large release-defining projects in a system-level role requiring deep expertise in distributed systems and production reliability at scale.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "Distributed Systems",
+      "Cloud-Native Architecture",
+      "React",
+      "Billing Systems",
+      "PostgreSQL or similar database internals"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e141f5c0"
+  },
+  "greenhouse-andurilindustries-5137882007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$126,000\u2014$167,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ecd54a56"
+  },
+  "ashby-cursor-413e0e15-4b48-4c9c-be9d-85dc46ff60c2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7690283f"
+  },
+  "greenhouse-harnessinc-5137903007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "44c40684"
+  },
+  "greenhouse-marqeta-7891942": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain highly available distributed database infrastructure powering Marqeta's card issuing platform, which processes over 5 billion transactions annually across multiple regions globally. Automate AWS Aurora lifecycle management, design disaster recovery solutions, and drive database architecture evolution including partitioning and sharding strategies.",
+    "skills": [
+      "AWS Aurora",
+      "Python",
+      "Terraform",
+      "PostgreSQL",
+      "MySQL",
+      "DynamoDB",
+      "Datadog",
+      "Linux"
+    ],
+    "level": "senior",
+    "comp": "$144,100-$180,100",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "ebe6467b"
+  },
+  "ashby-socket-de959cdb-2441-4ce9-a31a-4cc4e50fb8fe": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4a37c1c5"
+  },
+  "ashby-Viz.ai-2da02f7b-68e2-43c4-b3de-353cf417f498": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "37d0cbec"
+  },
+  "ashby-frontcareers-d5f70af1-b622-4007-9f43-cf0c94b17cd0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0ae36749"
+  },
+  "ashby-frontcareers-78a96972-ba8e-4b95-9de1-bfe34ecc6c7d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0bb656d3"
+  },
+  "ashby-mystenlabs-c5f1f701-0cee-46f1-8eaa-59952a71a42f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain custody systems, key management infrastructure, and anti-scam tooling for the Sui blockchain. Harden signing paths, conduct security reviews of cryptographic and access control systems, and investigate security incidents in a high-stakes production environment.",
+    "skills": [
+      "Rust",
+      "TypeScript",
+      "Python",
+      "Move",
+      "Key Management Systems",
+      "Cryptography",
+      "HSM"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "443f5548"
+  },
+  "ashby-frontcareers-4698b50d-0046-48cc-8700-81d9430c9594": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1f0ae8e1"
+  },
+  "ashby-ironcladhq-5167f356-ad30-49e9-8353-3ca12227aad6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$165k-$200k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "23926333"
+  },
+  "ashby-benchling-61b20c5a-5c3d-4388-a19d-13a89886e73f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cc26ba0c"
+  },
+  "ashby-cosine-1c4aef01-61ee-40ba-b919-f77a244b3847": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build IDE extensions and web applications that expose Cosine's autonomous AI coding models through intuitive developer interfaces and workflows. Work at the intersection of product, platform, and research to translate emerging model capabilities into production-grade developer tools, with emphasis on performance, reliability, and rapid iteration.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Python",
+      "Docker",
+      "REST APIs",
+      "Git",
+      "Grafana"
+    ],
+    "level": "senior",
+    "comp": "\u00a370k-\u00a390k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "959ee593"
+  },
+  "ashby-finni-health-adb381ff-0626-444f-9fa5-d95c2a96c68b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$21-$23/hour",
+    "comp_extras": [],
+    "source_hash": "143ec85a"
+  },
+  "ashby-infisical-b9bf8d09-878b-488d-990f-f177b7417270": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1879cdb2"
+  },
+  "ashby-permitflow-ee9b7949-80a8-434d-8567-a1e7afe65422": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5d1b29be"
+  },
+  "ashby-finni-health-b6f1e887-7a50-4eeb-a35b-b8d25733ba5f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25/hour",
+    "comp_extras": [],
+    "source_hash": "0efc18f4"
+  },
+  "greenhouse-vectranetworks-6889453": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design, deploy, and maintain demo and sandbox environments across on-premises and cloud infrastructure that support internal testing, partner enablement, and customer demonstrations. Manage Linux, Windows, and VMware systems alongside AWS and Azure resources while building automation for environment lifecycle management.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Ansible",
+      "AWS",
+      "Azure",
+      "Linux",
+      "CI/CD",
+      "Git"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "40f4a46c"
+  },
+  "ashby-retell-ai-42680778-ec20-4fb0-9057-3b1f35128a64": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain Retell's design system including component library, Storybook, and design tokens, translating Figma designs into production-grade React components with pixel-level accuracy. Work AI-first using Cursor and Claude Code, own design-code parity across the dashboard and core product surfaces, and collaborate with product designers and engineers to raise visual quality at a fast-growing voice AI startup.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Figma",
+      "CSS",
+      "HTML",
+      "Storybook",
+      "Design Systems",
+      "Cursor"
+    ],
+    "level": "senior",
+    "comp": "$180k-$300k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d2b643d8"
+  },
+  "greenhouse-databricks-8536432002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "65f75964"
+  },
+  "greenhouse-block-5175717008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$142,600-$236,200",
+    "comp_extras": [],
+    "source_hash": "9decdb26"
+  },
+  "greenhouse-block-4963850008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$139k-$225k",
+    "comp_extras": [],
+    "source_hash": "5e2a4a1a"
+  },
+  "greenhouse-twilio-7921401": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$41.08k-$51.35k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "1eeea947"
+  },
+  "greenhouse-twilio-7923207": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$96,640-$142,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d0e9b2b5"
+  },
+  "lever-spotify-c8f25dff-59b1-4c55-9735-0a77643c121a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c1aea34e"
+  },
+  "greenhouse-instacart-7871823": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$192,000\u2014$243,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c56f9bfd"
+  },
+  "greenhouse-observeai-5220815008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "358dc890"
   }
 }
