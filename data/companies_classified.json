@@ -3830,5 +3830,445 @@
     "slug": "confluent",
     "name": "Confluent",
     "summary": "Confluent builds an event streaming platform that enables organizations to capture, store, and process continuous streams of data in real time. The company provides both cloud-managed and self-hosted solutions based on Apache Kafka, serving enterprises across financial services, e-commerce, healthcare, and other data-intensive industries."
+  },
+  {
+    "slug": "1password",
+    "name": "1Password",
+    "summary": "1Password builds a password manager and digital vault service that securely stores and manages passwords, credit cards, documents, and other sensitive information for individuals and teams. The company operates in the cybersecurity and identity management space, offering both consumer and enterprise solutions across multiple platforms."
+  },
+  {
+    "slug": "Abridge",
+    "name": "Abridge",
+    "summary": "Abridge builds AI-powered clinical documentation software that automatically transcribes and summarizes patient-doctor conversations during medical visits, converting them into structured clinical notes for healthcare providers."
+  },
+  {
+    "slug": "airops",
+    "name": "AirOps",
+    "summary": "AirOps builds a platform for creating and deploying AI workflows that integrate with business applications and data sources, enabling teams to automate complex processes without extensive coding. The platform operates in the enterprise automation and AI-as-a-service space, targeting organizations looking to leverage language models and AI for operational efficiency."
+  },
+  {
+    "slug": "anterior",
+    "name": "Anterior",
+    "summary": "Anterior provides cloud-based software for managing clinical trials, including electronic data capture, patient engagement, and regulatory compliance tools that help sponsors and contract research organizations streamline trial operations."
+  },
+  {
+    "slug": "anrok",
+    "name": "Anrok",
+    "summary": "Anrok builds tax compliance software that automatically calculates and manages sales tax, VAT, and other transaction taxes for SaaS and digital businesses across multiple jurisdictions worldwide."
+  },
+  {
+    "slug": "ascend-io",
+    "name": "Ascend.io",
+    "summary": "Ascend.io builds a data operations platform that helps organizations automate and manage data pipelines, quality monitoring, and integration workflows across their data infrastructure."
+  },
+  {
+    "slug": "astrocade",
+    "name": "Astrocade",
+    "summary": "Astrocade is a blockchain gaming platform that enables developers to create and monetize web3 games with built-in tokenomics and digital asset ownership. The platform operates in the intersection of gaming and decentralized finance, providing tools for game studios to integrate cryptocurrency rewards and NFT mechanics into their games."
+  },
+  {
+    "slug": "atariinc",
+    "name": "Atari",
+    "summary": "Atari operates as a video game and interactive entertainment company, developing and publishing games across multiple platforms including mobile, console, and PC. The company also manages licensing of its classic game franchises and intellectual property from its historical catalog of arcade and home gaming products."
+  },
+  {
+    "slug": "optro",
+    "name": "AuditBoard",
+    "summary": "AuditBoard provides cloud-based audit and risk management software that helps internal audit, compliance, and risk teams streamline their workflows, manage audit programs, and collaborate on findings and remediation across their organizations."
+  },
+  {
+    "slug": "avelios-medical",
+    "name": "Avelios",
+    "summary": "Avelios develops software for managing and optimizing renewable energy assets, focusing on performance monitoring and operational analytics for solar and wind installations. The platform helps energy producers and asset managers track equipment health, predict maintenance needs, and maximize power generation efficiency."
+  },
+  {
+    "slug": "baseten",
+    "name": "Baseten",
+    "summary": "Baseten provides an infrastructure platform for deploying and scaling machine learning models in production, enabling developers to build and serve custom AI applications with built-in features for versioning, monitoring, and API management."
+  },
+  {
+    "slug": "billcom",
+    "name": "BILL",
+    "summary": "BILL provides cloud-based financial operations software for small and mid-sized businesses, offering accounts payable automation, expense management, and payment solutions to streamline back-office workflows."
+  },
+  {
+    "slug": "breezecash",
+    "name": "Breeze.cash",
+    "summary": "Breeze.cash provides personal finance management software that helps users track spending, create budgets, and manage their money across multiple accounts and financial institutions."
+  },
+  {
+    "slug": "bridgebio",
+    "name": "BridgeBio",
+    "summary": "BridgeBio Pharma is a biotechnology company that develops gene therapy and other biological medicines for genetic diseases, with a focus on rare and severe conditions where there are currently limited treatment options."
+  },
+  {
+    "slug": "BreezeBio",
+    "name": "BreezeBio",
+    "summary": "BreezeBio develops software and automation solutions for clinical laboratories to streamline sample processing, data management, and reporting workflows. The company's platform integrates with laboratory equipment and information systems to improve efficiency and accuracy in diagnostics and testing operations."
+  },
+  {
+    "slug": "buildkite-talent-community",
+    "name": "Buildkite",
+    "summary": "Buildkite provides a continuous integration and deployment platform that allows teams to run fast, secure build pipelines on their own infrastructure. The platform integrates with version control systems and orchestrates automated testing and deployment workflows for software development teams."
+  },
+  {
+    "slug": "canonical",
+    "name": "Canonical",
+    "summary": "Canonical develops and supports Ubuntu, an open-source Linux distribution, and provides enterprise software solutions including cloud infrastructure, container orchestration, and security services built around the Ubuntu platform."
+  },
+  {
+    "slug": "carbondirect",
+    "name": "Carbon Direct",
+    "summary": "Carbon Direct provides carbon management software and consulting services that help companies measure, reduce, and offset their greenhouse gas emissions across their operations and supply chains."
+  },
+  {
+    "slug": "censys",
+    "name": "Censys",
+    "summary": "Censys provides internet-wide scanning and asset discovery services that help organizations identify and monitor their internet-facing devices and infrastructure. The platform aggregates data on IP addresses, domains, and certificates across the public internet to help security teams map their attack surface and detect unauthorized assets."
+  },
+  {
+    "slug": "Citizen",
+    "name": "Citizen",
+    "summary": "Citizen operates a mobile safety platform that aggregates real-time emergency alerts, crime data, and community safety information to help users stay informed about incidents happening nearby in their cities."
+  },
+  {
+    "slug": "claylabs",
+    "name": "Clay",
+    "summary": "Clay is a platform that enables users to build and run custom data automation workflows without coding, allowing teams to enrich, verify, and synchronize data across multiple business applications and APIs."
+  },
+  {
+    "slug": "cleo",
+    "name": "Cleo",
+    "summary": "Cleo is a financial technology company that builds an AI-powered personal finance assistant designed to help users manage their money, track spending, and make smarter financial decisions through conversational interactions and automated insights."
+  },
+  {
+    "slug": "coalesce",
+    "name": "Coalesce",
+    "summary": "Coalesce is a data transformation platform that enables data engineers to build, test, and deploy data pipelines directly within their data warehouse using a visual interface and code-based approach. The company operates in the modern data stack space, helping organizations streamline ETL/ELT workflows and improve data quality management."
+  },
+  {
+    "slug": "contrast-security",
+    "name": "Contrast Security",
+    "summary": "Contrast Security builds application security software that uses instrumentation technology to identify and protect against vulnerabilities in code as applications run in development, testing, and production environments. The company operates in the application security and DevSecOps domain, helping development teams detect threats like SQL injection, cross-site scripting, and other attacks with minimal performance overhead."
+  },
+  {
+    "slug": "copper-company",
+    "name": "Copper",
+    "summary": "Copper provides a customer relationship management (CRM) platform designed specifically for small and mid-market businesses, integrating directly with Gmail and Google Workspace to streamline sales processes and customer communication management."
+  },
+  {
+    "slug": "DeepL",
+    "name": "DeepL",
+    "summary": "DeepL develops an AI-powered translation service that uses neural networks to translate text and documents between multiple languages with high accuracy. The company operates in the machine translation and language technology sector, offering both a free web interface and API access for businesses and developers."
+  },
+  {
+    "slug": "Deno",
+    "name": "Deno",
+    "summary": "Deno is a runtime for JavaScript and TypeScript that runs on V8 and provides a secure-by-default environment with built-in tooling for code formatting, linting, and testing. The company develops the open-source Deno runtime alongside commercial offerings like Deno Deploy, a serverless platform for executing JavaScript and TypeScript at the edge globally."
+  },
+  {
+    "slug": "digitalextremes",
+    "name": "Digital Extremes",
+    "summary": "Digital Extremes is a video game developer based in London, Ontario that creates free-to-play action games, most notably Warframe, a cooperative third-person shooter with a large following across PC, consoles, and mobile platforms."
+  },
+  {
+    "slug": "divvyhomes",
+    "name": "Divvy Homes",
+    "summary": "Divvy Homes is a real estate technology company that enables renters to build equity while renting by allowing them to lease homes with an option to purchase at a predetermined price, combining rental payments with equity accumulation toward a future down payment."
+  },
+  {
+    "slug": "dollskill",
+    "name": "Dolls Kill",
+    "summary": "Dolls Kill is an e-commerce fashion retailer that sells alternative and edgy clothing, accessories, and footwear targeted at youth and young adults who prefer gothic, punk, grunge, and experimental aesthetic styles. The company operates in the direct-to-consumer fashion retail space, offering its own branded products alongside curated selections from independent designers."
+  },
+  {
+    "slug": "dust",
+    "name": "Dust",
+    "summary": "Dust builds an enterprise platform that allows organizations to create and deploy AI agents and workflows by combining language models with their internal data and tools, operating in the enterprise software automation and AI productivity space."
+  },
+  {
+    "slug": "epsilon3",
+    "name": "Epsilon3",
+    "summary": "Epsilon3 provides a software platform for managing complex industrial operations and procedures, enabling teams to digitize, standardize, and execute workflows across manufacturing, aerospace, and other capital-intensive industries."
+  },
+  {
+    "slug": "figment",
+    "name": "Figment",
+    "summary": "Figment provides staking infrastructure and services that allow institutions and individuals to earn rewards by participating in proof-of-stake blockchain networks, while also offering tools for managing digital assets across multiple chains."
+  },
+  {
+    "slug": "firetiger",
+    "name": "Firetiger",
+    "summary": "Firetiger builds a platform for managing and optimizing digital advertising campaigns across multiple channels, helping businesses streamline their ad spend and improve campaign performance through centralized management and analytics tools."
+  },
+  {
+    "slug": "gofundme",
+    "name": "GoFundMe",
+    "summary": "GoFundMe is a crowdfunding platform that allows individuals to create fundraising campaigns for personal causes such as medical emergencies, education, disaster relief, and other life events. The platform connects people seeking financial support with donors who can contribute to campaigns they choose to support."
+  },
+  {
+    "slug": "houzz",
+    "name": "Houzz",
+    "summary": "Houzz is a home design and renovation platform that provides a marketplace connecting homeowners with interior designers, architects, and contractors, along with a extensive library of home design photos and products for inspiration and purchasing."
+  },
+  {
+    "slug": "instabase",
+    "name": "Instabase",
+    "summary": "Instabase provides an intelligent document processing platform that uses machine learning to extract, classify, and validate data from unstructured documents at scale. The company serves enterprises in financial services, insurance, and other document-heavy industries that need to automate manual data entry and document workflows."
+  },
+  {
+    "slug": "instructure",
+    "name": "Instructure",
+    "summary": "Instructure develops Canvas, a learning management system used by educational institutions and organizations to deliver online courses, manage student learning, and facilitate collaboration between instructors and students. The platform serves K-12 schools, higher education institutions, and corporate training departments globally."
+  },
+  {
+    "slug": "Irregular",
+    "name": "Irregular",
+    "summary": "Irregular builds a continuous intelligence platform that monitors and analyzes competitive threats, market movements, and strategic changes across industries, helping organizations stay informed about external developments that could impact their business."
+  },
+  {
+    "slug": "jwp",
+    "name": "JW Player",
+    "summary": "JW Player provides a video platform and player software that enables publishers and broadcasters to deliver, monetize, and analyze video content across websites and applications. The company serves media organizations, publishers, and enterprises that need to distribute video at scale with advanced analytics and advertising capabilities."
+  },
+  {
+    "slug": "knowde",
+    "name": "Knowde",
+    "summary": "Knowde is a B2B e-commerce platform that connects buyers and sellers in the specialty chemicals and ingredients industry, providing digital tools for product discovery, pricing, and transactions."
+  },
+  {
+    "slug": "knock",
+    "name": "Knock",
+    "summary": "Knock is a notification and messaging infrastructure platform that helps developers build and manage multi-channel communications including email, SMS, push notifications, and in-app messages for their applications."
+  },
+  {
+    "slug": "ledger",
+    "name": "Ledger",
+    "summary": "Ledger manufactures hardware wallets and provides software infrastructure for storing, managing, and transacting cryptocurrency assets securely. The company serves individual investors and institutions seeking to protect digital assets through offline key management devices and accompanying desktop and mobile applications."
+  },
+  {
+    "slug": "lucidsoftware",
+    "name": "Lucid Software",
+    "summary": "Lucid Software provides cloud-based visual collaboration tools including Lucidchart for diagramming, Lucidspark for whiteboarding, and Lucidscale for architecture visualization, serving teams across product development, engineering, and business operations."
+  },
+  {
+    "slug": "magicleap",
+    "name": "Magic Leap",
+    "summary": "Magic Leap develops spatial computing devices and software that blend digital content with the physical world through mixed reality glasses. The company creates hardware and an application platform designed for enterprise and consumer applications in fields like healthcare, manufacturing, design, and entertainment."
+  },
+  {
+    "slug": "maintainx",
+    "name": "MaintainX",
+    "summary": "MaintainX is a mobile-first maintenance management platform that helps frontline workers and maintenance teams track equipment, schedule preventive maintenance, and manage work orders in real-time across industrial and commercial facilities."
+  },
+  {
+    "slug": "mandolin",
+    "name": "Mandolin",
+    "summary": "Mandolin provides a cloud-based supply chain platform that helps food and agriculture companies manage procurement, traceability, and logistics operations across their supply networks."
+  },
+  {
+    "slug": "mariadbplc",
+    "name": "MariaDB",
+    "summary": "MariaDB develops an open-source relational database management system that originated as a fork of MySQL, offering enterprise-grade features like advanced replication, storage engines, and JSON support. The company provides both community and commercial versions of the database software, along with managed cloud services and professional support for organizations across various industries."
+  },
+  {
+    "slug": "mightynetworks",
+    "name": "Mighty Networks",
+    "summary": "Mighty Networks builds a community platform that enables creators, brands, and organizations to build engaged communities with members through features like discussion forums, live video, events, and member management tools. The platform operates in the community software and creator economy space, serving businesses that want to foster direct relationships with their audiences."
+  },
+  {
+    "slug": "montecarlodata",
+    "name": "Monte Carlo",
+    "summary": "Monte Carlo builds a data reliability platform that helps organizations monitor, test, and fix data quality issues across their data pipelines and warehouses. The company serves data teams and analytics organizations that need to ensure their data assets are accurate, complete, and available for business intelligence and decision-making."
+  },
+  {
+    "slug": "myome",
+    "name": "MyOme",
+    "summary": "MyOme develops personalized nutrition and wellness plans based on individual genetic and metabolic data, helping users optimize their diet and health outcomes through DNA testing and microbiome analysis."
+  },
+  {
+    "slug": "nauto",
+    "name": "Nauto",
+    "summary": "Nauto develops AI-powered video telematics systems for commercial vehicle fleets that use driver-facing and road-facing cameras to monitor driving behavior, detect safety risks, and provide real-time coaching to reduce accidents and insurance costs."
+  },
+  {
+    "slug": "nextdoor",
+    "name": "Nextdoor",
+    "summary": "Nextdoor operates a hyperlocal social network platform that connects neighbors within specific geographic areas to share information, ask questions, and coordinate activities in their communities. The platform serves as a digital neighborhood bulletin board where residents can discuss local events, buy and sell items, request recommendations, and alert neighbors about safety concerns."
+  },
+  {
+    "slug": "noomgrowth",
+    "name": "Noom",
+    "summary": "Noom is a digital health platform that provides personalized weight management and chronic disease prevention programs through a mobile app, combining behavioral psychology, nutrition tracking, and coaching to help users achieve sustainable health improvements."
+  },
+  {
+    "slug": "openobserve-careers",
+    "name": "OpenObserve",
+    "summary": "OpenObserve builds an open-source observability platform designed to ingest, store, and analyze logs, metrics, traces, and other telemetry data at scale with a focus on cost efficiency and ease of deployment. The platform operates in the infrastructure monitoring and observability space, serving as an alternative to commercial solutions for organizations seeking to monitor their applications and infrastructure."
+  },
+  {
+    "slug": "my-applications",
+    "name": "Peacock",
+    "summary": "Peacock is a streaming video service owned by NBCUniversal that offers a mix of live television, movies, TV shows, and original content, with both free and premium subscription tiers. The platform provides access to NBC programming, sports content, and exclusive originals across entertainment, news, and sports domains."
+  },
+  {
+    "slug": "pendo",
+    "name": "Pendo",
+    "summary": "Pendo builds a product analytics and in-app guidance platform that helps software companies understand how users interact with their applications and deliver targeted experiences through in-app messaging, surveys, and walkthroughs."
+  },
+  {
+    "slug": "pennylane",
+    "name": "Pennylane",
+    "summary": "Pennylane provides cloud-based accounting and invoicing software designed for freelancers, small businesses, and accountants in Europe, particularly France and the UK. The platform automates financial management tasks including invoice creation, expense tracking, and tax compliance while integrating with banking systems and accounting workflows."
+  },
+  {
+    "slug": "percona",
+    "name": "Percona",
+    "summary": "Percona provides open source database software and professional services for MySQL, PostgreSQL, and MongoDB, including distributions, tools, and consulting expertise to help organizations optimize and manage their database infrastructure."
+  },
+  {
+    "slug": "perforce",
+    "name": "Perforce",
+    "summary": "Perforce provides version control, collaboration, and enterprise DevOps solutions for software development teams managing large codebases and complex projects. The company's platform includes Helix Core for source code management, Helix QAC for code quality analysis, and various tools for continuous integration, digital asset management, and compliance across industries including automotive, gaming, and financial services."
+  },
+  {
+    "slug": "persefoniaiinc",
+    "name": "Persefoni",
+    "summary": "Persefoni builds enterprise software for environmental, social, and governance (ESG) reporting and sustainability data management, helping organizations track, manage, and report on their environmental impact and sustainability metrics across their operations."
+  },
+  {
+    "slug": "pilothq",
+    "name": "Pilot",
+    "summary": "Pilot provides accounting, bookkeeping, and tax services for e-commerce businesses and startups, handling tasks like financial statement preparation, tax filing, and bookkeeping through a combination of software and dedicated accountants."
+  },
+  {
+    "slug": "quilt",
+    "name": "Quilt",
+    "summary": "Quilt provides a platform for managing and orchestrating data across multiple cloud environments and on-premises infrastructure, enabling teams to integrate, transform, and govern data workflows at scale."
+  },
+  {
+    "slug": "fortifyiq",
+    "name": "Remote",
+    "summary": "Remote provides global payroll, compliance, and HR software that enables companies to hire and manage employees across multiple countries, handling tax withholding, benefits administration, and local employment law requirements."
+  },
+  {
+    "slug": "rillet",
+    "name": "Rillet",
+    "summary": "Rillet provides an AI-powered customer service platform that automates support ticket handling and routing for businesses. The platform uses natural language processing to classify, prioritize, and respond to customer inquiries across multiple channels including email, chat, and social media."
+  },
+  {
+    "slug": "rightmovecareers",
+    "name": "Rightmove",
+    "summary": "Rightmove is the UK's largest online property portal, providing a marketplace where residential property sellers, landlords, and agents list properties for sale or rent. The platform also offers property valuation tools, mortgage calculators, and related services to help buyers and renters search for homes."
+  },
+  {
+    "slug": "Rox-Data-Corp",
+    "name": "Rox",
+    "summary": "Rox is a mobile-first platform that helps hospitality businesses like hotels, restaurants, and venues manage operations through tools for staff scheduling, communication, and task management. The platform enables frontline workers to coordinate shifts, receive updates, and manage daily workflows directly from their phones."
+  },
+  {
+    "slug": "Sandstone",
+    "name": "Sandstone",
+    "summary": "Sandstone builds AI software that helps in-house legal departments manage contracts, approvals, and legal work through conversational AI agents that understand context and automatically route tasks across existing business systems."
+  },
+  {
+    "slug": "socure",
+    "name": "Socure",
+    "summary": "Socure provides identity verification and fraud prevention software for financial services, fintech, and cryptocurrency companies. Their platform uses artificial intelligence and machine learning to verify customer identities, detect synthetic fraud, and assess risk during account opening and onboarding processes."
+  },
+  {
+    "slug": "sonarsource",
+    "name": "SonarSource",
+    "summary": "SonarSource builds Sonar, a platform for continuous code quality and security analysis that integrates into development pipelines to identify bugs, vulnerabilities, and code smells across multiple programming languages. The company operates in the application development and DevSecOps domain, serving enterprises and development teams who need automated code review and compliance capabilities."
+  },
+  {
+    "slug": "spycloud",
+    "name": "SpyCloud",
+    "summary": "SpyCloud aggregates and analyzes leaked credential databases and compromised data from the dark web and other sources to help organizations identify and remediate account takeover risks. The company provides security teams with visibility into which employee and customer credentials have been exposed in breaches, enabling proactive password reset and multi-factor authentication enforcement."
+  },
+  {
+    "slug": "stackadapt",
+    "name": "StackAdapt",
+    "summary": "StackAdapt is a programmatic advertising platform that enables advertisers and agencies to buy display, video, and native ads across web and mobile channels. The platform uses machine learning to optimize ad placements and performance across publisher networks and exchanges in real time."
+  },
+  {
+    "slug": "tacto",
+    "name": "Tacto",
+    "summary": "Tacto develops tactile sensing technology for robotic systems, enabling robots to perceive and respond to touch, pressure, and texture through soft sensor arrays integrated into robotic grippers and end-effectors."
+  },
+  {
+    "slug": "talkdesk2",
+    "name": "Talkdesk",
+    "summary": "Talkdesk builds a cloud-based contact center platform that enables businesses to manage customer communications across voice, email, chat, and social media channels. The platform serves enterprises and mid-market companies across various industries who need to optimize customer service operations and agent productivity."
+  },
+  {
+    "slug": "threatlocker",
+    "name": "ThreatLocker",
+    "summary": "ThreatLocker provides cybersecurity software that enables organizations to control application execution, manage file access, and detect threats through zero-trust principles. The platform helps companies protect their endpoints and data by restricting what software can run and what files can be accessed on devices, primarily serving managed service providers and enterprises."
+  },
+  {
+    "slug": "top-hat",
+    "name": "Tophat",
+    "summary": "Tophat provides a cloud-based learning management system and interactive classroom platform designed to help educators create engaging digital learning experiences for students in higher education and corporate training settings."
+  },
+  {
+    "slug": "tourlanegmbh",
+    "name": "Tourlane",
+    "summary": "Tourlane operates a digital travel planning platform that allows customers to create customized trips by working with a network of local travel consultants who design and manage itineraries across destinations worldwide. The company combines AI-powered trip planning tools with human expertise to handle logistics like accommodations, transportation, and activities for leisure travelers."
+  },
+  {
+    "slug": "traversal",
+    "name": "Traversal",
+    "summary": "Traversal builds a platform for managing and optimizing supply chain logistics, helping companies track shipments, manage inventory, and coordinate warehouse operations across distributed networks."
+  },
+  {
+    "slug": "turnkeycareers",
+    "name": "Turnkey",
+    "summary": "Turnkey provides infrastructure and API services that enable financial institutions and fintech companies to embed cryptocurrency and digital asset capabilities into their platforms and applications."
+  },
+  {
+    "slug": "tydo",
+    "name": "Tydo",
+    "summary": "Tydo builds a financial operations platform that helps businesses automate accounts payable, accounts receivable, and expense management processes. The platform integrates with existing accounting systems to streamline invoice processing, payment workflows, and financial reconciliation for mid-market companies."
+  },
+  {
+    "slug": "uipath",
+    "name": "UiPath",
+    "summary": "UiPath develops robotic process automation (RPA) software that enables organizations to automate repetitive business processes by creating digital robots that can mimic human interactions with applications and systems. The platform serves enterprises across industries including finance, healthcare, manufacturing, and insurance to increase operational efficiency and reduce manual work."
+  },
+  {
+    "slug": "udacity",
+    "name": "Udacity",
+    "summary": "Udacity offers online education programs focused on technology and professional skills, including nanodegree programs in fields like data science, artificial intelligence, cloud computing, and software development. The company operates in the digital learning and workforce development space, partnering with industry leaders to provide project-based coursework designed to prepare students for technical careers."
+  },
+  {
+    "slug": "viseai",
+    "name": "Vise",
+    "summary": "Vise builds financial planning and wealth management software designed to help financial advisors deliver personalized advice to their clients at scale, operating in the fintech and wealth management technology domain."
+  },
+  {
+    "slug": "wealthsimple",
+    "name": "Wealthsimple",
+    "summary": "Wealthsimple is a Canadian financial technology company that provides low-cost investment management, including robo-advisor services, trading platforms, and cash account products for retail investors. The company operates in the wealth management and financial services sector, offering automated portfolio management, self-directed trading, and banking services primarily across Canada and the United States."
+  },
+  {
+    "slug": "withcoverage",
+    "name": "WithCoverage",
+    "summary": "WithCoverage provides insurance marketplace software that helps small businesses and individuals compare and purchase commercial and personal insurance policies from multiple carriers through a single platform."
+  },
+  {
+    "slug": "workato",
+    "name": "Workato",
+    "summary": "Workato is an enterprise integration and automation platform that connects business applications and automates workflows across systems like Salesforce, ServiceNow, SAP, and hundreds of other enterprise software solutions. The company serves mid-market and enterprise organizations that need to integrate disparate systems and automate complex business processes without extensive custom coding."
+  },
+  {
+    "slug": "xbowcareers",
+    "name": "XBOW",
+    "summary": "XBOW manufactures crossbows and crossbow accessories for hunting and sport shooting, offering a range of models including recurve and compound crossbows along with bolts, scopes, and related gear."
+  },
+  {
+    "slug": "xairatherapeutics",
+    "name": "Xaira",
+    "summary": "Xaira develops AI-powered software for drug discovery and development, focusing on analyzing biological data to accelerate the identification and optimization of therapeutic candidates."
   }
 ]

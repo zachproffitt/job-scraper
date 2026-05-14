@@ -27160,5 +27160,336 @@
       "bonus"
     ],
     "source_hash": "5b162996"
+  },
+  "greenhouse-andurilindustries-5138393007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$37.02k-$49.04k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "87df6686"
+  },
+  "greenhouse-anthropic-5215121008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$365,000\u2014$1,245,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1ea8d1c2"
+  },
+  "greenhouse-appliedintuition-4695082005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$150,000 - $230,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5e84e685"
+  },
+  "greenhouse-andurilindustries-5138451007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$47.12k-$62.50k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8e06ff3b"
+  },
+  "greenhouse-andurilindustries-5135556007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$32k-$43k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1ed44653"
+  },
+  "greenhouse-andurilindustries-5138405007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$41.35k-$54.81k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "77771c0c"
+  },
+  "greenhouse-andurilindustries-5138441007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$41.35k-$54.81k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "42d1e49c"
+  },
+  "greenhouse-andurilindustries-5138444007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$47.12k-$62.50k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e16b8b5f"
+  },
+  "greenhouse-mercury-5983426004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$153,900-$213,700",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2b59db8b"
+  },
+  "greenhouse-archer56-7719731003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and execute requirements-based verification tests for an all-electric vertical takeoff and landing aircraft's fly-by-wire flight control system, correlating test results with analyses and ensuring compliance with FAA and DoD certification standards. This role requires executing complex test campaigns across integrated avionics, power distribution, and engine subsystems for a safety-critical aerospace system.",
+    "skills": [
+      "DO-178C",
+      "ARP4754A",
+      "Polarion",
+      "DOORS",
+      "Python",
+      "MATLAB",
+      "ARINC429",
+      "CAN"
+    ],
+    "level": "senior",
+    "comp": "$160k-$190k",
+    "comp_extras": [],
+    "source_hash": "4249825c"
+  },
+  "greenhouse-archer56-7698902003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and execute comprehensive verification and validation testing for safety-critical battery management system software using SIL/HIL frameworks and DO-178C standards. Work on certification-level embedded systems testing in the aerospace domain with high-voltage battery diagnostics and fault detection algorithms.",
+    "skills": [
+      "C/C++",
+      "Python",
+      "DO-178C",
+      "CAN",
+      "MATLAB/Simulink",
+      "Hardware-in-the-Loop",
+      "ISO 26262",
+      "SPI/I2C"
+    ],
+    "level": "senior",
+    "comp": "$120k-$180k",
+    "comp_extras": [],
+    "source_hash": "f26a285a"
+  },
+  "greenhouse-anthropic-5215130008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d01bacb6"
+  },
+  "greenhouse-pinterest-7525112": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$164,695\u2014$339,078",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bcd4d1c5"
+  },
+  "greenhouse-gitlab-8550268002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "040f5645"
+  },
+  "greenhouse-pinterest-7890195": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$195,738\u2014$402,990",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "358ba5d0"
+  },
+  "greenhouse-natera-5977290004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the strategy, architecture, and team delivery of a Real-World Data platform for clinical, research, and business use\u2014building production-grade pipelines, data marts, and secure data solutions in healthcare. You'll partner across product, bioinformatics, analytics, and AI teams to design scalable, observable systems that handle sensitive genomic and clinical data at scale in AWS environments.",
+    "skills": [
+      "Python",
+      "SQL",
+      "AWS",
+      "Snowflake",
+      "Data Warehousing",
+      "CI/CD",
+      "Healthcare Data (FHIR/OMOP)",
+      "Bioinformatics Pipelines"
+    ],
+    "level": "manager",
+    "comp": "$154,100\u2013$192,600",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "45b0b760"
+  },
+  "workable-intellecthq-B3F55B7A60": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c7bcba1d"
+  },
+  "greenhouse-okta-7926725": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$160k-$246k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f46b204f"
+  },
+  "greenhouse-toast-7851302": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build scalable full-stack financial services platforms (lending, equipment financing, bank accounts) tailored for restaurants using Java/Kotlin microservices and distributed systems. Work on enterprise-grade embedded finance capabilities serving over 100,000 restaurants at scale.",
+    "skills": [
+      "Java",
+      "Kotlin",
+      "REST",
+      "GraphQL",
+      "Microservices",
+      "Distributed Systems",
+      "Enterprise Messaging"
+    ],
+    "level": "staff",
+    "comp": "$151k-$309k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "944744a7"
+  },
+  "greenhouse-okta-7927464": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$160k-$246k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c68f09c9"
+  },
+  "greenhouse-pinterest-7481476": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$123,684\u2014$227,361",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "82f3ed2d"
+  },
+  "ashby-snowflake-e032672d-34b3-4b3c-bcc0-e75a4fdc522b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f312285e"
+  },
+  "greenhouse-toast-7927087": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$128,000\u2014$205,000 USD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e454f7b1"
   }
 }
