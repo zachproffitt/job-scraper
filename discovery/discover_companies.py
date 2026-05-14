@@ -385,6 +385,13 @@ def main():
 
                     print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... {label}")
 
+                    # Save periodically so a timeout doesn't discard all progress
+                    with lock:
+                        current_n = n
+                    if current_n % 500 == 0:
+                        COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
+                        log(f"[checkpoint] saved {current_n}/{len(new_entries)}")
+
         supported_count = len(newly_found)
         unsupported_count = len(detected_unsupported) if "detected_unsupported" in dir() else 0
         log(f"Resolved: {supported_count} supported, {unsupported_count} detected (no scraper), {len(unresolved)} not found")
