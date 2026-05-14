@@ -24190,5 +24190,134 @@
       "equity"
     ],
     "source_hash": "f941f5c2"
+  },
+  "greenhouse-rocketlab-7734731003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "709fd5a0"
+  },
+  "greenhouse-airbnb-7707946": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the Experimentation Infrastructure team in building and scaling Airbnb's next-generation experimentation platform, including feature flagging clients, adaptive experimentation methodology, and flag change ramping systems. You'll own technical strategy and direction for a platform that enables data-driven decision-making across the company at scale.",
+    "skills": [
+      "Feature Flagging",
+      "Experimentation Platforms",
+      "Data Infrastructure",
+      "Systems Design"
+    ],
+    "level": "manager",
+    "comp": "$204k-$255k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "18c9ee44"
+  },
+  "greenhouse-harnessinc-5129190007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$140k-$162.5k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "0fab2f78"
+  },
+  "greenhouse-rocketlab-7725976003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d0fa4eb7"
+  },
+  "ashby-turion-space-32ee9efd-36ee-4ba6-adf9-f876935b1ba1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$140k-$185k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fe1b30f3"
+  },
+  "ashby-suno-81beeb40-3870-4a35-9370-1335d2afddd9": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f1eec6e4"
+  },
+  "ashby-extend-e1f3c67c-ed3a-457b-a355-1991a8cb78b0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91256ef8"
+  },
+  "ashby-coderabbit-90923d9f-c3f1-493c-bf6d-02ce76f1a142": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$300k-$410k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "16f28d3b"
+  },
+  "ashby-langchain-b47dbcea-222c-427d-bf4d-9e30a6b60d4a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$185k-$315k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "701b0e6a"
+  },
+  "workable-intellecthq-EB88C93820": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "27fc0ec1"
   }
 }
