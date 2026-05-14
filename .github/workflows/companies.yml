@@ -63,8 +63,7 @@ jobs:
           else
             git stash
             git pull --rebase
-            git stash pop
-            git add data/company_names.txt data/companies.json data/discovery.log
+            git stash pop --index
             git commit -m "Company discovery — $(date -u '+%b %-d at %H:%M UTC')"
             git push
           fi

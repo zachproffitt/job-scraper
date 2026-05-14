@@ -100,8 +100,7 @@ jobs:
           else
             git stash
             git pull --rebase
-            git stash pop
-            git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/pipeline.log
+            git stash pop --index
             git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
             git push
           fi
