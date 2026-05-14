@@ -66,6 +66,7 @@ jobs:
             cp data/companies.json /tmp/companies.json
             cp data/discovery.log /tmp/discovery.log
             git reset HEAD
+            git checkout -- data/company_names.txt data/companies.json data/discovery.log
             git pull --rebase
             cp /tmp/company_names.txt data/company_names.txt
             cp /tmp/companies.json data/companies.json

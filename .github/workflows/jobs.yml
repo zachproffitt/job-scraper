@@ -104,6 +104,7 @@ jobs:
             cp data/companies_classified.json /tmp/companies_classified.json
             cp data/pipeline.log /tmp/pipeline.log
             git reset HEAD
+            git checkout -- data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/pipeline.log
             git pull --rebase
             cp /tmp/seen_jobs.json data/seen_jobs.json
             cp /tmp/seen_companies.json data/seen_companies.json
