@@ -61,7 +61,16 @@ jobs:
           if git diff --cached --quiet; then
             echo "No new companies found"
           else
-            git commit -m "Company discovery — $(date -u '+%b %-d at %H:%M UTC')"
+            # Save workflow output before pulling — discovery results are authoritative
+            cp data/company_names.txt /tmp/company_names.txt
+            cp data/companies.json /tmp/companies.json
+            cp data/discovery.log /tmp/discovery.log
+            git reset HEAD
             git pull --rebase
+            cp /tmp/company_names.txt data/company_names.txt
+            cp /tmp/companies.json data/companies.json
+            cp /tmp/discovery.log data/discovery.log
+            git add data/company_names.txt data/companies.json data/discovery.log
+            git commit -m "Company discovery — $(date -u '+%b %-d at %H:%M UTC')"
             git push
           fi

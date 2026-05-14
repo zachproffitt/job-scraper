@@ -98,7 +98,19 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes in scraper data"
           else
-            git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
+            cp data/seen_jobs.json /tmp/seen_jobs.json
+            cp data/seen_companies.json /tmp/seen_companies.json
+            cp data/jobs_classified.json /tmp/jobs_classified.json
+            cp data/companies_classified.json /tmp/companies_classified.json
+            cp data/pipeline.log /tmp/pipeline.log
+            git reset HEAD
             git pull --rebase
+            cp /tmp/seen_jobs.json data/seen_jobs.json
+            cp /tmp/seen_companies.json data/seen_companies.json
+            cp /tmp/jobs_classified.json data/jobs_classified.json
+            cp /tmp/companies_classified.json data/companies_classified.json
+            cp /tmp/pipeline.log data/pipeline.log
+            git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/pipeline.log
+            git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
             git push
           fi
