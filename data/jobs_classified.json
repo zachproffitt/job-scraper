@@ -25091,7 +25091,7 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "aed2e0cd"
+    "source_hash": "a396c9ec"
   },
   "greenhouse-okta-7923030": {
     "is_engineering": true,
@@ -26187,5 +26187,672 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e9c3b911"
+  },
+  "greenhouse-airbnb-7921357": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u00a372,000\u2014\u00a385,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "71d687b2"
+  },
+  "greenhouse-airbnb-7926559": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "\u20ac85k-\u20ac128k, \u00a394k-\u00a3118k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "def8ab73"
+  },
+  "greenhouse-airbnb-7927371": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead Airbnb's Storage SRE team to own database infrastructure reliability, tooling, and operational excellence across a fleet of relational databases and emerging distributed systems at internet scale. Guide the team through technology transitions while maintaining operational rigor on mission-critical data services serving a global marketplace.",
+    "skills": [
+      "Database Infrastructure",
+      "SRE",
+      "Distributed Systems",
+      "Cloud Infrastructure",
+      "Production Database Operations",
+      "Kubernetes",
+      "PostgreSQL"
+    ],
+    "level": "manager",
+    "comp": "$212,000-$265,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "4950a379"
+  },
+  "greenhouse-axiom-8549874002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$111k-$125k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "6e120db7"
+  },
+  "greenhouse-axiom-8550842002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$101,500-$114,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "49952446"
+  },
+  "greenhouse-stripe-7927324": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8b3f7d18"
+  },
+  "greenhouse-axiom-8550851002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$122k-$137.5k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e7449dd1"
+  },
+  "greenhouse-stripe-7927330": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4a56524e"
+  },
+  "greenhouse-airbnb-7921276": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u20ac74k-\u20ac92k (France) / \u20ac65k-\u20ac80k (Italy)",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1821415c"
+  },
+  "greenhouse-roblox-7923586": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and develop build, release, and continuous integration automation tools for the Roblox Game Engine, serving multi-platform deployments to millions of concurrent players. Support the full software lifecycle including crash reporting, test environments, and deployment systems at scale.",
+    "skills": [
+      "Python",
+      "C#",
+      "C++",
+      "Bash",
+      "TypeScript",
+      "TeamCity",
+      "GitHub Actions",
+      "Jenkins"
+    ],
+    "level": "senior",
+    "comp": "$243,290-$295,250",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7d2f31f5"
+  },
+  "greenhouse-andurilindustries-5032230007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4142731d"
+  },
+  "greenhouse-andurilindustries-5138355007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9e7827a0"
+  },
+  "greenhouse-altoslabs-5991209004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$148,700-$252,600",
+    "comp_extras": [],
+    "source_hash": "49082fbb"
+  },
+  "greenhouse-marqeta-7868953": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead product security engineering for a payment platform\u2014owning threat modeling, secure architecture reviews, API security, and secure SDLC practices across the engineering organization. Build and scale AI security programs including genAI controls, ML pipeline security, and model risk assessment for customer-facing AI products and fraud detection systems in a high-scale fintech environment.",
+    "skills": [
+      "Python",
+      "AWS",
+      "Threat Modeling",
+      "API Security",
+      "Machine Learning Security",
+      "Kubernetes",
+      "Terraform",
+      "PCI DSS"
+    ],
+    "level": "principal",
+    "comp": "$218,300-$321,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e993a7f4"
+  },
+  "greenhouse-andurilindustries-5138275007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$129k-$171k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b636e82c"
+  },
+  "lever-CesiumAstro-d877e4f4-aa45-4560-ab45-74e6095105fe": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and deploy machine learning solutions for distributed processing platforms supporting satellite and airborne communication systems. Work at the intersection of ML and aerospace systems with U.S. export control requirements and active mission-critical constraints.",
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "Distributed Systems",
+      "Model Deployment",
+      "PyTorch",
+      "TensorFlow",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ca41836e"
+  },
+  "lever-deepgenomics-eac06f39-448e-48ff-a1ba-240fded59d57": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "02b875d6"
+  },
+  "greenhouse-natera-5992980004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "56979aa1"
+  },
+  "greenhouse-natera-5992976004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7220ca32"
+  },
+  "greenhouse-natera-5992968004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c7e90a8d"
+  },
+  "greenhouse-natera-5993333004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "16a02367"
+  },
+  "greenhouse-natera-5992984004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b001032c"
+  },
+  "greenhouse-natera-5992986004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8fe16295"
+  },
+  "greenhouse-natera-5992982004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "549e61a4"
+  },
+  "greenhouse-natera-5993322004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "23f31f7e"
+  },
+  "greenhouse-natera-5992988004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4670f690"
+  },
+  "greenhouse-natera-5992990004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "104c71d0"
+  },
+  "greenhouse-natera-5992964004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "09e93856"
+  },
+  "greenhouse-natera-5992958004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "14ff1377"
+  },
+  "greenhouse-natera-5992960004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7f349ac1"
+  },
+  "greenhouse-scoutmotors-5135040007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$100,000-$125,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "53c83746"
+  },
+  "ashby-Pear-VC-3a85bbdb-b425-4775-aa71-a770dd219660": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e949bd64"
+  },
+  "ashby-quindar-d8323584-b637-400f-8469-00da26e3f054": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d695a7c1"
+  },
+  "greenhouse-usenourish-5221426008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5537cbde"
+  },
+  "greenhouse-natera-5993324004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4340bd35"
+  },
+  "greenhouse-instacart-7927378": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead a team building an AI-native platform and pipelines that create, enrich, and maintain product attributes across tens of millions of items from 100,000+ retailer locations. Scale a system that blends LLMs, classical inference, workflow orchestration, and human review to serve search, recommendations, ads, and ML teams across Instacart's marketplace.",
+    "skills": [
+      "Workflow Orchestration (Temporal, Airflow)",
+      "Large Language Models",
+      "Data Pipelines",
+      "Distributed Systems",
+      "Data Governance",
+      "ML Platforms",
+      "Streaming Systems",
+      "Python"
+    ],
+    "level": "manager",
+    "comp": "CAD$196,000\u2014$207,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "78dad482"
+  },
+  "greenhouse-natera-5992970004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1ed77ded"
+  },
+  "greenhouse-instacart-7927402": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "CAD$140,000\u2013$147,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3a53697d"
+  },
+  "greenhouse-okta-7839824": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$216k-$297k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "91716602"
+  },
+  "ashby-snowflake-eef762a3-04d3-4787-9468-845cbc067069": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155k-$216.5k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4900756a"
+  },
+  "greenhouse-toast-7927453": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$115,000\u2014$185,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5fe8b398"
+  },
+  "lever-spotify-008e0a44-088b-48f2-b100-cce07e40a45b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "71fa410c"
+  },
+  "greenhouse-instacart-7927390": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$113k-$142.5k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "776460e0"
+  },
+  "greenhouse-toast-7868507": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$128,000\u2014$205,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "59dfc32c"
+  },
+  "greenhouse-okta-7914568": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$157,000\u2014$235,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "41c0eeaf"
+  },
+  "greenhouse-spacex-8550231002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2a234190"
+  },
+  "greenhouse-toast-7775924": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$128,000\u2014$205,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "05f3def6"
+  },
+  "greenhouse-spacex-8550162002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$150k-$205k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d8998a90"
+  },
+  "greenhouse-toast-7904980": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$128,000\u2014$205,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "06ca3544"
+  },
+  "greenhouse-toast-7927454": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$115,000\u2014$185,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "04501201"
+  },
+  "greenhouse-omadahealth-7918592": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$243,200-$304,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a633a6a4"
   }
 }
