@@ -1,4 +1,5 @@
 from datetime import date
+from urllib.parse import quote
 
 import httpx
 
@@ -9,7 +10,7 @@ BASE_URL = "https://api.ashbyhq.com/posting-api/job-board/{slug}"
 
 def scrape(company: str, slug: str) -> list[Job]:
     try:
-        response = httpx.get(BASE_URL.format(slug=slug), timeout=15)
+        response = httpx.get(BASE_URL.format(slug=quote(slug, safe="")), timeout=15)
         response.raise_for_status()
     except httpx.HTTPError as e:
         raise ScraperError(f"Ashby request failed for {slug}: {e}") from e

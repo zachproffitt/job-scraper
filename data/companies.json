@@ -1082,14 +1082,6 @@
     "meta_description": "dbt Labs empowers data teams to build reliable, governed data pipelines\u2014accelerating analytics and AI initiatives with speed and confidence."
   },
   {
-    "name": "Eppo",
-    "ats": "ashby",
-    "slug": "eppo",
-    "website": "https://geteppo.com",
-    "category": [],
-    "meta_description": "Eppo runs trustworthy, data warehouse-native A/B tests. World-class statistical rigor, feature management, and experiment reports - all in one tool."
-  },
-  {
     "name": "Harness",
     "ats": "greenhouse",
     "slug": "harnessinc",
@@ -1252,14 +1244,6 @@
     "website": "https://zwift.com",
     "category": [],
     "meta_description": "Zwift is a virtual cycling app that is transforming indoor cycling. Discover training plans, ride with friends from around the world, and workout anytime."
-  },
-  {
-    "name": "Akili Interactive",
-    "ats": "greenhouse",
-    "slug": "akiliinteractive",
-    "website": "https://akiliinteractive.com",
-    "category": [],
-    "meta_description": "Akili Interactive is a prescription digital medicine company combining scientific and clinical rigor with the ingenuity of the tech industry to reinvent medicine."
   },
   {
     "name": "Cityblock Health",
@@ -1460,14 +1444,6 @@
     "meta_description": "A world made from air"
   },
   {
-    "name": "SandboxAQ",
-    "ats": "greenhouse",
-    "slug": "sandboxaq",
-    "website": "https://sandboxaq.com",
-    "category": [],
-    "meta_description": "SandboxAQ leverages the compound effects of AI and advanced computing to address some of the biggest challenges impacting society. SandboxAQ technologies include AI simulation, cryptography management for cybersecurity, and AI sensing for global organizations."
-  },
-  {
     "name": "Joyn Bio",
     "ats": "greenhouse",
     "slug": "ginkgobioworks",
@@ -1549,8 +1525,8 @@
   },
   {
     "name": "Chainalysis",
-    "ats": "greenhouse",
-    "slug": "chainalysis",
+    "ats": "ashby",
+    "slug": "chainalysis-careers",
     "website": "https://chainalysis.com",
     "category": [],
     "meta_description": "Chainalysis helps government agencies, cryptocurrency businesses, and financial institutions engage confidently with cryptocurrency."
@@ -1573,8 +1549,8 @@
   },
   {
     "name": "TRM Labs",
-    "ats": "greenhouse",
-    "slug": "trmlabs",
+    "ats": "ashby",
+    "slug": "trm-labs",
     "website": "https://trmlabs.com",
     "category": [],
     "meta_description": "Trusted by public sector agencies and private sector institutions on the front lines of illicit activity, including criminal networks, sanctioned actors and state-backed threats."
@@ -1614,7 +1590,7 @@
   {
     "name": "Paxos",
     "ats": "ashby",
-    "slug": "paxos-technology-solutions",
+    "slug": "paxos",
     "website": "https://paxos.com",
     "category": [],
     "meta_description": "Paxos builds regulated blockchain and digital asset solutions for global leaders in financial services. Designed for enterprises."
@@ -1683,7 +1659,7 @@
   {
     "name": "Rain Neuromorphics",
     "ats": "ashby",
-    "slug": "rain-ai-jobs",
+    "slug": "rain",
     "website": "https://rain.ai",
     "category": [],
     "meta_description": "We are building the compute platform that will power the future of AI infrastructure and redefine the cost of compute."
@@ -1848,14 +1824,6 @@
     "meta_description": "GitBook is a knowledge platform that connects your docs, product and users, answers user questions, and identifies knowledge gaps. Docs-as-code support & AI insights included."
   },
   {
-    "name": "Superhuman",
-    "ats": "greenhouse",
-    "slug": "grammarly",
-    "website": "https://superhuman.com",
-    "category": [],
-    "meta_description": "Superhuman is the AI productivity suite that gives you superpowers everywhere you work. So you can be more creative, strategic, and impactful."
-  },
-  {
     "name": "Particle Health",
     "ats": "greenhouse",
     "slug": "particlehealth",
@@ -1865,8 +1833,8 @@
   },
   {
     "name": "Span",
-    "ats": "greenhouse",
-    "slug": "spanio",
+    "ats": "ashby",
+    "slug": "span",
     "website": "https://span.io",
     "category": [],
     "meta_description": "Lower your energy bill with SPAN smart electrical panels - advanced features and intelligent design save you money and energy."
@@ -1898,7 +1866,7 @@
   {
     "name": "Jasper",
     "ats": "ashby",
-    "slug": "Jasper",
+    "slug": "Jasper AI",
     "website": "https://jasper.ai",
     "category": [],
     "meta_description": "Orchestrate intelligent agents to run end-to-end marketing workflows\u2014delivering speed, control, and measurable impact."
@@ -1958,13 +1926,6 @@
     "website": "https://demandbase.com",
     "category": [],
     "meta_description": "Elevate your B2B go-to-market strategy with Demandbase&#039;s ABM platform, delivering smarter insights, agent-led automation, and AI-powered pipeline."
-  },
-  {
-    "name": "G2",
-    "ats": "greenhouse",
-    "slug": "g2crowd",
-    "website": "https://g2.com",
-    "category": []
   },
   {
     "name": "Intercom",
@@ -2199,14 +2160,6 @@
     "meta_description": "Aleph Alpha entwickelt spezialisierte Sprachmodelle und KI-L\u00f6sungen f\u00fcr Unternehmen und \u00f6ffentliche Institutionen in Europa."
   },
   {
-    "name": "Buildxact",
-    "ats": "greenhouse",
-    "slug": "buildxact",
-    "website": "https://buildxact.com",
-    "category": [],
-    "meta_description": "Buildxact provides an easy-to-use construction management software solution designed for small builders and contractors. Sign up for your 14-day free trial."
-  },
-  {
     "name": "Codeium",
     "ats": "ashby",
     "slug": "cognition",
@@ -2221,14 +2174,6 @@
     "website": "https://compulsiongames.com",
     "category": [],
     "meta_description": "Welcome to Compulsion Games!"
-  },
-  {
-    "name": "Copy.ai",
-    "ats": "lever",
-    "slug": "CopyAI",
-    "website": "https://copy.ai",
-    "category": [],
-    "meta_description": "Introducing the first-ever GTM AI platform. Automate hundreds of tedious, repetitive tasks and empower your team to scale success like never before."
   },
   {
     "name": "Crytek",
@@ -2413,14 +2358,6 @@
     "meta_description": "Combine identity verification, fraud protection and compliance in one single platform, allowing you to expand globally hassle free."
   },
   {
-    "name": "Airweave",
-    "ats": "ashby",
-    "slug": "Airweave",
-    "website": "https://airweave.ai",
-    "category": [],
-    "meta_description": "Airweave is an open-source context retrieval layer that lets AI retrieve relevant context from apps and databases by acting as a shared information retrieval layer between AI systems and data sources."
-  },
-  {
     "name": "Akido Labs",
     "ats": "greenhouse",
     "slug": "akidolabs",
@@ -2579,10 +2516,10 @@
     "meta_description": "We're reinventing aircraft from the engine forward."
   },
   {
-    "name": "Athelas",
+    "name": "Commure",
     "ats": "ashby",
-    "slug": "Commure-Athelas",
-    "website": "https://athelas.com",
+    "slug": "commure",
+    "website": "https://commure.com",
     "category": [],
     "meta_description": "Athelas is the AI-driven RCM, EHR, and ambient AI platform to grow your healthcare business."
   },
@@ -2715,13 +2652,6 @@
     "meta_description": "BLISSWAY provides next-generation roadside tolling infrastructure deployable in weeks and at zero upfront cost to agencies."
   },
   {
-    "name": "Blue Onion",
-    "ats": "ashby",
-    "slug": "Blue",
-    "website": "https://www.blueonion.ai",
-    "category": []
-  },
-  {
     "name": "Blueberry Pediatrics",
     "ats": "ashby",
     "slug": "blueberrypediatrics",
@@ -2752,14 +2682,6 @@
     "website": "https://www.bretton.com",
     "category": [],
     "meta_description": "Eliminate risks and alerts queues with audit ready agents that work inside of your existing compliance systems."
-  },
-  {
-    "name": "BuildZoom",
-    "ats": "lever",
-    "slug": "buildzoom",
-    "website": "https://www.buildzoom.com",
-    "category": [],
-    "meta_description": "Save time, money & frustration. Find a contractor for home remodeling or new construction building projects with our independent online contractor matching website. We consider company reviews, licenses and government permit data to find you the best."
   },
   {
     "name": "Bunkerhill Health",
@@ -2858,14 +2780,6 @@
     "meta_description": "CareMessage is a social enterprise building the largest patient engagement platform for low-income populations in the United States."
   },
   {
-    "name": "Cargo",
-    "ats": "greenhouse",
-    "slug": "airbyte",
-    "website": "https://getcargo.io",
-    "category": [],
-    "meta_description": "Cargo is modern GTM infrastructure. Build on Agents, Tools, Plays, and Data models, in the app, via API, CLI, or Claude and Cursor. Scale revenue without scaling headcount."
-  },
-  {
     "name": "Caribou",
     "ats": "ashby",
     "slug": "caribou",
@@ -2919,14 +2833,6 @@
     "website": "https://circuithub.com",
     "category": [],
     "meta_description": "Rapid, low-cost manufacturing for fast-moving robotics companies."
-  },
-  {
-    "name": "Circular",
-    "ats": "greenhouse",
-    "slug": "nowcircular",
-    "website": "https://www.nowcircular.com",
-    "category": [],
-    "meta_description": "We are making subscriptions the best way to experience tech. Circular aims to accelerate the circular economy and maximise the useful lives of each tech device to its fullest potential."
   },
   {
     "name": "Claim Health",
@@ -3000,14 +2906,6 @@
     "meta_description": "Boost collections, cut cost to collect, reduce admin burden, and improve patient satisfaction with Collectly's AI-powered RCM automation. Works with any EHR."
   },
   {
-    "name": "Common Paper",
-    "ats": "greenhouse",
-    "slug": "commonpaper",
-    "website": "https://commonpaper.com",
-    "category": [],
-    "meta_description": "Common Paper powers contract collaboration, negotiation, signing, and billing for revenue teams. Build trusted templates using our standard agreements, then leverage AI agents to negotiate, sign, and manage your contracts in a single workflow. Sign up for free"
-  },
-  {
     "name": "Complete",
     "ats": "ashby",
     "slug": "complete",
@@ -3054,14 +2952,6 @@
     "website": "https://coperniq.io",
     "category": [],
     "meta_description": "AI Software for Residential and Commerical Contractors"
-  },
-  {
-    "name": "Coris",
-    "ats": "ashby",
-    "slug": "coris",
-    "website": "https://coris.ai",
-    "category": [],
-    "meta_description": "AI-powered merchant risk platform for payments. Gain real-time visibility, detect fraud, and make faster risk decisions across the lifecycle."
   },
   {
     "name": "Cortex",
@@ -3189,22 +3079,6 @@
     "website": "https://www.deepnote.com",
     "category": [],
     "meta_description": "Explore data with Python & SQL, work together with your team, and share insights that lead to action \u2014 all in one place with Deepnote."
-  },
-  {
-    "name": "Demodesk",
-    "ats": "greenhouse",
-    "slug": "demodesk",
-    "website": "https://demodesk.com",
-    "category": [],
-    "meta_description": "Demodesk's AI sales agents record, transcribe, coach, and update your CRM automatically \u2014 so reps close more deals with less admin."
-  },
-  {
-    "name": "DirectShifts",
-    "ats": "greenhouse",
-    "slug": "directshifts",
-    "website": "https://directshifts.com",
-    "category": [],
-    "meta_description": "DirectShifts connects clinicians to hospitals directly for short term clinical work including locum tenens. DirectShifts enables clinicians to get paid higher and apply for jobs in a convenient and transparent manner"
   },
   {
     "name": "Doe",
@@ -3604,14 +3478,6 @@
     "meta_description": "We deliver lightning-fast legal service to high growth start-ups at a fraction of the price of traditional law firms."
   },
   {
-    "name": "Gerald Technologies, Inc",
-    "ats": "lever",
-    "slug": "joingerald",
-    "website": "https://www.joingerald.com",
-    "category": [],
-    "meta_description": "Experience smart banking with Gerald. Get instant cash advances, Buy Now Pay Later options, budgeting tools, and financial insights. No fees, no interest, no late charges."
-  },
-  {
     "name": "Giga",
     "ats": "ashby",
     "slug": "gigaml",
@@ -3651,14 +3517,6 @@
     "meta_description": "GoLinks\u00ae revolutionizes information access & sharing through secure, intuitive short links called go/links. It\u2019s knowledge discovery powered by generative AI."
   },
   {
-    "name": "Gordian Software",
-    "ats": "ashby",
-    "slug": "Gordian",
-    "website": "https://www.gordiansoftware.com",
-    "category": [],
-    "meta_description": "Gordian's platform simplifies the complexity of the travel industry into a single API to power ancillary merchandising throughout customer experiences."
-  },
-  {
     "name": "GovDash",
     "ats": "ashby",
     "slug": "govdash",
@@ -3675,28 +3533,12 @@
     "meta_description": "Proprietary generative AI tools for compliance shreds, exhaustive outlines, unique drafts, and much more"
   },
   {
-    "name": "Gradia Health",
-    "ats": "ashby",
-    "slug": "Gradia",
-    "website": "https://www.gradia.com",
-    "category": [],
-    "meta_description": "Integrated, concierge healthcare\u2014at scale. Deliver high-touch care to patients who need it the most and put more money back on the table"
-  },
-  {
     "name": "Great Question",
     "ats": "ashby",
     "slug": "greatquestion",
     "website": "https://greatquestion.co",
     "category": [],
     "meta_description": "AI UX research software that brings recruitment, interviews, and insights into one AI-powered platform. Used by 300+ product teams. Start free \u2014 no credit card required."
-  },
-  {
-    "name": "Green Canopy NODE",
-    "ats": "greenhouse",
-    "slug": "greencanopy",
-    "website": "https://greencanopynode.com",
-    "category": [],
-    "meta_description": "Green Canopy NODE is a construction technology company tackling the housing and environmental crises through product innovation to develop sustainable, healthy, and affordable homes in the PNW."
   },
   {
     "name": "Greenboard",
@@ -3733,7 +3575,7 @@
   {
     "name": "Hamming AI",
     "ats": "ashby",
-    "slug": "Hamming",
+    "slug": "Hamming AI",
     "website": "https://hamming.ai",
     "category": [],
     "meta_description": "Complete voice & chat agent QA platform. Auto-generate scenarios, replay production calls, 50+ metrics. SOC 2 certified. Start in under 10 minutes."
@@ -3792,14 +3634,6 @@
     "website": "https://www.hioperator.com",
     "category": [],
     "meta_description": "HiOperator is the first AI-enabled automated customer service solution that delivers full service customer care that is superior to what even great human customer service agents can deliver."
-  },
-  {
-    "name": "HitPay",
-    "ats": "ashby",
-    "slug": "hitpayapp.com",
-    "website": "https://www.hitpayapp.com",
-    "category": [],
-    "meta_description": "Accept popular types of payment methods online and offline. HitPay is an international payment gateway and payment processor, enabling seamless transactions for growing businesses."
   },
   {
     "name": "Hive",
@@ -3969,14 +3803,6 @@
     "meta_description": "Issue compliant invoices, globally"
   },
   {
-    "name": "Jasper.ai",
-    "ats": "ashby",
-    "slug": "Jasper",
-    "website": "https://jasper.ai",
-    "category": [],
-    "meta_description": "Orchestrate intelligent agents to run end-to-end marketing workflows delivering speed, control, and measurable impact."
-  },
-  {
     "name": "Jinba",
     "ats": "ashby",
     "slug": "carnot-ai",
@@ -4111,14 +3937,6 @@
     "website": "https://lightdash.com",
     "category": [],
     "meta_description": "Lightdash is the AI-first, open-source BI platform for modern data teams. Connect to dbt, define metrics once, and get instant, trustworthy insights."
-  },
-  {
-    "name": "LineLeap",
-    "ats": "greenhouse",
-    "slug": "lineleap",
-    "website": "https://www.lineleap.com",
-    "category": [],
-    "meta_description": "Learn how you can leverage the LineLeap platform & apps to buy lineskip passes, pay for cover, purchase tickets & more at your favorite nightlife bars & venues."
   },
   {
     "name": "Lio (formerly askLio)",
@@ -4334,14 +4152,6 @@
     "meta_description": "Metriport helps digital health companies access and manage patient health and medical data, through an open-source and universal API."
   },
   {
-    "name": "Mezmo",
-    "ats": "greenhouse",
-    "slug": "logdna",
-    "website": "https://www.mezmo.com",
-    "category": [],
-    "meta_description": "Combine intelligent telemetry with AI-driven observability to detect issues, pinpoint root cause, and power agentic operations across logs, metrics, and traces."
-  },
-  {
     "name": "Middesk",
     "ats": "ashby",
     "slug": "middesk",
@@ -4366,14 +4176,6 @@
     "meta_description": "Scale your mobile coverage with a new type of AI-enabled service that combines real mechanical robots, physical devices, and quality experts."
   },
   {
-    "name": "ModernLoop",
-    "ats": "greenhouse",
-    "slug": "modernloop",
-    "website": "https://modernloop.io",
-    "category": [],
-    "meta_description": "Streamline your hiring process with automated interview scheduling. Sync calendars, compare workloads & more to enhance your recruitment efficiency!"
-  },
-  {
     "name": "Momentic",
     "ats": "ashby",
     "slug": "momentic",
@@ -4388,14 +4190,6 @@
     "website": "https://www.moonvalley.com",
     "category": [],
     "meta_description": "a research lab focused on pushing the frontiers of creativity through deep learning."
-  },
-  {
-    "name": "Motion",
-    "ats": "ashby",
-    "slug": "motion",
-    "website": "https://www.usemotion.com",
-    "category": [],
-    "meta_description": "Motion is the #1 Rated Productivity Platform for the AI Era. AI Projects, AI Tasks, AI Calendar, AI Meetings, AI Docs, AI Notes, AI Reports, AI Workflows, and more."
   },
   {
     "name": "mRelief",
@@ -4620,14 +4414,6 @@
     "website": "https://ophelia.com",
     "category": [],
     "meta_description": "Get private, evidence-based opioid use disorder treatment at home. Video visits, local pharmacy pickup for Suboxone if eligible, and support 7 days a week."
-  },
-  {
-    "name": "Optery",
-    "ats": "ashby",
-    "slug": "optery",
-    "website": "https://www.optery.com",
-    "category": [],
-    "meta_description": "Take back your privacy. Optery\u2019s opt\u2011out software uncovers and removes your personal info from hundreds of data brokers, delivers live before\u2011and\u2011after screenshots, and offers a 30\u2011day money\u2011back guarantee."
   },
   {
     "name": "Osmind",
@@ -4963,14 +4749,6 @@
     "category": []
   },
   {
-    "name": "Rainforest",
-    "ats": "lever",
-    "slug": "rainforest",
-    "website": "https://www.rainforestqa.com",
-    "category": [],
-    "meta_description": "Automate e2e tests without the time-consuming drudgery of test maintenance. Now with self-healing AI. Learn more about our QA platform today."
-  },
-  {
     "name": "Rally UXR",
     "ats": "ashby",
     "slug": "rallyuxr",
@@ -5036,7 +4814,7 @@
   },
   {
     "name": "Rescale",
-    "ats": "lever",
+    "ats": "ashby",
     "slug": "rescale",
     "website": "https://rescale.com",
     "category": [],
@@ -5145,22 +4923,6 @@
     "website": "https://www.sazabi.com",
     "category": [],
     "meta_description": "Autonomous alerts. Conversational debugging. Coding agent integrations. Sazabi is a new, AI-first approach to observability. Built for teams who ship fast."
-  },
-  {
-    "name": "Scope AR",
-    "ats": "lever",
-    "slug": "scopear",
-    "website": "https://scopear.com",
-    "category": [],
-    "meta_description": "Scope AR enhances productivity across industries with advanced augmented reality. Explore solutions for aerospace, aviation, maintenance, and more."
-  },
-  {
-    "name": "Seam",
-    "ats": "greenhouse",
-    "slug": "seam",
-    "website": "https://seam.co",
-    "category": [],
-    "meta_description": "Seam is a hardware-agnostic solution and suite of tools that enables you to control any device using a single API and dashboard. Unlock doors, set temperatures, read sensors, tap into camera feeds, and more."
   },
   {
     "name": "Secoda",
@@ -5730,8 +5492,8 @@
   },
   {
     "name": "Truss",
-    "ats": "ashby",
-    "slug": "truss",
+    "ats": "greenhouse",
+    "slug": "trussworksinc",
     "website": "https://trusspayments.com",
     "category": [],
     "meta_description": "The ultimate no-fee banking solution for construction. Get paid instantly, pay subs and vendors effortlessly, and manage expenses from one streamlined platform."
@@ -5916,22 +5678,6 @@
     "website": "https://weekend.com",
     "category": [],
     "meta_description": "Play Jeopardy!, Wheel of Fortune, Song Quiz and more on your TV with voice controls. Free 7-day trial. Available on Roku, Fire TV, Samsung and LG."
-  },
-  {
-    "name": "Willow",
-    "ats": "ashby",
-    "slug": "willowvoice",
-    "website": "https://willowvoice.com",
-    "category": [],
-    "meta_description": "Fast, accurate voice dictation for emails, documents, Cursor, note-taking, and messaging. Turn speech to text seamlessly, edit automatically, and stay secure with privacy. Boost productivity with context-aware AI and custom dictionaries. Get Willow Voice!"
-  },
-  {
-    "name": "Wordware",
-    "ats": "ashby",
-    "slug": "wordware.ai",
-    "website": "https://wordware.ai",
-    "category": [],
-    "meta_description": "Building the future of work, with Sauna"
   },
   {
     "name": "Yummy",
@@ -6728,14 +6474,6 @@
     "meta_description": "Ship high-quality code & spend less time debugging. Improve developer workflow, re-run flaky tests, & track JavaScript bundle size. Learn about our code quality & coverage tool here."
   },
   {
-    "name": "Commure",
-    "ats": "ashby",
-    "slug": "Commure-Athelas",
-    "website": "https://commure.com",
-    "category": [],
-    "meta_description": "Commure builds the financial infrastructure for modern health systems,  with an AI-native revenue cycle platform that automates end-to-end RCM and turns manual administrative work into scalable software\u2014enabling durable growth and better care outcomes."
-  },
-  {
     "name": "Contrast Security",
     "ats": "ashby",
     "slug": "contrast-security",
@@ -6798,14 +6536,6 @@
     "website": "https://digitalextremes.com",
     "category": [],
     "meta_description": "Digital Extremes Ltd. proudly ranks as one of the world"
-  },
-  {
-    "name": "Divvy Homes",
-    "ats": "greenhouse",
-    "slug": "divvyhomes",
-    "website": "https://divvyhomes.com",
-    "category": [],
-    "meta_description": "Divvy offers an exceptional living experience for residents. Log into your resident portal for all the information you need to manage your home!"
   },
   {
     "name": "Dolls Kill",
@@ -7422,14 +7152,6 @@
     "website": "https://turnkey.com",
     "category": [],
     "meta_description": "Turnkey is private key management made simple. Create wallets, sign transactions, and automate onchain actions \u2014 all with one elegant API."
-  },
-  {
-    "name": "Tydo",
-    "ats": "ashby",
-    "slug": "tydo",
-    "website": "https://tydo.com",
-    "category": [],
-    "meta_description": "AI-powered analytics and retention marketing automation for ecommerce. Predict customer behavior, automate email campaigns, and increase LTV by 81% with machine learning. Trusted by Buck Mason, Salt & Stone, and 500+ brands."
   },
   {
     "name": "UiPath",
