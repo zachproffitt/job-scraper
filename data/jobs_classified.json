@@ -40692,10 +40692,10 @@
     "location": "Remote / EU",
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f5e8885f"
+    "source_hash": "781ad965"
   },
   "ashby-AfterQuery-dc65714a-f647-4d3c-ac81-a36bcf1cea79": {
     "is_engineering": false,
@@ -42744,5 +42744,361 @@
       "equity"
     ],
     "source_hash": "9437f39e"
+  },
+  "greenhouse-stripe-7887519": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2b55a242"
+  },
+  "lever-zoox-2783987b-5ab8-4447-a9e4-77745439e7ba": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build the Fleet Dispatch System that routes missions (rideshare trips, charging, cleaning, depot returns) to autonomous robots. This is the core backbone of Zoox's fleet management platform connecting riders and operators to a real-world autonomous vehicle fleet.",
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "66b64c06"
+  },
+  "greenhouse-figma-5992087004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$127,000\u2014$269,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5f2a6616"
+  },
+  "greenhouse-agilityrobotics-5997213004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Salem, OR / Pittsburgh, PA / Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$126,000\u2014$164,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d3a0b40f"
+  },
+  "greenhouse-wayve-8552547002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Vancouver, Canada",
+    "job_summary": "Develop foundation models, world models, and reinforcement learning systems for autonomous driving, including generative simulation, spatial AI, and cross-embodiment robotics. Work on multi-year breakthroughs in embodied AI at the intersection of machine learning, robotics, and real-world deployment at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Foundation Models",
+      "Transformers",
+      "Diffusion Models",
+      "Reinforcement Learning",
+      "Computer Vision",
+      "Robotics"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b8c5fa5a"
+  },
+  "ashby-onebrief-49c8a08e-5bfe-45d0-9184-4530b5f47ff3": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead a cross-functional team of platform, software, and security engineers responsible for CI/CD, release automation, and deployment infrastructure that enables safe, reliable shipping in mission-critical defense environments. You will own the delivery pipeline, enforce security controls across the software lifecycle, and establish standards for tested releases, rollback procedures, and compliance across air-gapped and regulated customer environments.",
+    "skills": [
+      "CI/CD",
+      "GitOps",
+      "Release Automation",
+      "SAST",
+      "DAST",
+      "FedRAMP",
+      "Risk Management Framework",
+      "Kubernetes"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1c67fc55"
+  },
+  "greenhouse-zyngacareers-5995628004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Toronto, Canada / Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$60,700-$91,340",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "34addf80"
+  },
+  "greenhouse-andurilindustries-5138385007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$115,000\u2014$155,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8e45a82c"
+  },
+  "greenhouse-launchdarkly-7495019003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e08a103f"
+  },
+  "ashby-pylon-labs-b59075bc-7f26-4789-97f1-d5a9eec7307f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0326fa6c"
+  },
+  "lever-CesiumAstro-4a53c35d-34c2-46c2-9b83-c28ecb230e00": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3737ead3"
+  },
+  "ashby-gecko-robotics-241e909f-fa90-4615-a026-4ed7b7a767f9": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and deploy advanced sensor fusion and localization algorithms for underwater inspection and hull-cleaning robots operating in GPS-denied environments. Solve real-world navigation challenges combining IMU, DVL, acoustic positioning, and sonar data with tight field deployment timelines and pragmatic engineering tradeoffs.",
+    "skills": [
+      "Extended Kalman Filters",
+      "Unscented Kalman Filters",
+      "Particle Filters",
+      "IMU calibration",
+      "Doppler Velocity Log",
+      "Acoustic positioning systems",
+      "USBL/LBL",
+      "State-space modeling"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "490416ca"
+  },
+  "ashby-pylon-labs-1db399d3-409e-411e-9d53-1d8ec6ee794c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2deadae2"
+  },
+  "lever-CesiumAstro-9ee6ba9d-8397-4105-ba14-50d4a058cf00": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b74e4ef6"
+  },
+  "ashby-pylon-labs-fae49875-afda-4977-9e8f-03473ca08abd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1dd70b60"
+  },
+  "greenhouse-spacex-8552660002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cape Canaveral, FL",
+    "job_summary": "Design and build control systems infrastructure for Starship Launch Vehicle ground support equipment, including data acquisition systems, hardware integration, and real-time sensor data pipelines to pad operators. Work on mission-critical automation and electrical systems in the space launch domain requiring Air Force background clearance and ITAR compliance.",
+    "skills": [
+      "Data Acquisition Systems",
+      "PCB Design",
+      "PLC Programming",
+      "Modbus",
+      "Profinet",
+      "EtherNet/IP",
+      "NFPA 70",
+      "ITAR Compliance"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a926c563"
+  },
+  "greenhouse-toast-7931361": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and own the data infrastructure layer for Toast's sales stack \u2014 establishing a canonical CRM data model, implementing automated deduplication and enrichment pipelines, and creating the clean, governed foundation that powers forecasting, pipeline visibility, and revenue decision-making across GTM teams. You'll integrate third-party enrichment providers, establish data governance standards, and serve as the authoritative data partner for executive reporting and revenue operations.",
+    "skills": [
+      "Salesforce",
+      "SQL",
+      "Snowflake",
+      "dbt",
+      "Tableau",
+      "AI Agents",
+      "CRM Data Architecture",
+      "Data Governance"
+    ],
+    "level": "senior",
+    "comp": "$105,000\u2014$168,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "fab17e74"
+  },
+  "greenhouse-databricks-8549046002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$180,000\u2014$247,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "795a7139"
+  },
+  "greenhouse-lyft-8550274002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$117,760 - $147,200",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "857ab38e"
+  },
+  "greenhouse-spacex-8550962002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$34.00-$51.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "892baeac"
+  },
+  "greenhouse-toast-7812414": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead the design and delivery of large-scale distributed systems for Toast's Catering & Events platform, building backend infrastructure that enables restaurants and venues to manage complex event workflows. Balance rapid feature delivery with long-term system health while mentoring engineers and driving technical strategy across multiple teams.",
+    "skills": [
+      "Java",
+      "Kotlin",
+      "Microservices",
+      "Distributed Systems",
+      "System Design",
+      "Scalability",
+      "Observability"
+    ],
+    "level": "staff",
+    "comp": "$151k-$309k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ba03ad90"
   }
 }
