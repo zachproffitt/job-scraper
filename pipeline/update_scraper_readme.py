@@ -31,14 +31,13 @@ def main() -> None:
         if ats in {key for key, _, _ in SUPPORTED_ATS}:
             counts[ats] = counts.get(ats, 0) + 1
 
+    total = sum(counts.get(key, 0) for key, _, _ in SUPPORTED_ATS)
     rows = ["| ATS | Companies | Scraper |", "|---|---|---|"]
     for key, label, scraper in SUPPORTED_ATS:
         count = counts.get(key, 0)
         rows.append(f"| {label} | {count} | `{scraper}` |")
+    rows.append(f"| **Total** | **{total}** | |")
     new_table = "\n".join(rows)
-
-    now = datetime.now(timezone.utc).strftime("%-d %B %Y")
-    last_updated_line = f"*Updated {now}*"
 
     readme = README_FILE.read_text()
 
@@ -50,18 +49,18 @@ def main() -> None:
         flags=re.DOTALL,
     )
 
-    # Update or insert last-updated line (second line of the file, after the h1)
-    updated = re.sub(
-        r"(# Builder Jobs — Scraper\n\n)(\*Updated .*?\*\n\n)?",
-        lambda m: m.group(1) + last_updated_line + "\n\n",
-        updated,
-    )
-
-    if updated == readme:
-        print("README unchanged")
-    else:
+    # Only stamp last-updated if the table actually changed
+    if updated != readme:
+        now = datetime.now(timezone.utc).strftime("%-d %B %Y")
+        updated = re.sub(
+            r"(# Builder Jobs — Scraper\n\n)(\*Updated .*?\*\n\n)?",
+            lambda m: m.group(1) + f"*Updated {now}*\n\n",
+            updated,
+        )
         README_FILE.write_text(updated)
         print("README updated")
+    else:
+        print("README unchanged")
 
 
 if __name__ == "__main__":

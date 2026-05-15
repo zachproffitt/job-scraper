@@ -53,6 +53,7 @@ Non-engineering, contract, and international (outside US/Canada) roles are filte
 | Workable | 22 | `scrapers/ats_workable.py` |
 | SmartRecruiters | 4 | `scrapers/ats_smartrecruiters.py` |
 | Eightfold | 2 | `scrapers/ats_eightfold.py` |
+| **Total** | **893** | |
 
 ## Company sources
 
