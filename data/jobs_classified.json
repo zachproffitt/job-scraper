@@ -43706,5 +43706,92 @@
       "equity"
     ],
     "source_hash": "834a1aa4"
+  },
+  "greenhouse-spacex-8551784002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$80k-$115k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "affde1cc"
+  },
+  "greenhouse-waymo-7551611": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$251k-$310k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "19b2ad50"
+  },
+  "greenhouse-stripe-7862772": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico City, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9ccd068b"
+  },
+  "greenhouse-podium81-7931913": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "739ac9cb"
+  },
+  "greenhouse-spacex-8552428002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cdc1c33d"
+  },
+  "greenhouse-spacex-8551671002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$100k-$135k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "97919a41"
   }
 }
