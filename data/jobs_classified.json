@@ -42127,5 +42127,560 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "128e99e0"
+  },
+  "greenhouse-relativity-8334809002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130,000\u2014$166,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "de7658ee"
+  },
+  "greenhouse-wayve-8552515002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build foundation models, world models, and reinforcement learning systems for autonomous driving, advancing embodied AI at scale. Work on multi-year research problems in representation learning, spatial intelligence, and sim-to-real transfer with access to real-world driving data and deployment infrastructure.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Transformers",
+      "Diffusion Models",
+      "Reinforcement Learning",
+      "Computer Vision",
+      "Robotics",
+      "SLAM"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2195c973"
+  },
+  "ashby-eightsleep-63460635-19a5-46b5-89a9-7b307abeee6a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Own the Bluetooth Low Energy wireless connectivity stack across Eight Sleep's Pod ecosystem, architecting GATT services, connection strategies, and secure OTA firmware updates for a global fleet of temperature-regulated sleep devices. You'll debug cross-platform interoperability issues on iOS/Android, optimize radio duty cycle for ultra-low-power devices, and bring up new Nordic-based silicon through regulatory certification and production testing.",
+    "skills": [
+      "Bluetooth Low Energy (BLE)",
+      "C/C++",
+      "Nordic nRF / SoftDevice",
+      "Python",
+      "GATT",
+      "Embedded Systems",
+      "Secure OTA / DFU",
+      "RF Testing / Protocol Analysis"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "29e0de9f"
+  },
+  "greenhouse-archer56-7499030003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Design and deploy an internal tooling ecosystem serving hardware engineers, operations teams, and other stakeholders\u2014web apps for flight data analysis, time-series platforms with anomaly detection, and generative AI integrations. Lead a team building custom tools in an aerospace context where reliability and data integrity directly support flight testing and aircraft certification.",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "GCP",
+      "Azure",
+      "PostgreSQL",
+      "React",
+      "Python",
+      "Terraform"
+    ],
+    "level": "staff",
+    "comp": "$173k-$216k",
+    "comp_extras": [],
+    "source_hash": "a2f84399"
+  },
+  "greenhouse-slingshotaerospace-5997241004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and deliver secure, scalable data and application platforms combining backend APIs, React frontends, 3D visualization, AI-driven workflows, and distributed systems for space operations. Work across the full stack including RAG pipelines, vector databases, agentic AI services, and cloud-native infrastructure serving advanced analytics and operational capabilities.",
+    "skills": [
+      "C#",
+      ".NET Core",
+      "React",
+      "Python",
+      "SQL Server",
+      "Redis",
+      "Docker",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "$160k-$200k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4c4fc966"
+  },
+  "greenhouse-stripe-7562148": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "408c097a"
+  },
+  "greenhouse-ursamajor-4696156005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Colorado",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$187k-$234k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8ee52be1"
+  },
+  "greenhouse-slingshotaerospace-5997251004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": "Build secure, scalable Python-based data processing platforms and microservices for space operations, integrating event-driven streaming, vector search, and agentic AI workflows. Production role requiring deep expertise in distributed systems, real-time data pipelines, and secure software development practices at scale.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Kafka",
+      "MongoDB",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": "$150,000-$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "341886ef"
+  },
+  "greenhouse-slingshotaerospace-5997017004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead the design of secure, scalable application and data platforms across backend (.NET/Python), frontend (React), distributed systems, and AI-powered components for a space operations company. Guide architecture standards, mentoring, and end-to-end platform design with responsibility for microservices, RAG/LLM workflows, and enterprise security practices.",
+    "skills": [
+      ".NET",
+      "C#",
+      "React",
+      "Python",
+      "SQL Server",
+      "Redis",
+      "AWS",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "$175k-$250k",
+    "comp_extras": [],
+    "source_hash": "5c805372"
+  },
+  "greenhouse-cockroachlabs-7918100": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$270,000\u2014$358,200",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6a1f1bd9"
+  },
+  "greenhouse-andurilindustries-5100655007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Netherlands",
+    "job_summary": "Build and deploy mission-critical software solutions that integrate third-party systems with Anduril's Lattice OS command and control platform, establishing the company's engineering presence in Europe. Work on data mesh technology, connectors, and APIs across degraded networks and disparate security domains for defense applications requiring NATO clearance.",
+    "skills": [
+      "Java",
+      "Python",
+      "C++",
+      "Rust",
+      "Go",
+      "Data Processing",
+      "API Development",
+      "NATO Clearance"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cd3d40c6"
+  },
+  "greenhouse-andurilindustries-5129568007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2014$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9412e31d"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5997211004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$175,013-$248,900",
+    "comp_extras": [],
+    "source_hash": "a3778957"
+  },
+  "greenhouse-andurilindustries-4871750007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2013$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "94663478"
+  },
+  "greenhouse-andurilindustries-5139191007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2014$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "06db2034"
+  },
+  "greenhouse-scoutmotors-5133920007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Blythewood, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$100,000-$125,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "3167fe17"
+  },
+  "greenhouse-andurilindustries-5139203007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$191,000\u2014$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5cc82053"
+  },
+  "greenhouse-andurilindustries-5102987007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Netherlands",
+    "job_summary": "Design, develop, and deploy mission-critical software solutions that integrate third-party systems with Anduril's Lattice OS platform, enabling command and control capabilities for military applications. You'll architect data mesh technology, build connectors and APIs for legacy and cutting-edge systems, and operate in degraded network environments across multiple security domains.",
+    "skills": [
+      "Java",
+      "Python",
+      "C++",
+      "Rust",
+      "Go",
+      "NATO Clearance",
+      "Distributed Systems",
+      "Data Pipelines"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "281d8568"
+  },
+  "greenhouse-scoutmotors-5133918007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Blythewood, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$100k-$125k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "a06f1622"
+  },
+  "greenhouse-inversionspace-4693462005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "California, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$83.2k-$124.8k",
+    "comp_extras": [],
+    "source_hash": "4723ac05"
+  },
+  "greenhouse-natera-5973804004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$103,800\u2013$119,700",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "aaa327b8"
+  },
+  "greenhouse-mongodb-7768470": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": null,
+    "job_summary": "Push production-level code across MongoDB's database platform and services, contributing to projects used by Fortune 100 companies and AI-native startups. Work on a globally distributed, multi-cloud database system serving 60,000+ customers.",
+    "skills": [
+      "Java",
+      "Python",
+      "Go",
+      "C++",
+      "JavaScript",
+      "Node.js"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "94fa5a4b"
+  },
+  "greenhouse-twilio-7927688": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$51.27k-$75.38k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "19d5e4d4"
+  },
+  "greenhouse-spacex-8208646002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$100k-$135k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c969eca9"
+  },
+  "greenhouse-okta-7918286": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$138,000\u2014$208,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "06371830"
+  },
+  "greenhouse-databricks-8552484002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build infrastructure that schedules, orchestrates, and observes large-scale training and inference workloads across GPU clusters and cloud systems. Enable researchers to move from experimental idea to production pipeline in minutes by building abstractions for job submission, scheduling, monitoring, and experiment management.",
+    "skills": [
+      "Kubernetes",
+      "Slurm",
+      "Ray",
+      "C++",
+      "Rust",
+      "Go",
+      "Distributed Systems",
+      "GPU"
+    ],
+    "level": "staff",
+    "comp": "$199k-$270k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b91d5799"
+  },
+  "ashby-lovable-2c0b0c0b-33ef-4e6a-a3b7-cbe1b67b9157": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5cdf2dd8"
+  },
+  "ashby-clipboard-2ca7fa94-6b57-4358-9105-857b911c15f7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50dc0fad"
+  },
+  "ashby-wealthsimple-d6c5fce8-ce92-40d6-b028-07c91bb4eb03": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6bf9829f"
+  },
+  "ashby-confluent-85107937-8f12-4336-abb8-e88f344c6bcc": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead the design and delivery of agentic AI systems and intelligent automation workflows to accelerate R&D productivity across Confluent's engineering organization. Drive responsible AI adoption at scale across a SaaS/cloud platform with 60% hands-on execution and 40% strategy.",
+    "skills": [
+      "LLM Integration",
+      "Workflow Automation",
+      "Distributed Systems",
+      "AI/ML Platforms",
+      "Cloud-Native Architecture",
+      "Real-Time Data Systems",
+      "Event-Driven Architecture",
+      "Platform Engineering"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7b227c8b"
+  },
+  "greenhouse-censys-8500292002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build machine learning models and data-driven systems that classify, cluster, label, and enrich Internet-observed assets and services. Deploy feature pipelines, training datasets, model evaluation frameworks, and inference services that transform raw Internet telemetry into high-quality datasets and customer-facing products at scale.",
+    "skills": [
+      "Python",
+      "Go",
+      "Machine Learning",
+      "Kubernetes",
+      "AWS",
+      "Supervised Learning",
+      "Unsupervised Learning",
+      "MLOps"
+    ],
+    "level": "senior",
+    "comp": "$150k-$203k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a8491634"
   }
 }
