@@ -35425,5 +35425,657 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "a9242347"
+  },
+  "ashby-openai-57cfe1d3-27b6-4761-909c-fec7829e9227": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "305d0a32"
+  },
+  "greenhouse-wayve-8549408002": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$71k-$85k",
+    "comp_extras": [],
+    "source_hash": "05d75290"
+  },
+  "greenhouse-scopely-5215189008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cfa612d5"
+  },
+  "greenhouse-scopely-5215191008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "44ada4a4"
+  },
+  "ashby-supercell-40132dcf-04cd-47c9-beff-d8a93a94cc32": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6e041856"
+  },
+  "greenhouse-airbnb-7915333": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2cc2fb0b"
+  },
+  "smartrecruiters-CDPROJEKTRED-744000126656239": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and maintain hybrid game-AI systems that integrate machine learning frameworks with game engines, serving as the technical bridge between ML researchers and game developers. You'll architect production systems at scale for a major game studio, with exposure to cutting-edge ML and game technology integration challenges.",
+    "skills": [
+      "Machine Learning",
+      "Game Engines",
+      "Python",
+      "C++",
+      "Systems Architecture"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f4292e68"
+  },
+  "greenhouse-scopely-5220455008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$169,600\u2013$244,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "da7a4209"
+  },
+  "ashby-lovable-d15f1a6a-dbba-41d6-b8b4-90fc00de183c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Conduct secure code reviews, threat modeling, and architecture assessments across cloud-native infrastructure; design and implement security features, integrate SAST/DAST tooling into CI/CD pipelines, and mentor engineers on secure coding practices. You'll secure a platform used by millions, with exposure to AI infrastructure, LLM pipelines, and emerging threats at scale.",
+    "skills": [
+      "Application Security",
+      "SAST/DAST",
+      "Threat Modeling",
+      "Go",
+      "Rust",
+      "Kubernetes",
+      "AWS",
+      "CI/CD"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aa081ba7"
+  },
+  "greenhouse-scopely-5215183008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4965eb9e"
+  },
+  "greenhouse-speechify-5974602004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain foundational services and SDKs that power Speechify's cross-platform product experience. Design efficient abstractions and optimize parsing, loading, and core algorithms while collaborating with product and infrastructure teams to balance integration tradeoffs and ship features quickly.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Multiplatform",
+      "GCP",
+      "Java",
+      "Cloud Functions",
+      "Backend Services"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b98dd129"
+  },
+  "greenhouse-speechify-5974553004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain foundational services and SDKs powering Speechify's text-to-speech product across platforms. Design efficient abstractions and optimize systems for faster parsing and loading while navigating product tradeoffs across multiple client teams.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Multiplatform",
+      "GCP",
+      "Java",
+      "Backend Services",
+      "Cloud Functions",
+      "SDK Design"
+    ],
+    "level": "senior",
+    "comp": "$140,000-$200,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "b45b5144"
+  },
+  "greenhouse-speechify-5974486004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and maintain foundational services and SDKs that power Speechify's cross-platform product experience. Design efficient abstractions, improve parsing algorithms, and ship cloud functions and backend services in Kotlin while balancing product integration tradeoffs across teams.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Multiplatform",
+      "GCP",
+      "Java",
+      "APIs",
+      "SDK design"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "1d5e8566"
+  },
+  "ashby-lovable-f65495a9-8279-4aa0-8c65-dd9b60e625e6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0a718b8c"
+  },
+  "greenhouse-speechify-5974970004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design and development of native Windows desktop applications using Windows App SDK, WinUI, C#, and XAML, with emphasis on accessibility, performance, and cross-version compatibility. Own the full feature lifecycle from conception through release, define best practices for Windows desktop development across the codebase, and mentor other engineers on the platform team.",
+    "skills": [
+      "Windows App SDK",
+      "WinUI",
+      "C#",
+      "XAML",
+      "C++",
+      "Win32/WinRT/COM",
+      "Microsoft UI Automation",
+      ".NET"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "836a44b5"
+  },
+  "greenhouse-speechify-5974939004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design, architecture, and development of native Windows desktop applications using Windows App SDK, WinUI, C#, and C++, with a focus on accessibility and cross-version compatibility. Own features end-to-end from conception through release, mentoring other engineers and driving long-term technical direction for the Windows platform serving millions of users.",
+    "skills": [
+      "Windows App SDK",
+      "WinUI",
+      "C#",
+      "XAML",
+      "C++",
+      "Microsoft UI Automation",
+      ".NET",
+      "Win32/WinRT/COM"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6af996a3"
+  },
+  "greenhouse-speechify-5975090004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead design, architecture, and development of native Windows desktop applications using Windows App SDK, WinUI, C#, and XAML. Drive accessibility integration for millions of users relying on text-to-speech, with ownership of full feature lifecycle from conception through production release.",
+    "skills": [
+      "Windows App SDK",
+      "WinUI",
+      "C#",
+      "XAML",
+      "C++",
+      "Windows UI Automation",
+      ".NET",
+      "Win32/WinRT/COM"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bc2ee3f3"
+  },
+  "greenhouse-speechify-5976265004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design, architecture, and development of native Windows desktop applications for Speechify's text-to-speech platform, building accessible, high-performance tools used by over 50 million people. Drive technical standards, mentorship, and accessibility integration across the Windows product suite while owning features end-to-end from conception through release and maintenance.",
+    "skills": [
+      "C#",
+      "XAML",
+      "Windows App SDK",
+      "WinUI",
+      "C++",
+      "Microsoft UI Automation",
+      ".NET",
+      "Win32/WinRT/COM"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "b66ce5b3"
+  },
+  "greenhouse-speechify-5975409004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate cloud-scale data ingestion pipelines on GCP that collect, process, and validate petabyte-scale audio datasets for training next-generation speech models. Design infrastructure to shift the cost/throughput/quality frontier while collaborating with ML researchers and product leadership to power Speechify's consumer and enterprise products.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "Data pipelines",
+      "Web crawlers",
+      "Linux"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3c56c25f"
+  },
+  "greenhouse-speechify-5975405004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate petabyte-scale data ingestion pipelines on GCP to collect high-quality audio datasets for training next-generation text-to-speech models. Integrate infrastructure, engineering, and research to shift the cost/throughput/quality frontier and power Speechify's consumer and enterprise AI products.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "Kubernetes",
+      "Data pipelines",
+      "Web crawlers"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "57fc17bb"
+  },
+  "greenhouse-speechify-5974168004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and develop robust backend APIs for text-to-speech products including payments, subscriptions, and consumption tracking. Build high-availability services serving 50 million users globally on GCP infrastructure.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "GCP",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "PostgreSQL",
+      "API Design"
+    ],
+    "level": "mid",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "bc08c160"
+  },
+  "greenhouse-speechify-5974270004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, develop, and maintain backend APIs for text-to-speech and core platform services including payments, subscriptions, and analytics. Build high-availability systems serving 50M+ users across distributed infrastructure.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "GCP",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "API Design",
+      "PostgreSQL"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97238cd1"
+  },
+  "greenhouse-speechify-5975132004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate cloud-based data ingestion pipelines at petabyte scale on GCP to collect and process audio data for training text-to-speech models. Work at the intersection of infrastructure engineering and machine learning, optimizing the cost/throughput/quality frontier for high-quality datasets.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "Data Pipelines",
+      "Web Crawlers",
+      "Infrastructure-as-Code"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c16c445f"
+  },
+  "greenhouse-speechify-5975220004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate petabyte-scale data ingestion pipelines on GCP to collect audio datasets for training speech AI models. Work at the intersection of infrastructure engineering and ML research to optimize cost, throughput, and data quality for next-generation products.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Docker",
+      "GCP",
+      "Terraform",
+      "Infrastructure-as-Code",
+      "Web crawlers",
+      "Data processing"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "6e55c421"
+  },
+  "greenhouse-speechify-5975823004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design and development of Speechify's web products and Chrome Extension, shipping production code to serve 50+ million users. Build and scale user-facing features across the Speechify ecosystem using modern web technologies in a fully distributed, fast-moving startup environment.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Firebase",
+      "Redux"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "2b5dc168"
+  },
+  "greenhouse-speechify-5976009004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead web product development and the Chrome Extension, shipping production code and shaping the product roadmap for Speechify's text-to-speech platform used by 50M+ people. Drive technical decisions on Vanilla JS, React, and Firebase systems serving millions of users at scale.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Firebase",
+      "Redux",
+      "Vanilla JavaScript"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "268efaa2"
+  },
+  "greenhouse-speechify-5975530004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead major feature ownership and Android team strategy for Speechify's most-used text-to-speech app on the Play Store, working closely with design and product to deliver high-quality features at scale. Build user experiences that delight millions of people with learning differences, including dyslexia, ADD, and low vision.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Coroutines",
+      "Kotlin Flow",
+      "Dagger 2",
+      "MVVM",
+      "Jetpack Compose",
+      "JUnit"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "a8ab603d"
+  },
+  "breezy-new-incentives-b8e6b722f7ed": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "01eb49e1"
+  },
+  "greenhouse-speechify-5975268004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build and operate petabyte-scale data ingestion pipelines on GCP to collect high-quality audio datasets powering Speechify's text-to-speech models. Work at the intersection of infrastructure, data engineering, and ML research to shift the cost/throughput/quality frontier for next-generation products.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Docker",
+      "Terraform",
+      "GCP",
+      "Kubernetes",
+      "Web Crawlers",
+      "Data Processing Pipelines"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1f57b222"
+  },
+  "lever-mytos-bbb558c0-d769-4b5f-a3a7-025642c2626d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build full-stack cloud and IoT software for automated cell production machines that enable drug discovery and cell therapy manufacturing. Work on hardware-integrated systems where software directly impacts the speed of bringing new therapies to patients.",
+    "skills": [
+      "IoT",
+      "Cloud platforms",
+      "Full-stack development"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97ca6d20"
+  },
+  "greenhouse-speechify-5975698004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the development and maintenance of Speechify's Android app, the most-used text-to-speech application on the Play Store. Own major features end-to-end, shape the Android team's technical direction, and drive improvements to reliability and user experience for millions of users.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Coroutines",
+      "Kotlin Flow",
+      "Dagger 2",
+      "MVVM",
+      "Jetpack Compose",
+      "JUnit"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "13405231"
+  },
+  "workable-weekday-1-79AB65397B": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c1fd2ba0"
+  },
+  "workable-weekday-1-2DADE359AF": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f46c6b32"
+  },
+  "workable-weekday-1-3CD2F6B139": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9d2a15e6"
+  },
+  "ashby-snowflake-8850cf03-3370-47d7-ae7f-f732f4100fa0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "76f6215c"
+  },
+  "ashby-snowflake-af11d12f-0420-4b61-9de2-305209456a18": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "751d5238"
+  },
+  "ashby-uipath-e5fa0ba8-d7ef-421c-a9b8-91cba5e400a4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5045270a"
+  },
+  "greenhouse-rightmovecareers-4803753101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead cross-functional product engineering teams at the UK's largest property portal, defining strategy, removing blockers, and building sustainable systems. Manage full software engineering lifecycle including hiring, delivery planning, technical stewardship, and talent development in a hybrid environment with high scale and real-world user impact.",
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "70553a0a"
+  },
+  "lever-spotify-1849318a-d2e4-48a6-adad-68f8a4518f7d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0de77c8d"
+  },
+  "greenhouse-mongodb-7838287": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design and implementation of application migration tools and services that help enterprise customers move their workloads to MongoDB. Work on infrastructure and platform systems handling large-scale data movement and transformation across diverse environments.",
+    "skills": [
+      "MongoDB",
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes",
+      "Distributed Systems",
+      "PostgreSQL"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "28705996"
   }
 }
