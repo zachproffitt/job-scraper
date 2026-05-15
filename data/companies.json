@@ -11,14 +11,14 @@
     "ats": "greenhouse",
     "slug": "airbnb",
     "website": "https://airbnb.com",
-    "meta_description": "Get an Airbnb for every kind of trip \u2192 8 million vacation rentals \u2192 2 million Guest Favorites \u2192 220+ countries and regions worldwide"
+    "meta_description": "Get an Airbnb for every kind of trip → 8 million vacation rentals → 2 million Guest Favorites → 220+ countries and regions worldwide"
   },
   {
     "name": "Figma",
     "ats": "greenhouse",
     "slug": "figma",
     "website": "https://figma.com",
-    "meta_description": "Figma is the leading collaborative design platform for building meaningful products. Design, prototype, and build products faster\u2014while gathering feedback all in one place."
+    "meta_description": "Figma is the leading collaborative design platform for building meaningful products. Design, prototype, and build products faster—while gathering feedback all in one place."
   },
   {
     "name": "Vercel",
@@ -67,7 +67,7 @@
     "ats": "ashby",
     "slug": "Clerk",
     "website": "https://clerk.com",
-    "meta_description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and \u201cThe Modern Web\u201d."
+    "meta_description": "The easiest way to add authentication and user management to your application. Purpose-built for React, Next.js, Remix, and “The Modern Web”."
   },
   {
     "name": "Supabase",
@@ -95,14 +95,14 @@
     "ats": "greenhouse",
     "slug": "relativity",
     "website": "https://relativityspace.com",
-    "meta_description": "Relativity Space builds reusable rockets that make access to space more reliable and routine\u2014empowering science, exploration, and innovation beyond our planet."
+    "meta_description": "Relativity Space builds reusable rockets that make access to space more reliable and routine—empowering science, exploration, and innovation beyond our planet."
   },
   {
     "name": "Astranis",
     "ats": "greenhouse",
     "slug": "astranis",
     "website": "https://astranis.com",
-    "meta_description": "Astranis designs, builds, and operates the world\u2019s most advanced high-orbit satellites."
+    "meta_description": "Astranis designs, builds, and operates the world’s most advanced high-orbit satellites."
   },
   {
     "name": "Spire Global",
@@ -134,7 +134,7 @@
     "ats": "greenhouse",
     "slug": "vast",
     "website": "https://www.vast.space",
-    "meta_description": "Vast's mission is to build next-generation habitats that allow humanity to live and thrive long-term in space, ensuring America\u2019s continuous human presence in low-Earth orbit."
+    "meta_description": "Vast's mission is to build next-generation habitats that allow humanity to live and thrive long-term in space, ensuring America’s continuous human presence in low-Earth orbit."
   },
   {
     "name": "Axiom Space",
@@ -309,14 +309,14 @@
     "ats": "workable",
     "slug": "huggingface",
     "website": "https://huggingface.co",
-    "meta_description": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science."
+    "meta_description": "We’re on a journey to advance and democratize artificial intelligence through open source and open science."
   },
   {
     "name": "Waymo",
     "ats": "greenhouse",
     "slug": "waymo",
     "website": "https://waymo.com",
-    "meta_description": "Waymo\u2014formerly the Google self-driving car project\u2014makes it safe and easy for people & things to get around with autonomous vehicles. Take a ride now."
+    "meta_description": "Waymo—formerly the Google self-driving car project—makes it safe and easy for people & things to get around with autonomous vehicles. Take a ride now."
   },
   {
     "name": "Zoox",
@@ -350,7 +350,7 @@
     "ats": "greenhouse",
     "slug": "kodiak",
     "website": "https://kodiak.ai",
-    "meta_description": "Our purpose-built autonomous solution, the Kodiak Driver, is the AV industry\u2019s most advanced driverless technology, seamlessly integrating into any driving platform for reliable movement in any environment. Learn how we\u2019re shaping the future of ground transportation."
+    "meta_description": "Our purpose-built autonomous solution, the Kodiak Driver, is the AV industry’s most advanced driverless technology, seamlessly integrating into any driving platform for reliable movement in any environment. Learn how we’re shaping the future of ground transportation."
   },
   {
     "name": "Anduril Industries",
@@ -370,7 +370,7 @@
     "ats": "greenhouse",
     "slug": "rebelliondefense",
     "website": "https://rebelliondefense.com",
-    "meta_description": "Rebellion is building the system that will shield America\u2019s infrastructure."
+    "meta_description": "Rebellion is building the system that will shield America’s infrastructure."
   },
   {
     "name": "Epirus",
@@ -476,7 +476,7 @@
     "ats": "greenhouse",
     "slug": "antora",
     "website": "https://antoraenergy.com",
-    "meta_description": "Antora builds and deploys thermal energy storage to power always-on industrial operations with low-cost energy. Factory-built in the United States, Antora\u2019s thermal batteries deliver reliable and cost-effective heat and power for industrial loads of any size."
+    "meta_description": "Antora builds and deploys thermal energy storage to power always-on industrial operations with low-cost energy. Factory-built in the United States, Antora’s thermal batteries deliver reliable and cost-effective heat and power for industrial loads of any size."
   },
   {
     "name": "Epic Games",
@@ -509,7 +509,7 @@
     "ats": "ashby",
     "slug": "niantic",
     "website": "https://nianticlabs.com",
-    "meta_description": "We build real world, AR games and apps that encourage people to explore the world, including top hits like Pok\u00e9mon GO. Discover Niantic today!"
+    "meta_description": "We build real world, AR games and apps that encourage people to explore the world, including top hits like Pokémon GO. Discover Niantic today!"
   },
   {
     "name": "CD Projekt Red",
@@ -826,7 +826,7 @@
     "ats": "ashby",
     "slug": "ScribdInc",
     "website": "https://scribd.com",
-    "meta_description": "Get to the source. Specialized knowledge on any topic, and answers you won\u2019t find anywhere else. Home to the world\u2019s documents, 300M+ and counting."
+    "meta_description": "Get to the source. Specialized knowledge on any topic, and answers you won’t find anywhere else. Home to the world’s documents, 300M+ and counting."
   },
   {
     "name": "Recursion",
@@ -874,7 +874,7 @@
     "ats": "greenhouse",
     "slug": "firaxis",
     "website": "https://firaxis.com",
-    "meta_description": "Welcome to Firaxis Games. Creators of Sid Meier\u2019s Civilization VII, XCOM, and Marvel\u2019s Midnight Suns. Explore our latest news, games, and career openings."
+    "meta_description": "Welcome to Firaxis Games. Creators of Sid Meier’s Civilization VII, XCOM, and Marvel’s Midnight Suns. Explore our latest news, games, and career openings."
   },
   {
     "name": "Frontier Developments",
@@ -936,7 +936,7 @@
     "slug": "tempus/wd5/Tempus_Careers",
     "website": "https://tempus.com",
     "category": [],
-    "meta_description": "Tempus has built the world\u2019s largest library of clinical & molecular data and an operating system to make that data accessible and useful, starting with cancer."
+    "meta_description": "Tempus has built the world’s largest library of clinical & molecular data and an operating system to make that data accessible and useful, starting with cancer."
   },
   {
     "name": "Bend Studio",
@@ -944,7 +944,7 @@
     "slug": "sonyinteractiveentertainmentglobal",
     "website": "https://bendstudio.com",
     "category": [],
-    "meta_description": "With over 25 years of experience, Bend Studio is a Sony first-party AAA game developer, located at the base of Oregon\u2019s beautiful Cascade Mountains."
+    "meta_description": "With over 25 years of experience, Bend Studio is a Sony first-party AAA game developer, located at the base of Oregon’s beautiful Cascade Mountains."
   },
   {
     "name": "Character.ai",
@@ -959,7 +959,7 @@
     "slug": "cognition",
     "website": "https://cognition.ai",
     "category": [],
-    "meta_description": "An Agent Lab building the future of software engineering. We\u2019re the makers of Devin, a collaborative AI teammate that helps ambitious engineering teams achieve more."
+    "meta_description": "An Agent Lab building the future of software engineering. We’re the makers of Devin, a collaborative AI teammate that helps ambitious engineering teams achieve more."
   },
   {
     "name": "Descript",
@@ -991,7 +991,7 @@
     "slug": "magic.dev",
     "website": "https://magic.dev",
     "category": [],
-    "meta_description": "Magic is an AI company that is working toward building safe AGI to accelerate humanity\u2019s progress on the world\u2019s most important problems."
+    "meta_description": "Magic is an AI company that is working toward building safe AGI to accelerate humanity’s progress on the world’s most important problems."
   },
   {
     "name": "Pika",
@@ -1063,7 +1063,7 @@
     "slug": "astronomer",
     "website": "https://astronomer.io",
     "category": [],
-    "meta_description": "Apache Airflow\u00ae orchestrates the world\u2019s data, ML, and AI pipelines. Astro is the best way to build, run, and observe them at scale."
+    "meta_description": "Apache Airflow® orchestrates the world’s data, ML, and AI pipelines. Astro is the best way to build, run, and observe them at scale."
   },
   {
     "name": "CockroachLabs",
@@ -1079,7 +1079,7 @@
     "slug": "dbtlabsinc",
     "website": "https://getdbt.com",
     "category": [],
-    "meta_description": "dbt Labs empowers data teams to build reliable, governed data pipelines\u2014accelerating analytics and AI initiatives with speed and confidence."
+    "meta_description": "dbt Labs empowers data teams to build reliable, governed data pipelines—accelerating analytics and AI initiatives with speed and confidence."
   },
   {
     "name": "Harness",
@@ -1134,7 +1134,7 @@
     "slug": "planetscale",
     "website": "https://planetscale.com",
     "category": [],
-    "meta_description": "PlanetScale offers the world\u2019s fastest and most scalable cloud hosting for Vitess and Postgres."
+    "meta_description": "PlanetScale offers the world’s fastest and most scalable cloud hosting for Vitess and Postgres."
   },
   {
     "name": "Prefect",
@@ -1251,7 +1251,7 @@
     "slug": "cityblockhealth/wd1/CityblockExternalCareerSite",
     "website": "https://cityblock.com",
     "category": [],
-    "meta_description": "Cityblock Health delivers compassionate care that\u2019s built around you\u2014because your time, feelings, and story matter."
+    "meta_description": "Cityblock Health delivers compassionate care that’s built around you—because your time, feelings, and story matter."
   },
   {
     "name": "Deep Genomics",
@@ -1306,7 +1306,7 @@
     "slug": "plus-2",
     "website": "https://plus.ai",
     "category": [],
-    "meta_description": "PlusAI is transforming transportation with Physical AI, developing SuperDrive\u2122 virtual driver software for factory-built autonomous commercial vehicles and HyperFoundry\u2122 AI data platform."
+    "meta_description": "PlusAI is transforming transportation with Physical AI, developing SuperDrive™ virtual driver software for factory-built autonomous commercial vehicles and HyperFoundry™ AI data platform."
   },
   {
     "name": "Pony.ai",
@@ -1314,7 +1314,7 @@
     "slug": "pony-dot-ai",
     "website": "https://pony.ai",
     "category": [],
-    "meta_description": "Leading global autonomous driving technology company Pony.ai, Inc. (\u201cPony.ai\u201d) is pursuing an ambitious vision for autonomous mobility. We aim to bring safe, sustainable, and accessible mobility to the entire world."
+    "meta_description": "Leading global autonomous driving technology company Pony.ai, Inc. (“Pony.ai”) is pursuing an ambitious vision for autonomous mobility. We aim to bring safe, sustainable, and accessible mobility to the entire world."
   },
   {
     "name": "Waabi",
@@ -1322,7 +1322,7 @@
     "slug": "waabi",
     "website": "https://waabi.ai",
     "category": [],
-    "meta_description": "Waabi is pioneering Physical AI, starting with autonomous trucks. \nWe developed a next-generation approach leveraging an end-to-end interpretable and verifiable AI model that\u2019s powered by the industry's most realistic neural simulator. This dramatically reduces the development time and resources needed to bring self-driving vehicles to public roads \u2014 safely and at scale."
+    "meta_description": "Waabi is pioneering Physical AI, starting with autonomous trucks. \nWe developed a next-generation approach leveraging an end-to-end interpretable and verifiable AI model that’s powered by the industry's most realistic neural simulator. This dramatically reduces the development time and resources needed to bring self-driving vehicles to public roads — safely and at scale."
   },
   {
     "name": "Joby Aviation",
@@ -1330,7 +1330,7 @@
     "slug": "careers-jobyaviation",
     "website": "https://jobyaviation.com",
     "category": [],
-    "meta_description": "Experience Joby Aviation\u2019s all-electric air taxi: vertical take-off and landing, seamless door to door travel, all from our app."
+    "meta_description": "Experience Joby Aviation’s all-electric air taxi: vertical take-off and landing, seamless door to door travel, all from our app."
   },
   {
     "name": "Skyryse",
@@ -1346,7 +1346,7 @@
     "slug": "wisk/wd108/Wisk_Careers",
     "website": "https://wisk.aero",
     "category": [],
-    "meta_description": "Wisk is building the world\u2019s first autonomous, all-electric air taxi. Backed by Boeing, with six generations of aircraft and 1,750+ test flights."
+    "meta_description": "Wisk is building the world’s first autonomous, all-electric air taxi. Backed by Boeing, with six generations of aircraft and 1,750+ test flights."
   },
   {
     "name": "Astroscale",
@@ -1354,7 +1354,7 @@
     "slug": "astroscale",
     "website": "https://astroscale.com",
     "category": [],
-    "meta_description": "Astroscale delivers safe, sustainable on-orbit services\u2014debris removal, life extension & inspection\u2014for civil, defense, and commercial space missions."
+    "meta_description": "Astroscale delivers safe, sustainable on-orbit services—debris removal, life extension & inspection—for civil, defense, and commercial space missions."
   },
   {
     "name": "CesiumAstro",
@@ -1362,7 +1362,7 @@
     "slug": "CesiumAstro",
     "website": "https://cesiumastro.com",
     "category": [],
-    "meta_description": "CesiumAstro delivers scalable satellites, terminals, and software-defined systems for the missions that matter\u2014built for performance, ready to deploy."
+    "meta_description": "CesiumAstro delivers scalable satellites, terminals, and software-defined systems for the missions that matter—built for performance, ready to deploy."
   },
   {
     "name": "Vantor",
@@ -1505,7 +1505,7 @@
     "slug": "jetbrains",
     "website": "https://jetbrains.com",
     "category": [],
-    "meta_description": "JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA \u2013 the leading Java IDE, and the Kotlin programming language."
+    "meta_description": "JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including IntelliJ IDEA – the leading Java IDE, and the Kotlin programming language."
   },
   {
     "name": "Render",
@@ -1616,7 +1616,7 @@
     "slug": "natera",
     "website": "https://natera.com",
     "category": [],
-    "meta_description": "Dedicated to oncology, women\u2019s health, and organ health. Natera\u2019s cell-free DNA tests help protect health and inform more personalized decisions about care."
+    "meta_description": "Dedicated to oncology, women’s health, and organ health. Natera’s cell-free DNA tests help protect health and inform more personalized decisions about care."
   },
   {
     "name": "Berkshire Grey",
@@ -1654,7 +1654,7 @@
     "slug": "bigcommerce/wd12/Commerce",
     "website": "https://bigcommerce.com",
     "category": [],
-    "meta_description": "Power modern buying experiences across brands, regions, and channels \u2014 all from a single, scalable foundation. Learn more."
+    "meta_description": "Power modern buying experiences across brands, regions, and channels — all from a single, scalable foundation. Learn more."
   },
   {
     "name": "Rain Neuromorphics",
@@ -1701,7 +1701,7 @@
     "slug": "pinecone",
     "website": "https://pinecone.io",
     "category": [],
-    "meta_description": "Search through billions of items for similar matches to any object, in milliseconds. It\u2019s the next generation of search, an API call away."
+    "meta_description": "Search through billions of items for similar matches to any object, in milliseconds. It’s the next generation of search, an API call away."
   },
   {
     "name": "Zilliz",
@@ -1741,7 +1741,7 @@
     "slug": "horizon3ai",
     "website": "https://horizon3.ai",
     "category": [],
-    "meta_description": "Horizon3.ai uses real-world attacks to safely show what attackers can actually do in your environment\u2014so you can fix and prove what matters."
+    "meta_description": "Horizon3.ai uses real-world attacks to safely show what attackers can actually do in your environment—so you can fix and prove what matters."
   },
   {
     "name": "Alchemy",
@@ -1781,7 +1781,7 @@
     "slug": "cultureamp",
     "website": "https://cultureamp.com",
     "category": [],
-    "meta_description": "Empower your teams and fuel positive change with performance, development, and employee engagement tools \u2013 all-in-one intuitive employee experience platform."
+    "meta_description": "Empower your teams and fuel positive change with performance, development, and employee engagement tools – all-in-one intuitive employee experience platform."
   },
   {
     "name": "Lattice",
@@ -1789,7 +1789,7 @@
     "slug": "lattice",
     "website": "https://lattice.com",
     "category": [],
-    "meta_description": "Join 5,000+ forward-thinking teams using Lattice\u2019s HR and AI tools to manage people and performance \u2014 all on one trusted platform."
+    "meta_description": "Join 5,000+ forward-thinking teams using Lattice’s HR and AI tools to manage people and performance — all on one trusted platform."
   },
   {
     "name": "Leapsome",
@@ -1861,7 +1861,7 @@
     "slug": "Deepgram",
     "website": "https://deepgram.com",
     "category": [],
-    "meta_description": "Power enterprise voice solutions with Deepgram\u2019s Speech-to-Text, Text-to-Speech, and Voice Agent APIs. Real-time, accurate, and built for scale."
+    "meta_description": "Power enterprise voice solutions with Deepgram’s Speech-to-Text, Text-to-Speech, and Voice Agent APIs. Real-time, accurate, and built for scale."
   },
   {
     "name": "Jasper",
@@ -1869,7 +1869,7 @@
     "slug": "Jasper AI",
     "website": "https://jasper.ai",
     "category": [],
-    "meta_description": "Orchestrate intelligent agents to run end-to-end marketing workflows\u2014delivering speed, control, and measurable impact."
+    "meta_description": "Orchestrate intelligent agents to run end-to-end marketing workflows—delivering speed, control, and measurable impact."
   },
   {
     "name": "Lovable",
@@ -1877,7 +1877,7 @@
     "slug": "lovable",
     "website": "https://lovable.dev",
     "category": [],
-    "meta_description": "Build apps, websites, and digital products faster using Lovable\u2019s no-code and AI-powered platform, no deep coding skills required."
+    "meta_description": "Build apps, websites, and digital products faster using Lovable’s no-code and AI-powered platform, no deep coding skills required."
   },
   {
     "name": "Speechify",
@@ -1973,7 +1973,7 @@
     "slug": "hippo70",
     "website": "https://hippo.com",
     "category": [],
-    "meta_description": "Hippo Insurance Services helps you compare quotes from 70+ top carriers to save on homeowners insurance \u2014 all in just 60 seconds."
+    "meta_description": "Hippo Insurance Services helps you compare quotes from 70+ top carriers to save on homeowners insurance — all in just 60 seconds."
   },
   {
     "name": "Foursquare",
@@ -2005,15 +2005,7 @@
     "slug": "ffive/wd5/f5jobs",
     "website": "https://f5.com",
     "category": [],
-    "meta_description": "F5 application services ensure that applications are always secure and perform the way they should\u2014in any environment and on any device."
-  },
-  {
-    "name": "Juniper Networks",
-    "ats": "workday",
-    "slug": "hpe/wd5/Jobsathpe",
-    "website": "https://juniper.net",
-    "category": [],
-    "meta_description": "Proven AI for your network. Mist, the AI-native networking platform makes every connection more reliable, measurable, and secure for businesses."
+    "meta_description": "F5 application services ensure that applications are always secure and perform the way they should—in any environment and on any device."
   },
   {
     "name": "Booz Allen Hamilton",
@@ -2021,7 +2013,7 @@
     "slug": "bah/wd1/BAH_Jobs",
     "website": "https://boozallen.com",
     "category": [],
-    "meta_description": "We transform missions with tomorrow\u2019s technologies to advance the country\u2019s most critical civil, defense, and national security priorities."
+    "meta_description": "We transform missions with tomorrow’s technologies to advance the country’s most critical civil, defense, and national security priorities."
   },
   {
     "name": "ServiceTitan",
@@ -2077,7 +2069,7 @@
     "slug": "modernatx/wd1/M_tx",
     "website": "https://modernatx.com",
     "category": [],
-    "meta_description": "Learn how we\u2019re changing the world of medicine. Discover career opportunities, our product pipeline, and browse media resources. Meet Moderna."
+    "meta_description": "Learn how we’re changing the world of medicine. Discover career opportunities, our product pipeline, and browse media resources. Meet Moderna."
   },
   {
     "name": "Verily",
@@ -2149,7 +2141,7 @@
     "slug": "webflow",
     "website": "https://webflow.com",
     "category": [],
-    "meta_description": "Design, build, optimize, and rank in AI search \u2014 all in Webflow. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams."
+    "meta_description": "Design, build, optimize, and rank in AI search — all in Webflow. Enterprise-grade security, CMS, hosting, and AEO built in. Trusted by over 300k teams."
   },
   {
     "name": "Aleph Alpha",
@@ -2157,7 +2149,7 @@
     "slug": "AlephAlpha",
     "website": "https://aleph-alpha.com",
     "category": [],
-    "meta_description": "Aleph Alpha entwickelt spezialisierte Sprachmodelle und KI-L\u00f6sungen f\u00fcr Unternehmen und \u00f6ffentliche Institutionen in Europa."
+    "meta_description": "Aleph Alpha entwickelt spezialisierte Sprachmodelle und KI-Lösungen für Unternehmen und öffentliche Institutionen in Europa."
   },
   {
     "name": "Codeium",
@@ -2165,7 +2157,7 @@
     "slug": "cognition",
     "website": "https://codeium.com",
     "category": [],
-    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor \u2014 the first AI-native IDE that keeps developers in flow."
+    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor — the first AI-native IDE that keeps developers in flow."
   },
   {
     "name": "Compulsion Games",
@@ -2251,7 +2243,7 @@
     "slug": "warhorsestudios",
     "website": "https://warhorsestudios.cz",
     "category": [],
-    "meta_description": "Hern\u00ed studio Warhorse. Tv\u016frci oce\u0148ovan\u00e9ho st\u0159edov\u011bk\u00e9ho RPG Kingdom Come: Deliverance a\u00a0jeho \u00fasp\u011b\u0161n\u00e9ho pokra\u010dov\u00e1n\u00ed Kingdom Come: Deliverance II."
+    "meta_description": "Herní studio Warhorse. Tvůrci oceňovaného středověkého RPG Kingdom Come: Deliverance a jeho úspěšného pokračování Kingdom Come: Deliverance II."
   },
   {
     "name": "Windsurf",
@@ -2259,7 +2251,7 @@
     "slug": "cognition",
     "website": "https://windsurf.com",
     "category": [],
-    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor \u2014 the first AI-native IDE that keeps developers in flow."
+    "meta_description": "Windsurf is the world's most advanced AI coding assistant for developers and enterprises. Windsurf Editor — the first AI-native IDE that keeps developers in flow."
   },
   {
     "name": "Wirewheel",
@@ -2283,7 +2275,7 @@
     "slug": "1910genetics",
     "website": "https://1910.ai",
     "category": [],
-    "meta_description": "Discover 1910 \u2014 a multimodal, modality-agnostic AI infrastructure for pharma. Our ITO\u2122 platform integrates wet lab, computational, and proxy data to help companies reliably drug the undruggable."
+    "meta_description": "Discover 1910 — a multimodal, modality-agnostic AI infrastructure for pharma. Our ITO™ platform integrates wet lab, computational, and proxy data to help companies reliably drug the undruggable."
   },
   {
     "name": "9 Mothers",
@@ -2323,7 +2315,7 @@
     "slug": "adaptyv",
     "website": "https://www.adaptyvbio.com",
     "category": [],
-    "meta_description": "Adaptyv generates the data that AI models need to design new proteins \u2014 in just 3 weeks. Fully automated lab, clean experimental data, and comprehensive API."
+    "meta_description": "Adaptyv generates the data that AI models need to design new proteins — in just 3 weeks. Fully automated lab, clean experimental data, and comprehensive API."
   },
   {
     "name": "Aerones",
@@ -2347,7 +2339,7 @@
     "slug": "AgentMail",
     "website": "https://agentmail.to",
     "category": [],
-    "meta_description": "Give AI agents real email inboxes. Create, send, receive, and search messages via REST API \u2014 built for autonomous agents and agentic workflows."
+    "meta_description": "Give AI agents real email inboxes. Create, send, receive, and search messages via REST API — built for autonomous agents and agentic workflows."
   },
   {
     "name": "AiPrise",
@@ -2497,7 +2489,7 @@
     "slug": "arraylabs.io",
     "website": "https://www.arraylabs.io",
     "category": [],
-    "meta_description": "Array Labs creates powerful, modular, and flexible radar systems designed for mass production \u2014 delivering greater capability and performance at a fraction of the cost of traditional approaches."
+    "meta_description": "Array Labs creates powerful, modular, and flexible radar systems designed for mass production — delivering greater capability and performance at a fraction of the cost of traditional approaches."
   },
   {
     "name": "Artie",
@@ -2505,7 +2497,7 @@
     "slug": "artie",
     "website": "https://www.artie.com",
     "category": [],
-    "meta_description": "Artie moves data across systems in real-time \u2014 so AI systems can act on fresh, correct data. The modern way to replicate data: deploy in minutes, no maintenance required."
+    "meta_description": "Artie moves data across systems in real-time — so AI systems can act on fresh, correct data. The modern way to replicate data: deploy in minutes, no maintenance required."
   },
   {
     "name": "Astro Mechanica",
@@ -2585,7 +2577,7 @@
     "slug": "baubap",
     "website": "https://www.baubap.com",
     "category": [],
-    "meta_description": "\u00bfNecesitas dinero urgente? En Baubap te ofrecemos pr\u00e9stamos en l\u00ednea r\u00e1pidos, sin Bur\u00f3 de Cr\u00e9dito, sin comprobar ingresos. Registrados ante CONDUSEF. Solicita tu pr\u00e9stamo inmediato hoy mismo."
+    "meta_description": "¿Necesitas dinero urgente? En Baubap te ofrecemos préstamos en línea rápidos, sin Buró de Crédito, sin comprobar ingresos. Registrados ante CONDUSEF. Solicita tu préstamo inmediato hoy mismo."
   },
   {
     "name": "Benchling",
@@ -2657,7 +2649,7 @@
     "slug": "blueberrypediatrics",
     "website": "https://blueberrypediatrics.com",
     "category": [],
-    "meta_description": "Blueberry provides unlimited, on-demand 24/7 virtual care from board-certified pediatricians and proactively checks your child\u2019s development. Gain peace of mind knowing your child is thriving."
+    "meta_description": "Blueberry provides unlimited, on-demand 24/7 virtual care from board-certified pediatricians and proactively checks your child’s development. Gain peace of mind knowing your child is thriving."
   },
   {
     "name": "Boostly",
@@ -2689,7 +2681,7 @@
     "slug": "bunkerhillhealth",
     "website": "https://bunkerhillhealth.com",
     "category": [],
-    "meta_description": "Bunkerhill helps health systems use generative AI to understand each patient\u2019s full clinical context and take the right next steps\u2014automatically and at scale."
+    "meta_description": "Bunkerhill helps health systems use generative AI to understand each patient’s full clinical context and take the right next steps—automatically and at scale."
   },
   {
     "name": "Camber",
@@ -2697,7 +2689,7 @@
     "slug": "camber",
     "website": "https://www.camber.health",
     "category": [],
-    "meta_description": "Discover Camber\u2019s AI-driven medical billing software and healthcare revenue cycle management (RCM) to cut denials, boost cash flow, and speed reimbursements."
+    "meta_description": "Discover Camber’s AI-driven medical billing software and healthcare revenue cycle management (RCM) to cut denials, boost cash flow, and speed reimbursements."
   },
   {
     "name": "Cambio",
@@ -2737,7 +2729,7 @@
     "slug": "candidhealth",
     "website": "https://www.joincandidhealth.com",
     "category": [],
-    "meta_description": "Candid Health is your source of truth for revenue cycle management\u2014track claims end-to-end, automate fixes, unlock insights, and scale digital health payments."
+    "meta_description": "Candid Health is your source of truth for revenue cycle management—track claims end-to-end, automate fixes, unlock insights, and scale digital health payments."
   },
   {
     "name": "Canopy (was Encarte)",
@@ -2745,7 +2737,7 @@
     "slug": "canopy",
     "website": "https://www.heycanopy.com",
     "category": [],
-    "meta_description": "Thousands of investors and managers, from multi-billion dollar hedge funds to fresh syndicate leads, use Canopy\u2019s software to set up funds, manage capital, and report performances online."
+    "meta_description": "Thousands of investors and managers, from multi-billion dollar hedge funds to fresh syndicate leads, use Canopy’s software to set up funds, manage capital, and report performances online."
   },
   {
     "name": "Capi Money",
@@ -2872,7 +2864,7 @@
     "slug": "Close",
     "website": "https://close.com",
     "category": [],
-    "meta_description": "Close is a sales CRM with built-in calling, email, SMS, and Chloe \u2014 an AI sales agent that calls leads, qualifies prospects, and can book meetings. Most CRMs store data. Close helps you act on it. Start your free trial."
+    "meta_description": "Close is a sales CRM with built-in calling, email, SMS, and Chloe — an AI sales agent that calls leads, qualifies prospects, and can book meetings. Most CRMs store data. Close helps you act on it. Start your free trial."
   },
   {
     "name": "Cofactor Genomics",
@@ -2911,7 +2903,7 @@
     "slug": "complete",
     "website": "https://complete.so",
     "category": [],
-    "meta_description": "Complete helps companies design, manage, and communicate compensation with clarity\u2014from offers and leveling to planning and total rewards."
+    "meta_description": "Complete helps companies design, manage, and communicate compensation with clarity—from offers and leveling to planning and total rewards."
   },
   {
     "name": "Concourse",
@@ -2959,7 +2951,7 @@
     "slug": "cortex",
     "website": "https://cortex.io",
     "category": [],
-    "meta_description": "Cortex is the Engineering Operations Platform that helps organizations continuously improve their operational maturity and reduce developer friction \u2013 so that the whole organization operates as one."
+    "meta_description": "Cortex is the Engineering Operations Platform that helps organizations continuously improve their operational maturity and reduce developer friction – so that the whole organization operates as one."
   },
   {
     "name": "Corvus Robotics",
@@ -3078,7 +3070,7 @@
     "slug": "Deepnote",
     "website": "https://www.deepnote.com",
     "category": [],
-    "meta_description": "Explore data with Python & SQL, work together with your team, and share insights that lead to action \u2014 all in one place with Deepnote."
+    "meta_description": "Explore data with Python & SQL, work together with your team, and share insights that lead to action — all in one place with Deepnote."
   },
   {
     "name": "Doe",
@@ -3110,7 +3102,7 @@
     "slug": "duffel",
     "website": "https://duffel.com",
     "category": [],
-    "meta_description": "Any business \u2013 from travel startups to financial enterprises - can build with Duffel to search and book flights, stays, add ancillaries, charge customers, manage orders and more."
+    "meta_description": "Any business – from travel startups to financial enterprises - can build with Duffel to search and book flights, stays, add ancillaries, charge customers, manage orders and more."
   },
   {
     "name": "Duplo",
@@ -3118,7 +3110,7 @@
     "slug": "duplo",
     "website": "https://www.tryduplo.com",
     "category": [],
-    "meta_description": "The financial operating system for African businesses Move money globally, hold funds securely, and automate financial operations, all from one unified platform built for scale. Sign up for free See Duplo in action I\u2019m here to\u2026 Optimize Spend Pay Globally Explore APIs Request Demo (Enterprise) TRUSTED BY OUR PRODUCT SUITE A fully integrated suite of &hellip; Duplo | Best Expense Management and B2B Payments Software in Africa Read More &raquo;"
+    "meta_description": "The financial operating system for African businesses Move money globally, hold funds securely, and automate financial operations, all from one unified platform built for scale. Sign up for free See Duplo in action I’m here to… Optimize Spend Pay Globally Explore APIs Request Demo (Enterprise) TRUSTED BY OUR PRODUCT SUITE A fully integrated suite of &hellip; Duplo | Best Expense Management and B2B Payments Software in Africa Read More &raquo;"
   },
   {
     "name": "Dyneti Technologies",
@@ -3142,7 +3134,7 @@
     "slug": "ekho",
     "website": "https://www.ekho.com",
     "category": [],
-    "meta_description": "Ekho is the Shopify\u00ae for titled vehicle dealerships. End-to-end checkout with financing, titling, registration, compliance, and AI-powered sales \u2014 in all 50 states."
+    "meta_description": "Ekho is the Shopify® for titled vehicle dealerships. End-to-end checkout with financing, titling, registration, compliance, and AI-powered sales — in all 50 states."
   },
   {
     "name": "Electric Air",
@@ -3158,7 +3150,7 @@
     "slug": "ello",
     "website": "https://www.ello.com",
     "category": [],
-    "meta_description": "Ello is your child\u2019s read-along companion who listens, teaches, and transforms them into an enthusiastic reader. For Kindergarten to 3rd Grade."
+    "meta_description": "Ello is your child’s read-along companion who listens, teaches, and transforms them into an enthusiastic reader. For Kindergarten to 3rd Grade."
   },
   {
     "name": "Eloquent AI",
@@ -3174,7 +3166,7 @@
     "slug": "elyos",
     "website": "https://www.elyos.ai",
     "category": [],
-    "meta_description": "Elyos AI builds AI agents for trade and field service businesses. Handle calls, book jobs, confirm appointments, and grow \u2014 all without adding headcount. Works with Simpro, ServiceTitan, JobLogic and more."
+    "meta_description": "Elyos AI builds AI agents for trade and field service businesses. Handle calls, book jobs, confirm appointments, and grow — all without adding headcount. Works with Simpro, ServiceTitan, JobLogic and more."
   },
   {
     "name": "Embrace",
@@ -3190,7 +3182,7 @@
     "slug": "emilabs",
     "website": "https://www.emilabs.ai",
     "category": [],
-    "meta_description": "Emi es la plataforma de reclutamiento masivo que ayuda a contratar m\u00e1s r\u00e1pido y eficiente, ofreciendo una mejor experiencia al candidato."
+    "meta_description": "Emi es la plataforma de reclutamiento masivo que ayuda a contratar más rápido y eficiente, ofreciendo una mejor experiencia al candidato."
   },
   {
     "name": "Encord",
@@ -3229,7 +3221,7 @@
     "slug": "every-io",
     "website": "https://every.io",
     "category": [],
-    "meta_description": "Start your company the right way. With Every, you can incorporate your startup and open a business bank account\u2014all in under a week. Built for founders who move fast."
+    "meta_description": "Start your company the right way. With Every, you can incorporate your startup and open a business bank account—all in under a week. Built for founders who move fast."
   },
   {
     "name": "Extend",
@@ -3283,7 +3275,7 @@
     "slug": "finary",
     "website": "https://finary.com",
     "category": [],
-    "meta_description": "Suivre. Optimiser. Investir. Finary est l'application qui vous aide \u00e0 mieux g\u00e9rer votre argent. Suivez tout votre patrimoine au m\u00eame endroit, g\u00e9rez votre budget, optimisez vos investissements et investissez."
+    "meta_description": "Suivre. Optimiser. Investir. Finary est l'application qui vous aide à mieux gérer votre argent. Suivez tout votre patrimoine au même endroit, gérez votre budget, optimisez vos investissements et investissez."
   },
   {
     "name": "Finni Health",
@@ -3307,7 +3299,7 @@
     "slug": "fintual",
     "website": "https://fintual.com",
     "category": [],
-    "meta_description": "Fintual es la app l\u00edder en inversiones reguladas en la regi\u00f3n: +200 mil personas invierten f\u00e1cil y sin m\u00ednimos en fondos, APV, acciones y ETFs."
+    "meta_description": "Fintual es la app líder en inversiones reguladas en la región: +200 mil personas invierten fácil y sin mínimos en fondos, APV, acciones y ETFs."
   },
   {
     "name": "Finvest",
@@ -3315,7 +3307,7 @@
     "slug": "finvest",
     "website": "https://www.getfinvest.com",
     "category": [],
-    "meta_description": "Take control of your finances with Finvest \u2013 the AI-powered wealth manager that helps you invest, save, and optimize every dollar with confidence."
+    "meta_description": "Take control of your finances with Finvest – the AI-powered wealth manager that helps you invest, save, and optimize every dollar with confidence."
   },
   {
     "name": "Firecrawl",
@@ -3331,7 +3323,7 @@
     "slug": "firstbaseio",
     "website": "https://firstbase.io",
     "category": [],
-    "meta_description": "Firstbase helps anyone to build a US business. Start a company, set up banking, payments, and payroll, and manage a business \u2014 online, from anywhere."
+    "meta_description": "Firstbase helps anyone to build a US business. Start a company, set up banking, payments, and payroll, and manage a business — online, from anywhere."
   },
   {
     "name": "Flagright",
@@ -3347,7 +3339,7 @@
     "slug": "flai",
     "website": "https://www.useflai.com",
     "category": [],
-    "meta_description": "Bring more customers in \u2013 Use AI to answer customers any time, across any channel the way your best dealership employee would."
+    "meta_description": "Bring more customers in – Use AI to answer customers any time, across any channel the way your best dealership employee would."
   },
   {
     "name": "Flaviar",
@@ -3355,7 +3347,7 @@
     "slug": "flaviar",
     "website": "https://flaviar.com",
     "category": [],
-    "meta_description": "Explore numerous Spirit brands &amp; Tasting Boxes. With Flaviar Black Membership, enjoy \u2713 VIP access to rare releases \u2713 exclusive promotions \u2713 free delivery &amp; beyond"
+    "meta_description": "Explore numerous Spirit brands &amp; Tasting Boxes. With Flaviar Black Membership, enjoy ✓ VIP access to rare releases ✓ exclusive promotions ✓ free delivery &amp; beyond"
   },
   {
     "name": "Fleek",
@@ -3363,7 +3355,7 @@
     "slug": "fleek",
     "website": "https://www.joinfleek.com",
     "category": [],
-    "meta_description": "Fleek: #1 marketplace for verified vintage wholesalers in UK, France, Germany & US \u2713 Top-ranked platform with global reach \u2713 Connecting elite retailers & wholesalers worldwide \u2713 Curated premium brands from across the globe \u2713 Join the leading international vintage wholesale network \u00bb Start with Fleek now!"
+    "meta_description": "Fleek: #1 marketplace for verified vintage wholesalers in UK, France, Germany & US ✓ Top-ranked platform with global reach ✓ Connecting elite retailers & wholesalers worldwide ✓ Curated premium brands from across the globe ✓ Join the leading international vintage wholesale network » Start with Fleek now!"
   },
   {
     "name": "Fleetzero",
@@ -3379,7 +3371,7 @@
     "slug": "withflex",
     "website": "https://www.withflex.com",
     "category": [],
-    "meta_description": "Browse 1000+ HSA/FSA-eligible brands and thousands of approved products\u2014from vitamins to wellness tech. Spend your pre-tax dollars and save instantly on Flex."
+    "meta_description": "Browse 1000+ HSA/FSA-eligible brands and thousands of approved products—from vitamins to wellness tech. Spend your pre-tax dollars and save instantly on Flex."
   },
   {
     "name": "Float Health",
@@ -3387,7 +3379,7 @@
     "slug": "nursing-float-health",
     "website": "https://floathealth.com",
     "category": [],
-    "meta_description": "Access to the best nurses when you need them, straight to your patient\u2019s homes."
+    "meta_description": "Access to the best nurses when you need them, straight to your patient’s homes."
   },
   {
     "name": "FLOWER CO.",
@@ -3459,7 +3451,7 @@
     "slug": "gather",
     "website": "https://www.gather.town",
     "category": [],
-    "meta_description": "Meet, chat, and work together like you\u2019re in person. See who"
+    "meta_description": "Meet, chat, and work together like you’re in person. See who"
   },
   {
     "name": "Gecko Robotics",
@@ -3501,20 +3493,12 @@
     "category": []
   },
   {
-    "name": "Goldbelly",
-    "ats": "greenhouse",
-    "slug": "goldbelly",
-    "website": "https://www.goldbelly.com",
-    "category": [],
-    "meta_description": "Goldbelly is a curated marketplace for Gourmet Food & Food Gifts. We feature America\u2019s most legendary and iconic foods and gifts that you can order directly to your door."
-  },
-  {
     "name": "GoLinks",
     "ats": "ashby",
     "slug": "golinks",
     "website": "https://www.golinks.io",
     "category": [],
-    "meta_description": "GoLinks\u00ae revolutionizes information access & sharing through secure, intuitive short links called go/links. It\u2019s knowledge discovery powered by generative AI."
+    "meta_description": "GoLinks® revolutionizes information access & sharing through secure, intuitive short links called go/links. It’s knowledge discovery powered by generative AI."
   },
   {
     "name": "GovDash",
@@ -3538,7 +3522,7 @@
     "slug": "greatquestion",
     "website": "https://greatquestion.co",
     "category": [],
-    "meta_description": "AI UX research software that brings recruitment, interviews, and insights into one AI-powered platform. Used by 300+ product teams. Start free \u2014 no credit card required."
+    "meta_description": "AI UX research software that brings recruitment, interviews, and insights into one AI-powered platform. Used by 300+ product teams. Start free — no credit card required."
   },
   {
     "name": "Greenboard",
@@ -3562,7 +3546,7 @@
     "slug": "gridware",
     "website": "https://www.gridware.io",
     "category": [],
-    "meta_description": "With more than 90 million field hours and counting, Gridware is already detecting the small changes that lead to big problems.Together with utility companies, we\u2019re preventing hazards from causing harm. We\u2019re helping crews restore power quickly and safely. And we\u2019re extending the life of assets in the field.Let\u2019s create a smarter, stronger, more resilient grid\u2014together."
+    "meta_description": "With more than 90 million field hours and counting, Gridware is already detecting the small changes that lead to big problems.Together with utility companies, we’re preventing hazards from causing harm. We’re helping crews restore power quickly and safely. And we’re extending the life of assets in the field.Let’s create a smarter, stronger, more resilient grid—together."
   },
   {
     "name": "Groww",
@@ -3625,7 +3609,7 @@
     "slug": "herondata",
     "website": "https://www.herondata.io",
     "category": [],
-    "meta_description": "Heron's AI\u00a0automates document intake, extraction, enrichment, and syncs structured data directly to your CRM or system of record."
+    "meta_description": "Heron's AI automates document intake, extraction, enrichment, and syncs structured data directly to your CRM or system of record."
   },
   {
     "name": "HiOperator",
@@ -3641,7 +3625,7 @@
     "slug": "hive.co",
     "website": "https://www.hive.co",
     "category": [],
-    "meta_description": "Elevate your event marketing with Hive \u2013 the custom-built platform for live events. Automate campaigns, measure success, and sell more tickets effortlessly."
+    "meta_description": "Elevate your event marketing with Hive – the custom-built platform for live events. Automate campaigns, measure success, and sell more tickets effortlessly."
   },
   {
     "name": "Hive Health",
@@ -3681,7 +3665,7 @@
     "slug": "hudu",
     "website": "https://hudu.com",
     "category": [],
-    "meta_description": "Modern ops platform built for documentation, SOPs, runbooks, and team workflows \u2014 streamline work and cut noise with confidence."
+    "meta_description": "Modern ops platform built for documentation, SOPs, runbooks, and team workflows — streamline work and cut noise with confidence."
   },
   {
     "name": "Humaans",
@@ -3713,7 +3697,7 @@
     "slug": "hypercubic",
     "website": "https://www.hypercubic.ai",
     "category": [],
-    "meta_description": "Hypercubic is agentic AI for mainframe modernization \u2014 trusted by leading enterprises and governments to transform the critical infrastructure that runs the world."
+    "meta_description": "Hypercubic is agentic AI for mainframe modernization — trusted by leading enterprises and governments to transform the critical infrastructure that runs the world."
   },
   {
     "name": "Icarus",
@@ -3792,7 +3776,7 @@
     "slug": "invert",
     "website": "https://www.invertbio.com",
     "category": [],
-    "meta_description": "Infrastructure and intelligence for bioprocess \u2014 for development and manufacturing teams at biopharma, synthetic biology, and CDMOs."
+    "meta_description": "Infrastructure and intelligence for bioprocess — for development and manufacturing teams at biopharma, synthetic biology, and CDMOs."
   },
   {
     "name": "Invopop",
@@ -3824,7 +3808,7 @@
     "slug": "junction",
     "website": "https://www.junction.com",
     "category": [],
-    "meta_description": "Junction provides seamless lab testing and wearable device data in a single integration to help healthcare providers scale personalized, predictive care. One API, nationwide lab networks, and built-in operational support \u2013 so you can focus on patient outcomes."
+    "meta_description": "Junction provides seamless lab testing and wearable device data in a single integration to help healthcare providers scale personalized, predictive care. One API, nationwide lab networks, and built-in operational support – so you can focus on patient outcomes."
   },
   {
     "name": "Justo",
@@ -3832,7 +3816,7 @@
     "slug": "getjusto",
     "website": "https://www.getjusto.com",
     "category": [],
-    "meta_description": "Software de gesti\u00f3n para negocios gastron\u00f3micos con inteligencia artificial."
+    "meta_description": "Software de gestión para negocios gastronómicos con inteligencia artificial."
   },
   {
     "name": "KaiPod Learning",
@@ -3848,7 +3832,7 @@
     "slug": "Kingdom",
     "website": "https://kingdomsuperculture.com",
     "category": [],
-    "meta_description": "Clinically-validated Superculture\u00ae ingredients target the root causes of unmet pet health needs."
+    "meta_description": "Clinically-validated Superculture® ingredients target the root causes of unmet pet health needs."
   },
   {
     "name": "Klarity",
@@ -3888,7 +3872,7 @@
     "slug": "Kombo",
     "website": "https://kombo.dev",
     "category": [],
-    "meta_description": "Integrate Kombo once \u2013 offer hundreds of integrations off-the-shelf to your customers."
+    "meta_description": "Integrate Kombo once – offer hundreds of integrations off-the-shelf to your customers."
   },
   {
     "name": "Lago",
@@ -3896,7 +3880,7 @@
     "slug": "lago",
     "website": "https://www.getlago.com",
     "category": [],
-    "meta_description": "Scale your AI or tech business with Lago: event-driven usage metering, hybrid pricing-ready, open-source + cloud \u2014 build fast, bill accurately."
+    "meta_description": "Scale your AI or tech business with Lago: event-driven usage metering, hybrid pricing-ready, open-source + cloud — build fast, bill accurately."
   },
   {
     "name": "LanceDB",
@@ -3912,7 +3896,7 @@
     "slug": "latent",
     "website": "https://latenthealth.com",
     "category": [],
-    "meta_description": "Streamline prior authorizations and accelerate patient access to advanced therapies with Latent Health\u2019s platform for health systems and pharmacies."
+    "meta_description": "Streamline prior authorizations and accelerate patient access to advanced therapies with Latent Health’s platform for health systems and pharmacies."
   },
   {
     "name": "Legalist",
@@ -4057,14 +4041,6 @@
     "category": []
   },
   {
-    "name": "Markaz Technologies",
-    "ats": "bamboo",
-    "slug": "markaztechnologies",
-    "website": "https://www.markaz.app",
-    "category": [],
-    "meta_description": "Markaz is Pakistan's leading online shopping platform that empowers anyone to shop or resell without inventory or upfront cost. Shop, resell or dropship."
-  },
-  {
     "name": "MarqVision",
     "ats": "greenhouse",
     "slug": "marqvision",
@@ -4157,15 +4133,7 @@
     "slug": "middesk",
     "website": "https://www.middesk.com",
     "category": [],
-    "meta_description": "Middesk is the business intelligence platform for verification, fraud, and credit risk. Onboarding that runs itself \u2014 from application to ongoing monitoring."
-  },
-  {
-    "name": "Minicor",
-    "ats": "ashby",
-    "slug": "Laminar",
-    "website": "https://minicor.com",
-    "category": [],
-    "meta_description": "Deploy self-healing computer use agents that adapt when UIs change. Zero to production in hours."
+    "meta_description": "Middesk is the business intelligence platform for verification, fraud, and credit risk. Onboarding that runs itself — from application to ongoing monitoring."
   },
   {
     "name": "Mobot",
@@ -4325,7 +4293,7 @@
     "slug": "nowports",
     "website": "https://nowports.com",
     "category": [],
-    "meta_description": "Obt\u00e9n un servicio de excelencia en log\u00edstica internacional y transporte de carga. Brindamos soluciones personalizadas para tu cadena de suministro."
+    "meta_description": "Obtén un servicio de excelencia en logística internacional y transporte de carga. Brindamos soluciones personalizadas para tu cadena de suministro."
   },
   {
     "name": "Nox Metals",
@@ -4365,7 +4333,7 @@
     "slug": "odeko",
     "website": "https://www.odeko.com",
     "category": [],
-    "meta_description": "From essentials to extras, if your caf\u00e9 needs it\u2014we have it. Discover the all-in-one operations partner for local caf\u00e9s and eateries."
+    "meta_description": "From essentials to extras, if your café needs it—we have it. Discover the all-in-one operations partner for local cafés and eateries."
   },
   {
     "name": "OffDeal",
@@ -4491,7 +4459,7 @@
     "slug": "partnerstack",
     "website": "https://partnerstack.com",
     "category": [],
-    "meta_description": "Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners \u2014 from affiliates to referral and reseller partners."
+    "meta_description": "Grow your SaaS brand the easy way. PartnerStack helps you recruit, engage, and scale your entire ecosystem of partners — from affiliates to referral and reseller partners."
   },
   {
     "name": "People.ai",
@@ -4555,7 +4523,7 @@
     "slug": "picktrace",
     "website": "https://picktrace.com",
     "category": [],
-    "meta_description": "The all-in-one labor management suite for agriculture. Hire, track, pay. It\u2019s never been this easy to stay compliant, track and analyze labor costs, and run payroll. Discover the future with our unique labor tracking solution."
+    "meta_description": "The all-in-one labor management suite for agriculture. Hire, track, pay. It’s never been this easy to stay compliant, track and analyze labor costs, and run payroll. Discover the future with our unique labor tracking solution."
   },
   {
     "name": "PicnicAI",
@@ -4643,7 +4611,7 @@
     "slug": "powerus",
     "website": "https://www.powerus.de",
     "category": [],
-    "meta_description": "PowerUs ist die Jobplattform f\u00fcr Fachkr\u00e4fte im Handwerk. Finde top Jobs, vergleiche Geh\u00e4lter und bewirb dich direkt bei attraktiven Arbeitgebern \u2013 einfach, schnell und kostenlos."
+    "meta_description": "PowerUs ist die Jobplattform für Fachkräfte im Handwerk. Finde top Jobs, vergleiche Gehälter und bewirb dich direkt bei attraktiven Arbeitgebern – einfach, schnell und kostenlos."
   },
   {
     "name": "Probably Genetic",
@@ -4672,7 +4640,7 @@
   {
     "name": "Protex AI",
     "ats": "ashby",
-    "slug": "Protex",
+    "slug": "Protex AI",
     "website": "https://www.protex.ai",
     "category": [],
     "meta_description": "24/7 unsafe event capture, revolutionising how enterprise EHS teams make proactive safety decisions."
@@ -4762,7 +4730,7 @@
     "slug": "ramenvr",
     "website": "https://ramenvr.com",
     "category": [],
-    "meta_description": "Explore Ramen VR\u2019s innovative virtual reality projects and behind-the-scenes studio spotlights. Discover the technology, art, and design shaping the future of VR."
+    "meta_description": "Explore Ramen VR’s innovative virtual reality projects and behind-the-scenes studio spotlights. Discover the technology, art, and design shaping the future of VR."
   },
   {
     "name": "Rappi",
@@ -4770,7 +4738,7 @@
     "slug": "rappi/wd12/Rappi_jobs",
     "website": "https://www.rappi.com",
     "category": [],
-    "meta_description": "Pide en l\u00ednea domicilio de restaurantes, supermercado, medicamentos y \u00a1mucho m\u00e1s! Tus tiendas favoritas est\u00e1n en Rappi. Entregamos con amor en todo M\u00e9xico \u2665\u2665"
+    "meta_description": "Pide en línea domicilio de restaurantes, supermercado, medicamentos y ¡mucho más! Tus tiendas favoritas están en Rappi. Entregamos con amor en todo México ♥♥"
   },
   {
     "name": "Reacher",
@@ -4826,7 +4794,7 @@
     "slug": "response",
     "website": "https://inbox.tryresponse.com",
     "category": [],
-    "meta_description": "Automate customer order intake from email. Response turns messy emails and PDFs into ERP-ready draft orders\u2014ready for approval and handoff to your ERP."
+    "meta_description": "Automate customer order intake from email. Response turns messy emails and PDFs into ERP-ready draft orders—ready for approval and handoff to your ERP."
   },
   {
     "name": "Retell AI",
@@ -4842,7 +4810,7 @@
     "slug": "revenuecat",
     "website": "https://www.revenuecat.com",
     "category": [],
-    "meta_description": "The world\u2019s best apps use RevenueCat to power in-app purchases, manage customer data, and grow revenue across iOS, Android, and the web."
+    "meta_description": "The world’s best apps use RevenueCat to power in-app purchases, manage customer data, and grow revenue across iOS, Android, and the web."
   },
   {
     "name": "Riot",
@@ -4882,7 +4850,7 @@
     "slug": "ryvn",
     "website": "https://ryvn.ai",
     "category": [],
-    "meta_description": "Ryvn handles BYOC and on-prem infrastructure, so you can close enterprise deals \u2014 without the support burden."
+    "meta_description": "Ryvn handles BYOC and on-prem infrastructure, so you can close enterprise deals — without the support burden."
   },
   {
     "name": "SafetyKit",
@@ -4925,14 +4893,6 @@
     "meta_description": "Autonomous alerts. Conversational debugging. Coding agent integrations. Sazabi is a new, AI-first approach to observability. Built for teams who ship fast."
   },
   {
-    "name": "Secoda",
-    "ats": "ashby",
-    "slug": "Secoda",
-    "website": "https://secoda.co",
-    "category": [],
-    "meta_description": "Redefine data governance and trust with AI built on a foundation of data cataloging, lineage, observability, and quality \u2014all enriched by your business context."
-  },
-  {
     "name": "Sequence Bio",
     "ats": "bamboo",
     "slug": "sequencebio",
@@ -4969,7 +4929,7 @@
     "slug": "sift",
     "website": "https://sift.com",
     "category": [],
-    "meta_description": "Sift\u2019s fraud prevention and risk-based authentication platform empowers digital businesses to grow fearlessly and reduce risk without compromising trust."
+    "meta_description": "Sift’s fraud prevention and risk-based authentication platform empowers digital businesses to grow fearlessly and reduce risk without compromising trust."
   },
   {
     "name": "SigNoz",
@@ -4985,7 +4945,7 @@
     "slug": "sim",
     "website": "https://sim.ai",
     "category": [],
-    "meta_description": "Sim is the open-source AI workspace where teams build, deploy, and manage AI agents. Connect 1,000+ integrations and every major LLM to create agents that automate real work \u2014 visually, conversationally, or with code."
+    "meta_description": "Sim is the open-source AI workspace where teams build, deploy, and manage AI agents. Connect 1,000+ integrations and every major LLM to create agents that automate real work — visually, conversationally, or with code."
   },
   {
     "name": "Simetrik",
@@ -5017,7 +4977,7 @@
     "slug": "sinai",
     "website": "https://www.sinai.com",
     "category": [],
-    "meta_description": "Audit-grade Scope 1\u20133 carbon accounting, ESG compliance reporting, and ROI-driven decarbonization planning \u2014 all in one enterprise sustainability platform."
+    "meta_description": "Audit-grade Scope 1–3 carbon accounting, ESG compliance reporting, and ROI-driven decarbonization planning — all in one enterprise sustainability platform."
   },
   {
     "name": "SkydropX",
@@ -5064,7 +5024,7 @@
     "slug": "snapdocs",
     "website": "https://snapdocs.com",
     "category": [],
-    "meta_description": "Snapdocs is the mortgage industry\u2019s leading e-Closing provider, automating the mortgage closing process by offering\u2014Notary Scheduling, eClosing, & eVault."
+    "meta_description": "Snapdocs is the mortgage industry’s leading e-Closing provider, automating the mortgage closing process by offering—Notary Scheduling, eClosing, & eVault."
   },
   {
     "name": "Sola",
@@ -5072,7 +5032,7 @@
     "slug": "sola",
     "website": "https://www.sola-solutions.com",
     "category": [],
-    "meta_description": "Sola is an agentic process automation platform that makes it easy for companies to automate data entry, scraping, and processing flows using LLMs and computer vision \u2013 delivering results much faster and with less effort than traditional RPA tools."
+    "meta_description": "Sola is an agentic process automation platform that makes it easy for companies to automate data entry, scraping, and processing flows using LLMs and computer vision – delivering results much faster and with less effort than traditional RPA tools."
   },
   {
     "name": "Solidroad",
@@ -5208,7 +5168,7 @@
     "slug": "sully-ai",
     "website": "https://www.sully.ai",
     "category": [],
-    "meta_description": "Sully.ai saves doctors time with an AI team: Nurse, Receptionist, Scribe, Med Asst, Coder & Pharmacy Tech\u2014seamless handling check-in to prescriptions."
+    "meta_description": "Sully.ai saves doctors time with an AI team: Nurse, Receptionist, Scribe, Med Asst, Coder & Pharmacy Tech—seamless handling check-in to prescriptions."
   },
   {
     "name": "Sunflower",
@@ -5227,14 +5187,6 @@
     "meta_description": "Supernova.io is a collaborative platform that empowers product teams to create and write content with AI assistance while staying connected to their company's design system."
   },
   {
-    "name": "SwiftSku",
-    "ats": "greenhouse",
-    "slug": "swiftsku",
-    "website": "https://swiftsku.com",
-    "category": [],
-    "meta_description": "Discover SwiftSku's C-Store Backoffice the ultimate software for efficient convenience store management. Optimize your operations today!"
-  },
-  {
     "name": "Sygaldry Technologies",
     "ats": "ashby",
     "slug": "sygaldry-technologies",
@@ -5248,15 +5200,7 @@
     "slug": "synapticure",
     "website": "https://www.synapticure.com",
     "category": [],
-    "meta_description": "Synapticure provides personalized virtual care to people living with Alzheimer\u2019s and related Dementia, Huntington's, Parkinson\u2019s, ALS and other neurodegenerative diseases."
-  },
-  {
-    "name": "sync.",
-    "ats": "ashby",
-    "slug": "sync.so",
-    "website": "https://sync.so",
-    "category": [],
-    "meta_description": "sync. labs is an AI video lipsync and visual dubbing platform. generate studio-grade lipsync for films, ads, and content via API or web studio."
+    "meta_description": "Synapticure provides personalized virtual care to people living with Alzheimer’s and related Dementia, Huntington's, Parkinson’s, ALS and other neurodegenerative diseases."
   },
   {
     "name": "Synder",
@@ -5264,7 +5208,7 @@
     "slug": "synder",
     "website": "https://synder.com",
     "category": [],
-    "meta_description": "\ud83d\ude80 Automate all your accounting processes with Synder! Easy Setup | Flexible configurations | Duplicates Control & Rollback features. TRY FREE! No credit card required \u2192"
+    "meta_description": "🚀 Automate all your accounting processes with Synder! Easy Setup | Flexible configurations | Duplicates Control & Rollback features. TRY FREE! No credit card required →"
   },
   {
     "name": "Tajir",
@@ -5296,7 +5240,7 @@
     "slug": "goteleport",
     "website": "https://goteleport.com",
     "category": [],
-    "meta_description": "Teleport unifies identities \u2014 humans, machines, and AI \u2014 with strong identity implementation to speed up engineering, improve resiliency against identity-based attacks, and secure AI in production infrastructure."
+    "meta_description": "Teleport unifies identities — humans, machines, and AI — with strong identity implementation to speed up engineering, improve resiliency against identity-based attacks, and secure AI in production infrastructure."
   },
   {
     "name": "Tempo",
@@ -5304,7 +5248,7 @@
     "slug": "tempo",
     "website": "https://tempo.fit",
     "category": [],
-    "meta_description": "Adaptable strength training plans and responsive workout guidance tuned to your body\u2019s biometrics. Make measurable progress, faster. Save $100 on Move today."
+    "meta_description": "Adaptable strength training plans and responsive workout guidance tuned to your body’s biometrics. Make measurable progress, faster. Save $100 on Move today."
   },
   {
     "name": "Tenjin",
@@ -5312,7 +5256,7 @@
     "slug": "tenjin",
     "website": "https://www.tenjin.com",
     "category": [],
-    "meta_description": "Tenjin gives mobile publishers simple, powerful ad measurement for a flat $200/month\u2014no hidden fees, cancel anytime. Attribution, LTV prediction, cost aggregation and more. Trusted by 30,000+ apps since YC \u201914."
+    "meta_description": "Tenjin gives mobile publishers simple, powerful ad measurement for a flat $200/month—no hidden fees, cancel anytime. Attribution, LTV prediction, cost aggregation and more. Trusted by 30,000+ apps since YC ’14."
   },
   {
     "name": "Tennr",
@@ -5321,14 +5265,6 @@
     "website": "https://www.tennr.com",
     "category": [],
     "meta_description": "Tennr is a patient orchestration platform that helps providers get the right patients into the right care settings at the right time."
-  },
-  {
-    "name": "Terapify",
-    "ats": "bamboo",
-    "slug": "terapify",
-    "website": "https://www.terapify.com",
-    "category": [],
-    "meta_description": "M\u00e1s de 400 psic\u00f3logos certificados con especialidad en psicoterapia. Cambia de psic\u00f3logo sin costo hasta encontrar al ideal. Inicia tu terapia en l\u00ednea hoy."
   },
   {
     "name": "Termius",
@@ -5360,7 +5296,7 @@
     "slug": "tetrascience",
     "website": "https://www.tetrascience.com",
     "category": [],
-    "meta_description": "Tetra OS converts raw scientific data into compounding intelligence \u2014 through the Foundry, Factory, Tetra AI, and Sciborgs. Built for biopharma. Built for AI."
+    "meta_description": "Tetra OS converts raw scientific data into compounding intelligence — through the Foundry, Factory, Tetra AI, and Sciborgs. Built for biopharma. Built for AI."
   },
   {
     "name": "The Centre for Effective Altruism",
@@ -5392,7 +5328,7 @@
     "slug": "thndr",
     "website": "https://www.thndr.app",
     "category": [],
-    "meta_description": "Thndr is The easiest way to invest in stocks, gold, and mutual funds in Egypt!\u200b"
+    "meta_description": "Thndr is The easiest way to invest in stocks, gold, and mutual funds in Egypt!​"
   },
   {
     "name": "Tint",
@@ -5432,7 +5368,7 @@
     "slug": "toughcommerce",
     "website": "https://www.toughcommerce.com",
     "category": [],
-    "meta_description": "Tough Commerce is a powerful all-in-one solution designed for volumetric concrete, concrete pumping, and hydrovac excavation businesses to streamline operations. It simplifies everything\u2014from generating tickets and managing jobs to tracking operators and sending invoices\u2014all within a single platform. With real-time job visibility and analytics, Tough Commerce enhances your operations and boosts efficiency. Discover how Tough Commerce can revolutionize your business today."
+    "meta_description": "Tough Commerce is a powerful all-in-one solution designed for volumetric concrete, concrete pumping, and hydrovac excavation businesses to streamline operations. It simplifies everything—from generating tickets and managing jobs to tracking operators and sending invoices—all within a single platform. With real-time job visibility and analytics, Tough Commerce enhances your operations and boosts efficiency. Discover how Tough Commerce can revolutionize your business today."
   },
   {
     "name": "Tovala",
@@ -5464,7 +5400,7 @@
     "slug": "treasuryprime",
     "website": "https://treasuryprime.com",
     "category": [],
-    "meta_description": "The API platform for your bank to power embedded banking and BaaS clients. Unlock new revenue streams, low-cost deposit growth, modern payments, partner integrations\u2026"
+    "meta_description": "The API platform for your bank to power embedded banking and BaaS clients. Unlock new revenue streams, low-cost deposit growth, modern payments, partner integrations…"
   },
   {
     "name": "Trela",
@@ -5472,7 +5408,7 @@
     "slug": "trela",
     "website": "https://www.trela.com.br",
     "category": [],
-    "meta_description": "Agradecimento da Trela \u00e0 todos aqueles que fizeram parte de sua hist\u00f3ria. FAQ com d\u00favidas e mais informa\u00e7\u00f5es detalhadas"
+    "meta_description": "Agradecimento da Trela à todos aqueles que fizeram parte de sua história. FAQ com dúvidas e mais informações detalhadas"
   },
   {
     "name": "True Link",
@@ -5481,14 +5417,6 @@
     "website": "https://www.truelinkfinancial.com",
     "category": [],
     "meta_description": "True Link Financial, Inc., provides life-changing financial solutions for people with complex needs and those who care for them."
-  },
-  {
-    "name": "TrueNorth",
-    "ats": "greenhouse",
-    "slug": "truenorth",
-    "website": "https://www.truenorthfleet.com",
-    "category": [],
-    "meta_description": "Get matched with the best freight loads in minutes. Free loadboard with 100,000+ loads from hundreds of brokers, intelligent load matching, and AI dispatcher. No credit card needed."
   },
   {
     "name": "Truss",
@@ -5518,7 +5446,7 @@
     "slug": "understoodcare",
     "website": "https://understoodcare.com",
     "category": [],
-    "meta_description": "UnderstoodCare connects you with a care advocate who handles paperwork, claims, and more\u2014so you can focus on healing. We proudly support individuals across the United States with Traditional Medicare and Humana Medicare Advantage. Wherever you are, we"
+    "meta_description": "UnderstoodCare connects you with a care advocate who handles paperwork, claims, and more—so you can focus on healing. We proudly support individuals across the United States with Traditional Medicare and Humana Medicare Advantage. Wherever you are, we"
   },
   {
     "name": "Union54",
@@ -5573,7 +5501,7 @@
     "slug": "vergesense",
     "website": "https://www.vergesense.com",
     "category": [],
-    "meta_description": "VergeSense Meridian is the Workplace AI platform that unifies all signals into live forecasts, scenario models, and automation\u2014future-proofing your workplace."
+    "meta_description": "VergeSense Meridian is the Workplace AI platform that unifies all signals into live forecasts, scenario models, and automation—future-proofing your workplace."
   },
   {
     "name": "Verifiable",
@@ -5613,7 +5541,7 @@
     "slug": "vitalize",
     "website": "https://vitalize.care",
     "category": [],
-    "meta_description": "Vitalize is the one AI platform that unifies staffing, scheduling, flow, and capacity\u2014replacing reactivity with proactive, optimized operations."
+    "meta_description": "Vitalize is the one AI platform that unifies staffing, scheduling, flow, and capacity—replacing reactivity with proactive, optimized operations."
   },
   {
     "name": "Volta Labs, Inc.",
@@ -5645,7 +5573,7 @@
     "slug": "wallbit",
     "website": "https://wallbit.io",
     "category": [],
-    "meta_description": "Tu cuenta en d\u00f3lares en EE.UU. para comprar, ahorrar e invertir en una sola App."
+    "meta_description": "Tu cuenta en dólares en EE.UU. para comprar, ahorrar e invertir en una sola App."
   },
   {
     "name": "Warp",
@@ -5678,14 +5606,6 @@
     "website": "https://weekend.com",
     "category": [],
     "meta_description": "Play Jeopardy!, Wheel of Fortune, Song Quiz and more on your TV with voice controls. Free 7-day trial. Available on Roku, Fire TV, Samsung and LG."
-  },
-  {
-    "name": "Yummy",
-    "ats": "lever",
-    "slug": "yummysuperapp",
-    "website": "https://www.yummysuperapp.com",
-    "category": [],
-    "meta_description": "Pide en Yummy, la Superapp de Latam. Delivery en restaurantes, supermercados, farmacias, moda, eventos y m\u00e1s."
   },
   {
     "name": "Zeit AI",
@@ -5737,7 +5657,7 @@
   {
     "name": "Honey Homes",
     "ats": "ashby",
-    "slug": "Honey",
+    "slug": "Honey Homes",
     "website": "https://honeyhomes.com",
     "category": [],
     "meta_description": "One trusted handyman for all your home projects, managed in a simple app."
@@ -5780,7 +5700,7 @@
     "slug": "earlycareers-arm",
     "website": "https://arm.com",
     "category": [],
-    "meta_description": "From cloud to edge, Arm provides the compute platforms behind today\u2019s most advanced AI, trusted by innovators worldwide."
+    "meta_description": "From cloud to edge, Arm provides the compute platforms behind today’s most advanced AI, trusted by innovators worldwide."
   },
   {
     "name": "Aurora Innovation",
@@ -5835,7 +5755,7 @@
     "slug": "keboola",
     "website": "https://keboola.com",
     "category": [],
-    "meta_description": "Your board wants AI. Your data isn't ready. Keboola is the governed data foundation CFOs deploy before AI \u2014 live in eight weeks."
+    "meta_description": "Your board wants AI. Your data isn't ready. Keboola is the governed data foundation CFOs deploy before AI — live in eight weeks."
   },
   {
     "name": "Lambda Labs",
@@ -5846,28 +5766,12 @@
     "meta_description": "Cloud GPUs, on-demand clusters, private cloud, and hardware for AI training and inference. Run B200 and H100, deploy fast, and scale cost effectively."
   },
   {
-    "name": "Meltano",
-    "ats": "greenhouse",
-    "slug": "meltano",
-    "website": "https://meltano.com",
-    "category": [],
-    "meta_description": "Meltano is the ETL platform analytics engineers rely on. 500+ connectors, flat predictable pricing, and full control of your pipelines."
-  },
-  {
     "name": "Omada Health",
     "ats": "greenhouse",
     "slug": "omadahealth",
     "website": "https://omadahealth.com",
     "category": [],
     "meta_description": "Omada is a virtual care solution with personalized chronic disease management programs designed to adapt to every member. Check your eligibility today!"
-  },
-  {
-    "name": "Quantropi",
-    "ats": "bamboo",
-    "slug": "quantropi",
-    "website": "https://quantropi.com",
-    "category": [],
-    "meta_description": "Protect your data today and tomorrow from quantum security threats with Quantropi! We provide data security powered by quantum mechanics."
   },
   {
     "name": "Rockwell Automation",
@@ -6138,7 +6042,7 @@
     "slug": "",
     "website": "https://salesforce.com",
     "category": [],
-    "notes": "Workday with CSRF protection \u2014 unauthenticated API blocked"
+    "notes": "Workday with CSRF protection — unauthenticated API blocked"
   },
   {
     "name": "AMD",
@@ -6146,7 +6050,7 @@
     "slug": "",
     "website": "https://amd.com",
     "category": [],
-    "notes": "Workday with CSRF protection \u2014 unauthenticated API blocked"
+    "notes": "Workday with CSRF protection — unauthenticated API blocked"
   },
   {
     "name": "Cisco",
@@ -6154,7 +6058,7 @@
     "slug": "",
     "website": "https://cisco.com",
     "category": [],
-    "notes": "Workday with CSRF protection \u2014 unauthenticated API blocked"
+    "notes": "Workday with CSRF protection — unauthenticated API blocked"
   },
   {
     "name": "Uber",
@@ -6162,7 +6066,7 @@
     "slug": "",
     "website": "https://uber.com",
     "category": [],
-    "notes": "Workday \u2014 board slug unknown, API blocked"
+    "notes": "Workday — board slug unknown, API blocked"
   },
   {
     "name": "Shopify",
@@ -6170,7 +6074,7 @@
     "slug": "",
     "website": "https://shopify.com",
     "category": [],
-    "notes": "Workday \u2014 board slug unknown, API blocked"
+    "notes": "Workday — board slug unknown, API blocked"
   },
   {
     "name": "DoorDash",
@@ -6178,7 +6082,7 @@
     "slug": "",
     "website": "https://doordash.com",
     "category": [],
-    "notes": "Workday \u2014 board slug unknown, API blocked"
+    "notes": "Workday — board slug unknown, API blocked"
   },
   {
     "name": "Snap",
@@ -6186,7 +6090,7 @@
     "slug": "",
     "website": "https://snap.com",
     "category": [],
-    "notes": "Workday \u2014 board slug unknown, API blocked"
+    "notes": "Workday — board slug unknown, API blocked"
   },
   {
     "name": "Coinbase",
@@ -6194,7 +6098,7 @@
     "slug": "",
     "website": "https://coinbase.com",
     "category": [],
-    "notes": "Greenhouse but SPA-rendered \u2014 board not accessible without JS"
+    "notes": "Greenhouse but SPA-rendered — board not accessible without JS"
   },
   {
     "name": "Cruise",
@@ -6210,7 +6114,7 @@
     "slug": "",
     "website": "https://rippling.com",
     "category": [],
-    "notes": "Uses own HR platform \u2014 app.rippling.com/hiring/rippling, board not publicly accessible"
+    "notes": "Uses own HR platform — app.rippling.com/hiring/rippling, board not publicly accessible"
   },
   {
     "name": "HashiCorp",
@@ -6218,7 +6122,7 @@
     "slug": "",
     "website": "https://hashicorp.com",
     "category": [],
-    "notes": "Acquired by IBM 2024 \u2014 ATS migrated, not detected"
+    "notes": "Acquired by IBM 2024 — ATS migrated, not detected"
   },
   {
     "name": "Elastic",
@@ -6226,7 +6130,7 @@
     "slug": "",
     "website": "https://elastic.co",
     "category": [],
-    "notes": "ATS not detected \u2014 careers page JS-rendered"
+    "notes": "ATS not detected — careers page JS-rendered"
   },
   {
     "name": "1Password",
@@ -6243,14 +6147,6 @@
     "website": "https://abridge.com",
     "category": [],
     "meta_description": "Discover how Abridge transforms documentation for clinical conversations powered by generative AI, enhancing healthcare understanding and improving patient care."
-  },
-  {
-    "name": "Activepieces",
-    "ats": "bamboo",
-    "slug": "documentation",
-    "website": "https://www.activepieces.com",
-    "category": [],
-    "meta_description": "Activepieces is the best way to build a self-driven AI culture across HR, finance, marketing, sales and more \u2014 under the supervision of your IT ninjas"
   },
   {
     "name": "AirOps",
@@ -6292,14 +6188,6 @@
     "meta_description": "Anrok automates sales tax compliance across your financial stack, so you can grow your business in any market."
   },
   {
-    "name": "Ascend.io",
-    "ats": "ashby",
-    "slug": "ascend-io",
-    "website": "https://ascend.io",
-    "category": [],
-    "meta_description": "Build, manage, and optimize data pipelines faster with agentic data engineering work flows."
-  },
-  {
     "name": "Astrocade",
     "ats": "ashby",
     "slug": "astrocade",
@@ -6329,7 +6217,7 @@
     "slug": "avelios-medical",
     "website": "https://avelios.com",
     "category": [],
-    "meta_description": "Avelios bietet eine vollst\u00e4ndig modulare Softwareplattform, die Arbeitsabl\u00e4ufe in Kliniken tiefgehend digitalisiert und die Patientenversorgung datengetrieben verbessert."
+    "meta_description": "Avelios bietet eine vollständig modulare Softwareplattform, die Arbeitsabläufe in Kliniken tiefgehend digitalisiert und die Patientenversorgung datengetrieben verbessert."
   },
   {
     "name": "Baker Hughes",
@@ -6337,14 +6225,7 @@
     "slug": "bakerhughes/wd5/BakerHughes",
     "website": "https://bakerhughes.com",
     "category": [],
-    "meta_description": "Baker Hughes | We are rewriting The Energy Equation\u2122. We make energy safer, cleaner, and more efficient for people and the planet."
-  },
-  {
-    "name": "BambooHR",
-    "ats": "bamboo",
-    "slug": "www",
-    "website": "https://bamboohr.com",
-    "category": []
+    "meta_description": "Baker Hughes | We are rewriting The Energy Equation™. We make energy safer, cleaner, and more efficient for people and the planet."
   },
   {
     "name": "Baseten",
@@ -6495,7 +6376,7 @@
     "slug": "cotality/wd115/Global",
     "website": "https://corelogic.com",
     "category": [],
-    "meta_description": "Cotality | See the property ecosystem from every angle to reimagine property data as insights that illuminate what\u2019s next. It\u2019s intelligence beyond bounds."
+    "meta_description": "Cotality | See the property ecosystem from every angle to reimagine property data as insights that illuminate what’s next. It’s intelligence beyond bounds."
   },
   {
     "name": "Delphi",
@@ -6520,14 +6401,6 @@
     "website": "https://demisto.com",
     "category": [],
     "meta_description": "Automate security operations with Cortex XSOAR, unifying incident response, threat intel, and workflow automation to enhance SOC efficiency and reduce remediation time."
-  },
-  {
-    "name": "Deno",
-    "ats": "ashby",
-    "slug": "Deno",
-    "website": "https://deno.com",
-    "category": [],
-    "meta_description": "Deno features improved security, performance, and developer experience compared to its predecessor. It"
   },
   {
     "name": "Digital Extremes",
@@ -6583,7 +6456,7 @@
     "slug": "figment",
     "website": "https://figment.io",
     "category": [],
-    "meta_description": "Institutional staking made simple. Earn optimized rewards, reduce risk, and stake across 40+ protocols with Figment\u2019s secure infrastructure."
+    "meta_description": "Institutional staking made simple. Earn optimized rewards, reduce risk, and stake across 40+ protocols with Figment’s secure infrastructure."
   },
   {
     "name": "Firetiger",
@@ -6629,7 +6502,7 @@
     "slug": "hs",
     "website": "https://headspacehealth.com",
     "category": [],
-    "meta_description": "Headspace delivers proven, engaging comprehensive mental health care\u2014from mindfulness to clinical support\u2014trusted by 4,000+ organizations to support member well-being."
+    "meta_description": "Headspace delivers proven, engaging comprehensive mental health care—from mindfulness to clinical support—trusted by 4,000+ organizations to support member well-being."
   },
   {
     "name": "Houzz",
@@ -6651,7 +6524,7 @@
     "slug": "instabase",
     "website": "https://instabase.com",
     "category": [],
-    "meta_description": "Unlock ROI and efficiency at scale with verifiable intelligence from complex documents. Deploy fast on the agentic automation platform trusted by the world\u2019s leading enterprises"
+    "meta_description": "Unlock ROI and efficiency at scale with verifiable intelligence from complex documents. Deploy fast on the agentic automation platform trusted by the world’s leading enterprises"
   },
   {
     "name": "Instructure",
@@ -6659,7 +6532,7 @@
     "slug": "instructure",
     "website": "https://instructure.com",
     "category": [],
-    "meta_description": "Empower learning with Instructure\u2019s LMS and edtech solutions for K\u201312, higher education, and businesses. Discover Canvas, Impact, and Mastery to drive success."
+    "meta_description": "Empower learning with Instructure’s LMS and edtech solutions for K–12, higher education, and businesses. Discover Canvas, Impact, and Mastery to drive success."
   },
   {
     "name": "Irregular",
@@ -6817,23 +6690,15 @@
     "slug": "noomgrowth",
     "website": "https://noom.com",
     "category": [],
-    "meta_description": "Noom pairs GLP-1 medication with a personalized program - so it\u2019s not just weight loss, it\u2019s change that lasts."
+    "meta_description": "Noom pairs GLP-1 medication with a personalized program - so it’s not just weight loss, it’s change that lasts."
   },
   {
     "name": "Noora Health",
     "ats": "bamboo",
-    "slug": "images7",
+    "slug": "noorahealth",
     "website": "https://noorahealth.org",
     "category": [],
     "meta_description": "Noora Health collaborates with local hospitals, healthcare experts, and families to improve health outcomes and save lives. Discover family caregiving!"
-  },
-  {
-    "name": "Northrop Grumman",
-    "ats": "eightfold",
-    "slug": "jobs.northropgrumman.com|northropgrumman.com",
-    "website": "https://northropgrumman.com",
-    "category": [],
-    "meta_description": "Northrop Grumman solves the toughest problems in space, aeronautics, defense and cyberspace to meet the ever evolving needs of our customers worldwide. Our 95,000 employees define possible every day using science, technology and engineering to create and deliver advanced systems, products and services."
   },
   {
     "name": "OpenObserve",
@@ -6865,7 +6730,7 @@
     "slug": "pendo",
     "website": "https://pendo.io",
     "category": [],
-    "meta_description": "AI-powered analytics and adoption platform for builders. Pendo connects your entire portfolio\u2014apps and agents\u2014to user success and business outcomes."
+    "meta_description": "AI-powered analytics and adoption platform for builders. Pendo connects your entire portfolio—apps and agents—to user success and business outcomes."
   },
   {
     "name": "Pennylane",
@@ -6873,7 +6738,7 @@
     "slug": "pennylane",
     "website": "https://pennylane.com",
     "category": [],
-    "meta_description": "Le logiciel de comptabilit\u00e9 et gestion, pour les entreprises et cabinets-comptables"
+    "meta_description": "Le logiciel de comptabilité et gestion, pour les entreprises et cabinets-comptables"
   },
   {
     "name": "Percona",
@@ -6921,7 +6786,7 @@
     "slug": "plana",
     "website": "https://plana.earth",
     "category": [],
-    "meta_description": "Experience the Plan carbon accounting software \u2013 combining advanced carbon accounting solutions with comprehensive decarbonisation strategies. Book a demo today."
+    "meta_description": "Experience the Plan carbon accounting software – combining advanced carbon accounting solutions with comprehensive decarbonisation strategies. Book a demo today."
   },
   {
     "name": "Privy",
@@ -6977,7 +6842,7 @@
     "slug": "fortifyiq",
     "website": "https://remote.com",
     "category": [],
-    "meta_description": "The intelligent infrastructure for global employment. EOR, global payroll, contractor management, and compliant payments \u2014 worldwide, on one system of record."
+    "meta_description": "The intelligent infrastructure for global employment. EOR, global payroll, contractor management, and compliant payments — worldwide, on one system of record."
   },
   {
     "name": "Reonomy",
@@ -7016,7 +6881,7 @@
     "slug": "Rox-Data-Corp",
     "website": "https://rox.com",
     "category": [],
-    "meta_description": "The Rox agent generates pipeline, qualifies leads, books meetings, manages deals, and expands accounts \u2014 all on autopilot. Built for the Global 2000."
+    "meta_description": "The Rox agent generates pipeline, qualifies leads, books meetings, manages deals, and expands accounts — all on autopilot. Built for the Global 2000."
   },
   {
     "name": "Sandstone",
@@ -7025,14 +6890,6 @@
     "website": "https://sandstone.com",
     "category": [],
     "meta_description": "The home for in-house legal work. The single platform to manage and resolve legal requests seamlessly with agents."
-  },
-  {
-    "name": "Segment",
-    "ats": "eightfold",
-    "slug": "jobs.twilio.com|segment.com",
-    "website": "https://segment.com",
-    "category": [],
-    "meta_description": "Collect, unify, and enrich customer data across any app or device with the Twilio Segment CDP, now available on Twilio.com."
   },
   {
     "name": "Sensormatic Electronics",
@@ -7055,7 +6912,7 @@
     "slug": "salesforce/wd12/Slack",
     "website": "https://slack.com",
     "category": [],
-    "meta_description": "Boost productivity and save time with Slack\u200c \u2014 \u200cthe AI work platform for managing projects, automating workflows, and connecting teams securely. Start working smarter today."
+    "meta_description": "Boost productivity and save time with Slack‌ — ‌the AI work platform for managing projects, automating workflows, and connecting teams securely. Start working smarter today."
   },
   {
     "name": "Socure",
@@ -7063,7 +6920,7 @@
     "slug": "socure",
     "website": "https://socure.com",
     "category": [],
-    "meta_description": "Socure delivers AI-powered identity verification, fraud prevention, compliance, age verification, and workforce screening \u2014 driving higher auto-approvals with stronger risk protection."
+    "meta_description": "Socure delivers AI-powered identity verification, fraud prevention, compliance, age verification, and workforce screening — driving higher auto-approvals with stronger risk protection."
   },
   {
     "name": "SonarSource",
@@ -7087,7 +6944,7 @@
     "slug": "spycloud",
     "website": "https://spycloud.com",
     "category": [],
-    "meta_description": "SpyCloud prevents account takeover, ransomware, and fraud by illuminating identity exposures criminals use. See what attackers see and stop them first with the world\u2019s largest repository of recaptured breach & malware data."
+    "meta_description": "SpyCloud prevents account takeover, ransomware, and fraud by illuminating identity exposures criminals use. See what attackers see and stop them first with the world’s largest repository of recaptured breach & malware data."
   },
   {
     "name": "StackAdapt",
@@ -7103,7 +6960,7 @@
     "slug": "tacto",
     "website": "https://tacto.com",
     "category": [],
-    "meta_description": "Heben Sie Einsparpotenziale und Prozesseffizienzen in Ihrem Einkauf und entlang der Lieferkette mithilfe von KI. Schaffen Sie Transparenz \u00fcber Risiken, Kostenpotenziale und Lieferanten auf Knopfdruck."
+    "meta_description": "Heben Sie Einsparpotenziale und Prozesseffizienzen in Ihrem Einkauf und entlang der Lieferkette mithilfe von KI. Schaffen Sie Transparenz über Risiken, Kostenpotenziale und Lieferanten auf Knopfdruck."
   },
   {
     "name": "Talkdesk",
@@ -7130,20 +6987,12 @@
     "meta_description": "Transform your course with Top Hat. Engage students with in-class polls, quizzes, and discussions, AI-powered assistance, and personalized content. Learn more!"
   },
   {
-    "name": "Tourlane",
-    "ats": "greenhouse",
-    "slug": "tourlanegmbh",
-    "website": "https://tourlane.com",
-    "category": [],
-    "meta_description": "Customized tour packages and personalized travel itineraries\u2014crafted by experts to fit your style, budget, and pace."
-  },
-  {
     "name": "Traversal",
     "ats": "ashby",
     "slug": "traversal",
     "website": "https://traversal.com",
     "category": [],
-    "meta_description": "Traversal cuts through alert noise, surfaces root causes, and guides your team to remediation \u2014 so incidents get fixed in minutes, not hours."
+    "meta_description": "Traversal cuts through alert noise, surfaces root causes, and guides your team to remediation — so incidents get fixed in minutes, not hours."
   },
   {
     "name": "Turnkey",
@@ -7151,7 +7000,7 @@
     "slug": "turnkeycareers",
     "website": "https://turnkey.com",
     "category": [],
-    "meta_description": "Turnkey is private key management made simple. Create wallets, sign transactions, and automate onchain actions \u2014 all with one elegant API."
+    "meta_description": "Turnkey is private key management made simple. Create wallets, sign transactions, and automate onchain actions — all with one elegant API."
   },
   {
     "name": "UiPath",
@@ -7159,7 +7008,7 @@
     "slug": "uipath",
     "website": "https://uipath.com",
     "category": [],
-    "meta_description": "Transform enterprise operations with UiPath\u2019s business orchestration and automation platform, enabling AI agents, robots, and people to deliver secure, compliant outcomes at scale."
+    "meta_description": "Transform enterprise operations with UiPath’s business orchestration and automation platform, enabling AI agents, robots, and people to deliver secure, compliant outcomes at scale."
   },
   {
     "name": "UnitedHealth Group",
@@ -7223,6 +7072,6 @@
     "slug": "xairatherapeutics",
     "website": "https://xaira.com",
     "category": [],
-    "meta_description": "We\u2019re pioneering the discovery and development of life-changing medicines through the transformative power of artificial intelligence."
+    "meta_description": "We’re pioneering the discovery and development of life-changing medicines through the transformative power of artificial intelligence."
   }
 ]
