@@ -44206,5 +44206,314 @@
       "equity"
     ],
     "source_hash": "e8a71801"
+  },
+  "greenhouse-databricks-7295190002": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$30-$60",
+    "comp_extras": [],
+    "source_hash": "e103c7cc"
+  },
+  "greenhouse-bridgebio-5139551007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c7a59d10"
+  },
+  "greenhouse-natera-5990785004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and build CI/CD architecture and infrastructure-as-code solutions for bioinformatics pipelines and diagnostic systems across GCP and AWS using GitHub Actions, Terraform, and Kubernetes. Implement security controls and automation in a regulated clinical diagnostics environment requiring FDA compliance and audit trails.",
+    "skills": [
+      "GitHub Actions",
+      "Terraform",
+      "Kubernetes",
+      "Docker",
+      "GCP",
+      "AWS",
+      "Python",
+      "Ansible"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8aceec5b"
+  },
+  "greenhouse-natera-5989220004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boulder, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "45063677"
+  },
+  "greenhouse-launchdarkly-7736270003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Boston, MA / Seattle, WA / Irvine, CA / Los Angeles, CA / Monterey, CA / Santa Barbara, CA / Santa Rosa, CA / Austin, TX / Portland, OR / Philadelphia, PA / Chicago, IL / Remote",
+    "job_summary": "Lead threat modeling and cloud security posture work for a critical infrastructure platform, triaging findings and partnering with engineering teams to embed security into the development lifecycle. You'll work at scale across a SaaS feature management platform serving global systems, applying AI tooling to reduce toil and raise the security floor systematically.",
+    "skills": [
+      "Threat Modeling",
+      "CNAPP",
+      "SAST/SCA",
+      "OWASP Top 10",
+      "Cloud Security",
+      "Go",
+      "Python",
+      "TypeScript"
+    ],
+    "level": "mid",
+    "comp": "$116,000 - $187,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e27c45a0"
+  },
+  "greenhouse-natera-5989224004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and implement full-stack applications serving research, product development, and clinical testing operations using React and Python with PostgreSQL. Work in a regulated environment (ISO 13485, IEC 62304) processing NGS laboratory workflows and cell-free DNA testing data at scale.",
+    "skills": [
+      "Python",
+      "React",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "GCP",
+      "TypeScript"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6a165dc0"
+  },
+  "greenhouse-neuralink-7736276003": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$25/Hr USD",
+    "comp_extras": [],
+    "source_hash": "bf690508"
+  },
+  "ashby-frontcareers-6ca0f3aa-4593-4ca2-8c64-dcb61e96465d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb25ac52"
+  },
+  "greenhouse-neuralink-5469298003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build cloud and on-premises infrastructure systems that enable Neuralink's brain-computer interface platform, spanning deployment automation, networking, security, and developer tooling. Work across the full stack from manufacturing hardware deployment to neural recording systems in a safety-critical medical device environment.",
+    "skills": [
+      "Rust",
+      "Python",
+      "Terraform",
+      "Kubernetes",
+      "AWS",
+      "Linux",
+      "GitLab CI",
+      "Bazel"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "34c93660"
+  },
+  "ashby-openai-5ddb09b8-77eb-497c-89d8-52520765402d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Miami, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$162k-$230k",
+    "comp_extras": [],
+    "source_hash": "44c07331"
+  },
+  "greenhouse-robinhood-7932082": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Menlo Park, CA / New York, NY / Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$99k-$150k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "62f0c1a2"
+  },
+  "greenhouse-rocketlab-7727128003": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Albuquerque, NM",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6392b66d"
+  },
+  "greenhouse-rocketlab-7726463003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$25/hour",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d3de61a1"
+  },
+  "greenhouse-rocketlab-7734022003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Support Hardware In The Loop (HITL) systems design, building, maintenance, and operation within Rocket Lab's Space Systems organization. Work on mission-critical spacecraft and satellite testing infrastructure for NASA lunar and Mars missions.",
+    "skills": [
+      "Python",
+      "Systems Engineering",
+      "Mechatronics"
+    ],
+    "level": "intern",
+    "comp": "$28/hour",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "446c01d1"
+  },
+  "greenhouse-rocketlab-7725243003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$28/hour",
+    "comp_extras": [],
+    "source_hash": "507b15e3"
+  },
+  "ashby-sierra-ea1b36ce-fba8-4a11-8f37-d880a1f4f14e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "de625647"
+  },
+  "ashby-socket-38de2d3a-a711-4ee5-a022-0bde5390f440": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e6b41e69"
+  },
+  "greenhouse-scaleai-4695596005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$166,400\u2014$208,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f55fa38c"
+  },
+  "ashby-Sierra-ea1b36ce-fba8-4a11-8f37-d880a1f4f14e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f45f67d3"
   }
 }
