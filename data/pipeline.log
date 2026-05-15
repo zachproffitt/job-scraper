@@ -1,3 +1,7 @@
-[2026-05-15T22:29:54Z] fetch_jobs: scraper error for Baker Hughes (workday/bakerhughes/wd5/BakerHughes): Workday request failed for bakerhughes/wd5/BakerHughes: Server error '502 Bad Gateway' for url 'https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs'
+[2026-05-15T23:04:30Z] fetch_jobs: scraper error for Emi Labs (lever/emilabs): Lever request failed for emilabs: The read operation timed out
+[2026-05-15T23:04:45Z] fetch_jobs: scraper error for Frame.io (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: Server error '502 Bad Gateway' for url 'https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-15T22:30:07Z] fetch_jobs: scraper error for CrowdStrike (workday/crowdstrike/wd5/crowdstrikecareers): Workday request failed for crowdstrike/wd5/crowdstrikecareers: The read operation timed out
+[2026-05-15T23:05:02Z] fetch_jobs: scraper error for Intel (workday/intel/wd1/External): Workday request failed for intel/wd1/External: Server error '502 Bad Gateway' for url 'https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-05-15T23:05:05Z] fetch_jobs: scraper error for Microsoft (eightfold/apply.careers.microsoft.com|microsoft.com): Eightfold request failed for apply.careers.microsoft.com|microsoft.com: Client error '429 TOO MANY REQUESTS' for url 'https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&start=1220&num=20'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429

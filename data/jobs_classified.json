@@ -43973,5 +43973,238 @@
       "equity"
     ],
     "source_hash": "2c35d45b"
+  },
+  "ashby-notion-576401b9-66e7-4407-a9e2-8aafaa590082": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$150,000-$210,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6c71dc8a"
+  },
+  "greenhouse-bridgebio-5133409007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$220,000\u2014$315,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "bfbeee72"
+  },
+  "greenhouse-natera-5997153004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Salinas, CA / Monterey, CA / Santa Cruz, CA / King City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$165,000\u2014$190,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c5a4671e"
+  },
+  "ashby-anrok-006ac43b-0a0a-4ccc-9170-0482abed125e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Salt Lake City, UT / Remote",
+    "job_summary": "Design and operate infrastructure systems that support Anrok's tax automation platform, including database scaling, observability, and reliability for a product serving 40% of Forbes Top 50 AI companies. Work at scale across GCP and manage relational databases handling complex tax compliance logic across 50+ US jurisdictions and 100+ countries.",
+    "skills": [
+      "GCP",
+      "Pulumi",
+      "PostgreSQL",
+      "TypeScript",
+      "Kubernetes",
+      "Infrastructure as Code",
+      "Cloud Security",
+      "Database Scaling"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "babdca52"
+  },
+  "ashby-openai-faa6042d-ac67-4a76-a723-3ca7015adc34": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eda1be68"
+  },
+  "greenhouse-relativity-8553048002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$207,000\u2014$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b602bf08"
+  },
+  "greenhouse-roblox-7557910": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": "Build prototypes and production features for the Roblox engine in Luau, working directly with external game studios to push the boundaries of performance, scalability, and what's possible on the platform. Shape the engine roadmap by identifying, advocating for, and implementing core engine and tooling improvements.",
+    "skills": [
+      "Luau",
+      "Lua",
+      "C++",
+      "C#",
+      "Roblox"
+    ],
+    "level": "junior",
+    "comp": "$153,120-$182,170",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c242ef5b"
+  },
+  "ashby-snapdocs-9042fb20-79a7-4b27-bdf7-8b537f94fd63": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$73,500-$105,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9b7ef196"
+  },
+  "ashby-socket-c5a98f1a-8c17-43de-afb7-1cfb1c34cc1e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "300a9707"
+  },
+  "greenhouse-vardaspace-7736286003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$28.00-$48.00/hour",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d562f6c0"
+  },
+  "greenhouse-spacex-8553026002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build highly reliable and scalable data analysis libraries, systems, and pipelines that empower engineers across SpaceX to analyze rocket launches, factory production, and Starlink satellite telemetry. Work on mission-critical applications with full ownership of challenging problems at the intersection of data engineering, machine learning, and full-stack development in an aerospace context.",
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "PyTorch",
+      "React",
+      "Angular",
+      "Pandas",
+      "OpenCV",
+      ".NET"
+    ],
+    "level": "junior",
+    "comp": "$125,000-$175,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "68dbf93c"
+  },
+  "greenhouse-block-5209350008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$135,800-$245,400",
+    "comp_extras": [],
+    "source_hash": "e1a92714"
+  },
+  "lever-velo3d-1a92a48c-f082-4d8e-9128-f250da16d852": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "71238219"
+  },
+  "greenhouse-waymo-7922962": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$204k-$252k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e8a71801"
   }
 }
