@@ -9,4 +9,4 @@ def skill_badge(skill: str) -> str:
         .replace("(", "%28").replace(")", "%29")
         .replace(",", "%2C").replace("/", "%2F")
         .replace("+", "%2B").replace("#", "%23"))
-    return f"![{skill}](https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square)"
+    return f'<img src="https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square" alt="{skill}">'
