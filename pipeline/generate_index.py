@@ -171,7 +171,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         for j in date_jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
             domain = company_logos.get(j["company"], "")
-            logo = f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle">&ensp;' if domain else ""
+            logo = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>&ensp;' if domain else ""
             lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")

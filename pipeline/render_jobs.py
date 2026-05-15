@@ -52,7 +52,9 @@ def render_hash(job: dict, classification: dict) -> str:
     skills_str = ",".join(classification.get("skills") or [])
     level = classification.get("level") or ""
     comp = classification.get("comp") or ""
-    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}:{level}:{comp}"
+    location = classification.get("location") or ""
+    region = classification.get("region") or ""
+    key = f"v{FORMAT_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{classification.get('job_summary', '')}:{skills_str}:{level}:{comp}:{location}:{region}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
@@ -166,7 +168,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
     for extra in comp_extras:
         detail_parts.append(f"`{extra.capitalize()}`")
 
-    logo = f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle">&ensp;' if domain else ""
+    logo = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>&ensp;' if domain else ""
     company_line = f"{logo}**{job['company']}**"
     meta_line = (company_line + "  \n" + " · ".join(detail_parts)) if detail_parts else company_line
 
