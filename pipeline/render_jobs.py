@@ -106,7 +106,8 @@ def format_description(text: str) -> str:
 
 
 def render_job(job: dict, classification: dict, company_summary: str | None, domain: str = "") -> str:
-    location = job.get("location") or "Not specified"
+    raw_location = job.get("location") or ""
+    location = classification.get("location") or raw_location or "Not specified"
     remote_str = {True: "Remote", False: "On-site"}.get(job.get("remote"), "Not specified")
 
     posted = format_date(job.get("posted_at"))

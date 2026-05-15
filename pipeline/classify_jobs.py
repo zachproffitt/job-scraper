@@ -136,6 +136,13 @@ For each job posting provided, extract the following fields. Use judgment — if
    Use the description to override location labels: "Remote" with no restriction → us; "Remote - UK" with no mention of US eligibility → international.
    Respond with exactly one of: us / canada / international / unclear
 
+10. LOCATION: Normalized display location. Use the description to confirm or correct the ATS location field.
+   US on-site: "City, ST" using 2-letter state code (e.g. "Boulder, CO" · "New York, NY" · "San Francisco, CA")
+   US remote: "Remote"
+   International on-site: "City, Country" (e.g. "London, UK" · "Berlin, Germany" · "Toronto, Canada")
+   Multiple locations: join with " / " (e.g. "New York, NY / Remote" · "San Francisco, CA / New York, NY")
+   If location cannot be determined from the posting: n/a
+
 Respond in exactly this format:
 BUILDER: <yes/no/unclear>
 SUMMARY: <summary or vague or n/a>
@@ -146,6 +153,7 @@ HYBRID: <yes/no>
 COMP: <$Xk-$Yk or n/a>
 COMP_EXTRAS: <extras or n/a>
 REGION: <us/canada/international/unclear>
+LOCATION: <City, ST or City, Country or Remote or n/a>
 """
 
 # Description first (long content before query improves accuracy), then identifiers
@@ -178,6 +186,7 @@ def parse_response(text: str) -> dict:
         "is_contract": False,
         "is_hybrid": False,
         "region": "unclear",
+        "location": None,
         "job_summary": None,
         "skills": [],
         "level": None,
@@ -222,6 +231,10 @@ def parse_response(text: str) -> dict:
             val = line.removeprefix("REGION:").strip().lower()
             if val in VALID_REGIONS:
                 result["region"] = val
+        elif line.startswith("LOCATION:"):
+            val = line.removeprefix("LOCATION:").strip()
+            if val.lower() not in ("n/a", ""):
+                result["location"] = val
 
     return result
 
@@ -354,6 +367,7 @@ def main():
                     "is_contract": cl["is_contract"],
                     "is_hybrid": cl["is_hybrid"],
                     "region": cl["region"],
+                    "location": cl["location"],
                     "job_summary": cl["job_summary"],
                     "skills": cl["skills"],
                     "level": cl["level"],
