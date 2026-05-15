@@ -40971,5 +40971,639 @@
       "bonus"
     ],
     "source_hash": "6e78ee57"
+  },
+  "greenhouse-axiom-8548891002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Hong Kong",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "11646e82"
+  },
+  "greenhouse-ionq-5969263004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "College Park, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$73,439-$95,767",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "04801fe5"
+  },
+  "greenhouse-vast-4681537006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$40k-$57k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0022700b"
+  },
+  "greenhouse-stripe-7769005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Lead engineering teams building Stripe Terminal's unified commerce platform, integrating in-person and online payments through APIs, point-of-sale integrations, and enterprise features like tipping and gift cards. Scale payment processing systems across mobile, backend, and hardware-connected services with large-scale merchant and enterprise impact.",
+    "skills": [
+      "Payment Systems",
+      "POS Integrations",
+      "Mobile Development",
+      "Backend Development",
+      "API Design",
+      "Distributed Systems",
+      "Card Present Payments",
+      "Scalable Systems"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "62fd4b95"
+  },
+  "greenhouse-planetlabs-7870463": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and implement frontend features for a geospatial monitoring application using React and TypeScript, serving Defense & Intelligence customers with daily satellite data insights. Lead architectural decisions on component design and state management while mentoring engineers on frontend best practices.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "REST APIs",
+      "State Management",
+      "Mapping Libraries"
+    ],
+    "level": "senior",
+    "comp": "$160,600\u2014$228,600",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f42cf6a6"
+  },
+  "greenhouse-andurilindustries-5139047007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$129,000\u2014$194,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d3865d85"
+  },
+  "greenhouse-andurilindustries-4975849007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$146k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "640902c5"
+  },
+  "greenhouse-andurilindustries-5139048007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$129k-$194k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "10840bc7"
+  },
+  "greenhouse-psiquantum-7735794003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$140k-$190k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9d619fe4"
+  },
+  "greenhouse-andurilindustries-5138979007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and deploy software for autonomous robotic systems, integrating sensors, networking, and multi-agent coordination in mission-critical defense applications. Work across the full stack from prototyping to real-world operational deployment, requiring travel up to 25% and hands-on debugging of complex distributed systems.",
+    "skills": [
+      "C++",
+      "Rust",
+      "LiDAR",
+      "ROS",
+      "Python",
+      "Sensor Fusion",
+      "Distributed Systems",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$220k-$292k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "31f89ed5"
+  },
+  "greenhouse-andurilindustries-5093480007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$113k-$149k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "23fabd8d"
+  },
+  "ashby-eightsleep-b1c37913-179d-4927-8745-f6ef88a02e82": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build the iOS mobile app that lets Eight Sleep users control their smart sleep pod, configure settings, and gain personalized sleep insights. Ship pixel-perfect features with beautiful animations in a hyper-growth health tech startup where you'll work closely with backend, firmware, ML, and hardware teams.",
+    "skills": [
+      "Swift",
+      "SwiftUI",
+      "Combine",
+      "iOS",
+      "App Extensions",
+      "CI/CD"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "eac1bf52"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5993042004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build automated test infrastructure and frameworks for PlayStation SDK components and platform software. Drive technical strategy for CI systems, test architecture, and quality validation across C++, embedded firmware, and Python-based tools supporting a platform with 100M+ users.",
+    "skills": [
+      "Python",
+      "C++",
+      "Groovy",
+      "Docker",
+      "Kubernetes",
+      "Windows",
+      "Linux",
+      "CI/CD"
+    ],
+    "level": "senior",
+    "comp": "$140,500\u2014$210,700",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "938cbc98"
+  },
+  "lever-zoox-fd855a9b-b2f2-4839-854e-7de67e96b24c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1a156fc6"
+  },
+  "ashby-strava-4bb276ea-89fc-4dcb-950f-1380d9c293eb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "26be0581"
+  },
+  "greenhouse-andurilindustries-5139049007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b36dcaa1"
+  },
+  "greenhouse-reddit-7931007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Drive product strategy for Reddit's consumer platform by designing metrics, conducting exploratory analyses, and running experiments to understand user behavior and optimize community discovery. Work at scale mentoring junior data scientists and building self-serve analytics tools for cross-functional product and engineering teams.",
+    "skills": [
+      "SQL",
+      "Python",
+      "R",
+      "Causal Inference",
+      "Statistical Analysis",
+      "Master's or PhD in Statistics/Mathematics/Physics/Economics/Operations Research"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1ec4a7d5"
+  },
+  "greenhouse-reddit-7931010": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead a team of data scientists building causal measurement frameworks, LTV models, and analytics infrastructure to drive Reddit's marketing strategy and budget allocation decisions. Requires expertise in experimentation, metrics governance, and enabling self-serve analytics at scale across cross-functional teams.",
+    "skills": [
+      "SQL",
+      "Python",
+      "R",
+      "A/B Testing",
+      "Causal Inference",
+      "LTV Modeling",
+      "Experimentation Design",
+      "Analytics Engineering"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ce022906"
+  },
+  "greenhouse-reddit-7926627": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Los Angeles, CA / New York, NY / Chicago, IL / Remote",
+    "job_summary": "Lead Reddit's Safety and Moderation ML organization to build industry-leading systems for detecting and preventing harmful content at scale. Drive strategy, build and deploy fine-tuned LLMs and transformer models for real-time abuse detection across a platform with 126M daily active users, managing a team of 25+ applied scientists and engineers.",
+    "skills": [
+      "Machine Learning",
+      "NLP",
+      "LLM Fine-tuning",
+      "Transformer Models",
+      "Content Moderation",
+      "Abuse Detection",
+      "Python",
+      "PyTorch"
+    ],
+    "level": "manager",
+    "comp": "$276,700\u2013$387,400",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4163b8d0"
+  },
+  "greenhouse-marqeta-7743054": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$198,100 - $291,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "21f96d4d"
+  },
+  "ashby-david-ai-76754f39-fb37-4d28-a15c-e8aecd257544": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Research, design, and implement advanced speech and audio ML models, inference systems, and production pipelines that process terabytes of audio data daily for AI labs and enterprises. Work at the intersection of cutting-edge signal processing research and production systems, owning the full ML lifecycle from algorithm development to deployment at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "Audio Signal Processing",
+      "Speech Processing",
+      "Deep Learning",
+      "DSP",
+      "Production ML Systems",
+      "Cloud Technologies"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1f7781cc"
+  },
+  "greenhouse-reddit-7931000": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead the design and implementation of Marketing Mix Models, Multi-Touch Attribution systems, and causal inference frameworks to measure and optimize Reddit's hundreds of millions in annual marketing spend across B2B advertiser acquisition and B2C user growth. Navigate ambiguity in a fast-paced social media environment to build measurement methodologies that influence C-suite budget allocation decisions.",
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "Marketing Mix Modeling",
+      "Bayesian Structural Time Series",
+      "Causal Inference",
+      "Incrementality Testing",
+      "Master's or PhD in Statistics/Economics/Mathematics"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d9083462"
+  },
+  "lever-CollectlyInc-6ed9cf99-8ad7-47fe-a56c-730deef57b42": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "23ad5e27"
+  },
+  "greenhouse-spacex-8545793002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design, develop, and optimize PLC automation and controls systems for high-volume solar cell manufacturing equipment, including electrical design, HMI/SCADA integration, and robotics commissioning. Work on cutting-edge aerospace manufacturing with ANSI/OSHA safety compliance and ITAR requirements.",
+    "skills": [
+      "PLC programming",
+      "Siemens TIA Portal",
+      "Beckhoff TwinCAT",
+      "HMI/SCADA",
+      "EtherCAT",
+      "Profinet",
+      "ABB Robotics",
+      "Electrical design (NEC/NFPA/UL508A)"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bfcf9881"
+  },
+  "greenhouse-spacex-8550964002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a7c207e2"
+  },
+  "lever-CollectlyInc-cd143f5f-1fb2-4e4e-bd4b-4922ed5ccc40": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eaf48fde"
+  },
+  "greenhouse-databricks-8550948002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$118,900\u2013$163,450",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "edfa2a6b"
+  },
+  "greenhouse-spacex-8546713002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and implement physical layer (PHY) algorithms and optimized signal processing software for satellite-based 4G/5G systems on Starlink Mobile's space-to-ground network. Work across wireless systems and protocol layers to solve interdisciplinary challenges in resource-constrained satellite and ground station environments.",
+    "skills": [
+      "C++",
+      "C",
+      "Wireless Signal Processing",
+      "4G/5G (LTE/NR)",
+      "DSP (Digital Signal Processing)",
+      "MATLAB",
+      "Python",
+      "Linux"
+    ],
+    "level": "junior",
+    "comp": "$135,000-$185,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b2e48cba"
+  },
+  "greenhouse-spacex-8546722002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA / Remote",
+    "job_summary": "Design and implement physical layer algorithms and signal processing firmware for satellite-based 4G/5G systems, optimizing for resource-constrained space hardware. Work on novel wireless communications challenges unique to satellite networks operating at scale.",
+    "skills": [
+      "C++",
+      "C",
+      "Signal Processing",
+      "4G/5G (LTE/NR)",
+      "DSP",
+      "Linux",
+      "Python",
+      "Git"
+    ],
+    "level": "junior",
+    "comp": "$125k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3a1f7a95"
+  },
+  "greenhouse-toast-7922820": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Edison, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$211,000\u2013$338,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c6612b26"
+  },
+  "greenhouse-lucidsoftware-5997142004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Lead the design and implementation of security controls across Lucid's information systems, SaaS applications, and cloud infrastructure to protect customer data at scale. Drive automated security solutions, conduct security design reviews on complex system architectures, and mentor the security team while building a culture of practical, risk-informed security.",
+    "skills": [
+      "Python",
+      "Bash",
+      "AWS",
+      "Active Directory",
+      "Azure AD",
+      "Okta",
+      "Incident Response",
+      "CISSP"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "61aa241f"
+  },
+  "greenhouse-maintainx-5138976007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1f105746"
+  },
+  "greenhouse-databricks-8362737002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "India",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c455283a"
+  },
+  "ashby-socure-6785101c-e12a-4711-8e12-ed68d9e216de": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and build automated quality and validation systems for production and disaster recovery environments, including synthetic transaction validation, continuous health checks, and AI-driven failure analysis. Integrate observability signals with test automation to enable self-diagnosis and autonomous remediation in complex distributed systems.",
+    "skills": [
+      "Playwright",
+      "Jest",
+      "TypeScript",
+      "Python",
+      "AWS",
+      "Datadog",
+      "CI/CD",
+      "Microservices"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "51d9bdd0"
+  },
+  "greenhouse-toast-7931019": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lakewood, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$211,000\u2014$338,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7b5aa41b"
   }
 }
