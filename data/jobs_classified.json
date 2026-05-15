@@ -17767,17 +17767,26 @@
     "location": "Costa Mesa, CA"
   },
   "ashby-openai-14994645-e453-478c-be65-511dc156a961": {
-    "is_engineering": false,
+    "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
+    "region": "international",
+    "location": null,
+    "job_summary": "Build demos, sample applications, and technical content that showcase best practices for developing with OpenAI's Codex, frontier models, and APIs. Work across a global developer ecosystem, represent OpenAI at events, and directly influence product direction through developer feedback and end-to-end project ownership.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "Codex",
+      "GPT APIs",
+      "LLMs",
+      "Full-stack development",
+      "AI/ML applications",
+      "Technical writing"
+    ],
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e258ec3b",
-    "region": "international",
-    "location": "Seoul, South Korea"
+    "source_hash": "2d3d7e94"
   },
   "greenhouse-airbnb-7535063": {
     "is_engineering": false,
@@ -22515,17 +22524,25 @@
     "location": "Singapore, Singapore"
   },
   "ashby-openai-b6844d14-83a3-4993-aec9-9725ac1ac4c3": {
-    "is_engineering": false,
+    "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
+    "region": "international",
+    "location": "India / APAC",
+    "job_summary": "Build compelling demos, sample applications, and technical content that teach developers how to integrate OpenAI's frontier models, APIs, and Codex into their applications. Engage directly with developers across APAC, represent OpenAI at events, and drive product adoption through innovative full-stack applications showcasing best practices.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "API Development",
+      "LLMs",
+      "React",
+      "Full-Stack Development",
+      "Mandarin"
+    ],
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "50dc764c",
-    "region": "international",
-    "location": "Singapore"
+    "source_hash": "1e55c62d"
   },
   "greenhouse-andurilindustries-5120051007": {
     "is_engineering": false,
@@ -38449,6 +38466,8 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -38456,9 +38475,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "7d719494",
-    "region": "international",
-    "location": "Amsterdam, Netherlands"
+    "source_hash": "145ccad7"
   },
   "greenhouse-scopely-5191920008": {
     "is_engineering": false,
@@ -39433,5 +39450,698 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "cf662fd1"
+  },
+  "greenhouse-spire-7922615": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$90,000\u2014$130,500",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1c5444db"
+  },
+  "ashby-Supabase-14a99b8b-444b-4d28-b4fd-6fa8e71bcb4e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and maintain Supabase's AI tooling\u2014including MCP, agent skills, dashboard assistant, and developer interfaces\u2014that serve both AI products and developers building with Supabase. Drive an eval-first approach across instrumentation, documentation exposure to agents, and edge function patterns, translating real customer AI workflows into reliable product experiences.",
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "PostgreSQL",
+      "pgvector",
+      "MCP",
+      "Vector Embeddings",
+      "Agent Patterns",
+      "Evaluation Frameworks"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3e390713"
+  },
+  "greenhouse-motional-7735404003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA / Pittsburgh, PA / Las Vegas, NV / Remote",
+    "job_summary": "Design and build data curation, mining, and search applications that power ML dataset generation and accelerate autonomous vehicle development. Work at scale in the autonomous vehicles domain with cross-functional collaboration on data platform infrastructure.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "React",
+      "REST APIs",
+      "gRPC",
+      "AWS",
+      "Terraform",
+      "EKS"
+    ],
+    "level": "senior",
+    "comp": "$149,000\u2014$198,500",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "30e90ce1"
+  },
+  "greenhouse-motional-7672319003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA / Pittsburgh, PA / Las Vegas, NV / Remote",
+    "job_summary": "Design and build data curation, mining, and search applications to accelerate ML dataset generation and model development for autonomous vehicles. Work with ML researchers and data platform teams to integrate solutions across a growing company scaling toward commercialization.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "React",
+      "REST APIs",
+      "gRPC",
+      "AWS",
+      "Terraform",
+      "EKS"
+    ],
+    "level": "senior",
+    "comp": "$149,000\u2013$198,500",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "d3667884"
+  },
+  "greenhouse-oklo-5995000004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$120k-$140k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "55cffb02"
+  },
+  "greenhouse-motional-7735400003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA / Pittsburgh, PA / Las Vegas, NV / Remote",
+    "job_summary": "Design and build data curation, mining, and search applications powering ML dataset generation and autonomous vehicle development. Work at scale in the driverless vehicle industry with cross-functional teams integrating web, backend, and data infrastructure.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "React",
+      "REST",
+      "gRPC",
+      "AWS",
+      "Terraform",
+      "Bazel"
+    ],
+    "level": "senior",
+    "comp": "$149,000\u2014$198,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "cbe6b1f2"
+  },
+  "greenhouse-motional-7735397003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA / Pittsburgh, PA / Las Vegas, NV / Remote",
+    "job_summary": "Build the next generation of data curation, mining, and search applications to accelerate ML dataset generation and power autonomous vehicle development. This role directly impacts the operational readiness of driverless technology at scale, with exposure to autonomous vehicle data pipelines and infrastructure.",
+    "skills": [
+      "TypeScript",
+      "Python",
+      "React",
+      "REST APIs",
+      "gRPC",
+      "AWS",
+      "Terraform",
+      "Bazel"
+    ],
+    "level": "senior",
+    "comp": "$149,000\u2014$198,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "44a2a483"
+  },
+  "greenhouse-andurilindustries-5034652007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ashville, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$87k-$116k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "058648f5"
+  },
+  "greenhouse-andurilindustries-5125833007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$32.69k-$43.27k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dbb67197"
+  },
+  "greenhouse-altoslabs-5996610004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Diego, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$43-$55/hr",
+    "comp_extras": [],
+    "source_hash": "4246785e"
+  },
+  "greenhouse-relaytherapeutics-5985754004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2e46fc4f"
+  },
+  "greenhouse-andurilindustries-5094334007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$54.33\u2014$71.63 USDk",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "be933cfd"
+  },
+  "smartrecruiters-CDPROJEKTRED-744000126712083": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": "Architect hybrid game and machine learning systems that integrate AI into game engines, serving as the technical bridge between ML research and game development teams. Lead the design, implementation, and maintenance of both learning and non-learning systems while establishing quality standards and best practices across the organization.",
+    "skills": [
+      "Machine Learning",
+      "Game Engines",
+      "System Architecture",
+      "Python",
+      "C++"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b52ca6f1"
+  },
+  "greenhouse-scopely-5219997008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Barcelona, Spain",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3cb5c824"
+  },
+  "lever-ro-37631f33-6f6a-4ccb-b35c-59af260e2625": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Torrance, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6aa9f169"
+  },
+  "greenhouse-workleap-5116713007": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$70k-$90k CAD",
+    "comp_extras": [],
+    "source_hash": "fa795be2"
+  },
+  "ashby-Mapbox-c5e77a88-149a-4ec3-8542-27a5266ac445": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7d964de8"
+  },
+  "greenhouse-marqeta-7927158": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$86,100 - $126,600",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "93cdb706"
+  },
+  "ashby-coderabbit-f5117632-3c45-49a5-aa2a-40402eec6504": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$200k-$300k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6f8c4a38"
+  },
+  "ashby-hive.co-99ca1e04-01ae-41a8-91d7-0f200d2475c8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$70k-$85k CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ba6fe6ae"
+  },
+  "ashby-verto-6bb26c83-29e2-4bfc-80f6-f33d6841bf7e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "43d7811d"
+  },
+  "greenhouse-ibkr-8543431002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$75k-$85k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "be7e30ba"
+  },
+  "greenhouse-databricks-8548183002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9fd5d4ce"
+  },
+  "greenhouse-twilio-7767263": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build scalable backend APIs and systems for Twilio Segment's customer data platform, handling 12 trillion API calls annually. Work on distributed event-driven architecture processing large-scale async data with responsibility for system reliability and on-call operations.",
+    "skills": [
+      "Go",
+      "Java",
+      "Python",
+      "AWS",
+      "Kubernetes",
+      "Kafka",
+      "PostgreSQL",
+      "DynamoDB"
+    ],
+    "level": "mid",
+    "comp": "$116,960-$171,900",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b57e1e95"
+  },
+  "greenhouse-ibkr-8551535002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "3a8f3027"
+  },
+  "lever-spotify-351ad979-231f-4bee-ae49-8ff55b64f605": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": "Build systems and models that help Spotify understand culture in real time using large language models and agentic workflows to power personalized listening experiences. Work at the intersection of platform-level content understanding and user-facing product features serving millions of listeners.",
+    "skills": [
+      "Large Language Models",
+      "Machine Learning",
+      "Python",
+      "Generative AI",
+      "Data Systems",
+      "Agentic Workflows"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6adcda02"
+  },
+  "greenhouse-okta-7635237": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": "Build scalable internal platform services and developer productivity tools that support Okta's authentication infrastructure serving 100+ million logins daily. Participate in on-call rotation for Tier-0 global services with emphasis on reliability, security, and operational excellence.",
+    "skills": [
+      "Go",
+      "JavaScript",
+      "TypeScript",
+      "Node.js",
+      "Kubernetes",
+      "gRPC",
+      "AWS",
+      "Azure"
+    ],
+    "level": "senior",
+    "comp": "$136,000\u2014$187,000 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "18bb077d"
+  },
+  "greenhouse-si-7930321": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$170k-$200k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d9c39cf1"
+  },
+  "greenhouse-brex-8550065002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead a technical team building AI-native operational systems, automation infrastructure, and internal platforms that power Brex's Risk, Compliance, Payment Operations, and Banking Operations at scale. Transform traditional operations through intelligent automation, agentic workflows, and decision infrastructure while navigating high ambiguity across Finance, Engineering, Data, and Operations.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Salesforce",
+      "Retool",
+      "AI/LLM technologies"
+    ],
+    "level": "manager",
+    "comp": "$210k-$263k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "32be333b"
+  },
+  "greenhouse-brex-8551691002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": "Lead a team building AI-native operational systems, automation infrastructure, and internal platforms that power Brex's Risk, Compliance, Payment Operations, and Banking Operations at scale. Define long-term vision for operational scalability while executing on high-impact workflows, agentic systems, and decision infrastructure in a rapidly AI-transforming fintech environment.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Salesforce",
+      "Retool",
+      "AI/LLM automation",
+      "Data infrastructure"
+    ],
+    "level": "manager",
+    "comp": "$210k-$263k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9467707e"
+  },
+  "greenhouse-brex-8551701002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Vancouver, Canada",
+    "job_summary": "Lead a team building AI-native operational systems, workflows, and internal platforms that power Brex's Risk, Compliance, Payment Operations, and Banking Operations at scale. Shape the future of operational automation by combining business context, systems thinking, and AI-powered tooling across a rapidly scaling fintech organization.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Salesforce",
+      "Retool",
+      "AI/LLM technologies"
+    ],
+    "level": "senior",
+    "comp": "CAD $180,000 - CAD $225,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b57d77bb"
+  },
+  "greenhouse-brex-8551699002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Salt Lake City, UT",
+    "job_summary": "Lead a team building AI-native operational systems, automation, and internal platforms that power Risk, Compliance, Payment Operations, and Banking Operations at scale. Shape Brex's operational infrastructure by combining business strategy with hands-on engineering on complex cross-functional challenges in a high-growth fintech environment.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Salesforce",
+      "Retool",
+      "AI/LLM technologies"
+    ],
+    "level": "manager",
+    "comp": "$180k-$225k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "270f144b"
+  },
+  "greenhouse-brex-8551745002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "S\u00e3o Paulo, Brazil",
+    "job_summary": "Lead a team building AI-native operational systems, automation infrastructure, and internal platforms that power Brex's Risk, Compliance, Payment Operations, and Banking Operations at scale. Shape the future of operational technology by combining business context, systems thinking, and AI-powered tooling across a complex, cross-functional environment.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Salesforce",
+      "Retool",
+      "AI/LLM technologies"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2669f15f"
+  },
+  "greenhouse-rightmovecareers-4862488101": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f78449f6"
+  },
+  "greenhouse-brex-8551693002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Lead a team building AI-native operational systems, automation infrastructure, and internal platforms that power Brex's Risk, Compliance, Payment Operations, and Banking Operations at scale. Shape the future of operational work by combining systems thinking, business context, and intelligent automation across a high-growth fintech company.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "APIs",
+      "Salesforce",
+      "Retool",
+      "AI/LLM technologies"
+    ],
+    "level": "senior",
+    "comp": "$210k-$263k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0d7a4c1f"
+  },
+  "greenhouse-maintainx-5138759007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Montreal, Canada / Toronto, Canada / Raleigh, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2b1b2c3a"
+  },
+  "greenhouse-maintainx-5138762007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Montreal, Canada / Toronto, Canada / Raleigh, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "720a97e0"
+  },
+  "ashby-uipath-bd2f849d-7704-4911-9b1c-81d826b5742b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "10aa0404"
+  },
+  "ashby-wealthsimple-fb81eaf6-d3eb-4b7b-bf25-a0bdc2d1425d": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0ca41cd9"
   }
 }
