@@ -881,5 +881,16 @@
   "workday:bonterra/wd1/bonterratech": "2026-05-15",
   "greenhouse:conga": "2026-05-15",
   "greenhouse:pingidentity": "2026-05-15",
-  "workday:trimble/wd1/TrimbleCareers": "2026-05-15"
+  "workday:trimble/wd1/TrimbleCareers": "2026-05-15",
+  "greenhouse:chainguard": "2026-05-15",
+  "greenhouse:fireworksai": "2026-05-15",
+  "ashby:kalshi": "2026-05-15",
+  "greenhouse:newrelic": "2026-05-15",
+  "ashby:openrouter": "2026-05-15",
+  "ashby:perplexity": "2026-05-15",
+  "ashby:reflectionai": "2026-05-15",
+  "greenhouse:securityscorecard": "2026-05-15",
+  "ashby:vanta": "2026-05-15",
+  "ashby:vantage": "2026-05-15",
+  "greenhouse:wizinc": "2026-05-15"
 }

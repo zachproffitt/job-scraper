@@ -43793,5 +43793,185 @@
       "bonus"
     ],
     "source_hash": "97919a41"
+  },
+  "greenhouse-andurilindustries-5115021007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$47k-$59k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0d3315fb"
+  },
+  "greenhouse-andurilindustries-5115028007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$40k-$52k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dccba0f9"
+  },
+  "greenhouse-archer56-7589572003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Design, develop, and maintain comprehensive test plans and automated test suites for Archer's electric aircraft ride-sharing and airline operational platforms. Lead QA processes and mentor engineers on high-reliability systems in aerospace where software failures have real-world safety implications.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions"
+    ],
+    "level": "senior",
+    "comp": "$140k-$180k",
+    "comp_extras": [],
+    "source_hash": "d732958e"
+  },
+  "greenhouse-figma-5996614004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$211,000\u2014$264,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "415db4ae"
+  },
+  "greenhouse-calicolabs-8552878002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$320k-$350k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9d9fdca6"
+  },
+  "greenhouse-terrapowerllc-4250366009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bellevue, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$216,695 - $325,042",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "0bc84274"
+  },
+  "greenhouse-apptronik-5997414004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "94f42574"
+  },
+  "greenhouse-vast-4681842006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$22k-$36k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e7887947"
+  },
+  "ashby-wealthsimple-19a4903b-44ee-441b-93bb-02e37c7b4918": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Remote / Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ce72b8d1"
+  },
+  "ashby-cursor-c2d508cc-921f-4cd9-9d1b-19018fbc68e3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "efb22004"
+  },
+  "lever-waabi-0e086966-2763-41a2-82f5-563be404b608": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Toronto, Canada / San Francisco, CA / Dallas, TX / Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5123ccc2"
+  },
+  "greenhouse-sourcegraph91-5996434004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$72k-$144k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2c35d45b"
   }
 }

@@ -4935,5 +4935,60 @@
     "slug": "writesonic",
     "name": "Writesonic",
     "summary": "Writesonic is an AI writing platform that generates marketing copy, blog posts, product descriptions, and other content for businesses and marketers. The platform uses large language models to help users create content across emails, ads, social media, and websites."
+  },
+  {
+    "slug": "chainguard",
+    "name": "Chainguard",
+    "summary": "Chainguard provides container image and software supply chain security solutions, offering distroless container images, vulnerability scanning, and policy enforcement tools to help organizations reduce attack surfaces and maintain secure software delivery pipelines."
+  },
+  {
+    "slug": "fireworksai",
+    "name": "Fireworks AI",
+    "summary": "Fireworks AI provides a platform for deploying and serving open-source large language models with optimized inference performance, allowing developers to run models like Llama, Mistral, and others with low latency and high throughput at scale."
+  },
+  {
+    "slug": "kalshi",
+    "name": "Kalshi",
+    "summary": "Kalshi is a regulated prediction market platform that allows users to trade contracts based on the outcomes of future events, including economic data releases, elections, and other real-world occurrences. The platform operates under CFTC oversight as a Designated Contract Market, enabling legal wagering on event predictions in the United States."
+  },
+  {
+    "slug": "newrelic",
+    "name": "New Relic",
+    "summary": "New Relic provides an observability platform that helps organizations monitor, troubleshoot, and optimize their software applications and infrastructure in real-time. The company serves enterprises across industries by collecting and analyzing telemetry data including metrics, logs, and traces to improve application performance and reliability."
+  },
+  {
+    "slug": "openrouter",
+    "name": "OpenRouter",
+    "summary": "OpenRouter is an API platform that provides unified access to multiple large language models from different providers, allowing developers to route requests across models like Claude, GPT-4, and others through a single interface. The company operates in the AI infrastructure space, enabling developers to compare model performance, manage costs, and implement failover strategies without integrating with each provider separately."
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "summary": "Perplexity is an AI-powered search engine that provides direct answers to user queries by synthesizing information from across the web in real-time. The platform operates in the conversational AI and search technology space, offering an alternative to traditional search engines through a chat-based interface that cites sources and explains its reasoning."
+  },
+  {
+    "slug": "reflectionai",
+    "name": "Reflection AI",
+    "summary": "Reflection AI develops a platform that uses large language models to help teams analyze and improve their communication patterns, meeting effectiveness, and collaborative workflows through transcription and conversation intelligence."
+  },
+  {
+    "slug": "securityscorecard",
+    "name": "SecurityScorecard",
+    "summary": "SecurityScorecard provides a cloud-based platform that rates and monitors the cybersecurity posture of organizations and their third-party vendors through continuous security assessments and risk scoring. The company operates in the enterprise cybersecurity and third-party risk management space, helping businesses identify vulnerabilities and compliance gaps across their supply chain."
+  },
+  {
+    "slug": "vanta",
+    "name": "Vanta",
+    "summary": "Vanta provides a software platform that automates security and compliance monitoring, helping organizations continuously demonstrate their adherence to standards like SOC 2, ISO 27001, and HIPAA without manual auditing processes."
+  },
+  {
+    "slug": "vantage",
+    "name": "Vantage",
+    "summary": "Vantage provides cloud cost management and optimization software that helps engineering teams track, analyze, and reduce their cloud infrastructure spending across AWS, Google Cloud, Azure, and other providers."
+  },
+  {
+    "slug": "wizinc",
+    "name": "Wiz",
+    "summary": "Wiz provides cloud security software that helps organizations identify and remediate security risks across their cloud infrastructure, applications, and data. The platform integrates with major cloud providers like AWS, Microsoft Azure, and Google Cloud to deliver real-time visibility and threat detection."
   }
 ]
