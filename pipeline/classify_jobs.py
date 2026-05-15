@@ -87,8 +87,10 @@ For each job posting provided, extract the following fields. Use judgment — if
    - Domain terms only when specific: "Distributed Systems" alone is too vague; "Kafka", "Raft Consensus" are fine
    - Never include skills that apply to every software engineer: "Coding", "Problem Solving", "Software Development", "Software Engineering", "Programming", "Multiple Programming Languages", or any phrasing that just means "writes code".
    - Never name a category instead of a skill: "Multiple Programming Languages" is not a skill — pick the actual languages. "Various frameworks" is not a skill — pick the framework.
-   - After listing, remove skills that are multiple subcategories of the same concept (e.g. if the role is in security, pick at most 2 specific security technologies — not "Security Architecture", "Threat Modeling", "Secure by Design", "Platform Security" all at once; if it's an ML role, pick specific frameworks not 5 types of learning).
-   - Prefer breadth: if skills cluster in one domain, pick the 1-2 most specific and use remaining slots for other aspects of the role.
+   - Never list a sub-feature alongside its parent: if "Kotlin" is listed, do not also list "Kotlin Coroutines" or "Kotlin Flow"; if "React" is listed, do not also list "React Hooks". Same rule applies to any language or framework and its sub-libraries.
+   - Architecture and design patterns (MVVM, MVC, MVI, Redux, Clean Architecture, Microservices) are too generic — skip them unless the description singles one out as the defining technical challenge.
+   - After listing, remove skills that are multiple subcategories of the same concept (e.g. if the role is in security, pick at most 2 specific technologies — not "Security Architecture", "Threat Modeling", "Secure by Design", "Platform Security" all at once).
+   - Prefer breadth: if skills cluster in one domain (e.g. all Android, all ML frameworks), pick the 1-2 most specific and use remaining slots for other aspects of the role.
    - Use proper capitalization: official casing for tech names (Python, PyTorch, PostgreSQL, JavaScript, AWS, GCP), Title Case for other terms (Distributed Systems, Machine Learning, Computer Vision).
    If none remain after filtering, write: n/a
 

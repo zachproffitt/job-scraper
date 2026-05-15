@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Batch-classify REGION only for jobs that are missing the field.
+Batch-classify REGION and LOCATION for jobs missing either field.
 Uses the Anthropic batch API (50% discount) with a minimal prompt.
 
-Run after adding the REGION field to classify_jobs.py to backfill
-existing classified jobs without paying for full re-classification.
+Runs automatically in the Jobs workflow after classify_jobs.py to
+backfill existing classified jobs whenever new fields are added.
 
 Usage:
     PYTHONPATH=. python pipeline/classify_job_regions.py
@@ -23,14 +23,22 @@ JOBS_CLASSIFIED_FILE = DATA_DIR / "jobs_classified.json"
 MODEL = "claude-haiku-4-5-20251001"
 
 SYSTEM = """\
-You determine where a job requires the candidate to be located.
+You classify job location information. Reply in exactly this format:
+REGION: <us/canada/international/unclear>
+LOCATION: <normalized location or n/a>
 
-Reply with exactly one word:
+REGION values:
 us            = role is in the US, or remote with no geographic restriction, or explicitly open to US candidates
 canada        = role requires presence in Canada and is not open to US-based candidates
 international = role requires presence or work authorization outside the US and Canada
+unclear       = cannot determine
 
-Use the description to override location labels — "Remote - UK" with no mention of US eligibility is international.\
+LOCATION format:
+US on-site: "City, ST" using 2-letter state code (e.g. "Boulder, CO" · "San Francisco, CA")
+Remote: "Remote"
+International: "City, Country" (e.g. "London, UK" · "Berlin, Germany" · "Toronto, Canada")
+Multiple: join with " / " (e.g. "New York, NY / Remote")
+If not determinable: n/a\
 """
 
 
@@ -45,15 +53,17 @@ def main():
     # Index raw jobs by id for description lookup
     raw_by_id = {j["id"]: j for j in jobs_raw}
 
-    # Jobs that need REGION: missing the field, and have a description
+    # Jobs missing REGION or LOCATION
     to_classify = [
         j for j in jobs_raw
         if j["id"] in classified
-        and "region" not in classified[j["id"]]
-        and j.get("raw_text", "").strip()
+        and (
+            "region" not in classified[j["id"]]
+            or "location" not in classified[j["id"]]
+        )
     ]
 
-    print(f"Jobs needing REGION: {len(to_classify)} "
+    print(f"Jobs needing backfill: {len(to_classify)} "
           f"(of {len(classified)} classified, {len(jobs_raw)} total in window)")
 
     if not to_classify:
@@ -65,19 +75,22 @@ def main():
     for i, job in enumerate(to_classify):
         description = html_lib.unescape(job.get("raw_text", "")).strip()
         location = job.get("location") or ""
-        content = (
-            f"<job>\n"
-            f"<title>{job['title']}</title>\n"
-            f"<company>{job['company']}</company>\n"
-            f"<location>{location}</location>\n"
-            f"<description>\n{description}\n</description>\n"
-            f"</job>"
-        )
+        parts = [
+            "<job>",
+            f"<title>{job['title']}</title>",
+            f"<company>{job['company']}</company>",
+        ]
+        if location:
+            parts.append(f"<location>{location}</location>")
+        if description:
+            parts.append(f"<description>\n{description}\n</description>")
+        parts.append("</job>")
+        content = "\n".join(parts)
         requests.append({
             "custom_id": str(i),
             "params": {
                 "model": MODEL,
-                "max_tokens": 5,
+                "max_tokens": 40,
                 "system": SYSTEM,
                 "messages": [{"role": "user", "content": content}],
             },
@@ -103,9 +116,17 @@ def main():
             continue
         idx = int(result.custom_id)
         job = to_classify[idx]
-        text = result.result.message.content[0].text.strip().lower()
-        region = text if text in ("us", "canada", "international") else "unclear"
-        classified[job["id"]]["region"] = region
+        text = result.result.message.content[0].text.strip()
+        cl = classified[job["id"]]
+        for line in text.splitlines():
+            if line.startswith("REGION:"):
+                val = line.removeprefix("REGION:").strip().lower()
+                if val in ("us", "canada", "international", "unclear"):
+                    cl["region"] = val
+            elif line.startswith("LOCATION:"):
+                val = line.removeprefix("LOCATION:").strip()
+                if val.lower() not in ("n/a", ""):
+                    cl["location"] = val
         updated += 1
 
     JOBS_CLASSIFIED_FILE.write_text(json.dumps(classified, indent=2))
@@ -113,10 +134,9 @@ def main():
     from collections import Counter
     counts = Counter(classified[j["id"]].get("region", "missing") for j in to_classify if j["id"] in classified)
     print(f"\nUpdated {updated} jobs")
-    print(f"Region breakdown for backfilled jobs: {dict(counts)}")
-
+    print(f"Region breakdown: {dict(counts)}")
     intl = sum(1 for j in to_classify if classified.get(j["id"], {}).get("region") == "international")
-    print(f"\nInternational jobs that will be filtered from render: {intl}")
+    print(f"International jobs filtered from render: {intl}")
 
 
 if __name__ == "__main__":
