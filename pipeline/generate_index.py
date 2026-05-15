@@ -134,6 +134,11 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     if not remote_only:
         stats += f" &nbsp;·&nbsp; {company_count} companies searched"
 
+    if remote_only:
+        nav_links = "[← All roles](README.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
+    else:
+        nav_links = "[How it works →](https://github.com/zachproffitt/builder-jobs-scraper) &nbsp;·&nbsp; [Remote only →](REMOTE.md)"
+
     lines = [
         f"# {title}",
         "",
@@ -141,7 +146,8 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         "",
         f"### {stats}",
         "",
-        *(["[Remote only →](REMOTE.md)", ""] if not remote_only else []),
+        nav_links,
+        "",
         f"<sub>Last updated {last_run_str}</sub>" if last_run_str else "",
         "",
     ]
@@ -205,8 +211,7 @@ def main():
         title="Builder Jobs",
         subtitle=(
             "For engineers who build. Roles are scraped hourly from YC startups, VC-backed companies,"
-            " and major tech curated across 20+ industries — classified by Claude, and removed after 14 days.\n\n"
-            "[How it works →](https://github.com/zachproffitt/builder-jobs-scraper)"
+            " and major tech curated across 20+ industries — classified by Claude, and removed after 14 days."
         ),
     )
 
@@ -216,8 +221,7 @@ def main():
         title="Builder Jobs — Remote",
         subtitle=(
             "Remote engineering roles only, scraped hourly and classified by Claude."
-            " Listings older than 14 days are removed automatically.\n\n"
-            "> *[← All roles](README.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)*"
+            " Listings older than 14 days are removed automatically."
         ),
         remote_only=True,
     )
