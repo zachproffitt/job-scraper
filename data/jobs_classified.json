@@ -39290,14 +39290,14 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "London, UK",
-    "job_summary": "Build data science prototypes and production models that embed intelligent decisioning and AI into GoCardless products and internal systems. Work across data collection, cleaning, visualization, and analysis to help teams across the company make faster, data-driven decisions in a fintech processing $30B+ in payments globally.",
+    "location": "London, UK / Leeds, UK",
+    "job_summary": "Build data science prototypes and production models that power strategic decisions and intelligent systems across GoCardless's payment platform. Work with product, engineering, and operations teams to embed AI and advanced analytics into products and internal systems, handling the full pipeline from data collection and cleaning through visualization, analysis, and deployment.",
     "skills": [
       "Python",
       "SQL",
       "scikit-learn",
-      "PyTorch",
       "TensorFlow",
+      "PyTorch",
       "dbt",
       "Google Cloud Platform",
       "Looker"
@@ -39307,7 +39307,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "0bf76828"
+    "source_hash": "15142939"
   },
   "greenhouse-si-7930302": {
     "is_engineering": false,
@@ -40143,5 +40143,68 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "0ca41cd9"
+  },
+  "ashby-nightfall-ai-b8b1a67e-818a-496f-b111-26925fa99d37": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "52330ede"
+  },
+  "greenhouse-tenstorrent-5137633007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX / Santa Clara, CA",
+    "job_summary": "Lead development of CPU core-level test generators and verification strategy for high-performance out-of-order RISC-V cores, owning generator infrastructure, ISA and microarchitectural stimulus, and RISC-V certification workflows. This role requires deep expertise in CPU design verification at scale, involves guiding a small team while staying hands-on with implementation and debug, and demands direct access to US export-controlled semiconductor technology.",
+    "skills": [
+      "RISC-V",
+      "CPU Verification",
+      "Test Generation",
+      "ISA Design",
+      "Out-of-Order CPU Architecture",
+      "Randomized Stimulus",
+      "C++",
+      "SystemVerilog"
+    ],
+    "level": "senior",
+    "comp": "$100k-$500k",
+    "comp_extras": [],
+    "source_hash": "13fe2334"
+  },
+  "greenhouse-stripe-7521020": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f3fb6f30"
+  },
+  "ashby-wealthsimple-6c74631d-bb57-42de-a066-3e89d805df9d": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Remote / On-site (Canada)",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "12ade211"
   }
 }
