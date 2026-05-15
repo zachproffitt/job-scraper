@@ -28180,5 +28180,184 @@
       "equity"
     ],
     "source_hash": "08cb55e2"
+  },
+  "greenhouse-rocketlab-7725103003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9f9802e4"
+  },
+  "greenhouse-vardaspace-7728872003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$109k-$179k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6cd807f4"
+  },
+  "greenhouse-vardaspace-7728867003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$109k-$179k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f33da856"
+  },
+  "greenhouse-vardaspace-7728859003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$109k-$179k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3e546c1a"
+  },
+  "greenhouse-vardaspace-7728866003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$109k-$179k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "44954b7e"
+  },
+  "lever-grailbio-14377c29-9a74-4f9a-9dc6-fcfcb8b6828b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4bb29471"
+  },
+  "greenhouse-vardaspace-7728861003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e205a152"
+  },
+  "greenhouse-vardaspace-7728873003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$109k-$179k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4542d085"
+  },
+  "greenhouse-twilio-7807900": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "59ed7cf3"
+  },
+  "greenhouse-lyft-8550340002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "CAD $108k-CAD $135k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f5866fb9"
+  },
+  "greenhouse-okta-7849955": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and architect Okta's next-generation Imports Platform, migrating from monolithic identity lifecycle management to a highly scalable distributed microservices system that syncs identities and access policies from external directory services like Active Directory and Office 365. Lead cross-team technical strategy for batch processing, real-time synchronization, and user matching algorithms serving thousands of enterprise customers at massive scale.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Distributed Systems",
+      "Apache Kafka",
+      "Redis",
+      "MySQL",
+      "AWS",
+      "gRPC"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "24d9aec5"
+  },
+  "greenhouse-okta-7920036": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and drive the long-term technical architecture for Okta's Integration Pillar, a multi-tenant platform enabling developers and partners to build enterprise SaaS connectors at scale. Lead cross-team initiatives to eliminate scaling bottlenecks, manage third-party API integration risks, and establish foundational tooling and standards across dozens of integrations.",
+    "skills": [
+      "Java",
+      "Go",
+      "Python",
+      "C#",
+      "AWS",
+      "Kubernetes",
+      "OAuth 2.0",
+      "SCIM"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ecaa522e"
+  },
+  "greenhouse-workato-8551121002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "2a78c2dd"
   }
 }
