@@ -1,5 +1,7 @@
 # Builder Jobs — Scraper
 
+*Updated 15 May 2026*
+
 Hourly pipeline that scrapes engineering jobs from company career pages, classifies each role with Claude, and publishes rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
 
 ## Pipeline
@@ -34,29 +36,30 @@ Each job is sent to Claude with a structured prompt that extracts:
 - **LEVEL** — intern / junior / mid / senior / staff / principal / manager
 - **COMP** — base salary range with original currency symbol
 - **HYBRID / CONTRACT** — work arrangement flags
+- **REGION** — us / canada / international / unclear
 
-Non-engineering and contract roles are filtered out.
+Non-engineering, contract, and international (outside US/Canada) roles are filtered out.
 
 ## Supported ATS
 
 | ATS | Companies | Scraper |
 |---|---|---|
-| Ashby | 391 | `scrapers/ats_ashby.py` |
-| Greenhouse | 242 | `scrapers/ats_greenhouse.py` |
-| Lever | 81 | `scrapers/ats_lever.py` |
-| Workday | 33 | `scrapers/ats_workday.py` |
+| Ashby | 415 | `scrapers/ats_ashby.py` |
+| Greenhouse | 268 | `scrapers/ats_greenhouse.py` |
+| Lever | 82 | `scrapers/ats_lever.py` |
+| Workday | 53 | `scrapers/ats_workday.py` |
 | BambooHR | 26 | `scrapers/ats_bamboo.py` |
 | Breezy | 21 | `scrapers/ats_breezy.py` |
-| Workable | 18 | `scrapers/ats_workable.py` |
-| SmartRecruiters | 3 | `scrapers/ats_smartrecruiters.py` |
+| Workable | 22 | `scrapers/ats_workable.py` |
+| SmartRecruiters | 4 | `scrapers/ats_smartrecruiters.py` |
 | Eightfold | 2 | `scrapers/ats_eightfold.py` |
 
 ## Company sources
 
-~5,000 candidates in `data/company_names.txt`, sourced from:
+~5,700 candidates in `data/company_names.txt`, sourced from:
 
 - **Y Combinator** — all active batches via Algolia (`discovery/discover_yc_companies.py`)
-- **VC portfolios** — Founders Fund, Khosla Ventures (`discovery/discover_vc_companies.py`)
+- **VC portfolios** — Founders Fund, Khosla Ventures, Greylock, Sequoia (`discovery/discover_vc_companies.py`)
 - **Industry curation** — Claude-enumerated top companies across 20+ sectors (`discovery/discover_industry_companies.py`)
 
 ATS detection (`discovery/discover_companies.py`) runs over the candidate list and populates `data/companies.json` with confirmed companies and their slugs.
@@ -98,7 +101,7 @@ PYTHONPATH=. python pipeline/generate_index.py ../jobs
 
 | File | Description |
 |---|---|
-| `data/company_names.txt` | ~5,000 candidate companies: name \| domain |
+| `data/company_names.txt` | ~5,700 candidate companies: name \| domain |
 | `data/companies.json` | Confirmed companies with detected ATS and slug |
 | `data/seen_jobs.json` | Permanent ID registry: `{job_id: first_seen_date}` |
 | `data/seen_companies.json` | First-fetch registry per company |

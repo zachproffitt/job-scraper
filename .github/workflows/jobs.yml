@@ -91,10 +91,14 @@ jobs:
         working-directory: scraper
         run: PYTHONPATH=. python pipeline/write_summary.py
 
+      - name: Update scraper README
+        working-directory: scraper
+        run: PYTHONPATH=. python pipeline/update_scraper_readme.py
+
       - name: Commit and push scraper data
         working-directory: scraper
         run: |
-          git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/pipeline.log
+          git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/pipeline.log README.md
           if git diff --cached --quiet; then
             echo "No changes in scraper data"
           else
