@@ -110,6 +110,7 @@ def collect_jobs(jobs_repo: Path) -> tuple[list[dict], dict[str, str]]:
             "company": fm.get("company", ""),
             "meta": format_meta(fm),
             "summary": fm.get("summary", ""),
+            "url": fm.get("url", ""),
             "skills": skills,
             "first_seen": fm.get("first_seen", "unknown"),
             "posted_at": fm.get("posted_at", ""),
@@ -174,7 +175,8 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
             lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")
-                lines.append(f"_{j['summary']}_")
+                apply = f" · [Apply →]({j['url']})" if j.get("url") else ""
+                lines.append(f"_{j['summary']}{apply}_")
             if j["skills"]:
                 lines.append("")
                 lines.append(" ".join(skill_badge(s) for s in j["skills"]))
