@@ -43100,5 +43100,89 @@
       "bonus"
     ],
     "source_hash": "ba03ad90"
+  },
+  "ashby-goteleport-33e4767b-6ad1-4a34-950a-4df4287d1287": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oakland, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "67afb0ab"
+  },
+  "ashby-topline-pro-72ea3482-8fb6-42de-ac00-c826414715a5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Williamsburg, Brooklyn, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$60k",
+    "comp_extras": [],
+    "source_hash": "268d6bf2"
+  },
+  "greenhouse-bridgebio-5138511007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "California, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$165,000\u2014$225,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6d4742d4"
+  },
+  "ashby-ekho-f6859821-786e-4700-8c9c-ee8b1e0e1438": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Remote",
+    "job_summary": "Own Ekho's marketing function end-to-end and build the AI agent orchestration layer that scales critical business operations\u2014from RevOps and CS automation to hiring and BizOps. You'll stand up agents across functions, starting with dealer outbound and expanding the infrastructure downstream as the company grows.",
+    "skills": [
+      "Claude",
+      "AI Agents",
+      "Python",
+      "HubSpot",
+      "GTM Strategy",
+      "RevOps",
+      "Agent Orchestration",
+      "Paid Advertising"
+    ],
+    "level": "mid",
+    "comp": "$150k-$200k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bd946948"
+  },
+  "greenhouse-toast-7523485": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$125k-$254k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "81908a32"
   }
 }
