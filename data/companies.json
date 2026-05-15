@@ -1151,6 +1151,13 @@
     "meta_description": "Chainalysis helps government agencies, cryptocurrency businesses, and financial institutions engage confidently with cryptocurrency."
   },
   {
+    "name": "Chainguard",
+    "ats": "greenhouse",
+    "slug": "chainguard",
+    "website": "https://chainguard.dev",
+    "category": []
+  },
+  {
     "name": "Character.ai",
     "ats": "ashby",
     "slug": "character",
@@ -2266,6 +2273,13 @@
     "meta_description": "Verify every deploy, triage every production issue, deliver root cause to your coding agents, 24/7."
   },
   {
+    "name": "Fireworks AI",
+    "ats": "greenhouse",
+    "slug": "fireworksai",
+    "website": "https://fireworks.ai",
+    "category": []
+  },
+  {
     "name": "Firstbase.io",
     "ats": "ashby",
     "slug": "firstbaseio",
@@ -2585,6 +2599,13 @@
     "slug": "grafanalabs",
     "website": "https://grafana.com",
     "meta_description": "Avoid lock-in and ensure reliability with Grafana Cloud. The AI-powered platform built on open standards unifies metrics, logs, traces, profiles, and business data."
+  },
+  {
+    "name": "Grafana Labs",
+    "ats": "greenhouse",
+    "slug": "grafanalabs",
+    "website": "https://grafana.com",
+    "category": []
   },
   {
     "name": "GRAIL",
@@ -3235,6 +3256,13 @@
     "slug": "kairospower",
     "website": "https://kairospower.com",
     "meta_description": "Building the future of clean energy through iterative development and vertical integration. Kairos Power's advanced reactors deliver reliable, safe nuclear power at scale."
+  },
+  {
+    "name": "Kalshi",
+    "ats": "ashby",
+    "slug": "kalshi",
+    "website": "https://kalshi.com",
+    "category": []
   },
   {
     "name": "Katalyst",
@@ -4071,6 +4099,13 @@
     "meta_description": "New Incentives provides small cash incentives to caregivers in northern Nigeria in order to increase childhood vaccination rates.  We implement evidence-based programming to save lives in a manner that does the most good per dollar."
   },
   {
+    "name": "New Relic",
+    "ats": "greenhouse",
+    "slug": "newrelic",
+    "website": "https://newrelic.com",
+    "category": []
+  },
+  {
     "name": "Nextdoor",
     "ats": "greenhouse",
     "slug": "nextdoor",
@@ -4300,6 +4335,13 @@
     "meta_description": "Fast, scalable and cost-effective open source observability platform. Monitor logs, metrics &#38; traces with 140x lower storage costs than Elasticsearch. Start in 2 minutes."
   },
   {
+    "name": "OpenRouter",
+    "ats": "ashby",
+    "slug": "openrouter",
+    "website": "https://openrouter.ai",
+    "category": []
+  },
+  {
     "name": "OpenSpace",
     "ats": "greenhouse",
     "slug": "openspace",
@@ -4523,6 +4565,13 @@
     "website": "https://www.permitflow.com",
     "category": [],
     "meta_description": "PermitFlow simplifies permit preparation, submission, and tracks nationwide. Our platform handles the paperwork across all municipalities."
+  },
+  {
+    "name": "Perplexity",
+    "ats": "ashby",
+    "slug": "perplexity",
+    "website": "https://perplexity.ai",
+    "category": []
   },
   {
     "name": "Persefoni",
@@ -5103,6 +5152,13 @@
     "website": "https://redwoodmaterials.com"
   },
   {
+    "name": "Reflection AI",
+    "ats": "ashby",
+    "slug": "reflectionai",
+    "website": "https://reflection.ai",
+    "category": []
+  },
+  {
     "name": "Relativity Space",
     "ats": "greenhouse",
     "slug": "relativity",
@@ -5483,6 +5539,13 @@
     "slug": "SecondDinner",
     "website": "https://seconddinner.com",
     "meta_description": "Second Dinner is a small, sleek, and absurdly vigorous new game studio. We may be small, but we've got BIG DREAMS!"
+  },
+  {
+    "name": "SecurityScorecard",
+    "ats": "greenhouse",
+    "slug": "securityscorecard",
+    "website": "https://securityscorecard.com",
+    "category": []
   },
   {
     "name": "Semgrep",
@@ -6663,6 +6726,20 @@
     "meta_description": "Vannevar builds agentic AI for 21st-century conflict, pre-trained for national security missions and delivering decision advantage."
   },
   {
+    "name": "Vanta",
+    "ats": "ashby",
+    "slug": "vanta",
+    "website": "https://vanta.com",
+    "category": []
+  },
+  {
+    "name": "Vantage",
+    "ats": "ashby",
+    "slug": "vantage",
+    "website": "https://vantage.sh",
+    "category": []
+  },
+  {
     "name": "Vantor",
     "ats": "workday",
     "slug": "maxar/wd1/Vantor",
@@ -6969,6 +7046,13 @@
     "website": "https://withcoverage.com",
     "category": [],
     "meta_description": "Replace your traditional insurance broker with a smarter way to manage risk."
+  },
+  {
+    "name": "Wiz",
+    "ats": "greenhouse",
+    "slug": "wizinc",
+    "website": "https://wiz.io",
+    "category": []
   },
   {
     "name": "Workato",
