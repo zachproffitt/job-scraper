@@ -43184,5 +43184,334 @@
       "bonus"
     ],
     "source_hash": "81908a32"
+  },
+  "greenhouse-rocketlab-7731624003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Auckland, New Zealand",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2f5b2f90"
+  },
+  "greenhouse-andurilindustries-5138346007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$191,000\u2014$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0162dcaf"
+  },
+  "greenhouse-andurilindustries-5139434007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$165,000\u2013$218,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "583d215c"
+  },
+  "greenhouse-andurilindustries-5139431007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$191,000\u2014$253,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e137719e"
+  },
+  "greenhouse-andurilindustries-5138348007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$191,000\u2014$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "698efbc8"
+  },
+  "lever-CollectlyInc-90072f29-733b-43f0-aa51-57150c39fb34": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f4b5d27f"
+  },
+  "ashby-aiprise-39861721-5ebf-4c9b-a382-a1a7aec9b0bb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bengaluru, India",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "f498a184"
+  },
+  "greenhouse-andurilindustries-5139088007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$191,000\u2014$253,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "438900bf"
+  },
+  "greenhouse-pairteam-8552834002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "California",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$22-$25/hour",
+    "comp_extras": [],
+    "source_hash": "800e2ed5"
+  },
+  "lever-CesiumAstro-d1028278-105f-4630-98f3-f999e362a59f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7727c284"
+  },
+  "greenhouse-pairteam-8552828002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "California",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$22-$25/hour",
+    "comp_extras": [],
+    "source_hash": "00f29708"
+  },
+  "greenhouse-recursionpharmaceuticals-7931607": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Salt Lake City, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$77,500-$97,800",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e0b62586"
+  },
+  "greenhouse-pairteam-8552837002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "California, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$22-$25/hour",
+    "comp_extras": [],
+    "source_hash": "dc661960"
+  },
+  "greenhouse-pairteam-8552838002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "California, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$22-$25/hour",
+    "comp_extras": [],
+    "source_hash": "89874f3d"
+  },
+  "greenhouse-gusto-7931506": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO / San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$20.50-$23.90/hour",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ac8138e4"
+  },
+  "ashby-snowflake-92433b83-0adb-4da6-9c92-50b97f7462b5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50c27ef2"
+  },
+  "greenhouse-si-7931659": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00/hour",
+    "comp_extras": [],
+    "source_hash": "2e180ee3"
+  },
+  "greenhouse-toast-7921081": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$111,000\u2014$178,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a6e99853"
+  },
+  "greenhouse-okta-7930836": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$139k-$191k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "947f0fdd"
+  },
+  "greenhouse-galaxydigitalservices-5997360004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Lead a specialized SRE team designing, deploying, and maintaining automation platforms and infrastructure-as-code systems across hybrid cloud and on-prem data center environments. Establish IaC governance standards, optimize configuration management workflows, and build self-service platforms that enhance engineering velocity while managing complex hybrid infrastructure at scale.",
+    "skills": [
+      "Terraform",
+      "Ansible",
+      "Packer",
+      "Python",
+      "Go",
+      "PowerShell",
+      "Bash",
+      "VMware"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3eb2bec2"
+  },
+  "ashby-wealthsimple-b4e6f8c7-5da8-4eb6-a30b-4ebdf6c9cd43": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Remote / Canada",
+    "job_summary": "Lead a specialized technical operations team managing enterprise CX infrastructure (Zendesk, Five9, GenAI systems) serving 2,000+ agents at Canada's largest fintech. Own sprint delivery, platform stability, AI quality assurance, and rapid incident response in a heavily integrated, high-scale environment.",
+    "skills": [
+      "Zendesk",
+      "Five9",
+      "Jira",
+      "REST APIs",
+      "GenAI Operations",
+      "CX Systems Administration",
+      "Fintech"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2afbff4f"
+  },
+  "greenhouse-toast-7931664": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$128,000\u2014$205,000",
+    "comp_extras": [],
+    "source_hash": "1e6de196"
   }
 }
