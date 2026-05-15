@@ -40489,5 +40489,487 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "571b7f75"
+  },
+  "greenhouse-airbnb-7531247": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Florida / Georgia",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$160,000\u2014$200,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "afdce99b"
+  },
+  "greenhouse-anthropic-5220336008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Dublin, Ireland",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "\u20ac155,000-\u20ac205,000",
+    "comp_extras": [],
+    "source_hash": "d6e95dc7"
+  },
+  "greenhouse-rocketlab-7735051003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$124,800\u2013$156,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "41c0b0fa"
+  },
+  "greenhouse-anthropic-5116771008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$260,000\u2014$305,000",
+    "comp_extras": [],
+    "source_hash": "955bfca5"
+  },
+  "greenhouse-airbnb-7872758": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and own features powering Airbnb's guest payment systems, handling all money flowing into the platform \u2014 from payment method onboarding to quote generation and self-serve payment tools. Work on high-scale distributed systems processing massive daily transaction volumes across a global marketplace.",
+    "skills": [
+      "Java",
+      "Scala",
+      "Ruby on Rails",
+      "Python",
+      "Distributed Systems",
+      "A/B Testing"
+    ],
+    "level": "mid",
+    "comp": "$162,000\u2013$186,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dbc688ab"
+  },
+  "greenhouse-andurilindustries-5138465007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "768e5be6"
+  },
+  "greenhouse-apptronik-5997000004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Own the CI/CD systems, build infrastructure, and developer-facing platforms that determine how quickly the company ships robot software. Work spans on-prem and cloud deployments, with particular challenges in release engineering for embedded targets and fleet rollout at scale.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Python",
+      "Bash",
+      "AWS",
+      "GitHub Actions",
+      "Linux",
+      "GitOps"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ca62a3a0"
+  },
+  "lever-cfsenergy-0397420e-f60d-4388-a74a-3ae14709ee7c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "410eb6b5"
+  },
+  "greenhouse-nuro-7922662": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and execute comprehensive validation frameworks for autonomous vehicle systems, developing analytical models and test plans to verify performance against first-principles requirements. Lead cross-functional validation campaigns with ownership of requirement definition, test execution, data analysis, and technical reporting for safety-critical autonomy systems.",
+    "skills": [
+      "Vehicle dynamics",
+      "ADAS",
+      "Autonomous Systems",
+      "Perception Systems",
+      "Motion Planning",
+      "Control Systems",
+      "HIL/SIL Simulation",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": "$132,300-$198,450",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "874f4bb7"
+  },
+  "ashby-Coder-55a515d8-ecc1-4f4e-b8b5-99420ea72231": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "743f570c"
+  },
+  "greenhouse-vannevarlabs-5044077007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "32291efd"
+  },
+  "smartrecruiters-CDPROJEKTRED-744000126736129": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "319eb0db"
+  },
+  "greenhouse-wayve-8551863002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Remote / EU",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f5e8885f"
+  },
+  "ashby-AfterQuery-dc65714a-f647-4d3c-ac81-a36bcf1cea79": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "276ac10f"
+  },
+  "greenhouse-scopely-5222228008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$134534-$145126",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9a9e8b63"
+  },
+  "ashby-AfterQuery-2ba013e1-d254-4436-afd7-19d0b451424f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5d3035ba"
+  },
+  "ashby-Healthtech-1-928e5939-c372-427e-a5e9-c5f2905c3c2d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build scalable, high-quality backend systems and APIs for an NHS healthcare automation platform used by thousands of GP practices. Work in a high-stakes healthcare domain with direct access to real clinicians and patients to validate your work, and influence product direction as a founding engineer in an early-stage, well-backed startup.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "API Design",
+      "PostgreSQL",
+      "Distributed Systems",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "72c21c6b"
+  },
+  "greenhouse-robinhood-7922396": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Menlo Park, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$80k-$120k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "a1aabee6"
+  },
+  "greenhouse-lyft-8476426002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$88k-$110k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1cd1c416"
+  },
+  "greenhouse-twilio-7912738": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$36.01/hr-$50.02/hr",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6488a5b2"
+  },
+  "greenhouse-cloudflare-7726977": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Lisbon, Portugal",
+    "job_summary": "Support customers troubleshooting technical issues with Cloudflare's CDN and security products while learning internet fundamentals and our platform internals. Work embedded in a support team at scale, exposing you to real-world production issues and product feedback loops across layers 3\u20137.",
+    "skills": [
+      "Linux",
+      "Bash",
+      "Python",
+      "JavaScript",
+      "DNS",
+      "SSL/TLS",
+      "HTTP",
+      "Git"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "53d28196"
+  },
+  "greenhouse-gusto-7656216": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO / San Francisco, CA / New York, NY",
+    "job_summary": "Build statistical models and experimentation frameworks to identify and mitigate risk across Gusto's payroll and HR platform, serving 500,000+ small businesses. Apply causal inference and experimental design to influence product decisions in a domain requiring deep risk modeling expertise.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Statistical Inference",
+      "Causal Inference",
+      "Experimental Design",
+      "Risk Modeling"
+    ],
+    "level": "staff",
+    "comp": "$154k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b87db289"
+  },
+  "greenhouse-cloudflare-7738938": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Lisbon, Portugal",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a9173e50"
+  },
+  "greenhouse-humaninterest-7927328": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$75k-$90k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1a4dc201"
+  },
+  "ashby-optro-c0efcde7-04cb-4381-9e56-36f89a14a622": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and architect scalable backend systems and REST APIs for an audit, risk, and compliance platform serving Fortune 500 customers. Lead large strategic projects, mentor engineers, and design systems handling complex data pipelines and B2B integrations at scale.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Kubernetes",
+      "Docker",
+      "REST APIs",
+      "ETL pipelines",
+      "B2B integrations"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "70930d32"
+  },
+  "greenhouse-maintainx-5138943007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "da9621bb"
+  },
+  "greenhouse-maintainx-5138132007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1f8ffb47"
+  },
+  "greenhouse-maintainx-5138973007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Argentina",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d524fdf8"
+  },
+  "ashby-optro-3a7f9ca6-9293-4dca-8546-5458c7f15f0a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and ship backend product features end-to-end using Python, FastAPI, and PostgreSQL for a SaaS audit and risk platform serving Fortune 500 companies. Lead large strategic projects, mentor engineers, and design scalable distributed systems running on Kubernetes.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "REST APIs",
+      "Celery",
+      "Redis"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "6e78ee57"
   }
 }
