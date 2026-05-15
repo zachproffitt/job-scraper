@@ -1,2 +1,2 @@
-[2026-05-15T21:22:07Z] fetch_jobs: scraper error for Bumble (workday/bumble/wd3/Bumble_Careers): Workday request failed for bumble/wd3/Bumble_Careers: Client error '403 Forbidden' for url 'https://bumble.wd3.myworkdayjobs.com/wday/cxs/bumble/Bumble_Careers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-15T21:36:04Z] fetch_jobs: scraper error for Sensormatic Electronics (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: Server error '520 <none>' for url 'https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520

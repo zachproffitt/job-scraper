@@ -2,7 +2,7 @@
 
 Hourly pipeline that scrapes engineering jobs from company career pages, classifies each role with Claude, and publishes rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
 
-<sub>Last updated May 15, 2026 at 21:27 UTC</sub>
+<sub>Last updated May 15, 2026 at 21:37 UTC</sub>
 
 ## Pipeline
 
@@ -47,13 +47,13 @@ Non-engineering, contract, and international (outside US/Canada) roles are filte
 | Ashby | 415 | `scrapers/ats_ashby.py` |
 | Greenhouse | 270 | `scrapers/ats_greenhouse.py` |
 | Lever | 82 | `scrapers/ats_lever.py` |
-| Workday | 55 | `scrapers/ats_workday.py` |
+| Workday | 54 | `scrapers/ats_workday.py` |
 | BambooHR | 26 | `scrapers/ats_bamboo.py` |
 | Breezy | 21 | `scrapers/ats_breezy.py` |
 | Workable | 22 | `scrapers/ats_workable.py` |
 | SmartRecruiters | 4 | `scrapers/ats_smartrecruiters.py` |
 | Eightfold | 2 | `scrapers/ats_eightfold.py` |
-| **Total** | **897** | |
+| **Total** | **896** | |
 
 ## Company sources
 

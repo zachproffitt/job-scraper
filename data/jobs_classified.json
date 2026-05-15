@@ -43594,5 +43594,117 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e81054d7"
+  },
+  "ashby-Skydropx-413dbdaf-f739-4867-b32e-70180f5ea9a8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Curitiba, Brazil",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0239d11f"
+  },
+  "greenhouse-astranis-4682066006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$70,000\u2014$125,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7b6e898e"
+  },
+  "greenhouse-anthropic-5219829008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Washington, DC",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$265,000\u2014$320,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "253dc7dd"
+  },
+  "ashby-trm-labs-18b4968a-7242-4c62-a264-ce2326a528af": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3f644697"
+  },
+  "greenhouse-toast-7757899": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Own the multi-quarter AI-in-GTM strategy and roadmap across Marketing, Sales, and Customer Success, designing reusable infrastructure, deploying production agents, and translating AI capability into measurable revenue impact. Lead a hands-on role shipping custom workflows, evaluation frameworks, and agentic systems that transform how GTM teams operate \u2014 from Clay workflows to Salesforce integrations to Voice AI SDR pilots.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "SQL",
+      "LangChain",
+      "CrewAI",
+      "OpenAI",
+      "Claude",
+      "Salesforce"
+    ],
+    "level": "senior",
+    "comp": "$90k-$184k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "370544b9"
+  },
+  "greenhouse-ionq-5997260004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$126,887-$166,127",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "80bc4f09"
+  },
+  "greenhouse-andurilindustries-5139198007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$113k-$149k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "834a1aa4"
   }
 }
