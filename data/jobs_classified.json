@@ -43513,5 +43513,86 @@
     "comp": "$128,000\u2014$205,000",
     "comp_extras": [],
     "source_hash": "1e6de196"
+  },
+  "greenhouse-slingshotaerospace-5997365004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "17601892"
+  },
+  "ashby-commure-4dd01cb1-6568-48b3-be62-37032ad487e1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build fullstack AI-powered clinical documentation and autonomous workflow systems that process real-time patient interactions and assist clinicians at scale. You'll design production LLM integrations and healthcare automation features handling 100M+ patient interactions annually across 500K clinicians.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "Docker",
+      "Kubernetes",
+      "LLM APIs",
+      "Healthcare/Clinical Domain"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "20f7c34e"
+  },
+  "greenhouse-roblox-7754152": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": "Lead multidisciplinary engineering teams building and scaling Roblox's asset infrastructure platform, managing 100+ million requests per second across creation, upload, storage, indexing, and delivery of all asset types. Drive long-term technical strategy, architecture, and roadmap for one of the largest backend services in the world serving tens of millions of creators and players.",
+    "skills": [
+      "Distributed Systems",
+      "Backend Engineering",
+      "Infrastructure at Scale",
+      "Large-scale Data Storage",
+      "Asset Management Systems",
+      "Microservices Architecture",
+      "Cloud Infrastructure",
+      "Leadership"
+    ],
+    "level": "principal",
+    "comp": "$399,420-$457,970",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "50849615"
+  },
+  "ashby-commure-b8d40cf3-3bde-4aec-a2a9-ded988ab128f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build production AI-powered clinical documentation, provider copilots, and autonomous coding systems that integrate LLMs into real-time clinical workflows. Work across full-stack architecture (Python backend, TypeScript/React frontend, Kubernetes infrastructure) to deliver intelligent healthcare automation that clinicians trust with critical patient care tasks.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "React",
+      "Kubernetes",
+      "Docker",
+      "LLM APIs",
+      "Bachelor's in Computer Science or Engineering"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e81054d7"
   }
 }

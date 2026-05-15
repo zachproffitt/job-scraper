@@ -4325,5 +4325,615 @@
     "slug": "Honey Homes",
     "name": "Honey Homes",
     "summary": "Honey Homes is a real estate platform that helps homeowners sell their properties directly to institutional buyers and investment companies, bypassing traditional real estate agents and auctions. The company operates in the residential real estate market, focusing on streamlining the home-selling process for those seeking quick sales or alternative transaction methods."
+  },
+  {
+    "slug": "adobe/wd5/external_experienced",
+    "name": "Frame.io",
+    "summary": "Frame.io is a cloud-based video collaboration platform that enables teams to review, approve, and provide feedback on video content in real-time. The service is used by creative professionals in film, television, advertising, and corporate video production to streamline the review and approval process across distributed teams."
+  },
+  {
+    "slug": "aerones",
+    "name": "Aerones",
+    "summary": "Aerones develops autonomous drone systems designed for industrial inspection and maintenance tasks on tall structures such as wind turbines, towers, and buildings. The company operates in the industrial inspection and drone technology sector, providing automated solutions that reduce the need for human workers to perform dangerous work at height."
+  },
+  {
+    "slug": "avav/wd1/AVAV",
+    "name": "AeroVironment",
+    "summary": "AeroVironment designs and manufactures unmanned aircraft systems (UAS) and associated equipment for commercial, government, and defense applications. The company produces hand-launched and tactical drones, electric vertical takeoff and landing aircraft, and charging infrastructure, serving markets including defense, agriculture, infrastructure inspection, and emergency response."
+  },
+  {
+    "slug": "veradigm/wd12/VR",
+    "name": "Veradigm",
+    "summary": "Veradigm provides cloud-based electronic health record and healthcare data platforms that enable clinicians, patients, and researchers to access and share medical information across healthcare systems and settings."
+  },
+  {
+    "slug": "altusgroup/wd3/AltusGroup",
+    "name": "Reonomy",
+    "summary": "Reonomy provides commercial real estate data and analytics software that aggregates property information, transaction histories, and market insights from public records and proprietary sources to help real estate professionals make investment and lending decisions."
+  },
+  {
+    "slug": "ampup",
+    "name": "AmpUp",
+    "summary": "AmpUp provides a cloud-based platform that helps electric vehicle charging networks optimize their operations and manage distributed energy resources, enabling real-time coordination between EV chargers, grid operators, and energy markets."
+  },
+  {
+    "slug": "elevancehealth/wd1/ANT",
+    "name": "Anthem Health",
+    "summary": "Anthem is a health insurance company that provides medical, dental, pharmacy, and behavioral health coverage to millions of members through both employer-sponsored and individual insurance plans across the United States."
+  },
+  {
+    "slug": "arpio",
+    "name": "Arpio",
+    "summary": "Arpio provides disaster recovery and business continuity solutions specifically designed for applications running on AWS, enabling organizations to automate failover and recovery processes across regions."
+  },
+  {
+    "slug": "astroscale",
+    "name": "Astroscale",
+    "summary": "Astroscale develops satellite servicing and space debris removal technologies, operating in the commercial space infrastructure sector to extend satellite lifespans and mitigate orbital debris through on-orbit servicing missions."
+  },
+  {
+    "slug": "bakerhughes/wd5/BakerHughes",
+    "name": "Baker Hughes",
+    "summary": "Baker Hughes is a global energy technology company that provides equipment, services, and digital solutions for oil and gas exploration, production, and refining operations. The company operates across oilfield services, turbomachinery, process and pipeline services, and industrial gas turbine markets."
+  },
+  {
+    "slug": "bear-robotics",
+    "name": "Bear Robotics",
+    "summary": "Bear Robotics develops autonomous mobile robots designed to deliver food and beverages in restaurants, hotels, and hospitality venues, automating the task of transporting items from kitchens to dining areas and guest rooms."
+  },
+  {
+    "slug": "berkshiregrey",
+    "name": "Berkshire Grey",
+    "summary": "Berkshire Grey develops robotic systems and software for automating parcel sorting, case picking, and material handling in logistics and fulfillment centers. The company's technology uses computer vision and AI to enable robots to identify, grasp, and sort packages of varying sizes and shapes in warehouses and distribution networks."
+  },
+  {
+    "slug": "bigcommerce/wd12/Commerce",
+    "name": "BigCommerce",
+    "summary": "BigCommerce is a cloud-based e-commerce platform that enables businesses to build and manage online stores with features including product catalogs, shopping carts, payment processing, and order management. The company serves retailers of all sizes across various industries, from small independent sellers to large enterprise merchants."
+  },
+  {
+    "slug": "bios-3",
+    "name": "BIOS Health",
+    "summary": "BIOS Health develops a digital health platform that uses continuous glucose monitoring and AI-powered insights to help users optimize their nutrition, metabolism, and overall health. The company operates in the personalized nutrition and preventive health technology space, offering real-time feedback on how different foods and habits affect individual metabolic responses."
+  },
+  {
+    "slug": "boeing/wd1/EXTERNAL_CAREERS",
+    "name": "Boeing Defense, Space & Security",
+    "summary": "Boeing Defense, Space & Security designs and manufactures military aircraft, missiles, satellites, and space systems for the U.S. Department of Defense and international customers. The division produces platforms including fighter jets, cargo aircraft, anti-ship and air defense missiles, intelligence satellites, and launch vehicles for government space missions."
+  },
+  {
+    "slug": "bonterra/wd1/bonterratech",
+    "name": "Bonterra",
+    "summary": "Bonterra provides cloud-based software and services for nonprofits and social enterprises, offering integrated tools for grant management, donor management, accounting, and program delivery to help organizations manage their operations and impact measurement."
+  },
+  {
+    "slug": "bah/wd1/BAH_Jobs",
+    "name": "Booz Allen Hamilton",
+    "summary": "Booz Allen Hamilton is a management and technology consulting firm that serves U.S. government agencies and commercial clients across defense, intelligence, homeland security, and civilian sectors. The company provides consulting, analytics, digital transformation, and engineering services, with a particular focus on supporting federal government operations and national security missions."
+  },
+  {
+    "slug": "bostondynamics/wd1/Boston_Dynamics",
+    "name": "Boston Dynamics",
+    "summary": "Boston Dynamics develops advanced humanoid and quadruped robots designed for physical tasks in real-world environments, focusing on mobility, manipulation, and autonomous operation for industrial and commercial applications."
+  },
+  {
+    "slug": "boya",
+    "name": "Boya",
+    "summary": "Boya builds an all-in-one platform for managing influencer marketing campaigns, enabling brands to discover creators, manage collaborations, and track campaign performance across social media channels."
+  },
+  {
+    "slug": "browserstack/wd3/External",
+    "name": "BrowserStack",
+    "summary": "BrowserStack provides a cloud-based platform for testing web and mobile applications across thousands of real browsers, devices, and operating systems without requiring local infrastructure. The company serves developers and QA teams who need to verify that their applications work correctly across different environments before deployment."
+  },
+  {
+    "slug": "bumble/wd3/Bumble_Careers",
+    "name": "Bumble",
+    "summary": "Bumble is a dating and social networking app that empowers women by requiring them to make the first move in romantic and platonic connections. The platform operates in the digital dating space with features including BFF mode for friendship matching and Bizz mode for professional networking."
+  },
+  {
+    "slug": "chowdeck",
+    "name": "Chowdeck",
+    "summary": "Chowdeck is a food delivery platform operating in Nigeria that connects customers with restaurants and food vendors for on-demand meal delivery. The platform handles order management, payment processing, and logistics coordination to facilitate food delivery across major Nigerian cities."
+  },
+  {
+    "slug": "circle-medical",
+    "name": "Circle Medical",
+    "summary": "Circle Medical operates a network of primary care clinics offering in-person and virtual visits for preventive care, chronic disease management, and acute illness treatment in the San Francisco Bay Area and Los Angeles."
+  },
+  {
+    "slug": "cityblockhealth/wd1/CityblockExternalCareerSite",
+    "name": "Cityblock Health",
+    "summary": "Cityblock Health operates a healthcare delivery platform that provides primary care, behavioral health, and social services to underserved communities, particularly focusing on Medicaid patients in urban areas. The company combines clinical services with technology and social determinants of health interventions to address gaps in care access and health outcomes."
+  },
+  {
+    "slug": "rockwellautomation/wd1/External_Rockwell_Automation",
+    "name": "Rockwell Automation",
+    "summary": "Rockwell Automation designs and manufactures industrial automation and information systems, including programmable logic controllers, drives, motors, and software platforms that help factories and plants optimize production and operational efficiency."
+  },
+  {
+    "slug": "cloudera/wd5/External_Career",
+    "name": "Cloudera",
+    "summary": "Cloudera provides a data platform that enables organizations to collect, store, and analyze large volumes of data across hybrid and multi-cloud environments. The company serves enterprises in industries like finance, healthcare, and retail that need to process structured and unstructured data for analytics, machine learning, and real-time insights."
+  },
+  {
+    "slug": "cofactor-genomics",
+    "name": "Cofactor Genomics",
+    "summary": "Cofactor Genomics develops RNA sequencing and spatial transcriptomics technologies for research and diagnostic applications in genomics and pathology. The company provides tools and services that enable researchers and clinicians to analyze gene expression patterns at the cellular and tissue level."
+  },
+  {
+    "slug": "cognition-ip",
+    "name": "Cognition IP",
+    "summary": "Cognition IP provides intellectual property management software and services that help companies manage patents, trademarks, copyrights, and other IP assets throughout their lifecycle. The platform enables IP professionals to streamline workflows, track portfolio metrics, and maintain compliance across multiple jurisdictions."
+  },
+  {
+    "slug": "compulsiongames",
+    "name": "Compulsion Games",
+    "summary": "Compulsion Games is an independent video game developer based in Montreal that creates immersive first-person and narrative-driven games. The studio is known for developing titles like Contrast, a puzzle-platformer featuring a unique shadow mechanic, and We Happy Few, a first-person action game set in a dystopian alternate-history Britain."
+  },
+  {
+    "slug": "conga",
+    "name": "Conga",
+    "summary": "Conga provides cloud-based contract lifecycle management and digital transaction management software that helps enterprises automate the creation, negotiation, execution, and management of contracts and agreements."
+  },
+  {
+    "slug": "cotality/wd115/Global",
+    "name": "CoreLogic",
+    "summary": "CoreLogic provides data, analytics, and technology solutions for the real estate, mortgage, insurance, and capital markets industries, leveraging property information and risk assessment to help lenders, insurers, and real estate professionals make informed decisions."
+  },
+  {
+    "slug": "crowdstrike/wd5/crowdstrikecareers",
+    "name": "CrowdStrike",
+    "summary": "CrowdStrike builds cloud-native cybersecurity software that provides threat intelligence, endpoint detection and response, and vulnerability management services to enterprises. The company operates in the cybersecurity domain, protecting organizations against ransomware, malware, and other cyber threats through its Falcon platform."
+  },
+  {
+    "slug": "darktrace/wd3/DarktaceExternal",
+    "name": "Darktrace",
+    "summary": "Darktrace develops autonomous cybersecurity software that uses machine learning and AI to detect and respond to cyber threats in real-time across enterprise networks, cloud environments, and industrial systems without requiring predefined threat signatures."
+  },
+  {
+    "slug": "deako",
+    "name": "Deako",
+    "summary": "Deako manufactures smart lighting control systems that replace traditional light switches with wireless, app-controlled alternatives for residential and commercial buildings. The company's products enable users to control lights, dimmers, and other electrical loads through smartphone apps, voice commands, and physical control panels without requiring rewiring."
+  },
+  {
+    "slug": "phinia/wd5/PHINIA_Careers",
+    "name": "Delphi",
+    "summary": "Delphi builds a conversational AI platform that enables organizations to create and deploy custom chatbots and virtual assistants for customer service, internal operations, and other business applications. The company operates in the enterprise software and artificial intelligence space, focusing on making AI-powered automation accessible to businesses without requiring extensive technical expertise."
+  },
+  {
+    "slug": "paloaltonetworks/wd5/panwexternalcareers",
+    "name": "Palo Alto Networks",
+    "summary": "Palo Alto Networks builds enterprise cybersecurity platforms and services including firewalls, cloud security, endpoint protection, and threat intelligence solutions. The company operates in the information security domain, serving organizations to protect their networks, cloud environments, and endpoints against cyber threats."
+  },
+  {
+    "slug": "devoted/wd1/Devoted",
+    "name": "Devoted Health",
+    "summary": "Devoted Health is a Medicare Advantage insurance company that provides health plans and care services to seniors, combining insurance coverage with primary care clinics and care coordination to improve health outcomes for older adults."
+  },
+  {
+    "slug": "driver-ai-inc",
+    "name": "Driver",
+    "summary": "Driver builds an AI-powered platform that helps teams automate manual workflows and business processes by understanding and executing tasks across multiple applications and systems. The company operates in the enterprise automation and workflow intelligence space, enabling organizations to reduce repetitive work and improve operational efficiency."
+  },
+  {
+    "slug": "duolingo",
+    "name": "Duolingo",
+    "summary": "Duolingo builds a free language learning application that uses gamified lessons, spaced repetition, and interactive exercises to teach users over 30 languages including Spanish, French, Mandarin, and Japanese. The company operates in the digital education and language learning space, generating revenue through a premium subscription tier that removes ads and offers additional features."
+  },
+  {
+    "slug": "duplo",
+    "name": "Duplo",
+    "summary": "Duplo is a no-code platform that enables businesses to automate customer support workflows by connecting various communication channels and backend systems. The platform allows teams to build, deploy, and manage automated customer service processes without requiring coding expertise."
+  },
+  {
+    "slug": "earthoptics",
+    "name": "EarthOptics",
+    "summary": "EarthOptics manufactures precision optical components and assemblies for defense, aerospace, and commercial applications. The company specializes in custom optical systems including lenses, prisms, coatings, and integrated optical assemblies used in imaging, targeting, and sensing equipment."
+  },
+  {
+    "slug": "elemica/wd501/Elemica_Careers",
+    "name": "Elemica",
+    "summary": "Elemica operates a collaborative network platform that connects chemical manufacturers, logistics providers, and other supply chain partners to optimize inventory management, reduce costs, and improve operational efficiency in the chemical industry. The platform enables members to share real-time data on production capacity, storage availability, and transportation logistics to streamline the movement of chemicals and chemical products."
+  },
+  {
+    "slug": "ffive/wd5/f5jobs",
+    "name": "F5 Networks",
+    "summary": "F5 Networks builds application delivery and security software and hardware that optimize, protect, and enable applications across on-premises, cloud, and edge environments. The company provides solutions for load balancing, application performance management, distributed denial-of-service protection, and API security across enterprise, service provider, and cloud infrastructure domains."
+  },
+  {
+    "slug": "flaviar",
+    "name": "Flaviar",
+    "summary": "Flaviar is a spirits discovery platform and membership service that curates and delivers premium spirits to members' homes while providing tasting notes, educational content, and access to exclusive bottles from distilleries around the world."
+  },
+  {
+    "slug": "nursing-float-health",
+    "name": "Float Health",
+    "summary": "Float Health builds software that helps healthcare providers manage surgical scheduling and operating room utilization by optimizing case assignments, block time allocation, and resource planning. The platform serves hospital systems and surgical centers seeking to improve OR efficiency, reduce idle time, and increase throughput across their surgical departments."
+  },
+  {
+    "slug": "flower-company",
+    "name": "FLOWER CO.",
+    "summary": "FLOWER CO. operates a cannabis delivery service in San Francisco that sells a wide range of products including flower, cartridges, concentrates, edibles, prerolls, wellness products, and accessories from various brands. The company delivers cannabis products to customers in the San Francisco area through their online ordering platform."
+  },
+  {
+    "slug": "graphiant",
+    "name": "Graphiant",
+    "summary": "Graphiant builds a software-defined WAN (SD-WAN) platform that enables enterprises to optimize and secure their network traffic across multiple connection types and locations. The company operates in the enterprise networking and cloud connectivity space, providing solutions that reduce bandwidth costs and improve application performance for distributed organizations."
+  },
+  {
+    "slug": "grey",
+    "name": "Grey",
+    "summary": "Grey is a creative agency that specializes in building websites and digital experiences for brands, primarily using Webflow and other web development technologies. They operate in the digital marketing and web design services sector, serving clients across various industries with custom website development and design work."
+  },
+  {
+    "slug": "hioperator",
+    "name": "HiOperator",
+    "summary": "HiOperator provides AI-powered customer service solutions that automate phone and messaging interactions for businesses across various industries. Their platform handles inbound and outbound communication tasks like customer support, lead qualification, and appointment scheduling."
+  },
+  {
+    "slug": "hokali",
+    "name": "HOKALI",
+    "summary": "HOKALI provides an AI-powered platform for managing and optimizing restaurant operations, including inventory management, waste reduction, and supply chain efficiency. The company serves the food service and hospitality industry by helping restaurants reduce costs and improve sustainability through data-driven insights."
+  },
+  {
+    "slug": "huggingface",
+    "name": "Hugging Face",
+    "summary": "Hugging Face builds an open-source platform and community hub for machine learning models, datasets, and applications, with a focus on natural language processing and computer vision technologies. The company provides tools, libraries, and hosting services that enable developers to discover, build, and deploy AI models at scale."
+  },
+  {
+    "slug": "inarimedical/wd5/inarimedical",
+    "name": "Inari Medical",
+    "summary": "Inari Medical develops minimally invasive mechanical thrombectomy systems for treating blood clots in veins and arteries, with products designed to remove clots from patients' legs, lungs, and other vascular sites."
+  },
+  {
+    "slug": "indinero",
+    "name": "inDinero",
+    "summary": "inDinero provides cloud-based accounting and financial management software designed for small businesses and freelancers. The platform automates bookkeeping, expense tracking, financial reporting, and tax preparation to help business owners manage their finances."
+  },
+  {
+    "slug": "intel/wd1/External",
+    "name": "Intel",
+    "summary": "Intel designs and manufactures semiconductor processors and related computing hardware for data centers, personal computers, and other computing devices, serving clients across enterprise, consumer, and industrial markets."
+  },
+  {
+    "slug": "intellecthq",
+    "name": "Intellect",
+    "summary": "Intellect builds an AI-powered mental health platform that provides therapy, counseling, and psychiatric care through digital channels, operating in the mental healthcare and digital therapeutics space."
+  },
+  {
+    "slug": "getjusto",
+    "name": "Justo",
+    "summary": "Justo provides financial services and lending solutions to gig workers and independent contractors who lack traditional employment documentation. The platform uses alternative data sources to verify income and creditworthiness for workers in the gig economy."
+  },
+  {
+    "slug": "kaipod-learning",
+    "name": "KaiPod Learning",
+    "summary": "KaiPod Learning develops an AI-powered personalized learning platform that adapts educational content and pacing to individual student needs across multiple subjects and grade levels. The company operates in the educational technology space, serving schools and educators who want to provide customized learning experiences at scale."
+  },
+  {
+    "slug": "instabug",
+    "name": "Luciq (formerly Instabug)",
+    "summary": "Luciq provides AI-powered customer support and quality assurance tools that help software companies monitor, analyze, and improve user experience through automated bug reporting, crash analytics, and user feedback collection integrated directly into mobile and web applications."
+  },
+  {
+    "slug": "luminatemedical",
+    "name": "Luminate",
+    "summary": "Luminate develops AI-powered diagnostic imaging software that analyzes medical images to help detect and classify diseases, operating in the healthcare technology and diagnostic imaging space."
+  },
+  {
+    "slug": "luminegrp/wd3/TOMIA",
+    "name": "Mach Industries",
+    "summary": "Mach Industries builds industrial automation and manufacturing execution software that helps factories optimize production workflows, reduce downtime, and improve equipment utilization through real-time monitoring and data analytics."
+  },
+  {
+    "slug": "malama-health",
+    "name": "Malama Health",
+    "summary": "Malama Health provides a telemedicine platform that connects patients with licensed therapists and psychiatrists for mental health treatment, offering services including therapy sessions, psychiatric evaluations, and prescription management through virtual appointments."
+  },
+  {
+    "slug": "manara",
+    "name": "Manara",
+    "summary": "Manara operates an online platform that connects software engineers in emerging markets with remote job opportunities and career development resources, helping them access employment with companies worldwide."
+  },
+  {
+    "slug": "manh/wd5/External",
+    "name": "Manhattan Associates",
+    "summary": "Manhattan Associates develops supply chain and omnichannel commerce software solutions that help retailers, manufacturers, and logistics companies manage inventory, fulfillment, and customer orders across multiple channels and locations."
+  },
+  {
+    "slug": "masonamerica",
+    "name": "Mason",
+    "summary": "Mason builds a platform that allows teams to create, manage, and share internal knowledge bases and documentation without requiring coding skills. The company operates in the enterprise software space, focusing on helping organizations centralize and organize their institutional knowledge."
+  },
+  {
+    "slug": "maxar/wd1/Vantor",
+    "name": "Vantor",
+    "summary": "Vantor provides a platform for managing and optimizing renewable energy assets, helping utilities and energy companies monitor, control, and monetize distributed energy resources such as solar installations, battery storage, and electric vehicle charging networks."
+  },
+  {
+    "slug": "apply.careers.microsoft.com|microsoft.com",
+    "name": "Microsoft",
+    "summary": "Microsoft develops cloud computing platforms, productivity software, and operating systems, including Azure cloud services, Office 365, Windows, and artificial intelligence tools that serve businesses and consumers globally."
+  },
+  {
+    "slug": "modernatx/wd1/M_tx",
+    "name": "Moderna",
+    "summary": "Moderna develops messenger RNA (mRNA) therapeutics and vaccines for treating infectious diseases, oncology, and rare genetic disorders. The company designs, manufactures, and commercializes mRNA-based medicines, with its most notable product being the COVID-19 vaccine developed in partnership with the National Institute of Allergy and Infectious Diseases."
+  },
+  {
+    "slug": "mrelief",
+    "name": "mRelief",
+    "summary": "mRelief builds a digital platform that helps individuals determine their eligibility for public benefits and assistance programs such as SNAP, Medicaid, and housing assistance. The company operates in the social services technology sector, providing a mobile-friendly tool that simplifies the application process for low-income individuals seeking government aid."
+  },
+  {
+    "slug": "nalamoney",
+    "name": "NALA",
+    "summary": "NALA provides financial services and mobile banking solutions primarily focused on emerging markets in Africa, enabling users to send money, pay bills, and access financial products through a mobile app."
+  },
+  {
+    "slug": "new-incentives",
+    "name": "New Incentives",
+    "summary": "New Incentives operates a conditional cash transfer program in Nigeria that provides direct payments to households to incentivize health behaviors, including maternal health services and childhood immunizations. The organization works across multiple Nigerian states to improve health outcomes by removing financial barriers to healthcare access."
+  },
+  {
+    "slug": "noorahealth",
+    "name": "Noora Health",
+    "summary": "Noora Health develops digital health training programs and mobile applications for hospital staff and patients in low-resource settings across South Asia and Africa. The company focuses on improving clinical outcomes and patient safety by delivering education on topics like post-operative care, maternal health, and infection prevention through their platform."
+  },
+  {
+    "slug": "nowports",
+    "name": "Nowports",
+    "summary": "Nowports is a logistics platform that provides digital customs clearance, documentation, and freight forwarding services for imports and exports in Latin America. The company streamlines cross-border trade operations by automating paperwork, managing regulatory compliance, and coordinating with ports and customs authorities across the region."
+  },
+  {
+    "slug": "nvidia/wd5/NVIDIAExternalCareerSite",
+    "name": "Nvidia",
+    "summary": "Nvidia designs and manufactures graphics processing units (GPUs) and system-on-chip processors used in data centers, gaming, professional visualization, and artificial intelligence applications. The company also develops software platforms and frameworks for accelerated computing across industries including cloud infrastructure, autonomous vehicles, and scientific research."
+  },
+  {
+    "slug": "ochrebio",
+    "name": "Ochre Bio",
+    "summary": "Ochre Bio is a clinical-stage biotechnology company developing gene therapies for rare genetic diseases, with a focus on lysosomal storage disorders and other inherited conditions. The company uses advanced genetic engineering approaches to create treatments that address the underlying genetic causes of diseases affecting small patient populations."
+  },
+  {
+    "slug": "oxford-quantum-circuits-8",
+    "name": "Oxford Quantum Circuits",
+    "summary": "Oxford Quantum Circuits develops quantum processors and control systems based on their proprietary Quantum Resonator (QR) architecture, which uses frequency-multiplexed qubits to achieve higher density and connectivity than conventional superconducting quantum computers. The company operates in the quantum computing hardware space, providing quantum processors and software integration tools for enterprise and research applications."
+  },
+  {
+    "slug": "lighting/wd3/jobs-and-careers",
+    "name": "Philips Hue",
+    "summary": "Philips Hue creates smart lighting systems that allow users to control connected LED bulbs and fixtures through mobile apps and voice assistants, offering features like color customization, scheduling, and automation for residential and commercial spaces."
+  },
+  {
+    "slug": "pingidentity",
+    "name": "Ping Identity",
+    "summary": "Ping Identity provides identity and access management (IAM) software that enables enterprises to securely authenticate users and manage their digital identities across applications, APIs, and cloud environments. The company serves organizations in financial services, healthcare, government, and other sectors that require robust security and compliance for user authentication and authorization."
+  },
+  {
+    "slug": "plana",
+    "name": "Plan A",
+    "summary": "Plan A is a climate intelligence platform that helps companies measure, manage, and reduce their supply chain emissions. The company provides software and data analytics to track environmental impact across global supply networks and identify decarbonization opportunities for enterprises."
+  },
+  {
+    "slug": "playdead",
+    "name": "Playdead",
+    "summary": "Playdead is a Danish video game developer known for creating atmospheric 2D puzzle-platform games, most notably \"Limbo\" and \"Inside,\" which feature dark, cinematic visuals and environmental storytelling without dialogue."
+  },
+  {
+    "slug": "pony-dot-ai",
+    "name": "Pony.ai",
+    "summary": "Pony.ai develops autonomous driving technology and self-driving vehicles, focusing on level 4 autonomous capabilities for both passenger cars and robotaxi services operating in China and the United States."
+  },
+  {
+    "slug": "povio",
+    "name": "Povio",
+    "summary": "Povio is a software development and technology consulting company that provides custom software development, cloud solutions, and digital transformation services to enterprises and mid-market businesses across various industries. They specialize in building scalable applications, modernizing legacy systems, and delivering end-to-end technology projects for clients globally."
+  },
+  {
+    "slug": "privy-2",
+    "name": "Privy",
+    "summary": "Privy builds conversion optimization tools for e-commerce businesses, offering popup forms, email capture widgets, and display banners to increase customer engagement and sales on online stores."
+  },
+  {
+    "slug": "careers.qualcomm.com|qualcomm.com",
+    "name": "Qualcomm",
+    "summary": "Qualcomm designs and licenses semiconductor technology and wireless communication standards, primarily for mobile devices, IoT, and automotive applications. The company develops processors, modems, and RF components, and generates significant revenue through licensing its intellectual property related to mobile telecommunications technologies."
+  },
+  {
+    "slug": "rackspace/wd1/External",
+    "name": "Rackspace",
+    "summary": "Rackspace provides managed cloud services, including hosting, infrastructure management, and professional services for organizations running applications on public and private cloud platforms. The company helps businesses migrate to, manage, and optimize their cloud environments across AWS, Microsoft Azure, Google Cloud, and other platforms."
+  },
+  {
+    "slug": "suse/wd3/Jobsatsuse",
+    "name": "Rancher",
+    "summary": "Rancher builds a Kubernetes management platform that enables organizations to deploy, manage, and operate Kubernetes clusters across multiple cloud providers, on-premises data centers, and edge environments from a single centralized control plane. The company serves enterprises that need to simplify Kubernetes operations, reduce complexity, and maintain consistency across distributed infrastructure."
+  },
+  {
+    "slug": "rappi/wd12/Rappi_jobs",
+    "name": "Rappi",
+    "summary": "Rappi is a Latin American super app that provides on-demand delivery services for food, groceries, pharmacy items, and other goods through a mobile platform. The company operates across multiple countries in Central and South America, connecting consumers with merchants and delivery partners."
+  },
+  {
+    "slug": "raspberrypifoundation",
+    "name": "Raspberry Pi Foundation",
+    "summary": "Raspberry Pi Foundation is a UK-based charity that designs and manufactures small, affordable single-board computers called Raspberry Pi boards, which are used for education, hobbyist projects, and embedded systems applications. The organization focuses on making computing accessible and promoting computer science education globally through hardware that costs between $25-$75 per unit."
+  },
+  {
+    "slug": "ringcentral/wd1/RingCentral_Careers",
+    "name": "RingCentral",
+    "summary": "RingCentral provides a cloud-based unified communications platform that integrates voice, video, messaging, and collaboration tools for businesses of all sizes. The company operates in the enterprise software and telecommunications space, serving customers across healthcare, finance, retail, and other industries."
+  },
+  {
+    "slug": "sailpoint/wd1/SailPoint",
+    "name": "Sailpoint",
+    "summary": "SailPoint builds identity governance and access management software that helps enterprises manage user identities, control access to applications and data, and ensure compliance across their IT infrastructure. The company serves organizations across various industries that need to automate identity lifecycle processes and enforce security policies at scale."
+  },
+  {
+    "slug": "sec/wd3/Samsung_Careers",
+    "name": "Samsung R&D",
+    "summary": "Samsung R&D develops semiconductors, display technologies, battery systems, and consumer electronics including smartphones, televisions, and home appliances. The company operates across multiple industries including consumer electronics, telecommunications, semiconductors, and energy storage solutions."
+  },
+  {
+    "slug": "satellogic",
+    "name": "Satellogic",
+    "summary": "Satellogic operates a constellation of high-resolution Earth observation satellites that capture detailed imagery of the planet's surface for mapping, infrastructure monitoring, and geospatial analytics. The company serves governments, enterprises, and organizations that need frequent, high-quality satellite imagery for applications including urban planning, disaster response, agricultural monitoring, and security assessments."
+  },
+  {
+    "slug": "jci/wd5/JCI",
+    "name": "Sensormatic Electronics",
+    "summary": "Sensormatic Electronics manufactures electronic security and asset management systems for retail and commercial environments, including electronic article surveillance (EAS) tags and detectors, video surveillance equipment, and inventory management solutions. The company serves the retail, healthcare, and loss prevention industries with integrated security and operational visibility platforms."
+  },
+  {
+    "slug": "sequencebio",
+    "name": "Sequence Bio",
+    "summary": "Sequence Bio develops precision medicine therapies using a proprietary platform that combines genomics, bioinformatics, and synthetic biology to design and optimize biological therapeutics. The company focuses on creating treatments for genetic diseases and cancer by analyzing patient genomic data to inform drug discovery and development."
+  },
+  {
+    "slug": "servicetitan/wd1/ServiceTitan",
+    "name": "ServiceTitan",
+    "summary": "ServiceTitan is a cloud-based software platform that provides business management solutions for service businesses including HVAC, plumbing, electrical, and landscaping contractors. The platform helps these businesses manage scheduling, dispatching, invoicing, customer communications, and financial operations."
+  },
+  {
+    "slug": "shortcut",
+    "name": "Shortcut",
+    "summary": "Shortcut is a work management platform designed for software development teams that provides issue tracking, project planning, and team collaboration tools. The product helps engineering teams organize work, track progress, and coordinate across sprints and releases."
+  },
+  {
+    "slug": "simetrik",
+    "name": "Simetrik",
+    "summary": "Simetrik provides cloud-based reconciliation and financial data management software for cryptocurrency exchanges and financial institutions. The platform automates the matching and reconciliation of transactions across multiple blockchain networks and traditional finance systems."
+  },
+  {
+    "slug": "sinai",
+    "name": "SINAI",
+    "summary": "SINAI provides software solutions for healthcare providers to manage clinical documentation, workflow automation, and patient data integration across medical practices and hospital systems."
+  },
+  {
+    "slug": "skillshare",
+    "name": "Skillshare",
+    "summary": "Skillshare is an online learning platform that offers thousands of classes in creative and professional skills, ranging from graphic design and photography to business and technology. The platform connects students with instructors who teach through short video lessons, projects, and community feedback in categories like art, design, entrepreneurship, and tech."
+  },
+  {
+    "slug": "salesforce/wd12/Slack",
+    "name": "Slack",
+    "summary": "Slack is a messaging and collaboration platform that enables teams to communicate and coordinate work through channels, direct messages, and integrated tools. The platform serves businesses across various industries by consolidating conversations, file sharing, and third-party app integrations in a centralized workspace."
+  },
+  {
+    "slug": "solugen",
+    "name": "Solugen",
+    "summary": "Solugen manufactures industrial chemicals including hydrogen peroxide, peracetic acid, and other disinfectants and oxidizers using a fermentation-based process powered by renewable energy. The company operates in the specialty chemicals sector, serving markets including water treatment, food processing, healthcare, and industrial manufacturing."
+  },
+  {
+    "slug": "sonder/wd1/Join_Sonder",
+    "name": "Sonder",
+    "summary": "Sonder operates a network of technology-enabled, design-focused hotel properties across major cities worldwide, blending hotel amenities with apartment-like flexibility and personalized service through its mobile app and on-site staff."
+  },
+  {
+    "slug": "spate",
+    "name": "SPATE",
+    "summary": "SPATE builds supply chain visibility and risk management software for fashion and apparel brands, helping them track materials, manufacturing, and logistics across global production networks."
+  },
+  {
+    "slug": "square-enix-america",
+    "name": "Square Enix",
+    "summary": "Square Enix is a Japanese video game developer and publisher that creates and distributes games across multiple platforms, including the Final Fantasy franchise, Dragon Quest series, Kingdom Hearts, and numerous other titles for console, PC, and mobile devices."
+  },
+  {
+    "slug": "sunpower",
+    "name": "SunPower",
+    "summary": "SunPower manufactures and installs residential and commercial solar energy systems, as well as develops solar technology and provides energy services to help customers generate and manage their own electricity."
+  },
+  {
+    "slug": "sunrun/wd5/Sunrun_Careers",
+    "name": "Sunrun",
+    "summary": "Sunrun is the largest residential solar energy company in the United States, providing rooftop solar panel systems to homeowners through purchase and lease financing options. The company operates in the distributed solar energy market, installing and maintaining solar systems that generate electricity for residential customers while handling the associated permitting, financing, and ongoing maintenance."
+  },
+  {
+    "slug": "supernova",
+    "name": "Supernova",
+    "summary": "Supernova is a design-to-development platform that helps teams automate the handoff from design systems to code, enabling designers and developers to collaborate more efficiently on component libraries and design documentation."
+  },
+  {
+    "slug": "synder",
+    "name": "Synder",
+    "summary": "Synder is a financial automation platform that integrates sales channels, accounting software, and payment processors to streamline bookkeeping and financial reporting for e-commerce businesses and marketplaces. The company helps merchants automatically sync transactions, reconcile accounts, and manage multi-channel finances across platforms like Shopify, Amazon, eBay, and WooCommerce."
+  },
+  {
+    "slug": "teladoc/wd503/teladochealth_is_hiring",
+    "name": "Teladoc Health",
+    "summary": "Teladoc Health operates a virtual healthcare platform that connects patients with doctors, therapists, and other healthcare providers for remote consultations across telehealth, behavioral health, and chronic disease management services. The company serves employers, health plans, hospitals, and individual consumers across multiple countries through its integrated digital health ecosystem."
+  },
+  {
+    "slug": "tempus/wd5/Tempus_Careers",
+    "name": "Tempus AI",
+    "summary": "Tempus AI builds a clinical intelligence platform that integrates molecular, imaging, and clinical data to help oncologists make treatment decisions for cancer patients. The company operates in the healthcare and precision medicine domain, providing data analytics tools that identify optimal therapies based on individual patient tumor characteristics."
+  },
+  {
+    "slug": "testrigor",
+    "name": "testRigor",
+    "summary": "testRigor is a no-code test automation platform that enables teams to write and execute automated tests in plain English without requiring programming knowledge. The platform supports testing across web, mobile, and API applications and integrates with various development and CI/CD tools to streamline quality assurance processes."
+  },
+  {
+    "slug": "tetrascience",
+    "name": "TetraScience",
+    "summary": "TetraScience builds a cloud-based platform that connects and integrates laboratory instruments and scientific data systems to enable better data management, analysis, and collaboration across research and development organizations in life sciences and other regulated industries."
+  },
+  {
+    "slug": "toughcommerce",
+    "name": "Tough Commerce",
+    "summary": "Tough Commerce provides e-commerce infrastructure and tools designed for businesses selling physical goods, with a focus on inventory management, order fulfillment, and multi-channel selling capabilities. They operate in the B2B software space serving retail and wholesale merchants who need to manage complex supply chains and sales across multiple platforms."
+  },
+  {
+    "slug": "trimble/wd1/TrimbleCareers",
+    "name": "Trimble",
+    "summary": "Trimble develops software and hardware solutions for construction, agriculture, and transportation industries that use GPS, laser, and sensor technologies to improve productivity and accuracy in field operations. Their products include equipment positioning systems, fleet management software, and data collection tools used by construction firms, farmers, and logistics companies worldwide."
+  },
+  {
+    "slug": "union54",
+    "name": "Union54",
+    "summary": "Union54 provides financial infrastructure and payment solutions for businesses in Africa, enabling cross-border transactions, merchant payments, and digital wallet services across multiple African countries."
+  },
+  {
+    "slug": "upequity",
+    "name": "UpEquity",
+    "summary": "UpEquity provides a platform for issuing and managing equity compensation, including stock options, restricted stock units, and employee stock purchase plans, primarily serving startups and growth-stage companies."
+  },
+  {
+    "slug": "verily/wd1/Verily_Careers",
+    "name": "Verily",
+    "summary": "Verily is an Alphabet subsidiary that develops life sciences software, data analytics platforms, and precision medicine tools to help healthcare providers, researchers, and patients improve clinical outcomes and accelerate drug development."
+  },
+  {
+    "slug": "votingworks",
+    "name": "VotingWorks",
+    "summary": "VotingWorks develops election infrastructure software and hardware that uses paper ballots with risk-limiting audits to enable secure, auditable voting systems. The company works with election officials and jurisdictions to implement voting technology that prioritizes ballot security, auditability, and voter accessibility."
+  },
+  {
+    "slug": "warhorsestudios",
+    "name": "Warhorse Studios",
+    "summary": "Warhorse Studios is a Czech video game developer known for creating the Kingdom Come franchise, which focuses on historically immersive medieval action role-playing games set in 13th-century Bohemia. The studio is recognized for its commitment to historical authenticity and complex gameplay mechanics that emphasize realism over fantasy elements."
+  },
+  {
+    "slug": "weekday-1",
+    "name": "Weekday",
+    "summary": "Weekday operates a recruitment platform that matches job seekers with employers through a skills-based matching system, focusing on technical and professional roles. The platform serves as a job marketplace where candidates can showcase their capabilities and connect with companies looking to hire for positions like project delivery engineering."
+  },
+  {
+    "slug": "wisk/wd108/Wisk_Careers",
+    "name": "Wisk Aero",
+    "summary": "Wisk Aero develops electric vertical takeoff and landing (eVTOL) aircraft designed for autonomous urban air mobility, targeting the creation of an air taxi service that operates without pilots."
+  },
+  {
+    "slug": "workday/wd5/Workday",
+    "name": "Workday",
+    "summary": "Workday develops cloud-based enterprise resource planning and human capital management software that helps organizations manage their finances, human resources, planning, and analytics operations."
+  },
+  {
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "summary": "Writesonic is an AI writing platform that generates marketing copy, blog posts, product descriptions, and other content for businesses and marketers. The platform uses large language models to help users create content across emails, ads, social media, and websites."
   }
 ]
