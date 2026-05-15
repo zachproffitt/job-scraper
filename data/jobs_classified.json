@@ -35474,12 +35474,13 @@
     "is_engineering": false,
     "is_contract": true,
     "is_hybrid": false,
+    "region": "international",
     "job_summary": null,
     "skills": [],
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c12a6c8a"
+    "source_hash": "4054dd1f"
   },
   "greenhouse-airbnb-7915333": {
     "is_engineering": false,
@@ -36545,5 +36546,286 @@
       "equity"
     ],
     "source_hash": "b60c556d"
+  },
+  "greenhouse-cerebrassystems-7735288003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": "Build AI-driven evaluation systems and performance benchmarking infrastructure for Cerebras' inference offerings, using AI agents to automate model quality assessment, eval suite generation, and customer-specific performance forecasting. Design tooling that synthesizes quality and performance data into production-ready artifacts for both internal teams and customers.",
+    "skills": [
+      "Claude",
+      "Python",
+      "Docker",
+      "Git",
+      "Machine Learning",
+      "Evaluation Frameworks",
+      "Performance Benchmarking",
+      "Statistics"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a776ddde"
+  },
+  "lever-larian-412b1954-8bca-4247-9654-7b2294c30734": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b8271fe4"
+  },
+  "lever-larian-5bd314b3-0fcd-4dc1-9097-410d7b3f51cd": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d48116a3"
+  },
+  "lever-larian-d865d147-375b-40c7-9f93-39dffd73a365": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f829dab2"
+  },
+  "greenhouse-scopely-5200013008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "job_summary": "Build and improve MONOPOLY GO! Chat features in React Native for a companion app serving millions of players worldwide. Own mobile app performance, testing, and release readiness while adopting AI-assisted development workflows in a fast-moving gaming environment.",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "JavaScript",
+      "React profiling tools",
+      "Xcode Instruments",
+      "Android Studio profilers",
+      "Swift",
+      "Kotlin"
+    ],
+    "level": "senior",
+    "comp": "$107,500\u2013$212,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "83306c76"
+  },
+  "greenhouse-zyngacareers-5995625004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "job_summary": "Lead the architecture and development of critical game systems for Zynga's global portfolio, mentoring senior engineers and defining technical standards across client-backend integration. You will own high-reliability systems serving millions of players across 175+ countries, requiring deep expertise in game development architecture and Unity-based client systems.",
+    "skills": [
+      "C#",
+      "Unity",
+      "Git",
+      "CI/CD",
+      "Client-Backend Integration",
+      "Game Development Architecture",
+      "Software Architecture and Design Patterns"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "6d4e27b4"
+  },
+  "greenhouse-vercel-5989803004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$138k-$206k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a3164d6a"
+  },
+  "greenhouse-scopely-5212412008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "job_summary": "Lead technical direction and build features for MONOPOLY GO! Chat, a React Native companion app serving millions of players worldwide. Own performance, quality, and platform integrations while mentoring engineers on a cross-functional mobile team.",
+    "skills": [
+      "React Native",
+      "TypeScript",
+      "JavaScript",
+      "Java",
+      "Kotlin",
+      "Objective-C",
+      "Swift",
+      "Mobile Performance Optimization"
+    ],
+    "level": "staff",
+    "comp": "$169,600-$253,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d20b3e49"
+  },
+  "greenhouse-okta-7872569": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "job_summary": "Design and implement backend systems, APIs, and services that bring identity and authorization capabilities to AI agent workflows. Build foundational infrastructure for a nascent space where industry patterns for agent identity and delegated access are still being defined.",
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "Go",
+      "Python",
+      "OAuth 2.0",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": "$136k-$187k CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e667191f"
+  },
+  "greenhouse-monzo-7929618": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "international",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "\u00a325,900-\u00a335,000",
+    "comp_extras": [],
+    "source_hash": "3ae4823f"
+  },
+  "greenhouse-galaxydigitalservices-5996852004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5b8bd251"
+  },
+  "ashby-astronomer-b1b7c288-30cb-4f4c-a567-342adea63ee3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "52239d10"
+  },
+  "greenhouse-okta-7917366": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$122,000 CAD\u2014$167,200 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "794da527"
+  },
+  "greenhouse-spacex-8551485002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "da82036e"
+  },
+  "ashby-instructure-c30b4f6d-7e07-4f08-a27e-1246d9210e0f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "915f56f4"
+  },
+  "greenhouse-okta-7917359": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$122,000 CAD\u2014$167,200 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0a3cb56c"
+  },
+  "greenhouse-spacex-8551470002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "76cd991f"
+  },
+  "greenhouse-spacex-8551478002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e0a8ead2"
   }
 }
