@@ -17557,7 +17557,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "02759984"
+    "source_hash": "02759984",
+    "region": "international"
   },
   "greenhouse-stripe-7524533": {
     "is_engineering": false,
@@ -17604,7 +17605,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "12e0bad1"
+    "source_hash": "12e0bad1",
+    "region": "us"
   },
   "greenhouse-axiom-8547085002": {
     "is_engineering": false,
@@ -17626,7 +17628,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4af06e3c"
+    "source_hash": "4af06e3c",
+    "region": "international"
   },
   "ashby-Supabase-3ab0b926-c9b5-4197-aff2-88d5bf009e13": {
     "is_engineering": true,
@@ -17648,7 +17651,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "182795d0"
+    "source_hash": "182795d0",
+    "region": "us"
   },
   "greenhouse-stripe-7546284": {
     "is_engineering": false,
@@ -17692,7 +17696,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "80405200"
+    "source_hash": "80405200",
+    "region": "canada"
   },
   "greenhouse-astranis-4681218006": {
     "is_engineering": true,
@@ -17749,7 +17754,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e258ec3b"
+    "source_hash": "e258ec3b",
+    "region": "international"
   },
   "greenhouse-airbnb-7535063": {
     "is_engineering": false,
@@ -17774,7 +17780,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d2ef52b4"
+    "source_hash": "d2ef52b4",
+    "region": "international"
   },
   "greenhouse-waymo-7905678": {
     "is_engineering": true,
@@ -17819,7 +17826,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "05ad13d3"
+    "source_hash": "05ad13d3",
+    "region": "us"
   },
   "greenhouse-stripe-7919325": {
     "is_engineering": false,
@@ -18164,7 +18172,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8238080b"
+    "source_hash": "8238080b",
+    "region": "international"
   },
   "lever-waabi-be8ea356-b380-4274-bbb2-ce273b68625d": {
     "is_engineering": false,
@@ -18175,7 +18184,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "dc8fdfa0"
+    "source_hash": "dc8fdfa0",
+    "region": "us"
   },
   "greenhouse-monzo-7912647": {
     "is_engineering": true,
@@ -18217,7 +18227,8 @@
     "level": "senior",
     "comp": "$95k-$143k",
     "comp_extras": [],
-    "source_hash": "f3b13caa"
+    "source_hash": "f3b13caa",
+    "region": "unclear"
   },
   "ashby-Mapbox-ed5ea787-aa68-4968-9c93-eb4d2bd5ac45": {
     "is_engineering": true,
@@ -18237,7 +18248,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2c9d392b"
+    "source_hash": "2c9d392b",
+    "region": "international"
   },
   "greenhouse-natera-5993187004": {
     "is_engineering": false,
@@ -18300,7 +18312,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ac258b85"
+    "source_hash": "ac258b85",
+    "region": "unclear"
   },
   "greenhouse-clickhouse-5993847004": {
     "is_engineering": true,
@@ -18386,7 +18399,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9e7eba84"
+    "source_hash": "9e7eba84",
+    "region": "international"
   },
   "greenhouse-reddit-7917342": {
     "is_engineering": false,
@@ -18443,7 +18457,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "46a8197f"
+    "source_hash": "46a8197f",
+    "region": "international"
   },
   "greenhouse-axiom-8547779002": {
     "is_engineering": false,
@@ -18536,7 +18551,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0e4f6036"
+    "source_hash": "0e4f6036",
+    "region": "us"
   },
   "greenhouse-scopely-5098020008": {
     "is_engineering": true,
@@ -18609,7 +18625,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "bbfa0129"
+    "source_hash": "bbfa0129",
+    "region": "international"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5988667004": {
     "is_engineering": false,
@@ -18680,7 +18697,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "44076537"
+    "source_hash": "44076537",
+    "region": "us"
   },
   "greenhouse-natera-5995430004": {
     "is_engineering": false,
@@ -18713,7 +18731,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "3dc58b29"
+    "source_hash": "3dc58b29",
+    "region": "us"
   },
   "ashby-horizon3ai-6b2bc47c-7a5d-4bca-a10c-8a79cb7f977d": {
     "is_engineering": false,
@@ -18726,7 +18745,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "7bdf062b"
+    "source_hash": "7bdf062b",
+    "region": "us"
   },
   "ashby-coderabbit-186fcc99-8e71-4462-b9a2-71f1b4aa44ca": {
     "is_engineering": false,
@@ -18739,7 +18759,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "0faa711f"
+    "source_hash": "0faa711f",
+    "region": "us"
   },
   "greenhouse-intercom-7917235": {
     "is_engineering": false,
@@ -18765,7 +18786,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "3ee5c44b"
+    "source_hash": "3ee5c44b",
+    "region": "international"
   },
   "ashby-horizon3ai-c4fb9e3c-0856-4430-ac4b-ca8b90cc1b80": {
     "is_engineering": false,
@@ -18778,7 +18800,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b192918c"
+    "source_hash": "b192918c",
+    "region": "international"
   },
   "greenhouse-workleap-5133911007": {
     "is_engineering": true,
@@ -18952,7 +18975,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d6c19009"
+    "source_hash": "d6c19009",
+    "region": "us"
   },
   "greenhouse-apptronik-5988362004": {
     "is_engineering": false,
@@ -19008,7 +19032,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d3e55741"
+    "source_hash": "d3e55741",
+    "region": "canada"
   },
   "greenhouse-andurilindustries-5136791007": {
     "is_engineering": false,
@@ -19218,7 +19243,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "01290534"
+    "source_hash": "01290534",
+    "region": "international"
   },
   "greenhouse-redwoodmaterials-5995097004": {
     "is_engineering": false,
@@ -19287,7 +19313,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "dfa950f0"
+    "source_hash": "dfa950f0",
+    "region": "us"
   },
   "greenhouse-amplitude-8547989002": {
     "is_engineering": false,
@@ -19312,7 +19339,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "5fe596bf"
+    "source_hash": "5fe596bf",
+    "region": "us"
   },
   "greenhouse-zyngacareers-5995422004": {
     "is_engineering": false,
@@ -19351,7 +19379,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "efe76ace"
+    "source_hash": "efe76ace",
+    "region": "us"
   },
   "greenhouse-rockstargames-7711703003": {
     "is_engineering": true,
@@ -19398,7 +19427,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "28a99235"
+    "source_hash": "28a99235",
+    "region": "us"
   },
   "ashby-replit-16f1c784-449b-4c84-bee7-b2bf18768977": {
     "is_engineering": true,
@@ -19420,7 +19450,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "47a528f4"
+    "source_hash": "47a528f4",
+    "region": "us"
   },
   "greenhouse-natera-5995455004": {
     "is_engineering": false,
@@ -19472,7 +19503,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ccb970e1"
+    "source_hash": "ccb970e1",
+    "region": "us"
   },
   "ashby-langchain-068b2e23-af01-42c7-9bce-d86976ea4d6e": {
     "is_engineering": true,
@@ -19494,7 +19526,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d8594f7e"
+    "source_hash": "d8594f7e",
+    "region": "us"
   },
   "greenhouse-scoutmotors-5128323007": {
     "is_engineering": true,
@@ -19646,7 +19679,8 @@
     "level": "staff",
     "comp": "$293k-$325k",
     "comp_extras": [],
-    "source_hash": "7afc8fd6"
+    "source_hash": "7afc8fd6",
+    "region": "us"
   },
   "greenhouse-scaleai-4693078005": {
     "is_engineering": false,
@@ -19865,7 +19899,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "dea321cf"
+    "source_hash": "dea321cf",
+    "region": "us"
   },
   "greenhouse-slingshotaerospace-5809580004": {
     "is_engineering": true,
@@ -19934,7 +19969,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "10c77ba7"
+    "source_hash": "10c77ba7",
+    "region": "us"
   },
   "lever-CesiumAstro-97b9262a-0825-4d41-a743-1fe2e02fecf4": {
     "is_engineering": false,
@@ -19945,7 +19981,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cf0004f5"
+    "source_hash": "cf0004f5",
+    "region": "us"
   },
   "greenhouse-keepersecurity-4247576009": {
     "is_engineering": false,
@@ -19967,7 +20004,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "857d3c4a"
+    "source_hash": "857d3c4a",
+    "region": "us"
   },
   "lever-CesiumAstro-31208a09-086d-404d-8832-ed1d8fb81fec": {
     "is_engineering": false,
@@ -19978,7 +20016,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "21ba4fd6"
+    "source_hash": "21ba4fd6",
+    "region": "us"
   },
   "ashby-ramp-a3afd259-ba6b-4eb0-a1b6-05d01dddacd8": {
     "is_engineering": true,
@@ -19998,7 +20037,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2246c5b1"
+    "source_hash": "2246c5b1",
+    "region": "unclear"
   },
   "ashby-coderabbit-3a0a0ed3-e945-4e9b-b76c-ca5239de183f": {
     "is_engineering": false,
@@ -20011,7 +20051,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "dd6fe4e5"
+    "source_hash": "dd6fe4e5",
+    "region": "us"
   },
   "ashby-langchain-ea70879f-98c9-4888-a259-39e68ec949fc": {
     "is_engineering": false,
@@ -20025,7 +20066,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "06b9e22c"
+    "source_hash": "06b9e22c",
+    "region": "international"
   },
   "lever-deepgenomics-ba904bda-e9e1-4cea-a6a4-a10867364aec": {
     "is_engineering": false,
@@ -20036,7 +20078,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e231b00f"
+    "source_hash": "e231b00f",
+    "region": "us"
   },
   "greenhouse-epicgames-5986871004": {
     "is_engineering": false,
@@ -20073,7 +20116,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f6b73752"
+    "source_hash": "f6b73752",
+    "region": "us"
   },
   "greenhouse-anthropic-5113785008": {
     "is_engineering": false,
@@ -20178,7 +20222,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "58d2e470"
+    "source_hash": "58d2e470",
+    "region": "us"
   },
   "ashby-astronomer-eb1c8e1a-3990-4078-8d53-d7c22dbf9281": {
     "is_engineering": false,
@@ -20192,7 +20237,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "518c8e5d"
+    "source_hash": "518c8e5d",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5137048007": {
     "is_engineering": true,
@@ -20421,7 +20467,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ade79b4d"
+    "source_hash": "ade79b4d",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5137065007": {
     "is_engineering": false,
@@ -20488,7 +20535,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5fc4ab9c"
+    "source_hash": "5fc4ab9c",
+    "region": "us"
   },
   "greenhouse-terrapowerllc-4247783009": {
     "is_engineering": false,
@@ -20576,7 +20624,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "46bde359"
+    "source_hash": "46bde359",
+    "region": "us"
   },
   "greenhouse-natera-5995733004": {
     "is_engineering": false,
@@ -20600,7 +20649,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "e0d27b58"
+    "source_hash": "e0d27b58",
+    "region": "us"
   },
   "greenhouse-openspace-7733750003": {
     "is_engineering": false,
@@ -20624,7 +20674,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "604d566c"
+    "source_hash": "604d566c",
+    "region": "us"
   },
   "greenhouse-astranis-4681433006": {
     "is_engineering": false,
@@ -20726,7 +20777,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8e081a00"
+    "source_hash": "8e081a00",
+    "region": "unclear"
   },
   "greenhouse-relativity-8548622002": {
     "is_engineering": false,
@@ -20948,7 +21000,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4c242e91"
+    "source_hash": "4c242e91",
+    "region": "us"
   },
   "ashby-synctera-a7596dea-acda-492e-bc41-60f54b674d25": {
     "is_engineering": false,
@@ -20959,7 +21012,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8da0acb8"
+    "source_hash": "8da0acb8",
+    "region": "us"
   },
   "ashby-Etched-248ac4e9-5059-449a-a2f0-35d7fdfd08fb": {
     "is_engineering": false,
@@ -20970,7 +21024,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "82224239"
+    "source_hash": "82224239",
+    "region": "us"
   },
   "greenhouse-grafanalabs-5990671004": {
     "is_engineering": true,
@@ -21060,7 +21115,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "62d436fc"
+    "source_hash": "62d436fc",
+    "region": "us"
   },
   "greenhouse-astranis-4597559006": {
     "is_engineering": false,
@@ -21108,7 +21164,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "db8cf7d3"
+    "source_hash": "db8cf7d3",
+    "region": "international"
   },
   "greenhouse-terrapowerllc-4180817009": {
     "is_engineering": false,
@@ -21145,7 +21202,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6844255b"
+    "source_hash": "6844255b",
+    "region": "us"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5995645004": {
     "is_engineering": true,
@@ -21213,7 +21271,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e633eb41"
+    "source_hash": "e633eb41",
+    "region": "us"
   },
   "lever-grailbio-e2cc73a9-fef6-4813-a545-b97db682d9e6": {
     "is_engineering": false,
@@ -21224,7 +21283,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "611c851b"
+    "source_hash": "611c851b",
+    "region": "us"
   },
   "greenhouse-ursamajor-4695187005": {
     "is_engineering": false,
@@ -21297,7 +21357,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9cf51074"
+    "source_hash": "9cf51074",
+    "region": "us"
   },
   "ashby-coderabbit-fef77e49-90e8-444b-8b0a-33d74db976fe": {
     "is_engineering": false,
@@ -21310,7 +21371,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ad5703f3"
+    "source_hash": "ad5703f3",
+    "region": "us"
   },
   "greenhouse-natera-5989218004": {
     "is_engineering": false,
@@ -21346,7 +21408,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d5d3abf4"
+    "source_hash": "d5d3abf4",
+    "region": "us"
   },
   "greenhouse-anthropic-5211184008": {
     "is_engineering": false,
@@ -21392,7 +21455,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "45b42bdf"
+    "source_hash": "45b42bdf",
+    "region": "us"
   },
   "greenhouse-rocketlab-7732204003": {
     "is_engineering": false,
@@ -21473,7 +21537,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "721d5687"
+    "source_hash": "721d5687",
+    "region": "us"
   },
   "greenhouse-andurilindustries-4679700007": {
     "is_engineering": false,
@@ -21517,7 +21582,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4ae39c69"
+    "source_hash": "4ae39c69",
+    "region": "us"
   },
   "greenhouse-epicgames-5994995004": {
     "is_engineering": true,
@@ -21593,7 +21659,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a8125360"
+    "source_hash": "a8125360",
+    "region": "us"
   },
   "ashby-elevenlabs-1285b935-1398-4116-8576-70a58896faa8": {
     "is_engineering": false,
@@ -21604,7 +21671,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "dc146be9"
+    "source_hash": "dc146be9",
+    "region": "unclear"
   },
   "ashby-elevenlabs-86db28df-173c-4407-b016-3dee1ec6197b": {
     "is_engineering": false,
@@ -21615,7 +21683,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "626e67cd"
+    "source_hash": "626e67cd",
+    "region": "international"
   },
   "ashby-openai-f4467078-033c-4638-ac7e-69a532276d85": {
     "is_engineering": false,
@@ -21626,7 +21695,8 @@
     "level": "manager",
     "comp": "$290k",
     "comp_extras": [],
-    "source_hash": "5c8ef010"
+    "source_hash": "5c8ef010",
+    "region": "us"
   },
   "greenhouse-anthropic-5186811008": {
     "is_engineering": false,
@@ -21753,7 +21823,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7a63b367"
+    "source_hash": "7a63b367",
+    "region": "international"
   },
   "greenhouse-riotgames-7922947": {
     "is_engineering": false,
@@ -21841,7 +21912,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "40c7968d"
+    "source_hash": "40c7968d",
+    "region": "unclear"
   },
   "greenhouse-airbnb-7759457": {
     "is_engineering": true,
@@ -21884,7 +21956,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5e7ab9b2"
+    "source_hash": "5e7ab9b2",
+    "region": "us"
   },
   "greenhouse-scopely-5214067008": {
     "is_engineering": false,
@@ -21941,7 +22014,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "50dc764c"
+    "source_hash": "50dc764c",
+    "region": "international"
   },
   "greenhouse-andurilindustries-5120051007": {
     "is_engineering": false,
@@ -22012,7 +22086,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c7fab7cb"
+    "source_hash": "c7fab7cb",
+    "region": "us"
   },
   "lever-CordTechnologies-93745902-dbfd-494a-b0ed-c7468ae1ec57": {
     "is_engineering": false,
@@ -22023,7 +22098,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2e86b1c2"
+    "source_hash": "2e86b1c2",
+    "region": "international"
   },
   "greenhouse-rockstargames-7703917003": {
     "is_engineering": false,
@@ -22059,7 +22135,8 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f8433fb7"
+    "source_hash": "f8433fb7",
+    "region": "international"
   },
   "greenhouse-wayve-8549413002": {
     "is_engineering": false,
@@ -22150,7 +22227,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7e63dda5"
+    "source_hash": "7e63dda5",
+    "region": "international"
   },
   "greenhouse-tenableinc-5219551008": {
     "is_engineering": false,
@@ -22457,7 +22535,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "37ab0a69"
+    "source_hash": "37ab0a69",
+    "region": "us"
   },
   "ashby-lovable-45db5790-4305-4fad-b96b-1fbdf42b88f2": {
     "is_engineering": true,
@@ -22477,7 +22556,8 @@
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "16a6e2c6"
+    "source_hash": "16a6e2c6",
+    "region": "international"
   },
   "ashby-notion-9fdc08a2-49b8-4da0-8e20-e657f505e9a8": {
     "is_engineering": false,
@@ -22488,7 +22568,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "efea0279"
+    "source_hash": "efea0279",
+    "region": "international"
   },
   "ashby-lovable-dc19c01d-a6d5-4fbd-bba6-47efa01a8dce": {
     "is_engineering": true,
@@ -22508,7 +22589,8 @@
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "71c0d588"
+    "source_hash": "71c0d588",
+    "region": "international"
   },
   "greenhouse-givedirectly-4695154005": {
     "is_engineering": false,
@@ -22541,7 +22623,8 @@
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9ff53c5d"
+    "source_hash": "9ff53c5d",
+    "region": "international"
   },
   "lever-cfsenergy-61a96e61-24c5-46a3-b535-8f682cecd52a": {
     "is_engineering": false,
@@ -22552,7 +22635,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f18475e0"
+    "source_hash": "f18475e0",
+    "region": "us"
   },
   "ashby-docker-dd69e9f1-c364-4616-af6b-5b8c6b7c06eb": {
     "is_engineering": false,
@@ -22565,7 +22649,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b3f06aee"
+    "source_hash": "b3f06aee",
+    "region": "international"
   },
   "ashby-Pear-VC-61f8a7b8-349d-4eb8-8b91-59084ae7654f": {
     "is_engineering": false,
@@ -22578,7 +22663,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "fdb3ed7f"
+    "source_hash": "fdb3ed7f",
+    "region": "international"
   },
   "greenhouse-grafanalabs-5995397004": {
     "is_engineering": true,
@@ -22672,7 +22758,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "65e1ec7f"
+    "source_hash": "65e1ec7f",
+    "region": "us"
   },
   "ashby-oneleet-0c5d6703-90da-4f41-9778-f3f8bfb79ea8": {
     "is_engineering": false,
@@ -22685,7 +22772,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "de92bb19"
+    "source_hash": "de92bb19",
+    "region": "us"
   },
   "greenhouse-planetlabs-7916929": {
     "is_engineering": false,
@@ -22785,7 +22873,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "23d5a20e"
+    "source_hash": "23d5a20e",
+    "region": "us"
   },
   "greenhouse-appliedintuition-4677114005": {
     "is_engineering": true,
@@ -22907,7 +22996,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1e3f168a"
+    "source_hash": "1e3f168a",
+    "region": "international"
   },
   "greenhouse-grafanalabs-5807984004": {
     "is_engineering": true,
@@ -23006,7 +23096,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3dcd873f"
+    "source_hash": "3dcd873f",
+    "region": "international"
   },
   "ashby-finni-health-8689664d-9ca3-40b4-8814-e1defbb199bc": {
     "is_engineering": false,
@@ -23017,7 +23108,8 @@
     "level": "junior",
     "comp": "$21-$23/hour",
     "comp_extras": [],
-    "source_hash": "9106ee83"
+    "source_hash": "9106ee83",
+    "region": "us"
   },
   "ashby-lago-9aca194c-df12-4252-9a5c-03f70dca7a8a": {
     "is_engineering": true,
@@ -23037,7 +23129,8 @@
     "level": "senior",
     "comp": "$80,000-$120,000",
     "comp_extras": [],
-    "source_hash": "e04daba1"
+    "source_hash": "e04daba1",
+    "region": "international"
   },
   "ashby-phoenix-af0d6e1b-06ab-4f7e-bfac-5f7a2e890f31": {
     "is_engineering": false,
@@ -23048,7 +23141,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "51eef581"
+    "source_hash": "51eef581",
+    "region": "canada"
   },
   "greenhouse-intercom-7918638": {
     "is_engineering": true,
@@ -23145,7 +23239,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d4938ddc"
+    "source_hash": "d4938ddc",
+    "region": "us"
   },
   "greenhouse-rocketlab-7730782003": {
     "is_engineering": false,
@@ -23332,7 +23427,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "85b58cfd"
+    "source_hash": "85b58cfd",
+    "region": "us"
   },
   "greenhouse-omadahealth-7859674": {
     "is_engineering": false,
@@ -23418,7 +23514,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "26ca0a2b"
+    "source_hash": "26ca0a2b",
+    "region": "us"
   },
   "greenhouse-robinhood-7456663": {
     "is_engineering": false,
@@ -23443,7 +23540,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f8ec0627"
+    "source_hash": "f8ec0627",
+    "region": "us"
   },
   "greenhouse-planetlabs-7822385": {
     "is_engineering": false,
@@ -23546,7 +23644,8 @@
     "level": "senior",
     "comp": "$293k-$325k",
     "comp_extras": [],
-    "source_hash": "9b692d59"
+    "source_hash": "9b692d59",
+    "region": "us"
   },
   "lever-palantir-9cd66de4-610b-4254-9027-3cb55aae1efa": {
     "is_engineering": false,
@@ -23557,7 +23656,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "69d3b4dd"
+    "source_hash": "69d3b4dd",
+    "region": "international"
   },
   "greenhouse-ginkgobioworks-5137770007": {
     "is_engineering": true,
@@ -23644,7 +23744,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7690283f"
+    "source_hash": "7690283f",
+    "region": "unclear"
   },
   "greenhouse-harnessinc-5137903007": {
     "is_engineering": false,
@@ -23691,7 +23792,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "4a37c1c5"
+    "source_hash": "4a37c1c5",
+    "region": "us"
   },
   "ashby-Viz.ai-2da02f7b-68e2-43c4-b3de-353cf417f498": {
     "is_engineering": false,
@@ -23704,7 +23806,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "37d0cbec"
+    "source_hash": "37d0cbec",
+    "region": "us"
   },
   "ashby-frontcareers-d5f70af1-b622-4007-9f43-cf0c94b17cd0": {
     "is_engineering": false,
@@ -23715,7 +23818,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0ae36749"
+    "source_hash": "0ae36749",
+    "region": "international"
   },
   "ashby-frontcareers-78a96972-ba8e-4b95-9de1-bfe34ecc6c7d": {
     "is_engineering": false,
@@ -23726,7 +23830,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0bb656d3"
+    "source_hash": "0bb656d3",
+    "region": "international"
   },
   "ashby-mystenlabs-c5f1f701-0cee-46f1-8eaa-59952a71a42f": {
     "is_engineering": true,
@@ -23745,7 +23850,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "443f5548"
+    "source_hash": "443f5548",
+    "region": "us"
   },
   "ashby-frontcareers-4698b50d-0046-48cc-8700-81d9430c9594": {
     "is_engineering": false,
@@ -23756,7 +23862,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1f0ae8e1"
+    "source_hash": "1f0ae8e1",
+    "region": "international"
   },
   "ashby-ironcladhq-5167f356-ad30-49e9-8353-3ca12227aad6": {
     "is_engineering": false,
@@ -23769,7 +23876,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "23926333"
+    "source_hash": "23926333",
+    "region": "us"
   },
   "ashby-benchling-61b20c5a-5c3d-4388-a19d-13a89886e73f": {
     "is_engineering": false,
@@ -23780,7 +23888,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cc26ba0c"
+    "source_hash": "cc26ba0c",
+    "region": "us"
   },
   "ashby-cosine-1c4aef01-61ee-40ba-b919-f77a244b3847": {
     "is_engineering": true,
@@ -23802,7 +23911,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "959ee593"
+    "source_hash": "959ee593",
+    "region": "international"
   },
   "ashby-finni-health-adb381ff-0626-444f-9fa5-d95c2a96c68b": {
     "is_engineering": false,
@@ -23813,7 +23923,8 @@
     "level": null,
     "comp": "$21-$23/hour",
     "comp_extras": [],
-    "source_hash": "143ec85a"
+    "source_hash": "143ec85a",
+    "region": "us"
   },
   "ashby-infisical-b9bf8d09-878b-488d-990f-f177b7417270": {
     "is_engineering": false,
@@ -23826,7 +23937,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "1879cdb2"
+    "source_hash": "1879cdb2",
+    "region": "us"
   },
   "ashby-permitflow-ee9b7949-80a8-434d-8567-a1e7afe65422": {
     "is_engineering": false,
@@ -23839,7 +23951,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "5d1b29be"
+    "source_hash": "5d1b29be",
+    "region": "us"
   },
   "ashby-finni-health-b6f1e887-7a50-4eeb-a35b-b8d25733ba5f": {
     "is_engineering": false,
@@ -23850,7 +23963,8 @@
     "level": null,
     "comp": "$25/hour",
     "comp_extras": [],
-    "source_hash": "0efc18f4"
+    "source_hash": "0efc18f4",
+    "region": "us"
   },
   "greenhouse-vectranetworks-6889453": {
     "is_engineering": true,
@@ -23894,7 +24008,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d2b643d8"
+    "source_hash": "d2b643d8",
+    "region": "us"
   },
   "greenhouse-databricks-8536432002": {
     "is_engineering": false,
@@ -23965,7 +24080,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c1aea34e"
+    "source_hash": "c1aea34e",
+    "region": "us"
   },
   "greenhouse-instacart-7871823": {
     "is_engineering": false,
@@ -24002,7 +24118,8 @@
     "level": "manager",
     "comp": "$162k-$180k",
     "comp_extras": [],
-    "source_hash": "02b1cd89"
+    "source_hash": "02b1cd89",
+    "region": "us"
   },
   "greenhouse-andurilindustries-4588656007": {
     "is_engineering": true,
@@ -24161,7 +24278,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "02cd9a59"
+    "source_hash": "02cd9a59",
+    "region": "us"
   },
   "greenhouse-natera-5849849004": {
     "is_engineering": false,
@@ -24256,7 +24374,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "2ad13aeb"
+    "source_hash": "2ad13aeb",
+    "region": "us"
   },
   "ashby-suno-81beeb40-3870-4a35-9370-1335d2afddd9": {
     "is_engineering": false,
@@ -24269,7 +24388,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "f1eec6e4"
+    "source_hash": "f1eec6e4",
+    "region": "us"
   },
   "ashby-extend-e1f3c67c-ed3a-457b-a355-1991a8cb78b0": {
     "is_engineering": false,
@@ -24280,7 +24400,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "91256ef8"
+    "source_hash": "91256ef8",
+    "region": "us"
   },
   "ashby-coderabbit-90923d9f-c3f1-493c-bf6d-02ce76f1a142": {
     "is_engineering": false,
@@ -24293,7 +24414,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "16f28d3b"
+    "source_hash": "16f28d3b",
+    "region": "us"
   },
   "ashby-langchain-b47dbcea-222c-427d-bf4d-9e30a6b60d4a": {
     "is_engineering": false,
@@ -24306,7 +24428,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "701b0e6a"
+    "source_hash": "701b0e6a",
+    "region": "us"
   },
   "workable-intellecthq-EB88C93820": {
     "is_engineering": false,
@@ -24398,7 +24521,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "7af12e4c"
+    "source_hash": "7af12e4c",
+    "region": "us"
   },
   "greenhouse-stripe-7616135": {
     "is_engineering": false,
@@ -24431,7 +24555,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "c6bff697"
+    "source_hash": "c6bff697",
+    "region": "us"
   },
   "lever-q-ctrl-c6ef13cf-fb59-4e66-a17c-b16d7f1cdbe3": {
     "is_engineering": true,
@@ -24449,7 +24574,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c7933e68"
+    "source_hash": "c7933e68",
+    "region": "us"
   },
   "ashby-openai-493f5328-27bc-4987-9cc1-47ec3793a4d5": {
     "is_engineering": false,
@@ -24460,7 +24586,8 @@
     "level": "manager",
     "comp": "$302k-$335k",
     "comp_extras": [],
-    "source_hash": "84979e95"
+    "source_hash": "84979e95",
+    "region": "us"
   },
   "ashby-openai-5a1a0c32-0b82-482a-8149-e6b096c3e732": {
     "is_engineering": true,
@@ -24478,7 +24605,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "eb84d896"
+    "source_hash": "eb84d896",
+    "region": "us"
   },
   "ashby-openai-72a58872-70e2-4340-a259-e9bea3596883": {
     "is_engineering": true,
@@ -24498,7 +24626,8 @@
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c03f50bb"
+    "source_hash": "c03f50bb",
+    "region": "us"
   },
   "greenhouse-vast-4681527006": {
     "is_engineering": false,
@@ -24531,7 +24660,8 @@
     "level": "senior",
     "comp": "$293K-$385K",
     "comp_extras": [],
-    "source_hash": "c3a5ffa8"
+    "source_hash": "c3a5ffa8",
+    "region": "us"
   },
   "ashby-openai-73e59b84-2e87-4637-8c4a-d271784afb30": {
     "is_engineering": false,
@@ -24542,7 +24672,8 @@
     "level": "senior",
     "comp": "$239k-$265k",
     "comp_extras": [],
-    "source_hash": "db8559ea"
+    "source_hash": "db8559ea",
+    "region": "us"
   },
   "ashby-openai-5ba67ffa-ee05-44d3-8a6a-3e259fa3147d": {
     "is_engineering": false,
@@ -24553,7 +24684,8 @@
     "level": null,
     "comp": "$162k-$180k",
     "comp_extras": [],
-    "source_hash": "dc43b408"
+    "source_hash": "dc43b408",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5138059007": {
     "is_engineering": true,
@@ -24819,7 +24951,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "08e0cf51"
+    "source_hash": "08e0cf51",
+    "region": "us"
   },
   "lever-palantir-e6789b17-62fb-4226-a079-f8c17ff19e2d": {
     "is_engineering": true,
@@ -24830,7 +24963,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f5a1a9fd"
+    "source_hash": "f5a1a9fd",
+    "region": "us"
   },
   "lever-palantir-5c4c65c5-77da-4d36-856c-4ade87631019": {
     "is_engineering": true,
@@ -24841,7 +24975,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9b764a3b"
+    "source_hash": "9b764a3b",
+    "region": "us"
   },
   "lever-palantir-7b269a3a-77c7-4060-9171-4fb655dfc676": {
     "is_engineering": true,
@@ -24886,7 +25021,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2a27d3c0"
+    "source_hash": "2a27d3c0",
+    "region": "us"
   },
   "lever-deepgenomics-d519265d-30c2-4194-92b0-d7194c4ca0a6": {
     "is_engineering": false,
@@ -24897,7 +25033,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "eb28ff7b"
+    "source_hash": "eb28ff7b",
+    "region": "us"
   },
   "greenhouse-disco-8547728002": {
     "is_engineering": false,
@@ -24934,7 +25071,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b094995d"
+    "source_hash": "b094995d",
+    "region": "international"
   },
   "greenhouse-natera-5995919004": {
     "is_engineering": false,
@@ -24987,7 +25125,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0af0eaea"
+    "source_hash": "0af0eaea",
+    "region": "us"
   },
   "greenhouse-carbon-5134096007": {
     "is_engineering": false,
@@ -25009,7 +25148,8 @@
     "level": null,
     "comp": "$55-$70/hour",
     "comp_extras": [],
-    "source_hash": "8a088ea2"
+    "source_hash": "8a088ea2",
+    "region": "us"
   },
   "greenhouse-natera-5995921004": {
     "is_engineering": false,
@@ -25055,7 +25195,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "a43f1bf6"
+    "source_hash": "a43f1bf6",
+    "region": "us"
   },
   "greenhouse-block-5218231008": {
     "is_engineering": false,
@@ -25091,7 +25232,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a396c9ec"
+    "source_hash": "a396c9ec",
+    "region": "international"
   },
   "greenhouse-okta-7923030": {
     "is_engineering": true,
@@ -25130,7 +25272,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "09a3515e"
+    "source_hash": "09a3515e",
+    "region": "canada"
   },
   "greenhouse-instacart-7658241": {
     "is_engineering": true,
@@ -25256,7 +25399,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a9e5614b"
+    "source_hash": "a9e5614b",
+    "region": "canada"
   },
   "greenhouse-rocketlab-7734865003": {
     "is_engineering": false,
@@ -25302,7 +25446,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f19fcfd8"
+    "source_hash": "f19fcfd8",
+    "region": "us"
   },
   "greenhouse-kairospower-5540310004": {
     "is_engineering": false,
@@ -25337,7 +25482,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "19018725"
+    "source_hash": "19018725",
+    "region": "us"
   },
   "ashby-openai-c3458423-2cd6-40c0-bb5d-a5c3726a1d08": {
     "is_engineering": false,
@@ -25348,7 +25494,8 @@
     "level": "senior",
     "comp": "$226k-$285k",
     "comp_extras": [],
-    "source_hash": "8c2bce50"
+    "source_hash": "8c2bce50",
+    "region": "us"
   },
   "ashby-openai-b8e04f48-df50-45b2-ad98-ff3e3b99bff5": {
     "is_engineering": false,
@@ -25359,7 +25506,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d835b354"
+    "source_hash": "d835b354",
+    "region": "us"
   },
   "ashby-openai-063d1957-23f0-4976-b8bd-93a0d4a31cfb": {
     "is_engineering": false,
@@ -25370,7 +25518,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a296de9a"
+    "source_hash": "a296de9a",
+    "region": "us"
   },
   "ashby-openai-bbee5a3c-d856-4086-9445-5fed1a68148a": {
     "is_engineering": false,
@@ -25381,7 +25530,8 @@
     "level": "senior",
     "comp": "$239k-$265k",
     "comp_extras": [],
-    "source_hash": "7d9ab9d4"
+    "source_hash": "7d9ab9d4",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5138191007": {
     "is_engineering": false,
@@ -25418,7 +25568,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "55fe937d"
+    "source_hash": "55fe937d",
+    "region": "us"
   },
   "greenhouse-roblox-7185278": {
     "is_engineering": true,
@@ -25544,7 +25695,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a60b7d9f"
+    "source_hash": "a60b7d9f",
+    "region": "us"
   },
   "greenhouse-neuralink-7483748003": {
     "is_engineering": true,
@@ -25600,7 +25752,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "14b7ec81"
+    "source_hash": "14b7ec81",
+    "region": "us"
   },
   "lever-palantir-1a581b97-ce5b-4b4c-84b0-dd54cf8cfe14": {
     "is_engineering": false,
@@ -25611,7 +25764,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7b18c489"
+    "source_hash": "7b18c489",
+    "region": "us"
   },
   "lever-palantir-9804d4d1-bd2f-42d5-ae3e-3e3e51aa3830": {
     "is_engineering": false,
@@ -25622,7 +25776,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2f5cf67f"
+    "source_hash": "2f5cf67f",
+    "region": "us"
   },
   "greenhouse-tailscale-4695251005": {
     "is_engineering": false,
@@ -25646,7 +25801,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2ff7fe49"
+    "source_hash": "2ff7fe49",
+    "region": "us"
   },
   "lever-palantir-3e53ec44-d8f3-4b0b-b77f-c481e9cd06fd": {
     "is_engineering": false,
@@ -25657,7 +25813,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c8aeb5fd"
+    "source_hash": "c8aeb5fd",
+    "region": "us"
   },
   "ashby-Coder-e22c9328-dad2-4999-8f1f-01b7ab0c4447": {
     "is_engineering": false,
@@ -25668,7 +25825,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fc6b57ad"
+    "source_hash": "fc6b57ad",
+    "region": "unclear"
   },
   "greenhouse-tailscale-4695034005": {
     "is_engineering": false,
@@ -25704,7 +25862,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3c55c761"
+    "source_hash": "3c55c761",
+    "region": "us"
   },
   "greenhouse-vectranetworks-7925997": {
     "is_engineering": false,
@@ -25728,7 +25887,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f5431307"
+    "source_hash": "f5431307",
+    "region": "unclear"
   },
   "ashby-anyscale-73a973b1-6377-4144-a6e5-610b78719882": {
     "is_engineering": true,
@@ -25747,7 +25907,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5ccb7cf3"
+    "source_hash": "5ccb7cf3",
+    "region": "us"
   },
   "ashby-blissway-d6fc4670-63e6-47f7-aceb-99993557ecef": {
     "is_engineering": false,
@@ -25760,7 +25921,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "fdbe22f4"
+    "source_hash": "fdbe22f4",
+    "region": "us"
   },
   "ashby-9-mothers-87342437-0377-4256-93a8-05e29795fd54": {
     "is_engineering": true,
@@ -25782,7 +25944,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "8378d674"
+    "source_hash": "8378d674",
+    "region": "us"
   },
   "ashby-finni-health-4b4aa60d-a4d1-4f47-8068-996120c02930": {
     "is_engineering": false,
@@ -25793,7 +25956,8 @@
     "level": null,
     "comp": "$20-$25/hour",
     "comp_extras": [],
-    "source_hash": "e9912de9"
+    "source_hash": "e9912de9",
+    "region": "us"
   },
   "ashby-finni-health-4177bb2a-2ef8-4ed7-8288-48f17d12594f": {
     "is_engineering": false,
@@ -25804,7 +25968,8 @@
     "level": null,
     "comp": "$23.00-$27.00 per hour",
     "comp_extras": [],
-    "source_hash": "57e203d1"
+    "source_hash": "57e203d1",
+    "region": "us"
   },
   "ashby-blaxel-4acea42a-589d-42b1-949e-d4ec4b8907a2": {
     "is_engineering": true,
@@ -25824,7 +25989,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6cddfd27"
+    "source_hash": "6cddfd27",
+    "region": "us"
   },
   "ashby-gecko-robotics-f1dc5c24-f814-40bf-af02-f5c460ea97f3": {
     "is_engineering": true,
@@ -25846,7 +26012,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "db969df0"
+    "source_hash": "db969df0",
+    "region": "unclear"
   },
   "ashby-latent-49828d69-881c-4431-be8b-bcd7455aa069": {
     "is_engineering": false,
@@ -25857,7 +26024,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "00e25982"
+    "source_hash": "00e25982",
+    "region": "us"
   },
   "ashby-blissway-075a528d-b831-4917-b55e-8579142d1e8c": {
     "is_engineering": false,
@@ -25870,7 +26038,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "fc3f2a2d"
+    "source_hash": "fc3f2a2d",
+    "region": "us"
   },
   "workable-hokali-D4319D3367": {
     "is_engineering": false,
@@ -25895,7 +26064,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8ca9bb8c"
+    "source_hash": "8ca9bb8c",
+    "region": "us"
   },
   "greenhouse-mongodb-7926859": {
     "is_engineering": false,
@@ -26186,7 +26356,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e9c3b911"
+    "source_hash": "e9c3b911",
+    "region": "international"
   },
   "greenhouse-airbnb-7921357": {
     "is_engineering": false,
@@ -26425,7 +26596,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ca41836e"
+    "source_hash": "ca41836e",
+    "region": "us"
   },
   "lever-deepgenomics-eac06f39-448e-48ff-a1ba-240fded59d57": {
     "is_engineering": false,
@@ -26436,7 +26608,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "02b875d6"
+    "source_hash": "02b875d6",
+    "region": "us"
   },
   "greenhouse-natera-5992980004": {
     "is_engineering": false,
@@ -26603,7 +26776,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e949bd64"
+    "source_hash": "e949bd64",
+    "region": "us"
   },
   "ashby-quindar-d8323584-b637-400f-8469-00da26e3f054": {
     "is_engineering": false,
@@ -26614,7 +26788,8 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4658d4e1"
+    "source_hash": "4658d4e1",
+    "region": "us"
   },
   "greenhouse-usenourish-5221426008": {
     "is_engineering": false,
@@ -26711,7 +26886,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "4900756a"
+    "source_hash": "4900756a",
+    "region": "us"
   },
   "greenhouse-toast-7927453": {
     "is_engineering": false,
@@ -26735,7 +26911,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "71fa410c"
+    "source_hash": "71fa410c",
+    "region": "us"
   },
   "greenhouse-instacart-7927390": {
     "is_engineering": false,
@@ -26891,7 +27068,8 @@
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a35cef06"
+    "source_hash": "a35cef06",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5138391007": {
     "is_engineering": true,
@@ -26935,7 +27113,8 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f1652e75"
+    "source_hash": "f1652e75",
+    "region": "us"
   },
   "greenhouse-altoslabs-5991207004": {
     "is_engineering": false,
@@ -26966,7 +27145,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a39f8455"
+    "source_hash": "a39f8455",
+    "region": "us"
   },
   "greenhouse-natera-5992119004": {
     "is_engineering": false,
@@ -26997,7 +27177,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8927c23a"
+    "source_hash": "8927c23a",
+    "region": "us"
   },
   "ashby-latent-a3328583-c451-4540-8d19-a686ebfb96eb": {
     "is_engineering": false,
@@ -27008,7 +27189,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f023fad8"
+    "source_hash": "f023fad8",
+    "region": "us"
   },
   "ashby-latent-e1ee3c3b-cd90-4493-9c3b-62f3caf200e7": {
     "is_engineering": false,
@@ -27019,7 +27201,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e7c7851d"
+    "source_hash": "e7c7851d",
+    "region": "us"
   },
   "greenhouse-recidiviz-4657637006": {
     "is_engineering": false,
@@ -27136,7 +27319,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "4509bef6"
+    "source_hash": "4509bef6",
+    "region": "us"
   },
   "greenhouse-spacex-8543668002": {
     "is_engineering": true,
@@ -27477,7 +27661,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f312285e"
+    "source_hash": "f312285e",
+    "region": "international"
   },
   "greenhouse-toast-7927087": {
     "is_engineering": false,
@@ -27501,7 +27686,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "62d2aca5"
+    "source_hash": "62d2aca5",
+    "region": "canada"
   },
   "ashby-openai-0db33200-b533-4c4c-84f6-f51fea91819b": {
     "is_engineering": false,
@@ -27512,7 +27698,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b244261a"
+    "source_hash": "b244261a",
+    "region": "international"
   },
   "greenhouse-airbnb-7927488": {
     "is_engineering": true,
@@ -27535,7 +27722,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "703a6bea"
+    "source_hash": "703a6bea",
+    "region": "us"
   },
   "greenhouse-airbnb-7919241": {
     "is_engineering": false,
@@ -27549,7 +27737,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "6270af6b"
+    "source_hash": "6270af6b",
+    "region": "us"
   },
   "greenhouse-oklo-5996719004": {
     "is_engineering": true,
@@ -27572,7 +27761,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "72d6dbf6"
+    "source_hash": "72d6dbf6",
+    "region": "us"
   },
   "greenhouse-stripe-7917252": {
     "is_engineering": false,
@@ -27583,7 +27773,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "74fb8540"
+    "source_hash": "74fb8540",
+    "region": "us"
   },
   "ashby-openai-a0eef158-0ea5-4ce8-aabd-dd6816fe9af8": {
     "is_engineering": false,
@@ -27594,7 +27785,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1c443c4d"
+    "source_hash": "1c443c4d",
+    "region": "us"
   },
   "ashby-openai-e827d138-22de-49f0-9de5-60f3e3ce07a0": {
     "is_engineering": true,
@@ -27614,7 +27806,8 @@
     "level": "senior",
     "comp": "$175,000-$240,000",
     "comp_extras": [],
-    "source_hash": "71e61c27"
+    "source_hash": "71e61c27",
+    "region": "us"
   },
   "ashby-openai-de06790a-7243-4e33-a6f1-e7bd34009588": {
     "is_engineering": true,
@@ -27634,7 +27827,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "40d412cc"
+    "source_hash": "40d412cc",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5138477007": {
     "is_engineering": false,
@@ -27647,7 +27841,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "95ad058d"
+    "source_hash": "95ad058d",
+    "region": "us"
   },
   "greenhouse-waymo-7927507": {
     "is_engineering": false,
@@ -27661,7 +27856,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "3d10d807"
+    "source_hash": "3d10d807",
+    "region": "us"
   },
   "greenhouse-archer56-7734993003": {
     "is_engineering": false,
@@ -27672,7 +27868,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c9687a4f"
+    "source_hash": "c9687a4f",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5138479007": {
     "is_engineering": false,
@@ -27685,7 +27882,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "581c5f6c"
+    "source_hash": "581c5f6c",
+    "region": "us"
   },
   "greenhouse-roblox-7927616": {
     "is_engineering": false,
@@ -27698,7 +27896,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "c934d341"
+    "source_hash": "c934d341",
+    "region": "us"
   },
   "greenhouse-archer56-7703614003": {
     "is_engineering": true,
@@ -27718,7 +27917,8 @@
     "level": "staff",
     "comp": "$228k-$285k",
     "comp_extras": [],
-    "source_hash": "3d5b62f8"
+    "source_hash": "3d5b62f8",
+    "region": "us"
   },
   "ashby-cursor-040ac0f8-dba7-4d13-8171-b902e925f334": {
     "is_engineering": false,
@@ -27729,7 +27929,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "904634f1"
+    "source_hash": "904634f1",
+    "region": "us"
   },
   "greenhouse-andurilindustries-5137457007": {
     "is_engineering": false,
@@ -27742,7 +27943,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d41bd4d7"
+    "source_hash": "d41bd4d7",
+    "region": "international"
   },
   "greenhouse-gitlab-8548980002": {
     "is_engineering": false,
@@ -27755,7 +27957,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d1a5f915"
+    "source_hash": "d1a5f915",
+    "region": "international"
   },
   "ashby-claim-health-c9512763-dcae-40ed-a929-37d16d915ed0": {
     "is_engineering": true,
@@ -27775,7 +27978,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "39e710f8"
+    "source_hash": "39e710f8",
+    "region": "us"
   },
   "lever-gridware-41836d84-c57f-4bf3-a588-25c987e08310": {
     "is_engineering": false,
@@ -27786,7 +27990,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a388c349"
+    "source_hash": "a388c349",
+    "region": "us"
   },
   "ashby-latent-bedfeef6-537c-4258-9267-19577b8d4af6": {
     "is_engineering": false,
@@ -27797,7 +28002,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "83b4fc72"
+    "source_hash": "83b4fc72",
+    "region": "us"
   },
   "ashby-benepass-add86101-3763-42b0-a476-6f9607fa09f6": {
     "is_engineering": true,
@@ -27819,7 +28025,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "789617ff"
+    "source_hash": "789617ff",
+    "region": "us"
   },
   "greenhouse-cloudflare-7916601": {
     "is_engineering": false,
@@ -27830,7 +28037,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "93abb996"
+    "source_hash": "93abb996",
+    "region": "international"
   },
   "greenhouse-natera-5994721004": {
     "is_engineering": false,
@@ -27844,7 +28052,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "56382544"
+    "source_hash": "56382544",
+    "region": "us"
   },
   "greenhouse-bridgebio-5135020007": {
     "is_engineering": false,
@@ -27858,7 +28067,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "98b7a0a3"
+    "source_hash": "98b7a0a3",
+    "region": "us"
   },
   "greenhouse-okta-7743848": {
     "is_engineering": false,
@@ -27872,7 +28082,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "980b1d99"
+    "source_hash": "980b1d99",
+    "region": "us"
   },
   "greenhouse-spacex-8550900002": {
     "is_engineering": false,
@@ -27886,7 +28097,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "bfa19e5d"
+    "source_hash": "bfa19e5d",
+    "region": "us"
   },
   "greenhouse-sourcegraph91-5996694004": {
     "is_engineering": true,
@@ -27908,7 +28120,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "f80a198e"
+    "source_hash": "f80a198e",
+    "region": "us"
   },
   "greenhouse-bridgebio-5136136007": {
     "is_engineering": true,
@@ -27931,7 +28144,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "ef7c6820"
+    "source_hash": "ef7c6820",
+    "region": "us"
   },
   "ashby-montecarlodata-4a57ba0f-3be5-4138-b863-f8c7a575c3e0": {
     "is_engineering": false,
@@ -27942,7 +28156,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "faaa42b3"
+    "source_hash": "faaa42b3",
+    "region": "us"
   },
   "ashby-montecarlodata-796226cd-6ca7-4696-a3e2-a9fc8c1a64aa": {
     "is_engineering": false,
@@ -27953,7 +28168,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ea1fa4f9"
+    "source_hash": "ea1fa4f9",
+    "region": "us"
   },
   "greenhouse-ionq-5820389004": {
     "is_engineering": false,
@@ -27967,7 +28183,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b29b9f54"
+    "source_hash": "b29b9f54",
+    "region": "us"
   },
   "ashby-cohere-850ef24d-3206-4ad4-814d-c809ed0dea7f": {
     "is_engineering": false,
@@ -27978,7 +28195,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "26686ad7"
+    "source_hash": "26686ad7",
+    "region": "international"
   },
   "greenhouse-stripe-7919030": {
     "is_engineering": true,
@@ -27998,7 +28216,8 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e7d2683d"
+    "source_hash": "e7d2683d",
+    "region": "us"
   },
   "ashby-openai-4b361a81-c5b8-40bf-a0f9-0b2411b50b13": {
     "is_engineering": false,
@@ -28009,7 +28228,8 @@
     "level": "manager",
     "comp": "$347k-$385k",
     "comp_extras": [],
-    "source_hash": "63c0b388"
+    "source_hash": "63c0b388",
+    "region": "us"
   },
   "ashby-openai-6ccb669b-7c0c-4531-819b-47fb0a5c9dbd": {
     "is_engineering": true,
@@ -28028,7 +28248,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "03ea54e8"
+    "source_hash": "03ea54e8",
+    "region": "us"
   },
   "ashby-openai-1f179760-8bfd-477c-a5dd-16d465d40307": {
     "is_engineering": true,
@@ -28048,7 +28269,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8aa2c8fd"
+    "source_hash": "8aa2c8fd",
+    "region": "us"
   },
   "greenhouse-trueanomalyinc-5138491007": {
     "is_engineering": false,
@@ -28061,7 +28283,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "8443e017"
+    "source_hash": "8443e017",
+    "region": "us"
   },
   "ashby-nightfall-ai-89514192-7e14-454d-8a94-abf515fb70eb": {
     "is_engineering": false,
@@ -28072,7 +28295,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9b47e13f"
+    "source_hash": "9b47e13f",
+    "region": "us"
   },
   "greenhouse-riotgames-7922898": {
     "is_engineering": true,
@@ -28091,7 +28315,8 @@
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "afd28d7a"
+    "source_hash": "afd28d7a",
+    "region": "international"
   },
   "greenhouse-waymo-7926309": {
     "is_engineering": false,
@@ -28105,7 +28330,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "12d7524f"
+    "source_hash": "12d7524f",
+    "region": "us"
   },
   "ashby-Deepgram-4ccf6612-92c5-49f4-9044-b4bed37c97d4": {
     "is_engineering": false,
@@ -28116,7 +28342,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f200144b"
+    "source_hash": "f200144b",
+    "region": "us"
   },
   "greenhouse-momentus-5996731004": {
     "is_engineering": false,
@@ -28130,7 +28357,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "343fa1b7"
+    "source_hash": "343fa1b7",
+    "region": "us"
   },
   "greenhouse-momentus-5996730004": {
     "is_engineering": false,
@@ -28144,7 +28372,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "162254e8"
+    "source_hash": "162254e8",
+    "region": "us"
   },
   "ashby-Deepgram-aafbab17-4caa-4b87-811c-21acfc566cf4": {
     "is_engineering": false,
@@ -28155,7 +28384,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "266192a3"
+    "source_hash": "266192a3",
+    "region": "international"
   },
   "ashby-Deepgram-623dcf1a-becc-4cab-85a3-eb7ebe37e3c0": {
     "is_engineering": false,
@@ -28166,7 +28396,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e01be4df"
+    "source_hash": "e01be4df",
+    "region": "us"
   },
   "ashby-airops-c35d896c-7d1a-4903-be5d-cb474a926b68": {
     "is_engineering": false,
@@ -28179,7 +28410,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "08cb55e2"
+    "source_hash": "08cb55e2",
+    "region": "international"
   },
   "greenhouse-rocketlab-7725103003": {
     "is_engineering": false,
@@ -28190,7 +28422,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9f9802e4"
+    "source_hash": "9f9802e4",
+    "region": "unclear"
   },
   "greenhouse-vardaspace-7728872003": {
     "is_engineering": false,
@@ -28203,7 +28436,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "6cd807f4"
+    "source_hash": "6cd807f4",
+    "region": "us"
   },
   "greenhouse-vardaspace-7728867003": {
     "is_engineering": false,
@@ -28216,7 +28450,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "f33da856"
+    "source_hash": "f33da856",
+    "region": "us"
   },
   "greenhouse-vardaspace-7728859003": {
     "is_engineering": false,
@@ -28229,7 +28464,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "3e546c1a"
+    "source_hash": "3e546c1a",
+    "region": "us"
   },
   "greenhouse-vardaspace-7728866003": {
     "is_engineering": false,
@@ -28242,7 +28478,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "44954b7e"
+    "source_hash": "44954b7e",
+    "region": "us"
   },
   "lever-grailbio-14377c29-9a74-4f9a-9dc6-fcfcb8b6828b": {
     "is_engineering": false,
@@ -28253,7 +28490,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4bb29471"
+    "source_hash": "4bb29471",
+    "region": "us"
   },
   "greenhouse-vardaspace-7728861003": {
     "is_engineering": false,
@@ -28266,7 +28504,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "e205a152"
+    "source_hash": "e205a152",
+    "region": "us"
   },
   "greenhouse-vardaspace-7728873003": {
     "is_engineering": false,
@@ -28279,7 +28518,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "4542d085"
+    "source_hash": "4542d085",
+    "region": "us"
   },
   "greenhouse-twilio-7807900": {
     "is_engineering": false,
@@ -28290,7 +28530,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "59ed7cf3"
+    "source_hash": "59ed7cf3",
+    "region": "international"
   },
   "greenhouse-lyft-8550340002": {
     "is_engineering": false,
@@ -28304,7 +28545,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "f5866fb9"
+    "source_hash": "f5866fb9",
+    "region": "canada"
   },
   "greenhouse-okta-7849955": {
     "is_engineering": true,
@@ -28324,7 +28566,8 @@
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "24d9aec5"
+    "source_hash": "24d9aec5",
+    "region": "international"
   },
   "greenhouse-okta-7920036": {
     "is_engineering": true,
@@ -28344,7 +28587,8 @@
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ecaa522e"
+    "source_hash": "ecaa522e",
+    "region": "international"
   },
   "greenhouse-workato-8551121002": {
     "is_engineering": false,
@@ -28358,7 +28602,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "2a78c2dd"
+    "source_hash": "2a78c2dd",
+    "region": "us"
   },
   "greenhouse-airbnb-7916146": {
     "is_engineering": false,
@@ -28369,7 +28614,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4d3d56d2"
+    "source_hash": "4d3d56d2",
+    "region": "international"
   },
   "greenhouse-speechify-5974584004": {
     "is_engineering": true,
@@ -28388,7 +28634,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "bb0505af"
+    "source_hash": "bb0505af",
+    "region": "international"
   },
   "greenhouse-motional-7600024003": {
     "is_engineering": true,
@@ -28405,7 +28652,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "92f2392f"
+    "source_hash": "92f2392f",
+    "region": "unclear"
   },
   "greenhouse-speechify-5974739004": {
     "is_engineering": true,
@@ -28421,7 +28669,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "be7a1668"
+    "source_hash": "be7a1668",
+    "region": "international"
   },
   "greenhouse-speechify-5974733004": {
     "is_engineering": true,
@@ -28440,7 +28689,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a5b6083f"
+    "source_hash": "a5b6083f",
+    "region": "international"
   },
   "greenhouse-speechify-5974685004": {
     "is_engineering": true,
@@ -28456,7 +28706,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3277d46a"
+    "source_hash": "3277d46a",
+    "region": "international"
   },
   "greenhouse-speechify-5974626004": {
     "is_engineering": true,
@@ -28478,7 +28729,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "60d1208f"
+    "source_hash": "60d1208f",
+    "region": "us"
   },
   "greenhouse-speechify-5974783004": {
     "is_engineering": true,
@@ -28496,7 +28748,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6ec884a2"
+    "source_hash": "6ec884a2",
+    "region": "international"
   },
   "greenhouse-speechify-5974649004": {
     "is_engineering": true,
@@ -28515,7 +28768,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2e100c43"
+    "source_hash": "2e100c43",
+    "region": "international"
   },
   "greenhouse-trueanomalyinc-5138495007": {
     "is_engineering": false,
@@ -28528,7 +28782,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "cc5d6f40"
+    "source_hash": "cc5d6f40",
+    "region": "us"
   },
   "greenhouse-vectranetworks-7895046": {
     "is_engineering": false,
@@ -28541,7 +28796,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "31f17814"
+    "source_hash": "31f17814",
+    "region": "international"
   },
   "greenhouse-speechify-5974752004": {
     "is_engineering": true,
@@ -28557,7 +28813,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8a9e64b7"
+    "source_hash": "8a9e64b7",
+    "region": "international"
   },
   "greenhouse-speechify-5976169004": {
     "is_engineering": true,
@@ -28579,7 +28836,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "9ab343f9"
+    "source_hash": "9ab343f9",
+    "region": "us"
   },
   "greenhouse-speechify-5974529004": {
     "is_engineering": true,
@@ -28601,7 +28859,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1644c587"
+    "source_hash": "1644c587",
+    "region": "us"
   },
   "greenhouse-speechify-5974523004": {
     "is_engineering": true,
@@ -28624,7 +28883,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5bf34f95"
+    "source_hash": "5bf34f95",
+    "region": "us"
   },
   "greenhouse-speechify-5974697004": {
     "is_engineering": true,
@@ -28646,7 +28906,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "bcf2399b"
+    "source_hash": "bcf2399b",
+    "region": "us"
   },
   "greenhouse-speechify-5974753004": {
     "is_engineering": true,
@@ -28665,7 +28926,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1ba1de35"
+    "source_hash": "1ba1de35",
+    "region": "international"
   },
   "greenhouse-speechify-5974727004": {
     "is_engineering": true,
@@ -28684,7 +28946,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c25d08ed"
+    "source_hash": "c25d08ed",
+    "region": "international"
   },
   "greenhouse-speechify-5974466004": {
     "is_engineering": true,
@@ -28706,7 +28969,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a3e033e2"
+    "source_hash": "a3e033e2",
+    "region": "us"
   },
   "greenhouse-speechify-5974535004": {
     "is_engineering": true,
@@ -28728,7 +28992,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "191b8766"
+    "source_hash": "191b8766",
+    "region": "us"
   },
   "greenhouse-speechify-5974765004": {
     "is_engineering": true,
@@ -28747,7 +29012,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4942f72a"
+    "source_hash": "4942f72a",
+    "region": "international"
   },
   "greenhouse-speechify-5974759004": {
     "is_engineering": true,
@@ -28766,7 +29032,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "49da24b6"
+    "source_hash": "49da24b6",
+    "region": "international"
   },
   "greenhouse-speechify-5974691004": {
     "is_engineering": true,
@@ -28788,7 +29055,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f2e128fe"
+    "source_hash": "f2e128fe",
+    "region": "us"
   },
   "greenhouse-speechify-5974571004": {
     "is_engineering": true,
@@ -28808,7 +29076,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8243a95a"
+    "source_hash": "8243a95a",
+    "region": "international"
   },
   "greenhouse-speechify-5974615004": {
     "is_engineering": true,
@@ -28827,7 +29096,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "412ce9ff"
+    "source_hash": "412ce9ff",
+    "region": "international"
   },
   "greenhouse-speechify-5974745004": {
     "is_engineering": true,
@@ -28845,7 +29115,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1becd918"
+    "source_hash": "1becd918",
+    "region": "international"
   },
   "greenhouse-speechify-5974667004": {
     "is_engineering": true,
@@ -28867,7 +29138,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "33b710b9"
+    "source_hash": "33b710b9",
+    "region": "us"
   },
   "greenhouse-speechify-5974770004": {
     "is_engineering": true,
@@ -28886,7 +29158,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c64691b0"
+    "source_hash": "c64691b0",
+    "region": "international"
   },
   "greenhouse-speechify-5974590004": {
     "is_engineering": true,
@@ -28904,7 +29177,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0300f97a"
+    "source_hash": "0300f97a",
+    "region": "international"
   },
   "greenhouse-speechify-5974505004": {
     "is_engineering": true,
@@ -28926,7 +29200,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4f2023aa"
+    "source_hash": "4f2023aa",
+    "region": "us"
   },
   "greenhouse-speechify-5974777004": {
     "is_engineering": true,
@@ -28944,7 +29219,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b173639c"
+    "source_hash": "b173639c",
+    "region": "international"
   },
   "greenhouse-speechify-5974703004": {
     "is_engineering": true,
@@ -28963,7 +29239,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "55a82c68"
+    "source_hash": "55a82c68",
+    "region": "international"
   },
   "greenhouse-speechify-5974715004": {
     "is_engineering": true,
@@ -28982,7 +29259,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cd840c62"
+    "source_hash": "cd840c62",
+    "region": "international"
   },
   "greenhouse-speechify-5974578004": {
     "is_engineering": true,
@@ -29001,7 +29279,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "78188be8"
+    "source_hash": "78188be8",
+    "region": "international"
   },
   "greenhouse-speechify-5974637004": {
     "is_engineering": true,
@@ -29019,7 +29298,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "53e24bb3"
+    "source_hash": "53e24bb3",
+    "region": "international"
   },
   "greenhouse-speechify-5974650004": {
     "is_engineering": true,
@@ -29040,7 +29320,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "220ed52f"
+    "source_hash": "220ed52f",
+    "region": "us"
   },
   "greenhouse-speechify-5974596004": {
     "is_engineering": true,
@@ -29059,7 +29340,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "88844690"
+    "source_hash": "88844690",
+    "region": "international"
   },
   "greenhouse-speechify-5976163004": {
     "is_engineering": true,
@@ -29078,7 +29360,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "035d4b5e"
+    "source_hash": "035d4b5e",
+    "region": "international"
   },
   "greenhouse-speechify-5974541004": {
     "is_engineering": true,
@@ -29100,7 +29383,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "e4bc0817"
+    "source_hash": "e4bc0817",
+    "region": "us"
   },
   "greenhouse-speechify-5974661004": {
     "is_engineering": true,
@@ -29122,7 +29406,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "fd076000"
+    "source_hash": "fd076000",
+    "region": "us"
   },
   "greenhouse-speechify-5974547004": {
     "is_engineering": true,
@@ -29145,7 +29430,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "2352bc94"
+    "source_hash": "2352bc94",
+    "region": "us"
   },
   "greenhouse-speechify-5974559004": {
     "is_engineering": true,
@@ -29161,7 +29447,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "38db6d07"
+    "source_hash": "38db6d07",
+    "region": "international"
   },
   "greenhouse-speechify-5974478004": {
     "is_engineering": true,
@@ -29180,7 +29467,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6c6002eb"
+    "source_hash": "6c6002eb",
+    "region": "international"
   },
   "greenhouse-speechify-5974565004": {
     "is_engineering": true,
@@ -29200,7 +29488,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e0d82369"
+    "source_hash": "e0d82369",
+    "region": "international"
   },
   "greenhouse-speechify-5974673004": {
     "is_engineering": true,
@@ -29222,7 +29511,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ce6d0a6b"
+    "source_hash": "ce6d0a6b",
+    "region": "us"
   },
   "greenhouse-speechify-5974517004": {
     "is_engineering": true,
@@ -29244,7 +29534,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8adf0478"
+    "source_hash": "8adf0478",
+    "region": "us"
   },
   "greenhouse-speechify-5974460004": {
     "is_engineering": true,
@@ -29266,7 +29557,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "cec511d6"
+    "source_hash": "cec511d6",
+    "region": "us"
   },
   "greenhouse-speechify-5974511004": {
     "is_engineering": true,
@@ -29288,7 +29580,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ea9c5fe2"
+    "source_hash": "ea9c5fe2",
+    "region": "us"
   },
   "greenhouse-speechify-5974497004": {
     "is_engineering": true,
@@ -29310,7 +29603,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8ed3dec3"
+    "source_hash": "8ed3dec3",
+    "region": "us"
   },
   "greenhouse-speechify-5976175004": {
     "is_engineering": true,
@@ -29332,7 +29626,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "aeba050e"
+    "source_hash": "aeba050e",
+    "region": "us"
   },
   "greenhouse-speechify-5974625004": {
     "is_engineering": true,
@@ -29351,7 +29646,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "69e378cd"
+    "source_hash": "69e378cd",
+    "region": "international"
   },
   "greenhouse-speechify-5974489004": {
     "is_engineering": true,
@@ -29371,7 +29667,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fb639e00"
+    "source_hash": "fb639e00",
+    "region": "international"
   },
   "greenhouse-speechify-5976157004": {
     "is_engineering": true,
@@ -29390,7 +29687,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5850ed7f"
+    "source_hash": "5850ed7f",
+    "region": "international"
   },
   "greenhouse-speechify-5974709004": {
     "is_engineering": true,
@@ -29409,7 +29707,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d5501686"
+    "source_hash": "d5501686",
+    "region": "international"
   },
   "greenhouse-speechify-5974721004": {
     "is_engineering": true,
@@ -29428,7 +29727,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "14be7e81"
+    "source_hash": "14be7e81",
+    "region": "international"
   },
   "greenhouse-speechify-5974638004": {
     "is_engineering": true,
@@ -29450,7 +29750,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "7913d3ea"
+    "source_hash": "7913d3ea",
+    "region": "us"
   },
   "greenhouse-speechify-5976151004": {
     "is_engineering": true,
@@ -29470,7 +29771,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c8c5dbaa"
+    "source_hash": "c8c5dbaa",
+    "region": "canada"
   },
   "greenhouse-speechify-5974679004": {
     "is_engineering": true,
@@ -29492,7 +29794,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f73375a9"
+    "source_hash": "f73375a9",
+    "region": "us"
   },
   "greenhouse-speechify-5974986004": {
     "is_engineering": true,
@@ -29515,7 +29818,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "0522c196"
+    "source_hash": "0522c196",
+    "region": "us"
   },
   "greenhouse-speechify-5974472004": {
     "is_engineering": true,
@@ -29537,7 +29841,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b960d362"
+    "source_hash": "b960d362",
+    "region": "us"
   },
   "greenhouse-speechify-5974608004": {
     "is_engineering": true,
@@ -29556,7 +29861,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e000c71d"
+    "source_hash": "e000c71d",
+    "region": "international"
   },
   "greenhouse-speechify-5975078004": {
     "is_engineering": true,
@@ -29576,7 +29882,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7aa16779"
+    "source_hash": "7aa16779",
+    "region": "international"
   },
   "greenhouse-speechify-5974896004": {
     "is_engineering": true,
@@ -29599,7 +29906,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "c8b29adf"
+    "source_hash": "c8b29adf",
+    "region": "us"
   },
   "greenhouse-speechify-5975102004": {
     "is_engineering": true,
@@ -29619,7 +29927,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "085109ac"
+    "source_hash": "085109ac",
+    "region": "international"
   },
   "greenhouse-speechify-5974836004": {
     "is_engineering": true,
@@ -29642,7 +29951,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b7dd26d5"
+    "source_hash": "b7dd26d5",
+    "region": "us"
   },
   "greenhouse-speechify-5975040004": {
     "is_engineering": true,
@@ -29662,7 +29972,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3be6ad0a"
+    "source_hash": "3be6ad0a",
+    "region": "international"
   },
   "greenhouse-speechify-5975046004": {
     "is_engineering": true,
@@ -29682,7 +29993,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a3ec86c5"
+    "source_hash": "a3ec86c5",
+    "region": "international"
   },
   "greenhouse-speechify-5975004004": {
     "is_engineering": true,
@@ -29705,7 +30017,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "d9a6c03e"
+    "source_hash": "d9a6c03e",
+    "region": "us"
   },
   "greenhouse-speechify-5974915004": {
     "is_engineering": true,
@@ -29725,7 +30038,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f450d507"
+    "source_hash": "f450d507",
+    "region": "international"
   },
   "greenhouse-speechify-5974968004": {
     "is_engineering": true,
@@ -29745,7 +30059,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "37e1b4e2"
+    "source_hash": "37e1b4e2",
+    "region": "international"
   },
   "greenhouse-speechify-5975114004": {
     "is_engineering": true,
@@ -29765,7 +30080,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5904cf89"
+    "source_hash": "5904cf89",
+    "region": "international"
   },
   "greenhouse-speechify-5976259004": {
     "is_engineering": true,
@@ -29788,7 +30104,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4db0ce66"
+    "source_hash": "4db0ce66",
+    "region": "us"
   },
   "greenhouse-speechify-5974860004": {
     "is_engineering": true,
@@ -29811,7 +30128,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "d4c21a59"
+    "source_hash": "d4c21a59",
+    "region": "us"
   },
   "greenhouse-speechify-5975069004": {
     "is_engineering": true,
@@ -29831,7 +30149,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6e5f188b"
+    "source_hash": "6e5f188b",
+    "region": "international"
   },
   "greenhouse-speechify-5975096004": {
     "is_engineering": true,
@@ -29851,7 +30170,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "af4edcc7"
+    "source_hash": "af4edcc7",
+    "region": "international"
   },
   "greenhouse-speechify-5974797004": {
     "is_engineering": true,
@@ -29874,7 +30194,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5eb9edc6"
+    "source_hash": "5eb9edc6",
+    "region": "us"
   },
   "greenhouse-speechify-5975108004": {
     "is_engineering": true,
@@ -29894,7 +30215,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8a30dbee"
+    "source_hash": "8a30dbee",
+    "region": "international"
   },
   "greenhouse-speechify-5974890004": {
     "is_engineering": true,
@@ -29917,7 +30239,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8a80b8e2"
+    "source_hash": "8a80b8e2",
+    "region": "us"
   },
   "greenhouse-speechify-5975034004": {
     "is_engineering": true,
@@ -29937,7 +30260,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "05c3be38"
+    "source_hash": "05c3be38",
+    "region": "international"
   },
   "greenhouse-speechify-5975084004": {
     "is_engineering": true,
@@ -29957,7 +30281,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0ef4306f"
+    "source_hash": "0ef4306f",
+    "region": "international"
   },
   "greenhouse-speechify-5975022004": {
     "is_engineering": true,
@@ -29977,7 +30302,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8a67d8ab"
+    "source_hash": "8a67d8ab",
+    "region": "international"
   },
   "greenhouse-speechify-5974927004": {
     "is_engineering": true,
@@ -29997,7 +30323,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "53098a47"
+    "source_hash": "53098a47",
+    "region": "international"
   },
   "greenhouse-speechify-5974848004": {
     "is_engineering": true,
@@ -30020,7 +30347,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "e6a200b6"
+    "source_hash": "e6a200b6",
+    "region": "us"
   },
   "greenhouse-speechify-5974872004": {
     "is_engineering": true,
@@ -30043,7 +30371,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f5b41f72"
+    "source_hash": "f5b41f72",
+    "region": "us"
   },
   "greenhouse-speechify-5974902004": {
     "is_engineering": true,
@@ -30063,7 +30392,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3d46dd80"
+    "source_hash": "3d46dd80",
+    "region": "international"
   },
   "greenhouse-speechify-5975058004": {
     "is_engineering": true,
@@ -30083,7 +30413,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f180ee2d"
+    "source_hash": "f180ee2d",
+    "region": "international"
   },
   "greenhouse-speechify-5974921004": {
     "is_engineering": true,
@@ -30103,7 +30434,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9dc4e0c6"
+    "source_hash": "9dc4e0c6",
+    "region": "international"
   },
   "greenhouse-speechify-5974957004": {
     "is_engineering": true,
@@ -30123,7 +30455,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b0bf1548"
+    "source_hash": "b0bf1548",
+    "region": "international"
   },
   "greenhouse-speechify-5974884004": {
     "is_engineering": true,
@@ -30146,7 +30479,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6bd0e167"
+    "source_hash": "6bd0e167",
+    "region": "us"
   },
   "greenhouse-speechify-5974854004": {
     "is_engineering": true,
@@ -30169,7 +30503,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "70c98c94"
+    "source_hash": "70c98c94",
+    "region": "us"
   },
   "greenhouse-speechify-5976253004": {
     "is_engineering": true,
@@ -30189,7 +30524,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a682c507"
+    "source_hash": "a682c507",
+    "region": "international"
   },
   "greenhouse-speechify-5974866004": {
     "is_engineering": true,
@@ -30212,7 +30548,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "51da6399"
+    "source_hash": "51da6399",
+    "region": "us"
   },
   "greenhouse-speechify-5975028004": {
     "is_engineering": true,
@@ -30232,7 +30569,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f07d51a9"
+    "source_hash": "f07d51a9",
+    "region": "international"
   },
   "greenhouse-speechify-5975052004": {
     "is_engineering": true,
@@ -30252,7 +30590,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7d979b66"
+    "source_hash": "7d979b66",
+    "region": "international"
   },
   "greenhouse-speechify-5974809004": {
     "is_engineering": true,
@@ -30272,7 +30611,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b8d22d63"
+    "source_hash": "b8d22d63",
+    "region": "international"
   },
   "greenhouse-speechify-5974878004": {
     "is_engineering": true,
@@ -30295,7 +30635,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "67549e77"
+    "source_hash": "67549e77",
+    "region": "us"
   },
   "greenhouse-speechify-5974830004": {
     "is_engineering": true,
@@ -30318,7 +30659,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6d39f1dd"
+    "source_hash": "6d39f1dd",
+    "region": "us"
   },
   "greenhouse-speechify-5974998004": {
     "is_engineering": true,
@@ -30341,7 +30683,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "3fc7787f"
+    "source_hash": "3fc7787f",
+    "region": "us"
   },
   "greenhouse-speechify-5974824004": {
     "is_engineering": true,
@@ -30364,7 +30707,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "81f4c210"
+    "source_hash": "81f4c210",
+    "region": "us"
   },
   "greenhouse-speechify-5974842004": {
     "is_engineering": true,
@@ -30387,7 +30731,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "900e4f86"
+    "source_hash": "900e4f86",
+    "region": "us"
   },
   "greenhouse-speechify-5974908004": {
     "is_engineering": true,
@@ -30407,7 +30752,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f0a9e06e"
+    "source_hash": "f0a9e06e",
+    "region": "international"
   },
   "greenhouse-speechify-5974791004": {
     "is_engineering": true,
@@ -30430,7 +30776,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "fffa990e"
+    "source_hash": "fffa990e",
+    "region": "us"
   },
   "greenhouse-speechify-5974945004": {
     "is_engineering": true,
@@ -30450,7 +30797,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4dfab2ff"
+    "source_hash": "4dfab2ff",
+    "region": "international"
   },
   "greenhouse-speechify-5974951004": {
     "is_engineering": true,
@@ -30470,7 +30818,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "39991122"
+    "source_hash": "39991122",
+    "region": "international"
   },
   "greenhouse-speechify-5974933004": {
     "is_engineering": true,
@@ -30490,7 +30839,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6561934b"
+    "source_hash": "6561934b",
+    "region": "international"
   },
   "greenhouse-speechify-5975010004": {
     "is_engineering": true,
@@ -30513,7 +30863,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4008f1e6"
+    "source_hash": "4008f1e6",
+    "region": "us"
   },
   "greenhouse-speechify-5974980004": {
     "is_engineering": true,
@@ -30536,7 +30887,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "7c3c80c0"
+    "source_hash": "7c3c80c0",
+    "region": "us"
   },
   "greenhouse-speechify-5975016004": {
     "is_engineering": true,
@@ -30559,7 +30911,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "05401fe2"
+    "source_hash": "05401fe2",
+    "region": "us"
   },
   "greenhouse-speechify-5974815004": {
     "is_engineering": true,
@@ -30579,7 +30932,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1a0956b3"
+    "source_hash": "1a0956b3",
+    "region": "international"
   },
   "greenhouse-speechify-5976241004": {
     "is_engineering": true,
@@ -30599,7 +30953,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c28945fc"
+    "source_hash": "c28945fc",
+    "region": "canada"
   },
   "greenhouse-speechify-5975064004": {
     "is_engineering": true,
@@ -30619,7 +30974,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ea7a7af4"
+    "source_hash": "ea7a7af4",
+    "region": "international"
   },
   "greenhouse-speechify-5975072004": {
     "is_engineering": true,
@@ -30639,7 +30995,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "71fd67df"
+    "source_hash": "71fd67df",
+    "region": "international"
   },
   "greenhouse-speechify-5976247004": {
     "is_engineering": true,
@@ -30659,7 +31016,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9ac3719f"
+    "source_hash": "9ac3719f",
+    "region": "international"
   },
   "greenhouse-speechify-5974992004": {
     "is_engineering": true,
@@ -30682,7 +31040,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "7c016f19"
+    "source_hash": "7c016f19",
+    "region": "us"
   },
   "greenhouse-speechify-5975256004": {
     "is_engineering": true,
@@ -30705,7 +31064,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "53a13d24"
+    "source_hash": "53a13d24",
+    "region": "us"
   },
   "greenhouse-speechify-5975321004": {
     "is_engineering": true,
@@ -30728,7 +31088,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "2676ff96"
+    "source_hash": "2676ff96",
+    "region": "us"
   },
   "greenhouse-speechify-5974803004": {
     "is_engineering": true,
@@ -30751,7 +31112,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f3c1e7ec"
+    "source_hash": "f3c1e7ec",
+    "region": "us"
   },
   "greenhouse-speechify-5975290004": {
     "is_engineering": true,
@@ -30774,7 +31136,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "9b2a493b"
+    "source_hash": "9b2a493b",
+    "region": "us"
   },
   "greenhouse-speechify-5975250004": {
     "is_engineering": true,
@@ -30794,7 +31157,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "32e6417a"
+    "source_hash": "32e6417a",
+    "region": "international"
   },
   "greenhouse-speechify-5975303004": {
     "is_engineering": true,
@@ -30814,7 +31178,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8b5928eb"
+    "source_hash": "8b5928eb",
+    "region": "international"
   },
   "greenhouse-speechify-5975443004": {
     "is_engineering": true,
@@ -30834,7 +31199,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2f3913e4"
+    "source_hash": "2f3913e4",
+    "region": "international"
   },
   "greenhouse-speechify-5975381004": {
     "is_engineering": true,
@@ -30857,7 +31223,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1bc75430"
+    "source_hash": "1bc75430",
+    "region": "us"
   },
   "greenhouse-speechify-5976289004": {
     "is_engineering": true,
@@ -30880,7 +31247,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ccd85e31"
+    "source_hash": "ccd85e31",
+    "region": "us"
   },
   "greenhouse-speechify-5975431004": {
     "is_engineering": true,
@@ -30900,7 +31268,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2859e421"
+    "source_hash": "2859e421",
+    "region": "international"
   },
   "greenhouse-speechify-5975189004": {
     "is_engineering": true,
@@ -30923,7 +31292,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "cbee1acd"
+    "source_hash": "cbee1acd",
+    "region": "us"
   },
   "greenhouse-speechify-5975126004": {
     "is_engineering": true,
@@ -30946,7 +31316,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6f2ea0a1"
+    "source_hash": "6f2ea0a1",
+    "region": "us"
   },
   "greenhouse-speechify-5975232004": {
     "is_engineering": true,
@@ -30966,7 +31337,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3694199a"
+    "source_hash": "3694199a",
+    "region": "international"
   },
   "greenhouse-speechify-5975244004": {
     "is_engineering": true,
@@ -30986,7 +31358,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "af473902"
+    "source_hash": "af473902",
+    "region": "international"
   },
   "greenhouse-speechify-5975339004": {
     "is_engineering": true,
@@ -31006,7 +31379,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "683be466"
+    "source_hash": "683be466",
+    "region": "international"
   },
   "greenhouse-speechify-5975201004": {
     "is_engineering": true,
@@ -31029,7 +31403,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "66cbd9b8"
+    "source_hash": "66cbd9b8",
+    "region": "us"
   },
   "greenhouse-speechify-5975327004": {
     "is_engineering": true,
@@ -31052,7 +31427,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "0b3cdc85"
+    "source_hash": "0b3cdc85",
+    "region": "us"
   },
   "greenhouse-speechify-5975226004": {
     "is_engineering": true,
@@ -31072,7 +31448,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5d544d6a"
+    "source_hash": "5d544d6a",
+    "region": "international"
   },
   "greenhouse-speechify-5975369004": {
     "is_engineering": true,
@@ -31092,7 +31469,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ce7b4138"
+    "source_hash": "ce7b4138",
+    "region": "international"
   },
   "greenhouse-speechify-5975387004": {
     "is_engineering": true,
@@ -31115,7 +31493,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5fb548b7"
+    "source_hash": "5fb548b7",
+    "region": "us"
   },
   "greenhouse-speechify-5975262004": {
     "is_engineering": true,
@@ -31135,7 +31514,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b2669332"
+    "source_hash": "b2669332",
+    "region": "international"
   },
   "greenhouse-speechify-5975393004": {
     "is_engineering": true,
@@ -31155,7 +31535,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "38ab5205"
+    "source_hash": "38ab5205",
+    "region": "international"
   },
   "greenhouse-speechify-5975292004": {
     "is_engineering": true,
@@ -31175,7 +31556,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4052b0e9"
+    "source_hash": "4052b0e9",
+    "region": "international"
   },
   "greenhouse-speechify-5976283004": {
     "is_engineering": true,
@@ -31195,7 +31577,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c0338c89"
+    "source_hash": "c0338c89",
+    "region": "international"
   },
   "greenhouse-speechify-5975357004": {
     "is_engineering": true,
@@ -31215,7 +31598,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "81029014"
+    "source_hash": "81029014",
+    "region": "international"
   },
   "greenhouse-speechify-5975207004": {
     "is_engineering": true,
@@ -31238,7 +31622,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "442d9200"
+    "source_hash": "442d9200",
+    "region": "us"
   },
   "greenhouse-speechify-5975274004": {
     "is_engineering": true,
@@ -31258,7 +31643,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "407b262f"
+    "source_hash": "407b262f",
+    "region": "international"
   },
   "greenhouse-speechify-5975213004": {
     "is_engineering": true,
@@ -31278,7 +31664,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2c712600"
+    "source_hash": "2c712600",
+    "region": "international"
   },
   "greenhouse-speechify-5975195004": {
     "is_engineering": true,
@@ -31301,7 +31688,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f5c6956f"
+    "source_hash": "f5c6956f",
+    "region": "us"
   },
   "greenhouse-speechify-5975165004": {
     "is_engineering": true,
@@ -31324,7 +31712,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "bc9c321d"
+    "source_hash": "bc9c321d",
+    "region": "us"
   },
   "greenhouse-speechify-5975419004": {
     "is_engineering": true,
@@ -31344,7 +31733,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0cf1ea4b"
+    "source_hash": "0cf1ea4b",
+    "region": "international"
   },
   "greenhouse-speechify-5975139004": {
     "is_engineering": true,
@@ -31364,7 +31754,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e41e2b9f"
+    "source_hash": "e41e2b9f",
+    "region": "international"
   },
   "greenhouse-speechify-5975238004": {
     "is_engineering": true,
@@ -31387,7 +31778,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "028d58c5"
+    "source_hash": "028d58c5",
+    "region": "us"
   },
   "greenhouse-speechify-5975145004": {
     "is_engineering": true,
@@ -31410,7 +31802,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "55b7c1ce"
+    "source_hash": "55b7c1ce",
+    "region": "us"
   },
   "greenhouse-speechify-5975399004": {
     "is_engineering": true,
@@ -31430,7 +31823,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ec5bfc93"
+    "source_hash": "ec5bfc93",
+    "region": "international"
   },
   "greenhouse-speechify-5975413004": {
     "is_engineering": true,
@@ -31450,7 +31844,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a3af7f5d"
+    "source_hash": "a3af7f5d",
+    "region": "international"
   },
   "greenhouse-speechify-5975315004": {
     "is_engineering": true,
@@ -31473,7 +31868,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5894000f"
+    "source_hash": "5894000f",
+    "region": "us"
   },
   "greenhouse-speechify-5975183004": {
     "is_engineering": true,
@@ -31496,7 +31892,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "42d4a6f3"
+    "source_hash": "42d4a6f3",
+    "region": "us"
   },
   "greenhouse-speechify-5975425004": {
     "is_engineering": true,
@@ -31516,7 +31913,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "38fb568f"
+    "source_hash": "38fb568f",
+    "region": "international"
   },
   "greenhouse-speechify-5975171004": {
     "is_engineering": true,
@@ -31539,7 +31937,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "759c8eb8"
+    "source_hash": "759c8eb8",
+    "region": "us"
   },
   "greenhouse-speechify-5975120004": {
     "is_engineering": true,
@@ -31562,7 +31961,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5070fd8f"
+    "source_hash": "5070fd8f",
+    "region": "us"
   },
   "greenhouse-speechify-5975159004": {
     "is_engineering": true,
@@ -31585,7 +31985,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8ef5e9a3"
+    "source_hash": "8ef5e9a3",
+    "region": "us"
   },
   "greenhouse-speechify-5975177004": {
     "is_engineering": true,
@@ -31608,7 +32009,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "79fdf6df"
+    "source_hash": "79fdf6df",
+    "region": "us"
   },
   "greenhouse-speechify-5975437004": {
     "is_engineering": true,
@@ -31628,7 +32030,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0ee800a5"
+    "source_hash": "0ee800a5",
+    "region": "international"
   },
   "greenhouse-speechify-5976295004": {
     "is_engineering": true,
@@ -31651,7 +32054,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4d01cd0f"
+    "source_hash": "4d01cd0f",
+    "region": "us"
   },
   "greenhouse-speechify-5975149004": {
     "is_engineering": true,
@@ -31671,7 +32075,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "71b4509d"
+    "source_hash": "71b4509d",
+    "region": "international"
   },
   "greenhouse-speechify-5975345004": {
     "is_engineering": true,
@@ -31694,7 +32099,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4eb9ebc6"
+    "source_hash": "4eb9ebc6",
+    "region": "us"
   },
   "greenhouse-speechify-5975375004": {
     "is_engineering": true,
@@ -31714,7 +32120,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3c1c8ce3"
+    "source_hash": "3c1c8ce3",
+    "region": "international"
   },
   "greenhouse-speechify-5975305004": {
     "is_engineering": true,
@@ -31737,7 +32144,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "21780226"
+    "source_hash": "21780226",
+    "region": "us"
   },
   "greenhouse-speechify-5976277004": {
     "is_engineering": true,
@@ -31757,7 +32165,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "21ef4483"
+    "source_hash": "21ef4483",
+    "region": "international"
   },
   "greenhouse-speechify-5976271004": {
     "is_engineering": true,
@@ -31777,7 +32186,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "12f4b3ae"
+    "source_hash": "12f4b3ae",
+    "region": "canada"
   },
   "greenhouse-speechify-5975333004": {
     "is_engineering": true,
@@ -31800,7 +32210,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "65a119e5"
+    "source_hash": "65a119e5",
+    "region": "us"
   },
   "greenhouse-speechify-5975351004": {
     "is_engineering": true,
@@ -31823,7 +32234,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "9bae4727"
+    "source_hash": "9bae4727",
+    "region": "us"
   },
   "greenhouse-speechify-5975282004": {
     "is_engineering": true,
@@ -31843,7 +32255,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6d54e69a"
+    "source_hash": "6d54e69a",
+    "region": "unclear"
   },
   "greenhouse-speechify-5975363004": {
     "is_engineering": true,
@@ -31866,7 +32279,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "22fec21d"
+    "source_hash": "22fec21d",
+    "region": "us"
   },
   "greenhouse-speechify-5974418004": {
     "is_engineering": true,
@@ -31886,7 +32300,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ff818b9a"
+    "source_hash": "ff818b9a",
+    "region": "international"
   },
   "greenhouse-speechify-5974405004": {
     "is_engineering": true,
@@ -31906,7 +32321,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b781cd51"
+    "source_hash": "b781cd51",
+    "region": "international"
   },
   "greenhouse-speechify-5974210004": {
     "is_engineering": true,
@@ -31929,7 +32345,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a7d3afe8"
+    "source_hash": "a7d3afe8",
+    "region": "us"
   },
   "greenhouse-speechify-5974227004": {
     "is_engineering": true,
@@ -31952,7 +32369,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8e3dc119"
+    "source_hash": "8e3dc119",
+    "region": "us"
   },
   "greenhouse-speechify-5976205004": {
     "is_engineering": true,
@@ -31975,7 +32393,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "3dc48c74"
+    "source_hash": "3dc48c74",
+    "region": "us"
   },
   "greenhouse-speechify-5974291004": {
     "is_engineering": true,
@@ -31995,7 +32414,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "bc88e70f"
+    "source_hash": "bc88e70f",
+    "region": "international"
   },
   "greenhouse-speechify-5974412004": {
     "is_engineering": true,
@@ -32015,7 +32435,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "49a54906"
+    "source_hash": "49a54906",
+    "region": "international"
   },
   "greenhouse-speechify-5974203004": {
     "is_engineering": true,
@@ -32038,7 +32459,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "9e22e4b4"
+    "source_hash": "9e22e4b4",
+    "region": "us"
   },
   "greenhouse-speechify-5974429004": {
     "is_engineering": true,
@@ -32058,7 +32480,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "30c89c40"
+    "source_hash": "30c89c40",
+    "region": "international"
   },
   "greenhouse-speechify-5974150004": {
     "is_engineering": true,
@@ -32081,7 +32504,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "0fb9675a"
+    "source_hash": "0fb9675a",
+    "region": "us"
   },
   "greenhouse-speechify-5974256004": {
     "is_engineering": true,
@@ -32101,7 +32525,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "252946fd"
+    "source_hash": "252946fd",
+    "region": "international"
   },
   "greenhouse-speechify-5974240004": {
     "is_engineering": true,
@@ -32124,7 +32549,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ba4aaa04"
+    "source_hash": "ba4aaa04",
+    "region": "us"
   },
   "greenhouse-speechify-5974426004": {
     "is_engineering": true,
@@ -32144,7 +32570,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "56b28a7c"
+    "source_hash": "56b28a7c",
+    "region": "international"
   },
   "greenhouse-speechify-5974250004": {
     "is_engineering": true,
@@ -32167,7 +32594,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "c31d400d"
+    "source_hash": "c31d400d",
+    "region": "us"
   },
   "greenhouse-speechify-5974281004": {
     "is_engineering": true,
@@ -32187,7 +32615,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "35b25998"
+    "source_hash": "35b25998",
+    "region": "international"
   },
   "greenhouse-speechify-5974167004": {
     "is_engineering": true,
@@ -32210,7 +32639,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1821e0a5"
+    "source_hash": "1821e0a5",
+    "region": "us"
   },
   "greenhouse-speechify-5974378004": {
     "is_engineering": true,
@@ -32230,7 +32660,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "06d2790d"
+    "source_hash": "06d2790d",
+    "region": "international"
   },
   "greenhouse-speechify-5974186004": {
     "is_engineering": true,
@@ -32253,7 +32684,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1c7aa90f"
+    "source_hash": "1c7aa90f",
+    "region": "us"
   },
   "greenhouse-speechify-5974191004": {
     "is_engineering": true,
@@ -32276,7 +32708,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "80b9d901"
+    "source_hash": "80b9d901",
+    "region": "us"
   },
   "greenhouse-speechify-5974262004": {
     "is_engineering": true,
@@ -32296,7 +32729,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "298b4cc6"
+    "source_hash": "298b4cc6",
+    "region": "international"
   },
   "greenhouse-speechify-5976193004": {
     "is_engineering": true,
@@ -32316,7 +32750,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c60fbbbe"
+    "source_hash": "c60fbbbe",
+    "region": "international"
   },
   "greenhouse-speechify-5974376004": {
     "is_engineering": true,
@@ -32336,7 +32771,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1159145c"
+    "source_hash": "1159145c",
+    "region": "international"
   },
   "greenhouse-speechify-5974396004": {
     "is_engineering": true,
@@ -32356,7 +32792,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9886f516"
+    "source_hash": "9886f516",
+    "region": "international"
   },
   "greenhouse-speechify-5974223004": {
     "is_engineering": true,
@@ -32379,7 +32816,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a5211917"
+    "source_hash": "a5211917",
+    "region": "us"
   },
   "greenhouse-speechify-5974161004": {
     "is_engineering": true,
@@ -32402,7 +32840,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8b762f57"
+    "source_hash": "8b762f57",
+    "region": "us"
   },
   "greenhouse-speechify-5974350004": {
     "is_engineering": true,
@@ -32422,7 +32861,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "256dfe00"
+    "source_hash": "256dfe00",
+    "region": "international"
   },
   "greenhouse-speechify-5974437004": {
     "is_engineering": true,
@@ -32442,7 +32882,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b34f0fc2"
+    "source_hash": "b34f0fc2",
+    "region": "international"
   },
   "greenhouse-speechify-5974289004": {
     "is_engineering": true,
@@ -32462,7 +32903,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cae651a0"
+    "source_hash": "cae651a0",
+    "region": "international"
   },
   "greenhouse-speechify-5974297004": {
     "is_engineering": true,
@@ -32482,7 +32924,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0a215781"
+    "source_hash": "0a215781",
+    "region": "international"
   },
   "greenhouse-speechify-5974323004": {
     "is_engineering": true,
@@ -32500,7 +32943,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "20a53d73"
+    "source_hash": "20a53d73",
+    "region": "international"
   },
   "greenhouse-speechify-5974125004": {
     "is_engineering": true,
@@ -32523,7 +32967,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b60eda9d"
+    "source_hash": "b60eda9d",
+    "region": "us"
   },
   "greenhouse-speechify-5974335004": {
     "is_engineering": true,
@@ -32543,7 +32988,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "35511fbd"
+    "source_hash": "35511fbd",
+    "region": "international"
   },
   "greenhouse-speechify-5974183004": {
     "is_engineering": true,
@@ -32566,7 +33012,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "70e946e5"
+    "source_hash": "70e946e5",
+    "region": "us"
   },
   "greenhouse-speechify-5974177004": {
     "is_engineering": true,
@@ -32589,7 +33036,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "250ae2e6"
+    "source_hash": "250ae2e6",
+    "region": "us"
   },
   "greenhouse-speechify-5974369004": {
     "is_engineering": true,
@@ -32609,7 +33057,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1d93eedc"
+    "source_hash": "1d93eedc",
+    "region": "international"
   },
   "greenhouse-speechify-5974389004": {
     "is_engineering": true,
@@ -32629,7 +33078,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a1468904"
+    "source_hash": "a1468904",
+    "region": "international"
   },
   "greenhouse-speechify-5974310004": {
     "is_engineering": true,
@@ -32649,7 +33099,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "381cfa48"
+    "source_hash": "381cfa48",
+    "region": "international"
   },
   "greenhouse-speechify-5974331004": {
     "is_engineering": true,
@@ -32669,7 +33120,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "243c289c"
+    "source_hash": "243c289c",
+    "region": "international"
   },
   "greenhouse-speechify-5974273004": {
     "is_engineering": true,
@@ -32692,7 +33144,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "c8c08b0e"
+    "source_hash": "c8c08b0e",
+    "region": "us"
   },
   "greenhouse-speechify-5974139004": {
     "is_engineering": true,
@@ -32715,7 +33168,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "702fad01"
+    "source_hash": "702fad01",
+    "region": "us"
   },
   "greenhouse-speechify-5974153004": {
     "is_engineering": true,
@@ -32738,7 +33192,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8dd2335e"
+    "source_hash": "8dd2335e",
+    "region": "us"
   },
   "greenhouse-speechify-5974303004": {
     "is_engineering": true,
@@ -32758,7 +33213,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "695ab620"
+    "source_hash": "695ab620",
+    "region": "international"
   },
   "greenhouse-speechify-5974142004": {
     "is_engineering": true,
@@ -32781,7 +33237,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "bf20a9f7"
+    "source_hash": "bf20a9f7",
+    "region": "us"
   },
   "greenhouse-speechify-5974132004": {
     "is_engineering": true,
@@ -32804,7 +33261,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5794fd77"
+    "source_hash": "5794fd77",
+    "region": "us"
   },
   "greenhouse-speechify-5974399004": {
     "is_engineering": true,
@@ -32824,7 +33282,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "603ab7c0"
+    "source_hash": "603ab7c0",
+    "region": "international"
   },
   "greenhouse-speechify-5974119004": {
     "is_engineering": true,
@@ -32847,7 +33306,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6c990c32"
+    "source_hash": "6c990c32",
+    "region": "us"
   },
   "greenhouse-speechify-5974231004": {
     "is_engineering": true,
@@ -32870,7 +33330,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a81ea57a"
+    "source_hash": "a81ea57a",
+    "region": "us"
   },
   "greenhouse-speechify-5974364004": {
     "is_engineering": true,
@@ -32890,7 +33351,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "13b02cf8"
+    "source_hash": "13b02cf8",
+    "region": "unclear"
   },
   "greenhouse-speechify-5974360004": {
     "is_engineering": true,
@@ -32910,7 +33372,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "bd93a33f"
+    "source_hash": "bd93a33f",
+    "region": "international"
   },
   "greenhouse-speechify-5974200004": {
     "is_engineering": true,
@@ -32933,7 +33396,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "3985a1b7"
+    "source_hash": "3985a1b7",
+    "region": "us"
   },
   "greenhouse-speechify-5974317004": {
     "is_engineering": true,
@@ -32953,7 +33417,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b801afc6"
+    "source_hash": "b801afc6",
+    "region": "international"
   },
   "greenhouse-speechify-5976181004": {
     "is_engineering": true,
@@ -32973,7 +33438,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "789f29d7"
+    "source_hash": "789f29d7",
+    "region": "international"
   },
   "greenhouse-speechify-5974241004": {
     "is_engineering": true,
@@ -32996,7 +33462,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a92f48c1"
+    "source_hash": "a92f48c1",
+    "region": "us"
   },
   "greenhouse-speechify-5976187004": {
     "is_engineering": true,
@@ -33016,7 +33483,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fe7f3c87"
+    "source_hash": "fe7f3c87",
+    "region": "international"
   },
   "greenhouse-speechify-5974342004": {
     "is_engineering": true,
@@ -33036,7 +33504,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2dc335a2"
+    "source_hash": "2dc335a2",
+    "region": "international"
   },
   "greenhouse-speechify-5974218004": {
     "is_engineering": true,
@@ -33059,7 +33528,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f11b84e9"
+    "source_hash": "f11b84e9",
+    "region": "us"
   },
   "greenhouse-speechify-5975554004": {
     "is_engineering": true,
@@ -33081,7 +33551,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "87f2f312"
+    "source_hash": "87f2f312",
+    "region": "us"
   },
   "greenhouse-speechify-5976199004": {
     "is_engineering": true,
@@ -33104,7 +33575,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "26b39bcd"
+    "source_hash": "26b39bcd",
+    "region": "us"
   },
   "greenhouse-speechify-5975710004": {
     "is_engineering": true,
@@ -33123,7 +33595,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9ce2d8a1"
+    "source_hash": "9ce2d8a1",
+    "region": "international"
   },
   "greenhouse-speechify-5975646004": {
     "is_engineering": true,
@@ -33146,7 +33619,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "65059ace"
+    "source_hash": "65059ace",
+    "region": "us"
   },
   "greenhouse-speechify-5975613004": {
     "is_engineering": true,
@@ -33169,7 +33643,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6730a2a9"
+    "source_hash": "6730a2a9",
+    "region": "us"
   },
   "greenhouse-speechify-5975579004": {
     "is_engineering": true,
@@ -33188,7 +33663,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "657d977c"
+    "source_hash": "657d977c",
+    "region": "international"
   },
   "greenhouse-speechify-5975512004": {
     "is_engineering": true,
@@ -33210,7 +33686,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "eabe44eb"
+    "source_hash": "eabe44eb",
+    "region": "us"
   },
   "greenhouse-speechify-5975772004": {
     "is_engineering": true,
@@ -33230,7 +33707,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c6dc81f9"
+    "source_hash": "c6dc81f9",
+    "region": "international"
   },
   "greenhouse-speechify-5975642004": {
     "is_engineering": true,
@@ -33249,7 +33727,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "597b3484"
+    "source_hash": "597b3484",
+    "region": "international"
   },
   "greenhouse-speechify-5975524004": {
     "is_engineering": true,
@@ -33271,7 +33750,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "cac1c536"
+    "source_hash": "cac1c536",
+    "region": "us"
   },
   "greenhouse-speechify-5975518004": {
     "is_engineering": true,
@@ -33293,7 +33773,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "3b11fdc3"
+    "source_hash": "3b11fdc3",
+    "region": "us"
   },
   "greenhouse-speechify-5975455004": {
     "is_engineering": true,
@@ -33315,7 +33796,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ffd2da3e"
+    "source_hash": "ffd2da3e",
+    "region": "us"
   },
   "greenhouse-speechify-5975737004": {
     "is_engineering": true,
@@ -33335,7 +33817,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "227cbc04"
+    "source_hash": "227cbc04",
+    "region": "international"
   },
   "greenhouse-speechify-5975760004": {
     "is_engineering": true,
@@ -33355,7 +33838,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d5c22d57"
+    "source_hash": "d5c22d57",
+    "region": "international"
   },
   "greenhouse-speechify-5976319004": {
     "is_engineering": true,
@@ -33378,7 +33862,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "cc836b74"
+    "source_hash": "cc836b74",
+    "region": "us"
   },
   "greenhouse-speechify-5975536004": {
     "is_engineering": true,
@@ -33401,7 +33886,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "96222eb0"
+    "source_hash": "96222eb0",
+    "region": "us"
   },
   "greenhouse-speechify-5975561004": {
     "is_engineering": true,
@@ -33421,7 +33907,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4594cde6"
+    "source_hash": "4594cde6",
+    "region": "international"
   },
   "greenhouse-speechify-5975734004": {
     "is_engineering": true,
@@ -33441,7 +33928,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "285b960b"
+    "source_hash": "285b960b",
+    "region": "international"
   },
   "greenhouse-speechify-5975606004": {
     "is_engineering": true,
@@ -33460,7 +33948,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0e3cca42"
+    "source_hash": "0e3cca42",
+    "region": "international"
   },
   "greenhouse-speechify-5975542004": {
     "is_engineering": true,
@@ -33482,7 +33971,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f3b67201"
+    "source_hash": "f3b67201",
+    "region": "us"
   },
   "greenhouse-speechify-5975754004": {
     "is_engineering": true,
@@ -33502,7 +33992,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1be925b7"
+    "source_hash": "1be925b7",
+    "region": "international"
   },
   "greenhouse-speechify-5975692004": {
     "is_engineering": true,
@@ -33525,7 +34016,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "35f501ec"
+    "source_hash": "35f501ec",
+    "region": "us"
   },
   "greenhouse-speechify-5975728004": {
     "is_engineering": true,
@@ -33545,7 +34037,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9fca556f"
+    "source_hash": "9fca556f",
+    "region": "international"
   },
   "greenhouse-speechify-5975686004": {
     "is_engineering": true,
@@ -33567,7 +34060,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6137091e"
+    "source_hash": "6137091e",
+    "region": "us"
   },
   "greenhouse-speechify-5975494004": {
     "is_engineering": true,
@@ -33590,7 +34084,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5cbd2a6e"
+    "source_hash": "5cbd2a6e",
+    "region": "us"
   },
   "greenhouse-speechify-5975628004": {
     "is_engineering": true,
@@ -33610,7 +34105,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3249bf64"
+    "source_hash": "3249bf64",
+    "region": "international"
   },
   "greenhouse-speechify-5975766004": {
     "is_engineering": true,
@@ -33629,7 +34125,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "036cdfa7"
+    "source_hash": "036cdfa7",
+    "region": "international"
   },
   "greenhouse-speechify-5975500004": {
     "is_engineering": true,
@@ -33651,7 +34148,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ec5560df"
+    "source_hash": "ec5560df",
+    "region": "us"
   },
   "greenhouse-speechify-5976313004": {
     "is_engineering": true,
@@ -33671,7 +34169,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "bd5b3da5"
+    "source_hash": "bd5b3da5",
+    "region": "international"
   },
   "greenhouse-speechify-5975674004": {
     "is_engineering": true,
@@ -33694,7 +34193,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "ccfb218c"
+    "source_hash": "ccfb218c",
+    "region": "us"
   },
   "greenhouse-speechify-5975548004": {
     "is_engineering": true,
@@ -33714,7 +34214,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "af180733"
+    "source_hash": "af180733",
+    "region": "international"
   },
   "greenhouse-speechify-5975467004": {
     "is_engineering": true,
@@ -33733,7 +34234,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f29ca1e2"
+    "source_hash": "f29ca1e2",
+    "region": "international"
   },
   "greenhouse-speechify-5975742004": {
     "is_engineering": true,
@@ -33753,7 +34255,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1f31c199"
+    "source_hash": "1f31c199",
+    "region": "international"
   },
   "greenhouse-speechify-5975591004": {
     "is_engineering": true,
@@ -33772,7 +34275,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "13d9563b"
+    "source_hash": "13d9563b",
+    "region": "unclear"
   },
   "greenhouse-speechify-5975475004": {
     "is_engineering": true,
@@ -33795,7 +34299,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4bd0f877"
+    "source_hash": "4bd0f877",
+    "region": "us"
   },
   "greenhouse-speechify-5975573004": {
     "is_engineering": true,
@@ -33814,7 +34319,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "464962ab"
+    "source_hash": "464962ab",
+    "region": "international"
   },
   "greenhouse-speechify-5975716004": {
     "is_engineering": true,
@@ -33833,7 +34339,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "acf3f06b"
+    "source_hash": "acf3f06b",
+    "region": "international"
   },
   "greenhouse-speechify-5975449004": {
     "is_engineering": true,
@@ -33856,7 +34363,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "9900c60c"
+    "source_hash": "9900c60c",
+    "region": "us"
   },
   "greenhouse-speechify-5975486004": {
     "is_engineering": true,
@@ -33878,7 +34386,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "56c04836"
+    "source_hash": "56c04836",
+    "region": "us"
   },
   "greenhouse-speechify-5976325004": {
     "is_engineering": true,
@@ -33901,7 +34410,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "22656d0c"
+    "source_hash": "22656d0c",
+    "region": "us"
   },
   "greenhouse-speechify-5975616004": {
     "is_engineering": true,
@@ -33921,7 +34431,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "be9e3fc0"
+    "source_hash": "be9e3fc0",
+    "region": "international"
   },
   "greenhouse-speechify-5975479004": {
     "is_engineering": true,
@@ -33941,7 +34452,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "bc6e5d3d"
+    "source_hash": "bc6e5d3d",
+    "region": "international"
   },
   "greenhouse-speechify-5975704004": {
     "is_engineering": true,
@@ -33960,7 +34472,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "729f7ac4"
+    "source_hash": "729f7ac4",
+    "region": "international"
   },
   "greenhouse-speechify-5975655004": {
     "is_engineering": true,
@@ -33982,7 +34495,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a6ab1ae9"
+    "source_hash": "a6ab1ae9",
+    "region": "us"
   },
   "greenhouse-speechify-5975748004": {
     "is_engineering": true,
@@ -34002,7 +34516,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "249d6d6b"
+    "source_hash": "249d6d6b",
+    "region": "international"
   },
   "greenhouse-speechify-5975597004": {
     "is_engineering": true,
@@ -34022,7 +34537,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ee21dada"
+    "source_hash": "ee21dada",
+    "region": "international"
   },
   "greenhouse-speechify-5975567004": {
     "is_engineering": true,
@@ -34041,7 +34557,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9e355754"
+    "source_hash": "9e355754",
+    "region": "international"
   },
   "greenhouse-speechify-5975506004": {
     "is_engineering": true,
@@ -34064,7 +34581,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1a4d5796"
+    "source_hash": "1a4d5796",
+    "region": "us"
   },
   "greenhouse-speechify-5976307004": {
     "is_engineering": true,
@@ -34084,7 +34602,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "63af711f"
+    "source_hash": "63af711f",
+    "region": "international"
   },
   "greenhouse-speechify-5976301004": {
     "is_engineering": true,
@@ -34103,7 +34622,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "48c74dcc"
+    "source_hash": "48c74dcc",
+    "region": "canada"
   },
   "greenhouse-speechify-5975625004": {
     "is_engineering": true,
@@ -34125,7 +34645,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1ddb8c62"
+    "source_hash": "1ddb8c62",
+    "region": "us"
   },
   "greenhouse-speechify-5975668004": {
     "is_engineering": true,
@@ -34148,7 +34669,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "65914365"
+    "source_hash": "65914365",
+    "region": "us"
   },
   "greenhouse-speechify-5975585004": {
     "is_engineering": true,
@@ -34168,7 +34690,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "657137c4"
+    "source_hash": "657137c4",
+    "region": "international"
   },
   "greenhouse-speechify-5975461004": {
     "is_engineering": true,
@@ -34191,7 +34714,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "e93f235d"
+    "source_hash": "e93f235d",
+    "region": "us"
   },
   "greenhouse-speechify-5975662004": {
     "is_engineering": true,
@@ -34213,7 +34737,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5f05792e"
+    "source_hash": "5f05792e",
+    "region": "us"
   },
   "greenhouse-speechify-5975722004": {
     "is_engineering": true,
@@ -34232,7 +34757,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4509570a"
+    "source_hash": "4509570a",
+    "region": "international"
   },
   "greenhouse-speechify-5976051004": {
     "is_engineering": true,
@@ -34249,7 +34775,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d29e1dea"
+    "source_hash": "d29e1dea",
+    "region": "international"
   },
   "greenhouse-speechify-5975883004": {
     "is_engineering": true,
@@ -34269,7 +34796,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a9657b5a"
+    "source_hash": "a9657b5a",
+    "region": "us"
   },
   "greenhouse-speechify-5975977004": {
     "is_engineering": true,
@@ -34289,7 +34817,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a7019b41"
+    "source_hash": "a7019b41",
+    "region": "us"
   },
   "greenhouse-speechify-5975942004": {
     "is_engineering": true,
@@ -34309,7 +34838,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6599fc80"
+    "source_hash": "6599fc80",
+    "region": "us"
   },
   "greenhouse-speechify-5975968004": {
     "is_engineering": true,
@@ -34326,7 +34856,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c49a2811"
+    "source_hash": "c49a2811",
+    "region": "unclear"
   },
   "greenhouse-speechify-5976045004": {
     "is_engineering": true,
@@ -34343,7 +34874,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a72a700c"
+    "source_hash": "a72a700c",
+    "region": "international"
   },
   "greenhouse-speechify-5975991004": {
     "is_engineering": true,
@@ -34363,7 +34895,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "cf3b503c"
+    "source_hash": "cf3b503c",
+    "region": "us"
   },
   "greenhouse-speechify-5976003004": {
     "is_engineering": true,
@@ -34383,7 +34916,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "13232ef3"
+    "source_hash": "13232ef3",
+    "region": "us"
   },
   "greenhouse-speechify-5976101004": {
     "is_engineering": true,
@@ -34401,7 +34935,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "14581b5e"
+    "source_hash": "14581b5e",
+    "region": "international"
   },
   "greenhouse-speechify-5975680004": {
     "is_engineering": true,
@@ -34423,7 +34958,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "fd8a935f"
+    "source_hash": "fd8a935f",
+    "region": "us"
   },
   "greenhouse-speechify-5976083004": {
     "is_engineering": true,
@@ -34440,7 +34976,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "15d7def3"
+    "source_hash": "15d7def3",
+    "region": "international"
   },
   "greenhouse-speechify-5975829004": {
     "is_engineering": true,
@@ -34460,7 +34997,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "8e332e55"
+    "source_hash": "8e332e55",
+    "region": "us"
   },
   "greenhouse-speechify-5975847004": {
     "is_engineering": true,
@@ -34481,7 +35019,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "10b8f191"
+    "source_hash": "10b8f191",
+    "region": "us"
   },
   "greenhouse-speechify-5976229004": {
     "is_engineering": true,
@@ -34501,7 +35040,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a1c00533"
+    "source_hash": "a1c00533",
+    "region": "us"
   },
   "greenhouse-speechify-5976095004": {
     "is_engineering": true,
@@ -34518,7 +35058,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c5e8ec50"
+    "source_hash": "c5e8ec50",
+    "region": "international"
   },
   "greenhouse-speechify-5975853004": {
     "is_engineering": true,
@@ -34538,7 +35079,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "bf99f9ff"
+    "source_hash": "bf99f9ff",
+    "region": "us"
   },
   "greenhouse-speechify-5976015004": {
     "is_engineering": true,
@@ -34558,7 +35100,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "3097805b"
+    "source_hash": "3097805b",
+    "region": "us"
   },
   "greenhouse-speechify-5975890004": {
     "is_engineering": true,
@@ -34575,7 +35118,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "656ce624"
+    "source_hash": "656ce624",
+    "region": "international"
   },
   "greenhouse-speechify-5975902004": {
     "is_engineering": true,
@@ -34592,7 +35136,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "987c2601"
+    "source_hash": "987c2601",
+    "region": "international"
   },
   "greenhouse-speechify-5975935004": {
     "is_engineering": true,
@@ -34609,7 +35154,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "dce89397"
+    "source_hash": "dce89397",
+    "region": "international"
   },
   "greenhouse-speechify-5976074004": {
     "is_engineering": true,
@@ -34626,7 +35172,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "47c4f7fc"
+    "source_hash": "47c4f7fc",
+    "region": "international"
   },
   "greenhouse-speechify-5975985004": {
     "is_engineering": true,
@@ -34646,7 +35193,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "831363c4"
+    "source_hash": "831363c4",
+    "region": "us"
   },
   "greenhouse-speechify-5976089004": {
     "is_engineering": true,
@@ -34663,7 +35211,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3d635a39"
+    "source_hash": "3d635a39",
+    "region": "international"
   },
   "greenhouse-speechify-5975784004": {
     "is_engineering": true,
@@ -34684,7 +35233,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "4e6442cd"
+    "source_hash": "4e6442cd",
+    "region": "us"
   },
   "greenhouse-speechify-5975957004": {
     "is_engineering": true,
@@ -34702,7 +35252,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "91637692"
+    "source_hash": "91637692",
+    "region": "international"
   },
   "greenhouse-speechify-5975997004": {
     "is_engineering": true,
@@ -34719,7 +35270,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b49dd94b"
+    "source_hash": "b49dd94b",
+    "region": "international"
   },
   "greenhouse-speechify-5975835004": {
     "is_engineering": true,
@@ -34740,7 +35292,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b8909b8b"
+    "source_hash": "b8909b8b",
+    "region": "us"
   },
   "greenhouse-speechify-5976021004": {
     "is_engineering": true,
@@ -34757,7 +35310,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5f6202c8"
+    "source_hash": "5f6202c8",
+    "region": "international"
   },
   "greenhouse-speechify-5975967004": {
     "is_engineering": true,
@@ -34777,7 +35331,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f275e5bb"
+    "source_hash": "f275e5bb",
+    "region": "us"
   },
   "greenhouse-speechify-5975859004": {
     "is_engineering": true,
@@ -34797,7 +35352,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "31f21c0a"
+    "source_hash": "31f21c0a",
+    "region": "us"
   },
   "greenhouse-speechify-5975865004": {
     "is_engineering": true,
@@ -34817,7 +35373,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1885b9c1"
+    "source_hash": "1885b9c1",
+    "region": "us"
   },
   "greenhouse-speechify-5975797004": {
     "is_engineering": true,
@@ -34834,7 +35391,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a5875d08"
+    "source_hash": "a5875d08",
+    "region": "international"
   },
   "greenhouse-speechify-5975920004": {
     "is_engineering": true,
@@ -34851,7 +35409,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "11be90cd"
+    "source_hash": "11be90cd",
+    "region": "international"
   },
   "greenhouse-speechify-5976223004": {
     "is_engineering": true,
@@ -34868,7 +35427,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "374dd46a"
+    "source_hash": "374dd46a",
+    "region": "international"
   },
   "greenhouse-speechify-5976069004": {
     "is_engineering": true,
@@ -34885,7 +35445,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ad7cd092"
+    "source_hash": "ad7cd092",
+    "region": "international"
   },
   "greenhouse-speechify-5975871004": {
     "is_engineering": true,
@@ -34905,7 +35466,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "141f661a"
+    "source_hash": "141f661a",
+    "region": "us"
   },
   "greenhouse-speechify-5975802004": {
     "is_engineering": true,
@@ -34925,7 +35487,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "889686f3"
+    "source_hash": "889686f3",
+    "region": "us"
   },
   "greenhouse-speechify-5975778004": {
     "is_engineering": true,
@@ -34945,7 +35508,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6c4eb41d"
+    "source_hash": "6c4eb41d",
+    "region": "us"
   },
   "greenhouse-speechify-5976063004": {
     "is_engineering": true,
@@ -34962,7 +35526,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "36d58c4c"
+    "source_hash": "36d58c4c",
+    "region": "international"
   },
   "greenhouse-speechify-5976033004": {
     "is_engineering": true,
@@ -34979,7 +35544,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "011f456c"
+    "source_hash": "011f456c",
+    "region": "international"
   },
   "greenhouse-speechify-5976235004": {
     "is_engineering": true,
@@ -34999,7 +35565,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "f014188e"
+    "source_hash": "f014188e",
+    "region": "us"
   },
   "greenhouse-speechify-5975813004": {
     "is_engineering": true,
@@ -35019,7 +35586,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "23128cb4"
+    "source_hash": "23128cb4",
+    "region": "us"
   },
   "greenhouse-speechify-5975927004": {
     "is_engineering": true,
@@ -35036,7 +35604,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c21c7b88"
+    "source_hash": "c21c7b88",
+    "region": "international"
   },
   "greenhouse-speechify-5975908004": {
     "is_engineering": true,
@@ -35053,7 +35622,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "714abb6f"
+    "source_hash": "714abb6f",
+    "region": "international"
   },
   "greenhouse-speechify-5975841004": {
     "is_engineering": true,
@@ -35073,7 +35643,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "c10c38b8"
+    "source_hash": "c10c38b8",
+    "region": "us"
   },
   "greenhouse-speechify-5976039004": {
     "is_engineering": true,
@@ -35090,7 +35661,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3ef43ef0"
+    "source_hash": "3ef43ef0",
+    "region": "international"
   },
   "greenhouse-speechify-5975896004": {
     "is_engineering": true,
@@ -35107,7 +35679,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "701e888b"
+    "source_hash": "701e888b",
+    "region": "unclear"
   },
   "greenhouse-speechify-5975877004": {
     "is_engineering": true,
@@ -35127,7 +35700,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "44b525e1"
+    "source_hash": "44b525e1",
+    "region": "us"
   },
   "greenhouse-speechify-5976027004": {
     "is_engineering": true,
@@ -35144,7 +35718,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "51a7d66b"
+    "source_hash": "51a7d66b",
+    "region": "international"
   },
   "greenhouse-speechify-5975944004": {
     "is_engineering": true,
@@ -35161,7 +35736,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "20045bdc"
+    "source_hash": "20045bdc",
+    "region": "international"
   },
   "greenhouse-speechify-5976217004": {
     "is_engineering": true,
@@ -35179,7 +35755,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c93a729e"
+    "source_hash": "c93a729e",
+    "region": "international"
   },
   "greenhouse-speechify-5975809004": {
     "is_engineering": true,
@@ -35196,7 +35773,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "53365415"
+    "source_hash": "53365415",
+    "region": "international"
   },
   "greenhouse-speechify-5976077004": {
     "is_engineering": true,
@@ -35213,7 +35791,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7e1f3512"
+    "source_hash": "7e1f3512",
+    "region": "international"
   },
   "greenhouse-speechify-5976211004": {
     "is_engineering": true,
@@ -35230,7 +35809,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "083f0c07"
+    "source_hash": "083f0c07",
+    "region": "canada"
   },
   "greenhouse-speechify-5975954004": {
     "is_engineering": true,
@@ -35250,7 +35830,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "751318cc"
+    "source_hash": "751318cc",
+    "region": "us"
   },
   "greenhouse-speechify-5976057004": {
     "is_engineering": true,
@@ -35267,7 +35848,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f385a9e4"
+    "source_hash": "f385a9e4",
+    "region": "international"
   },
   "greenhouse-speechify-5975790004": {
     "is_engineering": true,
@@ -35287,7 +35869,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "787be1c4"
+    "source_hash": "787be1c4",
+    "region": "us"
   },
   "workable-weekday-1-21D8E0579A": {
     "is_engineering": null,
@@ -35298,7 +35881,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ae0ecefb"
+    "source_hash": "ae0ecefb",
+    "region": "international"
   },
   "workable-weekday-1-06BA73C1CA": {
     "is_engineering": null,
@@ -35309,7 +35893,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f4690007"
+    "source_hash": "f4690007",
+    "region": "international"
   },
   "workable-weekday-1-251FE82744": {
     "is_engineering": null,
@@ -35320,7 +35905,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "65b1426e"
+    "source_hash": "65b1426e",
+    "region": "international"
   },
   "workable-weekday-1-7EC9C2E777": {
     "is_engineering": null,
@@ -35331,7 +35917,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5e03d6b1"
+    "source_hash": "5e03d6b1",
+    "region": "international"
   },
   "workable-weekday-1-B0444A29F3": {
     "is_engineering": null,
@@ -35342,7 +35929,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0c703759"
+    "source_hash": "0c703759",
+    "region": "international"
   },
   "workable-weekday-1-7B1308F4D9": {
     "is_engineering": false,
@@ -35353,7 +35941,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f5e3ba5e"
+    "source_hash": "f5e3ba5e",
+    "region": "international"
   },
   "lever-perforce-cb2697cc-e400-488f-a3ce-269fb3812a94": {
     "is_engineering": false,
@@ -35364,7 +35953,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6824fd3e"
+    "source_hash": "6824fd3e",
+    "region": "international"
   },
   "ashby-avelios-medical-7fea2fd1-7baa-4d7b-ad87-c014cd6c4297": {
     "is_engineering": false,
@@ -35375,7 +35965,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c0a8ab64"
+    "source_hash": "c0a8ab64",
+    "region": "international"
   },
   "greenhouse-workato-8516213002": {
     "is_engineering": true,
@@ -35396,7 +35987,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "1ca6bd91"
+    "source_hash": "1ca6bd91",
+    "region": "us"
   },
   "workable-weekday-1-EEE147A51E": {
     "is_engineering": false,
@@ -35407,7 +35999,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4ae8162d"
+    "source_hash": "4ae8162d",
+    "region": "international"
   },
   "greenhouse-speechify-5975914004": {
     "is_engineering": true,
@@ -35424,7 +36017,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a9242347"
+    "source_hash": "a9242347",
+    "region": "international"
   },
   "ashby-openai-57cfe1d3-27b6-4761-909c-fec7829e9227": {
     "is_engineering": false,
@@ -35435,7 +36029,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "305d0a32"
+    "source_hash": "305d0a32",
+    "region": "international"
   },
   "greenhouse-wayve-8549408002": {
     "is_engineering": false,
@@ -35446,7 +36041,8 @@
     "level": null,
     "comp": "$71k-$85k",
     "comp_extras": [],
-    "source_hash": "05d75290"
+    "source_hash": "05d75290",
+    "region": "us"
   },
   "greenhouse-scopely-5215189008": {
     "is_engineering": false,
@@ -35457,7 +36053,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cfa612d5"
+    "source_hash": "cfa612d5",
+    "region": "international"
   },
   "greenhouse-scopely-5215191008": {
     "is_engineering": false,
@@ -35468,7 +36065,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "44ada4a4"
+    "source_hash": "44ada4a4",
+    "region": "international"
   },
   "ashby-supercell-40132dcf-04cd-47c9-beff-d8a93a94cc32": {
     "is_engineering": false,
@@ -35491,7 +36089,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2cc2fb0b"
+    "source_hash": "2cc2fb0b",
+    "region": "international"
   },
   "smartrecruiters-CDPROJEKTRED-744000126656239": {
     "is_engineering": true,
@@ -35522,7 +36121,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "da7a4209"
+    "source_hash": "da7a4209",
+    "region": "us"
   },
   "ashby-lovable-d15f1a6a-dbba-41d6-b8b4-90fc00de183c": {
     "is_engineering": true,
@@ -35542,7 +36142,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "aa081ba7"
+    "source_hash": "aa081ba7",
+    "region": "international"
   },
   "greenhouse-scopely-5215183008": {
     "is_engineering": false,
@@ -35553,7 +36154,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4965eb9e"
+    "source_hash": "4965eb9e",
+    "region": "international"
   },
   "greenhouse-speechify-5974602004": {
     "is_engineering": true,
@@ -35571,7 +36173,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b98dd129"
+    "source_hash": "b98dd129",
+    "region": "unclear"
   },
   "greenhouse-speechify-5974553004": {
     "is_engineering": true,
@@ -35593,7 +36196,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b45b5144"
+    "source_hash": "b45b5144",
+    "region": "us"
   },
   "greenhouse-speechify-5974486004": {
     "is_engineering": true,
@@ -35614,7 +36218,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "1d5e8566"
+    "source_hash": "1d5e8566",
+    "region": "us"
   },
   "ashby-lovable-f65495a9-8279-4aa0-8c65-dd9b60e625e6": {
     "is_engineering": false,
@@ -35625,7 +36230,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0a718b8c"
+    "source_hash": "0a718b8c",
+    "region": "international"
   },
   "greenhouse-speechify-5974970004": {
     "is_engineering": true,
@@ -35648,7 +36254,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "836a44b5"
+    "source_hash": "836a44b5",
+    "region": "us"
   },
   "greenhouse-speechify-5974939004": {
     "is_engineering": true,
@@ -35668,7 +36275,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6af996a3"
+    "source_hash": "6af996a3",
+    "region": "international"
   },
   "greenhouse-speechify-5975090004": {
     "is_engineering": true,
@@ -35688,7 +36296,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "bc2ee3f3"
+    "source_hash": "bc2ee3f3",
+    "region": "international"
   },
   "greenhouse-speechify-5976265004": {
     "is_engineering": true,
@@ -35711,7 +36320,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "b66ce5b3"
+    "source_hash": "b66ce5b3",
+    "region": "us"
   },
   "greenhouse-speechify-5975409004": {
     "is_engineering": true,
@@ -35731,7 +36341,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3c56c25f"
+    "source_hash": "3c56c25f",
+    "region": "unclear"
   },
   "greenhouse-speechify-5975405004": {
     "is_engineering": true,
@@ -35751,7 +36362,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "57fc17bb"
+    "source_hash": "57fc17bb",
+    "region": "international"
   },
   "greenhouse-speechify-5974168004": {
     "is_engineering": true,
@@ -35774,7 +36386,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "bc08c160"
+    "source_hash": "bc08c160",
+    "region": "us"
   },
   "greenhouse-speechify-5974270004": {
     "is_engineering": true,
@@ -35794,7 +36407,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "97238cd1"
+    "source_hash": "97238cd1",
+    "region": "international"
   },
   "greenhouse-speechify-5975132004": {
     "is_engineering": true,
@@ -35817,7 +36431,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "c16c445f"
+    "source_hash": "c16c445f",
+    "region": "us"
   },
   "greenhouse-speechify-5975220004": {
     "is_engineering": true,
@@ -35840,7 +36455,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6e55c421"
+    "source_hash": "6e55c421",
+    "region": "us"
   },
   "greenhouse-speechify-5975823004": {
     "is_engineering": true,
@@ -35860,7 +36476,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "2b5dc168"
+    "source_hash": "2b5dc168",
+    "region": "us"
   },
   "greenhouse-speechify-5976009004": {
     "is_engineering": true,
@@ -35880,7 +36497,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "268efaa2"
+    "source_hash": "268efaa2",
+    "region": "us"
   },
   "greenhouse-speechify-5975530004": {
     "is_engineering": true,
@@ -35902,7 +36520,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "a8ab603d"
+    "source_hash": "a8ab603d",
+    "region": "us"
   },
   "breezy-new-incentives-b8e6b722f7ed": {
     "is_engineering": false,
@@ -35913,7 +36532,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "01eb49e1"
+    "source_hash": "01eb49e1",
+    "region": "international"
   },
   "greenhouse-speechify-5975268004": {
     "is_engineering": true,
@@ -35933,7 +36553,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1f57b222"
+    "source_hash": "1f57b222",
+    "region": "international"
   },
   "lever-mytos-bbb558c0-d769-4b5f-a3a7-025642c2626d": {
     "is_engineering": true,
@@ -35948,7 +36569,8 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "97ca6d20"
+    "source_hash": "97ca6d20",
+    "region": "international"
   },
   "greenhouse-speechify-5975698004": {
     "is_engineering": true,
@@ -35967,7 +36589,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "13405231"
+    "source_hash": "13405231",
+    "region": "international"
   },
   "workable-weekday-1-79AB65397B": {
     "is_engineering": false,
@@ -35978,7 +36601,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c1fd2ba0"
+    "source_hash": "c1fd2ba0",
+    "region": "international"
   },
   "workable-weekday-1-2DADE359AF": {
     "is_engineering": false,
@@ -35989,7 +36613,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f46c6b32"
+    "source_hash": "f46c6b32",
+    "region": "international"
   },
   "workable-weekday-1-3CD2F6B139": {
     "is_engineering": null,
@@ -36000,7 +36625,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9d2a15e6"
+    "source_hash": "9d2a15e6",
+    "region": "international"
   },
   "ashby-snowflake-8850cf03-3370-47d7-ae7f-f732f4100fa0": {
     "is_engineering": false,
@@ -36011,7 +36637,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "76f6215c"
+    "source_hash": "76f6215c",
+    "region": "international"
   },
   "ashby-snowflake-af11d12f-0420-4b61-9de2-305209456a18": {
     "is_engineering": false,
@@ -36022,7 +36649,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "751d5238"
+    "source_hash": "751d5238",
+    "region": "international"
   },
   "ashby-uipath-e5fa0ba8-d7ef-421c-a9b8-91cba5e400a4": {
     "is_engineering": false,
@@ -36033,7 +36661,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5045270a"
+    "source_hash": "5045270a",
+    "region": "international"
   },
   "greenhouse-rightmovecareers-4803753101": {
     "is_engineering": true,
@@ -36058,7 +36687,8 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0de77c8d"
+    "source_hash": "0de77c8d",
+    "region": "international"
   },
   "greenhouse-mongodb-7838287": {
     "is_engineering": true,
@@ -36077,7 +36707,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "28705996"
+    "source_hash": "28705996",
+    "region": "international"
   },
   "greenhouse-appliedintuition-4694910005": {
     "is_engineering": true,
@@ -36099,7 +36730,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "c782ab84"
+    "source_hash": "c782ab84",
+    "region": "international"
   },
   "greenhouse-figma-5995989004": {
     "is_engineering": false,
@@ -36110,7 +36742,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "331ec0d2"
+    "source_hash": "331ec0d2",
+    "region": "international"
   },
   "greenhouse-figma-5995992004": {
     "is_engineering": false,
@@ -36121,7 +36754,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "95840f76"
+    "source_hash": "95840f76",
+    "region": "international"
   },
   "greenhouse-scopely-5216080008": {
     "is_engineering": false,
@@ -36132,7 +36766,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "173d0b99"
+    "source_hash": "173d0b99",
+    "region": "international"
   },
   "greenhouse-isomorphiclabs-5995272004": {
     "is_engineering": false,
@@ -36143,7 +36778,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "feb660dc"
+    "source_hash": "feb660dc",
+    "region": "international"
   },
   "greenhouse-airbnb-7602172": {
     "is_engineering": false,
@@ -36157,7 +36793,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "6e33f61f"
+    "source_hash": "6e33f61f",
+    "region": "international"
   },
   "greenhouse-zyngacareers-5996819004": {
     "is_engineering": false,
@@ -36168,7 +36805,8 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a1a2ab33"
+    "source_hash": "a1a2ab33",
+    "region": "international"
   },
   "greenhouse-jetbrains-4861892101": {
     "is_engineering": false,
@@ -36179,7 +36817,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "969051f4"
+    "source_hash": "969051f4",
+    "region": "international"
   },
   "smartrecruiters-CDPROJEKTRED-744000126662869": {
     "is_engineering": true,
@@ -36197,7 +36836,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "faee7cf7"
+    "source_hash": "faee7cf7",
+    "region": "canada"
   },
   "ashby-horizon3ai-d8abbccd-fe04-48ba-80a2-9944b7d0218f": {
     "is_engineering": false,
@@ -36210,7 +36850,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "7d719494"
+    "source_hash": "7d719494",
+    "region": "international"
   },
   "greenhouse-scopely-5191920008": {
     "is_engineering": false,
@@ -36221,7 +36862,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "86783e39"
+    "source_hash": "86783e39",
+    "region": "international"
   },
   "ashby-tavus-09972bf5-780d-4209-a758-d4ad32c012e0": {
     "is_engineering": true,
@@ -36241,7 +36883,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "93a8868d"
+    "source_hash": "93a8868d",
+    "region": "us"
   },
   "greenhouse-observeai-5210080008": {
     "is_engineering": true,
@@ -36261,7 +36904,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5e8cc033"
+    "source_hash": "5e8cc033",
+    "region": "international"
   },
   "greenhouse-mongodb-7919311": {
     "is_engineering": true,
@@ -36281,7 +36925,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3b862558"
+    "source_hash": "3b862558",
+    "region": "international"
   },
   "greenhouse-mongodb-7919314": {
     "is_engineering": true,
@@ -36301,7 +36946,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a47cee88"
+    "source_hash": "a47cee88",
+    "region": "international"
   },
   "greenhouse-speechify-5975636004": {
     "is_engineering": true,
@@ -36323,7 +36969,8 @@
       "bonus",
       "equity"
     ],
-    "source_hash": "5580b0d5"
+    "source_hash": "5580b0d5",
+    "region": "us"
   },
   "greenhouse-pinterest-7903959": {
     "is_engineering": false,
@@ -36334,7 +36981,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "07df98dd"
+    "source_hash": "07df98dd",
+    "region": "international"
   },
   "greenhouse-pinterest-7903938": {
     "is_engineering": false,
@@ -36345,7 +36993,8 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f815ec1f"
+    "source_hash": "f815ec1f",
+    "region": "unclear"
   },
   "greenhouse-okta-7929542": {
     "is_engineering": true,
@@ -36365,7 +37014,8 @@
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "dc85c2e4"
+    "source_hash": "dc85c2e4",
+    "region": "international"
   },
   "greenhouse-rightmovecareers-4754383101": {
     "is_engineering": true,
@@ -36379,7 +37029,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "7f7ce781"
+    "source_hash": "7f7ce781",
+    "region": "international"
   },
   "greenhouse-pinterest-7903920": {
     "is_engineering": false,
@@ -36390,7 +37041,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d060a42e"
+    "source_hash": "d060a42e",
+    "region": "international"
   },
   "greenhouse-rightmovecareers-4727602101": {
     "is_engineering": true,
@@ -36410,7 +37062,8 @@
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d6df9efc"
+    "source_hash": "d6df9efc",
+    "region": "international"
   },
   "greenhouse-rightmovecareers-4849944101": {
     "is_engineering": false,
@@ -36421,7 +37074,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "53d646ec"
+    "source_hash": "53d646ec",
+    "region": "international"
   },
   "greenhouse-twilio-7658027": {
     "is_engineering": true,
@@ -36441,7 +37095,8 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d1fbe843"
+    "source_hash": "d1fbe843",
+    "region": "international"
   },
   "greenhouse-grafanalabs-5996829004": {
     "is_engineering": false,
@@ -36454,7 +37109,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "8a455fe9"
+    "source_hash": "8a455fe9",
+    "region": "international"
   },
   "ashby-lago-556a4ccb-35b4-4b10-be66-e7b265fbbc4d": {
     "is_engineering": false,
@@ -36468,7 +37124,8 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "7e2d5977"
+    "source_hash": "7e2d5977",
+    "region": "international"
   },
   "greenhouse-zyngacareers-5813315004": {
     "is_engineering": true,
@@ -36488,7 +37145,8 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e7726741"
+    "source_hash": "e7726741",
+    "region": "international"
   },
   "greenhouse-tenableinc-5219549008": {
     "is_engineering": false,
@@ -36499,7 +37157,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f39c100a"
+    "source_hash": "f39c100a",
+    "region": "international"
   },
   "greenhouse-twilio-7923205": {
     "is_engineering": false,
@@ -36510,7 +37169,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "040a1bae"
+    "source_hash": "040a1bae",
+    "region": "international"
   },
   "greenhouse-wayve-8551387002": {
     "is_engineering": false,
@@ -36521,7 +37181,8 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c74fd096"
+    "source_hash": "c74fd096",
+    "region": "international"
   },
   "bamboo-earthoptics-362": {
     "is_engineering": false,
@@ -36532,7 +37193,8 @@
     "level": null,
     "comp": "$20.00/hour",
     "comp_extras": [],
-    "source_hash": "9018fa42"
+    "source_hash": "9018fa42",
+    "region": "us"
   },
   "greenhouse-grafanalabs-5996827004": {
     "is_engineering": false,
@@ -36545,7 +37207,8 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b60c556d"
+    "source_hash": "b60c556d",
+    "region": "international"
   },
   "greenhouse-cerebrassystems-7735288003": {
     "is_engineering": true,
@@ -36827,5 +37490,17 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e0a8ead2"
+  },
+  "ashby-supercell-ab40c52a-c067-47fb-a202-277a4854a8df": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ffd6ba5"
   }
 }
