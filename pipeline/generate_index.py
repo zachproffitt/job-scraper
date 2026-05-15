@@ -124,12 +124,6 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     total = sum(len(v) for v in by_date.values())
     new_today = len(by_date.get(today, []))
 
-    all_timestamps = [j["first_seen_at"] for j in jobs if j.get("first_seen_at")]
-    last_run_str = ""
-    if all_timestamps:
-        last_run_dt = datetime.fromisoformat(max(all_timestamps))
-        last_run_str = last_run_dt.strftime("%B %-d, %Y at %H:%M UTC")
-
     stats = f"**{total} open roles** ({new_today} new today)"
     if not remote_only:
         stats += f" &nbsp;·&nbsp; {company_count} companies searched"
@@ -147,8 +141,6 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         f"### {stats}",
         "",
         nav_links,
-        "",
-        f"<sub>Last updated {last_run_str}</sub>" if last_run_str else "",
         "",
     ]
 
