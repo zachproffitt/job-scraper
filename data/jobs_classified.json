@@ -27742,7 +27742,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ae074b71"
+    "source_hash": "d41bd4d7"
   },
   "greenhouse-gitlab-8548980002": {
     "is_engineering": false,
@@ -27954,5 +27954,231 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "ea1fa4f9"
+  },
+  "greenhouse-ionq-5820389004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$110,336-$144,459",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "b29b9f54"
+  },
+  "ashby-cohere-850ef24d-3206-4ad4-814d-c809ed0dea7f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "26686ad7"
+  },
+  "greenhouse-stripe-7919030": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Troubleshoot and advise technical users on Stripe payment integrations across multiple platforms and languages, helping developers optimize their implementations. You'll learn full-stack development across Stripe's supported backend languages, JavaScript/React, SQL, and LogScale while providing 24/5 developer support.",
+    "skills": [
+      "SQL",
+      "JavaScript",
+      "React",
+      "Python",
+      "Stripe API",
+      "LogScale",
+      "Full-stack development",
+      "REST APIs"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e7d2683d"
+  },
+  "ashby-openai-4b361a81-c5b8-40bf-a0f9-0b2411b50b13": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$347k-$385k",
+    "comp_extras": [],
+    "source_hash": "63c0b388"
+  },
+  "ashby-openai-6ccb669b-7c0c-4531-819b-47fb0a5c9dbd": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and scale backend systems powering AI capabilities in financial products, including integrations with Excel and enterprise platforms. Lead end-to-end development of platform features serving billions of requests while working directly with research teams on next-generation models.",
+    "skills": [
+      "Python",
+      "Go",
+      "Rust",
+      "TypeScript",
+      "Distributed Systems",
+      "Kubernetes",
+      "PostgreSQL"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "03ea54e8"
+  },
+  "ashby-openai-1f179760-8bfd-477c-a5dd-16d465d40307": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build end-to-end enterprise AI products for finance, including web and backend systems, working with research teams to integrate next-generation models. Scale products like ChatGPT for Excel from concept to millions of enterprise users with ownership over the full development lifecycle.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Python",
+      "Go",
+      "Rust",
+      "PostgreSQL",
+      "Distributed Systems",
+      "AI/ML"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8aa2c8fd"
+  },
+  "greenhouse-trueanomalyinc-5138491007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$100k-$200k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8443e017"
+  },
+  "ashby-nightfall-ai-89514192-7e14-454d-8a94-abf515fb70eb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9b47e13f"
+  },
+  "greenhouse-riotgames-7922898": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the design and implementation of core gameplay systems for an unreleased Riot Games title, making critical technical decisions in complex systems and owning key module outcomes. Integrate AI agents into development workflows to improve team efficiency while balancing engineering quality with iteration speed across a collaborative, cross-functional team.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Gameplay Framework",
+      "Blueprint",
+      "AI Agent Integration",
+      "Performance Optimization",
+      "Game Systems Architecture"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "afd28d7a"
+  },
+  "greenhouse-waymo-7926309": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$204k-$252k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "12d7524f"
+  },
+  "ashby-Deepgram-4ccf6612-92c5-49f4-9044-b4bed37c97d4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f200144b"
+  },
+  "greenhouse-momentus-5996731004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130k-$170k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "343fa1b7"
+  },
+  "greenhouse-momentus-5996730004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130k-$170k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "162254e8"
+  },
+  "ashby-Deepgram-aafbab17-4caa-4b87-811c-21acfc566cf4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "266192a3"
+  },
+  "ashby-Deepgram-623dcf1a-becc-4cab-85a3-eb7ebe37e3c0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e01be4df"
+  },
+  "ashby-airops-c35d896c-7d1a-4903-be5d-cb474a926b68": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "\u00a365k-\u00a380k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "08cb55e2"
   }
 }
