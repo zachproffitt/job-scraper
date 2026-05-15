@@ -1,5 +1,4 @@
 from datetime import date
-import re
 
 import httpx
 
@@ -7,8 +6,6 @@ from ._base import Job, ScraperError, html_to_text
 
 API_URL = "https://{tenant}.{partition}.myworkdayjobs.com/wday/cxs/{tenant}/{board}/jobs"
 JOB_URL = "https://{tenant}.{partition}.myworkdayjobs.com/{board}{path}"
-
-_POSTED_RE = re.compile(r"Posted\s+(\d+)\s+(day|week|month)s?\s+ago", re.I)
 
 
 def scrape(company: str, slug: str) -> list[Job]:

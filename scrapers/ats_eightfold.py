@@ -59,7 +59,6 @@ def scrape(company: str, slug: str) -> list[Job]:
 
         work_option = (item.get("workLocationOption") or "").lower()
         remote = work_option in ("remote", "work from home")
-        hybrid = "hybrid" in work_option
 
         posted_ts = item.get("postedTs")
         try:

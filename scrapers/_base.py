@@ -15,8 +15,8 @@ def html_to_text(raw: str) -> str:
     text = _BR_RE.sub("\n", text)
     text = _BLOCK_END_RE.sub("\n", text)
     text = _TAG_RE.sub("", text)
-    lines = [l.strip() for l in text.splitlines()]
-    return _WHITESPACE_RE.sub("\n\n", "\n".join(l for l in lines if l)).strip()
+    lines = [line.strip() for line in text.splitlines()]
+    return _WHITESPACE_RE.sub("\n\n", "\n".join(line for line in lines if line)).strip()
 
 
 @dataclass

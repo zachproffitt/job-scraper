@@ -155,8 +155,8 @@ def main():
 
         try:
             raw = call_llm(SYSTEM_PROMPT, user_message)
-            lines = [l for l in raw.splitlines() if not l.startswith("#")]
-            summary = " ".join(l.strip() for l in lines if l.strip())
+            lines = [line for line in raw.splitlines() if not line.startswith("#")]
+            summary = " ".join(line.strip() for line in lines if line.strip())
 
             # If model refused, scrape the homepage and retry once
             if is_bad(summary) or not summary:
@@ -166,8 +166,8 @@ def main():
                     # Homepage content (long document) precedes the company identifier
                     user_message2 = f"<homepage>\n{homepage_text}\n</homepage>\n\nCompany: {name}\nWebsite: {website}{job_context}"
                     raw = call_llm(SYSTEM_PROMPT, user_message2)
-                    lines = [l for l in raw.splitlines() if not l.startswith("#")]
-                    summary = " ".join(l.strip() for l in lines if l.strip())
+                    lines = [line for line in raw.splitlines() if not line.startswith("#")]
+                    summary = " ".join(line.strip() for line in lines if line.strip())
 
             if is_bad(summary) or not summary:
                 log_error(f"model refused for {name} even after homepage scrape")

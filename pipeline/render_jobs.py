@@ -136,7 +136,7 @@ def pretty_first_seen(date_iso: str, ts_iso: str | None) -> str:
 
 def format_description(text: str) -> str:
     """Convert single newlines to paragraph breaks so markdown renders correctly."""
-    lines = [l.rstrip() for l in text.split("\n")]
+    lines = [line.rstrip() for line in text.split("\n")]
     paragraphs = []
     for line in lines:
         if line:

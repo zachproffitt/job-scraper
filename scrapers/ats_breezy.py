@@ -16,7 +16,7 @@ def scrape(company: str, slug: str) -> list[Job]:
 
     try:
         data = r.json()
-    except Exception as e:
+    except (ValueError, httpx.DecodingError) as e:
         raise ScraperError(f"Breezy JSON parse failed for {slug}: {e}") from e
 
     if not isinstance(data, list):

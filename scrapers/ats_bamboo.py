@@ -7,8 +7,7 @@ from ._base import Job, ScraperError
 LIST_URL = "https://{slug}.bamboohr.com/careers/list"
 
 # locationType: "0" = on-site, "2" = remote; anything else is unclear
-_REMOTE_TYPES = {"2"}
-_ONSITE_TYPES = {"0"}
+_LOCATION_TYPE_REMOTE = {"2": True, "0": False}
 
 
 def scrape(company: str, slug: str) -> list[Job]:
@@ -25,7 +24,7 @@ def scrape(company: str, slug: str) -> list[Job]:
 
     try:
         data = r.json()
-    except Exception as e:
+    except (ValueError, httpx.DecodingError) as e:
         raise ScraperError(f"BambooHR JSON parse failed for {slug}: {e}") from e
 
     jobs = []
@@ -36,7 +35,7 @@ def scrape(company: str, slug: str) -> list[Job]:
         state = loc.get("state") or ""
         location = ", ".join(filter(None, [city, state])) or None
         loc_type = str(item.get("locationType", ""))
-        remote = True if loc_type in _REMOTE_TYPES else (False if loc_type in _ONSITE_TYPES else None)
+        remote = _LOCATION_TYPE_REMOTE.get(loc_type)
 
         jobs.append(Job(
             id=f"bamboo-{slug}-{job_id}",
