@@ -128,6 +128,14 @@ For each job posting provided, extract the following fields. Use judgment — if
    Use exactly "equity" for any equity/stock/RSU/options, and exactly "bonus" for any bonus type.
    Do not include standard benefits (401k, health insurance, PTO). If none, write: n/a
 
+9. REGION: Where must the candidate be located to take this job?
+   us = role is based in the US, or remote with no geographic restriction, or explicitly open to US candidates
+   canada = role is based in Canada or remote open to Canada (and possibly US); not available to US-only candidates
+   international = requires presence or work authorization in a non-US, non-Canada country; or on-site outside North America
+   unclear = cannot determine from the posting
+   Use the description to override location labels: "Remote" with no restriction → us; "Remote - UK" with no mention of US eligibility → international.
+   Respond with exactly one of: us / canada / international / unclear
+
 Respond in exactly this format:
 BUILDER: <yes/no/unclear>
 SUMMARY: <summary or vague or n/a>
@@ -137,6 +145,7 @@ CONTRACT: <yes/no>
 HYBRID: <yes/no>
 COMP: <$Xk-$Yk or n/a>
 COMP_EXTRAS: <extras or n/a>
+REGION: <us/canada/international/unclear>
 """
 
 # Description first (long content before query improves accuracy), then identifiers
@@ -160,11 +169,15 @@ def content_hash(job: dict) -> str:
 VALID_LEVELS = {"intern", "junior", "mid", "senior", "staff", "principal", "manager"}
 
 
+VALID_REGIONS = {"us", "canada", "international", "unclear"}
+
+
 def parse_response(text: str) -> dict:
     result = {
         "is_engineering": None,
         "is_contract": False,
         "is_hybrid": False,
+        "region": "unclear",
         "job_summary": None,
         "skills": [],
         "level": None,
@@ -205,6 +218,10 @@ def parse_response(text: str) -> dict:
             val = line.removeprefix("COMP_EXTRAS:").strip()
             if val.lower() != "n/a":
                 result["comp_extras"] = [s.strip() for s in val.split(",") if s.strip()]
+        elif line.startswith("REGION:"):
+            val = line.removeprefix("REGION:").strip().lower()
+            if val in VALID_REGIONS:
+                result["region"] = val
 
     return result
 
@@ -336,6 +353,7 @@ def main():
                     "is_engineering": cl["is_engineering"],
                     "is_contract": cl["is_contract"],
                     "is_hybrid": cl["is_hybrid"],
+                    "region": cl["region"],
                     "job_summary": cl["job_summary"],
                     "skills": cl["skills"],
                     "level": cl["level"],

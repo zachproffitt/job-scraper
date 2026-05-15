@@ -234,6 +234,7 @@ def main():
         j for j in jobs
         if classified.get(j["id"], {}).get("is_engineering") is True
         and not classified.get(j["id"], {}).get("is_contract", False)
+        and classified.get(j["id"], {}).get("region", "unclear") in ("us", "canada", "unclear")
     ]
 
     print(f"Engineering jobs to render: {len(eng_jobs)} / {len(jobs)} total")
