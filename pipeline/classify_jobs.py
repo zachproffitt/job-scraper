@@ -2,8 +2,8 @@
 """Classify jobs as builder engineering roles and generate summaries."""
 
 import hashlib
+import html
 import json
-import os
 import re
 import sys
 import threading
@@ -13,16 +13,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from log import log_error as _log_error
+from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, call_claude as _call_claude, call_ollama as _call_ollama
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
 
-# Set LLM_BACKEND=ollama to use local Ollama instead of Claude API
-BACKEND = os.environ.get("LLM_BACKEND", "claude")
-
-CLAUDE_MODEL = "claude-haiku-4-5-20251001"
-OLLAMA_MODEL = "qwen3:8b"
 WORKERS = 5 if BACKEND == "claude" else 2
 SAVE_EVERY = 100
 
@@ -279,40 +275,15 @@ def log_error(message: str) -> None:
 
 
 def call_claude(system: str, user_message: str) -> str:
-    import anthropic
-    client = anthropic.Anthropic()
-    for attempt in range(5):
-        _acquire_rate_limit()
-        try:
-            response = client.messages.create(
-                model=CLAUDE_MODEL,
-                max_tokens=512,
-                system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
-                messages=[{"role": "user", "content": user_message}],
-            )
-            return response.content[0].text.strip()
-        except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
-            if isinstance(e, anthropic.APIStatusError) and e.status_code not in (429, 500, 502, 503, 529):
-                raise
-            delay = 2 ** attempt
-            log_error(f"transient API error (attempt {attempt+1}/5): {e} — retrying in {delay}s")
-            time.sleep(delay)
-    raise RuntimeError("Claude API unavailable after 5 retries")
+    _acquire_rate_limit()
+    return _call_claude(system, user_message, max_tokens=512, log_error=log_error)
 
 
 def call_ollama(prompt: str) -> str:
-    import ollama
-    response = ollama.chat(
-        model=OLLAMA_MODEL,
-        messages=[{"role": "user", "content": prompt}],
-        options={"temperature": 0.1, "num_ctx": 4096},
-        keep_alive="10m",
-    )
-    return response["message"]["content"].strip()
+    return _call_ollama(prompt, num_ctx=4096)
 
 
 def classify_with_llm(job: dict) -> dict:
-    import html
     description = html.unescape(job.get("raw_text", "")).strip()
     if BACKEND == "ollama":
         prompt = OLLAMA_TEMPLATE.format(
