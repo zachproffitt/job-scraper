@@ -24660,6 +24660,8 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -24667,9 +24669,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "1879cdb2",
-    "region": "us",
-    "location": "San Francisco, CA / Remote"
+    "source_hash": "1f92debc"
   },
   "ashby-permitflow-ee9b7949-80a8-434d-8567-a1e7afe65422": {
     "is_engineering": false,
@@ -25357,21 +25357,21 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build software solutions for calibration and optimization of superconducting quantum hardware, including routines for tuning two-qubit gates and processor-scale optimization. Work at the intersection of control theory, physics, and AI to solve quantum computing challenges at scale.",
+    "region": "unclear",
+    "location": null,
+    "job_summary": "Develop software solutions for calibration and optimization of superconducting quantum hardware, including tuning two-qubit gates and optimizing full processors at scale. Work on quantum error correction and integration with high-performance computing systems at the forefront of near-term quantum advantage.",
     "skills": [
       "Python",
-      "Quantum Computing",
       "Control Theory",
+      "Quantum Computing",
       "Machine Learning",
-      "Optimization",
-      "Physics Simulation"
+      "Physics",
+      "Optimization Algorithms"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c7933e68",
-    "region": "us",
-    "location": "Los Angeles, CA"
+    "source_hash": "170cf114"
   },
   "ashby-openai-493f5328-27bc-4987-9cc1-47ec3793a4d5": {
     "is_engineering": false,
@@ -41605,5 +41605,527 @@
       "bonus"
     ],
     "source_hash": "7b5aa41b"
+  },
+  "greenhouse-scaleai-4696019005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$287,200\u2014$359,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "232d575a"
+  },
+  "greenhouse-agilityrobotics-5996525004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Salem, OR / Pittsburgh, PA / Fremont, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$202,000\u2013$316,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "91647a04"
+  },
+  "greenhouse-waymo-7926984": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Deploy agentic AI workflows to automate ML development and integrate autonomous agents into Waymo's ML platform tooling. Work at scale with ML engineers to improve developer productivity across the autonomous driving stack.",
+    "skills": [
+      "Python",
+      "C++",
+      "TypeScript",
+      "Angular",
+      "AI Agents",
+      "ML platforms",
+      "Workflow Automation",
+      "Backend Systems"
+    ],
+    "level": "senior",
+    "comp": "$213,000\u2014$263,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "5f54c360"
+  },
+  "lever-cfsenergy-3134f244-9744-440a-890b-62c5dcd7570b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "33f563a0"
+  },
+  "greenhouse-altoslabs-5996181004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redwood City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$80,300-$102,900",
+    "comp_extras": [],
+    "source_hash": "6930bf0d"
+  },
+  "greenhouse-andurilindustries-5110264007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$99,000\u2014$131,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8e1385f7"
+  },
+  "greenhouse-gitlab-8535856002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f2d90e53"
+  },
+  "greenhouse-gitlab-8539288002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$297,600\u2013$360,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c6310671"
+  },
+  "ashby-strava-b1d87c16-4927-4d0e-83a1-b0b484329136": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Berlin, Germany",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50a06472"
+  },
+  "greenhouse-scopely-5220555008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$200k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f6a1e471"
+  },
+  "greenhouse-calicolabs-8552242002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$135k-$145k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "78730c3d"
+  },
+  "ashby-cognition-a4bdfcdb-6f1d-424c-a67b-875701aae098": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1bfdafad"
+  },
+  "greenhouse-andurilindustries-5139065007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2014$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c67bcb12"
+  },
+  "greenhouse-reddit-7931049": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "61efd310"
+  },
+  "lever-spreedly-003b35ef-1226-4565-bd7a-c359a5940eb7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Durham, NC / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b4835a1f"
+  },
+  "lever-ro-5be5dc36-fa09-4d68-831f-fbd88228f9b0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Romeoville, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "afb0a654"
+  },
+  "greenhouse-openspace-7690219003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3a143398"
+  },
+  "ashby-formance-69415647-5834-42b2-b678-6f59823b3f61": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$150k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "cbd0cfd6"
+  },
+  "ashby-freshpaint-87e72e22-195c-4b38-8133-a8c805552b50": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ba41f947"
+  },
+  "greenhouse-natera-5870828004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$180,000\u2013$200,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "dfdf5e5b"
+  },
+  "greenhouse-natera-5980874004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$20.00/hr",
+    "comp_extras": [],
+    "source_hash": "3752e998"
+  },
+  "ashby-Vetcove-538bac1f-da69-4ed6-bb35-e73d92f7d68c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$110,000-$150,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c277a500"
+  },
+  "ashby-formance-bb6fcaa6-611e-4fce-a3f2-3542ba9257b2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Paris, France",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "052e1bfa"
+  },
+  "greenhouse-block-5128272008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$304,500\u2013$456,700",
+    "comp_extras": [],
+    "source_hash": "6f15e242"
+  },
+  "ashby-quindar-9b05d30d-f554-4343-9df4-ec26f3cd08a7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ffa533df"
+  },
+  "greenhouse-robinhood-7804686": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and implement scalable iOS architecture for retirement and account management products serving millions of customers. Lead technical initiatives across multiple teams, improve application performance and testing practices, and mentor iOS engineers on a high-performing platform team.",
+    "skills": [
+      "Swift",
+      "iOS",
+      "Architecture Design",
+      "Mobile Systems",
+      "Performance Optimization",
+      "Testing Infrastructure"
+    ],
+    "level": "staff",
+    "comp": "$230,000\u2013$270,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "049a4a30"
+  },
+  "greenhouse-bitgo-8298001002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
+    "job_summary": "Design and build resilient APIs, libraries, and services for BitGo's financial services platform\u2014clearing, settlement, lending, and trading. Own features end-to-end from inception through customer integration, working on critical projects with limited supervision in a fast-paced environment handling significant digital asset transaction volume.",
+    "skills": [
+      "Golang",
+      "TypeScript",
+      "Java",
+      "Python",
+      "SQL",
+      "PostgreSQL",
+      "MySQL",
+      "Kubernetes"
+    ],
+    "level": "mid",
+    "comp": "$180,000-$200,000 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "52ea54f4"
+  },
+  "ashby-snowflake-d8816f3f-89d6-4434-bc24-eaf4169c1d95": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and build data governance features and services that help customers govern data assets through fine-grained secure access, privacy controls, and auditability at large scale. Apply systems programming expertise to solve complex challenges in database security and governance across Snowflake's platform.",
+    "skills": [
+      "Java",
+      "SQL",
+      "Systems Programming",
+      "Multi-threading",
+      "Concurrency",
+      "Database Security",
+      "Data Governance",
+      "BS in Computer Science"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0d6843e7"
+  },
+  "greenhouse-okta-7862411": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$117,000\u2014$160,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "01feadfb"
+  },
+  "greenhouse-toast-7931099": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "South Bend, IN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$115,000\u2014$185,000 USD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "f7433409"
+  },
+  "greenhouse-toast-7927062": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Rockford, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$128,000\u2013$205,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "df7e0d2e"
+  },
+  "greenhouse-noomgrowth-7908757": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Princeton, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$107,370-$140,300",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0e59a25c"
+  },
+  "ashby-snowflake-7504df05-ebf7-4c43-b9bf-f3820d0171e5": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build AI-assisted threat intelligence workflows and automation platforms that identify, track, and operationalize threats against Snowflake's cloud platform, translating threat actor research into detection strategies and defensive priorities. Scale threat intelligence collection, analysis, and reporting using modern engineering practices and AI automation in a security context requiring expertise in cloud-native threat actors and OSINT methodologies.",
+    "skills": [
+      "Python",
+      "Go",
+      "SQL",
+      "AWS",
+      "Azure",
+      "GCP",
+      "OSINT Tools",
+      "Threat Intelligence"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "128e99e0"
   }
 }
