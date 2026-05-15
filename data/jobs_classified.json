@@ -40261,5 +40261,233 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "944da169"
+  },
+  "greenhouse-anthropic-5218458008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "\u00a3220,000\u2014\u00a3385,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d9e51cec"
+  },
+  "greenhouse-trueanomalyinc-5138859007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO / Long Beach, CA",
+    "job_summary": "Design, implement, and deploy machine learning and AI models for autonomous spacecraft and space-based systems, including object classification, anomaly detection, and threat assessment. This role requires hands-on development in a space domain with real-world operational requirements and ITAR compliance.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Machine Learning",
+      "Anomaly Detection",
+      "Object Classification",
+      "Time Series Analysis",
+      "MLOps"
+    ],
+    "level": "senior",
+    "comp": "$155,000-$260,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a947e628"
+  },
+  "greenhouse-trueanomalyinc-5138856007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO / Long Beach, CA",
+    "job_summary": "Develop machine learning models and data pipelines for autonomous spacecraft and space-based systems, including object classification, anomaly detection, and decision-making algorithms. Work on mission-critical AI capabilities in the space domain with ITAR compliance and U.S. citizenship requirement.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "Git",
+      "Computer Vision",
+      "Time Series Analysis",
+      "JAX",
+      "Deep Learning"
+    ],
+    "level": "junior",
+    "comp": "$85k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a7b7a37f"
+  },
+  "greenhouse-maymobility-8551864002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ann Arbor, MI",
+    "job_summary": "Design, implement, and test state-of-the-art robotics software in C/C++ for autonomous vehicle behavior planning, decision making, and control systems. Lead a team on real-world robot systems with 7+ years of commercial deployment experience in critical autonomy functions.",
+    "skills": [
+      "C/C++",
+      "Linux",
+      "Behavior Planning",
+      "Path Planning",
+      "MPC",
+      "LQR",
+      "Probabilistic Reasoning",
+      "Machine Learning"
+    ],
+    "level": "senior",
+    "comp": "$190k-$230k",
+    "comp_extras": [],
+    "source_hash": "fbfd39bd"
+  },
+  "ashby-skydio-eeb4b52f-d4e6-4823-9e4b-0ce75041d928": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$139,500-$198,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4f2c9e4d"
+  },
+  "greenhouse-carbon-5125133007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$103,520-$155,280",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3d77c594"
+  },
+  "greenhouse-stripe-7913464": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Dublin, Ireland",
+    "job_summary": "Build full-stack product experiences and APIs for Stripe's premium support platform, integrating AI-driven support tooling with Stripe's existing ecosystem. Ship a greenfield product as an early-stage founding engineer within a startup team, directly shaping product vision and gathering feedback from early adopters.",
+    "skills": [
+      "React",
+      "Ruby",
+      "Full-Stack Development",
+      "AI/Machine Learning",
+      "APIs"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3f1e7e34"
+  },
+  "greenhouse-slingshotaerospace-5996935004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": "Architect and implement secure, scalable Python-based data processing platforms including ETL frameworks, event-driven streaming systems, and FastAPI microservices for space operations data. This on-site role requires deep expertise across distributed systems, Kafka/RabbitMQ, MongoDB, and Kubernetes in a defense-adjacent domain with security and compliance demands.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "Kafka",
+      "RabbitMQ",
+      "MongoDB",
+      "Redis",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "senior",
+    "comp": "$175k-$250k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6f808d44"
+  },
+  "greenhouse-workleap-5133951007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": "Build a brand-new web application for ShareGate Migrate from scratch, creating rich, performant, and accessible interfaces that set the experience quality bar for thousands of IT professionals. Establish front-end technical foundations and architecture patterns while integrating Microsoft APIs and contributing to backend C#/.NET development in a founding team role.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "C#",
+      ".NET",
+      "Microsoft Graph",
+      "Azure AD",
+      "MSAL",
+      "PostgreSQL"
+    ],
+    "level": "mid",
+    "comp": "$100k-$130k CAD",
+    "comp_extras": [],
+    "source_hash": "ee6a3db8"
+  },
+  "greenhouse-motional-7721774003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Las Vegas, NV",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$50,000\u2013$59,750",
+    "comp_extras": [],
+    "source_hash": "100cf507"
+  },
+  "bamboo-grey-105": {
+    "is_engineering": true,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and optimize Grey's marketing and product web presence by translating Figma designs into high-converting Webflow pages, implementing SEO improvements, and running growth experiments across multiple locales. Work in a fintech environment where rapid iteration on landing pages directly impacts customer acquisition metrics.",
+    "skills": [
+      "Webflow",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "SEO",
+      "A/B Testing",
+      "Figma",
+      "GSAP"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e21bd4ab"
+  },
+  "greenhouse-observeai-5220338008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "571b7f75"
   }
 }
