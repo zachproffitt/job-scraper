@@ -42682,5 +42682,67 @@
       "bonus"
     ],
     "source_hash": "a8491634"
+  },
+  "greenhouse-antora-5829904004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b7ef6f97"
+  },
+  "greenhouse-lyft-8550252002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$128k-$160k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "433ced8c"
+  },
+  "greenhouse-instacart-7931358": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$66,000\u2014$82,500 USD",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "7a9bea2d"
+  },
+  "greenhouse-airbnb-7927588": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$180,000\u2013$221,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "9437f39e"
   }
 }

@@ -4315,5 +4315,15 @@
     "slug": "trussworksinc",
     "name": "Truss",
     "summary": "Truss builds payment infrastructure and software solutions for logistics and supply chain companies, enabling them to manage complex payment workflows, vendor payments, and financial operations within their operations."
+  },
+  {
+    "slug": "Protex AI",
+    "name": "Protex AI",
+    "summary": "Protex AI develops machine learning-powered cybersecurity solutions that detect and prevent data breaches and insider threats across enterprise networks and cloud environments. The company provides continuous monitoring and behavioral analytics to identify suspicious activities and unauthorized data access in real-time."
+  },
+  {
+    "slug": "Honey Homes",
+    "name": "Honey Homes",
+    "summary": "Honey Homes is a real estate platform that helps homeowners sell their properties directly to institutional buyers and investment companies, bypassing traditional real estate agents and auctions. The company operates in the residential real estate market, focusing on streamlining the home-selling process for those seeking quick sales or alternative transaction methods."
   }
 ]
