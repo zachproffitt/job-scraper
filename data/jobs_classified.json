@@ -39214,5 +39214,224 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "5420041e"
+  },
+  "greenhouse-altoslabs-5996617004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Diego, CA / Redwood City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$92-$117/hr",
+    "comp_extras": [],
+    "source_hash": "fd09bea9"
+  },
+  "greenhouse-monzo-7921307": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u00a384,200-\u00a399,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ec3c30d6"
+  },
+  "greenhouse-planetlabs-7402921": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": "Develop operational tools and automation for satellite imagery tasking and collection planning. Work with geospatial data analysis and process automation to support Earth observation satellite operations at scale.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Git",
+      "QGIS",
+      "GeoPandas",
+      "Bash",
+      "Jenkins",
+      "GDAL"
+    ],
+    "level": "mid",
+    "comp": "$71,300\u2013$89,100",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "03a9f0e9"
+  },
+  "greenhouse-gocardless-7908077": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build data science prototypes and production models that embed intelligent decisioning and AI into GoCardless products and internal systems. Work across data collection, cleaning, visualization, and analysis to help teams across the company make faster, data-driven decisions in a fintech processing $30B+ in payments globally.",
+    "skills": [
+      "Python",
+      "SQL",
+      "scikit-learn",
+      "PyTorch",
+      "TensorFlow",
+      "dbt",
+      "Google Cloud Platform",
+      "Looker"
+    ],
+    "level": "junior",
+    "comp": "\u20ac2,200-\u20ac3,300",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0bf76828"
+  },
+  "greenhouse-si-7930302": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$110k-$150k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "da7963ef"
+  },
+  "greenhouse-ibkr-7909026002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Greenwich, CT",
+    "job_summary": "Build back-end clearing and brokerage applications in Java supporting funds, banking operations, securities trading, settlement, and regulatory reporting. Work on mission-critical financial systems handling client cash, trade reconciliation, and automated risk controls at scale across 200+ countries.",
+    "skills": [
+      "Java",
+      "Oracle",
+      "JBoss",
+      "RESTful Web Services",
+      "Microservices",
+      "Message-Oriented Systems",
+      "JEE",
+      "C++"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb19e4ca"
+  },
+  "greenhouse-databricks-8551531002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and productionize cutting-edge GenAI applications\u2014RAG systems, multi-agent architectures, fine-tuned models, and Text2SQL solutions\u2014deployed at scale on AWS, Azure, or GCP for Databricks customers. Work with latest LLM techniques and Databricks' AI research to solve production problems while serving as a trusted technical advisor and thought leader.",
+    "skills": [
+      "PyTorch",
+      "LangChain",
+      "HuggingFace",
+      "Apache Spark",
+      "scikit-learn",
+      "pandas",
+      "AWS",
+      "RAG"
+    ],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "424eecd4"
+  },
+  "greenhouse-scoutmotors-5138039007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Novi, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$160,000-$192,500",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e9ef30a6"
+  },
+  "greenhouse-tenableinc-5221951008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$114,500\u2014$152,500",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "fb5e6a33"
+  },
+  "ashby-uipath-e7f79029-79d5-4799-9d4c-4a9148954688": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Bellevue, WA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "89fec121"
+  },
+  "greenhouse-spacex-8551579002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "42858508"
+  },
+  "ashby-uipath-64b59a30-ab87-4ac9-a0f8-5663085af805": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "28b3956c"
+  },
+  "greenhouse-spacex-8551570002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cf662fd1"
   }
 }
