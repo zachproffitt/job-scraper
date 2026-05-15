@@ -27491,5 +27491,468 @@
       "bonus"
     ],
     "source_hash": "e454f7b1"
+  },
+  "ashby-cohere-06d46bfd-1aa3-4778-b5dc-119c1525f237": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "62d2aca5"
+  },
+  "ashby-openai-0db33200-b533-4c4c-84f6-f51fea91819b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b244261a"
+  },
+  "greenhouse-airbnb-7927488": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead the Segmentation Platform and Insights Platform teams, owning the technical strategy and roadmap for audience infrastructure, analytics, and autonomous agent pipelines that power Airbnb's marketing personalization at scale. Drive the adoption of AI-native engineering practices and build production-grade agentic systems handling complex, multi-step workflows while ensuring operational rigor and reliability.",
+    "skills": [
+      "Distributed Data Systems",
+      "Backend Infrastructure",
+      "Data Pipelines",
+      "Observability",
+      "LangGraph",
+      "CrewAI",
+      "Autogen",
+      "ML/AI Systems"
+    ],
+    "level": "manager",
+    "comp": "$212,000\u2014$265,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "703a6bea"
+  },
+  "greenhouse-airbnb-7919241": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180,000\u2014$217,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6270af6b"
+  },
+  "greenhouse-oklo-5996719004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Develop and conduct high-fidelity CFD thermal-hydraulic analyses of advanced fission reactor systems, including core, vessel, heat exchangers, and power conversion components. This role requires deep expertise in thermal-fluid dynamics for nuclear applications at a startup advancing commercial advanced reactors.",
+    "skills": [
+      "STAR-CCM+",
+      "ANSYS Fluent",
+      "Python",
+      "Heat Transfer",
+      "Fluid Dynamics",
+      "Nuclear Engineering",
+      "Thermodynamics",
+      "RELAP"
+    ],
+    "level": "senior",
+    "comp": "$100,000-$190,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "72d6dbf6"
+  },
+  "greenhouse-stripe-7917252": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "74fb8540"
+  },
+  "ashby-openai-a0eef158-0ea5-4ce8-aabd-dd6816fe9af8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1c443c4d"
+  },
+  "ashby-openai-e827d138-22de-49f0-9de5-60f3e3ce07a0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and deploy GenAI solutions for enterprise customers, building hands-on prototypes and providing architectural guidance on RAG systems, multi-agent orchestration, and production scaling. Work embedded with senior stakeholders at large multinational corporations to identify and validate high-value AI applications.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Docker"
+    ],
+    "level": "senior",
+    "comp": "$175,000-$240,000",
+    "comp_extras": [],
+    "source_hash": "71e61c27"
+  },
+  "ashby-openai-de06790a-7243-4e33-a6f1-e7bd34009588": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and build the core agent harness, execution loop, and sandboxing infrastructure that enables AI agents to safely interpret model outputs, execute code, and complete long-horizon tasks in production environments. Work across the full stack\u2014from Rust systems code to inference optimization to GPU fleet management\u2014debugging and improving agent reliability, latency, cost, and solve rate end-to-end.",
+    "skills": [
+      "Rust",
+      "Python",
+      "Distributed Systems",
+      "LLM Inference",
+      "Sandboxing/Virtualization",
+      "GPU Systems",
+      "Agent Orchestration",
+      "Compiler/Runtime Optimization"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "40d412cc"
+  },
+  "greenhouse-andurilindustries-5138477007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$86k-$114k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "95ad058d"
+  },
+  "greenhouse-waymo-7927507": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$230,000\u2014$284,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "3d10d807"
+  },
+  "greenhouse-archer56-7734993003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c9687a4f"
+  },
+  "greenhouse-andurilindustries-5138479007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$146,000\u2014$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "581c5f6c"
+  },
+  "greenhouse-roblox-7927616": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$147,450-$182,300",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c934d341"
+  },
+  "greenhouse-archer56-7703614003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own AI tooling adoption strategy across aerospace engineering teams \u2014 embed with structures, GN&C, propulsion, avionics, and flight test engineers to identify manual workflows, build prototype tools that compress cycle time, and scale adoption through enablement and mentorship. You'll work on safety-critical aircraft design and manufacturing in a regulated industry with aggressive program timelines where credibility with senior aerospace engineers is non-negotiable.",
+    "skills": [
+      "Python",
+      "MATLAB",
+      "Claude/Claude Code",
+      "Cursor",
+      "LLM agents",
+      "CAD/CAE (NX/ANSYS/Abaqus)",
+      "MCP",
+      "ITAR compliance"
+    ],
+    "level": "staff",
+    "comp": "$228k-$285k",
+    "comp_extras": [],
+    "source_hash": "3d5b62f8"
+  },
+  "ashby-cursor-040ac0f8-dba7-4d13-8171-b902e925f334": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "904634f1"
+  },
+  "greenhouse-andurilindustries-5137457007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ae074b71"
+  },
+  "greenhouse-gitlab-8548980002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d1a5f915"
+  },
+  "ashby-claim-health-c9512763-dcae-40ed-a929-37d16d915ed0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Build production-grade full-stack systems that automate post-acute care workflows, including orchestration layers, integrations, and AI-powered automation directly deployed into healthcare operations. You'll embed with customers to translate operational complexity into scalable platform abstractions while maintaining high reliability standards in a high-stakes healthcare environment.",
+    "skills": [
+      "Full-stack development",
+      "Workflow orchestration",
+      "AI systems",
+      "Healthcare operations",
+      "Production deployments",
+      "System reliability",
+      "Customer collaboration",
+      "n/a"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "39e710f8"
+  },
+  "lever-gridware-41836d84-c57f-4bf3-a588-25c987e08310": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a388c349"
+  },
+  "ashby-latent-bedfeef6-537c-4258-9267-19577b8d4af6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "83b4fc72"
+  },
+  "ashby-benepass-add86101-3763-42b0-a476-6f9607fa09f6": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and operate high-integrity financial systems for ledgering, transaction processing, decisioning, and money movement at scale. You'll take end-to-end ownership of systems handling real funds where correctness, consistency, and auditability are non-negotiable.",
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "Django",
+      "AWS",
+      "Payment Systems",
+      "Card Networks",
+      "Ledger Systems",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$200k-$240k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "789617ff"
+  },
+  "greenhouse-cloudflare-7916601": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "93abb996"
+  },
+  "greenhouse-natera-5994721004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$184,600\u2014$230,700",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "56382544"
+  },
+  "greenhouse-bridgebio-5135020007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$101,000\u2014$135,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "98b7a0a3"
+  },
+  "greenhouse-okta-7743848": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$122,000\u2014$167,200",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "980b1d99"
+  },
+  "greenhouse-spacex-8550900002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "bfa19e5d"
+  },
+  "greenhouse-sourcegraph91-5996694004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead a small team of engineers building Sourcegraph's Code Plane products\u2014Batch Changes, MCP Server, Code Monitors, and src CLI\u2014that power large-scale code transformations and enable agents to operate on massive codebases. You'll spend up to 50% of your time writing code and guiding architecture decisions while managing hiring, performance, and roadmap execution for a product-facing team serving developers and AI agents at scale.",
+    "skills": [
+      "Go",
+      "TypeScript",
+      "React",
+      "GraphQL",
+      "PostgreSQL",
+      "Kubernetes",
+      "AI Agents",
+      "SvelteKit"
+    ],
+    "level": "manager",
+    "comp": "$144,000-$192,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f80a198e"
+  },
+  "greenhouse-bridgebio-5136136007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Design and build AI/ML interfaces embedding large language models, RAG pipelines, and automation tooling into pharmaceutical biometrics workflows\u2014statistical analysis platforms (SAS, R, Python), clinical data repositories, and regulatory submission systems. Establish MLOps infrastructure and governance standards (explainability, bias assessment, 21 CFR Part 11 compliance) in a GxP-regulated environment while delivering high-quality statistical analyses for Phase II\u2013IV clinical trials and regulatory submissions (NDA/BLA/MAA).",
+    "skills": [
+      "SAS",
+      "R",
+      "Python",
+      "LLM APIs",
+      "RAG pipelines",
+      "MLOps",
+      "21 CFR Part 11",
+      "CDISC"
+    ],
+    "level": "senior",
+    "comp": "$173,800-$217,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ef7c6820"
+  },
+  "ashby-montecarlodata-4a57ba0f-3be5-4138-b863-f8c7a575c3e0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "faaa42b3"
+  },
+  "ashby-montecarlodata-796226cd-6ca7-4696-a3e2-a9fc8c1a64aa": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ea1fa4f9"
   }
 }
