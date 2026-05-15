@@ -15,11 +15,10 @@ CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
+from badges import REMOTE_BADGE, HYBRID_BADGE, skill_badge
+
 HASH_MARKER = "render_hash: "
 FORMAT_VERSION = "16"  # bump to force re-render of all files
-SKILL_COLOR = "3B82F6"
-REMOTE_BADGE = '<img src="https://img.shields.io/badge/Remote-22C55E?style=flat-square" align="absmiddle">'
-HYBRID_BADGE = '<img src="https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square" align="absmiddle">'
 
 # US state codes + common country codes used by ATSs in job titles
 _LOCATION_CODES = frozenset({
@@ -62,15 +61,6 @@ def strip_location_from_title(title: str) -> str:
     if m and m.group(1) in _LOCATION_CODES:
         return title[:m.start()].strip()
     return title
-
-
-def skill_badge(skill: str) -> str:
-    label = skill.strip().replace("-", "--").replace("_", "__").replace(" ", "_")
-    label = (label
-        .replace("(", "%28").replace(")", "%29")
-        .replace(",", "%2C").replace("/", "%2F")
-        .replace("+", "%2B").replace("#", "%23"))
-    return f"![{skill}](https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square)"
 
 
 def render_hash(job: dict, classification: dict) -> str:

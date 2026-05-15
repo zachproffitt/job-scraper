@@ -8,6 +8,7 @@ from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
+from badges import REMOTE_BADGE, HYBRID_BADGE, skill_badge
 from render_jobs import clean_location
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
@@ -15,9 +16,6 @@ README = JOBS_REPO / "README.md"
 REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
-SKILL_COLOR = "3B82F6"
-REMOTE_BADGE = '<img src="https://img.shields.io/badge/Remote-22C55E?style=flat-square" align="absmiddle">'
-HYBRID_BADGE = '<img src="https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square" align="absmiddle">'
 
 
 def abbrev_comp(comp: str) -> str:
@@ -42,15 +40,6 @@ def parse_frontmatter(path: Path) -> dict:
             key, _, val = line.partition(":")
             fm[key.strip()] = val.strip()
     return fm
-
-
-def skill_badge(skill: str) -> str:
-    label = skill.strip().replace("-", "--").replace("_", "__").replace(" ", "_")
-    label = (label
-        .replace("(", "%28").replace(")", "%29")
-        .replace(",", "%2C").replace("/", "%2F")
-        .replace("+", "%2B").replace("#", "%23"))
-    return f"![{skill}](https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square)"
 
 
 def format_meta(fm: dict) -> str:
