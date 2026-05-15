@@ -22907,7 +22907,7 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5cab10e5"
+    "source_hash": "1e3f168a"
   },
   "greenhouse-grafanalabs-5807984004": {
     "is_engineering": true,
@@ -35479,7 +35479,7 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6e041856"
+    "source_hash": "c12a6c8a"
   },
   "greenhouse-airbnb-7915333": {
     "is_engineering": false,
@@ -36077,5 +36077,369 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "28705996"
+  },
+  "greenhouse-appliedintuition-4694910005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build net-new features, standalone applications, and custom integrations embedded inside tier-1 automotive OEMs across EMEA, operating at the boundary between Applied's autonomous vehicle platform and customer environments. Ship production-quality software while maintaining 25\u201340% on-site presence at customer locations and feeding field signals back to product engineering.",
+    "skills": [
+      "Python",
+      "C++",
+      "ROS",
+      "Docker",
+      "Kubernetes",
+      "Full-Stack Development",
+      "Automotive Software",
+      "Autonomy"
+    ],
+    "level": "mid",
+    "comp": "\u20ac93,000-\u20ac145,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c782ab84"
+  },
+  "greenhouse-figma-5995989004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "331ec0d2"
+  },
+  "greenhouse-figma-5995992004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "95840f76"
+  },
+  "greenhouse-scopely-5216080008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "173d0b99"
+  },
+  "greenhouse-isomorphiclabs-5995272004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "feb660dc"
+  },
+  "greenhouse-airbnb-7602172": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u20b91,890,000\u2014\u20b92,700,000 INR",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "6e33f61f"
+  },
+  "greenhouse-zyngacareers-5996819004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a1a2ab33"
+  },
+  "greenhouse-jetbrains-4861892101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "969051f4"
+  },
+  "smartrecruiters-CDPROJEKTRED-744000126662869": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design and maintain hybrid game-ML systems that integrate machine learning into game engines, serving as the primary technical contact between ML research and game development teams. Shape ML infrastructure standards across the organization while staying current with advances in both ML and game technology.",
+    "skills": [
+      "Machine Learning",
+      "Game Engine Architecture",
+      "Python",
+      "C++",
+      "System Design",
+      "Deep Learning"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "faee7cf7"
+  },
+  "ashby-horizon3ai-d8abbccd-fe04-48ba-80a2-9944b7d0218f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7d719494"
+  },
+  "greenhouse-scopely-5191920008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "86783e39"
+  },
+  "ashby-tavus-09972bf5-780d-4209-a758-d4ad32c012e0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead research on audio-visual avatar generation models for real-time conversational AI, designing diffusion-based systems that generate synchronized verbal and non-verbal signals. Scale generative models from research into production while mentoring a research team and publishing at top-tier venues.",
+    "skills": [
+      "PyTorch",
+      "Diffusion Models",
+      "Video Generation",
+      "Audio Generation",
+      "Multimodal Learning",
+      "GPU Optimization",
+      "3D Graphics",
+      "Gaussian Splatting"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "93a8868d"
+  },
+  "greenhouse-observeai-5210080008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Lead infrastructure and MLOps systems for an AI agent platform handling real-world customer interactions at scale. Design and optimize GPU orchestration, self-hosted services (Elasticsearch, Prometheus), and AI model deployment pipelines while mentoring DevOps and ML teams.",
+    "skills": [
+      "Kubernetes",
+      "AWS",
+      "Terraform",
+      "Python",
+      "Prometheus",
+      "Elasticsearch",
+      "CI/CD",
+      "MLOps"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e8cc033"
+  },
+  "greenhouse-mongodb-7919311": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Support MongoDB's enterprise customers by diagnosing and resolving complex database performance, architecture, and infrastructure issues at scale. Develop internal support tools for diagnostics and benchmarking while mentoring team members on MongoDB's ecosystem spanning database server, drivers, Atlas, and Cloud Manager.",
+    "skills": [
+      "MongoDB",
+      "Linux",
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes",
+      "Git",
+      "TCP/IP"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3b862558"
+  },
+  "greenhouse-mongodb-7919314": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Solve complex MongoDB deployment and performance issues for enterprise customers, advising on architecture, recovery, security, and database operations at scale. Develop diagnostic tools and support software while mentoring team members and advocating for customer needs to product teams.",
+    "skills": [
+      "MongoDB",
+      "Linux",
+      "Python",
+      "Java",
+      "AWS",
+      "Kubernetes",
+      "Git",
+      "TCP/IP"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a47cee88"
+  },
+  "greenhouse-speechify-5975636004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Own major features and lead the Android team at Speechify, building the world's most-used text-to-speech app on the Play Store. Shape product direction, mentor engineers, and drive reliability and UI/UX excellence for millions of users with learning differences.",
+    "skills": [
+      "Kotlin",
+      "Kotlin Coroutines",
+      "Kotlin Flow",
+      "Dagger 2",
+      "MVVM",
+      "Jetpack Compose",
+      "Room"
+    ],
+    "level": "senior",
+    "comp": "$140k-$200k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "5580b0d5"
+  },
+  "greenhouse-pinterest-7903959": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "07df98dd"
+  },
+  "greenhouse-pinterest-7903938": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f815ec1f"
+  },
+  "greenhouse-okta-7929542": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Build Okta's secure web experiences for end-user authentication and access, including the Sign-in Widget, SSO Dashboard, and Browser Plugin used by millions daily. Work across the full stack (React/TypeScript frontend, Java/Spring Boot backend) on high-performance identity and access management systems with real-world security stakes.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "Java",
+      "Spring Boot",
+      "MySQL",
+      "Jest",
+      "Git",
+      "OAuth"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dc85c2e4"
+  },
+  "greenhouse-rightmovecareers-4754383101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead cross-functional product development teams as an engineering manager, responsible for team growth, delivery planning, technical stewardship, and hiring while partnering with product managers to solve valuable problems at scale for millions of users.",
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7f7ce781"
+  },
+  "greenhouse-pinterest-7903920": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d060a42e"
+  },
+  "greenhouse-rightmovecareers-4727602101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": "Lead architectural design and technical strategy across Rightmove's consumer domain (property search, listings, maps, alerts) serving millions of users. Drive cross-team system design, mentor senior engineers, and raise standards on code quality, observability, and long-term platform health at significant scale.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Distributed Systems",
+      "System Design",
+      "Microservices Architecture",
+      "PostgreSQL",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d6df9efc"
+  },
+  "greenhouse-rightmovecareers-4849944101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "53d646ec"
+  },
+  "greenhouse-twilio-7658027": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "job_summary": "Design, develop, and maintain mission-critical backend services for Twilio's core messaging platform, handling some of the world's largest message volumes. Focus on building scalable, reliable, and low-latency systems with strong emphasis on distributed systems fundamentals and operational excellence.",
+    "skills": [
+      "Java",
+      "Spring",
+      "AWS",
+      "Kubernetes",
+      "Docker",
+      "Microservices Architecture",
+      "Distributed Systems",
+      "Agile"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d1fbe843"
   }
 }
