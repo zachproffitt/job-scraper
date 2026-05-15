@@ -1,8 +1,6 @@
-from datetime import datetime, timezone
-
 import httpx
 
-from ._base import Job, ScraperError
+from ._base import Job, ScraperError, parse_iso_date
 
 LIST_URL = "https://{slug}.breezy.hr/json"
 
@@ -24,11 +22,7 @@ def scrape(company: str, slug: str) -> list[Job]:
 
     jobs = []
     for item in data:
-        pub = item.get("published_date", "")
-        try:
-            posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00")).date() if pub else None
-        except (ValueError, AttributeError):
-            posted_at = None
+        posted_at = parse_iso_date(item.get("published_date"))
 
         locations = item.get("locations") or [item.get("location", {})]
         primary = next((l for l in locations if l.get("primary")), locations[0] if locations else {})

@@ -1,8 +1,6 @@
-from datetime import datetime, timezone
-
 import httpx
 
-from ._base import Job, ScraperError
+from ._base import Job, ScraperError, parse_timestamp_s
 
 # Slug format: "host|domain" e.g. "apply.careers.microsoft.com|microsoft.com"
 # host = the Eightfold-powered careers URL host
@@ -60,11 +58,7 @@ def scrape(company: str, slug: str) -> list[Job]:
         work_option = (item.get("workLocationOption") or "").lower()
         remote = work_option in ("remote", "work from home")
 
-        posted_ts = item.get("postedTs")
-        try:
-            posted_at = datetime.fromtimestamp(posted_ts, tz=timezone.utc).date() if posted_ts else None
-        except (OSError, ValueError, TypeError):
-            posted_at = None
+        posted_at = parse_timestamp_s(item.get("postedTs"))
 
         jobs.append(Job(
             id=f"eightfold-{domain.replace('.', '-')}-{pos_id}",

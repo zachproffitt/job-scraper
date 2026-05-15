@@ -1,21 +1,12 @@
-from datetime import datetime
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import httpx
-from ._base import Job, ScraperError, html_to_text
+
+from ._base import Job, ScraperError, build_location, html_to_text, parse_iso_date
 
 LIST_URL = "https://api.smartrecruiters.com/v1/companies/{slug}/postings"
 DETAIL_URL = "https://api.smartrecruiters.com/v1/companies/{slug}/postings/{job_id}"
 WORKERS = 8
-
-
-def parse_date(s: str | None):
-    if not s:
-        return None
-    try:
-        return datetime.fromisoformat(s.replace("Z", "+00:00")).date()
-    except (ValueError, AttributeError):
-        return None
 
 
 def fetch_description(slug: str, job_id: str) -> str | None:
@@ -54,11 +45,8 @@ def scrape(company: str, slug: str) -> list[Job]:
     jobs = []
     for item in items:
         loc = item.get("location", {})
-        city = loc.get("city", "")
-        country = loc.get("country", "")
         remote = loc.get("remote")
-        location_parts = [p for p in [city, country] if p]
-        location = ", ".join(location_parts) or None
+        location = build_location(loc.get("city"), loc.get("country"))
 
         jobs.append(Job(
             id=f"smartrecruiters-{slug}-{item['id']}",
@@ -69,7 +57,7 @@ def scrape(company: str, slug: str) -> list[Job]:
             source="smartrecruiters",
             location=location,
             remote=remote if isinstance(remote, bool) else None,
-            posted_at=parse_date(item.get("releasedDate")),
+            posted_at=parse_iso_date(item.get("releasedDate")),
             raw_text=descriptions.get(item["id"]),
         ))
 

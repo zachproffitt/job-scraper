@@ -2,7 +2,7 @@ from datetime import date
 
 import httpx
 
-from ._base import Job, ScraperError
+from ._base import Job, ScraperError, build_location
 
 LIST_URL = "https://{slug}.bamboohr.com/careers/list"
 
@@ -31,9 +31,7 @@ def scrape(company: str, slug: str) -> list[Job]:
     for item in data.get("result", []):
         job_id = str(item["id"])
         loc = item.get("location", {})
-        city = loc.get("city") or ""
-        state = loc.get("state") or ""
-        location = ", ".join(filter(None, [city, state])) or None
+        location = build_location(loc.get("city"), loc.get("state"))
         loc_type = str(item.get("locationType", ""))
         remote = _LOCATION_TYPE_REMOTE.get(loc_type)
 

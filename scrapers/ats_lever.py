@@ -1,8 +1,6 @@
-from datetime import datetime, timezone
-
 import httpx
 
-from ._base import Job, ScraperError
+from ._base import Job, ScraperError, parse_timestamp_ms
 
 BASE_URL = "https://api.lever.co/v0/postings/{slug}"
 
@@ -29,7 +27,7 @@ def scrape(company: str, slug: str) -> list[Job]:
             source="lever",
             location=categories.get("location"),
             remote="remote" in commitment.lower() if commitment else None,
-            posted_at=datetime.fromtimestamp(created_ms / 1000, tz=timezone.utc).date() if created_ms else None,
+            posted_at=parse_timestamp_ms(created_ms),
             raw_text=item.get("descriptionPlain", "").strip(),
         ))
 

@@ -1,8 +1,6 @@
-from datetime import datetime
-
 import httpx
 
-from ._base import Job, ScraperError
+from ._base import Job, ScraperError, build_location, parse_iso_date
 
 LIST_URL = "https://apply.workable.com/api/v3/accounts/{slug}/jobs"
 
@@ -25,16 +23,10 @@ def scrape(company: str, slug: str) -> list[Job]:
 
     jobs = []
     for item in data.get("results", []):
-        pub = item.get("published", "")
-        try:
-            posted_at = datetime.fromisoformat(pub.replace("Z", "+00:00")).date() if pub else None
-        except (ValueError, AttributeError):
-            posted_at = None
+        posted_at = parse_iso_date(item.get("published"))
 
         loc = item.get("location", {})
-        city = loc.get("city") or ""
-        country = loc.get("country") or ""
-        location = ", ".join(filter(None, [city, country])) or None
+        location = build_location(loc.get("city"), loc.get("country"))
         shortcode = item.get("shortcode", "")
 
         jobs.append(Job(
