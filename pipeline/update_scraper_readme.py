@@ -2,13 +2,15 @@
 """Update the ATS company-count table and last-updated line in the scraper README."""
 
 import json
-import re
 from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 COMPANIES_FILE = ROOT / "data" / "companies.json"
 README_FILE = ROOT / "README.md"
+
+ATS_TABLE_HEADER = "## Supported ATS"
+LAST_UPDATED_PREFIX = "<sub>Last updated "
 
 SUPPORTED_ATS = [
     ("ashby",           "Ashby",           "scrapers/ats_ashby.py"),
@@ -23,6 +25,42 @@ SUPPORTED_ATS = [
 ]
 
 
+def build_table(counts: dict[str, int]) -> list[str]:
+    total = sum(counts.get(key, 0) for key, _, _ in SUPPORTED_ATS)
+    rows = ["| ATS | Companies | Scraper |", "|---|---|---|"]
+    for key, label, scraper in SUPPORTED_ATS:
+        rows.append(f"| {label} | {counts.get(key, 0)} | `{scraper}` |")
+    rows.append(f"| **Total** | **{total}** | |")
+    return rows
+
+
+def replace_table(lines: list[str], new_rows: list[str]) -> list[str]:
+    """Replace the ATS table rows in the line list, return updated lines."""
+    try:
+        header_idx = lines.index(ATS_TABLE_HEADER)
+    except ValueError:
+        return lines
+    # Find the blank line after the header, then the table block
+    start = header_idx + 2  # skip header + blank line
+    end = start
+    while end < len(lines) and lines[end].startswith("|"):
+        end += 1
+    return lines[:start] + new_rows + lines[end:]
+
+
+def replace_last_updated(lines: list[str], new_line: str) -> list[str]:
+    """Replace an existing last-updated line or insert it after the first paragraph."""
+    for i, line in enumerate(lines):
+        if line.startswith(LAST_UPDATED_PREFIX):
+            lines[i] = new_line
+            return lines
+    # Not found — insert after the first non-empty paragraph (first blank line after content)
+    for i, line in enumerate(lines):
+        if i > 0 and line == "" and lines[i - 1] != "":
+            return lines[:i + 1] + [new_line, ""] + lines[i + 1:]
+    return lines + [new_line]
+
+
 def main() -> None:
     companies = json.loads(COMPANIES_FILE.read_text())
     counts: dict[str, int] = {}
@@ -31,33 +69,21 @@ def main() -> None:
         if ats in {key for key, _, _ in SUPPORTED_ATS}:
             counts[ats] = counts.get(ats, 0) + 1
 
-    total = sum(counts.get(key, 0) for key, _, _ in SUPPORTED_ATS)
-    rows = ["| ATS | Companies | Scraper |", "|---|---|---|"]
-    for key, label, scraper in SUPPORTED_ATS:
-        count = counts.get(key, 0)
-        rows.append(f"| {label} | {count} | `{scraper}` |")
-    rows.append(f"| **Total** | **{total}** | |")
-    new_table = "\n".join(rows)
+    new_rows = build_table(counts)
+    lines = README_FILE.read_text().splitlines()
 
-    readme = README_FILE.read_text()
+    # Strip legacy *Updated …* lines
+    lines = [l for l in lines if not (l.startswith("*Updated ") and l.endswith("*"))]
 
-    # Update ATS table
-    updated = re.sub(
-        r"(## Supported ATS\n\n)(\| ATS.*?)(\n\n)",
-        lambda m: m.group(1) + new_table + m.group(3),
-        readme,
-        flags=re.DOTALL,
-    )
+    updated = replace_table(lines, new_rows)
+    table_changed = updated != lines
 
-    # Only stamp last-updated if the table actually changed
-    if updated != readme:
-        now = datetime.now(timezone.utc).strftime("%-d %B %Y")
-        updated = re.sub(
-            r"(# Builder Jobs — Scraper\n\n)(\*Updated .*?\*\n\n)?",
-            lambda m: m.group(1) + f"*Updated {now}*\n\n",
-            updated,
-        )
-        README_FILE.write_text(updated)
+    has_timestamp = any(l.startswith(LAST_UPDATED_PREFIX) for l in updated)
+
+    if table_changed or not has_timestamp:
+        now = datetime.now(timezone.utc).strftime("%B %-d, %Y at %H:%M UTC")
+        updated = replace_last_updated(updated, f"{LAST_UPDATED_PREFIX}{now}</sub>")
+        README_FILE.write_text("\n".join(updated) + "\n")
         print("README updated")
     else:
         print("README unchanged")

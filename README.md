@@ -1,8 +1,8 @@
 # Builder Jobs — Scraper
 
-*Updated 15 May 2026*
-
 Hourly pipeline that scrapes engineering jobs from company career pages, classifies each role with Claude, and publishes rendered markdown to **[zachproffitt/builder-jobs](https://github.com/zachproffitt/builder-jobs)**.
+
+<sub>Last updated May 15, 2026 at 20:12 UTC</sub>
 
 ## Pipeline
 
