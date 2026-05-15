@@ -154,6 +154,16 @@ def _build_detail_parts(location: str, level: str | None, remote_str: str,
     return parts
 
 
+def _company_logo_html(domain: str) -> str:
+    if not domain:
+        return ""
+    return (
+        f'<a href="https://{domain}">'
+        f'<img src="https://www.google.com/s2/favicons?domain={domain}&sz=32"'
+        f' width="16" height="16" align="absmiddle"></a>&ensp;'
+    )
+
+
 def render_job(job: dict, classification: dict, company_summary: str | None, domain: str = "") -> str:
     raw_location = job.get("location") or ""
     location = classification.get("location") or raw_location or "Not specified"
@@ -199,7 +209,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
     ]
 
     detail_parts = _build_detail_parts(display_location, level, remote_str, is_hybrid, comp, comp_extras)
-    logo = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>&ensp;' if domain else ""
+    logo = _company_logo_html(domain)
     company_line = f"{logo}**{job['company']}**"
     meta_line = (company_line + " · " + " · ".join(detail_parts)) if detail_parts else company_line
 
@@ -289,7 +299,7 @@ def render_job_group(base_title: str, jobs: list[dict], classified: dict[str, di
         display_location = clean_location(display_location, True)
 
     detail_parts = _build_detail_parts(display_location, level, remote_str, is_hybrid, comp, comp_extras)
-    logo = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>&ensp;' if domain else ""
+    logo = _company_logo_html(domain)
     company_line = f"{logo}**{first_job['company']}**"
     meta_line = (company_line + " · " + " · ".join(detail_parts)) if detail_parts else company_line
 

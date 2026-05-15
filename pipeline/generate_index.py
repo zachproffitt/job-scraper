@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 from badges import REMOTE_BADGE, HYBRID_BADGE, skill_badge
-from render_jobs import clean_location
+from render_jobs import clean_location, _company_logo_html
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
@@ -160,7 +160,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         for j in date_jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
             domain = company_logos.get(j["company"], "")
-            logo = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>&ensp;' if domain else ""
+            logo = _company_logo_html(domain)
             lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")
