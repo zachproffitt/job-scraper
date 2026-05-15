@@ -9,6 +9,8 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+from log import log_error as _log_error
+
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
@@ -34,9 +36,7 @@ BAD_PHRASES = [
 
 
 def log_error(message: str) -> None:
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    with open(LOG_FILE, "a") as f:
-        f.write(f"[{ts}] classify_companies: {message}\n")
+    _log_error("classify_companies", message, LOG_FILE)
 
 
 def fetch_homepage(url: str) -> str:

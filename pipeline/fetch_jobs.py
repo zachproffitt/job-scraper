@@ -11,6 +11,7 @@ from pathlib import Path
 
 from scrapers import ats_greenhouse, ats_lever, ats_ashby, ats_smartrecruiters, ats_bamboo, ats_breezy, ats_workable, ats_workday, ats_eightfold
 from scrapers._base import Job, ScraperError
+from log import log_error as _log_error
 
 WORKERS = 10
 
@@ -26,9 +27,7 @@ WINDOW_DAYS = 14
 
 
 def log_error(message: str) -> None:
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    with open(LOG_FILE, "a") as f:
-        f.write(f"[{ts}] fetch_jobs: {message}\n")
+    _log_error("fetch_jobs", message, LOG_FILE)
 
 SCRAPERS = {
     "greenhouse": ats_greenhouse.scrape,

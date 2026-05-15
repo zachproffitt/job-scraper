@@ -12,8 +12,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
+from log import log_error as _log_error
+
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
+LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
 
 # Set LLM_BACKEND=ollama to use local Ollama instead of Claude API
 BACKEND = os.environ.get("LLM_BACKEND", "claude")
@@ -241,8 +244,6 @@ def parse_response(text: str) -> dict:
     return result
 
 
-LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
-
 # Token bucket rate limiter — stays under the 50k input tokens/minute org limit.
 # Estimate per request: ~1500 tokens (cached system prompt counts at 10% = 250,
 # plus ~1250 average user message). Target 48k/min to leave headroom.
@@ -274,9 +275,7 @@ def _acquire_rate_limit() -> None:
 
 
 def log_error(message: str) -> None:
-    ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    with open(LOG_FILE, "a") as f:
-        f.write(f"[{ts}] classify_jobs: {message}\n")
+    _log_error("classify_jobs", message, LOG_FILE)
 
 
 def call_claude(system: str, user_message: str) -> str:
