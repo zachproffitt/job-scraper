@@ -31,6 +31,23 @@ _LOCATION_CODES = frozenset({
     "ES","PL","JP","KR","BR","MX","IE","HK","AE","IN",
 })
 
+_US_STATES = {
+    "AL": "Alabama", "AK": "Alaska", "AZ": "Arizona", "AR": "Arkansas",
+    "CA": "California", "CO": "Colorado", "CT": "Connecticut", "DE": "Delaware",
+    "FL": "Florida", "GA": "Georgia", "HI": "Hawaii", "ID": "Idaho",
+    "IL": "Illinois", "IN": "Indiana", "IA": "Iowa", "KS": "Kansas",
+    "KY": "Kentucky", "LA": "Louisiana", "ME": "Maine", "MD": "Maryland",
+    "MA": "Massachusetts", "MI": "Michigan", "MN": "Minnesota", "MS": "Mississippi",
+    "MO": "Missouri", "MT": "Montana", "NE": "Nebraska", "NV": "Nevada",
+    "NH": "New Hampshire", "NJ": "New Jersey", "NM": "New Mexico", "NY": "New York",
+    "NC": "North Carolina", "ND": "North Dakota", "OH": "Ohio", "OK": "Oklahoma",
+    "OR": "Oregon", "PA": "Pennsylvania", "RI": "Rhode Island", "SC": "South Carolina",
+    "SD": "South Dakota", "TN": "Tennessee", "TX": "Texas", "UT": "Utah",
+    "VT": "Vermont", "VA": "Virginia", "WA": "Washington", "WV": "West Virginia",
+    "WI": "Wisconsin", "WY": "Wyoming", "DC": "D.C.",
+}
+_STATE_RE = re.compile(r',\s*\b(' + '|'.join(_US_STATES) + r')\b')
+
 
 def slugify(text: str) -> str:
     return re.sub(r"[^a-z0-9-]", "-", text.lower()).strip("-")
@@ -86,15 +103,17 @@ def group_render_hash(base_title: str, jobs: list[dict], first_cl: dict) -> str:
 
 
 def clean_location(location: str, is_remote: bool) -> str:
-    """Strip 'remote'/'hybrid' from location string when the tag is already shown."""
-    if not is_remote or not location:
+    """Strip 'remote'/'hybrid' noise and expand US state abbreviations."""
+    if not location:
         return location
-    cleaned = re.sub(r"\bremote[\s-]friendly\b", "", location, flags=re.I)
-    cleaned = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", cleaned, flags=re.I)
-    cleaned = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", cleaned, flags=re.I)
-    cleaned = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", cleaned, flags=re.I)
-    cleaned = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", cleaned, flags=re.I)
-    return cleaned.strip().strip("-").strip(",").strip("|").strip()
+    if is_remote:
+        location = re.sub(r"\bremote[\s-]friendly\b", "", location, flags=re.I)
+        location = re.sub(r"\s*\(\s*(?:remote|hybrid)\s*\)", "", location, flags=re.I)
+        location = re.sub(r"\s*[-–,|]\s*(?:remote|hybrid)\b", "", location, flags=re.I)
+        location = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", location, flags=re.I)
+        location = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", location, flags=re.I)
+        location = location.strip().strip("-").strip(",").strip("|").strip()
+    return _STATE_RE.sub(lambda m: f", {_US_STATES[m.group(1)]}", location)
 
 
 def format_date(iso: str | None) -> str | None:
