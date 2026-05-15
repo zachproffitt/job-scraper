@@ -15,8 +15,10 @@ COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies_classified.j
 COMPANIES_DOMAINS_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 
 HASH_MARKER = "render_hash: "
-FORMAT_VERSION = "15"  # bump to force re-render of all files
+FORMAT_VERSION = "16"  # bump to force re-render of all files
 SKILL_COLOR = "3B82F6"
+REMOTE_BADGE = '<img src="https://img.shields.io/badge/Remote-22C55E?style=flat-square" align="absmiddle">'
+HYBRID_BADGE = '<img src="https://img.shields.io/badge/Hybrid-F59E0B?style=flat-square" align="absmiddle">'
 
 
 def slugify(text: str) -> str:
@@ -158,9 +160,9 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
     if level:
         detail_parts.append(f"`{level.capitalize()}`")
     if remote_str == "Remote":
-        detail_parts.append("`Remote`")
+        detail_parts.append(REMOTE_BADGE)
     elif is_hybrid:
-        detail_parts.append("`Hybrid`")
+        detail_parts.append(HYBRID_BADGE)
     elif remote_str == "On-site":
         detail_parts.append("On-site")
     if comp:
@@ -170,7 +172,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
 
     logo = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>&ensp;' if domain else ""
     company_line = f"{logo}**{job['company']}**"
-    meta_line = (company_line + "  \n" + " · ".join(detail_parts)) if detail_parts else company_line
+    meta_line = (company_line + " · " + " · ".join(detail_parts)) if detail_parts else company_line
 
     lines = meta_lines + [
         "",
