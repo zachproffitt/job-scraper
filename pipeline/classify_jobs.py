@@ -243,6 +243,35 @@ def parse_response(text: str) -> dict:
 
 LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
 
+# Token bucket rate limiter — stays under the 50k input tokens/minute org limit.
+# Estimate per request: ~1500 tokens (cached system prompt counts at 10% = 250,
+# plus ~1250 average user message). Target 48k/min to leave headroom.
+_RATE_LIMIT_TOKENS_PER_MIN = 48_000
+_TOKENS_PER_REQUEST = 1_500
+_rate_lock = threading.Lock()
+_rate_tokens = float(_RATE_LIMIT_TOKENS_PER_MIN)
+_rate_last_refill = time.monotonic()
+
+
+def _acquire_rate_limit() -> None:
+    global _rate_tokens, _rate_last_refill
+    with _rate_lock:
+        now = time.monotonic()
+        elapsed = now - _rate_last_refill
+        _rate_tokens = min(
+            float(_RATE_LIMIT_TOKENS_PER_MIN),
+            _rate_tokens + elapsed / 60.0 * _RATE_LIMIT_TOKENS_PER_MIN,
+        )
+        _rate_last_refill = now
+        if _rate_tokens < _TOKENS_PER_REQUEST:
+            wait = (_TOKENS_PER_REQUEST - _rate_tokens) / (_RATE_LIMIT_TOKENS_PER_MIN / 60.0)
+            _rate_tokens = 0.0
+        else:
+            _rate_tokens -= _TOKENS_PER_REQUEST
+            wait = 0.0
+    if wait > 0:
+        time.sleep(wait)
+
 
 def log_error(message: str) -> None:
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
@@ -254,6 +283,7 @@ def call_claude(system: str, user_message: str) -> str:
     import anthropic
     client = anthropic.Anthropic()
     for attempt in range(5):
+        _acquire_rate_limit()
         try:
             response = client.messages.create(
                 model=CLAUDE_MODEL,

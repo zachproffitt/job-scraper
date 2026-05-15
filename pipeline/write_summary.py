@@ -28,11 +28,51 @@ def main():
 
     total_companies = sum(by_ats.values())
 
-    # Count from the live rolling window, not the full classification cache
+    # Count from the live rolling window, not the full classification cache.
+    # Apply the same filters as render_jobs.py so counts match the README.
     raw_jobs_path = DATA_DIR / "jobs_raw.json"
     raw_jobs = json.loads(raw_jobs_path.read_text()) if raw_jobs_path.exists() else []
-    engineering = [j for j in raw_jobs if classified.get(j["id"], {}).get("is_engineering")]
-    new_today = [j for j in engineering if j.get("first_seen") == today]
+
+    import re
+    _LOC_CODES = frozenset({
+        "AL","AK","AZ","AR","CA","CO","CT","DE","FL","GA","HI","ID","IL","IN","IA",
+        "KS","KY","LA","ME","MD","MA","MI","MN","MS","MO","MT","NE","NV","NH","NJ",
+        "NM","NY","NC","ND","OH","OK","OR","PA","RI","SC","SD","TN","TX","UT","VT",
+        "VA","WA","WV","WI","WY","DC","USA","UK","GB","DE","FR","AU","SG","NL","SE",
+        "CH","ES","PL","JP","KR","BR","MX","IE","HK","AE","IN",
+    })
+    def _base_title(title: str) -> str:
+        m = re.search(
+            r'\s*[-–]\s*[A-Z][a-zA-Z]+(?:\s+[A-Z][a-zA-Z]+)*,\s+([A-Z]{2,3})(?:,\s+[A-Z]{2,3})?\s*$',
+            title,
+        )
+        return title[:m.start()].strip() if m and m.group(1) in _LOC_CODES else title
+
+    renderable = [
+        j for j in raw_jobs
+        if classified.get(j["id"], {}).get("is_engineering") is True
+        and not classified.get(j["id"], {}).get("is_contract", False)
+        and classified.get(j["id"], {}).get("region", "unclear") in ("us", "canada", "unclear")
+    ]
+    # Deduplicate multi-city postings the same way render_jobs.py does
+    seen_groups: set[tuple[str, str]] = set()
+    engineering = []
+    for j in renderable:
+        key = (j["company"], _base_title(j["title"]))
+        if key not in seen_groups:
+            seen_groups.add(key)
+            engineering.append(j)
+
+    new_today = [j for j in renderable if j.get("first_seen") == today]
+    # Deduplicate new_today by group too
+    seen_new: set[tuple[str, str]] = set()
+    new_today_deduped = []
+    for j in new_today:
+        key = (j["company"], _base_title(j["title"]))
+        if key not in seen_new:
+            seen_new.add(key)
+            new_today_deduped.append(j)
+    new_today = new_today_deduped
 
     log_path = DATA_DIR / "pipeline.log"
     log_lines = []
