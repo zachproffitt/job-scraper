@@ -164,7 +164,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
             lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")
-                apply = f' · <a href="{j["url"]}" target="_blank">Apply →</a>' if j.get("url") else ""
+                apply = f" · [Apply →]({j['url']})" if j.get("url") else ""
                 lines.append(f"_{j['summary']}{apply}_")
             if j["skills"]:
                 lines.append("")

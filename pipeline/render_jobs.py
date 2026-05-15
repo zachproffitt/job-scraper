@@ -219,7 +219,7 @@ def render_job(job: dict, classification: dict, company_summary: str | None, dom
 
     date_label = f"Posted {pretty_date(posted)}" if posted else f"First seen {pretty_first_seen(first_seen, first_seen_at)}"
     lines += [f"<sub>{date_label}</sub>", ""]
-    apply_link = f'**<a href="{job["url"]}" target="_blank">→ Apply</a>**'
+    apply_link = f"**[→ Apply]({job['url']})**"
     lines += [apply_link, ""]
 
     if raw_text:
@@ -300,7 +300,7 @@ def render_job_group(base_title: str, jobs: list[dict], classified: dict[str, di
     meta_line = (company_line + " · " + " · ".join(detail_parts)) if detail_parts else company_line
 
     apply_links = "\n".join(
-        f'- **<a href="{url}" target="_blank">{loc or "Apply"} →</a>**' for loc, url in city_entries
+        f"- **[{loc or 'Apply'} →]({url})**" for loc, url in city_entries
     )
 
     lines = meta_lines + ["", f"# {base_title}", "", meta_line, ""]
