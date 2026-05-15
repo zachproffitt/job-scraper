@@ -4270,5 +4270,50 @@
     "slug": "xairatherapeutics",
     "name": "Xaira",
     "summary": "Xaira develops AI-powered software for drug discovery and development, focusing on analyzing biological data to accelerate the identification and optimization of therapeutic candidates."
+  },
+  {
+    "slug": "chainalysis-careers",
+    "name": "Chainalysis",
+    "summary": "Chainalysis provides blockchain analysis software and intelligence services that help financial institutions, government agencies, and cryptocurrency exchanges detect and prevent illicit activity such as money laundering, sanctions evasion, and fraud on public blockchains."
+  },
+  {
+    "slug": "trm-labs",
+    "name": "TRM Labs",
+    "summary": "TRM Labs provides blockchain intelligence and financial crime compliance software that helps cryptocurrency exchanges, financial institutions, and other digital asset platforms detect and prevent money laundering, fraud, and illicit activity."
+  },
+  {
+    "slug": "paxos",
+    "name": "Paxos",
+    "summary": "Paxos provides blockchain infrastructure and financial services that enable institutions to issue, transfer, and settle digital assets like stablecoins and tokenized securities on public blockchains."
+  },
+  {
+    "slug": "rain",
+    "name": "Rain Neuromorphics",
+    "summary": "Rain Neuromorphics develops neuromorphic computing processors that mimic biological brain structures to perform AI inference tasks with significantly lower power consumption than traditional GPUs. The company targets edge computing and embedded AI applications where energy efficiency and real-time processing are critical requirements."
+  },
+  {
+    "slug": "span",
+    "name": "Span",
+    "summary": "Span builds hardware and software to intelligently manage distributed energy resources like solar panels, batteries, and electric vehicle chargers at the home level, helping homeowners optimize energy use and reduce costs."
+  },
+  {
+    "slug": "Jasper AI",
+    "name": "Jasper",
+    "summary": "Jasper is an AI writing platform that helps marketing teams and enterprises generate content at scale, including copy for ads, emails, social media, and web pages. The company serves businesses in marketing, sales, and content creation who need to produce high-quality written content efficiently."
+  },
+  {
+    "slug": "commure",
+    "name": "Commure",
+    "summary": "Commure builds cloud-based software that connects healthcare providers' electronic health record systems with patient engagement and communication tools, enabling practices to streamline workflows and improve patient interactions across multiple communication channels."
+  },
+  {
+    "slug": "Hamming AI",
+    "name": "Hamming AI",
+    "summary": "Hamming AI develops AI-powered code review and software quality tools that analyze pull requests and codebases to identify bugs, security vulnerabilities, and performance issues before they reach production."
+  },
+  {
+    "slug": "trussworksinc",
+    "name": "Truss",
+    "summary": "Truss builds payment infrastructure and software solutions for logistics and supply chain companies, enabling them to manage complex payment workflows, vendor payments, and financial operations within their operations."
   }
 ]

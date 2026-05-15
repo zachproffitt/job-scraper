@@ -40206,5 +40206,60 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "12ade211"
+  },
+  "greenhouse-wayve-8551825002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fb2aea58"
+  },
+  "greenhouse-pinterest-7423679": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "11e7f65e"
+  },
+  "greenhouse-spacex-8525735002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$130,000-$180,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b65e6bf3"
+  },
+  "lever-palantir-ba8fdce3-7f60-45f6-8323-d74cc18c4320": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "944da169"
   }
 }
