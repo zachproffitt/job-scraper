@@ -45219,5 +45219,46 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "fc798afd"
+  },
+  "greenhouse-ibkr-8550074002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "3d2c2585"
+  },
+  "ashby-chainalysis-careers-a44d04f1-1e0b-497b-bbae-54c37c7f02bc": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "02213e75"
+  },
+  "ashby-chainalysis-careers-48e5de6c-bb60-4733-b04f-6d69dee49c97": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0626a4a1"
   }
 }
