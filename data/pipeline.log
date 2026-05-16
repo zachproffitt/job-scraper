@@ -1,139 +1,308 @@
-[2026-05-16T05:16:21Z] fetch_jobs: scraper error for Allscripts (workday/veradigm/wd12/VR): Workday request failed for veradigm/wd12/VR: Redirect response '303 See Other' for url 'https://veradigm.wd12.myworkdayjobs.com/wday/cxs/veradigm/VR/jobs'
+[2026-05-16T07:00:26Z] fetch_jobs: scraper error for Adobe (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: Redirect response '303 See Other' for url 'https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:16:24Z] fetch_jobs: scraper error for BigCommerce (workday/bigcommerce/wd12/Commerce): Workday request failed for bigcommerce/wd12/Commerce: Redirect response '303 See Other' for url 'https://bigcommerce.wd12.myworkdayjobs.com/wday/cxs/bigcommerce/Commerce/jobs'
+[2026-05-16T07:00:26Z] fetch_jobs: scraper error for AeroVironment (workday/avav/wd1/AVAV): Workday request failed for avav/wd1/AVAV: Redirect response '303 See Other' for url 'https://avav.wd1.myworkdayjobs.com/wday/cxs/avav/AVAV/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:16:32Z] fetch_jobs: scraper error for CoreLogic (workday/cotality/wd115/Global): Workday request failed for cotality/wd115/Global: Redirect response '303 See Other' for url 'https://cotality.wd115.myworkdayjobs.com/wday/cxs/cotality/Global/jobs'
+[2026-05-16T07:00:26Z] fetch_jobs: scraper error for Allscripts (workday/veradigm/wd12/VR): Workday request failed for veradigm/wd12/VR: Redirect response '303 See Other' for url 'https://veradigm.wd12.myworkdayjobs.com/wday/cxs/veradigm/VR/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:16:38Z] fetch_jobs: scraper error for Elemica (workday/elemica/wd501/Elemica_Careers): Workday request failed for elemica/wd501/Elemica_Careers: Redirect response '303 See Other' for url 'https://elemica.wd501.myworkdayjobs.com/wday/cxs/elemica/Elemica_Careers/jobs'
+[2026-05-16T07:00:27Z] fetch_jobs: scraper error for Altus Group (workday/altusgroup/wd3/AltusGroup): Workday request failed for altusgroup/wd3/AltusGroup: Redirect response '303 See Other' for url 'https://altusgroup.wd3.myworkdayjobs.com/wday/cxs/altusgroup/AltusGroup/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:17:15Z] fetch_jobs: scraper error for Rappi (workday/rappi/wd12/Rappi_jobs): Workday request failed for rappi/wd12/Rappi_jobs: Redirect response '303 See Other' for url 'https://rappi.wd12.myworkdayjobs.com/wday/cxs/rappi/Rappi_jobs/jobs'
+[2026-05-16T07:00:27Z] fetch_jobs: scraper error for Anthem Health (workday/elevancehealth/wd1/ANT): Workday request failed for elevancehealth/wd1/ANT: Redirect response '303 See Other' for url 'https://elevancehealth.wd1.myworkdayjobs.com/wday/cxs/elevancehealth/ANT/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:17:35Z] fetch_jobs: scraper error for Slack (workday/salesforce/wd12/Slack): Workday request failed for salesforce/wd12/Slack: Redirect response '303 See Other' for url 'https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/Slack/jobs'
+[2026-05-16T07:00:29Z] fetch_jobs: scraper error for Baker Hughes (workday/bakerhughes/wd5/BakerHughes): Workday request failed for bakerhughes/wd5/BakerHughes: Redirect response '303 See Other' for url 'https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:17:40Z] fetch_jobs: scraper error for Teladoc Health (workday/teladoc/wd503/teladochealth_is_hiring): Workday request failed for teladoc/wd503/teladochealth_is_hiring: Redirect response '303 See Other' for url 'https://teladoc.wd503.myworkdayjobs.com/wday/cxs/teladoc/teladochealth_is_hiring/jobs'
+[2026-05-16T07:00:29Z] fetch_jobs: scraper error for BigCommerce (workday/bigcommerce/wd12/Commerce): Workday request failed for bigcommerce/wd12/Commerce: Redirect response '303 See Other' for url 'https://bigcommerce.wd12.myworkdayjobs.com/wday/cxs/bigcommerce/Commerce/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:17:47Z] fetch_jobs: scraper error for Veradigm (workday/veradigm/wd12/VR): Workday request failed for veradigm/wd12/VR: Redirect response '303 See Other' for url 'https://veradigm.wd12.myworkdayjobs.com/wday/cxs/veradigm/VR/jobs'
+[2026-05-16T07:00:30Z] fetch_jobs: scraper error for Bonterra (workday/bonterra/wd1/bonterratech): Workday request failed for bonterra/wd1/bonterratech: Redirect response '303 See Other' for url 'https://bonterra.wd1.myworkdayjobs.com/wday/cxs/bonterra/bonterratech/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:17:50Z] fetch_jobs: scraper error for Wisk Aero (workday/wisk/wd108/Wisk_Careers): Workday request failed for wisk/wd108/Wisk_Careers: Redirect response '303 See Other' for url 'https://wisk.wd108.myworkdayjobs.com/wday/cxs/wisk/Wisk_Careers/jobs'
+[2026-05-16T07:00:30Z] fetch_jobs: scraper error for Boeing Defense, Space & Security (workday/boeing/wd1/EXTERNAL_CAREERS): Workday request failed for boeing/wd1/EXTERNAL_CAREERS: Redirect response '303 See Other' for url 'https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs'
 Redirect location: 'https://community.workday.com/maintenance-page'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
-[2026-05-16T05:17:52Z] fetch_jobs: scraper error for Airweave (ashby/Airweave): Ashby request failed for Airweave: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Airweave'
+[2026-05-16T07:00:30Z] fetch_jobs: scraper error for Booz Allen Hamilton (workday/bah/wd1/BAH_Jobs): Workday request failed for bah/wd1/BAH_Jobs: Redirect response '303 See Other' for url 'https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:30Z] fetch_jobs: scraper error for Boston Dynamics (workday/bostondynamics/wd1/Boston_Dynamics): Workday request failed for bostondynamics/wd1/Boston_Dynamics: Redirect response '303 See Other' for url 'https://bostondynamics.wd1.myworkdayjobs.com/wday/cxs/bostondynamics/Boston_Dynamics/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:31Z] fetch_jobs: scraper error for BrowserStack (workday/browserstack/wd3/External): Workday request failed for browserstack/wd3/External: Redirect response '303 See Other' for url 'https://browserstack.wd3.myworkdayjobs.com/wday/cxs/browserstack/External/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:32Z] fetch_jobs: scraper error for Cityblock Health (workday/cityblockhealth/wd1/CityblockExternalCareerSite): Workday request failed for cityblockhealth/wd1/CityblockExternalCareerSite: Redirect response '303 See Other' for url 'https://cityblockhealth.wd1.myworkdayjobs.com/wday/cxs/cityblockhealth/CityblockExternalCareerSite/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:33Z] fetch_jobs: scraper error for Clearpath Robotics (workday/rockwellautomation/wd1/External_Rockwell_Automation): Workday request failed for rockwellautomation/wd1/External_Rockwell_Automation: Redirect response '303 See Other' for url 'https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External_Rockwell_Automation/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:33Z] fetch_jobs: scraper error for Cloudera (workday/cloudera/wd5/External_Career): Workday request failed for cloudera/wd5/External_Career: Redirect response '303 See Other' for url 'https://cloudera.wd5.myworkdayjobs.com/wday/cxs/cloudera/External_Career/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:34Z] fetch_jobs: scraper error for CrowdStrike (workday/crowdstrike/wd5/crowdstrikecareers): Workday request failed for crowdstrike/wd5/crowdstrikecareers: Redirect response '303 See Other' for url 'https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:35Z] fetch_jobs: scraper error for Darktrace (workday/darktrace/wd3/DarktaceExternal): Workday request failed for darktrace/wd3/DarktaceExternal: Redirect response '303 See Other' for url 'https://darktrace.wd3.myworkdayjobs.com/wday/cxs/darktrace/DarktaceExternal/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:35Z] fetch_jobs: scraper error for Delphi (workday/phinia/wd5/PHINIA_Careers): Workday request failed for phinia/wd5/PHINIA_Careers: Redirect response '303 See Other' for url 'https://phinia.wd5.myworkdayjobs.com/wday/cxs/phinia/PHINIA_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:36Z] fetch_jobs: scraper error for Demisto (workday/paloaltonetworks/wd5/panwexternalcareers): Workday request failed for paloaltonetworks/wd5/panwexternalcareers: Redirect response '303 See Other' for url 'https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:36Z] fetch_jobs: scraper error for Devoted Health (workday/devoted/wd1/Devoted): Workday request failed for devoted/wd1/Devoted: Redirect response '303 See Other' for url 'https://devoted.wd1.myworkdayjobs.com/wday/cxs/devoted/Devoted/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:37Z] fetch_jobs: scraper error for Elemica (workday/elemica/wd501/Elemica_Careers): Workday request failed for elemica/wd501/Elemica_Careers: Redirect response '303 See Other' for url 'https://elemica.wd501.myworkdayjobs.com/wday/cxs/elemica/Elemica_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:38Z] fetch_jobs: scraper error for F5 Networks (workday/ffive/wd5/f5jobs): Workday request failed for ffive/wd5/f5jobs: Redirect response '303 See Other' for url 'https://ffive.wd5.myworkdayjobs.com/wday/cxs/ffive/f5jobs/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:39Z] fetch_jobs: scraper error for Frame.io (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: Redirect response '303 See Other' for url 'https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:43Z] fetch_jobs: scraper error for Inari Medical (workday/inarimedical/wd5/inarimedical): Workday request failed for inarimedical/wd5/inarimedical: Redirect response '303 See Other' for url 'https://inarimedical.wd5.myworkdayjobs.com/wday/cxs/inarimedical/inarimedical/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:44Z] fetch_jobs: scraper error for Intel (workday/intel/wd1/External): Workday request failed for intel/wd1/External: Redirect response '303 See Other' for url 'https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:47Z] fetch_jobs: scraper error for Manhattan Associates (workday/manh/wd5/External): Workday request failed for manh/wd5/External: Redirect response '303 See Other' for url 'https://manh.wd5.myworkdayjobs.com/wday/cxs/manh/External/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:47Z] fetch_jobs: scraper error for Mach Industries (workday/luminegrp/wd3/TOMIA): Workday request failed for luminegrp/wd3/TOMIA: Redirect response '303 See Other' for url 'https://luminegrp.wd3.myworkdayjobs.com/wday/cxs/luminegrp/TOMIA/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:48Z] fetch_jobs: scraper error for Maxar Technologies (workday/maxar/wd1/Vantor): Workday request failed for maxar/wd1/Vantor: Redirect response '303 See Other' for url 'https://maxar.wd1.myworkdayjobs.com/wday/cxs/maxar/Vantor/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:48Z] fetch_jobs: scraper error for Moderna (workday/modernatx/wd1/M_tx): Workday request failed for modernatx/wd1/M_tx: Redirect response '303 See Other' for url 'https://modernatx.wd1.myworkdayjobs.com/wday/cxs/modernatx/M_tx/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:50Z] fetch_jobs: scraper error for Nvidia (workday/nvidia/wd5/NVIDIAExternalCareerSite): Workday request failed for nvidia/wd5/NVIDIAExternalCareerSite: Redirect response '303 See Other' for url 'https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:51Z] fetch_jobs: scraper error for Palo Alto Networks (workday/paloaltonetworks/wd5/panwexternalcareers): Workday request failed for paloaltonetworks/wd5/panwexternalcareers: Redirect response '303 See Other' for url 'https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:52Z] fetch_jobs: scraper error for Philips Hue (workday/lighting/wd3/jobs-and-careers): Workday request failed for lighting/wd3/jobs-and-careers: Redirect response '303 See Other' for url 'https://lighting.wd3.myworkdayjobs.com/wday/cxs/lighting/jobs-and-careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:54Z] fetch_jobs: scraper error for Rackspace (workday/rackspace/wd1/External): Workday request failed for rackspace/wd1/External: Redirect response '303 See Other' for url 'https://rackspace.wd1.myworkdayjobs.com/wday/cxs/rackspace/External/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:54Z] fetch_jobs: scraper error for Rappi (workday/rappi/wd12/Rappi_jobs): Workday request failed for rappi/wd12/Rappi_jobs: Redirect response '303 See Other' for url 'https://rappi.wd12.myworkdayjobs.com/wday/cxs/rappi/Rappi_jobs/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:55Z] fetch_jobs: scraper error for Rancher (workday/suse/wd3/Jobsatsuse): Workday request failed for suse/wd3/Jobsatsuse: Redirect response '303 See Other' for url 'https://suse.wd3.myworkdayjobs.com/wday/cxs/suse/Jobsatsuse/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:56Z] fetch_jobs: scraper error for Reonomy (workday/altusgroup/wd3/AltusGroup): Workday request failed for altusgroup/wd3/AltusGroup: Redirect response '303 See Other' for url 'https://altusgroup.wd3.myworkdayjobs.com/wday/cxs/altusgroup/AltusGroup/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:56Z] fetch_jobs: scraper error for RingCentral (workday/ringcentral/wd1/RingCentral_Careers): Workday request failed for ringcentral/wd1/RingCentral_Careers: Redirect response '303 See Other' for url 'https://ringcentral.wd1.myworkdayjobs.com/wday/cxs/ringcentral/RingCentral_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:57Z] fetch_jobs: scraper error for Rockwell Automation (workday/rockwellautomation/wd1/External_Rockwell_Automation): Workday request failed for rockwellautomation/wd1/External_Rockwell_Automation: Redirect response '303 See Other' for url 'https://rockwellautomation.wd1.myworkdayjobs.com/wday/cxs/rockwellautomation/External_Rockwell_Automation/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:58Z] fetch_jobs: scraper error for Sailpoint (workday/sailpoint/wd1/SailPoint): Workday request failed for sailpoint/wd1/SailPoint: Redirect response '303 See Other' for url 'https://sailpoint.wd1.myworkdayjobs.com/wday/cxs/sailpoint/SailPoint/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:59Z] fetch_jobs: scraper error for Sensormatic Electronics (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: Redirect response '303 See Other' for url 'https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:59Z] fetch_jobs: scraper error for Samsung R&D (workday/sec/wd3/Samsung_Careers): Workday request failed for sec/wd3/Samsung_Careers: Redirect response '303 See Other' for url 'https://sec.wd3.myworkdayjobs.com/wday/cxs/sec/Samsung_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:00:59Z] fetch_jobs: scraper error for ServiceTitan (workday/servicetitan/wd1/ServiceTitan): Workday request failed for servicetitan/wd1/ServiceTitan: Redirect response '303 See Other' for url 'https://servicetitan.wd1.myworkdayjobs.com/wday/cxs/servicetitan/ServiceTitan/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:00Z] fetch_jobs: scraper error for Slack (workday/salesforce/wd12/Slack): Workday request failed for salesforce/wd12/Slack: Redirect response '303 See Other' for url 'https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/Slack/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:01Z] fetch_jobs: scraper error for Sonder (workday/sonder/wd1/Join_Sonder): Workday request failed for sonder/wd1/Join_Sonder: Redirect response '303 See Other' for url 'https://sonder.wd1.myworkdayjobs.com/wday/cxs/sonder/Join_Sonder/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:04Z] fetch_jobs: scraper error for Sunrun (workday/sunrun/wd5/Sunrun_Careers): Workday request failed for sunrun/wd5/Sunrun_Careers: Redirect response '303 See Other' for url 'https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:06Z] fetch_jobs: scraper error for Teladoc Health (workday/teladoc/wd503/teladochealth_is_hiring): Workday request failed for teladoc/wd503/teladochealth_is_hiring: Redirect response '303 See Other' for url 'https://teladoc.wd503.myworkdayjobs.com/wday/cxs/teladoc/teladochealth_is_hiring/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:07Z] fetch_jobs: scraper error for Trimble (workday/trimble/wd1/TrimbleCareers): Workday request failed for trimble/wd1/TrimbleCareers: Redirect response '303 See Other' for url 'https://trimble.wd1.myworkdayjobs.com/wday/cxs/trimble/TrimbleCareers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:08Z] fetch_jobs: scraper error for Tempus AI (workday/tempus/wd5/Tempus_Careers): Workday request failed for tempus/wd5/Tempus_Careers: Redirect response '303 See Other' for url 'https://tempus.wd5.myworkdayjobs.com/wday/cxs/tempus/Tempus_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:08Z] fetch_jobs: scraper error for Vantor (workday/maxar/wd1/Vantor): Workday request failed for maxar/wd1/Vantor: Redirect response '303 See Other' for url 'https://maxar.wd1.myworkdayjobs.com/wday/cxs/maxar/Vantor/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:08Z] fetch_jobs: scraper error for Veradigm (workday/veradigm/wd12/VR): Workday request failed for veradigm/wd12/VR: Redirect response '303 See Other' for url 'https://veradigm.wd12.myworkdayjobs.com/wday/cxs/veradigm/VR/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:08Z] fetch_jobs: scraper error for Verily (workday/verily/wd1/Verily_Careers): Workday request failed for verily/wd1/Verily_Careers: Redirect response '303 See Other' for url 'https://verily.wd1.myworkdayjobs.com/wday/cxs/verily/Verily_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:10Z] fetch_jobs: scraper error for Wisk Aero (workday/wisk/wd108/Wisk_Careers): Workday request failed for wisk/wd108/Wisk_Careers: Redirect response '303 See Other' for url 'https://wisk.wd108.myworkdayjobs.com/wday/cxs/wisk/Wisk_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:10Z] fetch_jobs: scraper error for Workday (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: Redirect response '303 See Other' for url 'https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Activepieces (bamboo/documentation): BambooHR request failed for documentation: Client error '404 Not Found' for url 'https://documentation.bamboohr.com/careers/list'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:52Z] fetch_jobs: scraper error for Activepieces (bamboo/documentation): BambooHR request failed for documentation: Client error '404 Not Found' for url 'https://documentation.bamboohr.com/careers/list'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for ABL Space Systems (lever/ablspacesystems): Lever request failed for ablspacesystems: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ablspacesystems?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:52Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Akili Interactive (greenhouse/akiliinteractive): Greenhouse request failed for akiliinteractive: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/akiliinteractive/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:52Z] fetch_jobs: scraper error for Athelas (ashby/Commure-Athelas): Ashby request failed for Commure-Athelas: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Commure-Athelas'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Ascend.io (ashby/ascend-io): Ashby request failed for ascend-io: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/ascend-io'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:52Z] fetch_jobs: scraper error for Ascend.io (ashby/ascend-io): Ashby request failed for ascend-io: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/ascend-io'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:53Z] fetch_jobs: scraper error for BambooHR (bamboo/www): BambooHR request failed for www: Client error '403 Forbidden' for url 'https://www.bamboohr.com/careers/list'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for BambooHR (bamboo/www): BambooHR request failed for www: Client error '403 Forbidden' for url 'https://www.bamboohr.com/careers/list'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-16T05:17:53Z] fetch_jobs: scraper error for ABL Space Systems (lever/ablspacesystems): Lever request failed for ablspacesystems: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/ablspacesystems?mode=json'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Athelas (ashby/Commure-Athelas): Ashby request failed for Commure-Athelas: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Commure-Athelas'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:53Z] fetch_jobs: scraper error for Blue Onion (ashby/Blue): Ashby request failed for Blue: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Blue'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Airweave (ashby/Airweave): Ashby request failed for Airweave: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Airweave'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for BuildZoom (lever/buildzoom): Lever request failed for buildzoom: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/buildzoom?mode=json'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for BuildZoom (lever/buildzoom): Lever request failed for buildzoom: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/buildzoom?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for Buildxact (greenhouse/buildxact): Greenhouse request failed for buildxact: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/buildxact/jobs'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Airbus Helicopters (workday/ag/wd3/Airbus): Workday request failed for ag/wd3/Airbus: Redirect response '303 See Other' for url 'https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Cargo (greenhouse/airbyte): Greenhouse request failed for airbyte: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/airbyte/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for Cargo (greenhouse/airbyte): Greenhouse request failed for airbyte: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/airbyte/jobs'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Circular (greenhouse/nowcircular): Greenhouse request failed for nowcircular: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nowcircular/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for Circular (greenhouse/nowcircular): Greenhouse request failed for nowcircular: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/nowcircular/jobs'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Blue Onion (ashby/Blue): Ashby request failed for Blue: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Blue'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for Common Paper (greenhouse/commonpaper): Greenhouse request failed for commonpaper: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/commonpaper/jobs'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Common Paper (greenhouse/commonpaper): Greenhouse request failed for commonpaper: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/commonpaper/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for Copy.ai (lever/CopyAI): Lever request failed for CopyAI: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/CopyAI?mode=json'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Aveva (workday/aveva/wd3/AVEVA_careers): Workday request failed for aveva/wd3/AVEVA_careers: Redirect response '303 See Other' for url 'https://aveva.wd3.myworkdayjobs.com/wday/cxs/aveva/AVEVA_careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Copy.ai (lever/CopyAI): Lever request failed for CopyAI: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/CopyAI?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:54Z] fetch_jobs: scraper error for Coris (ashby/coris): Ashby request failed for coris: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/coris'
+[2026-05-16T07:01:11Z] fetch_jobs: scraper error for Coris (ashby/coris): Ashby request failed for coris: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/coris'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Demodesk (greenhouse/demodesk): Greenhouse request failed for demodesk: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/demodesk/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Demodesk (greenhouse/demodesk): Greenhouse request failed for demodesk: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/demodesk/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Deno (ashby/Deno): Ashby request failed for Deno: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Deno'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for DirectShifts (greenhouse/directshifts): Greenhouse request failed for directshifts: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/directshifts/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for DirectShifts (greenhouse/directshifts): Greenhouse request failed for directshifts: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/directshifts/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Divvy Homes (greenhouse/divvyhomes): Greenhouse request failed for divvyhomes: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/divvyhomes/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Divvy Homes (greenhouse/divvyhomes): Greenhouse request failed for divvyhomes: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/divvyhomes/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Eppo (ashby/eppo): Ashby request failed for eppo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/eppo'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Buildxact (greenhouse/buildxact): Greenhouse request failed for buildxact: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/buildxact/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for G2 (greenhouse/g2crowd): Greenhouse request failed for g2crowd: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/g2crowd/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Goldbelly (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Deno (ashby/Deno): Ashby request failed for Deno: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Deno'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Gordian Software (ashby/Gordian): Ashby request failed for Gordian: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gordian'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Goldbelly (greenhouse/goldbelly): Greenhouse request failed for goldbelly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/goldbelly/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Gradia Health (ashby/Gradia): Ashby request failed for Gradia: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gradia'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Green Canopy NODE (greenhouse/greencanopy): Greenhouse request failed for greencanopy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/greencanopy/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Green Canopy NODE (greenhouse/greencanopy): Greenhouse request failed for greencanopy: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/greencanopy/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Gerald Technologies, Inc (lever/joingerald): Lever request failed for joingerald: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/joingerald?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:55Z] fetch_jobs: scraper error for Gerald Technologies, Inc (lever/joingerald): Lever request failed for joingerald: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/joingerald?mode=json'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Gordian Software (ashby/Gordian): Ashby request failed for Gordian: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gordian'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:56Z] fetch_jobs: scraper error for HitPay (ashby/hitpayapp.com): Ashby request failed for hitpayapp.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/hitpayapp.com'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Gradia Health (ashby/Gradia): Ashby request failed for Gradia: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Gradia'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:56Z] fetch_jobs: scraper error for Jasper.ai (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Jasper.ai (ashby/Jasper): Ashby request failed for Jasper: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Jasper'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:56Z] fetch_jobs: scraper error for Kajabi (greenhouse/kajabi): Greenhouse request failed for kajabi: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/kajabi/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Juniper Networks (workday/hpe/wd5/Jobsathpe): Workday request failed for hpe/wd5/Jobsathpe: Redirect response '303 See Other' for url 'https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for Kajabi (greenhouse/kajabi): Greenhouse request failed for kajabi: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/kajabi/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:57Z] fetch_jobs: scraper error for LineLeap (greenhouse/lineleap): Greenhouse request failed for lineleap: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/lineleap/jobs'
+[2026-05-16T07:01:12Z] fetch_jobs: scraper error for HitPay (ashby/hitpayapp.com): Ashby request failed for hitpayapp.com: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/hitpayapp.com'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:58Z] fetch_jobs: scraper error for Markaz Technologies (bamboo/markaztechnologies): BambooHR request failed for markaztechnologies: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for LineLeap (greenhouse/lineleap): Greenhouse request failed for lineleap: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/lineleap/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Meltano (greenhouse/meltano): Greenhouse request failed for meltano: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/meltano/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Mavenir (workday/mavenir/wd1/Mavenir_Careers): Workday request failed for mavenir/wd1/Mavenir_Careers: Redirect response '303 See Other' for url 'https://mavenir.wd1.myworkdayjobs.com/wday/cxs/mavenir/Mavenir_Careers/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for BlackBerry QNX (workday/bb/wd3/BlackBerry): Workday request failed for bb/wd3/BlackBerry: Redirect response '303 See Other' for url 'https://bb.wd3.myworkdayjobs.com/wday/cxs/bb/BlackBerry/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Mezmo (greenhouse/logdna): Greenhouse request failed for logdna: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logdna/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Markaz Technologies (bamboo/markaztechnologies): BambooHR request failed for markaztechnologies: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-16T05:17:58Z] fetch_jobs: scraper error for Meltano (greenhouse/meltano): Greenhouse request failed for meltano: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/meltano/jobs'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for ModernLoop (greenhouse/modernloop): Greenhouse request failed for modernloop: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/modernloop/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:58Z] fetch_jobs: scraper error for Mezmo (greenhouse/logdna): Greenhouse request failed for logdna: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/logdna/jobs'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Motion (ashby/motion): Ashby request failed for motion: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/motion'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:58Z] fetch_jobs: scraper error for Minicor (ashby/Laminar): Ashby request failed for Laminar: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Laminar'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for LexisNexis (workday/relx/wd3/LexisNexisLegal): Workday request failed for relx/wd3/LexisNexisLegal: Redirect response '303 See Other' for url 'https://relx.wd3.myworkdayjobs.com/wday/cxs/relx/LexisNexisLegal/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Minicor (ashby/Laminar): Ashby request failed for Laminar: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Laminar'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:58Z] fetch_jobs: scraper error for Motion (ashby/motion): Ashby request failed for motion: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/motion'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Optery (ashby/optery): Ashby request failed for optery: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/optery'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:59Z] fetch_jobs: scraper error for ModernLoop (greenhouse/modernloop): Greenhouse request failed for modernloop: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/modernloop/jobs'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Northrop Grumman (eightfold/jobs.northropgrumman.com|northropgrumman.com): Eightfold request failed for jobs.northropgrumman.com|northropgrumman.com: Client error '404 NOT FOUND' for url 'https://jobs.northropgrumman.com/api/pcsx/search?domain=northropgrumman.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:59Z] fetch_jobs: scraper error for Optery (ashby/optery): Ashby request failed for optery: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/optery'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for PTC (workday/ptc/wd1/PTC): Workday request failed for ptc/wd1/PTC: Redirect response '303 See Other' for url 'https://ptc.wd1.myworkdayjobs.com/wday/cxs/ptc/PTC/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for Rainforest (lever/rainforest): Lever request failed for rainforest: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/rainforest?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:17:59Z] fetch_jobs: scraper error for Northrop Grumman (eightfold/jobs.northropgrumman.com|northropgrumman.com): Eightfold request failed for jobs.northropgrumman.com|northropgrumman.com: Client error '404 NOT FOUND' for url 'https://jobs.northropgrumman.com/api/pcsx/search?domain=northropgrumman.com&start=0&num=20'
+[2026-05-16T07:01:13Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:00Z] fetch_jobs: scraper error for Quantropi (bamboo/quantropi): BambooHR request failed for quantropi: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Quantropi (bamboo/quantropi): BambooHR request failed for quantropi: Client error '403 Forbidden' for url 'https://www.bamboohr.com'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-16T05:18:00Z] fetch_jobs: scraper error for Rainforest (lever/rainforest): Lever request failed for rainforest: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/rainforest?mode=json'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Relativity (workday/kcura/wd1/External_Career_Site): Workday request failed for kcura/wd1/External_Career_Site: Redirect response '303 See Other' for url 'https://kcura.wd1.myworkdayjobs.com/wday/cxs/kcura/External_Career_Site/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Rakuten Symphony (workday/rakuten/wd1/RakutenRewards): Workday request failed for rakuten/wd1/RakutenRewards: Redirect response '303 See Other' for url 'https://rakuten.wd1.myworkdayjobs.com/wday/cxs/rakuten/RakutenRewards/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Scope AR (lever/scopear): Lever request failed for scopear: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scopear?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:01Z] fetch_jobs: scraper error for SandboxAQ (greenhouse/sandboxaq): Greenhouse request failed for sandboxaq: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/sandboxaq/jobs'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Seam (greenhouse/seam): Greenhouse request failed for seam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/seam/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:01Z] fetch_jobs: scraper error for Scope AR (lever/scopear): Lever request failed for scopear: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/scopear?mode=json'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Secoda (ashby/Secoda): Ashby request failed for Secoda: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Secoda'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:02Z] fetch_jobs: scraper error for Secoda (ashby/Secoda): Ashby request failed for Secoda: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/Secoda'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:02Z] fetch_jobs: scraper error for Seam (greenhouse/seam): Greenhouse request failed for seam: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/seam/jobs'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for SwiftSku (greenhouse/swiftsku): Greenhouse request failed for swiftsku: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/swiftsku/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:02Z] fetch_jobs: scraper error for Segment (eightfold/jobs.twilio.com|segment.com): Eightfold request failed for jobs.twilio.com|segment.com: Client error '404 NOT FOUND' for url 'https://jobs.twilio.com/api/pcsx/search?domain=segment.com&start=0&num=20'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Segment (eightfold/jobs.twilio.com|segment.com): Eightfold request failed for jobs.twilio.com|segment.com: Client error '404 NOT FOUND' for url 'https://jobs.twilio.com/api/pcsx/search?domain=segment.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:03Z] fetch_jobs: scraper error for Superhuman (greenhouse/grammarly): Greenhouse request failed for grammarly: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/grammarly/jobs'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Sonos (workday/sonos/wd1/Sonos): Workday request failed for sonos/wd1/Sonos: Redirect response '303 See Other' for url 'https://sonos.wd1.myworkdayjobs.com/wday/cxs/sonos/Sonos/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Thomson Reuters (workday/thomsonreuters/wd5/External_Career_Site): Workday request failed for thomsonreuters/wd5/External_Career_Site: Redirect response '303 See Other' for url 'https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Tourlane (greenhouse/tourlanegmbh): Greenhouse request failed for tourlanegmbh: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tourlanegmbh/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:03Z] fetch_jobs: scraper error for SwiftSku (greenhouse/swiftsku): Greenhouse request failed for swiftsku: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/swiftsku/jobs'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for TrueNorth (greenhouse/truenorth): Greenhouse request failed for truenorth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/truenorth/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:03Z] fetch_jobs: scraper error for sync. (ashby/sync.so): Ashby request failed for sync.so: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/sync.so'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for THEOplayer (eightfold/jobs.dolby.com|theoplayer.com): Eightfold request failed for jobs.dolby.com|theoplayer.com: Client error '404 NOT FOUND' for url 'https://jobs.dolby.com/api/pcsx/search?domain=theoplayer.com&start=0&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:04Z] fetch_jobs: scraper error for THEOplayer (eightfold/jobs.dolby.com|theoplayer.com): Eightfold request failed for jobs.dolby.com|theoplayer.com: Client error '404 NOT FOUND' for url 'https://jobs.dolby.com/api/pcsx/search?domain=theoplayer.com&start=0&num=20'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for sync. (ashby/sync.so): Ashby request failed for sync.so: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/sync.so'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:04Z] fetch_jobs: scraper error for Tourlane (greenhouse/tourlanegmbh): Greenhouse request failed for tourlanegmbh: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/tourlanegmbh/jobs'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Visa (workday/visa/wd5/Visa): Workday request failed for visa/wd5/Visa: Redirect response '303 See Other' for url 'https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Tydo (ashby/tydo): Ashby request failed for tydo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/tydo'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:05Z] fetch_jobs: scraper error for TrueNorth (greenhouse/truenorth): Greenhouse request failed for truenorth: Client error '404 Not Found' for url 'https://boards-api.greenhouse.io/v1/boards/truenorth/jobs'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Wordware (ashby/wordware.ai): Ashby request failed for wordware.ai: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/wordware.ai'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:05Z] fetch_jobs: scraper error for Tydo (ashby/tydo): Ashby request failed for tydo: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/tydo'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Yummy (lever/yummysuperapp): Lever request failed for yummysuperapp: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/yummysuperapp?mode=json'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:07Z] fetch_jobs: scraper error for Willow (ashby/willowvoice): Ashby request failed for willowvoice: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/willowvoice'
+[2026-05-16T07:01:14Z] fetch_jobs: scraper error for Trend Micro (workday/trendmicro/wd3/External): Workday request failed for trendmicro/wd3/External: Redirect response '303 See Other' for url 'https://trendmicro.wd3.myworkdayjobs.com/wday/cxs/trendmicro/External/jobs'
+Redirect location: 'https://community.workday.com/maintenance-page'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/303
+[2026-05-16T07:01:15Z] fetch_jobs: scraper error for Willow (ashby/willowvoice): Ashby request failed for willowvoice: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/willowvoice'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:07Z] fetch_jobs: scraper error for Wordware (ashby/wordware.ai): Ashby request failed for wordware.ai: Client error '404 Not Found' for url 'https://api.ashbyhq.com/posting-api/job-board/wordware.ai'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:08Z] fetch_jobs: scraper error for Yummy (lever/yummysuperapp): Lever request failed for yummysuperapp: Client error '404 Not Found' for url 'https://api.lever.co/v0/postings/yummysuperapp?mode=json'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
-[2026-05-16T05:18:20Z] fetch_jobs: scraper error for Visa (workday/visa/wd5/Visa): Workday request failed for visa/wd5/Visa: Server error '502 Bad Gateway' for url 'https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
