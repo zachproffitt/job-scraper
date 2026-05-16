@@ -44123,7 +44123,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "300a9707"
+    "source_hash": "1728c13d"
   },
   "greenhouse-vardaspace-7736286003": {
     "is_engineering": false,
@@ -45095,5 +45095,55 @@
       "equity"
     ],
     "source_hash": "0449cfd5"
+  },
+  "greenhouse-roblox-7928938": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "70e9025e"
+  },
+  "ashby-pika-d3993c91-4dd5-4868-8108-4e9b78133e7b": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Palo Alto, CA / Remote",
+    "job_summary": "Design and build foundational multimodal language models (LLMs, VLMs, Audio LMs) and agentic orchestration systems for real-time creative generation across text, image, video, and audio. Work on diffusion model distillation, real-time inference optimization, and large-scale multimodal dataset curation for production-ready generative AI platforms.",
+    "skills": [
+      "PyTorch",
+      "TensorFlow",
+      "Python",
+      "Diffusion Models",
+      "Vision-Language Models",
+      "Large Language Models",
+      "Autoregressive Models",
+      "Dataset Curation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1e4381ff"
+  },
+  "ashby-pika-ae4967cd-faf5-4e54-948b-b6ad3b8dd0a0": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aa2d12da"
   }
 }
