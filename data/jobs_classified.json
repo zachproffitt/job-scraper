@@ -45184,5 +45184,40 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "b2d17976"
+  },
+  "greenhouse-toast-7744477": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build enterprise Salesforce solutions on the Sales Cloud and CPQ platform using Apex, Lightning Web Components, and Flows. Work in a hybrid environment with a team focused on deployment quality and architectural best practices.",
+    "skills": [
+      "Salesforce Platform",
+      "Apex",
+      "Lightning Web Components",
+      "Salesforce CPQ",
+      "Salesforce Sales Cloud",
+      "GitHub",
+      "Agile/Scrum",
+      "REST APIs"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "17460fcb"
+  },
+  "workable-weekday-1-F2B18C989A": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fc798afd"
   }
 }
