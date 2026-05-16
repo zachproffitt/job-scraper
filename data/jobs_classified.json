@@ -45043,5 +45043,41 @@
       "equity"
     ],
     "source_hash": "be55f627"
+  },
+  "ashby-fieldguide-872e8499-56da-4a4c-88b9-a5e987aac456": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": "Design and build Fieldguide's core platform services, APIs, and shared primitives that power product surfaces and AI agents across SaaS, enterprise single-tenant, and government-cloud environments. Lead technical standards and architecture decisions across multiple teams while mentoring senior engineers.",
+    "skills": [
+      "AWS",
+      "Kubernetes",
+      "Distributed Systems",
+      "API Design",
+      "Cloud Architecture",
+      "LLM Integration",
+      "AI Agent Frameworks"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e2c085f5"
+  },
+  "lever-EnergyVault-8a344b45-3175-40ca-9ceb-db4b843daca3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1067dbbf"
   }
 }
