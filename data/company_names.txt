@@ -22,12 +22,14 @@
 2U Inc | 2u.com
 37signals | 37signals.com
 42 | 42technologies.com
+5G Americas | 5gamericas.org
 6 River Systems | 6riversystems.com
 64x Bio | www.64xbio.com
 6sense | 6sense.com
 7AI | seven-ai.com
 7cups | 7cups.com
 80,000 Hours | 80000hours.org
+8th Wall | 8thwall.com
 8x8 | 8x8.com
 9 Mothers | 9mothers.com
 99minutos | 99minutos.com
@@ -84,6 +86,8 @@ Adobe | adobe.com
 ADP | adp.com
 Adravision | www.adra.ai
 Adri AI | www.getadri.ai
+AdRoll | adroll.com
+Advanced Metal Research | advancedmetalresearch.com
 Advano | www.advano.io
 Advantage Club | www.advantageclub.co
 Adventris Pharmaceuticals | adventris.com
@@ -101,6 +105,7 @@ Aether | www.tryaether.co
 Affil.ai | affil.ai
 Affinity | itsaffinity.com
 Affirm | affirm.com
+Affirmed Networks | affirmednetworks.com
 Affogato AI | affogato.ai
 Afriex | www.afriexapp.com
 Aftercare | getaftercare.com
@@ -124,6 +129,7 @@ AgentRouter | www.agentrouter.to
 AgileMD | agilemd.com
 Agility Robotics | agilityrobotics.com
 Aglide | aglide.com
+Agnostiq | agnostiq.ai
 Agoda | agoda.com
 Agones | agones.dev
 Agrible | agrible.com
@@ -139,6 +145,7 @@ Aios Medical | www.fellahealth.com
 AiPrise | aiprise.com
 Air Company | aircompany.com
 Airbnb | airbnb.com
+Airbus Helicopters | airbus.com
 Airbyte | airbyte.com
 AirCaps | aircaps.com
 Airfordable | www.airfordable.com
@@ -190,6 +197,8 @@ AlgoTest | algotest.in
 AlgoUniversity | algouniversity.com
 AlgoViral | algoviral.com
 Alguna | alguna.com
+Alibaba Cloud | alibabacloud.com
+Alibaba | alibaba.com
 Alice & Bob | alice-bob.com
 Alice.tech | www.alice.tech
 Alima | alima.la
@@ -237,6 +246,7 @@ Ambral | www.ambral.com
 Ambri | ambri.com
 Amby Health | tryamby.com
 AMD | amd.com
+Amdocs | amdocs.com
 Amenli | www.amenli.com
 Amera | amerahealthsolutions.com
 Amika | www.amika.dev
@@ -290,6 +300,7 @@ AOA Dx | www.aoadx.com
 AON3D | www.aon3d.com
 Apache Software Foundation (Cassandra, HBase, CouchDB) | apache.org
 Apache Spark (Databricks) | spark.apache.org
+Apartments.com | apartments.com
 Apero Health | www.aperohealth.com
 Apex | apexspace.com
 Apian | apian.com
@@ -307,11 +318,13 @@ Apple TV+ | tv.apple.com
 Apple | apple.com
 Applied Intuition | appliedintuition.com
 Apply Design | www.applydesign.io
+Appnexus | appnexus.com
 Apprentice Health | www.apprenticehealth.com
 Approxima | approxima.ai
 AppsFlyer | appsflyer.com
 Apptronik | apptronik.com
 AppX | appx.co.in
+Apriso | apriso.com
 AptDeco | www.aptdeco.com
 Apten | www.apten.ai
 Aptiv | aptiv.com
@@ -323,6 +336,7 @@ Aqua | www.investwithaqua.com
 Ara | ara.so
 Aragorn AI | www.aragorn.ai
 Aravolta | www.aravolta.com
+Arbitrum | arbitrum.io
 ARC Prize Foundation | arcprize.org
 Arc | www.joinarc.com
 Arcadia Power | arcadia.com
@@ -372,6 +386,7 @@ Array Labs | www.arraylabs.io
 Arrow | www.arrowcheckout.com
 Arrowhead Game Studios | arrowheadgamestudios.com
 Artemis Search | search-artemis.com
+Articulate | articulate.com
 Artie | www.artie.com
 Artifact | www.artifact.engineer
 Artificial Societies | societies.io
@@ -396,6 +411,7 @@ Asimov | tryasimov.ai
 AskMyClass, now Soundkins | soundkins.com
 Aspect | aspect.app
 Aspect | aspect.inc
+Aspen Technology | aspentech.com
 Aspire | aspireapp.com
 Aspora | aspora.com
 Assembly HOA | assemblyhoa.com
@@ -451,6 +467,7 @@ Auctor | getauctor.com
 AudioFocus | audiofocus.io
 AuditBoard | auditboard.com
 Augment Code | augmentcode.com
+Augmento AI | augmento.ai
 Augury | augury.com
 Aura Vision | auravision.ai
 Aurabeat | www.aurabeattech.com
@@ -483,12 +500,15 @@ Autumn | useautumn.com
 Auxos | www.useauxos.com
 Ava Finance | ava-finance.com
 Avalanche Studios | avalanchestudios.com
+Avalara | avalara.com
 Avallon AI | www.avallon.ai
 Avelios | avelios.com
 Avelis Health | avelishealth.com
+Avelon | avelon.io
 Aven | aven.com
 Avent | www.aventindustrial.com
 AveryIQ | callavery.com
+Aveva | aveva.com
 Avi Networks | avi-networks.com
 AviaryAI | www.helloaviary.ai
 Aviator | aviator.co
@@ -511,9 +531,11 @@ Awtomic | www.awtomic.com
 Axal | www.axal.ai
 AXAR AI | www.axar.ai
 Axiamatic | axiamatic.com
+Axiom Logistics | axiomlogistics.com
 Axiom Space | axiomspace.com
 Axiom | axiom.trade
 Axiom.ai | axiom.ai
+Axion Legal | axionlegal.com
 AxionOrbital Space | axionorbital.space
 Axis | axis.xyz
 Axis | axisanalysis.com
@@ -529,6 +551,7 @@ Backdrop | www.joinbackdrop.com
 BackerKit | backerkit.com
 Backpack | backpackbang.com
 BAE Systems | baesystems.com
+Baidu Apollo | apollo.auto
 Baidu Maps | baidu.com
 Baker Hughes | bakerhughes.com
 Bakool | www.bakool.id
@@ -641,6 +664,7 @@ Bits | www.getbits.app
 Bitstack | www.bitstack-app.com
 Bizzy AI | www.usebizzy.com
 Black Knight | blackknightinc.com
+BlackBerry QNX | blackberry.com
 Blackboard | blackboard.com
 BlackSky | blacksky.com
 Blacksmith | blacksmith.sh
@@ -746,10 +770,12 @@ Brickanta | www.brickanta.com
 Brickwise | www.brickwiseai.com
 Bridge | bridge.com
 BridgeBio | bridgebio.com
+Bright Genomics | brightgenomics.com
 Bright | www.thinkbright.mx
 Brightcove | brightcove.com
 Brighterway | www.brighterway.ai
 Brightspace | brightspace.com
+Brilliant | brilliant.org
 BrioHR | briohr.com
 Bristle | bristlehealth.com
 Brite | britebenefits.com
@@ -758,6 +784,7 @@ Broadcom | broadcom.com
 Broccoli AI | www.broccoli.com
 Bron | askbron.ai
 Bronco AI | www.bronco.ai
+Brookfield Renewable | brookfieldrenewable.com
 Brown Foods | unrealmilk.com
 Browser Use | browser-use.com
 BrowserOS | BrowserOS.com
@@ -796,6 +823,7 @@ BuyPower | www.buypower.ng
 Bystreet | www.bystreet.com
 Byteport | byteport.com
 C16 Biosciences | www.c16bio.com
+C3 Metrics | c3metrics.com
 C4 Therapeutics | c4therapeutics.com
 Caavo | caavo.com
 Cabal | getcabal.com
@@ -823,6 +851,7 @@ Camber | www.camber.health
 Cambio | www.cambio.ai
 CambioML | energent.ai
 Cambly | www.cambly.com
+Cambridge Quantum Computing | cambridgequantum.com
 camelAI | camelai.com
 camfer | www.camfer.dev
 Camlist | www.camlist.com
@@ -840,6 +869,7 @@ Canix | www.canix.com
 Canonical | canonical.com
 Canopy (was Encarte) | www.heycanopy.com
 Canva | canva.com
+Canvas LMS | canvaslms.com
 Canvas | www.canvas.inc
 Capacitive | capacitive.ai
 Cape Analytics | capeanalytics.com
@@ -875,6 +905,7 @@ CareOasis | www.thecareoasis.com
 CareSwift | www.careswift.com
 Caretta | www.caretta.so
 Cargo | getcargo.io
+CARIAD | cariad.technology
 Caribou | usecaribou.com
 Carma | www.joincarma.com
 Carousel Technologies | usecarousel.com
@@ -884,8 +915,10 @@ Carson | usecarson.com
 Carta | carta.com
 Cartage | cartage.ai
 CARTO | carto.com
+CartoDB | cartodb.com
 Cartpanda | cartpanda.com
 Cartpole | cartpole.com
+Casa Systems | casa.com
 Casca | www.cascading.ai
 Cascade Space | cascade.space
 Cascade | runcascade.com
@@ -903,6 +936,7 @@ CatchBack Cards | catchbackcards.com
 Catena Biosciences | www.catenabiosciences.com
 Cato Networks | catonetworks.com
 CB Therapeutics | www.cbthera.com
+CCP Games | ccpgames.com
 CD Projekt Red | cdprojektred.com
 Cedalio | cedalio.com
 Cedana | cedana.ai
@@ -994,6 +1028,7 @@ Cirq (Google) | quantumai.google
 Cisco | cisco.com
 Cisterna Biologics | www.cisternabx.com
 Citadel Securities | citadel-securities.com
+Citadel | citadel.com
 Citizen | citizen.com
 Cityblock Health | cityblock.com
 Cityfurnish | cityfurnish.com
@@ -1142,11 +1177,13 @@ Community Phone Company | www.communityphone.org
 Commure | commure.com
 Compass | compass.com
 Complete | complete.so
+Compliance.ai | compliance.ai
 compliant-llm | www.compliantllm.com
 Complif | complif.com
 Complir | complir.io
 ComplyDo | www.complydo.io
 Compose.ai | compose.ai
+Compound Labs | compound.finance
 Compra Rápida | www.comprarapida.co
 Compresr | compresr.ai
 Compulsion Games | compulsiongames.com
@@ -1179,7 +1216,9 @@ Conta Simples | contasimples.com
 Contalink | www.contalink.com
 ContextFort | contextfort.ai
 Contextual AI | contextual.ai
+Continental | continental.com
 Continue | continue.dev
+Contract Logix | contractlogix.com
 ContraForce | www.contraforce.com
 Contrario | contrario.ai
 Contrast Security | contrastsecurity.com
@@ -1218,6 +1257,7 @@ Corvus Insurance | corvusinsurance.com
 Corvus Robotics | www.corvus-robotics.com
 Cosine | www.cosine.sh
 Cosmic | www.cosmicjs.com
+CoStar Group | costargroup.com
 CoStar | costar.com
 Costream | www.costream.ai
 Cotera | cotera.co
@@ -1253,11 +1293,14 @@ Cresta | cresta.com
 Crew | crew.work
 Cribl | cribl.io
 Crimson | crimson.law
+Criteo | criteo.com
+Critical Manufacturing | criticalmanufacturing.com
 CropIn | cropin.com
 Crosby | crosby.com
 Crosslayer Labs | www.crosslayerlabs.com
 Crouton | usecrouton.com
 Crow | www.usecrow.ai
+CrowdSec | crowdsec.net
 CrowdStrike | crowdstrike.com
 CrowdVolt | crowdvolt.com
 Cruise | cruise.com
@@ -1285,6 +1328,7 @@ Curo | www.curocharging.com
 Curri | www.curri.com
 Cursor | cursor.com
 Curtsy | curtsyapp.com
+Curve Finance | curve.fi
 Curvenote | curvenote.com
 Customer.io | customer.io
 Customily | www.customily.com
@@ -1301,6 +1345,7 @@ D-ID | www.d-id.com
 d-Matrix | d-matrix.ai
 D-Orbit | d-orbit.com
 D-Wave Systems | dwavesys.com
+D2L Brightspace | d2l.com
 d_model | www.dmodel.ai
 Daedalus | daedalus.de
 Dagger | dagger.io
@@ -1311,6 +1356,7 @@ Dailymotion | dailymotion.com
 DailyPay | dailypay.com
 DAIVIN! | www.daivin.tech
 Dalus | dalus.io
+Danfoss Power Solutions | danfoss.com
 dari.dev | dari.dev
 Darkgrade | darkgrade.com
 Darktrace | darktrace.com
@@ -1321,6 +1367,7 @@ Dart | www.dartai.com
 Dartboard Energy | dartboardenergy.com
 Dashlabs.ai | dashlabs.ai
 Dashlane | dashlane.com
+Dassault Systèmes | 3ds.com
 Data Driven Bioscience | datadrivenbioscience.com
 Databricks | databricks.com
 DataCamp | datacamp.com
@@ -1378,6 +1425,7 @@ DeepSource | deepsource.com
 Deeptrace | deeptrace.com
 Delee | www.delee.co
 Delfino AI | www.delfino.ai
+Delinea | delinea.com
 Delineate | delineate.pro
 Delphi | delphi.com
 Delphix | delphix.com
@@ -1412,6 +1460,7 @@ Dex | getdex.com
 Dex | joindex.com
 Dexter | www.getdexter.co
 Dextrous Robotics | dextrousrobotics.com
+DHL | dhl.com
 Dialpad | dialpad.com
 Diana | getdiana.com
 DICE | dice.se
@@ -1464,6 +1513,7 @@ DocVita | docvita.com
 Dodo | www.dodo.ai
 Doe | doe.so
 Dojah Inc | www.dojah.io
+Dolby | dolby.com
 Dolls Kill | dolls-kill.com
 Dollyglot | www.dollyglot.com
 Domino Data Lab | domino-data-lab.com
@@ -1475,6 +1525,7 @@ DoorDash | doordash.com
 Doppler | doppler.com
 Dost Education | www.dosteducation.com
 Dot | getdot.ai
+Dotloop | dotloop.com
 Dots 💸 | usedots.com
 Double Fine Productions | doublefine.com
 Double Robotics | doublerobotics.com
@@ -1510,7 +1561,9 @@ Dropback | www.dropback.com
 Dropbox | dropbox.com
 Druva | druva.com
 DryMerge | www.drymerge.com
+DuckDuckGo Maps | duckduckgo.com
 Duckie | duckie.ai
+Dude Solutions | dudesnlutions.com
 Duffel | duffel.com
 Dumps | dumps.app
 Duolingo | duolingo.com
@@ -1519,7 +1572,9 @@ Duranium | www.duranium.co
 Durate | www.durate.com
 Durioo | www.durioo.com
 Dust | dust.com
+dYdX Trading | dydx.trade
 dYdX | dydx.exchange
+DynAdmic | dynamiclogic.com
 Dynamo AI | dynamo.ai
 Dynatrace | dynatrace.com
 Dyneti Technologies | www.dyneti.com
@@ -1534,6 +1589,7 @@ Eazipay Inc. | myeazipay.com
 eBay | ebay.com
 Ebb Carbon | ebbcarbon.com
 eBrandvalue | www.ebrandvalue.com
+Ebrevia | ebrevia.com
 Echoes HQ | echoeshq.com
 Eclipse Foods | www.eclipsefoods.com
 Ecliptor | ecliptor.ai
@@ -1546,15 +1602,18 @@ Eden | edenmed.com
 Edexia | www.edexia.com
 Edge | withedge.com
 EdgeTrace | edgetrace.ai
+Edgio | edg.io
 Edmodo | edmodo.com
 Edra | edra.com
 Educato | www.educato.com
 EduRev | edurev.in
 EDX Markets | edx-markets.com
+edX | edx.org
 Edyst | edyst.com
 Efference | efference.ai
 EffiGov | effigov.com
 Eggnog | www.eggnog.ai
+Eggplant | eggplantdigital.com
 ego | egoai.com
 Eidos-Montréal | eidosmontreal.com
 EigenPal | www.eigenpal.com
@@ -1569,6 +1628,7 @@ Electric Air | www.electricair.io
 Electric Hydrogen | electrichydrogen.com
 ElectroNeek | electroneek.com
 Electronic Arts | ea.com
+Elektrobit | elektrobit.com
 Elemeno Health | elemenohealth.com
 Elementary | elementary-data.com
 Elemica | elemica.com
@@ -1647,6 +1707,7 @@ EquipmentShare | www.equipmentshare.com
 Equipt Health | www.equipthealth.com
 erad | erad.co
 Ergo | joinergo.com
+Ericsson | ericsson.com
 Eris Biotech | www.erisbio.com
 ErudiFi | www.erudifi.com
 Escape | escape.tech
@@ -1657,6 +1718,7 @@ Estimote, Inc. | estimote.com
 Estoca | www.estoca.com.br
 et al. | www.et-al.io
 Etched | etched.com
+Ethereum Foundation | ethereum.org
 Ethos | ethos-technologies.com
 EthosX | www.ethosx.finance
 Etleap | etleap.com
@@ -1680,6 +1742,7 @@ Evolvere BioSciences | www.evolverebiosciences.com
 Evoly | www.evolyenergy.com
 Evy | evy.com
 Exa | exa.ai
+Exabeam | exabeam.com
 Examedi | www.examedi.cl
 Excellence Learning | excellence-ai.com
 Excepgen | www.excepgen.com
@@ -1709,6 +1772,7 @@ Facebook | facebook.com
 Facio | www.facio.com.br
 FactIQ | factiq.com
 Factory | factory.ai
+Factrio | factrio.com
 Faire | www.faire.com
 fal | fal.com
 FamPay | fampay.in
@@ -1736,6 +1800,7 @@ Feast | feast.dev
 Feather | featherhq.com
 Fed10 | www.fed10.ai
 Federacy | www.federacy.com
+FedEx | fedex.com
 Female Invest | www.femaleinvest.com
 Fenrock AI | fenrock.ai
 FERMÀT | fermat.com
@@ -1748,6 +1813,7 @@ Fetch Robotics | fetchrobotics.com
 Fetchr | www.fetchr.so
 Fetii | www.fetii.com
 Fiber AI | www.fiber.ai
+Fibery | fibery.io
 Ficra | ficra.ai
 Fides | fides.com
 FidoCure® | www.fidocure.com
@@ -1789,6 +1855,7 @@ Fintual | fintual.com
 Finvest | www.getfinvest.com
 Fira | firaresearch.com
 Firaxis Games | firaxis.com
+Firebase | firebase.google.com
 Firebender | firebender.com
 Fireblocks | fireblocks.com
 Firecrawl | www.firecrawl.dev
@@ -1803,6 +1870,7 @@ FIRST | firstdelivery.com
 Firstbase.io | firstbase.io
 FirstSupport.ai | firstsupport.ai
 FirstWork | firstwork.com
+Fitbit | fitbit.com
 FitHub | www.fithub.com.co
 Fitia | fitia.app
 Fivetran | fivetran.com
@@ -1820,6 +1888,7 @@ Fleek | www.joinfleek.com
 Fleetline | fleetline.ai
 FleetWorks | fleetworks.ai
 Fleetzero | www.fleetzero.com
+Flex Legal | flexlegal.com
 Flex | www.withflex.com
 FlexDesk | www.flexdesk.com
 Flexport | flexport.com
@@ -1945,6 +2014,7 @@ FUTURA | futuralabs.io
 Future Fields | www.futurefields.io
 FutureAdvisor | futureadvisor.com
 FutureClinic | www.futureclinic.com
+FutureLand | futureland.ai
 Fynn | www.fynncredit.com
 G LNK | glnkco.com
 G2 | g2.com
@@ -1957,6 +2027,7 @@ Gale | galevisa.com
 Galen AI | www.galenai.com
 Galini | www.galini.ai
 Gamebytes | www.gamebytes.io
+Gamer Network (ESL) | eslgaming.com
 Gamesparks | aws.amazon.com/gamesparks
 Gamma | gamma.app
 Garage | www.shopgarage.com
@@ -1977,8 +2048,10 @@ Gem | www.gem.com
 Gemini | gemini.com
 Gemnote | gemnote.com
 GEn1E Lifesciences | www.gen1e.com
+GENBAND | genband.com
 Genecis Bio | www.genecis.co
 Genentech | genentech.com
+Generac | generac.com
 General Astronautics | generalastro.com
 General Aviation | generalaviation.com
 General Dynamics | gd.com
@@ -1991,6 +2064,7 @@ Generate Biomedicines | generatebiomedicines.com
 Generix Group | generixgroup.com
 Genomelink | genomelink.io
 Genuity | gogenuity.com
+Geodis | geodis.com
 Geostar | www.geostar.ai
 Gerald Technologies, Inc | www.joingerald.com
 GetAccept | www.getaccept.com
@@ -2040,6 +2114,7 @@ Glossier | glossier.com
 Glowing.io | www.glowing.io
 Glue | buildwithglue.com
 Gluetrail | www.gluetrail.com
+Gnosis | gnosischain.com
 Go1 | go1.com
 GOAT Group | www.goatgroup.com
 GoCardless | gocardless.com
@@ -2047,6 +2122,7 @@ Godela | godela.ai
 GodHands | godhands.dev
 GoFundMe | gofundme.com
 GoGoGrandparent | gogograndparent.com
+Gojek | gojek.com
 Gojiberry AI | www.gojiberry.ai
 GoJom | gojom.com
 Goldbelly | www.goldbelly.com
@@ -2058,6 +2134,7 @@ Golpo | video.golpoai.com
 Gong | gong.io
 Goodcover | www.goodcover.com
 goodfin | www.goodfin.com
+GoodRx | goodrx.com
 Google Cloud | cloud.google.com
 Google DeepMind | deepmind.google
 Google | google.com
@@ -2121,6 +2198,9 @@ Guide Labs | www.guidelabs.ai
 Guided Energy | guided-energy.com
 Guidepoint | guidepointsolutions.com
 Guild Education | guildeducation.com
+GUILD | www.guildai.co
+Guilded | guilded.gg
+Guilds of Guardians | guildsofguardians.com
 Gullak Money | gullak.money
 Gumloop | www.gumloop.com
 Gumroad | gumroad.com
@@ -2153,6 +2233,7 @@ Happl | happl.com
 HappyRobot | happyrobot.ai
 Harbera | harbera.com
 Harbor | runharbor.com
+Harman | harman.com
 Harmoney | www.harmoney.in
 Harmonic Discovery | harmonicdiscovery.com
 Harmonic | harmonic.com
@@ -2221,6 +2302,8 @@ Hestus, Inc. | www.hestus.co
 HEVN, inc | gethevn.com
 Hex Security | hex.co?utm_source=bookface&utm_medium=referral&utm_campaign=hex-security-profile
 Hex | hex.tech
+Hexa | www.hexaagents.com
+Hexagon | hexagonmi.com
 Hey Telo | www.heytelo.com
 HeyCharge | heycharge.com
 HeyClicky | heyclicky.com
@@ -2233,6 +2316,7 @@ hillclimb | hillclimb.com
 Hilton Hotels | hilton.com
 Hims & Hers | forhims.com
 Hindsight | www.usehindsight.com
+Hinge Health | hingehealth.com
 Hinge | hinge.co
 HiOperator | www.hioperator.com
 Hippo Scribe | gethipposcribe.com
@@ -2265,8 +2349,11 @@ hoop.dev | hoop.dev
 Hopper | hopper.com
 Horizon3 | horizon3.ai
 Hostaway | hostaway.com
+Hostelworld | hostelworld.com
 Hotels.com | hotels.com
+HotelTonight | hoteltonight.com
 hotglue | hotglue.com
+HotPads | hotpads.com
 Hotplate | www.hotplate.com
 Houm | houm.com
 Housemarque | housemarque.com
@@ -2275,6 +2362,7 @@ Housewarming | housewarming.me
 Houzz | houzz.com
 Howdy.com | www.howdy.com
 HTC Vive | vive.com
+Huawei | huawei.com
 Hub.xyz | hub.xyz
 Hubble Network | hubble.com
 Hubla | hub.la
@@ -2319,6 +2407,8 @@ HyperTrader | gethypertrader.com
 Hypotenuse AI | hypotenuse.ai
 Hyrex | www.hyrex.io
 Iambic Therapeutics | iambic-therapeutics.com
+iBASEt | ibaset.com
+IBM Cloud | ibm.com/cloud
 IBM Watson Health | ibm.com
 Icarus | www.icarus.one
 IcePanel | icepanel.io
@@ -2346,10 +2436,12 @@ IMT Care | www.imt.care
 Inari Agriculture | inari.com
 Inari Medical | inarimedical.com
 inBuild | www.inbuild.ai
+Incandor | www.incandor.com
 Incident.io | incident.io
 IncidentFox | incidentfox.ai
 Included Health | included-health.com
 Inconvo | inconvo.com
+Incorta | incorta.com
 Increase | increase.com
 Indee Labs | www.indeelabs.com
 Indemni | www.indemni.com
@@ -2378,6 +2470,7 @@ Infor | infor.com
 Informatica | informatica.com
 infra.new | infra.new
 Infracost | infracost.io
+Infura | infura.io
 Inito | www.inito.com
 Inkeep | inkeep.com
 Inkitt | inkitt.com
@@ -2453,6 +2546,7 @@ ion design | www.ion.design
 IonQ | ionq.com
 Ionworks | ionworks.com
 IoTFlows Inc | www.iotflows.com
+IQMS (Dassault Systèmes) | iqms.com
 Iris Automation | irisonboard.com
 Iris Labs | iris-labs.com
 iRobot | irobot.com
@@ -2475,8 +2569,10 @@ item | item.app
 Ivy Homes | ivy.homes
 JABU | www.gojabu.com
 Jaeger | jaegertracing.io
+Jagged Peak | jaggedpeak.com
 Jamble | www.jambleapp.com
 Jami | jami.net
+Jane Street | janestreet.com
 Janet AI | janet.ai
 Jarmin | jarmin.ai
 Jasper | jasper.ai
@@ -2494,6 +2590,7 @@ JetPack Aviation | www.jetpackaviation.com
 JFrog | jfrog.com
 Jiga | jiga.io
 Jinba | jinba.io
+JinTian | jintian.com
 Jitsi | jitsi.org
 Jitsu | jitsu.com
 Jitter | jitter.video
@@ -2511,6 +2608,7 @@ Juicebox | juicebox.ai
 Juicy Marbles | juicymarbles.com
 Julius | julius.ai
 Jumia | jumia.com
+Jump Crypto | jumpcrypto.com
 Jumpcut | www.jumpcut.com
 Junction Bioscience | www.junction.bio
 Junction | www.junction.com
@@ -2528,6 +2626,7 @@ JuziBot | www.juzibot.com
 JW Player | jwplayer.com
 K-Scale Labs | kscale.dev
 Kaagaz | kaagaz.app
+Kaarta | kaarta.com
 Kabilah | www.kabilah.com
 Kaelio | kaelio.com
 Kaigo Health | www.kaigohealth.ai
@@ -2536,6 +2635,7 @@ Kairos Power | kairospower.com
 Kairos | www.withkairos.co
 Kaiten | www.onkaiten.com
 Kaizen | kaizenautomation.com
+Kajabi | kajabi.com
 Kalam Labs | www.kalamlabs.in
 Kalinda | www.kalinda.ai
 Kalpa Labs | kalpalabs.ai
@@ -2562,15 +2662,18 @@ kater.ai | www.kater.ai
 Kavak | kavak.com
 Kaya | www.usekaya.com
 KAYAK | kayak.com
+Kayrros | kayrros.com
 Keboola | keboola.com
 Keen Technologies | keen-technologies.com
 Keeper Security | keepersecurity.com
 Keeper | keepertax.com
 Keet | trykeet.com
 Kela | kela.com
+Keller Williams | kw.com
 KemNet | kemnet.ca
 Kenley | kenley.ai
 Kenobi | kenobi.ai
+Kenshoo | kenshoo.com
 Kern Systems | www.kernsystems.com
 Kernal Biologics | www.kernalbio.com
 KERNEL | www.kernel.sh
@@ -2598,6 +2701,7 @@ Kingdom | kingdomsuperculture.com
 Kino AI | kino.ai
 Kinro | www.kinro.ai
 Kinter | kinter.ai
+Kira Systems | kirasystems.com
 Kirana AI | www.kirana-ai.com
 Kita | www.usekita.com
 Kite | kite.video
@@ -2627,7 +2731,9 @@ Kodiak Robotics | kodiak.ai
 Kodo | www.kodo.com
 Kojima Productions | kojimaproductions.jp
 Koko | kokocares.org
+Kolide | kolide.com
 Kombo | kombo.dev
+Kong | konghq.com
 Konta.com | konta.com
 Kontigo | kontigo.lat
 Kopra Bio | kopra.bio
@@ -2643,6 +2749,7 @@ Kredi | www.kredi.mx
 Krisp | krisp.ai
 Kronos | kronos.com
 Kubernetes (CNCF) | cncf.io
+Kubernetes | kubernetes.io
 KubeSail | kubesail.com
 KugelAudio | kugelaudio.com
 KUKA | kuka.com
@@ -2685,6 +2792,7 @@ Lapse | lapse.com
 lapzo | www.lapzo.com
 Larian Studios | larian.com
 Lark | getlark.ai
+lastminute.com | lastminute.com
 Latchel | latchel.com
 Latent Space | latentspace.sh
 Latent | latenthealth.com
@@ -2694,6 +2802,8 @@ Lattice | lattice.com
 LaunchDarkly | launchdarkly.com
 Laurence | laurence.com
 Lawdingo | lawdingo.com
+LawGain | lawgain.io
+Lawgeex | lawgeex.com
 Layerup | www.uselayerup.com
 LayerZero | layerzero.com
 Laylo | laylo.com
@@ -2716,6 +2826,8 @@ LegalOS | www.legalos.ai
 Legion Health | legionhealth.com
 Legionfarm | legionfarm.com
 Legit Security | legitsecurity.com
+Legitt | legitt.ai
+Legodesk | legodesk.com
 Legora | www.legora.com
 Leidos | leidos.com
 LemFi | lemfi.com
@@ -2738,12 +2850,15 @@ Level Frames | levelframes.com
 Lever | lever.co
 Levers | uselevers.com
 Levro | www.levro.com
+LexCheck | lexcheck.com
 Lexi | getlexi.io
+LexisNexis | lexisnexis.com
 Lexius | www.lexius.ai
 Lexter.ai | www.lexter.ai
 Lezzoo | lezzoo.com
 Librar Labs | www.librarlabs.com
 Libretto | libretto.sh
+Lido | lido.fi
 LifeAt | lifeat.com
 LifestyleRx | lifestylerx.io
 Light Anchor | lightanchor.ai
@@ -2767,15 +2882,18 @@ Lilac Solutions | lilac.solutions
 Lilac | getlilac.com
 Lilium | lilium.com
 Lilt | lilt.com
+Limelight Networks | llnw.com
 Linc. | www.linc-ai.com
 Linear | linear.app
 LineLeap | www.lineleap.com
 Lingo.dev | lingo.dev
 Lingt | www.lingt.com
 Linkana | www.linkana.com
+LinkedIn Learning | linkedin.com/learning
 LinkedIn | linkedin.com
 LinkExchange | linkexchange.com
 LinkGrep | linkgrep.com
+Linode | linode.com
 Linum | www.linum.ai
 Lio (formerly askLio) | www.lio.ai
 Lion Pose | www.lionpose.com
@@ -2799,6 +2917,7 @@ Livongo Health | livongo.com
 Lizza | lizza.link
 LlamaIndex | llamaindex.ai
 LLM Stats | llm-stats.com
+Loadsmart | loadsmart.com
 Lob | lob.com
 Locale | www.shoplocale.com
 Locata | www.locatahealth.com
@@ -2816,6 +2935,7 @@ Logility | logility.com
 LogisticsOS | logisticsos.com
 LogosGuard | logosguard.com
 Logz.io | logz.io
+Loio | loio.com
 Lokal | www.getlokalapp.com
 Lollipuff | lollipuff.com
 Long Term Stock Exchange | ltse.com
@@ -2856,6 +2976,7 @@ Lumetric | www.lumetric.ai
 Lumina | www.lumibot.com
 Luminai | www.luminai.com
 Luminal | luminal.com
+Luminance | luminance.com
 Luminate | www.luminatemed.com
 Lumius | www.lumius-imaging.com
 LunaBill | lunabill.com
@@ -2884,6 +3005,7 @@ Mage Legal | magelegal.com
 Magentic | magentic.com
 Magic Eden | magic-eden.com
 Magic Hour | magichour.ai
+Magic Labs | magic.link
 Magic Leap | magicleap.com
 Magic Loops | magicloops.dev
 Magic Patterns | www.magicpatterns.com
@@ -2892,6 +3014,7 @@ Magical | magical.com
 MagicBell | www.magicbell.com
 MagicBus | www.magicbus.io
 MagiCode | www.magicode.ai
+Magna Electronics | magna.com
 MagnaPlay | magnaplay.com
 Magnetic | www.magnetictax.com
 Magnitude | magnitude.dev
@@ -2907,6 +3030,8 @@ Maitai | trymaitai.com
 Maive | maive.ai
 Makani Science | makaniscience.net
 Makeasite | makeasite.io
+MakeMyTrip | makemytrip.com
+MakerDAO | makerdao.com
 Makrwatch | www.makrwatch.com
 Malama Health | www.heymalama.co
 Malga | malga.io
@@ -2917,6 +3042,7 @@ Mammoth Media | mammoth-media.com
 Manaflow | www.cmux.com
 Manara | www.manara.tech
 Mandel AI | www.mandel.ai
+Mandiant | mandiant.com
 Mandolin | mandolin.com
 Mango Medical | mangomedical.io
 MangoDesk | www.mangodesk.com
@@ -2930,11 +3056,13 @@ Manufact (formerly mcp-use) | manufact.com
 Mapbox | mapbox.com
 Mapillary | mapillary.com
 Maple Materials | maplematerials.com
+Maptiler | maptiler.com
 Mapzen | mapzen.com
 Maquoketa Research | www.maquoketa.net
 Marblism | marblism.com
 Margin | usemargin.com
 MariaDB | mariadb.com
+Marin Software | marinsoftware.com
 Maritime Fusion | maritimefusion.com
 Mark Cuban Cost Plus Drug Company, PBC | www.costplusdrugs.com
 Markaz Technologies | www.markaz.app
@@ -2955,6 +3083,7 @@ Marvell Technology | marvell.com
 Mashgin | mashgin.com
 Mason | www.bymason.com
 Massdriver | massdriver.cloud
+Mastercard | mastercard.com
 MasterClass | masterclass.com
 Mastodon | mastodon.social
 Mastra | mastra.ai
@@ -2976,6 +3105,7 @@ Matternet | matternet.co
 Matterport | matterport.com
 Maven Bio | mavenbio.com
 Maven | trymaven.com
+Mavenir | mavenir.com
 MaverickX | www.MaverickX.com
 Maxar Technologies | maxar.com
 Maximal | www.trymaximal.com
@@ -2986,6 +3116,7 @@ Mayflower | mayflowervisa.com
 Maywood | maywoodai.com
 Mbodi AI | www.mbodi.ai
 MBX | us.memebox.com
+McAfee | mcafee.com
 MDalgorithms Inc. | www.mdalgorithms.com
 mdhub | www.mdhub.ai
 MDLive | mdlive.com
@@ -2998,6 +3129,8 @@ Medallion | medallion.com
 MedCrypt | www.medcrypt.co
 Mederva | medervahealth.com
 Media Molecule | mediamolecule.com
+MediaKind | mediakind.com
+MediaMath | mediamath.com
 MediaTek | mediatek.com
 Medicare Vox (fka Fair Square) | www.medicarevox.com
 Medigram | medigram.com
@@ -3046,7 +3179,9 @@ Metabase | metabase.com
 Metal | metal.ai
 Metal | www.metal.so
 Metalware | www.metalware.com
+MetaMask (ConsenSys) | metamask.io
 Metaplane | metaplane.run
+Metaswitch Networks | metaswitch.com
 Meteor | browse.dev
 Meter Feeder | www.meterfeeder.com
 Meter | meter.com
@@ -3066,6 +3201,7 @@ Microchip Technology | microchip-technology.com
 Microhealth | microhealth.com
 Microsoft Azure | azure.microsoft.com
 Microsoft | microsoft.com
+Microstrategy | microstrategy.com
 Microverse | www.microverse.org
 MICSI | www.micsi.co
 Middesk | www.middesk.com
@@ -3091,10 +3227,12 @@ MindFort | www.mindfort.ai
 MindsDB | www.mindsdb.com
 Mindset Health | www.mindsethealth.com
 Mindstate Design Labs | mindstate.design
+Mindstrong Health | mindstrong.com
 Mindy | mindy.com
 Mine | usemine.com
 Mineflow | mineflow.ai
 Minerva | www.tryminerva.ai
+Miniclip | miniclip.com
 Minicor | minicor.com
 Miniloop | miniloop.ai
 Minimal AI | gominimal.ai
@@ -3106,6 +3244,7 @@ Mintlify | mintlify.com
 MinusX | minusx.ai
 Mio | m.io
 Miracle | www.miracleml.com
+Mirakl | mirakl.com
 Miro | miro.com
 Mirror AI | mirror-ai.com
 Mirror Networking | mirror-networking.com
@@ -3233,6 +3372,7 @@ Namecard.ai | namecard.ai
 Namely | namely.com
 Names & Faces | www.namesandfaces.com
 Nango | nango.dev
+Nanigans | nanigans.com
 Nano Technologies | www.vuiapp.vn
 NanoCorp | nanocorp.so
 Nanograb | nanograb.com
@@ -3258,6 +3398,7 @@ Naïve | usenaive.ai
 nCompass Technologies | www.ncompass.tech
 Ndea | ndea.com
 Near Protocol | near.org
+Nearmap | nearmap.com
 NearWave | nearwave.co
 Nebullam (DBA Clayton Farms) | ClaytonFarms.com
 Nectar | nectarclimate.com
@@ -3277,13 +3418,16 @@ Nestor | nestorup.com
 NetApp | netapp.com
 NetBeez | netbeez.net
 Netcode.io | netcode.io
+Netease Games | neteasegames.com
 Netflix | netflix.com
 NetherRealm Studios | netherrealm.com
 Netic | netic.com
 Netlify | netlify.com
 Netmaker | netmaker.io
 Netomi | netomi.com
+NETSCOUT | netscout.com
 Netskope | netskope.com
+Netsmart | ntst.com
 NetSuite | netsuite.com
 Netter | netter.ai
 NetworkOcean | networkocean.io
@@ -3297,6 +3441,7 @@ NewsBlur | www.newsblur.com
 NewsCatcher | newscatcherapi.com
 Newton | joinnewton.com
 NEXGENT | ngt.academy
+Nexmo | nexmo.com
 Next Insurance | nextinsurance.com
 Nextcloud | nextcloud.com
 Nextdoor | nextdoor.com
@@ -3305,6 +3450,7 @@ Nextera Robotics | nexterarobotics.com
 Nextmv | nextmv.io
 NextPay | nextpay.world
 Nexu | www.nexu.mx
+Nexus Studios | nexusstudios.com
 Nexus | agent.nexus
 ngrow.ai | ngrow.ai
 Niantic | nianticlabs.com
@@ -3312,6 +3458,7 @@ Nightfall AI | nightfall.ai
 Nimbic AI | nimbic-ai.com
 Nimble Rx | nimble-rx.com
 Nimble Storage | nimble-storage.com
+Nimble Streaming | nimble.com
 Nimble | www.hirenimble.com
 NimbleRx | nimblerx.com
 Nine Fives | ninefives.com
@@ -3325,6 +3472,7 @@ Nitrode | www.nitrode.com
 Nixo | withnixo.com
 No Cap | www.nocap.so
 Nobell Foods | www.nobellfoods.com
+Nokia | nokia.com
 Noloco | noloco.io
 Nomba | nomba.com
 Nomi | www.nomi.so
@@ -3402,6 +3550,7 @@ Observe | observeinc.com
 Observe.AI | observe.ai
 Obsidian Entertainment | obsidian.net
 Obsidian Security | obsidian.com
+Obsidian | obsidian.md
 Ochre Bio | www.ochre-bio.com
 OctaPulse | www.tryoctapulse.com
 OctaveWealth | octavewealth.com
@@ -3449,7 +3598,9 @@ Omoi (formerly Azuki) | www.omoi.com
 Onboard.io | onboard.io
 Oncobox | oncobox.com
 OnDeck AI | www.ondeckai.com
+OnDemand | ondemandinc.com
 One Degree | 1degree.org
+One Network Enterprises | onenetwork.com
 One Robot | www.onerobot.io
 OneBrief | onebrief.com
 OneChronos | www.onechronos.com
@@ -3463,6 +3614,8 @@ OneSignal | onesignal.com
 OneText | onetext.com
 OneTrust | onetrust.com
 OnFarm | onfarm.com
+Onfleet | onfleet.com
+Onit | onit.com
 Onlook | onlook.com
 Onshore | onshore.com
 Ontop | www.getontop.com
@@ -3479,6 +3632,7 @@ Opencall | opencall.ai
 OpenCurriculum | opencurriculum.org
 OpenDNS | opendns.com
 Opendoor | opendoor.com
+Openet | openet.com
 OpenEvidence | openevidence.com
 OpenFoundry | www.openfoundry.ai
 OpenFunnel | openfunnel.dev
@@ -3500,6 +3654,7 @@ Opentrons | opentrons.com
 OpenUnit | www.openunit.com
 OpenWork | openworklabs.com
 OpenWrench | www.useopenwrench.com
+OpenZeppelin | openzeppelin.com
 Operand | www.operand.com
 Operator.io | operator.io
 Ophelia | ophelia.com
@@ -3508,9 +3663,11 @@ Opslane | opslane.com
 Optery | www.optery.com
 Optic | optic.com
 Optifye.ai | www.optifye.ai
+Optimism | optimism.io
 Optum Health | optumhealth.com
 Opusense AI | www.opusense.com
 Ora AI | oraai.com
+Oracle Cloud | oracle.com/cloud
 Oracle | oracle.com
 Orange Health Labs | www.orangehealth.in
 Orange Slice | orangeslice.ai
@@ -3520,6 +3677,7 @@ Orbio Earth | www.orbio.earth
 Orbital Insight | orbital-insight.com
 Orbital Operations | www.orbitalops.tech
 Orbital Sidekick | orbitalsidekick.com
+Orbitz | orbitz.com
 Orca Launcher | orcalauncher.com
 Orca Security | orca.security
 Orca | orca.fyi
@@ -3582,6 +3740,7 @@ Paces | paces.com
 Pachama | pachama.com
 Pacific Biosciences | pacb.com
 Padlet | padlet.com
+PadSplit | padsplit.com
 Pagaloop | www.pagaloop.com
 PagerDuty | pagerduty.com
 Pahamify | pahamify.com
@@ -3645,6 +3804,7 @@ Parrot | parrotapp.com
 Parsable | parsable.com
 Parsagon | parsagon.io
 Parse | parse.bot
+Parsec | parsec.com
 Parsewise | parsewise.ai
 Partcl | partcl.com
 Particle Health | particlehealth.com
@@ -3654,6 +3814,7 @@ PartnerHQ | trypartnerhq.com
 PartnerStack | partnerstack.com
 Pasito | pasito.ai
 Pasqal | pasqal.com
+Patch | patch.com
 Patched | patched.codes
 Patent Watch | www.patentwatch.ai
 PathAI | pathai.com
@@ -3725,6 +3886,7 @@ Persephone Biosciences | persephonebiosciences.com
 Perseus Defense | perseusdefense.com
 Persist AI | www.persist-ai.com
 Persona | persona.com
+Personalis | personalis.com
 Personio | personio.com
 Perspectives Health | perspectiveshealth.ai
 Pesto | www.getpesto.com
@@ -3853,6 +4015,7 @@ Pollen | www.pollen.cx
 Pollinate | www.pollinate.tech
 PoloTab | polotab.com
 Poly | poly.app
+Polygon | polygon.technology
 Polymarket | polymarket.com
 Polymath Robotics | www.polymathrobotics.com
 Polymath | polymathlabs.ai
@@ -3889,6 +4052,7 @@ Powerhouse AI | www.powerhouseai.com
 PowerMatrix | pwrmatrix.com
 PowerRouter | www.powerrouter.io
 PowerUs | www.powerus.de
+Practical Law | uk.practicallaw.thomsonreuters.com
 Pragma | pragma.com
 Pragmatic Leaders (Ankai Inc) | pragmaticleaders.io, https:
 Prana | pranadoc.com
@@ -3905,11 +4069,13 @@ Preloop | www.preloop.com
 Prelude | prelude.com
 Prembly (formerly Identitypass) | prembly.com
 Prenda | prenda.com
+Preply | preply.com
 Prequel | prequel.co
 Preseen | preseen.com
 Presti AI | www.presti.ai
 Presto | presto.com
 Pretzel AI | withpretzel.com
+Priceline | priceline.com
 Prime Lightworks | www.primelightworks.com
 Primer AI | primer.ai
 Primer | www.startprimer.com
@@ -3946,6 +4112,7 @@ Pronto | www.tuprontomx.com
 Proof Trading | prooftrading.com
 Propaya | www.propaya.com
 PropelAuth | www.propelauth.com
+Properly | properly.com
 PropertyGuru | propertyguru.com
 PropertyShark | propertyshark.com
 Propexo | propexo.com
@@ -3955,6 +4122,7 @@ ProSights | prosights.co
 Prospa | getprospa.com
 Prosper | www.getprosper.ai?utm_source=yc&utm_medium=directory&utm_campaign=yc_directory
 Protent | protent.ai
+Proteus Digital Health | proteus.com
 Protex AI | www.protex.ai
 Protocol Labs | protocol.ai
 Protonet | protonet.info
@@ -3967,6 +4135,7 @@ Proximitty | proximitty.ai
 Proxis | www.proxis.ai
 PsiQuantum | psiquantum.com
 Psylaris | www.psylaris.com
+PTC | ptc.com
 Pulley | pulley.com
 Pulse Active Stations Network | www.getpulse.in
 Pulse | www.runpulse.com
@@ -3983,6 +4152,7 @@ Pylon | www.pylonump.com
 Pyrls | pyrls.com
 Pyxai | www.pyxai.com
 Q-CTRL | q-ctrl.com
+QCI (Quantum Computing Inc) | quantumcomputinginc.com
 QCWare | qcware.com
 Qdrant | qdrant.tech
 QFEX | qfex.com
@@ -4037,14 +4207,17 @@ R.care | www.recoverycare.app
 Rabbet | rabbet.com
 Rackspace | rackspace.com
 Radar | radar.io
+Radcom | radcom.com
 Radiant Nuclear | radiantnuclear.com
 Radical | www.radicalaero.com
+Rahko | rahko.ai
 Railway | railway.app
 Rain Neuromorphics | rain.ai
 Rainbow | rainbow.me
 Raindrop | www.raindrop.ai
 Rainforest | www.rainforestqa.com
 Rainmaker | www.rainmaker.nyc
+Rakuten Symphony | rakuten.com
 Rally Tax | www.rally.tax
 Rally UXR | www.rallyuxr.com
 Rally | rally.video
@@ -4076,6 +4249,7 @@ Raytheon Technologies | rtx.com
 Razorpay | razorpay.com
 rct AI | rct.ai
 RDash | www.rdash.io
+RE/MAX | remax.com
 Reach | reachpower.com
 Reacher | reacherapp.com
 ReactWise | www.reactwise.com
@@ -4085,7 +4259,9 @@ ReadMe | readme.com
 Ready Education | www.readyeducation.com
 Ready | ready.net
 ReadySet | readyset.io
+Real Estate Stack | realestatestack.com
 Reality Defender | www.realitydefender.com
+Realogy | realogy.com
 RealPage | realpage.com
 RealRoots | www.therealroots.com
 ReasonBlocks | reasonblocks.com
@@ -4106,6 +4282,7 @@ Recurrency | www.recurrency.com
 Recurse Center | www.recurse.com
 Recursion | recursion.com
 Red Barn Robotics | www.redbarnrobotics.com
+Red Bee Media | redbeemedia.com
 Red Hat | red-hat.com
 Redapto | www.redapto.com
 Redbean | redbean.ai
@@ -4150,6 +4327,7 @@ Relari | www.relari.ai
 Relate | www.relate.so
 Relationship Hero | relationshiphero.com
 Relativity Space | relativityspace.com
+Relativity | relativity.com
 Relay Health | www.joinrelay.app
 Relay Therapeutics | relaytx.com
 Releaf Earth | www.releaf.africa
@@ -4236,6 +4414,8 @@ REZI | www.rentrezi.com
 Rheinmetall | rheinmetall.com
 Rhizome AI | rhizomeai.com
 Rhumbix | rhumbix.com
+Ribbon Communications | ribboncommunications.com
+Ribbon | ribbonhome.com
 Ricursive Intelligence | ricursive-intelligence.com
 Ridecell | www.ridecell.com
 rift | rift.com
@@ -4245,6 +4425,7 @@ Rillet | rillet.com
 Rima AI (formerly Garage) | www.getrima.ai
 Rimba | rimba.ai
 Rimward | rimward.ai
+Ring | ring.com
 RingCentral | ringcentral.com
 Rinse | www.rinse.dental
 Rinsed | www.rinsed.com
@@ -4265,7 +4446,9 @@ Rivia.AI | rivia.ai
 Rivian | rivian.com
 Riviera | www.withriviera.com
 RMFG | www.rmfg.com
+Ro Pharmacy | ro.com
 Ro | ro.co
+Roam Research | roamresearch.com
 Roame | roame.travel
 Roark | roark.ai
 Robby | tryrobby.com
@@ -4275,6 +4458,7 @@ Roblox | roblox.com
 RoboDock | www.robodock.tech
 Roboflow | roboflow.com
 Robust Intelligence | robust-intelligence.com
+Rocket Fuel | rocketfuelinc.com
 Rocket Lab | rocketlabusa.com
 Rocket.Chat | rocket.chat
 Rocketable | www.rocketable.com
@@ -4293,6 +4477,7 @@ Rollstack | www.rollstack.com
 Rome | rome.ai
 Rondo Energy | rondoenergy.com
 Roofr | roofr.com
+Roofstock | roofstock.com
 Roomstorm | roomstorm.com
 Roon | roon.com
 Root Insurance | joinroot.com
@@ -4316,6 +4501,7 @@ Rox | rox.com
 Roxels | www.roxels.ai
 RTHM | www.rthm.com
 Rubbrband | rubbrband.com
+Rubicon Project | rubiconproject.com
 Rubric AI | therubric.ai
 Rubrik | rubrik.com
 Ruby Card | www.spendruby.com
@@ -4411,6 +4597,7 @@ Scape | scape.app
 Scentbird | www.scentbird.com
 Scheduling Wizard | www.schedulingwiz.com
 SchemeFlow | www.schemeflow.com
+Schneider Electric | schneider-electric.com
 Schoolable | schoolable.co
 Schoology | schoology.com
 Schrodinger | schrodinger.com
@@ -4462,6 +4649,7 @@ SEND | www.send.ng
 Sendbird | sendbird.com
 Sendblue | www.sendblue.com
 Sendbox | sendbox.co
+Sennder | sennder.com
 Sennu AI | www.sennu.ai
 Sensei | senseirobotics.com
 Sensible Biotechnologies | sensible.bio
@@ -4475,6 +4663,7 @@ Sentry | sentry.io
 Sequence Bio | www.sequencebio.com
 Sequence Markets | sequencemkts.com
 Sequin | sequinai.com
+Sequoia Health | sequoiahealth.com
 Serafis | serafis.ai
 Serif Health | www.serifhealth.com
 Serinus Biosciences | www.serinus.bio
@@ -4516,6 +4705,7 @@ ShipBob | shipbob.com
 Shipmates | shipmates.app
 Shipper | shipper.id
 Shippo | shippo.com
+ShipStation | shipstation.com
 Shipyard | shipyard.com
 Shiru | www.shiru.com
 Shofo | shofo.ai
@@ -4540,11 +4730,14 @@ Siemens Energy | siemens-energy.com
 Siemens Gamesa | siemensgamesa.com
 Siemens Healthineers | siemens-healthineers.com
 Sierra Space | sierraspace.com
+Sierra Wireless | sierrawireless.com
 Sierra | sierra.ai
 Sieve | sievedata.com
 sieve | usesieve.com
 Sift | sift.com
 Siftly | siftly.ai
+Sight Machine | sightmachine.com
+Sightline | sightline.io
 Siglo | siglo.com
 Sigma Computing | sigmacomputing.com
 Sigma Genetics | www.sigmagenetics.com
@@ -4570,6 +4763,7 @@ SimCare | simcare.ai
 Simetrik | simetrik.com
 Simple AI | www.usesimple.ai
 Simplex | simplex.sh
+Simpli | simpli.com
 Simplify | simplify.jobs
 Simplifyd Systems | simplifyd.com
 SimplyInsured | simplyinsured.com
@@ -4589,6 +4783,7 @@ Sivo | sivo.com
 Sixfold Bioscience | www.sixfold.bio
 Sixtyfour | www.sixtyfour.ai
 sizeless | www.sizeless.co
+Skai | skai.io
 Skild AI | skild.ai
 Skill-lync | skill-lync.com
 Skillshare | skillshare.com
@@ -4646,6 +4841,7 @@ Socratix AI | getsocratix.ai
 Socure | socure.com
 Sofar Ocean | sofarocean.com
 Soff | soff.ai
+SoFi | sofi.com
 Sohar Health | www.soharhealth.com
 Sola | www.sola-solutions.com
 Solana Labs | solana.com
@@ -4667,6 +4863,8 @@ Sonatype | sonatype.com
 Sonauto | sonauto.ai
 Sonder | sonder.com
 Sonia | soniahealth.com
+Sonos | sonos.com
+Sony | sony.com
 Soon | Soon.app
 Sophys | www.sophyshealth.com
 Soraban | www.soraban.com
@@ -4694,6 +4892,7 @@ SparkFun Electronics | sparkfun.com
 Sparkles | sparkles.dev
 SPATE | www.spate.nyc
 Spatial | spatial.io
+SpatialKey | spatialkey.com
 Speak | speak.com
 Speakeasy | speakeasyapi.dev
 SpecCheck | www.speccheckrx.com
@@ -4704,6 +4903,7 @@ Speedy Labs | speedylabs.ai
 Spellbrush | spellbrush.com
 Spenmo | summitglobal.com
 Spenny | spennyapp.com
+Sphera | sphera.com
 Sphere | www.getsphere.com
 Spherecast | www.spherecast.ai
 Sphinx | sphinxhq.com
@@ -4712,6 +4912,7 @@ Spinach AI | spinach.ai
 Spine AI | www.getspine.ai
 Spire Global | spire.com
 Spire Law | spirelawfirm.com
+Spirent Communications | spirent.com
 Splash Inc. | splash9.com
 Splash | popgun.ai
 Splendor | withsplendor.com
@@ -4823,6 +5024,7 @@ Strava | strava.com
 Streak | streak.com
 Streak | www.streakcard.com
 Stream | www.stream.claims
+Stream.io | stream.io
 Streamable | streamable.run
 StrideQ | strideq.com
 Strikingly | www.strikingly.com
@@ -4989,6 +5191,7 @@ Tasklet | tasklet.ai
 Tavus | www.tavus.io
 TaxGPT | www.taxgpt.com
 teaBOT | teaBOT.com
+Teachable | teachable.com
 TeamNote | teamnoteapp.com
 TeamOut | www.teamout.com
 Techland | techland.pl
@@ -5015,6 +5218,7 @@ Temporal | temporal.io
 Tempus AI | tempus.com
 Ten Lives | tenlives.com
 Tenable | tenable.com
+Tencent Games | tencentgames.com
 TENDERD | www.tenderd.com
 Tendo | tendo.app
 Tenet Industries | www.tenetindustries.com
@@ -5068,6 +5272,7 @@ The Context Company | thecontext.company
 The Essential | www.theessential.com
 The Flex Company | www.flexfits.com
 The Forecasting Company | www.theforecastingcompany.com
+The Glimpse Group | theglimpsegroup.com
 The Good Food Institute | www.gfi.org
 The Hog | thehog.ai
 The Human Utility | www.detroitwaterproject.org
@@ -5084,8 +5289,10 @@ The Synthesis Company | thesynthesis.company
 The Third Place | www.thethirdplace.is
 The Ticket Fairy | www.ticketfairy.com
 The Token Company | thetokencompany.com
+The Trade Desk | thetradedesk.com
 Thematic | www.getthematic.com
 Theneo | theneo.io
+THEOplayer | theoplayer.com
 Theora | www.theorahq.com
 Theorem | theorem.dev
 Thera | www.getthera.com
@@ -5095,8 +5302,11 @@ Theseus | theseus.us
 Thesis | thesislabs.ai
 Theta | thetasoftware.com
 Theya | www.theya.us
+Thinkific | thinkific.com
 Third Chair | usethirdchair.com
+Thirdweb | thirdweb.com
 Thndr | www.thndr.app
+Thomson Reuters | thomsonreuters.com
 ThoughtSpot | thoughtspot.com
 ThousandEyes | thousandeyes.com
 THQ Nordic | thqnordic.com
@@ -5128,6 +5338,7 @@ Titan | www.titan.com
 Titipku | titipku.com
 Titus | titus.com
 Tivara | tivara.com
+Tive | tive.com
 Tizeti | www.tizeti.com
 Toast | toasttab.com
 ToDesktop | www.todesktop.com
@@ -5156,6 +5367,7 @@ Torc Robotics | torc.ai
 Torch | torch.io
 Tornyol | tornyol.com
 Torpedo Therapeutics | www.torpedotherapeutics.com
+Torq | torq.io
 Totalis | www.totalis.trade
 Touch and Pay Technologies Limited | touchandpay.me
 Tough Commerce | www.toughcommerce.com
@@ -5167,6 +5379,7 @@ tpaga | tpaga.co
 Traba | traba.com
 Trace | www.trace.so
 Tracecat | tracecat.com
+TraceLink | tracelink.com
 TraceRoot.AI | traceroot.ai
 Traces | www.traces.ai
 TrackChain | trackchain.io
@@ -5188,8 +5401,10 @@ Transfez | www.itsjack.com
 Trapeze | www.trapezehealth.com
 Trata | www.trytrata.com
 Trava | www.usetrava.com
+Travelocity | travelocity.com
 Traversal | traversal.com
 Traverse | www.traverse.so
+Travis CI | travis-ci.com
 Travo | www.travoai.com
 Trayd | www.buildtrayd.com
 Treasury Prime | treasuryprime.com
@@ -5203,10 +5418,12 @@ Trellis AI | runtrellis.com
 Trellis | trellistech.com
 Trellus | www.trellus.ai
 Tremendous | www.tremendous.com
+Trend Micro | trendmicro.com
 Trendex - Connect with stars | trendex.gg
 Trestle Biotherapeutics | www.trestlebio.com
 Trexo Robotics | trexorobotics.com
 Treyarch | treyarch.com
+Trezor (SatoshiLabs) | trezor.io
 Tributi | tributi.com
 Trigger.dev | trigger.dev
 trii | trii.co
@@ -5248,6 +5465,7 @@ Turing College | www.turingcollege.com
 Turing Labs Inc. | www.turingsaas.com
 Turion Space | turionspace.com
 Turn 10 Studios | turn10studios.com
+Turn | turn.com
 Turnkey | turnkey.com
 Turntide Technologies | turntide.com
 Turso | turso.tech
@@ -5262,9 +5480,11 @@ Twelve | twelve.co
 Twenty | twenty.com
 Twilio | twilio.com
 Twine | www.usetwine.com
+Twist | twist.com
 Twitch | twitch.tv
 Twitter | twitter.com
 Two Dots | www.twodots.net
+Two Sigma | twosigma.com
 Two | two.com
 twoplus fertility | twoplusfertility.com
 TYBR Health | www.tybrhealth.com
@@ -5277,6 +5497,7 @@ Typeform | typeform.com
 TypeLess | apps.apple.com
 TypeOS | TypeOS.com
 Typewise | typewise.app
+u-blox | u-blox.com
 Uber | uber.com
 Uberduck | www.uberduck.ai
 Ubicloud | www.ubicloud.com
@@ -5335,6 +5556,7 @@ Upgraded | getupgraded.com
 Uplane | uplane.com
 Uplift AI | upliftai.org
 Uplimit | uplimit.com
+UPS | ups.com
 Upsolve AI | upsolve.ai
 Upsolve | upsolve.org
 Upstream | www.upstream.do
@@ -5374,6 +5596,7 @@ Vast | vast.space
 Vastrm | vastrm.com
 VaultPay | vaultpay.io
 Vaya | flyvaya.com
+Vector Informatik | vector.com
 Vector Legal | vectorlegal.com
 Vector | vector.co
 VectorShift | www.vectorshift.ai
@@ -5442,6 +5665,7 @@ Vestas | vestas.com
 Vetcove | www.vetcove.com
 Vetnio | vetnio.com
 VetRec | vetrec.io
+VHT | vht.com
 Viam | viam.com
 Viant | viant.bio
 Viator | viator.com
@@ -5460,17 +5684,22 @@ Vimmerse | vimmerse.net
 Vinci Games | ruffnauts.com
 Vinco | www.vincoed.com
 VinFast | vinfastauto.us
+VIPKid | vipkid.com
 Virgin Galactic | virgingalactic.com
 Virtualmin | virtualmin.com
+Visa | visa.com
 Vise | vise.com
 Visibl Semiconductors | visiblsemi.com
 Vision Lab | thevisionlab.ai
 Vista Power | vistapower.com
+Visteon | visteon.com
 Visual Electric | visual-electric.com
+Visual IQ | visualiq.com
 Vitable Health | vitablehealth.com
 Vitalize | vitalize.care
 VitalStrata | www.vitalstrata.com
 Vitau | vitau.mx
+Vitreous | vitreous.com
 Viz.ai | viz.ai
 vly.ai | vly.ai
 Vobi | www.vobi.com.br
@@ -5488,6 +5717,7 @@ Volta Charging | voltacharging.com
 Volta Labs, Inc. | voltalabs.com
 Voltair | voltairlabs.com
 Voltic | volticshipping.com
+Vonage | vonage.com
 Vooma | www.vooma.ai
 Voosh | voosh.ai
 Vori | www.vori.com
@@ -5509,6 +5739,7 @@ Waffle | www.waffle.ai
 Wagetap | www.wagetap.com
 Wakie | www.wakie.com
 Wallbit | wallbit.io
+Walmart Labs | almart.com
 Wand Solar | www.wandsolar.com
 Wanderlog | wanderlog.com
 WANTD | getwantd.com
@@ -5559,6 +5790,7 @@ Weights & Biases | wandb.ai
 Well Principled | wellprincipled.com
 WeReno | wereno.com
 Western Digital | western-digital.com
+Westlaw | estlaw.com
 Weta Digital | etadigital.com
 Wevorce | wevorce.com
 weweb.io | www.weweb.io
@@ -5594,12 +5826,15 @@ Wistia | istia.com
 WithAI | withai.co
 WithCoverage | withcoverage.com
 WithIda | withida.app
+Within Unlimited | ith.in
 Wix | ix.com
 Wiz | wiz.io
 Wolfia | wolfia.com
 Women Who Code | www.womenwhocode.com
 Wondercraft | wondercraft.ai
+Wonderware (AVEVA) | onderware.com
 Wonolo | wonolo.com
+WooCommerce | oocommerce.com
 Wordware | wordware.ai
 Workato | workato.com
 Workday | workday.com
@@ -5612,6 +5847,7 @@ Workpay | myworkpay.com
 Workrise | workrise.com
 WorldQL | www.worldql.com
 Woven Planet | oven.toyota
+Wowza Media Systems | owza.com
 Woz | www.wozcode.com
 Wren | www.wren.co
 Wright Electric | www.weflywright.com
@@ -5620,6 +5856,7 @@ Writesonic | writesonic.com
 Wwise | audiokinetic.com
 Wyndly | www.wyndly.com
 Wyvern | www.wyvern.space
+Wyze | yze.com
 X | x.com
 X-energy | x-energy.com
 X-Zell | www.x-zell.com
@@ -5647,6 +5884,7 @@ Yassir | yassir.com
 yearend | yearend.com
 Yemaachi Biotechnology | yemaachi.com
 Yenmo | yenmo.in
+Yext | yext.com
 Yezza | yezza.com
 yhangry | www.yhangry.com
 Yondu | yondu.ai
@@ -5680,6 +5918,7 @@ Zaz OS | www.zazos.com
 ZBiotics | zbiotics.com
 Zeal | www.zeal.com
 Zealth | zealth-ai.com
+Zebra Technologies | zebra.com
 Zed | zed.com
 Zefir | zefir.com
 Zeit AI | zeit-ai.com
@@ -5708,6 +5947,7 @@ ZeroPath | zeropath.com
 ZeroSettle | zerosettle.io
 ZETA SURGICAL | zetasurgical.com
 Zettascale | zscc.ai
+ZF | zf.com
 Zibra Labs | zibralabs.ai
 Zidisha | www.zidisha.org
 ZiffyHomes | www.ziffyhomes.com
@@ -5736,6 +5976,7 @@ zudo.work | zudo.work
 Zulip | zulip.com
 Zum | zum.com
 Zuma | www.getzuma.com
+Zumper | zumper.com
 Zuni | zuni.app
 Zuora | zuora.com
 Zwift | zwift.com
