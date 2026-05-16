@@ -44484,7 +44484,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "e6b41e69"
+    "source_hash": "44beacd9"
   },
   "greenhouse-scaleai-4695596005": {
     "is_engineering": false,
@@ -44515,5 +44515,533 @@
       "equity"
     ],
     "source_hash": "f45f67d3"
+  },
+  "greenhouse-anthropic-5222914008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Seoul, South Korea",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a3b98c24"
+  },
+  "greenhouse-anthropic-5219971008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Seoul, South Korea",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "240ae445"
+  },
+  "greenhouse-andurilindustries-5139605007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ashville, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$99k-$131k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ba335f3b"
+  },
+  "ashby-clipboard-e8f6d10c-61b7-42dd-978e-921004ea5a55": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and expand marketplace infrastructure across new verticals (Home Health, Dental, Hospitals) using a full-stack approach. Make architectural decisions balancing reuse of existing systems with new builds, working closely with operations and go-to-market teams to iterate rapidly from zero to production.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "NestJS",
+      "MongoDB",
+      "PostgreSQL",
+      "Redis",
+      "AWS",
+      "Terraform"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "779b1543"
+  },
+  "greenhouse-andurilindustries-5139480007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Lead FPGA/SoC verification strategy and UVM methodology for flight-critical avionics on AMD Xilinx platforms, mentoring the verification team and owning coverage-driven closure across production programs. This role requires DO-254 compliance expertise and a security clearance for defense aerospace work.",
+    "skills": [
+      "SystemVerilog",
+      "UVM",
+      "SVA (SystemVerilog Assertions)",
+      "Questa",
+      "VCS",
+      "Xcelium",
+      "Python",
+      "DO-254"
+    ],
+    "level": "senior",
+    "comp": "$146,000\u2014$194,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fb2dc92e"
+  },
+  "ashby-clipboard-f1d24d83-d696-4a1b-98f7-a2ffaf0fbccd": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build payment infrastructure, fraud detection, and financial operations systems that process worker payouts, instant pay, facility invoicing, and billing across hundreds of thousands of healthcare professionals. Own high-stakes transaction systems end-to-end in a fintech environment where correctness is critical and payment timing directly impacts workers' livelihoods.",
+    "skills": [
+      "Node.js",
+      "TypeScript",
+      "NestJS",
+      "PostgreSQL",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Terraform"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fc71a8c3"
+  },
+  "ashby-clipboard-fb63318b-2900-4352-8a51-516ddb4c912f": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build the worker onboarding workflow and credential validation infrastructure that takes healthcare professionals from app sign-up through their first shift, including document parsing, background checks, and compliance logic. Handle full-stack development across React/Ionic mobile frontends and Node/NestJS backends processing sensitive healthcare documentation at scale.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "NestJS",
+      "MongoDB",
+      "PostgreSQL",
+      "Ionic"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6304781"
+  },
+  "ashby-openai-b37da4ff-1648-4cae-ad98-cc968e670aca": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bcca88f0"
+  },
+  "ashby-coderabbit-7235720a-c305-4c9a-bdb6-6eff81cbd4af": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bcfa00c5"
+  },
+  "ashby-openai-90c711dc-5f50-46e3-a5ab-82359a56d683": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / London, UK",
+    "job_summary": "Build analytical systems to measure harmful behavior, detect fraud and misuse, and evaluate safety mitigations across OpenAI's products. Work on mission-critical safety problems at frontier scale where rigorous analysis directly informs critical deployment decisions.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Statistical Analysis",
+      "Causal Inference",
+      "Experimentation Design",
+      "Data Analysis",
+      "Machine Learning"
+    ],
+    "level": "mid",
+    "comp": "$230k-$325k",
+    "comp_extras": [],
+    "source_hash": "e32c8b3c"
+  },
+  "ashby-openai-666119c9-ff97-4e81-9805-94d7525bd633": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / London, UK",
+    "job_summary": "Build analytical systems to measure harmful behavior, detect fraud and misuse, and evaluate safety classifiers across OpenAI's products. Work on mission-critical problems at the intersection of safety, product, and research with unusual ownership and visibility.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Statistical Analysis",
+      "Causal Inference",
+      "Experimentation Design",
+      "Data Analysis"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "56c66842"
+  },
+  "ashby-perplexity-fdc2ea75-c198-4a9e-9c0a-df835ed61ed0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7606afae"
+  },
+  "greenhouse-oklo-5775089004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$115,000 - $170,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e90a3e23"
+  },
+  "ashby-openai-7b05d54f-c4ef-4677-bb05-f69288f585d8": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Lead deployment and operations of OpenAI's custom silicon and systems in production data center environments, taking hardware from lab validation through fleet-wide production reliability. Requires hands-on technical leadership across silicon bring-up, system integration, data center deployment, and operational excellence at scale in a fast-moving, ambiguous environment.",
+    "skills": [
+      "Hardware deployment",
+      "Silicon bring-up",
+      "Data center operations",
+      "Fleet operations",
+      "Reliability engineering",
+      "Infrastructure automation",
+      "Incident response",
+      "Root-cause analysis"
+    ],
+    "level": "manager",
+    "comp": "$342k-$445k",
+    "comp_extras": [],
+    "source_hash": "82f14d7e"
+  },
+  "greenhouse-riotgames-7733820": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and implement AI/ML-driven developer tools for an unpublished game, partnering with designers and engineers to integrate AI/ML systems that enhance workflows and increase developer efficiency. Work on production-ready AI systems in a AAA game environment with exposure to reinforcement learning, imitation learning, LLMs, and multi-agent systems at scale.",
+    "skills": [
+      "C++",
+      "PyTorch",
+      "TensorFlow",
+      "Unity",
+      "Unreal Engine",
+      "Reinforcement Learning",
+      "LLM",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "229eac42"
+  },
+  "greenhouse-robinhood-7900932": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Menlo Park, CA / New York, NY / Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$77k-$115k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "0e10e7f4"
+  },
+  "greenhouse-rocketlab-7728086003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Support the Space Systems Integration and Test Team in spacecraft Assembly, Integration & Test (AIT) by working with specialized test equipment and contributing to improvements that directly impact satellite programs from proposal through launch and early operations.",
+    "skills": [
+      "Python",
+      "Siemens NX",
+      "JavaScript",
+      "Radio Frequency Engineering",
+      "Electronic Components",
+      "Hardware Testing"
+    ],
+    "level": "intern",
+    "comp": "$28/hour",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3855f2b9"
+  },
+  "greenhouse-scaleai-4694861005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA",
+    "job_summary": "Build production AI agents and custom integrations tailored to enterprise customers' workflows, including data pipelines, multi-agent systems, and RAG implementations deployed across cloud platforms. You'll work embedded with customer engineering teams on mission-critical use cases in finance, healthcare, and government, with hands-on deployment responsibility and the ability to shape product direction based on real-world learnings.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "LlamaIndex",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "$180,000\u2014$225,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f73da06c"
+  },
+  "greenhouse-spacex-8552671002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1acd18d3"
+  },
+  "greenhouse-spacex-8553046002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$85k-$120k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2e68ede3"
+  },
+  "greenhouse-spacex-8553080002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build highly reliable and scalable data analysis libraries, systems, and pipelines that power mission-critical analysis across SpaceX's rocket launch, factory production, and Starlink satellite operations. Work on systems handling real-time telemetry, historical analysis, and machine learning at aerospace scale with direct impact on launch readiness and network reliability.",
+    "skills": [
+      "Python",
+      "PostgreSQL",
+      "PyTorch",
+      "React",
+      "Angular",
+      ".NET",
+      "Pandas",
+      "OpenCV"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "98b0d0d6"
+  },
+  "greenhouse-scaleai-4694869005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA",
+    "job_summary": "Design and deploy production AI agents and custom integrations for enterprise customers, building multi-agent systems, RAG pipelines, and data connectors that integrate Scale AI's platform into customer infrastructure. You'll work across the full stack from data pipelines to model optimization in high-stakes verticals including finance, healthcare, and government.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "LlamaIndex",
+      "AWS",
+      "GCP",
+      "Docker",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "level": "staff",
+    "comp": "$288,000\u2014$360,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "92973018"
+  },
+  "greenhouse-waymo-7484320": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build Android components and user interfaces for Waymo's autonomous vehicle in-car experience, including ride-hailing controls, infotainment, and vehicle system management using modern frameworks like Jetpack Compose. Work on safety-critical systems requiring pixel-perfect UI, performance optimization for resource-constrained devices, and integration with vehicle software and server APIs.",
+    "skills": [
+      "Android",
+      "Kotlin",
+      "Java",
+      "Jetpack Compose",
+      "AOSP",
+      "Infotainment Systems",
+      "Performance Optimization"
+    ],
+    "level": "staff",
+    "comp": "$251k-$310k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "a733ea49"
+  },
+  "greenhouse-scaleai-4694865005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA",
+    "job_summary": "Build and deploy production AI agents and integrations for enterprise customers, architecting multi-agent systems, RAG pipelines, and custom data connectors that solve critical business problems in domains like customer support, due diligence, and healthcare. Work embedded at strategic customer sites to bridge Scale AI's capabilities with enterprise infrastructure, requiring hands-on technical leadership and the ability to rapidly prototype solutions in ambiguous environments.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "LlamaIndex",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "level": "staff",
+    "comp": "$252,000\u2013$315,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a00ac112"
+  },
+  "greenhouse-waymo-7851847": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$190,000\u2014$234,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "483ada1d"
+  },
+  "lever-zoox-9bb633af-2517-4e5b-9363-0f75836687f6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6511619c"
+  },
+  "greenhouse-trueanomalyinc-5139509007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Centennial, CO / Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$60k-$90k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "66855954"
+  },
+  "greenhouse-scaleai-4694863005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Seattle, WA",
+    "job_summary": "Build and deploy production AI agents and multi-agent systems for enterprise customers, integrating them into critical workflows across support, analytics, and automation. Work directly with customer engineering teams to architect custom solutions, implement RAG systems, and iterate toward business objectives in security-compliant environments.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "LlamaIndex",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": "$216,000\u2014$270,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "be55f627"
   }
 }

@@ -4990,5 +4990,220 @@
     "slug": "wizinc",
     "name": "Wiz",
     "summary": "Wiz provides cloud security software that helps organizations identify and remediate security risks across their cloud infrastructure, applications, and data. The platform integrates with major cloud providers like AWS, Microsoft Azure, and Google Cloud to deliver real-time visibility and threat detection."
+  },
+  {
+    "slug": "ablspacesystems",
+    "name": "ABL Space Systems",
+    "summary": "ABL Space Systems develops small-lift launch vehicles and associated propulsion systems designed to deliver small satellites to orbit. The company builds rocket engines and complete launch systems targeting the commercial space industry's need for frequent, dedicated small satellite launches."
+  },
+  {
+    "slug": "documentation",
+    "name": "Activepieces",
+    "summary": "Activepieces is a no-code automation platform that enables users to connect different applications and automate workflows without writing code. The platform provides a visual builder to create integrations and automations between SaaS tools and business applications."
+  },
+  {
+    "slug": "ag/wd3/Airbus",
+    "name": "Airbus Helicopters",
+    "summary": "Airbus Helicopters designs and manufactures civil and military helicopters for commercial, government, and emergency services customers worldwide. The company produces a range of models including light, medium, and heavy-lift helicopters used for passenger transport, search and rescue, law enforcement, and military operations."
+  },
+  {
+    "slug": "aveva/wd3/AVEVA_careers",
+    "name": "Aveva",
+    "summary": "Aveva develops enterprise software for industrial operations, including asset performance management, process simulation, and digital twin technology for manufacturing, oil and gas, and utilities sectors. The company provides cloud-based and on-premise solutions that help organizations design, operate, and maintain complex industrial assets and facilities."
+  },
+  {
+    "slug": "www",
+    "name": "BambooHR",
+    "summary": "BambooHR is a cloud-based human resources software platform designed for small and medium-sized businesses that handles employee data management, payroll processing, time tracking, and performance management. The company operates in the HR technology and business software sector, providing integrated tools to streamline HR operations and employee management."
+  },
+  {
+    "slug": "bb/wd3/BlackBerry",
+    "name": "BlackBerry QNX",
+    "summary": "BlackBerry QNX develops embedded operating systems and real-time software platforms for automotive, industrial, and medical devices. The company specializes in safety-critical and mission-critical applications where reliability and deterministic performance are essential requirements."
+  },
+  {
+    "slug": "brilliant",
+    "name": "Brilliant",
+    "summary": "Brilliant is an online learning platform that teaches mathematics, science, and computer science through interactive problem-solving and visual explanations. Users progress through courses designed to build intuition and understanding in subjects like algebra, calculus, physics, chemistry, and programming."
+  },
+  {
+    "slug": "critical-manufacturing",
+    "name": "Critical Manufacturing",
+    "summary": "Critical Manufacturing develops manufacturing execution system (MES) software that helps discrete and process manufacturers optimize production planning, scheduling, quality management, and real-time shop floor operations. The company serves industries including semiconductor, electronics, pharmaceuticals, and industrial equipment manufacturing across Europe, Asia, and North America."
+  },
+  {
+    "slug": "cylake-inc",
+    "name": "Cylake",
+    "summary": "Cylake builds AI-powered data analytics software that helps enterprises process and analyze large datasets to generate business insights and support decision-making. The company operates in the enterprise software and data analytics domain, serving organizations that need to extract actionable intelligence from their data."
+  },
+  {
+    "slug": "delinea",
+    "name": "Delinea",
+    "summary": "Delinea provides identity and access management software for enterprises, specializing in privileged account management, secrets management, and identity governance solutions that help organizations control and monitor access to critical systems and sensitive credentials."
+  },
+  {
+    "slug": "eslfaceitgrouplimited",
+    "name": "Gamer Network (ESL)",
+    "summary": "ESL Gaming operates the world's largest esports ecosystem, organizing competitive gaming tournaments and leagues across multiple titles while providing infrastructure, broadcasting, and community platforms for professional and amateur players globally."
+  },
+  {
+    "slug": "hinge-health",
+    "name": "Hinge Health",
+    "summary": "Hinge Health provides digital musculoskeletal care through a platform that combines therapeutic exercises, clinician support, and behavioral coaching to treat conditions like back pain, joint pain, and arthritis without surgery or opioids. The company operates in the digital health and occupational health space, serving employers, health plans, and individual patients seeking conservative treatment options for musculoskeletal disorders."
+  },
+  {
+    "slug": "jumpcrypto",
+    "name": "Jump Crypto",
+    "summary": "Jump Crypto is a cryptocurrency and blockchain technology company that builds infrastructure, tools, and applications for decentralized finance and Web3 ecosystems. They operate across multiple blockchain networks, providing services that include validator operations, protocol development, and DeFi platforms."
+  },
+  {
+    "slug": "hpe/wd5/Jobsathpe",
+    "name": "Juniper Networks",
+    "summary": "Juniper Networks develops networking hardware, software, and services including routers, switches, security appliances, and cloud networking solutions for service providers, enterprises, and cloud operators globally."
+  },
+  {
+    "slug": "kajabi",
+    "name": "Kajabi",
+    "summary": "Kajabi is a platform that enables creators, coaches, and entrepreneurs to build and sell online courses, digital products, and memberships. The all-in-one solution combines course creation tools, email marketing, sales funnels, and analytics in a single dashboard designed for solopreneurs and small businesses."
+  },
+  {
+    "slug": "Kastle",
+    "name": "Kastle",
+    "summary": "Kastle provides an AI-powered platform for analyzing and extracting insights from legal documents, contracts, and compliance materials. The company serves legal professionals, enterprises, and financial institutions that need to process large volumes of legal text efficiently."
+  },
+  {
+    "slug": "kong",
+    "name": "Kong",
+    "summary": "Kong builds API gateway and connectivity platform software that helps organizations manage, secure, and route API traffic across cloud-native and hybrid environments. The company operates in the API management and infrastructure software space, serving enterprises that need to control access, enforce policies, and monitor their API ecosystems."
+  },
+  {
+    "slug": "lexcheck-inc",
+    "name": "LexCheck",
+    "summary": "LexCheck provides AI-powered contract review and analysis software that helps legal teams and businesses identify risks, extract key terms, and accelerate contract management workflows."
+  },
+  {
+    "slug": "relx/wd3/LexisNexisLegal",
+    "name": "LexisNexis",
+    "summary": "LexisNexis provides legal research, business intelligence, and risk assessment solutions to law firms, corporations, government agencies, and other professional services firms. The company operates in the legal technology and data analytics domain, offering comprehensive databases of case law, statutes, regulations, and business information alongside software tools for legal research, document management, and compliance."
+  },
+  {
+    "slug": "lilt-corporate",
+    "name": "Lilt",
+    "summary": "Lilt develops an AI-powered translation platform that combines human linguists with machine learning to deliver professional translation services for enterprise clients across multiple languages and content types."
+  },
+  {
+    "slug": "loadsmart",
+    "name": "Loadsmart",
+    "summary": "Loadsmart is a digital freight marketplace that connects shippers with carrier companies to facilitate the booking and execution of trucking shipments across North America. The platform uses technology to streamline logistics operations by providing real-time pricing, automated load matching, and tracking capabilities for less-than-truckload (LTL) and full truckload (FTL) transportation."
+  },
+  {
+    "slug": "magic",
+    "name": "Magic Labs",
+    "summary": "Magic Labs builds authentication and wallet infrastructure that enables developers to integrate passwordless login and non-custodial wallet functionality into web and mobile applications, operating in the blockchain and Web3 developer tools space."
+  },
+  {
+    "slug": "markaztechnologies",
+    "name": "Markaz Technologies",
+    "summary": "Markaz Technologies builds a cloud-based enterprise resource planning platform designed specifically for small and medium-sized businesses in the Middle East and North Africa region. The platform integrates accounting, inventory management, sales, and human resources functions to help businesses streamline their operations and financial management."
+  },
+  {
+    "slug": "mavenir/wd1/Mavenir_Careers",
+    "name": "Mavenir",
+    "summary": "Mavenir builds cloud-native telecom software and infrastructure solutions, including 5G radio access networks, core networks, and orchestration platforms that enable mobile operators to deploy and manage networks on standard hardware rather than proprietary equipment."
+  },
+  {
+    "slug": "nexusstudios",
+    "name": "Nexus Studios",
+    "summary": "Nexus Studios is a creative production company that specializes in motion design, animation, and visual effects for broadcast, advertising, and digital media. They create content across multiple formats including TV commercials, music videos, documentaries, and interactive experiences for clients in entertainment and corporate sectors."
+  },
+  {
+    "slug": "jobs.northropgrumman.com|northropgrumman.com",
+    "name": "Northrop Grumman",
+    "summary": "Northrop Grumman is a major aerospace and defense contractor that designs and manufactures advanced aircraft, missiles, space systems, and cybersecurity solutions for military and government clients worldwide. The company serves the U.S. Department of Defense, intelligence agencies, and allied nations with products ranging from fighter jets and unmanned systems to satellite communications and network security platforms."
+  },
+  {
+    "slug": "opfoundation",
+    "name": "Optimism",
+    "summary": "Optimism is a layer 2 scaling solution for Ethereum that uses optimistic rollup technology to process transactions off-chain while maintaining security through periodic settlement to the Ethereum mainnet. The protocol enables significantly faster and cheaper transactions for decentralized applications and users while remaining compatible with existing Ethereum smart contracts and developer tools."
+  },
+  {
+    "slug": "padsplit",
+    "name": "PadSplit",
+    "summary": "PadSplit is a real estate technology platform that rents out individual furnished bedrooms in shared homes to young professionals and students on a month-to-month basis. The company operates in the affordable housing rental market, providing tenants flexible lease terms and landlords a way to maximize rental income from single-family properties."
+  },
+  {
+    "slug": "polygon-labs",
+    "name": "Polygon",
+    "summary": "Polygon is a scaling solution for Ethereum that enables faster and cheaper transactions by processing them on a separate layer and periodically settling them on the main Ethereum network. The platform provides infrastructure for developers to build decentralized applications with significantly reduced gas fees and improved transaction throughput."
+  },
+  {
+    "slug": "prodigal",
+    "name": "Prodigal",
+    "summary": "Prodigal provides software for managing promotional spending and marketing budget allocation across channels. The platform helps retail and consumer goods companies optimize their promotional investments, track performance, and improve return on marketing spend through data analytics and planning tools."
+  },
+  {
+    "slug": "ptc/wd1/PTC",
+    "name": "PTC",
+    "summary": "PTC develops software for product lifecycle management, computer-aided design, and Internet of Things applications, serving manufacturing and industrial companies worldwide."
+  },
+  {
+    "slug": "quantropi",
+    "name": "Quantropi",
+    "summary": "Quantropi develops quantum-safe cryptography solutions and encryption technologies designed to protect data against threats from quantum computers. The company creates post-quantum cryptographic algorithms and software that help organizations secure their communications and sensitive information in an era when quantum computing capabilities may compromise current encryption standards."
+  },
+  {
+    "slug": "rakuten/wd1/RakutenRewards",
+    "name": "Rakuten Symphony",
+    "summary": "Rakuten Symphony is a telecommunications infrastructure and software company that provides cloud-native, disaggregated mobile network solutions and open RAN technology to telecom operators worldwide. The company enables carriers to build flexible, software-based 5G and 6G networks by offering virtualized network functions, orchestration platforms, and network management software."
+  },
+  {
+    "slug": "kcura/wd1/External_Career_Site",
+    "name": "Relativity",
+    "summary": "Relativity builds a software platform for legal, compliance, and investigative teams to manage, analyze, and review large volumes of documents and data during litigation, regulatory investigations, and internal inquiries. The platform enables organizations to reduce costs and accelerate case resolution through AI-powered document processing, search capabilities, and collaboration tools."
+  },
+  {
+    "slug": "roofstock",
+    "name": "Roofstock",
+    "summary": "Roofstock operates an online marketplace for buying and selling single-family rental properties, connecting investors with residential real estate assets across the United States. The platform provides tools for property valuation, due diligence, and transaction management to facilitate residential rental property investments."
+  },
+  {
+    "slug": "jobs.twilio.com|segment.com",
+    "name": "Segment",
+    "summary": "Segment operates a customer data platform that collects, cleans, and routes user behavior data from websites and applications to hundreds of marketing, analytics, and data warehouse tools. The company serves businesses that need to unify fragmented customer data across multiple sources and destinations to power personalization, analytics, and reporting initiatives."
+  },
+  {
+    "slug": "sonos/wd1/Sonos",
+    "name": "Sonos",
+    "summary": "Sonos designs and manufactures wireless speaker systems and audio products that enable customers to play music throughout their homes via Wi-Fi networks. The company operates in the consumer audio and smart home entertainment space, offering connected speakers, soundbars, and integrated audio solutions that work with popular music streaming services."
+  },
+  {
+    "slug": "teachablecareers",
+    "name": "Teachable",
+    "summary": "Teachable is a platform that enables creators, educators, and businesses to build and sell online courses, coaching services, and digital products directly to students. The company provides tools for course creation, student management, payment processing, and marketing within a single integrated system."
+  },
+  {
+    "slug": "thomsonreuters/wd5/External_Career_Site",
+    "name": "Thomson Reuters",
+    "summary": "Thomson Reuters provides financial data, analytics, and workflow solutions to professionals in banking, legal, tax, accounting, and media sectors. The company operates through divisions that deliver real-time market information, legal research platforms, and enterprise software for risk management and compliance."
+  },
+  {
+    "slug": "jobs.dolby.com|theoplayer.com",
+    "name": "THEOplayer",
+    "summary": "THEOplayer is a video player software platform that enables media companies, broadcasters, and content providers to deliver streaming video across web, mobile, and connected TV devices. The company provides a unified player solution with support for multiple video formats, DRM protection, and analytics, serving customers in media, sports, and entertainment industries."
+  },
+  {
+    "slug": "trendmicro/wd3/External",
+    "name": "Trend Micro",
+    "summary": "Trend Micro develops cybersecurity software and services including antivirus, endpoint protection, cloud security, and threat intelligence solutions for enterprises, small businesses, and consumers. The company operates in the information security industry, protecting against malware, ransomware, phishing, and other cyber threats across networks, endpoints, and cloud environments."
+  },
+  {
+    "slug": "satoshilabs",
+    "name": "Trezor (SatoshiLabs)",
+    "summary": "Trezor is a hardware wallet manufacturer that produces physical devices for securely storing and managing cryptocurrency private keys offline. The company operates in the digital asset security space, providing non-custodial solutions that allow users to control their Bitcoin, Ethereum, and other cryptocurrencies without relying on third-party exchanges or online wallets."
+  },
+  {
+    "slug": "visa/wd5/Visa",
+    "name": "Visa",
+    "summary": "Visa operates a global payments network that processes electronic fund transfers and credit transactions between financial institutions, merchants, and consumers. The company provides payment infrastructure, including credit and debit card services, digital payment solutions, and merchant acquiring services across more than 200 countries and territories."
   }
 ]
