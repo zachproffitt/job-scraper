@@ -45286,5 +45286,37 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "f88d7cda"
+  },
+  "greenhouse-grafanalabs-5972020004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "CAD 211,450 - CAD 253,740",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1e040b75"
+  },
+  "greenhouse-grafanalabs-5972019004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$208,602-$250,322",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "6577a9fb"
   }
 }
