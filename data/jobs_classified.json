@@ -45079,5 +45079,21 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "1067dbbf"
+  },
+  "greenhouse-natera-5996679004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Broward County, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$90k-$100k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "0449cfd5"
   }
 }
