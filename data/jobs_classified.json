@@ -45260,5 +45260,31 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "0626a4a1"
+  },
+  "workable-weekday-1-CC29813930": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bd912be5"
+  },
+  "workable-weekday-1-E918EAA4C6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f88d7cda"
   }
 }
