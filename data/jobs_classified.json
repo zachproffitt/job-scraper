@@ -45331,5 +45331,50 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e6c4a386"
+  },
+  "ashby-cursor-1d6dbbb2-a5af-41a6-a70a-ca97690d9313": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build AI-powered product quality infrastructure and tooling that captures, triages, and routes customer feedback at scale \u2014 including intelligent bug intake pipelines, real-time dashboards, and integrations across ticketing, payment, and data systems. Work on a first-of-its-kind Voice of the Customer program that closes the loop between what users experience and what gets shipped.",
+    "skills": [
+      "Python",
+      "SQL",
+      "ETL",
+      "Data Pipelines",
+      "API Integration",
+      "Dashboards",
+      "React",
+      "TypeScript"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "040641d7"
+  },
+  "greenhouse-roblox-7931896": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": "Lead a team of backend and full-stack engineers building monetization analytics, revenue reporting, payouts, and tax systems for Roblox's creator economy platform. Scale and maintain penny-perfect financial systems handling tens of millions of creators with zero-defect requirements.",
+    "skills": [
+      "Distributed Systems",
+      "Backend APIs",
+      "Full-Stack Development",
+      "Monetization Systems",
+      "Financial Systems",
+      "Scalability",
+      "High Availability"
+    ],
+    "level": "manager",
+    "comp": "$295,250-$345,040",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1853eb5a"
   }
 }
