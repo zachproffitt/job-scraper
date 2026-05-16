@@ -45318,5 +45318,18 @@
       "bonus"
     ],
     "source_hash": "6577a9fb"
+  },
+  "workable-weekday-1-74DBB9CE7A": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6c4a386"
   }
 }
