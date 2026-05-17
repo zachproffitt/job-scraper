@@ -45585,21 +45585,21 @@
     "is_hybrid": false,
     "region": "international",
     "location": null,
-    "job_summary": "Build data pipelines and analysis workflows to extract user behavior patterns from support, product, and content platforms, turning unstructured customer data into actionable content strategy recommendations. Use SQL, Python, and basic ML/NLP techniques to classify user questions, identify content gaps, and automate recurring intelligence reports.",
+    "job_summary": "Analyze user data from Superset, Intercom, Braze, and internal systems to uncover content gaps and user behavior patterns, then transform raw data into actionable recommendations for the content team. Apply SQL, Python, and basic ML/NLP techniques to classify support conversations and user questions at scale.",
     "skills": [
       "SQL",
       "Python",
       "Google Sheets",
-      "APIs",
       "Machine Learning",
       "NLP",
       "Superset",
-      "Intercom"
+      "Intercom",
+      "Braze"
     ],
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8ff38e21"
+    "source_hash": "078b8209"
   },
   "greenhouse-tenableinc-5101853008": {
     "is_engineering": true,
@@ -45646,5 +45646,39 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "20ea5cd7"
+  },
+  "ashby-claimsorted-5fcaeaae-1d09-408d-af18-cb3543dfa0db": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4f5a706d"
+  },
+  "greenhouse-databricks-8530796002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build UI features and reusable components for Lakeflow Connect, Databricks' point-and-click data ingestion platform, enabling customers to configure and monitor connectors across enterprise applications, databases, and cloud storage. Work across the full stack from API integration to polished frontend delivery, collaborating with product, design, and backend teams to embed Connect experiences into Dashboards, Notebooks, SQL, and AI surfaces.",
+    "skills": [
+      "React",
+      "TypeScript",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "Node.js",
+      "AWS"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b9a94d97"
   }
 }
