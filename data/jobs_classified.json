@@ -45680,5 +45680,21 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "b9a94d97"
+  },
+  "greenhouse-pendo-8547786002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Raleigh, NC / New York, NY / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$193,393-$241,742",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e1ad0314"
   }
 }
