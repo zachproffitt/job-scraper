@@ -5205,5 +5205,100 @@
     "slug": "visa/wd5/Visa",
     "name": "Visa",
     "summary": "Visa operates a global payments network that processes electronic fund transfers and credit transactions between financial institutions, merchants, and consumers. The company provides payment infrastructure, including credit and debit card services, digital payment solutions, and merchant acquiring services across more than 200 countries and territories."
+  },
+  {
+    "slug": "gensyn",
+    "name": "a16z crypto",
+    "summary": "a16z crypto is the cryptocurrency and web3 investment arm of Andreessen Horowitz that invests in blockchain infrastructure, protocols, applications, and digital assets. The firm operates as a venture capital fund focusing on early-stage and growth-stage companies building in the cryptocurrency, decentralized finance, and blockchain ecosystems."
+  },
+  {
+    "slug": "anybotics",
+    "name": "AnyBotics",
+    "summary": "ANYbotics develops mobile robotic systems that combine legged locomotion with manipulation capabilities for inspection and maintenance tasks in industrial environments, particularly in confined spaces like underground mines, power plants, and oil and gas facilities."
+  },
+  {
+    "slug": "via",
+    "name": "Citymapper",
+    "summary": "Citymapper builds urban mobility apps and platforms that help people navigate public transportation systems in cities around the world. The company provides real-time transit information, journey planning, and integration with multiple modes of transport across major metropolitan areas."
+  },
+  {
+    "slug": "colliers/wd3/Colliers-External-Career-Site",
+    "name": "Colliers",
+    "summary": "Colliers is a global real estate services company that provides advisory, leasing, and investment services across commercial, industrial, and residential properties. The firm operates in over 70 countries, serving corporate occupiers, investors, and developers through offices staffed by real estate professionals who handle transactions, valuations, and strategic consulting."
+  },
+  {
+    "slug": "deloitte",
+    "name": "Deloitte Consulting",
+    "summary": "Deloitte Consulting provides management consulting services across strategy, operations, technology, and organizational transformation for enterprises and government clients worldwide. The firm serves clients in industries including financial services, healthcare, manufacturing, energy, and public sector, helping them solve complex business challenges and implement large-scale digital and operational changes."
+  },
+  {
+    "slug": "dxctechnology/wd1/DXCJobs",
+    "name": "DXC Technology",
+    "summary": "DXC Technology provides enterprise IT services, consulting, and managed services for large organizations across financial services, healthcare, manufacturing, and the public sector. The company specializes in digital transformation, cloud migration, infrastructure management, and application development and maintenance."
+  },
+  {
+    "slug": "firstam/wd1/firstamericancareers",
+    "name": "First American",
+    "summary": "First American Financial Corporation provides title insurance, settlement services, and property and casualty insurance products for real estate transactions and property ownership in the United States and internationally."
+  },
+  {
+    "slug": "gdit/wd5/External_Career_Site",
+    "name": "General Dynamics Information Technology",
+    "summary": "General Dynamics Information Technology provides information technology services, software development, and systems integration solutions to government agencies, particularly the Department of Defense, intelligence community, and federal civilian departments. The company specializes in cloud services, cybersecurity, enterprise IT infrastructure, and mission-critical systems for national security and government operations."
+  },
+  {
+    "slug": "jackbox-games",
+    "name": "Jackbox Games",
+    "summary": "Jackbox Games develops party video games designed for multiplayer gameplay where one player uses a controller while others participate using smartphones or tablets as controllers. The company creates games like The Jackbox Party Pack series, Quiplash, Fibbage, and Trivia Murder Party that focus on social gameplay and audience engagement."
+  },
+  {
+    "slug": "jll/wd1/jllcareers",
+    "name": "JLL",
+    "summary": "JLL is a professional services and investment management company that provides real estate services including leasing, sales, property management, valuation, and advisory services to occupiers, owners, and investors globally. They operate across commercial real estate, residential, hospitality, and infrastructure sectors, serving clients in more than 80 countries."
+  },
+  {
+    "slug": "logiwacareers",
+    "name": "Logiwa",
+    "summary": "Logiwa provides a cloud-based warehouse management system (WMS) and order fulfillment platform designed for e-commerce and retail businesses. The software helps companies manage inventory, optimize warehouse operations, and streamline order processing across multiple sales channels."
+  },
+  {
+    "slug": "neota",
+    "name": "Neota Logic",
+    "summary": "Neota Logic builds a low-code platform that enables organizations to automate knowledge work and decision-making processes by converting expert knowledge into intelligent applications without extensive coding. The platform serves legal, financial, compliance, and other professional services firms that need to deploy decision automation and knowledge capture at scale."
+  },
+  {
+    "slug": "opengov",
+    "name": "Opengov",
+    "summary": "OpenGov provides cloud-based software and services for government agencies to manage budgeting, planning, and performance tracking across finance, capital projects, and other operations."
+  },
+  {
+    "slug": "rocketlawyer",
+    "name": "Rocket Lawyer",
+    "summary": "Rocket Lawyer provides online legal services and document automation software that allows individuals and small businesses to create legal documents, get attorney reviews, and access legal advice through a subscription-based platform. The company operates in the legal technology and document services space, offering templates and services for wills, business formation, contracts, and other common legal needs."
+  },
+  {
+    "slug": "sense",
+    "name": "Sense",
+    "summary": "Sense builds home energy monitoring hardware and software that tracks real-time electricity consumption at the device level, helping homeowners understand and reduce their energy usage and costs."
+  },
+  {
+    "slug": "jobs.twilio.com|sendgrid.com",
+    "name": "SendGrid",
+    "summary": "SendGrid provides a cloud-based email delivery platform that helps businesses send transactional and marketing emails at scale with high deliverability rates. The company operates in the communication infrastructure space, offering APIs and tools for email authentication, analytics, and template management to enterprises and developers."
+  },
+  {
+    "slug": "sezzle",
+    "name": "Sezzle",
+    "summary": "Sezzle is a fintech company that provides buy-now-pay-later services, allowing consumers to make purchases and pay for them through installment payments over time. The platform partners with e-commerce retailers and online merchants to offer point-of-sale financing options to their customers."
+  },
+  {
+    "slug": "verdigris",
+    "name": "Verdigris",
+    "summary": "Verdigris develops artificial intelligence and IoT sensor systems that monitor and analyze energy consumption in commercial and industrial buildings, providing real-time insights into electrical systems and equipment performance to help organizations reduce energy waste and operating costs."
+  },
+  {
+    "slug": "avisbudget/wd1/Zipcar_Careers",
+    "name": "Zipcar",
+    "summary": "Zipcar operates a car-sharing service that allows members to rent vehicles by the hour or day through a network of parked cars located throughout urban areas and college campuses. The company provides an alternative to traditional car rental and vehicle ownership by offering short-term access to a fleet of sedans, SUVs, and vans that members can reserve and access via a mobile app or website."
   }
 ]

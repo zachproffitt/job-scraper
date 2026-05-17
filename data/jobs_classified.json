@@ -45395,8 +45395,8 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
-    "job_summary": "Design and deploy distributed services and systems at scale, with a focus on backend infrastructure and production reliability. Work as a primary individual contributor on medium to large projects, helping peers debug complex systems and drive technical decisions.",
+    "location": "Remote",
+    "job_summary": "Build and optimize distributed agent orchestration infrastructure capable of parallelizing hundreds of thousands of agents processing millions of tokens per minute. Solve novel challenges in race condition handling, real-time message transmission, and resource optimization at massive scale.",
     "skills": [
       "Go",
       "Redis",
@@ -45404,12 +45404,13 @@
       "S3",
       "Temporal",
       "RPC",
-      "Pub/Sub"
+      "PubSub",
+      "gRPC"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "db1d8432"
+    "source_hash": "17d2b73b"
   },
   "greenhouse-andurilindustries-5132442007": {
     "is_engineering": true,
@@ -45447,5 +45448,35 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "2534b0c2"
+  },
+  "ashby-langchain-74f3fef5-c69c-4e90-97de-4ccafe529a2a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Singapore",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b2d97b06"
+  },
+  "ashby-langchain-49e5ee0c-7293-4ce6-80fc-70199e4172f8": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bd299dc5"
   }
 }
