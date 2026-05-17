@@ -7899,5 +7899,187 @@
     "website": "https://www.yummysuperapp.com",
     "category": [],
     "meta_description": "Pide en Yummy, la Superapp de Latam. Delivery en restaurantes, supermercados, farmacias, moda, eventos y m\u00e1s."
+  },
+  {
+    "name": "a16z crypto",
+    "ats": "greenhouse",
+    "slug": "gensyn",
+    "website": "https://a16zcrypto.com",
+    "category": [],
+    "meta_description": "a16z crypto is a venture capital fund that has been investing in crypto and web3 startups \u2014 across all stages \u2014 since 2013."
+  },
+  {
+    "name": "AnyBotics",
+    "ats": "lever",
+    "slug": "anybotics",
+    "website": "https://anybotics.com",
+    "category": [],
+    "meta_description": "ANYbotics provides autonomous legged robots for industrial applications to provide high availability and reliability in automated routine inspections."
+  },
+  {
+    "name": "Arbitrum (Offchain Labs)",
+    "ats": "lever",
+    "slug": "offchainlabs",
+    "website": "https://offchainlabs.com",
+    "category": [],
+    "meta_description": "Offchain is the technical backbone for global companies, delivering protocol-level breakthroughs for the transition to secure, programmable onchain infrastructure."
+  },
+  {
+    "name": "Casetext",
+    "ats": "workday",
+    "slug": "thomsonreuters/wd5/External_Career_Site",
+    "website": "https://casetext.com",
+    "category": [],
+    "meta_description": "Thomson Reuters CoCounsel is AI technology built by industry experts, backed by authoritative content and equipped with best-in-class security."
+  },
+  {
+    "name": "Citymapper",
+    "ats": "greenhouse",
+    "slug": "via",
+    "website": "https://citymapper.com",
+    "category": [],
+    "meta_description": "The ultimate transport app - iPhone / Android / Web"
+  },
+  {
+    "name": "Colliers",
+    "ats": "workday",
+    "slug": "colliers/wd3/Colliers-External-Career-Site",
+    "website": "https://colliers.com",
+    "category": [],
+    "meta_description": "Colliers is the leading diversified professional services and investment management company. Work with us to accelerate your success!"
+  },
+  {
+    "name": "Deloitte Consulting",
+    "ats": "lever",
+    "slug": "deloitte",
+    "website": "https://deloitte.com",
+    "category": [],
+    "meta_description": "Discover industry insights and audit, tax, and consulting services that drive impact from Deloitte\u2019s global network of member firms."
+  },
+  {
+    "name": "DXC Technology",
+    "ats": "workday",
+    "slug": "dxctechnology/wd1/DXCJobs",
+    "website": "https://dxc.technology",
+    "category": [],
+    "meta_description": "DXC is a leading enterprise technology and innovation partner delivering software, services, and solutions for global enterprises and public sector organizations."
+  },
+  {
+    "name": "Evisort",
+    "ats": "workday",
+    "slug": "workday/wd5/Workday",
+    "website": "https://evisort.com",
+    "category": [],
+    "meta_description": "Superintelligence for work is here. Empower your people with agentic AI."
+  },
+  {
+    "name": "First American",
+    "ats": "workday",
+    "slug": "firstam/wd1/firstamericancareers",
+    "website": "https://firstam.com",
+    "category": [],
+    "meta_description": "First American Financial Corporation provides comprehensive title insurance protection and professional settlement services for homebuyers and sellers, real estate agents and brokers, mortgage lenders, commercial property professionals, homebuilders and developers, title agencies and legal professionals to facilitate real estate purchases, construction, refinances or equity loans."
+  },
+  {
+    "name": "General Dynamics Information Technology",
+    "ats": "workday",
+    "slug": "gdit/wd5/External_Career_Site",
+    "website": "https://gdit.com",
+    "category": [],
+    "meta_description": "Delivering technology solutions and mission services to every major agency across the U.S. government, defense and intelligence community."
+  },
+  {
+    "name": "Jackbox Games",
+    "ats": "workable",
+    "slug": "jackbox-games",
+    "website": "https://jackboxgames.com",
+    "category": []
+  },
+  {
+    "name": "JLL",
+    "ats": "workday",
+    "slug": "jll/wd1/jllcareers",
+    "website": "https://jll.com",
+    "category": [],
+    "meta_description": "JLL deploys an innovative, intelligent, and optimistic approach to solving complex challenges \u2013 to help shape a better future for real estate."
+  },
+  {
+    "name": "Logiwa",
+    "ats": "greenhouse",
+    "slug": "logiwacareers",
+    "website": "https://logiwa.com",
+    "category": [],
+    "meta_description": "Cloud native SaaS WMS software powered by AI for high-volume omnichannel fulfillment\u2014easily scale to meet the growth demands of B2B, DTC, and 3PL warehouse operations."
+  },
+  {
+    "name": "Neota Logic",
+    "ats": "workable",
+    "slug": "neota",
+    "website": "https://neotalogic.com",
+    "category": [],
+    "meta_description": "Neota delivers AI legal solutions built on your expertise \u2014 governing decisions & automating workflows for legal teams and law firms."
+  },
+  {
+    "name": "Opengov",
+    "ats": "ashby",
+    "slug": "opengov",
+    "website": "https://opengov.com",
+    "category": [],
+    "meta_description": "OpenGov is the leader in modern government software for our nation\u2019s cities, counties, and state agencies. Schedule a demo today."
+  },
+  {
+    "name": "Rocket Lawyer",
+    "ats": "greenhouse",
+    "slug": "rocketlawyer",
+    "website": "https://rocketlawyer.com",
+    "category": [],
+    "meta_description": "Rocket Lawyer makes legal help simple with AI-powered insights, contract tools, small business support, and easy access to human Legal Pros."
+  },
+  {
+    "name": "Sense",
+    "ats": "workable",
+    "slug": "sense",
+    "website": "https://sense.com",
+    "category": [],
+    "meta_description": "Sense&#039;s consumer app makes homes smarter, empowering people to make better use of their energy, lower electricity bills, and reduce their carbon footprint."
+  },
+  {
+    "name": "SendGrid",
+    "ats": "eightfold",
+    "slug": "jobs.twilio.com|sendgrid.com",
+    "website": "https://sendgrid.com",
+    "category": [],
+    "meta_description": "SendGrid&#39;s trusted email API and marketing campaigns platform is now available through Twilio.com."
+  },
+  {
+    "name": "Sezzle",
+    "ats": "greenhouse",
+    "slug": "sezzle",
+    "website": "https://sezzle.com",
+    "category": [],
+    "meta_description": "Buy from your favorite stores today, and split up the cost into four interest-free payments."
+  },
+  {
+    "name": "Verdigris",
+    "ats": "lever",
+    "slug": "verdigris",
+    "website": "https://verdigris.co",
+    "category": [],
+    "meta_description": "The validation layer for AI data centers. Verdigris uses 8 kHz waveform analysis to detect equipment degradation and prevent outages."
+  },
+  {
+    "name": "Vive Studios",
+    "ats": "icims",
+    "slug": "globalcareers-htcvive",
+    "website": "https://htc.com",
+    "category": []
+  },
+  {
+    "name": "Zipcar",
+    "ats": "workday",
+    "slug": "avisbudget/wd1/Zipcar_Careers",
+    "website": "https://zipcar.com",
+    "category": [],
+    "meta_description": "Zipcar is the world\u2019s leading car sharing alternative to car rental & ownership. Book cars on demand by the hour or day. Join instantly, drive in minutes."
   }
 ]
