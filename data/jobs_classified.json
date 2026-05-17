@@ -45556,5 +45556,67 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e39fd79c"
+  },
+  "greenhouse-wizinc-4681239006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Conduct deep technical research to discover novel risks and attack vectors in cloud and AI-native environments, then work with Product and Engineering to translate findings into product capabilities and security proofs of concept.",
+    "skills": [
+      "Python",
+      "Go",
+      "KQL",
+      "SQL",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a9c42d8c"
+  },
+  "ashby-thndr-7bf11374-3596-42c2-9226-4e442a5be0a1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": "Build data pipelines and analysis workflows to extract user behavior patterns from support, product, and content platforms, turning unstructured customer data into actionable content strategy recommendations. Use SQL, Python, and basic ML/NLP techniques to classify user questions, identify content gaps, and automate recurring intelligence reports.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Google Sheets",
+      "APIs",
+      "Machine Learning",
+      "NLP",
+      "Superset",
+      "Intercom"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8ff38e21"
+  },
+  "greenhouse-tenableinc-5101853008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build and maintain scalable frontend infrastructure for a cybersecurity SaaS platform, owning features from design through deployment while collaborating with product, design, and backend teams.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Angular",
+      "Unit Testing"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "03a5480f"
   }
 }
