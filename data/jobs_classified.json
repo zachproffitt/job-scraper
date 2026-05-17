@@ -45478,5 +45478,20 @@
       "equity"
     ],
     "source_hash": "bd299dc5"
+  },
+  "ashby-ironcladhq-4ebaa744-8252-49f0-a209-9d95ecc79290": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cf73c00a"
   }
 }
