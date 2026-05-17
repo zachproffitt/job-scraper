@@ -45389,5 +45389,63 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "aa8baeab"
+  },
+  "ashby-paradigmai-d8c669df-e688-4e29-8a85-2967ebad8e4c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and deploy distributed services and systems at scale, with a focus on backend infrastructure and production reliability. Work as a primary individual contributor on medium to large projects, helping peers debug complex systems and drive technical decisions.",
+    "skills": [
+      "Go",
+      "Redis",
+      "PostgreSQL",
+      "S3",
+      "Temporal",
+      "RPC",
+      "Pub/Sub"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "db1d8432"
+  },
+  "greenhouse-andurilindustries-5132442007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build multidisciplinary design analysis and optimization workflows for next-generation combat aircraft and missiles, integrating disciplinary models across conceptual to detailed engineering phases. You'll bridge computational engineering, hardware, and software development in a defense environment requiring DoD Secret clearance and Special Access Program eligibility.",
+    "skills": [
+      "Python",
+      "MATLAB",
+      "Git",
+      "C",
+      "C++",
+      "FORTRAN",
+      "DoD Secret Clearance",
+      "Special Access Program Eligibility"
+    ],
+    "level": "senior",
+    "comp": "$166,000-$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "9c5c7043"
+  },
+  "ashby-physicalintelligence-eece24c0-3a0e-4373-bf88-4b92633a0930": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2534b0c2"
   }
 }
