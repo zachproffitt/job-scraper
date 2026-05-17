@@ -45618,5 +45618,20 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "03a5480f"
+  },
+  "ashby-opengov-cd2a31c7-4830-472c-b051-7da617d83f1b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$170k-$190k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c28d39a1"
   }
 }
