@@ -45772,5 +45772,57 @@
       "equity"
     ],
     "source_hash": "ace7ea00"
+  },
+  "ashby-baseten-1933097e-2f8e-46e2-8442-0c2f4a9394da": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead a team of cloud platform engineers building and maintaining the infrastructure systems that power Baseten's AI inference platform \u2014 from automated deployments and Kubernetes orchestration to monitoring, performance optimization, and incident response. You'll engage directly in technical decisions, code reviews, and architectural discussions while coaching engineers and translating user needs into infrastructure improvements.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "GitHub Actions",
+      "Prometheus",
+      "Grafana",
+      "OpenTelemetry",
+      "GPU Infrastructure",
+      "Multi-cloud Environments"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4ef5d908"
+  },
+  "greenhouse-isaraerospace-4863632101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Germany",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5403eb8b"
+  },
+  "greenhouse-anthropic-5204086008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Zurich, Switzerland",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "da023cf1"
   }
 }
