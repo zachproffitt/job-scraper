@@ -45711,5 +45711,27 @@
       "equity"
     ],
     "source_hash": "22ff1041"
+  },
+  "ashby-hypercubic-a30428ea-1c4f-4050-bf6d-3963ae221374": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build AI-powered systems that understand and rearchitect large-scale legacy applications, focusing on program analysis and agentic systems for critical enterprise software. Work directly with the CTO on architecture, prototyping, and productionization from first principles in a founding role.",
+    "skills": [
+      "Python",
+      "TypeScript",
+      "Next.js",
+      "Electron",
+      "AI/ML Systems",
+      "Program Analysis",
+      "Testing (TDD)",
+      "Cloud Infrastructure"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "26d15eef"
   }
 }
