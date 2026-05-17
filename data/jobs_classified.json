@@ -45534,5 +45534,27 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "c4d917d6"
+  },
+  "greenhouse-toast-7936022": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and implement AI agent architecture for Toast's Team management platform, a mission-critical workforce management system serving restaurants. Drive specification-driven development practices and agentic patterns across the fintech line of business while mentoring senior technical leadership.",
+    "skills": [
+      "Distributed Systems",
+      "Microservices",
+      "SaaS Architecture",
+      "AWS",
+      "LLM/AI Agents",
+      "Apache Pulsar",
+      "Apache Camel",
+      "Event-Driven Architecture"
+    ],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e39fd79c"
   }
 }
