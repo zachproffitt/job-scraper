@@ -45733,5 +45733,44 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "26d15eef"
+  },
+  "ashby-kalshi-59a824e4-a275-457d-b027-6c244c0a8c06": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$100k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e0096444"
+  },
+  "ashby-baseten-1c9b9d23-a1b3-426a-9a88-000be4679960": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead infrastructure and SRE teams across Baseten's cloud platform, owning multi-cloud Kubernetes infrastructure, reliability standards, and incident management for mission-critical ML inference at scale. You'll set technical direction for GPU infrastructure, observability systems, and enterprise SLAs while developing team leads and balancing long-term strategic investments with operational excellence.",
+    "skills": [
+      "Kubernetes",
+      "Terraform",
+      "Prometheus",
+      "Grafana",
+      "GitHub Actions",
+      "Incident Management",
+      "AWS",
+      "GCP"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ace7ea00"
   }
 }
