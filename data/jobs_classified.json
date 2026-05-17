@@ -45696,5 +45696,20 @@
       "bonus"
     ],
     "source_hash": "e1ad0314"
+  },
+  "greenhouse-cockroachlabs-7926263": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$120k-$140k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "22ff1041"
   }
 }
