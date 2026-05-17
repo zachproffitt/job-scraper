@@ -45824,5 +45824,31 @@
       "equity"
     ],
     "source_hash": "da023cf1"
+  },
+  "lever-CordTechnologies-97547832-f883-4599-9621-bf1809616745": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6bd0c61"
+  },
+  "ashby-helion-1e2ff97c-9a78-4f90-99f5-89cfcc9e9eba": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e5396216"
   }
 }
