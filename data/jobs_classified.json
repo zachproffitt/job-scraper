@@ -45493,5 +45493,46 @@
       "equity"
     ],
     "source_hash": "cf73c00a"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5842555004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ashburn, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$117,500\u2014$176,300",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ef9ac5d1"
+  },
+  "greenhouse-eslfaceitgrouplimited-4866057101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Malaysia",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1fd3b369"
+  },
+  "bamboo-instabug-119": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c4d917d6"
   }
 }
