@@ -2,6 +2,7 @@
 """Generate README.md, REMOTE.md, and COMPANIES.md for the jobs repo."""
 
 import json
+import re
 import sys
 from collections import defaultdict
 from datetime import datetime
@@ -218,7 +219,10 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
     company_summaries: dict[str, str] = {}
     if COMPANIES_CLASSIFIED_FILE.exists():
         for c in json.loads(COMPANIES_CLASSIFIED_FILE.read_text()):
-            company_summaries[c["name"]] = c.get("summary", "")
+            raw = c.get("summary", "")
+            # Strip markdown heading lines (artifact of older LLM responses)
+            lines = [l for l in raw.splitlines() if not l.strip().startswith("#")]
+            company_summaries[c["name"]] = " ".join(l.strip() for l in lines if l.strip())
 
     by_company: dict[str, list[dict]] = defaultdict(list)
     for j in jobs:
