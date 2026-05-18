@@ -15,9 +15,8 @@ Supported VCs:
     Khosla Ventures — img alt + href pairs on portfolio page
     Greylock        — WordPress REST API (/wp/v2/portfolio, 157 companies)
     Sequoia         — WordPress REST API (/wp/v2/company, 406 companies)
-
 TODO (no public API available):
-    a16z       — JS-rendered, no WP API, no extractable data without Playwright
+    a16z       — investment list is JS-rendered, no WP API, no sitemap; needs Playwright
     Bessemer   — WP API returns 401 (auth required)
     Lightspeed — WP API accessible but no company post type registered
 """

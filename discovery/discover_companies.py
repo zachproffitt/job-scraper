@@ -51,6 +51,7 @@ def log(msg: str) -> None:
 
 NAMES_FILE = Path("data/company_names.txt")
 COMPANIES_FILE = Path("data/companies.json")
+NOT_FOUND_FILE = Path("data/discovery_not_found.txt")
 
 CAREERS_LINK_RE = re.compile(
     r'href=["\']([^"\']*(?:career|jobs|hiring|work-with-us|join-us|join-our-team|work-here|open-roles)[^"\']*)["\']',
@@ -85,6 +86,16 @@ ATS_PATTERNS = [
 ]
 
 SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
+
+
+def load_not_found() -> set[str]:
+    if not NOT_FOUND_FILE.exists():
+        return set()
+    return {line.strip() for line in NOT_FOUND_FILE.read_text().splitlines() if line.strip()}
+
+
+def save_not_found(domains: set[str]) -> None:
+    NOT_FOUND_FILE.write_text("\n".join(sorted(domains)) + "\n")
 
 
 def parse_names_file() -> list[tuple[str, str]]:
@@ -268,6 +279,8 @@ def main():
         for c in json.loads(COMPANIES_FILE.read_text()):
             existing[c["name"].lower()] = c
 
+    not_found_domains = load_not_found()
+
     changed = False
     fixed = []
     still_broken = []
@@ -328,7 +341,7 @@ def main():
             print(f"Backfilled website field for {backfilled} existing companies.")
 
         # --- Discover new companies ---
-        new_entries = [(n, d) for n, d in entries if n.lower() not in existing]
+        new_entries = [(n, d) for n, d in entries if n.lower() not in existing and d.lower() not in not_found_domains]
 
         if not new_entries:
             print(f"All {len(entries)} companies already resolved.")
@@ -381,6 +394,7 @@ def main():
                     else:
                         with lock:
                             unresolved.append((name, domain))
+                            not_found_domains.add(domain.lower())
                         label = "not found"
 
                     print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... {label}")
@@ -390,6 +404,7 @@ def main():
                         current_n = n
                     if current_n % 500 == 0:
                         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
+                        save_not_found(not_found_domains)
                         log(f"[checkpoint] saved {current_n}/{len(new_entries)}")
 
         supported_count = len(newly_found)
@@ -406,10 +421,12 @@ def main():
         for name, domain in unresolved:
             log(f"ATS not detected: {name} ({domain})")
 
-    # Write updated companies.json
+    # Write updated companies.json and not-found cache
     if changed:
         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
         log(f"Written to {COMPANIES_FILE}")
+    save_not_found(not_found_domains)
+    log(f"Not-found cache: {len(not_found_domains)} domains saved to {NOT_FOUND_FILE}")
 
 
 if __name__ == "__main__":
