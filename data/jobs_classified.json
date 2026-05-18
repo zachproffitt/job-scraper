@@ -54525,5 +54525,534 @@
       "bonus"
     ],
     "source_hash": "39cccaef"
+  },
+  "greenhouse-afresh-5998416004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build full-stack applications and APIs that optimize in-store fresh food operations and supply chain decisions for thousands of grocery stores. Work with AI-generated insights to create tools that reduce food waste at scale across major US grocers.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Python",
+      "PostgreSQL",
+      "GraphQL",
+      "API design",
+      "automated testing",
+      "analytics/observability"
+    ],
+    "level": "mid",
+    "comp": "$130,000-$195,000",
+    "comp_extras": [],
+    "source_hash": "fe4b18d7"
+  },
+  "ashby-boostly-ed49ed81-b755-4383-b4ab-5306aa92a26f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Lehi, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cd402fbf"
+  },
+  "greenhouse-brandwatch-4869966101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Design, implement, and operate highly reliable network infrastructure across cloud and on-premises environments, managing routing architectures, hybrid networking, and network automation at scale. This role requires deep expertise in BGP/OSPF, Juniper platforms, and Kubernetes CNI to support a global multi-cloud platform serving over 1.1 billion influencers.",
+    "skills": [
+      "BGP",
+      "OSPF",
+      "Terraform",
+      "Ansible",
+      "Juniper",
+      "Kubernetes CNI",
+      "AWS Direct Connect",
+      "GCP Interconnect"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "84c2b3d1"
+  },
+  "greenhouse-bridgebio-5139364007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA / New Haven, CT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2013$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0592dea4"
+  },
+  "lever-certik-5191720e-c026-4f53-b58a-094e0ec049f6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8d6f171d"
+  },
+  "lever-CesiumAstro-346022b9-b77e-4b99-b9b3-3256ba45724a": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d31cae73"
+  },
+  "lever-CesiumAstro-62a4e98a-9009-46e9-b2c2-5a0d31700a58": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westminster, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "14181b16"
+  },
+  "lever-CesiumAstro-af1d5399-b16f-455a-b708-8cd9f0634e19": {
+    "is_engineering": null,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2323cbb8"
+  },
+  "lever-CesiumAstro-b286ced7-4549-496a-9cfd-d92880245824": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westminster, CO",
+    "job_summary": "Implement quality assurance protocols and execute formal test plans for satellite communication systems, embedded hardware, phased-array systems, and RF solutions serving Department of Defense applications. Work requires US citizenship or equivalent status and involvement with government space technology export-controlled systems.",
+    "skills": [
+      "Embedded Systems",
+      "RF Systems",
+      "Test Automation",
+      "DoD Standards"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c5ddec85"
+  },
+  "lever-CesiumAstro-727c89dd-3425-4e4e-b527-6011613e4744": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d3f5cca4"
+  },
+  "lever-CesiumAstro-d2a5245d-f0c8-4abc-8c32-34758c8714d1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "499b7a4e"
+  },
+  "ashby-cursor-e9f51a87-3aca-4e99-b217-e1d19f90dc2a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "169a9d99"
+  },
+  "ashby-cursor-d0cf5203-2db2-40b6-b1fe-1656ec288ce3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7c1e4922"
+  },
+  "smartrecruiters-Eurofins-744000127071879": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Portage, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c1756abe"
+  },
+  "greenhouse-fireworksai-4227302009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$140k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "7e7b0f61"
+  },
+  "ashby-hebbia-ai-75c4acce-e8c6-48d2-a1f3-ac1456f8100d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a06070e3"
+  },
+  "greenhouse-inkind-5224262008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Design and build automation frameworks for web, mobile, and API testing across inKind's dining platform, integrating with CI/CD pipelines and experimenting with AI-powered testing tools to enhance coverage and quality ownership within cross-functional product pods.",
+    "skills": [
+      "TypeScript",
+      "Java",
+      "Python",
+      "JavaScript",
+      "Playwright",
+      "Appium",
+      "Maestro",
+      "AWS"
+    ],
+    "level": "mid",
+    "comp": "$110,000-$130,000",
+    "comp_extras": [],
+    "source_hash": "df245811"
+  },
+  "greenhouse-mitratech-7927218": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$60k-$70k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "79b565c0"
+  },
+  "greenhouse-okta-7674807": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and implement scalable, reliable network infrastructure for Okta's identity platform, managing global traffic entry points and core internal networking across AWS and GCP cloud environments. You'll work on highly available systems with federal compliance requirements (FedRamp) and on-call responsibilities for critical infrastructure.",
+    "skills": [
+      "AWS",
+      "GCP",
+      "Terraform",
+      "Python",
+      "Bash",
+      "Golang",
+      "TCP/IP Networking",
+      "DNS"
+    ],
+    "level": "staff",
+    "comp": "$174,000\u2014$267,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5af25586"
+  },
+  "ashby-opengov-9457d6ce-ed3d-4c22-8479-541e4f08bcd6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$90k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "5b8db121"
+  },
+  "greenhouse-podium81-7909339": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Guatemala City, Guatemala",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d26a14ef"
+  },
+  "ashby-radar-172b02fe-4a96-42b1-92a5-49c3bd4d4c4d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1dbbf7fe"
+  },
+  "greenhouse-riotgames-7729115": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": "Build performance optimization tools and systems for VALORANT, a large-scale live service game. Identify and resolve bottlenecks using telemetry and profilers to ensure smooth server performance across millions of concurrent players.",
+    "skills": [
+      "C++",
+      "game engines",
+      "performance profiling",
+      "telemetry",
+      "automated testing",
+      "benchmarking",
+      "live service systems"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "78ce2b9a"
+  },
+  "greenhouse-roofstock-8553114002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Atlanta, GA / Tampa, FL / Charlotte, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "88f1e9c7"
+  },
+  "greenhouse-scaleai-4696595005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": "Develop post-training methods and interpretability techniques to make frontier AI systems safer and better understood by researchers and policymakers. You'll design post-training pipelines, create interpretability-informed evaluations to reveal unsafe model behaviors, and translate findings into safety standards and evaluation benchmarks for policy impact.",
+    "skills": [
+      "RLHF",
+      "DPO",
+      "GRPO",
+      "mechanistic interpretability",
+      "red-teaming",
+      "PyTorch",
+      "Python",
+      "published ML research"
+    ],
+    "level": "senior",
+    "comp": "$216k-$270k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b321dcea"
+  },
+  "greenhouse-smartcatplatforminc-5979856004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": "Lead Smartcat's QA strategy and team to build automated testing infrastructure across REST APIs and UI, reducing production bugs by 50% and embedding quality practices across engineering and product teams. Drive implementation of AI-based QA approaches on a Series C platform serving 1000+ enterprises including 25% of Fortune 500.",
+    "skills": [
+      "Selenium WebDriver",
+      "REST API testing",
+      "C#",
+      "Git",
+      "Allure",
+      "Docker",
+      "DevOps",
+      "Test automation"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3bcbe097"
+  },
+  "greenhouse-smartcatplatforminc-5998409004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": "Lead Smartcat's QA function to build a quality management system reducing production bugs by 50%, establish automated testing infrastructure (end-to-end, unit, API), and scale testing practices across engineering. You'll manage a team of 5+ QA engineers while collaborating with engineering leadership to embed testing into the development lifecycle and implement AI-based quality approaches.",
+    "skills": [
+      "Selenium WebDriver",
+      "REST API testing",
+      "C#",
+      "Git",
+      "Allure",
+      "Docker",
+      "DevOps practices",
+      "Test automation frameworks"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cd1a200a"
+  },
+  "breezy-thirdchannel-inc-88e4bab449cf": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Marcos, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$35/hr",
+    "comp_extras": [],
+    "source_hash": "7b178c05"
+  },
+  "greenhouse-toast-7939724": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Atlanta, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$111,000\u2013$178,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "81bf42cc"
+  },
+  "greenhouse-toast-7743470": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$111k-$227k",
+    "comp_extras": [],
+    "source_hash": "3d19c5e0"
+  },
+  "greenhouse-toast-7939716": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$123,000\u2013$197,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0be4f4a2"
+  },
+  "greenhouse-transcendinc-4251013009": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$30-$36/hour",
+    "comp_extras": [],
+    "source_hash": "52ee1453"
+  },
+  "greenhouse-twilio-7926954": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0763c243"
   }
 }
