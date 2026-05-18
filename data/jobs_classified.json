@@ -53886,5 +53886,77 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "04eb58e8"
+  },
+  "greenhouse-databricks-8548986002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$180,000\u2013$247,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "52ae7a47"
+  },
+  "greenhouse-gitlab-8548105002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$152,800\u2014$259,200 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "937a91b1"
+  },
+  "greenhouse-kikoff-4250321009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$182,000-$230,000",
+    "comp_extras": [],
+    "source_hash": "2c73a461"
+  },
+  "ashby-openai-40aacfc5-9ef2-4d50-8354-0ea1db3fd09f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Singapore",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0cbcaba8"
+  },
+  "greenhouse-starcloud-5222847008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e85bce1b"
   }
 }
