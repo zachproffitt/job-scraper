@@ -53,7 +53,7 @@ def is_noise_url(url: str) -> bool:
 
 
 def clean_domain(url: str) -> str:
-    return url.removeprefix("https://").removeprefix("http://").lstrip("/").split("/")[0].lstrip("www.")
+    return url.removeprefix("https://").removeprefix("http://").lstrip("/").split("/")[0].removeprefix("www.")
 
 
 
@@ -189,7 +189,7 @@ def load_existing() -> tuple[set[str], set[str]]:
         if c.get("name"):
             names.add(c["name"].lower())
         if c.get("website"):
-            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].lstrip("www.")
+            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].removeprefix("www.")
             domains.add(domain.lower())
     return names, domains
 
@@ -211,7 +211,7 @@ def main():
 
             new_from_vc = 0
             for name, domain in companies:
-                domain_bare = domain.lower().lstrip("www.")
+                domain_bare = domain.lower().removeprefix("www.")
                 if name.lower() in existing_names or domain_bare in existing_domains:
                     continue
                 all_new.append((name, domain))

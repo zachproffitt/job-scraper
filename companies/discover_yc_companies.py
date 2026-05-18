@@ -113,7 +113,7 @@ def load_existing() -> tuple[set[str], set[str]]:
         if c.get("name"):
             names.add(c["name"].lower())
         if c.get("website"):
-            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].lstrip("www.")
+            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].removeprefix("www.")
             domains.add(domain.lower())
     return names, domains
 
@@ -155,7 +155,7 @@ def main():
     new_companies = [
         (name, domain)
         for name, domain in candidates
-        if name.lower() not in existing_names and domain.lstrip("www.").lower() not in existing_domains
+        if name.lower() not in existing_names and domain.removeprefix("www.").lower() not in existing_domains
     ]
 
     log(f"Active companies: {len(candidates)} | New: {len(new_companies)}")

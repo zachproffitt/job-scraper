@@ -79,7 +79,7 @@ def load_existing() -> tuple[set[str], set[str]]:
         if c.get("name"):
             names.add(c["name"].lower())
         if c.get("website"):
-            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].lstrip("www.")
+            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].removeprefix("www.")
             domains.add(domain.lower())
     return names, domains
 
@@ -101,7 +101,7 @@ def query_haiku(client: anthropic.Anthropic, industry: str) -> list[tuple[str, s
             try:
                 obj = json.loads(line)
                 name = obj.get("name", "").strip()
-                domain = obj.get("domain", "").strip().lstrip("www.")
+                domain = obj.get("domain", "").strip().removeprefix("www.")
                 if name and domain:
                     results.append((name, domain))
             except json.JSONDecodeError:
@@ -132,7 +132,7 @@ def main():
 
         new_here = []
         for name, domain in companies:
-            domain_bare = domain.lower().lstrip("www.")
+            domain_bare = domain.lower().removeprefix("www.")
             if name.lower() in existing_names or domain_bare in existing_domains:
                 continue
             new_here.append((name, domain))

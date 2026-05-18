@@ -138,19 +138,23 @@ def main():
                 error_str = str(e)
                 with lock:
                     error_count += 1
-                    # Extract URL from error string for slug check (slug appears in message text too)
+                    # Extract URL from error string. httpx wraps URLs in single quotes
+                    # ("for url 'https://…'"), so strip leading quotes before checking.
                     url_in_error = ""
                     for part in error_str.split():
-                        if part.startswith("http"):
-                            url_in_error = part.rstrip("'\"")
+                        candidate = part.lstrip("'\"")
+                        if candidate.startswith("http"):
+                            url_in_error = candidate.rstrip("'\".,")
                             break
                     # 404: job board is gone
                     # 422: Workday tenant/path no longer valid (acquired companies)
-                    # 403 where slug not in URL: redirected to ATS homepage (dead account)
+                    # 403 where slug not in URL: redirected to ATS homepage (dead account).
+                    # Require a non-empty URL — otherwise we can't tell whether the slug was
+                    # absent or just unparseable, and shouldn't auto-deactivate on transient 403s.
                     is_permanent = (
                         "404" in error_str
                         or "422" in error_str
-                        or ("403" in error_str and slug not in url_in_error)
+                        or ("403" in error_str and url_in_error and slug not in url_in_error)
                     )
                     if is_permanent:
                         deactivated.append(name)

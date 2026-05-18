@@ -22,7 +22,7 @@ def _is_new(j: dict, cutoff: datetime) -> bool:
             return dt >= cutoff
         except ValueError:
             pass
-    today = cutoff.strftime("%Y-%m-%d")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return j.get("first_seen", "") == today
 
 
