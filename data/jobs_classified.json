@@ -46165,5 +46165,218 @@
       "bonus"
     ],
     "source_hash": "847fe119"
+  },
+  "ashby-Etched-cb256b75-db93-4ca4-a415-e1272741170b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "San Jose, CA / Taipei, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "58056352"
+  },
+  "greenhouse-newrelic-5222090008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mumbai, India",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "292c5703"
+  },
+  "greenhouse-okta-7936790": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build secure authentication and authorization cloud services and client software enabling users to seamlessly access Okta-protected resources. Work on identity and security infrastructure with real-world stakes in a rapidly evolving domain.",
+    "skills": [
+      "Java",
+      "Spring",
+      "OAuth",
+      "SAML",
+      "WebAuthn",
+      "FIDO",
+      "React",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d65bb2d2"
+  },
+  "ashby-confluent-fa3f95ae-584f-4335-9d9e-b4dd13895ff1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": "Build mission-critical frontend experiences for Confluent Cloud's data streaming platform, architecting scalable user interfaces that enable faster product releases across the engineering organization. Lead technical initiatives around code quality, observability, and testing while mentoring engineers on your team.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "HTML",
+      "CSS",
+      "Jenkins",
+      "Semaphore CI"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cb2be622"
+  },
+  "ashby-shepherd-2f724b0a-9f9d-4bc6-bc97-cbec2dc10a34": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Dallas, TX / Chicago, IL / Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3fb8e8b2"
+  },
+  "ashby-uipath-e613f49f-8311-439a-9668-b05ec980007a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build intuitive, performant front-end interfaces for UiPath Test Cloud, a cloud-based AI-powered software testing platform enabling teams to design, run, and manage automated testing at scale. You'll own features end-to-end, architect scalable UI patterns, and drive accessibility and performance excellence across modern browsers and mobile devices.",
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "React",
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "WCAG",
+      "Performance Optimization"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fa696a9c"
+  },
+  "greenhouse-quaise-4249295009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "815300a2"
+  },
+  "greenhouse-newrelic-5220010008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4f28096d"
+  },
+  "greenhouse-wayve-8552567002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": "Develop foundation models, world models, and reinforcement learning systems for autonomous driving embodied AI. Work on multi-year research breakthroughs in geometric understanding, generative modeling, and sim-to-real transfer at the frontier of embodied AI with real-world deployment validation.",
+    "skills": [
+      "PyTorch",
+      "Transformers",
+      "Diffusion Models",
+      "Reinforcement Learning",
+      "Computer Vision",
+      "SLAM",
+      "JAX",
+      "FSDP"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4ffbc6b0"
+  },
+  "ashby-shepherd-8b413a20-4309-4992-8e1d-648a018cfe30": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Dallas, TX / Chicago, IL / Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ffd950b5"
+  },
+  "greenhouse-wayve-8549403002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Japan",
+    "job_summary": "Build and maintain resilience infrastructure for autonomous vehicles operating on public roads, ensuring seamless operation of AI-driven navigation systems. Develop monitoring, logging, and automation solutions that preempt failures in a safety-critical, distributed production environment at scale.",
+    "skills": [
+      "Python",
+      "C++",
+      "Rust",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Prometheus",
+      "Grafana"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1d2f3153"
+  },
+  "greenhouse-zyngacareers-5742259004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Develop new game features in C#, C++, Java, Python, or JavaScript for games played by millions of players globally. Optimize live game performance, mentor junior engineers, and collaborate across product, design, art, and QA teams.",
+    "skills": [
+      "C#",
+      "C++",
+      "Java",
+      "JavaScript",
+      "Python",
+      "AWS",
+      "CI/CD",
+      "Visual Studio"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8a36351d"
   }
 }
