@@ -35,12 +35,10 @@ def build_table(counts: dict[str, int]) -> list[str]:
 
 
 def replace_table(lines: list[str], new_rows: list[str]) -> list[str]:
-    """Replace the ATS table rows in the line list, return updated lines."""
     try:
         header_idx = lines.index(ATS_TABLE_HEADER)
     except ValueError:
         return lines
-    # Find the blank line after the header, then the table block
     start = header_idx + 2  # skip header + blank line
     end = start
     while end < len(lines) and lines[end].startswith("|"):
@@ -49,12 +47,10 @@ def replace_table(lines: list[str], new_rows: list[str]) -> list[str]:
 
 
 def replace_last_updated(lines: list[str], new_line: str) -> list[str]:
-    """Replace an existing last-updated line or insert it after the first paragraph."""
     for i, line in enumerate(lines):
         if line.startswith(LAST_UPDATED_PREFIX):
             lines[i] = new_line
             return lines
-    # Not found — insert after the first non-empty paragraph (first blank line after content)
     for i, line in enumerate(lines):
         if i > 0 and line == "" and lines[i - 1] != "":
             return lines[:i + 1] + [new_line, ""] + lines[i + 1:]
@@ -72,7 +68,6 @@ def main() -> None:
     new_rows = build_table(counts)
     lines = README_FILE.read_text().splitlines()
 
-    # Strip legacy *Updated …* lines
     lines = [l for l in lines if not (l.startswith("*Updated ") and l.endswith("*"))]
 
     updated = replace_table(lines, new_rows)

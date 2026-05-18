@@ -1,15 +1,14 @@
 #!/usr/bin/env python3
-"""Generate README.md for the jobs repo by scanning all rendered job files."""
+"""Generate README.md, REMOTE.md, and COMPANIES.md for the jobs repo."""
 
 import json
-import re
 import sys
 from collections import defaultdict
 from datetime import datetime
 from pathlib import Path
 
 from badges import REMOTE_BADGE, HYBRID_BADGE, NEW_BADGE, skill_badge
-from render_jobs import clean_location, _company_logo_html
+from render_common import clean_location, company_logo_html, abbrev_comp, SUPPORTED_ATS
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
@@ -17,15 +16,6 @@ REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_README = JOBS_REPO / "COMPANIES.md"
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 COMPANIES_CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
-
-
-def abbrev_comp(comp: str) -> str:
-    """Normalize $100,000 → $100k for any currency with large numbers."""
-    def shorten(m):
-        n = int(m.group(0).replace(",", ""))
-        return f"{n // 1000}k"
-    return re.sub(r"\d{1,3}(?:,\d{3})+", shorten, comp)
 
 
 def parse_frontmatter(path: Path) -> dict:
@@ -59,12 +49,13 @@ def format_meta(fm: dict) -> str:
     if location in ("Not specified", ""):
         location = ""
 
-    location = clean_location(location, is_remote=(remote == "Remote"))
+    is_remote = remote == "Remote" or location.lower() == "remote"
+    location = clean_location(location, is_remote=is_remote)
 
     parts = [f"**{company}**"]
-    if location:
+    if location and location.lower() != "remote":
         parts.append(location)
-    if remote == "Remote":
+    if is_remote:
         parts.append(REMOTE_BADGE)
     elif hybrid == "yes":
         parts.append(HYBRID_BADGE)
@@ -79,7 +70,6 @@ def format_meta(fm: dict) -> str:
 
 
 def collect_jobs(jobs_repo: Path) -> tuple[list[dict], dict[str, str]]:
-    """Scan all job .md files and return (jobs, company_logos)."""
     company_logos: dict[str, str] = {}
     if COMPANIES_FILE.exists():
         for c in json.loads(COMPANIES_FILE.read_text()):
@@ -170,7 +160,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         for j in date_jobs:
             lines.append(f"### [{j['title']}]({j['path']})")
             domain = company_logos.get(j["company"], "")
-            logo = _company_logo_html(domain)
+            logo = company_logo_html(domain)
             lines.append(f"{logo}{j['meta']}")
             if j["summary"]:
                 lines.append("")
@@ -198,18 +188,19 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
 
 
 def format_job_meta(j: dict) -> str:
-    """Build the location · remote · level · comp inline string for a job list entry."""
     parts = []
     location = j["location_raw"]
     if " | " in location:
         location = location.split(" | ")[0].strip()
+    is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
+    is_hybrid = j["hybrid"] == "yes"
     if location and location != "Not specified":
-        location = clean_location(location, is_remote=(j["remote_str"] == "Remote"))
-        if location:
+        location = clean_location(location, is_remote=is_remote)
+        if location and location.lower() != "remote":
             parts.append(location)
-    if j["remote_str"] == "Remote":
+    if is_remote:
         parts.append(REMOTE_BADGE)
-    elif j["hybrid"] == "yes":
+    elif is_hybrid:
         parts.append(HYBRID_BADGE)
     level = j["level"]
     if level and level not in ("unclear", ""):
@@ -241,7 +232,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         "# Builder Jobs — By Company",
         "",
         (
-            "Engineering roles grouped by company and sorted alphabetically."
+            "Engineering roles grouped by company."
             " Only companies with active openings are shown."
             " Listings older than 14 days are removed automatically."
         ),
@@ -258,19 +249,18 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         company_jobs = by_company[company]
         domain = company_logos.get(company, "")
         summary = company_summaries.get(company, "")
-        role_label = f"{len(company_jobs)} role{'s' if len(company_jobs) != 1 else ''}"
 
         if domain:
             icon = f'<a href="https://{domain}"><img src="https://www.google.com/s2/favicons?domain={domain}&sz=32" width="16" height="16" align="absmiddle"></a>'
-            heading = f"## {icon}&ensp;[{company}](https://{domain}) · {role_label}"
+            heading = f"## {icon}&ensp;[{company}](https://{domain})"
         else:
-            heading = f"## {company} · {role_label}"
+            heading = f"## {company}"
 
         lines.append(heading)
         lines.append("")
 
         if summary:
-            lines.append(f"> {summary}")
+            lines.append(summary)
             lines.append("")
 
         company_jobs_sorted = sorted(
@@ -298,9 +288,9 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
             else:
                 date_str = ""
 
-            new_str = f" {NEW_BADGE}" if is_new else ""
+            new_str = f"{NEW_BADGE} " if is_new else ""
             meta_str = f" · {meta}" if meta else ""
-            lines.append(f"- [{j['title']}]({j['path']}){meta_str}{new_str} ({date_str})")
+            lines.append(f"- {new_str}[{j['title']}]({j['path']}){meta_str} ({date_str})")
 
         lines.append("")
         lines.append("---")

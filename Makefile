@@ -6,7 +6,7 @@ export PYTHONPATH := $(shell pwd)
 run: discover fetch describe classify render index
 
 discover:
-	python3 tools/discover_companies.py
+	python3 companies/discover_companies.py
 
 fetch:
 	python3 pipeline/fetch_jobs.py
@@ -24,7 +24,7 @@ classify-all:
 	python3 pipeline/classify_jobs.py --all
 
 render:
-	python3 pipeline/render_jobs.py
+	python3 pipeline/render_job_listings.py
 
 index:
-	python3 pipeline/generate_index.py $(JOBS_REPO)
+	python3 pipeline/render_job_indexes.py $(JOBS_REPO)

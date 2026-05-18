@@ -2,16 +2,12 @@
 """Write a GitHub Actions step summary for the pipeline run."""
 
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-from render_jobs import strip_location_from_title
+from render_common import SUPPORTED_ATS, strip_location_from_title, write_step_summary
 
 DATA_DIR = Path(__file__).parent.parent / "data"
-SUMMARY_FILE = os.environ.get("GITHUB_STEP_SUMMARY")
-
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
 
 
 def main():
@@ -29,8 +25,6 @@ def main():
 
     total_companies = sum(by_ats.values())
 
-    # Count from the live rolling window, not the full classification cache.
-    # Apply the same filters as render_jobs.py so counts match the README.
     raw_jobs_path = DATA_DIR / "jobs_raw.json"
     raw_jobs = json.loads(raw_jobs_path.read_text()) if raw_jobs_path.exists() else []
 
@@ -38,9 +32,8 @@ def main():
         j for j in raw_jobs
         if classified.get(j["id"], {}).get("is_engineering") is True
         and not classified.get(j["id"], {}).get("is_contract", False)
-        and classified.get(j["id"], {}).get("region", "unclear") in ("us", "canada", "unclear")
+        and classified.get(j["id"], {}).get("region") in ("us", "canada", "unclear")
     ]
-    # Deduplicate multi-city postings the same way render_jobs.py does
     seen_groups: set[tuple[str, str]] = set()
     engineering = []
     for j in renderable:
@@ -50,7 +43,6 @@ def main():
             engineering.append(j)
 
     new_today = [j for j in renderable if j.get("first_seen") == today]
-    # Deduplicate new_today by group too
     seen_new: set[tuple[str, str]] = set()
     new_today_deduped = []
     for j in new_today:
@@ -84,19 +76,13 @@ def main():
             "",
             f"### Errors ({len(log_lines)})",
             "```",
-            *log_lines[-50:],  # cap at 50 lines
+            *log_lines[-50:],
             "```",
         ]
     else:
         lines += ["", "No errors."]
 
-    output = "\n".join(lines) + "\n"
-
-    if SUMMARY_FILE:
-        with open(SUMMARY_FILE, "a") as f:
-            f.write(output)
-    else:
-        print(output)
+    write_step_summary("\n".join(lines) + "\n")
 
 
 if __name__ == "__main__":

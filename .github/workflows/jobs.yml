@@ -69,11 +69,11 @@ jobs:
 
       - name: Render jobs
         working-directory: scraper
-        run: PYTHONPATH=. python pipeline/render_jobs.py ../jobs/jobs
+        run: PYTHONPATH=. python pipeline/render_job_listings.py ../jobs/jobs
 
       - name: Generate index
         working-directory: scraper
-        run: PYTHONPATH=. python pipeline/generate_index.py ../jobs
+        run: PYTHONPATH=. python pipeline/render_job_indexes.py ../jobs
 
       - name: Commit and push jobs repo
         working-directory: jobs
@@ -89,11 +89,11 @@ jobs:
 
       - name: Write step summary
         working-directory: scraper
-        run: PYTHONPATH=. python pipeline/write_summary.py
+        run: PYTHONPATH=. python pipeline/render_jobs_summary.py
 
       - name: Update scraper README
         working-directory: scraper
-        run: PYTHONPATH=. python pipeline/update_scraper_readme.py
+        run: PYTHONPATH=. python pipeline/render_scraper_readme.py
 
       - name: Commit and push scraper data
         working-directory: scraper

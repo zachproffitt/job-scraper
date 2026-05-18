@@ -2,19 +2,16 @@
 """Write a GitHub Actions step summary for the company discovery run."""
 
 import json
-import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-DATA_DIR = Path(__file__).parent.parent / "data"
-SUMMARY_FILE = os.environ.get("GITHUB_STEP_SUMMARY")
+from render_common import SUPPORTED_ATS, write_step_summary
 
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday"}
+DATA_DIR = Path(__file__).parent.parent / "data"
 
 
 def main():
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     companies_path = DATA_DIR / "companies.json"
     companies = json.loads(companies_path.read_text()) if companies_path.exists() else []
@@ -35,7 +32,6 @@ def main():
             if "ERROR" in line:
                 errors.append(line)
             if "Added" in line and "companies" in line:
-                # Extract number from "Added N companies to ..."
                 parts = line.split("Added")
                 if len(parts) > 1:
                     try:
@@ -67,13 +63,7 @@ def main():
     else:
         lines += ["", "No errors."]
 
-    output = "\n".join(lines) + "\n"
-
-    if SUMMARY_FILE:
-        with open(SUMMARY_FILE, "a") as f:
-            f.write(output)
-    else:
-        print(output)
+    write_step_summary("\n".join(lines) + "\n")
 
 
 if __name__ == "__main__":

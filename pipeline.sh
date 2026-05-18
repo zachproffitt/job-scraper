@@ -21,8 +21,8 @@ python3 pipeline/fetch_jobs.py 2>&1 | tee -a "$LOG"
 python3 pipeline/fetch_job_descriptions.py 2>&1 | tee -a "$LOG"
 python3 pipeline/classify_companies.py 2>&1 | tee -a "$LOG"
 python3 pipeline/classify_jobs.py 2>&1 | tee -a "$LOG"
-python3 pipeline/render_jobs.py "$JOBS_DIR/jobs" 2>&1 | tee -a "$LOG"
-python3 pipeline/generate_index.py "$JOBS_DIR" 2>&1 | tee -a "$LOG"
+python3 pipeline/render_job_listings.py "$JOBS_DIR/jobs" 2>&1 | tee -a "$LOG"
+python3 pipeline/render_job_indexes.py "$JOBS_DIR" 2>&1 | tee -a "$LOG"
 
 LABEL="$(date -u '+%b %-d at %H:%M UTC')"
 

@@ -247,34 +247,34 @@ def parse_response(text: str) -> dict:
 
 
 # Token bucket rate limiter — stays under the 50k input tokens/minute org limit.
-# Estimate per request: ~4000 tokens (system prompt ~2600 + avg description ~1400).
-# Cached tokens still count toward rate limits at full token count.
-# Target 48k/min to leave headroom → allows ~12 requests/minute total.
-_RATE_LIMIT_TOKENS_PER_MIN = 48_000
-_TOKENS_PER_REQUEST = 4_000
+# System prompt ~2.6k tokens + avg description ~2.9k = ~5.5k per request.
+# Target 40k/min (well under 50k limit) → ~7.3 requests/minute max.
+# Lock is held during sleep to serialize dispatch across all worker threads —
+# this prevents the burst that occurs when threads all sleep in parallel and wake together.
+_RATE_LIMIT_TOKENS_PER_MIN = 40_000.0
+_TOKENS_PER_REQUEST = 5_500.0
 _rate_lock = threading.Lock()
-_rate_tokens = float(_RATE_LIMIT_TOKENS_PER_MIN)
+_rate_tokens = 0.0  # Start empty to prevent burst on startup
 _rate_last_refill = time.monotonic()
 
 
 def _acquire_rate_limit() -> None:
     global _rate_tokens, _rate_last_refill
-    with _rate_lock:
+    with _rate_lock:  # Intentionally held during sleep to serialize dispatch
         now = time.monotonic()
         elapsed = now - _rate_last_refill
         _rate_tokens = min(
-            float(_RATE_LIMIT_TOKENS_PER_MIN),
+            _RATE_LIMIT_TOKENS_PER_MIN,
             _rate_tokens + elapsed / 60.0 * _RATE_LIMIT_TOKENS_PER_MIN,
         )
         _rate_last_refill = now
         if _rate_tokens < _TOKENS_PER_REQUEST:
             wait = (_TOKENS_PER_REQUEST - _rate_tokens) / (_RATE_LIMIT_TOKENS_PER_MIN / 60.0)
+            time.sleep(wait)
             _rate_tokens = 0.0
+            _rate_last_refill = time.monotonic()
         else:
             _rate_tokens -= _TOKENS_PER_REQUEST
-            wait = 0.0
-    if wait > 0:
-        time.sleep(wait)
 
 
 def log_error(message: str) -> None:
