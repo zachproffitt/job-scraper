@@ -45850,5 +45850,31 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e5396216"
+  },
+  "greenhouse-okta-7936541": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "49f6448b"
+  },
+  "greenhouse-stripe-7584016": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "29ad58fa"
   }
 }
