@@ -247,10 +247,11 @@ def parse_response(text: str) -> dict:
 
 
 # Token bucket rate limiter — stays under the 50k input tokens/minute org limit.
-# Estimate per request: ~1500 tokens (cached system prompt counts at 10% = 250,
-# plus ~1250 average user message). Target 48k/min to leave headroom.
+# Estimate per request: ~4000 tokens (system prompt ~2600 + avg description ~1400).
+# Cached tokens still count toward rate limits at full token count.
+# Target 48k/min to leave headroom → allows ~12 requests/minute total.
 _RATE_LIMIT_TOKENS_PER_MIN = 48_000
-_TOKENS_PER_REQUEST = 1_500
+_TOKENS_PER_REQUEST = 4_000
 _rate_lock = threading.Lock()
 _rate_tokens = float(_RATE_LIMIT_TOKENS_PER_MIN)
 _rate_last_refill = time.monotonic()
