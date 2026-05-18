@@ -1,4 +1,0 @@
-[2026-05-18T22:34:57Z] fetch_jobs: scraper error for Sensormatic Electronics (workday/jci/wd5/JCI): Workday request failed for jci/wd5/JCI: Client error '403 Forbidden' for url 'https://jci.wd5.myworkdayjobs.com/wday/cxs/jci/JCI/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-18T22:34:58Z] fetch_jobs: scraper error for TransPerfect (workday/transperfect/wd5/transperfect): Workday request failed for transperfect/wd5/transperfect: Client error '403 Forbidden' for url 'https://transperfect.wd5.myworkdayjobs.com/wday/cxs/transperfect/transperfect/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
