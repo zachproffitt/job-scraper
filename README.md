@@ -56,13 +56,21 @@ Non-engineering, contract, and international (outside US/Canada) roles are filte
 
 ## Company sources
 
-~5,700 candidates in `data/company_names.txt`, sourced from:
+~5,700 companies in `data/companies.json`, sourced from:
 
-- **Y Combinator** — all active batches via Algolia (`discovery/discover_yc_companies.py`)
-- **VC portfolios** — Founders Fund, Khosla Ventures, Greylock, Sequoia (`discovery/discover_vc_companies.py`)
-- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`discovery/discover_industry_companies.py`)
+- **Y Combinator** — all active batches via Algolia (`companies/discover_yc_companies.py`)
+- **VC portfolios** — Founders Fund, Khosla Ventures, Greylock, Sequoia (`companies/discover_vc_companies.py`)
+- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`companies/discover_industry_companies.py`)
 
-ATS detection (`discovery/discover_companies.py`) runs over the candidate list and populates `data/companies.json` with confirmed companies and their slugs.
+ATS detection (`companies/discover_companies.py`) resolves any entry with `"status": "new"` and updates it in place.
+
+**To add a company manually:** add a stub to `data/companies.json` and trigger the Companies workflow (or run `discover_companies.py` locally):
+
+```json
+{"name": "Acme Corp", "website": "https://acme.com", "status": "new"}
+```
+
+**To remove a company:** set `"status": "inactive"` in `data/companies.json`. It will stop being fetched immediately and won't be re-added by discovery.
 
 > *More ATS scrapers and company sources are actively being added.*
 
@@ -93,16 +101,14 @@ PYTHONPATH=. python pipeline/fetch_jobs.py
 PYTHONPATH=. python pipeline/fetch_job_descriptions.py
 PYTHONPATH=. python pipeline/classify_companies.py
 PYTHONPATH=. python pipeline/classify_jobs.py
-PYTHONPATH=. python pipeline/render_jobs.py ../jobs/jobs
-PYTHONPATH=. python pipeline/generate_index.py ../jobs
+PYTHONPATH=. python pipeline/render_job_indexes.py ../jobs
 ```
 
 ## Data files
 
 | File | Description |
 |---|---|
-| `data/company_names.txt` | ~5,700 candidate companies: name \| domain |
-| `data/companies.json` | Confirmed companies with detected ATS and slug |
+| `data/companies.json` | All companies: name, website, ATS, slug, status |
 | `data/seen_jobs.json` | Permanent ID registry: `{job_id: first_seen_date}` |
 | `data/seen_companies.json` | First-fetch registry per company |
 | `data/jobs_raw.json` | Rolling 14-day window of listings with descriptions (not committed) |

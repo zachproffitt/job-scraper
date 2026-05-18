@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Use Claude Haiku to enumerate top engineering companies by industry and
-add new ones to company_names.txt.
+add new ones to companies.txt.
 
 Run discover_companies.py afterward to detect ATS and update companies.json.
 
@@ -17,7 +17,7 @@ from pathlib import Path
 
 import anthropic
 
-COMPANY_NAMES_FILE = Path("data/company_names.txt")
+COMPANIES_FILE = Path("data/companies.json")
 LOG_FILE = Path("data/discovery.log")
 MODEL = "claude-haiku-4-5-20251001"
 
@@ -71,17 +71,16 @@ def fetch_industries(client: anthropic.Anthropic) -> list[str]:
     return []
 
 
-def load_existing(file: Path) -> tuple[set[str], set[str]]:
+def load_existing() -> tuple[set[str], set[str]]:
     names, domains = set(), set()
-    if not file.exists():
+    if not COMPANIES_FILE.exists():
         return names, domains
-    for line in file.read_text().splitlines():
-        line = line.strip()
-        if not line or line.startswith("#") or "|" not in line:
-            continue
-        name, _, domain = line.partition("|")
-        names.add(name.strip().lower())
-        domains.add(domain.strip().lower().lstrip("www."))
+    for c in json.loads(COMPANIES_FILE.read_text()):
+        if c.get("name"):
+            names.add(c["name"].lower())
+        if c.get("website"):
+            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].lstrip("www.")
+            domains.add(domain.lower())
     return names, domains
 
 
@@ -116,7 +115,7 @@ def query_haiku(client: anthropic.Anthropic, industry: str) -> list[tuple[str, s
 def main():
     dry_run = "--dry-run" in sys.argv
     client = anthropic.Anthropic()
-    existing_names, existing_domains = load_existing(COMPANY_NAMES_FILE)
+    existing_names, existing_domains = load_existing()
 
     log("Fetching industry categories from Claude...")
     industries = fetch_industries(client)
@@ -158,11 +157,13 @@ def main():
             print(f"  {name} | {domain}")
         return
 
-    existing_lines = [l for l in COMPANY_NAMES_FILE.read_text().splitlines() if l.strip()]
-    new_lines = [f"{name} | {domain}" for name, domain in all_new]
-    all_lines = sorted(set(existing_lines + new_lines), key=str.lower)
-    COMPANY_NAMES_FILE.write_text("\n".join(all_lines) + "\n")
-    log(f"Added {len(all_new)} companies to {COMPANY_NAMES_FILE}")
+    companies = json.loads(COMPANIES_FILE.read_text()) if COMPANIES_FILE.exists() else []
+    existing_by_name = {c["name"].lower() for c in companies}
+    for name, domain in all_new:
+        if name.lower() not in existing_by_name:
+            companies.append({"name": name, "website": f"https://{domain}", "status": "new"})
+    COMPANIES_FILE.write_text(json.dumps(companies, indent=2))
+    log(f"Added {len(all_new)} new stubs to {COMPANIES_FILE}")
 
 
 if __name__ == "__main__":

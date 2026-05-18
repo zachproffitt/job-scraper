@@ -57,13 +57,11 @@ jobs:
 
       - name: Commit and push
         run: |
-          git add data/company_names.txt data/companies.json data/discovery.log
+          git add data/companies.json data/discovery.log
           if git diff --cached --quiet; then
             echo "No new companies found"
           else
-            git stash
-            git pull --rebase
-            git stash pop --index
             git commit -m "Company discovery — $(date -u '+%b %-d at %H:%M UTC')"
+            git pull --rebase -X theirs
             git push
           fi

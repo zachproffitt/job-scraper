@@ -1,30 +1,21 @@
 #!/usr/bin/env python3
 """
-Discover ATS metadata for companies listed in data/company_names.txt.
+Resolve ATS metadata for companies in data/companies.json with status "new".
 
-Each line in company_names.txt must be:  Company Name | domain.com
-The domain is used to scrape the company's careers page and find the ATS.
+For each company with status "new", fetches the careers page, follows redirects,
+and extracts the ATS and slug. Updates the entry in place.
 
-For each company not already in data/companies.json, fetches the careers
-page at domain/careers (and variations), follows redirects, and extracts
-the ATS and slug from the page URL or HTML.
+To add a company manually:
+    Add {"name": "Company Name", "website": "https://domain.com", "status": "new"}
+    to data/companies.json, then run this script.
 
-Supported ATS (scrapers exist): greenhouse, lever, ashby, smartrecruiters
-Detected only (no scraper yet): workday, icims, taleo, bamboo, rippling, workable, breezy
-
-Companies with unsupported ATS are still saved to companies.json so they
-appear as [skip] entries in fetch_jobs.py output — use that list as a
-task list for building new scrapers.
+Supported ATS (scrapers exist): greenhouse, lever, ashby, smartrecruiters,
+    bamboo, breezy, workable, workday, eightfold
+Detected only (no scraper yet): icims, taleo, rippling
 
 Usage:
     python discover.py             # resolve new companies only
     python discover.py --recheck   # also re-verify and fix existing entries
-
-Results are written to data/companies.json. All output goes to stdout
-(captured by pipeline.sh into logs/pipeline.log).
-
-Note: If discover.py picks the wrong slug (e.g. for companies with ambiguous
-names), edit data/companies.json directly. That entry is skipped on future runs.
 """
 
 import json
@@ -49,9 +40,7 @@ def log(msg: str) -> None:
     with LOG_FILE.open("a") as f:
         f.write(line + "\n")
 
-NAMES_FILE = Path("data/company_names.txt")
 COMPANIES_FILE = Path("data/companies.json")
-NOT_FOUND_FILE = Path("data/discovery_not_found.txt")  # legacy — migrated to no_ats stubs on first run
 
 CAREERS_LINK_RE = re.compile(
     r'href=["\']([^"\']*(?:career|jobs|hiring|work-with-us|join-us|join-our-team|work-here|open-roles)[^"\']*)["\']',
@@ -86,53 +75,6 @@ ATS_PATTERNS = [
 ]
 
 SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
-
-
-def migrate_legacy(existing: dict, name_domain: dict[str, str]) -> bool:
-    """Add status to legacy entries; import discovery_not_found.txt as no_ats stubs."""
-    changed = False
-    for key, company in existing.items():
-        if "status" not in company:
-            ats = company.get("ats")
-            company["status"] = "active" if ats in SUPPORTED_ATS else "detected"
-            existing[key] = company
-            changed = True
-    if NOT_FOUND_FILE.exists():
-        domain_to_name = {d.lower(): n for n, d in name_domain.items()}
-        imported = 0
-        for domain in NOT_FOUND_FILE.read_text().splitlines():
-            domain = domain.strip()
-            if not domain:
-                continue
-            name = domain_to_name.get(domain.lower())
-            if not name or name.lower() in existing:
-                continue
-            existing[name.lower()] = {"name": name, "website": f"https://{domain}", "status": "no_ats"}
-            imported += 1
-            changed = True
-        NOT_FOUND_FILE.unlink()
-        log(f"Migrated {imported} entries from {NOT_FOUND_FILE.name} to no_ats stubs")
-    return changed
-
-
-def parse_names_file() -> list[tuple[str, str]]:
-    """Parse company_names.txt, return list of (name, domain) tuples."""
-    entries = []
-    for line in NAMES_FILE.read_text().splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
-            continue
-        if "|" not in line:
-            print(f"  WARNING: malformed line (missing domain): {line!r}")
-            continue
-        name, _, domain = line.partition("|")
-        name = name.strip()
-        domain = domain.strip()
-        if not name or not domain or domain == "???":
-            print(f"  WARNING: missing domain for {name!r} — skipping")
-            continue
-        entries.append((name, domain))
-    return entries
 
 
 def extract_ats(text: str) -> "tuple[str, str] | None":
@@ -188,7 +130,7 @@ def scrape_company(domain: str, client: httpx.Client) -> "tuple[tuple[str, str] 
 
     Strategy:
     1. Fetch homepage — check for ATS directly, extract meta description, find careers link.
-    2. Follow the careers link found on the homepage.
+    2. Follow the careers link found on the homepage (same domain or known ATS only).
     3. Fall back to guessing common paths (/careers, /jobs, etc.).
 
     Returns ((ats, slug) | None, meta_description).
@@ -292,18 +234,27 @@ def verify_entry(company: dict, client: httpx.Client) -> bool:
     return False
 
 
+def domain_from_website(website: str) -> str:
+    return website.removeprefix("https://").removeprefix("http://").split("/")[0]
+
+
 def main():
     recheck = "--recheck" in sys.argv
-
-    entries = parse_names_file()  # [(name, domain), ...]
-    name_domain = {name: domain for name, domain in entries}
 
     existing: dict[str, dict] = {}
     if COMPANIES_FILE.exists():
         for c in json.loads(COMPANIES_FILE.read_text()):
             existing[c["name"].lower()] = c
 
-    changed = migrate_legacy(existing, name_domain)
+    # Backfill status for legacy entries that don't have it
+    changed = False
+    for key, company in existing.items():
+        if "status" not in company:
+            ats = company.get("ats")
+            company["status"] = "active" if ats in SUPPORTED_ATS else "detected"
+            existing[key] = company
+            changed = True
+
     fixed = []
     still_broken = []
     newly_found = []
@@ -313,7 +264,7 @@ def main():
 
         # --- Recheck: verify and fix existing entries ---
         if recheck:
-            to_check = [(k, c) for k, c in existing.items() if c.get("status") != "no_ats"]
+            to_check = [(k, c) for k, c in existing.items() if c.get("status") not in ("no_ats", "new")]
             print(f"Rechecking {len(to_check)} existing companies...")
             print()
 
@@ -325,8 +276,7 @@ def main():
                     print("ok")
                     continue
 
-                # Try to re-scrape via domain
-                domain = name_domain.get(company["name"])
+                domain = domain_from_website(company.get("website", ""))
                 if not domain:
                     print("broken (no domain)")
                     still_broken.append(company["name"])
@@ -349,29 +299,20 @@ def main():
 
             print(f"\nFixed {len(fixed)}, still broken: {len(still_broken)}\n")
 
-        # --- Backfill website field for existing entries that have a known domain ---
-        backfilled = 0
-        for key, company in existing.items():
-            if not company.get("website"):
-                domain = name_domain.get(company["name"])
-                if domain:
-                    company["website"] = f"https://{domain}"
-                    existing[key] = company
-                    changed = True
-                    backfilled += 1
-        if backfilled:
-            print(f"Backfilled website field for {backfilled} existing companies.")
-
-        # --- Discover new companies ---
-        new_entries = [(n, d) for n, d in entries if n.lower() not in existing]
+        # --- Resolve new entries ---
+        new_entries = [
+            (c["name"], domain_from_website(c.get("website", "")))
+            for c in existing.values()
+            if c.get("status") == "new" and c.get("website")
+        ]
 
         if not new_entries:
-            print(f"All {len(entries)} companies already resolved.")
+            print(f"No new companies to resolve. ({len(existing)} known)")
         else:
-            print(f"Resolving {len(new_entries)} new companies ({len(existing)} already known)...")
+            print(f"Resolving {len(new_entries)} new companies ({len(existing)} known)...")
             print()
 
-            detected_unsupported = []  # (name, ats, slug)
+            detected_unsupported = []
             lock = threading.Lock()
             completed = 0
 
@@ -379,6 +320,7 @@ def main():
                 futures = {
                     executor.submit(scrape_company, domain, client): (name, domain)
                     for name, domain in new_entries
+                    if domain
                 }
                 for future in as_completed(futures):
                     name, domain = futures[future]
@@ -391,24 +333,23 @@ def main():
                     except Exception as e:
                         print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... error: {e}")
                         with lock:
+                            existing[name.lower()]["status"] = "no_ats"
+                            changed = True
                             unresolved.append((name, domain))
                         continue
 
                     if result:
                         ats, slug = result
                         status = "active" if ats in SUPPORTED_ATS else "detected"
-                        entry = {
-                            "name": name,
-                            "ats": ats,
-                            "slug": slug,
-                            "status": status,
-                            "website": f"https://{domain}",
-                            "category": [],
-                        }
-                        if meta:
-                            entry["meta_description"] = meta
                         with lock:
-                            existing[name.lower()] = entry
+                            existing[name.lower()].update({
+                                "ats": ats,
+                                "slug": slug,
+                                "status": status,
+                                "category": existing[name.lower()].get("category", []),
+                            })
+                            if meta and not existing[name.lower()].get("meta_description"):
+                                existing[name.lower()]["meta_description"] = meta
                             changed = True
                             if status == "active":
                                 newly_found.append(name)
@@ -417,33 +358,32 @@ def main():
                         label = f"{ats}/{slug}" if status == "active" else f"{ats}/{slug} [no scraper]"
                     else:
                         with lock:
-                            existing[name.lower()] = {"name": name, "website": f"https://{domain}", "status": "no_ats"}
+                            existing[name.lower()]["status"] = "no_ats"
                             changed = True
                             unresolved.append((name, domain))
                         label = "not found"
 
                     print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... {label}")
 
-                    # Save periodically so a timeout doesn't discard all progress
                     with lock:
                         current_n = n
                     if current_n % 500 == 0:
                         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
                         log(f"[checkpoint] saved {current_n}/{len(new_entries)}")
 
-        supported_count = len(newly_found)
-        unsupported_count = len(detected_unsupported) if "detected_unsupported" in dir() else 0
-        log(f"Resolved: {supported_count} supported, {unsupported_count} detected (no scraper), {len(unresolved)} not found")
+            supported_count = len(newly_found)
+            unsupported_count = len(detected_unsupported)
+            log(f"Resolved: {supported_count} supported, {unsupported_count} detected (no scraper), {len(unresolved)} not found")
 
-        if "detected_unsupported" in dir() and detected_unsupported:
-            by_ats: dict[str, list[str]] = {}
-            for name, ats, slug in detected_unsupported:
-                by_ats.setdefault(ats, []).append(name)
-            for ats in sorted(by_ats):
-                log(f"No scraper for [{ats}]: {', '.join(by_ats[ats])}")
+            if detected_unsupported:
+                by_ats: dict[str, list[str]] = {}
+                for name, ats, slug in detected_unsupported:
+                    by_ats.setdefault(ats, []).append(name)
+                for ats in sorted(by_ats):
+                    log(f"No scraper for [{ats}]: {', '.join(by_ats[ats])}")
 
-        for name, domain in unresolved:
-            log(f"ATS not detected: {name} ({domain})")
+            for name, domain in unresolved:
+                log(f"ATS not detected: {name} ({domain})")
 
     if changed:
         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))

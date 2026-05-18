@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-Fetch YC companies and add new ones to company_names.txt.
+Fetch YC companies and add new stubs to companies.json.
 
 Queries YC's Algolia search index for all active companies, then adds
-any not already in company_names.txt. Run discover_companies.py
-afterward to detect ATS and update companies.json.
+any not already in companies.json as {"name", "website", "status": "new"} stubs.
+Run discover_companies.py afterward to detect ATS.
 
 Usage:
     PYTHONPATH=. python tools/discover_yc_companies.py [--dry-run]
@@ -20,7 +20,7 @@ from pathlib import Path
 
 import httpx
 
-COMPANY_NAMES_FILE = Path("data/company_names.txt")
+COMPANIES_FILE = Path("data/companies.json")
 LOG_FILE = Path("data/discovery.log")
 
 
@@ -104,17 +104,18 @@ def fetch_all_yc_companies(app_id: str, api_key: str, index: str, client: httpx.
     return companies
 
 
-def load_existing_names() -> set[str]:
-    """Load lowercased company names already in company_names.txt."""
-    existing = set()
-    if not COMPANY_NAMES_FILE.exists():
-        return existing
-    for line in COMPANY_NAMES_FILE.read_text().splitlines():
-        line = line.strip()
-        if line and not line.startswith("#") and "|" in line:
-            name = line.split("|")[0].strip().lower()
-            existing.add(name)
-    return existing
+def load_existing() -> tuple[set[str], set[str]]:
+    """Return (existing_names_lower, existing_domains_lower) from companies.json."""
+    names, domains = set(), set()
+    if not COMPANIES_FILE.exists():
+        return names, domains
+    for c in json.loads(COMPANIES_FILE.read_text()):
+        if c.get("name"):
+            names.add(c["name"].lower())
+        if c.get("website"):
+            domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0].lstrip("www.")
+            domains.add(domain.lower())
+    return names, domains
 
 
 def main():
@@ -134,7 +135,7 @@ def main():
         hits = fetch_all_yc_companies(ALGOLIA_APP_ID, api_key, ALGOLIA_INDEX, client)
         log(f"Fetched {len(hits)} total companies from YC")
 
-    existing_names = load_existing_names()
+    existing_names, existing_domains = load_existing()
 
     # Filter: active companies with a website
     candidates = []
@@ -154,7 +155,7 @@ def main():
     new_companies = [
         (name, domain)
         for name, domain in candidates
-        if name.lower() not in existing_names
+        if name.lower() not in existing_names and domain.lstrip("www.").lower() not in existing_domains
     ]
 
     log(f"Active companies: {len(candidates)} | New: {len(new_companies)}")
@@ -171,11 +172,13 @@ def main():
             print(f"  {name} | {domain}")
         return
 
-    existing_lines = [l for l in COMPANY_NAMES_FILE.read_text().splitlines() if l.strip()]
-    new_lines = [f"{name} | {domain}" for name, domain in new_companies]
-    all_lines = sorted(set(existing_lines + new_lines), key=str.lower)
-    COMPANY_NAMES_FILE.write_text("\n".join(all_lines) + "\n")
-    log(f"Added {len(new_companies)} companies to {COMPANY_NAMES_FILE}")
+    companies = json.loads(COMPANIES_FILE.read_text()) if COMPANIES_FILE.exists() else []
+    existing_by_name = {c["name"].lower() for c in companies}
+    for name, domain in new_companies:
+        if name.lower() not in existing_by_name:
+            companies.append({"name": name, "website": f"https://{domain}", "status": "new"})
+    COMPANIES_FILE.write_text(json.dumps(companies, indent=2))
+    log(f"Added {len(new_companies)} new stubs to {COMPANIES_FILE}")
 
 
 if __name__ == "__main__":
