@@ -55618,21 +55618,1161 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Long Beach, CA",
-    "job_summary": "Lead the planning and execution of spacecraft mission operations, ground systems procedures, and flight rules for Vast's commercial space stations. Drive pre-flight testing, on-orbit operations, anomaly resolution, and develop systems and processes that enable safe, successful human spaceflight operations at scale.",
+    "job_summary": "Lead ground operations planning, execution, and optimization for Vast's crewed commercial space stations, including pre-flight testing, on-orbit operations, telemetry analysis, and process improvement. Requires experience operating complex aerospace systems and human spaceflight mission operations at scale.",
     "skills": [
       "Spacecraft Systems Engineering",
-      "Space-to-Ground Communications",
+      "Space-to-Ground Communication Systems",
       "Python",
       "MATLAB",
       "C++",
       "Golang",
-      "React"
+      "React",
+      "Command Line / Scripting"
     ],
     "level": "senior",
     "comp": "$137k-$230k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "25b9559a"
+    "source_hash": "9f91f638"
+  },
+  "greenhouse-agilityrobotics-5995731004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$115,000\u2014$165,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dc78af56"
+  },
+  "greenhouse-anthropic-5222289008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$315,000\u2014$380,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4e157db0"
+  },
+  "greenhouse-archer56-7721047003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$27.00-$34.00/hour",
+    "comp_extras": [],
+    "source_hash": "4190eac6"
+  },
+  "greenhouse-arine-5976699004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$150k-$165k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "284c875b"
+  },
+  "greenhouse-block-5221193008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Los Angeles, CA / Orange County, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$113,600\u2013$195,300",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "59d41ed1"
+  },
+  "greenhouse-bridgebio-5139368007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Charlotte, NC / Raleigh, NC / Greenville, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2013$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "64c3c57b"
+  },
+  "greenhouse-bridgebio-5139372007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Cincinnati, OH / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000 USD",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e10bf26e"
+  },
+  "greenhouse-bridgebio-5139391007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cleveland, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3eaf38d3"
+  },
+  "greenhouse-bridgebio-5139374007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Washington, DC / Northern Virginia / Baltimore, MD / Richmond, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f201493b"
+  },
+  "greenhouse-bridgebio-5139377007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Orlando, FL / Tampa, FL / Jacksonville, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$155,000\u2014$210,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "89fbb3f3"
+  },
+  "greenhouse-bridgebio-5139393007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pennsylvania, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2013$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "7d05ddcd"
+  },
+  "greenhouse-bridgebio-5139353007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3ce6a6e2"
+  },
+  "greenhouse-bridgebio-5139362007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a07541b0"
+  },
+  "greenhouse-bridgebio-5139349007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Detroit, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "33b32d21"
+  },
+  "greenhouse-bridgebio-5139360007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "2c7394dc"
+  },
+  "greenhouse-bridgebio-5139351007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Indianapolis, IN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e19df5d0"
+  },
+  "greenhouse-bridgebio-5139355007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Kansas City, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "d20c00f8"
+  },
+  "greenhouse-bridgebio-5139395007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA / San Diego, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "8558c324"
+  },
+  "greenhouse-bridgebio-5139358007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New Orleans, LA / Little Rock, AR",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "adf80128"
+  },
+  "greenhouse-bridgebio-5139387007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Miami, FL / Fort Lauderdale, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$170,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "db11ed2a"
+  },
+  "greenhouse-bridgebio-5139401007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b3716f5c"
+  },
+  "greenhouse-bridgebio-5139379007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "00b8039f"
+  },
+  "greenhouse-bridgebio-5139399007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Minneapolis, MN / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "e5f00c6f"
+  },
+  "greenhouse-bridgebio-5139370007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Nashville, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5b4e0e99"
+  },
+  "greenhouse-via-8555297002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Truckee, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$28-$30/hour",
+    "comp_extras": [],
+    "source_hash": "a4f217fc"
+  },
+  "ashby-cursor-c0a1e9c3-239d-473a-a4d8-59ba329bdd5a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "830e8328"
+  },
+  "ashby-eightsleep-8f2d0aa2-ddb7-431e-b607-07b0e08b0f4b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "fb844bdc"
+  },
+  "greenhouse-epirus-5996532004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Torrance, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$123,700-$160,000",
+    "comp_extras": [],
+    "source_hash": "43e4a1ca"
+  },
+  "smartrecruiters-Eurofins-744000127076599": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Rensselaer, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1bc8e12e"
+  },
+  "smartrecruiters-Eurofins-744000127076489": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Rensselaer, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb1f33ac"
+  },
+  "smartrecruiters-Eurofins-744000127076369": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c03237c5"
+  },
+  "smartrecruiters-Eurofins-744000127075809": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Portage, MI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7b2f7cc5"
+  },
+  "ashby-finni-health-ca81f3c7-7b21-4dfa-8949-66bae635621f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Quincy, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$16.00-$20.00/hour",
+    "comp_extras": [],
+    "source_hash": "702bc3d1"
+  },
+  "greenhouse-gradial-4251491009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$145k-$155k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c66fe4b8"
+  },
+  "smartrecruiters-InformaGroupPlc-744000127076124": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY / Boulder, CO / Santa Monica, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4fdc4a6d"
+  },
+  "ashby-joor-e5dd83e3-2de7-4165-a215-9c82f2bc6723": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c827ec46"
+  },
+  "ashby-litellm-e3dbb05e-6b6a-4d9a-ab3f-c3d981044cb5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "fccd2571"
+  },
+  "greenhouse-mercury-5990652004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Portland, OR / Remote",
+    "job_summary": "Build institutional-grade cash management systems for startups, designing and owning technical architecture for Treasury products that safely manage billions in customer assets. Lead cross-functional projects with product, compliance, and risk teams to ship scalable, high-quality financial systems.",
+    "skills": [
+      "Haskell",
+      "Broker-Dealer Trading Systems",
+      "Custody Systems",
+      "Static Typing",
+      "Functional Programming",
+      "Securities (Equities, Fixed Income)",
+      "ETFs",
+      "Mutual Funds"
+    ],
+    "level": "senior",
+    "comp": "$166,600-$263,450 USD (US); CAD $157,400-$248,950 (Canada)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6527989e"
+  },
+  "greenhouse-mercury-5998488004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Portland, OR / Remote",
+    "job_summary": "Build and own the datasets, dashboards, and automated systems that power Mercury's go-to-market decision-making, translating strategic finance frameworks into scalable infrastructure for growth, marketing, and product teams. Work with large financial datasets to model unit economics, customer acquisition costs, and cohort performance across channels.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Financial Modeling",
+      "Data Warehousing",
+      "Tableau",
+      "Looker",
+      "CAC Analysis",
+      "Unit Economics"
+    ],
+    "level": "mid",
+    "comp": "$128,600-$160,700",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "25e5438a"
+  },
+  "greenhouse-orchard-8555657002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "244eacb9"
+  },
+  "greenhouse-orchard-8555643002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cfd3c06a"
+  },
+  "greenhouse-orchard-8555640002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0946c0f1"
+  },
+  "greenhouse-orchard-8555646002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Atlanta, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bdf0f66d"
+  },
+  "greenhouse-orchard-8555639002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$180k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1a26aa54"
+  },
+  "greenhouse-orchard-8555619002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$110k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "10f886eb"
+  },
+  "greenhouse-orchard-8555622002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Seattle, WA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "46b9b31e"
+  },
+  "greenhouse-orchard-8555620002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Atlanta, GA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "df25024e"
+  },
+  "greenhouse-orchard-8555617002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$110k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c4b75e4e"
+  },
+  "greenhouse-orchard-8555606002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d7b6389d"
+  },
+  "greenhouse-orchard-8555609002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Dallas, TX / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0f59ff7c"
+  },
+  "greenhouse-orchard-8555638002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$110k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e19a945d"
+  },
+  "greenhouse-podium81-7939921": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lehi, UT",
+    "job_summary": "Build and ship production software across product features, backend services, APIs, data pipelines, and infrastructure serving thousands of businesses and millions of customer interactions. Work on high-volume, real-time systems powering AI-driven customer engagement and automation at scale.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "Java",
+      "Go",
+      "PostgreSQL",
+      "Kubernetes",
+      "AWS"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dc694bea"
+  },
+  "greenhouse-roofstock-8555056002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$60k-$70k",
+    "comp_extras": [],
+    "source_hash": "cad36477"
+  },
+  "greenhouse-roofstock-8555388002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$30-$45/hour",
+    "comp_extras": [],
+    "source_hash": "b7a32d6c"
+  },
+  "greenhouse-roofstock-8555037002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC / Greenville, SC / Myrtle Beach, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8cf9a9eb"
+  },
+  "greenhouse-roofstock-8550944002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25/hour-$30/hour",
+    "comp_extras": [],
+    "source_hash": "45ea33e6"
+  },
+  "greenhouse-roofstock-8550531002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Antonio, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25-$30/hour",
+    "comp_extras": [],
+    "source_hash": "2674c428"
+  },
+  "greenhouse-roofstock-8550616002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tampa, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25-$30/hour",
+    "comp_extras": [],
+    "source_hash": "7fcb68e8"
+  },
+  "greenhouse-roofstock-8550575002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Greenville, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25-$30/hour",
+    "comp_extras": [],
+    "source_hash": "1f2482b0"
+  },
+  "greenhouse-roofstock-8550562002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Myrtle Beach, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25.00-$30.00/hour",
+    "comp_extras": [],
+    "source_hash": "54bc1046"
+  },
+  "greenhouse-roofstock-8550555002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$25-$30/hour",
+    "comp_extras": [],
+    "source_hash": "b8306948"
+  },
+  "greenhouse-roofstock-8553674002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Atlanta, GA / Tampa, FL / Charlotte, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$60k-$74k",
+    "comp_extras": [],
+    "source_hash": "6adf6ceb"
+  },
+  "greenhouse-slingshotaerospace-5784372004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$140k-$160k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e11409e5"
+  },
+  "greenhouse-slingshotaerospace-5998510004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$210,000-$240,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a7d56cd3"
+  },
+  "ashby-snowflake-32d18d13-97ee-4e21-b2c8-2e5334caea20": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Menlo Park, CA",
+    "job_summary": "Build and operate foundational container platforms running Snowflake's production, AI/ML, and CI workloads across AWS, Azure, and GCP at scale. Drive hard technical problems in cluster lifecycle management, multi-cloud automation, and developer tooling for thousands of internal engineers while establishing architectural direction across teams.",
+    "skills": [
+      "Go",
+      "Kubernetes",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Distributed Systems"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9f425140"
+  },
+  "greenhouse-spacex-8550844002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e1079916"
+  },
+  "greenhouse-bdainc-5139239007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Spring, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70k-$82k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2010440c"
+  },
+  "ashby-tennr-472008e3-ce93-4fab-b89c-9cf149b52527": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b945ae48"
+  },
+  "ashby-thumbtack-a27fa152-828b-4612-8e12-8f7e6564ee7b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$163,200-$248,600",
+    "comp_extras": [],
+    "source_hash": "ccc1fd73"
+  },
+  "ashby-thumbtack-7af907ee-32b5-48bb-adcf-11708fbe01c6": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$156,400 - $202,400 CAD",
+    "comp_extras": [],
+    "source_hash": "24ef6800"
+  },
+  "greenhouse-toast-7931103": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$124k-$254k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "57a53fb8"
+  },
+  "workable-upclear-1700BB74AB": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "850d3de2"
+  },
+  "greenhouse-vardaspace-7738472003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Design and build custom analytics dashboards, internal applications, and data automation solutions across pharmaceutical enterprise platforms (ERP, CRM, ELN, LIMS, QMS) to enable compliance-ready operations and reduce manual bottlenecks. Work in a regulated space environment where your systems directly support drug manufacturing in orbit and pharmaceutical development at scale.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "LIMS",
+      "ERP Systems",
+      "Git",
+      "Alteryx",
+      "Snowflake"
+    ],
+    "level": "mid",
+    "comp": "$120k-$160k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ef8630f6"
+  },
+  "greenhouse-waymo-7932205": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Mountain View, CA",
+    "job_summary": "Set the multi-year technical architecture for in-car experience systems spanning Android OS internals, native layers, and rider-facing applications. Lead complex integrations of 3D visualization, AI features, and app ecosystems while establishing platform standards and mentoring engineers across a mission-critical autonomous vehicle product.",
+    "skills": [
+      "Android",
+      "AOSP",
+      "Kotlin",
+      "Jetpack Compose",
+      "C++",
+      "System Design",
+      "Automotive",
+      "AI/ML Systems"
+    ],
+    "level": "staff",
+    "comp": "$298k-$368k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1c7d849b"
+  },
+  "lever-zoox-3bc964e4-41e5-47e7-b704-c6284d613593": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Foster City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "821bd7ab"
   }
 }
