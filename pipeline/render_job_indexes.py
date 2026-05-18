@@ -5,10 +5,26 @@ import json
 import re
 import sys
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from badges import REMOTE_BADGE, HYBRID_BADGE, NEW_BADGE, skill_badge
+
+
+def _is_new(j: dict, cutoff: datetime) -> bool:
+    """True if this job was first seen within the last 24 hours."""
+    ts = j.get("first_seen_at", "")
+    if ts:
+        try:
+            dt = datetime.fromisoformat(ts)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt >= cutoff
+        except ValueError:
+            pass
+    # No timestamp — fall back to date-only comparison (today's date)
+    today = cutoff.strftime("%Y-%m-%d")
+    return j.get("first_seen", "") == today
 from render_common import clean_location, company_logo_html, abbrev_comp, SUPPORTED_ATS
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
@@ -115,7 +131,8 @@ def collect_jobs(jobs_repo: Path) -> tuple[list[dict], dict[str, str]]:
 
 def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
                  out_path: Path, title: str, subtitle: str, remote_only: bool = False) -> None:
-    today = datetime.now().strftime("%Y-%m-%d")
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     if remote_only:
         jobs = [j for j in jobs if j["remote"]]
@@ -125,7 +142,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         by_date[j["first_seen"]].append(j)
 
     total = sum(len(v) for v in by_date.values())
-    new_today = len(by_date.get(today, []))
+    new_today = sum(1 for j in jobs if _is_new(j, cutoff))
 
     stats = f"**{total} open roles** ({new_today} new today)"
     if not remote_only:
@@ -214,7 +231,8 @@ def format_job_meta(j: dict) -> str:
 
 
 def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: Path) -> None:
-    today = datetime.now().strftime("%Y-%m-%d")
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
+    today = cutoff.strftime("%Y-%m-%d")  # for header stats fallback
 
     company_summaries: dict[str, str] = {}
     if COMPANIES_CLASSIFIED_FILE.exists():
@@ -230,7 +248,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
     companies_sorted = sorted(by_company.keys(), key=str.casefold)
     total_jobs = len(jobs)
-    new_today = sum(1 for j in jobs if j["first_seen"] == today)
+    new_today = sum(1 for j in jobs if _is_new(j, cutoff))
 
     lines = [
         "# Builder Jobs — By Company",
@@ -275,7 +293,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
         for j in company_jobs_sorted:
             meta = format_job_meta(j)
-            is_new = j["first_seen"] == today
+            is_new = _is_new(j, cutoff)
 
             ts = j.get("first_seen_at", "")
             first_seen = j.get("first_seen", "")
