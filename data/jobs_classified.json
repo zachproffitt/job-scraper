@@ -17704,15 +17704,15 @@
   "ashby-cohere-64c12340-0f1d-4320-9b5a-9bcb44150a1d": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": true,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "80405200",
-    "region": "canada",
-    "location": "Toronto, Canada"
+    "source_hash": "7d323ab1"
   },
   "greenhouse-astranis-4681218006": {
     "is_engineering": true,
@@ -17859,14 +17859,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "05ad13d3",
-    "region": "us",
-    "location": "Santa Clara, CA"
+    "source_hash": "184f718e"
   },
   "greenhouse-stripe-7919325": {
     "is_engineering": false,
@@ -18240,22 +18240,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and architect the Android Maps SDK that powers mobile map experiences across millions of developer applications. Design scalable APIs and cross-platform implementations that integrate Navigation, Maps, and Search SDKs while optimizing performance across diverse device types from phones to smartwatches.",
+    "region": "international",
+    "location": null,
+    "job_summary": "Design and ship innovative features that integrate Mapbox SDKs (Navigation, Maps, Search) across Flutter, Android, and iOS platforms, serving millions of developers building location-aware applications. Lead cross-functional technical initiatives, mentor teams, and drive architectural decisions for a real-time location platform serving apps, games, and autonomous driving experiences at scale.",
     "skills": [
       "Kotlin",
       "Java",
       "Android",
       "C++",
-      "SDK design",
-      "Performance optimization",
-      "Testing frameworks"
+      "AOSP",
+      "SDK Design",
+      "Performance Debugging and Profiling",
+      "Testing Frameworks"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8238080b",
-    "region": "international",
-    "location": "Berlin, Germany"
+    "source_hash": "8747f1e9"
   },
   "lever-waabi-be8ea356-b380-4274-bbb2-ce273b68625d": {
     "is_engineering": false,
@@ -18298,45 +18299,45 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build the Android Maps SDK and related developer tools, designing expressive APIs and cross-platform implementations for mobile mapping applications at scale. Integrate multiple Mapbox SDKs (Navigation, Maps, Search) while optimizing performance across diverse device form factors from phones to embedded boards.",
+    "region": "international",
+    "location": "Remote",
+    "job_summary": "Design and ship scalable features across Mapbox's Navigation, Maps, and Search SDKs for Android, leading architectural decisions and mentoring engineers. Work with cross-platform implementations from mobile devices to embedded boards, optimizing performance and developer experience at scale.",
     "skills": [
       "Kotlin",
       "Java",
       "Android",
       "C++",
-      "Native Development",
-      "Testing Frameworks",
+      "AOSP",
       "Performance Profiling",
-      "SDK Design"
+      "SDK Design",
+      "Testing Frameworks"
     ],
     "level": "senior",
     "comp": "$95k-$143k",
     "comp_extras": [],
-    "source_hash": "f3b13caa",
-    "region": "international",
-    "location": "Warsaw, Poland"
+    "source_hash": "648eca66"
   },
   "ashby-Mapbox-ed5ea787-aa68-4968-9c93-eb4d2bd5ac45": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and architect the Android Maps SDK that powers mobile mapping applications across phones, tablets, smartwatches, and embedded devices. Lead cross-functional technical initiatives integrating Navigation, Maps, and Search SDKs while mentoring teams and setting long-term architectural direction.",
+    "region": "international",
+    "location": "Helsinki, Finland",
+    "job_summary": "Build and architect the public Android Maps SDK that powers navigation, mapping, and location features across millions of apps on Android, iOS, Flutter, and embedded devices. Lead cross-functional SDK integration projects, mentor engineers on architectural direction, and optimize performance across the mobile and embedded stack.",
     "skills": [
       "Kotlin",
       "Java",
       "Android",
       "C++",
-      "SDK design",
-      "Performance profiling",
-      "Testing frameworks",
-      "AOSP"
+      "AOSP",
+      "Performance Profiling",
+      "SDK Design",
+      "Testing Frameworks"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2c9d392b",
-    "region": "international",
-    "location": "Helsinki, Finland"
+    "source_hash": "8e13099d"
   },
   "greenhouse-natera-5993187004": {
     "is_engineering": false,
@@ -18402,14 +18403,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ac258b85",
-    "region": "international",
-    "location": "Japan"
+    "source_hash": "7f84b7d4"
   },
   "greenhouse-clickhouse-5993847004": {
     "is_engineering": true,
@@ -18498,14 +18499,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Singapore",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9e7eba84",
-    "region": "international",
-    "location": "Singapore"
+    "source_hash": "accfd9da"
   },
   "greenhouse-reddit-7917342": {
     "is_engineering": false,
@@ -18670,14 +18671,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Golden, CO",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0e4f6036",
-    "region": "us",
-    "location": "Golden, CO"
+    "source_hash": "9e3d9b14"
   },
   "greenhouse-scopely-5098020008": {
     "is_engineering": true,
@@ -18881,7 +18882,9 @@
   "ashby-horizon3ai-6b2bc47c-7a5d-4bca-a10c-8a79cb7f977d": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -18889,24 +18892,22 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "7bdf062b",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "1d500f4c"
   },
   "ashby-coderabbit-186fcc99-8e71-4462-b9a2-71f1b4aa44ca": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "senior",
     "comp": "$140k-$190k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "0faa711f",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "4ae5b4a5"
   },
   "greenhouse-intercom-7917235": {
     "is_engineering": false,
@@ -18927,6 +18928,8 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "international",
+    "location": "Germany",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -18934,14 +18937,14 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "3ee5c44b",
-    "region": "international",
-    "location": "Germany"
+    "source_hash": "172cab6e"
   },
   "ashby-horizon3ai-c4fb9e3c-0856-4430-ac4b-ca8b90cc1b80": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "France",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -18949,9 +18952,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b192918c",
-    "region": "international",
-    "location": "France"
+    "source_hash": "9db36165"
   },
   "greenhouse-workleap-5133911007": {
     "is_engineering": true,
@@ -19193,9 +19194,11 @@
   },
   "ashby-cohere-36d1f52f-8270-4652-adf5-5303a0ff341b": {
     "is_engineering": true,
-    "is_contract": true,
-    "is_hybrid": true,
-    "job_summary": "Design, train, and improve cutting-edge large-scale language models, then deploy them to production. Work on novel training techniques, distributed model serving, and streaming data strategies at massive scale.",
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada / New York, NY / San Francisco, CA / London, UK / Paris, France",
+    "job_summary": "Design, train, and improve frontier large-language models at scale using cutting-edge distributed training techniques. Work on novel research ideas with production deployment responsibility in a research-forward AI company.",
     "skills": [
       "Python",
       "TensorFlow",
@@ -19209,9 +19212,7 @@
     "level": "intern",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d3e55741",
-    "region": "canada",
-    "location": "Toronto, Canada"
+    "source_hash": "90641b3b"
   },
   "greenhouse-andurilindustries-5136791007": {
     "is_engineering": false,
@@ -19508,25 +19509,25 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "job_summary": "Design and build scalable distributed systems that extract, enrich, and process metadata from millions of documents, images, and audio content using Python and cloud infrastructure. Integrate LLMs into production metadata pipelines operating at global scale across hundreds of millions of documents.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and build distributed systems to extract, enrich, and process metadata from millions of documents, images, and audio content using LLMs and data pipelines at global scale. Work at the intersection of machine learning, data engineering, and distributed systems to power content discovery and trust across billions of items.",
     "skills": [
       "Python",
       "Scala",
-      "Airflow",
       "Spark",
       "Databricks",
+      "Airflow",
       "AWS",
       "Terraform",
-      "LLMs"
+      "ECS"
     ],
-    "level": "senior",
-    "comp": "$103,500-$196,000",
+    "level": "mid",
+    "comp": "$103.5k-$196k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "dfa950f0",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "e6b6167d"
   },
   "greenhouse-amplitude-8547989002": {
     "is_engineering": false,
@@ -19545,17 +19546,16 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
-    "level": "mid",
-    "comp": null,
+    "level": null,
+    "comp": "$200k OTE",
     "comp_extras": [
-      "equity",
-      "bonus"
+      "equity"
     ],
-    "source_hash": "5fe596bf",
-    "region": "us",
-    "location": "New York, NY"
+    "source_hash": "5469b6f5"
   },
   "greenhouse-zyngacareers-5995422004": {
     "is_engineering": false,
@@ -19743,25 +19743,25 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Engineer a distributed, high-performance storage layer for AI observability built in Rust, optimized for ingestion, querying, and scaling to trillions of traces. Scale and harden a multi-tenant system running on Kubernetes with tight integration to cloud object stores.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Engineer a high-performance distributed storage layer for AI observability, optimizing for cost and speed across trillions of traces. Design and scale a Rust-based system handling multi-tenant ingestion and query execution on Kubernetes with cloud object storage integration.",
     "skills": [
       "Rust",
-      "Database Systems",
+      "C++",
       "Kubernetes",
-      "Cloud Object Storage (S3/GCS/Azure)",
-      "Query Execution Engines",
+      "PostgreSQL",
       "Systems Performance Analysis",
       "Distributed Systems",
-      "Memory and CPU Profiling"
+      "Cloud Object Storage",
+      "Database Internals"
     ],
     "level": "senior",
     "comp": "$175k-$240k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d8594f7e",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "ccd66226"
   },
   "greenhouse-scoutmotors-5128323007": {
     "is_engineering": true,
@@ -20252,27 +20252,27 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "10c77ba7",
-    "region": "us",
-    "location": "Austin, TX"
+    "source_hash": "70d57cde"
   },
   "lever-CesiumAstro-97b9262a-0825-4d41-a743-1fe2e02fecf4": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cf0004f5",
-    "region": "us",
-    "location": "El Segundo, CA"
+    "source_hash": "f53bf6ab"
   },
   "greenhouse-keepersecurity-4247576009": {
     "is_engineering": false,
@@ -20290,28 +20290,28 @@
   "lever-grailbio-30f09392-0816-4751-86e3-e99e1b2573ac": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Durham, NC",
     "job_summary": null,
     "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "857d3c4a",
-    "region": "us",
-    "location": "Durham, NC"
+    "source_hash": "c695ff05"
   },
   "lever-CesiumAstro-31208a09-086d-404d-8832-ed1d8fb81fec": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Westminster, CO",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "21ba4fd6",
-    "region": "us",
-    "location": "Westminster, CO"
+    "source_hash": "b690fe74"
   },
   "ashby-ramp-a3afd259-ba6b-4eb0-a1b6-05d01dddacd8": {
     "is_engineering": true,
@@ -20339,45 +20339,44 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "comp": "$175k-$225k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "dd6fe4e5",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "2ddfa671"
   },
   "ashby-langchain-ea70879f-98c9-4888-a259-39e68ec949fc": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
     "level": "manager",
-    "comp": "$300k-$330k",
+    "comp": null,
     "comp_extras": [
-      "equity",
-      "bonus"
+      "equity"
     ],
-    "source_hash": "06b9e22c",
-    "region": "international",
-    "location": "London, UK / Amsterdam, Netherlands / Stockholm, Sweden"
+    "source_hash": "75c83d4f"
   },
   "lever-deepgenomics-ba904bda-e9e1-4cea-a6a4-a10867364aec": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Cambridge, MA",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e231b00f",
-    "region": "us",
-    "location": "Cambridge, MA"
+    "source_hash": "93b3d23f"
   },
   "greenhouse-epicgames-5986871004": {
     "is_engineering": false,
@@ -20547,17 +20546,16 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": "$310k-$350k",
     "comp_extras": [
-      "equity",
-      "bonus"
+      "equity"
     ],
-    "source_hash": "518c8e5d",
-    "region": "us",
-    "location": "New York City, NY"
+    "source_hash": "820983e1"
   },
   "greenhouse-andurilindustries-5137048007": {
     "is_engineering": true,
@@ -20873,23 +20871,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design, develop, and maintain accurate, high-performance simulations of custom transformer ASIC hardware to enable close hardware-software co-design. Work at the intersection of chip simulation, kernel development, and ML accelerator infrastructure with tight feedback loops between simulation and real hardware validation.",
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Design, develop, and maintain cycle-accurate simulations of Sohu, a custom transformer ASIC, enabling hardware-software co-design and early validation of the full software stack. Work at the intersection of hardware and software engineering, building debug tooling and integrating simulations with host systems (QEMU) to support kernel driver development and multi-chip scale-out validation.",
     "skills": [
-      "C/C++",
+      "C++",
       "Python",
       "SystemC",
       "QEMU",
-      "Linux kernel development",
-      "Hardware verification",
-      "Performance profiling",
-      "Multithreading"
+      "Linux",
+      "Git",
+      "Bazel",
+      "Performance Profiling"
     ],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5fc4ab9c",
-    "region": "us",
-    "location": "San Jose, CA"
+    "source_hash": "4020870d"
   },
   "greenhouse-terrapowerllc-4247783009": {
     "is_engineering": false,
@@ -21149,15 +21147,15 @@
   "ashby-cohere-5cf3bd63-cf1d-441a-9db5-2032ca8449b8": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": true,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8e081a00",
-    "region": "canada",
-    "location": "Toronto, Canada"
+    "source_hash": "98a88606"
   },
   "greenhouse-relativity-8548622002": {
     "is_engineering": false,
@@ -21400,14 +21398,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Spokane, WA / Seattle, WA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4c242e91",
-    "region": "us",
-    "location": "Spokane, WA / Puget Sound, WA"
+    "source_hash": "e5e1094e"
   },
   "ashby-synctera-a7596dea-acda-492e-bc41-60f54b674d25": {
     "is_engineering": false,
@@ -21426,14 +21424,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "82224239",
-    "region": "us",
-    "location": "San Jose, CA"
+    "source_hash": "4d8c552e"
   },
   "greenhouse-grafanalabs-5990671004": {
     "is_engineering": true,
@@ -21692,7 +21690,9 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and maintain Front's cross-platform React Native mobile app, diving into native-level performance optimization and iOS/Android API integration. Work with a high-growth B2B platform handling complex customer operations at scale across 9,000+ companies.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and maintain Front's React Native mobile app for Android and iOS, improving performance and user experience. Serve as the cross-platform mobile specialist, diving into native APIs and mentoring other engineers on the Client Platform team.",
     "skills": [
       "React Native",
       "C/C++",
@@ -21700,28 +21700,25 @@
       "Kotlin",
       "Android NDK",
       "JNI",
-      "iOS",
-      "Android"
+      "iOS"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e633eb41",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "94c512b8"
   },
   "lever-grailbio-e2cc73a9-fef6-4813-a545-b97db682d9e6": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Durham, NC",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "611c851b",
-    "region": "us",
-    "location": "Durham, NC"
+    "source_hash": "163235a4"
   },
   "greenhouse-ursamajor-4695187005": {
     "is_engineering": false,
@@ -21799,19 +21796,21 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9cf51074",
-    "region": "us",
-    "location": "Everett, WA"
+    "source_hash": "8656aeb6"
   },
   "ashby-coderabbit-fef77e49-90e8-444b-8b0a-33d74db976fe": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Boston, MA",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -21819,9 +21818,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ad5703f3",
-    "region": "us",
-    "location": "San Francisco, CA / Boston, MA"
+    "source_hash": "f385a6b1"
   },
   "greenhouse-natera-5989218004": {
     "is_engineering": false,
@@ -21842,26 +21839,26 @@
   "ashby-langchain-d3f8de08-2e2b-4c3f-be1f-e63ca51f1d93": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": false,
-    "job_summary": "Build LangSmith's full-stack AI observability platform\u2014backend services, APIs, and frontend product surfaces\u2014handling tracing, evaluation, and monitoring workflows at production scale. You'll drive architectural decisions across Go, Python, and TypeScript while establishing engineering standards and mentoring a growing team.",
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA / San Francisco, CA / New York, NY",
+    "job_summary": "Build LangSmith's observability, evaluation, and reliability platform for AI systems, owning architectural decisions and full-stack features from backend services (Go, Python) through frontend surfaces (TypeScript, React). Set engineering standards, mentor the team, and drive systems that scale to millions of developers while maintaining high performance and reliability on high-volume data workloads.",
     "skills": [
-      "Go",
       "Python",
+      "Go",
       "TypeScript",
       "React",
       "PostgreSQL",
       "AWS",
-      "Distributed Systems",
-      "Production Observability"
+      "GCP",
+      "Redis"
     ],
     "level": "principal",
-    "comp": "$230,000-$270,000",
+    "comp": "$230k-$270k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "d5d3abf4",
-    "region": "us",
-    "location": "Boston, MA / San Francisco, CA / New York, NY"
+    "source_hash": "3d5540fc"
   },
   "greenhouse-anthropic-5211184008": {
     "is_engineering": false,
@@ -22049,14 +22046,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4ae39c69",
-    "region": "us",
-    "location": "New York, NY"
+    "source_hash": "acab3dd2"
   },
   "greenhouse-epicgames-5994995004": {
     "is_engineering": true,
@@ -22133,40 +22130,45 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a8125360",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "7adfe699"
   },
   "ashby-elevenlabs-1285b935-1398-4116-8576-70a58896faa8": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
-    "comp": null,
-    "comp_extras": [],
-    "source_hash": "dc146be9",
     "region": "international",
-    "location": "UAE / Remote"
-  },
-  "ashby-elevenlabs-86db28df-173c-4407-b016-3dee1ec6197b": {
-    "is_engineering": false,
-    "is_contract": false,
-    "is_hybrid": false,
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "626e67cd",
+    "source_hash": "553d1018"
+  },
+  "ashby-elevenlabs-86db28df-173c-4407-b016-3dee1ec6197b": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
     "region": "international",
-    "location": "UAE / Remote"
+    "location": "Remote",
+    "job_summary": "Deploy ElevenLabs' voice and audio AI technology to solve critical customer problems by architecting bespoke integrations, designing solutions, and guiding customers through implementation. Work directly with strategic enterprise customers and research teams to translate field insights into product improvements across voice, audio, and agent technologies.",
+    "skills": [
+      "Python",
+      "API Integration",
+      "Voice AI",
+      "Audio AI"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97790241"
   },
   "ashby-openai-f4467078-033c-4638-ac7e-69a532276d85": {
     "is_engineering": false,
@@ -22306,23 +22308,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build secure-by-default patterns, tooling, and CI/CD workflows to embed security into the software development lifecycle. Partner with engineering teams to turn security findings into fixes and make threat modeling and secure design reviews repeatable for developers.",
+    "region": "international",
+    "location": null,
+    "job_summary": "Build secure-by-default patterns and security infrastructure for Coder's AI development platform. Partner with engineering teams to embed threat modeling, secure design reviews, and supply chain security into the software development lifecycle, reducing product risk at scale.",
     "skills": [
-      "Go",
-      "Python",
-      "GitHub Actions",
-      "GitLab CI",
+      "CI/CD Security",
       "SAST",
       "SCA",
       "Dependency Scanning",
-      "Secret Scanning"
+      "Secret Scanning",
+      "GitHub Actions",
+      "Go",
+      "Python"
     ],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7a63b367",
-    "region": "international",
-    "location": "London, United Kingdom"
+    "source_hash": "21490164"
   },
   "greenhouse-riotgames-7922947": {
     "is_engineering": false,
@@ -22615,15 +22617,15 @@
   "ashby-cohere-f00dbf81-17ff-4584-b015-67dfae1dc59c": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c7fab7cb",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "db2bbe4b"
   },
   "lever-CordTechnologies-93745902-dbfd-494a-b0ed-c7468ae1ec57": {
     "is_engineering": false,
@@ -22671,14 +22673,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f8433fb7",
-    "region": "international",
-    "location": "Brazil"
+    "source_hash": "84ccf775"
   },
   "greenhouse-wayve-8549413002": {
     "is_engineering": false,
@@ -23132,23 +23134,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and scale the core systems powering Lovable's AI-driven software creation platform, handling full-stack development across frontend, backend, and infrastructure serving millions of users. You'll own systems end-to-end from architecture through production, collaborating with ML and design teams to translate capabilities into user-facing features.",
+    "region": "international",
+    "location": "Stockholm, Sweden",
+    "job_summary": "Build and scale the core systems powering Lovable's AI-driven software creation platform, handling full-stack development from architecture through production for millions of users. Navigate ambiguity in a early-stage, talent-dense team reshaping how software is built.",
     "skills": [
       "React",
       "TypeScript",
       "Golang",
       "Rust",
+      "Cloudflare",
       "GCP",
       "AWS",
-      "Terraform",
-      "Cloudflare"
+      "Terraform"
     ],
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "16a6e2c6",
-    "region": "international",
-    "location": "Stockholm, Sweden"
+    "source_hash": "161f0fcd"
   },
   "ashby-notion-9fdc08a2-49b8-4da0-8e20-e657f505e9a8": {
     "is_engineering": false,
@@ -23167,23 +23169,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design and build core platform infrastructure including gVisor-based runtime systems, sandbox schedulers, and observability stacks that power Lovable's AI product. Operate at scale across multiple cloud providers with responsibility for hardening systems against failure and eliminating infrastructure bottlenecks for a rapidly growing engineering organization.",
+    "region": "international",
+    "location": "Stockholm, Sweden",
+    "job_summary": "Design and build the core infrastructure powering Lovable's AI product, including gVisor-based sandboxed runtimes, cloud schedulers, and observability systems that support millions of monthly active users. Operate at scale across multiple cloud providers while owning reliability and developer experience for a rapidly growing engineering organization.",
     "skills": [
       "Go",
       "Rust",
       "Kubernetes",
       "Docker",
-      "gVisor",
       "Terraform",
-      "Clickhouse",
-      "Grafana"
+      "GCP",
+      "AWS",
+      "Observability"
     ],
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "71c0d588",
-    "region": "international",
-    "location": "Stockholm, Sweden"
+    "source_hash": "7623c2c8"
   },
   "greenhouse-givedirectly-4695154005": {
     "is_engineering": false,
@@ -23204,51 +23206,51 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build end-to-end security product features including audit flows, compliance tooling, and static analysis systems integrated with AI/LLM capabilities. Ship across the full stack (React/TypeScript frontend, Golang backend) as part of a small self-sufficient team, with influence over technical direction and security strategy for an AI-powered software platform used hundreds of millions of times monthly.",
+    "region": "international",
+    "location": "Stockholm, Sweden",
+    "job_summary": "Build end-to-end security product features, static analysis systems, and AI-powered vulnerability detection for Lovable's AI-powered software creation platform. Lead technical direction on security architecture at scale across a full-stack codebase serving hundreds of millions of monthly visits.",
     "skills": [
       "React",
       "TypeScript",
       "Golang",
+      "Rust",
       "Static Analysis (SAST)",
-      "Audit & Compliance Systems",
-      "AI/LLM Integration",
+      "Cloudflare",
       "GCP",
       "AWS"
     ],
-    "level": "principal",
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9ff53c5d",
-    "region": "international",
-    "location": "Stockholm, Sweden"
+    "source_hash": "bc758a5f"
   },
   "lever-cfsenergy-61a96e61-24c5-46a3-b535-8f682cecd52a": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Devens, MA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f18475e0",
-    "region": "us",
-    "location": "Devens, MA"
+    "source_hash": "98a724f4"
   },
   "ashby-docker-dd69e9f1-c364-4616-af6b-5b8c6b7c06eb": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": null,
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b3f06aee",
-    "region": "international",
-    "location": "England"
+    "source_hash": "0bb0755b"
   },
   "ashby-Pear-VC-61f8a7b8-349d-4eb8-8b91-59084ae7654f": {
     "is_engineering": false,
@@ -23360,14 +23362,16 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
-    "comp_extras": [],
-    "source_hash": "65e1ec7f",
-    "region": "us",
-    "location": "San Francisco, CA / Remote"
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5451ad57"
   },
   "ashby-oneleet-0c5d6703-90da-4f41-9778-f3f8bfb79ea8": {
     "is_engineering": false,
@@ -23745,38 +23749,38 @@
   },
   "ashby-finni-health-8689664d-9ca3-40b4-8814-e1defbb199bc": {
     "is_engineering": false,
-    "is_contract": true,
+    "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Salisbury, NC",
     "job_summary": null,
     "skills": [],
-    "level": "junior",
+    "level": null,
     "comp": "$21-$23/hour",
     "comp_extras": [],
-    "source_hash": "9106ee83",
-    "region": "us",
-    "location": "Salisbury, NC"
+    "source_hash": "1e28491c"
   },
   "ashby-lago-9aca194c-df12-4252-9a5c-03f70dca7a8a": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Own and scale Lago's cloud infrastructure, designing automated provisioning, database optimization, and observability systems using Kubernetes and infrastructure-as-code. This role requires managing production infrastructure for a high-scale billing platform serving companies like PayPal and Mistral.ai.",
+    "region": "international",
+    "location": "Brazil",
+    "job_summary": "Own and scale Lago's billing platform infrastructure for reliability, performance, and security. Design infrastructure-as-code provisioning, optimize PostgreSQL and Clickhouse databases, and improve monitoring and observability across a production system serving companies like PayPal and Mistral.ai.",
     "skills": [
       "Kubernetes",
       "Pulumi",
-      "PostgreSQL",
       "AWS",
       "GCP",
+      "PostgreSQL",
+      "Clickhouse",
       "Ruby",
-      "Go",
-      "TypeScript"
+      "Go"
     ],
     "level": "senior",
-    "comp": "$80,000-$120,000",
+    "comp": "$80k-$120k",
     "comp_extras": [],
-    "source_hash": "e04daba1",
-    "region": "international",
-    "location": "Brazil"
+    "source_hash": "c52c8413"
   },
   "ashby-phoenix-af0d6e1b-06ab-4f7e-bfac-5f7a2e890f31": {
     "is_engineering": false,
@@ -24100,6 +24104,8 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "intern",
@@ -24107,9 +24113,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "85b58cfd",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "4b2e2ca4"
   },
   "greenhouse-omadahealth-7859674": {
     "is_engineering": false,
@@ -24189,25 +24193,24 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "job_summary": "Build production security detections against Lambda's real log data, shipping code that fires on real events and routes to an on-call team. Work with LLM-based classifiers and rule-based systems to detect sensitive data exposure and identity/access pattern anomalies across AI cloud infrastructure.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Ship production security detections against Lambda's real log data, building LLM-powered classifiers and rule-based alerts for sensitive data exposure and identity/access pattern anomalies. Work in a production environment protecting AI infrastructure with real on-call routing and mentorship from senior engineers.",
     "skills": [
       "Python",
       "Go",
-      "LLMs",
+      "LLM",
       "AWS",
       "GCP",
-      "Log Analysis",
-      "Machine Learning",
-      "Security"
+      "Log analysis",
+      "Machine Learning"
     ],
     "level": "intern",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "26ca0a2b",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "33bf7dfb"
   },
   "greenhouse-robinhood-7456663": {
     "is_engineering": false,
@@ -24454,14 +24457,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Singapore",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7690283f",
-    "region": "international",
-    "location": "Singapore"
+    "source_hash": "d5703f48"
   },
   "greenhouse-harnessinc-5137903007": {
     "is_engineering": false,
@@ -24535,27 +24538,27 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Remote, Argentina",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0ae36749",
-    "region": "international",
-    "location": "Remote, Argentina"
+    "source_hash": "fab27e70"
   },
   "ashby-frontcareers-78a96972-ba8e-4b95-9de1-bfe34ecc6c7d": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "international",
+    "location": "Santiago, Chile",
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0bb656d3",
-    "region": "international",
-    "location": "Santiago, Chile"
+    "source_hash": "57d5a9b6"
   },
   "ashby-mystenlabs-c5f1f701-0cee-46f1-8eaa-59952a71a42f": {
     "is_engineering": true,
@@ -24582,19 +24585,21 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "international",
+    "location": "Santiago, Chile",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1f0ae8e1",
-    "region": "international",
-    "location": "Santiago, Chile"
+    "source_hash": "a9786eb4"
   },
   "ashby-ironcladhq-5167f356-ad30-49e9-8353-3ca12227aad6": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -24602,74 +24607,72 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "23926333",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "b790326a"
   },
   "ashby-benchling-61b20c5a-5c3d-4388-a19d-13a89886e73f": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cc26ba0c",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "1be2fdda"
   },
   "ashby-cosine-1c4aef01-61ee-40ba-b919-f77a244b3847": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build IDE extensions and web applications that expose Cosine's autonomous AI coding models through intuitive developer interfaces and workflows. Work at the intersection of product, platform, and research to translate emerging model capabilities into production-grade developer tools, with emphasis on performance, reliability, and rapid iteration.",
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build IDE extensions and web applications that expose autonomous AI coding capabilities to developers through intuitive, responsive interfaces. Work at the intersection of product, research, and engineering in a fast-moving AI startup, directly translating model capabilities into production developer tools.",
     "skills": [
       "TypeScript",
       "React",
       "Node.js",
       "Python",
+      "Go",
       "Docker",
       "REST APIs",
-      "Git",
-      "Grafana"
+      "Git"
     ],
     "level": "senior",
-    "comp": "\u00a370k-\u00a390k",
+    "comp": "\u00a370,000-\u00a390,000",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "959ee593",
-    "region": "international",
-    "location": "London, UK"
+    "source_hash": "1bfbab0d"
   },
   "ashby-finni-health-adb381ff-0626-444f-9fa5-d95c2a96c68b": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Monroe, CT",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": "$21-$23/hour",
     "comp_extras": [],
-    "source_hash": "143ec85a",
-    "region": "us",
-    "location": "Monroe, CT"
+    "source_hash": "e787922a"
   },
   "ashby-infisical-b9bf8d09-878b-488d-990f-f177b7417270": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "us",
+    "region": "canada",
     "location": "Remote",
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "1f92debc"
+    "source_hash": "02f15b53"
   },
   "ashby-permitflow-ee9b7949-80a8-434d-8567-a1e7afe65422": {
     "is_engineering": false,
@@ -24690,14 +24693,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Savannah, GA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": "$25/hour",
     "comp_extras": [],
-    "source_hash": "0efc18f4",
-    "region": "us",
-    "location": "Savannah, GA"
+    "source_hash": "fef7f3af"
   },
   "greenhouse-vectranetworks-6889453": {
     "is_engineering": true,
@@ -25183,7 +25186,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "e273c123"
+    "source_hash": "7419e10c"
   },
   "ashby-coderabbit-90923d9f-c3f1-493c-bf6d-02ce76f1a142": {
     "is_engineering": false,
@@ -25204,16 +25207,16 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "comp": "$185k-$315k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "701b0e6a",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "724ee8ae"
   },
   "workable-intellecthq-EB88C93820": {
     "is_engineering": false,
@@ -25872,14 +25875,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Cambridge, MA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "eb28ff7b",
-    "region": "us",
-    "location": "Cambridge, MA"
+    "source_hash": "5e886ada"
   },
   "greenhouse-disco-8547728002": {
     "is_engineering": false,
@@ -25915,14 +25918,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b094995d",
-    "region": "international",
-    "location": "UK"
+    "source_hash": "a6c8c75b"
   },
   "greenhouse-natera-5995919004": {
     "is_engineering": false,
@@ -25970,20 +25973,15 @@
   "ashby-clipboard-4871e102-00a5-4693-8e2f-8672435f1ba2": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": true,
-    "job_summary": "Lead and manage a software engineering team, owning process, delivery, and technical quality while mentoring engineers and aligning product roadmap with business goals. Partner with distributed teams in a fast-paced startup environment where you'll maintain hands-on technical involvement through code review and system design guidance.",
-    "skills": [
-      "TypeScript",
-      "React",
-      "NestJS",
-      "Microservices Architecture"
-    ],
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead a cross-functional engineering team of 4-6 engineers building critical marketplace infrastructure (payouts, invoicing, fraud prevention) or customer-facing features for a healthcare staffing platform serving hundreds of thousands of workers. Balance technical direction, execution, and people development while maintaining hands-on understanding of your team's architecture and technical decisions.",
+    "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0af0eaea",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "ca7f265b"
   },
   "greenhouse-carbon-5134096007": {
     "is_engineering": false,
@@ -26002,14 +26000,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "Saint Johns, MI",
     "job_summary": null,
     "skills": [],
     "level": null,
-    "comp": "$55-$70/hour",
+    "comp": "$55k-$70k",
     "comp_extras": [],
-    "source_hash": "8a088ea2",
-    "region": "us",
-    "location": "Saint Johns, MI"
+    "source_hash": "dd6ad7c0"
   },
   "greenhouse-natera-5995921004": {
     "is_engineering": false,
@@ -26054,6 +26052,8 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -26061,9 +26061,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "a43f1bf6",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "5b11c679"
   },
   "greenhouse-block-5218231008": {
     "is_engineering": false,
@@ -26135,20 +26133,15 @@
   "ashby-clipboard-2f7bc179-c657-455f-a0a1-e0c43ec7bd4c": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": true,
-    "job_summary": "Lead and mentor a distributed engineering team, owning delivery, process optimization, and technical guidance across product initiatives. You'll balance hands-on technical review with people leadership, scaling team capability and impact in a fast-growing healthcare marketplace.",
-    "skills": [
-      "TypeScript",
-      "React",
-      "NestJS",
-      "Microservices Architecture"
-    ],
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": "Lead high-impact engineering teams building core marketplace and internal systems for healthcare worker staffing. Balance technical direction, execution, and people development while working cross-functionally to ship consistently and mentor engineers through career growth.",
+    "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "09a3515e",
-    "region": "canada",
-    "location": "Remote"
+    "source_hash": "ea1488af"
   },
   "greenhouse-instacart-7658241": {
     "is_engineering": true,
@@ -26281,14 +26274,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a9e5614b",
-    "region": "canada",
-    "location": "Toronto, Canada"
+    "source_hash": "9857bd05"
   },
   "greenhouse-rocketlab-7734865003": {
     "is_engineering": false,
@@ -26469,14 +26462,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Devens, MA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "55fe937d",
-    "region": "us",
-    "location": "Devens, MA"
+    "source_hash": "5e08d654"
   },
   "greenhouse-roblox-7185278": {
     "is_engineering": true,
@@ -26755,14 +26748,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fc6b57ad",
-    "region": "international",
-    "location": "London, UK"
+    "source_hash": "77149e59"
   },
   "greenhouse-tailscale-4695034005": {
     "is_engineering": false,
@@ -26797,14 +26790,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "Durham, NC / Menlo Park, CA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3c55c761",
-    "region": "us",
-    "location": "Durham, NC / Menlo Park, CA"
+    "source_hash": "d72dede5"
   },
   "greenhouse-vectranetworks-7925997": {
     "is_engineering": false,
@@ -26838,27 +26831,29 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and optimize the Ray C++ distributed computing backend, including the scheduler, runtime, memory subsystems, and fault tolerance infrastructure. Work on high-performance distributed systems at scale, mentoring junior engineers and leading architectural improvements for a system powering AI applications at companies like OpenAI and Spotify.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and optimize the Ray C++ distributed computing backend, including the scheduler, runtime, memory subsystems, and fault tolerance mechanisms. Lead architectural improvements and testing infrastructure for a system powering large-scale ML applications at companies like OpenAI and Uber.",
     "skills": [
       "C++",
+      "C",
       "Distributed Systems",
       "GPU Programming",
       "Ray",
-      "Fault Tolerance",
-      "Tensor Parallelism",
-      "Python"
+      "Kubernetes",
+      "Linux Kernel"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5ccb7cf3",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "2fe6586a"
   },
   "ashby-blissway-d6fc4670-63e6-47f7-aceb-99993557ecef": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -26866,65 +26861,56 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "fdbe22f4",
-    "region": "us",
-    "location": "Denver, CO"
+    "source_hash": "21023162"
   },
   "ashby-9-mothers-87342437-0377-4256-93a8-05e29795fd54": {
-    "is_engineering": true,
+    "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Own the high-speed imaging capability end-to-end for counter-drone and firearms systems, designing test setups and extracting quantitative kinematic data that directly informs mechanical engineering decisions. Work in an active test environment with live fire, requiring comfort around firearms and field testing in central Texas conditions.",
-    "skills": [
-      "Photron Fastcam",
-      "Phantom cameras",
-      "PFA",
-      "ProAnalyst",
-      "Motion analysis software",
-      "Data acquisition systems",
-      "Trigger circuit design",
-      "Ballistics testing"
-    ],
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "8378d674",
-    "region": "us",
-    "location": "Austin, TX"
+    "source_hash": "e3ebd7cf"
   },
   "ashby-finni-health-4b4aa60d-a4d1-4f47-8068-996120c02930": {
     "is_engineering": false,
-    "is_contract": false,
+    "is_contract": true,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Knoxville, TN",
     "job_summary": null,
     "skills": [],
     "level": null,
-    "comp": "$20-$25/hour",
+    "comp": "$20/hour - $25/hour",
     "comp_extras": [],
-    "source_hash": "e9912de9",
-    "region": "us",
-    "location": "Knoxville, TN"
+    "source_hash": "be9a6243"
   },
   "ashby-finni-health-4177bb2a-2ef8-4ed7-8288-48f17d12594f": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Brandford, CT",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": "$23.00-$27.00 per hour",
     "comp_extras": [],
-    "source_hash": "57e203d1",
-    "region": "us",
-    "location": "Wallingford, CT / Branford, CT"
+    "source_hash": "42ce38cc"
   },
   "ashby-blaxel-4acea42a-589d-42b1-949e-d4ec4b8907a2": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "job_summary": "Deploy and debug Blaxel's serverless AI agent infrastructure in customer production environments, working across their architecture, APIs, and deployment pipelines. You'll own customer success from technical discovery through implementation, translating real-world constraints into working systems while feeding product learnings back to the platform team.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and deploy integrations, debugging workflows, and production fixes for strategic customers running AI agent workloads on the Blaxel platform. Work across customer infrastructure, APIs, SDKs, and CI/CD systems to turn ambiguous requirements into reliable, performant systems at scale.",
     "skills": [
       "TypeScript",
       "Python",
@@ -26938,15 +26924,15 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6cddfd27",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "d0913c53"
   },
   "ashby-gecko-robotics-f1dc5c24-f814-40bf-af02-f5c460ea97f3": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and extend a server-side rendering application that streams GB-scale 3D models to a React frontend, powering critical infrastructure visualization within Cantilever. Work across backend APIs, frontend applications, and system architecture to deliver scalable solutions for complex 3D workflows in real-world deployment environments where performance and reliability are critical.",
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build and extend a high-performance 3D visualization platform that streams large-scale models to a React frontend, including systems built on Unreal Engine for critical infrastructure applications. Work across full stack (backend APIs, frontend, server-side rendering) in real-world deployment environments where reliability and performance are critical.",
     "skills": [
       "React",
       "TypeScript",
@@ -26954,7 +26940,7 @@
       "GCP",
       "Unreal Engine",
       "Backend APIs",
-      "3D Graphics/Visualization",
+      "3D Visualization",
       "Real-time Streaming"
     ],
     "level": "mid",
@@ -26962,27 +26948,27 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "db969df0",
-    "region": "us",
-    "location": "New York City, NY"
+    "source_hash": "8b68d9b0"
   },
   "ashby-latent-49828d69-881c-4431-be8b-bcd7455aa069": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "00e25982",
-    "region": "us",
-    "location": "New York, NY"
+    "source_hash": "8a941a71"
   },
   "ashby-blissway-075a528d-b831-4917-b55e-8579142d1e8c": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO",
     "job_summary": null,
     "skills": [],
     "level": null,
@@ -26990,9 +26976,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "fc3f2a2d",
-    "region": "us",
-    "location": "Denver, CO"
+    "source_hash": "fea5ed0d"
   },
   "workable-hokali-D4319D3367": {
     "is_engineering": false,
@@ -27351,14 +27335,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e9c3b911",
-    "region": "international",
-    "location": "London, UK"
+    "source_hash": "916d84ba"
   },
   "greenhouse-airbnb-7921357": {
     "is_engineering": false,
@@ -27614,22 +27598,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design and deploy machine learning solutions for distributed processing platforms supporting satellite and airborne communication systems. Work at the intersection of ML and aerospace systems with U.S. export control requirements and active mission-critical constraints.",
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Develop and deploy machine learning solutions for distributed processing platforms supporting satellite and airborne communication systems. Work at the intersection of ML, systems engineering, and space technology with U.S. government export control requirements.",
     "skills": [
       "Machine Learning",
       "Python",
       "Distributed Systems",
-      "Model Deployment",
       "PyTorch",
       "TensorFlow",
-      "Kubernetes"
+      "Kubernetes",
+      "AWS",
+      "CUDA"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ca41836e",
-    "region": "us",
-    "location": "Austin, TX"
+    "source_hash": "f6078d1e"
   },
   "lever-deepgenomics-eac06f39-448e-48ff-a1ba-240fded59d57": {
     "is_engineering": false,
@@ -28208,14 +28193,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "us",
+    "location": "Boston, MA",
     "job_summary": null,
     "skills": [],
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f1652e75",
-    "region": "us",
-    "location": "Boston, MA"
+    "source_hash": "d1e246c8"
   },
   "greenhouse-altoslabs-5991207004": {
     "is_engineering": false,
@@ -28234,7 +28219,9 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and own the design system in code, creating production-grade React components and patterns that compliance analysts depend on for hours at a time. Design interfaces that make AI agent behavior legible and auditable in financial services, where trust is non-negotiable.",
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Own the design system in code and build production-grade front-end interfaces for an AI agent platform serving financial compliance. Build components, patterns, and primitives that scale while holding the line on performance, accessibility, and reliability for auditable AI agent behavior in high-stakes financial services.",
     "skills": [
       "React",
       "TypeScript",
@@ -28242,15 +28229,13 @@
       "Figma",
       "Claude Code",
       "Cursor",
-      "Accessibility",
+      "Accessibility (WCAG)",
       "PostHog"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a39f8455",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "7675c23e"
   },
   "greenhouse-natera-5992119004": {
     "is_engineering": false,
@@ -28269,7 +28254,9 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Build and maintain high-traffic distributed APIs and ETL pipelines that serve billions of map requests daily to millions of developers globally. Lead architectural decisions for geospatial data processing at scale while mentoring engineers and balancing rapid feature development with operational reliability.",
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and maintain high-traffic mapping APIs and distributed ETL pipelines that process billions of requests daily, supporting global geospatial data visualization at scale. Lead architectural decisions and mentor engineers on a team delivering real-time location services to millions of developers.",
     "skills": [
       "Python",
       "TypeScript",
@@ -28277,41 +28264,39 @@
       "PostgreSQL",
       "Kubernetes",
       "Geospatial Data",
-      "Distributed Systems",
-      "Microservices"
+      "Microservices",
+      "System Design"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "8927c23a",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "38b903f0"
   },
   "ashby-latent-a3328583-c451-4540-8d19-a686ebfb96eb": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f023fad8",
-    "region": "us",
-    "location": "New York, NY"
+    "source_hash": "f4565812"
   },
   "ashby-latent-e1ee3c3b-cd90-4493-9c3b-62f3caf200e7": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e7c7851d",
-    "region": "us",
-    "location": "New York, NY"
+    "source_hash": "43dfb572"
   },
   "greenhouse-recidiviz-4657637006": {
     "is_engineering": false,
@@ -28850,14 +28835,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "62d2aca5",
-    "region": "canada",
-    "location": "Toronto, Canada"
+    "source_hash": "836ed825"
   },
   "ashby-openai-0db33200-b533-4c4c-84f6-f51fea91819b": {
     "is_engineering": false,
@@ -29108,14 +29093,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "904634f1",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "d80ea0a3"
   },
   "greenhouse-andurilindustries-5137457007": {
     "is_engineering": false,
@@ -29173,51 +29158,51 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a388c349",
-    "region": "us",
-    "location": "San Francisco, CA"
+    "source_hash": "1ea0237f"
   },
   "ashby-latent-bedfeef6-537c-4258-9267-19577b8d4af6": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "83b4fc72",
-    "region": "us",
-    "location": "San Francisco, CA / New York, NY"
+    "source_hash": "d7c646a0"
   },
   "ashby-benepass-add86101-3763-42b0-a476-6f9607fa09f6": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Design and operate high-integrity financial systems for ledgering, transaction processing, decisioning, and money movement at scale. You'll take end-to-end ownership of systems handling real funds where correctness, consistency, and auditability are non-negotiable.",
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and operate high-integrity financial systems for ledgering, transaction processing, decisioning, and money movement that track and move real funds with precision and auditability. You'll own end-to-end transaction lifecycles across payments infrastructure, including integration with external financial partners, and must have deep experience building or operating production fintech systems where correctness and consistency are non-negotiable.",
     "skills": [
       "Python",
-      "PostgreSQL",
       "Django",
+      "PostgreSQL",
       "AWS",
-      "Payment Systems",
-      "Card Networks",
-      "Ledger Systems",
-      "Distributed Systems"
+      "TypeScript",
+      "React",
+      "Double-entry Accounting",
+      "Payment Systems"
     ],
     "level": "senior",
     "comp": "$200k-$240k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "789617ff",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "9937f768"
   },
   "greenhouse-cloudflare-7916601": {
     "is_engineering": false,
@@ -29390,15 +29375,15 @@
   "ashby-cohere-850ef24d-3206-4ad4-814d-c809ed0dea7f": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Berlin, Germany",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "26686ad7",
-    "region": "international",
-    "location": "Berlin, Germany"
+    "source_hash": "3f3be993"
   },
   "greenhouse-stripe-7919030": {
     "is_engineering": true,
@@ -29547,14 +29532,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f200144b",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "293fdbca"
   },
   "greenhouse-momentus-5996731004": {
     "is_engineering": false,
@@ -29592,32 +29577,34 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Singapore",
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "266192a3",
-    "region": "international",
-    "location": "Singapore"
+    "source_hash": "d318ba7e"
   },
   "ashby-Deepgram-623dcf1a-becc-4cab-85a3-eb7ebe37e3c0": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e01be4df",
-    "region": "us",
-    "location": "Remote"
+    "source_hash": "5de8fa9b"
   },
   "ashby-airops-c35d896c-7d1a-4903-be5d-cb474a926b68": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
     "level": "junior",
@@ -29625,9 +29612,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "08cb55e2",
-    "region": "international",
-    "location": "London, UK"
+    "source_hash": "f5174b4b"
   },
   "greenhouse-rocketlab-7725103003": {
     "is_engineering": false,
@@ -29706,14 +29691,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "us",
+    "location": "Durham, NC",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4bb29471",
-    "region": "us",
-    "location": "Durham, NC"
+    "source_hash": "1f40d7e0"
   },
   "greenhouse-vardaspace-7728861003": {
     "is_engineering": false,
@@ -37532,16 +37517,16 @@
   },
   "ashby-avelios-medical-7fea2fd1-7baa-4d7b-ad87-c014cd6c4297": {
     "is_engineering": false,
-    "is_contract": false,
+    "is_contract": true,
     "is_hybrid": false,
+    "region": "international",
+    "location": "Munich, Germany",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c0a8ab64",
-    "region": "international",
-    "location": "Munich, Germany"
+    "source_hash": "93bf45e8"
   },
   "greenhouse-workato-8516213002": {
     "is_engineering": true,
@@ -37713,23 +37698,23 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "job_summary": "Conduct secure code reviews, threat modeling, and architecture assessments across cloud-native infrastructure; design and implement security features, integrate SAST/DAST tooling into CI/CD pipelines, and mentor engineers on secure coding practices. You'll secure a platform used by millions, with exposure to AI infrastructure, LLM pipelines, and emerging threats at scale.",
+    "region": "international",
+    "location": "Stockholm, Sweden",
+    "job_summary": "Champion application security across our entire development lifecycle, conducting code reviews, threat modeling, and architecture assessments while building security tooling and integrating automated protection into CI/CD pipelines. You'll secure a generation-defining AI-powered software platform used hundreds of millions of times monthly, requiring expertise in cloud-native security, supply chain protection, and emerging AI infrastructure risks.",
     "skills": [
       "Application Security",
-      "SAST/DAST",
+      "Secure Code Review",
       "Threat Modeling",
-      "Go",
+      "SAST/DAST",
+      "CI/CD Security",
+      "Golang",
       "Rust",
-      "Kubernetes",
-      "AWS",
-      "CI/CD"
+      "React"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "aa081ba7",
-    "region": "international",
-    "location": "Stockholm, Sweden"
+    "source_hash": "3cd4f10c"
   },
   "greenhouse-scopely-5215183008": {
     "is_engineering": false,
@@ -37815,14 +37800,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
+    "region": "international",
+    "location": null,
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0a718b8c",
-    "region": "international",
-    "location": "Helsinki, Finland"
+    "source_hash": "3dd7cb50"
   },
   "greenhouse-speechify-5974970004": {
     "is_engineering": true,
@@ -38469,7 +38454,7 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Remote",
+    "location": "Amsterdam, Netherlands",
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -38477,7 +38462,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "145ccad7"
+    "source_hash": "733a1957"
   },
   "greenhouse-scopely-5191920008": {
     "is_engineering": false,
@@ -38757,17 +38742,16 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": true,
+    "region": "international",
+    "location": "Paris, France",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [
-      "equity",
-      "bonus"
+      "equity"
     ],
-    "source_hash": "7e2d5977",
-    "region": "international",
-    "location": "Paris, France"
+    "source_hash": "e17f9975"
   },
   "greenhouse-zyngacareers-5813315004": {
     "is_engineering": true,
@@ -38885,39 +38869,39 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
+    "location": "Warsaw, Poland",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b8271fe4",
-    "location": "Warsaw, Poland"
+    "source_hash": "069e5e61"
   },
   "lever-larian-5bd314b3-0fcd-4dc1-9097-410d7b3f51cd": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
+    "location": "Warsaw, Poland",
     "job_summary": null,
     "skills": [],
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "d48116a3",
-    "location": "Warsaw, Poland"
+    "source_hash": "0795f5d1"
   },
   "lever-larian-d865d147-375b-40c7-9f93-39dffd73a365": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
+    "location": "Warsaw, Poland",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f829dab2",
-    "location": "Warsaw, Poland"
+    "source_hash": "39137c75"
   },
   "greenhouse-scopely-5200013008": {
     "is_engineering": true,
@@ -39063,13 +39047,13 @@
     "is_contract": false,
     "is_hybrid": true,
     "region": "international",
+    "location": "Hyderabad, India",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "52239d10",
-    "location": "Hyderabad, India"
+    "source_hash": "178e14ec"
   },
   "greenhouse-okta-7917366": {
     "is_engineering": false,
@@ -39105,6 +39089,7 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
+    "location": "Budapest, Hungary",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -39112,8 +39097,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "915f56f4",
-    "location": "Budapest, Hungary"
+    "source_hash": "9d83e008"
   },
   "greenhouse-okta-7917359": {
     "is_engineering": false,
@@ -39682,20 +39666,20 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "international",
-    "location": null,
-    "job_summary": "Architect hybrid game and machine learning systems that integrate AI into game engines, serving as the technical bridge between ML research and game development teams. Lead the design, implementation, and maintenance of both learning and non-learning systems while establishing quality standards and best practices across the organization.",
+    "region": "canada",
+    "location": "Montreal, Canada",
+    "job_summary": "Design and architect hybrid ML-game systems that enable new player experiences in game development. Own the integration of machine learning into game engines and systems, bridging ML research and game development teams.",
     "skills": [
       "Machine Learning",
-      "Game Engines",
-      "System Architecture",
+      "Game Engine Architecture",
       "Python",
-      "C++"
+      "C++",
+      "System Design"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b52ca6f1"
+    "source_hash": "ed184482"
   },
   "greenhouse-scopely-5219997008": {
     "is_engineering": false,
@@ -39741,13 +39725,13 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Japan",
+    "location": "Tokyo, Japan",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7d964de8"
+    "source_hash": "848e740b"
   },
   "greenhouse-marqeta-7927158": {
     "is_engineering": false,
@@ -39770,7 +39754,7 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Remote",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -39778,7 +39762,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "6f8c4a38"
+    "source_hash": "8a47daa8"
   },
   "ashby-hive.co-99ca1e04-01ae-41a8-91d7-0f200d2475c8": {
     "is_engineering": false,
@@ -39794,7 +39778,7 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "ba6fe6ae"
+    "source_hash": "689063e0"
   },
   "ashby-verto-6bb26c83-29e2-4bfc-80f6-f33d6841bf7e": {
     "is_engineering": false,
@@ -40613,14 +40597,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Devens, MA",
     "job_summary": null,
     "skills": [],
     "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "410eb6b5"
+    "source_hash": "4818cf4f"
   },
   "greenhouse-nuro-7922662": {
     "is_engineering": true,
@@ -40658,7 +40642,7 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "743f570c"
+    "source_hash": "69f9731a"
   },
   "greenhouse-vannevarlabs-5044077007": {
     "is_engineering": false,
@@ -40681,10 +40665,10 @@
     "location": "Boston, MA",
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "319eb0db"
+    "source_hash": "89b4533c"
   },
   "greenhouse-wayve-8551863002": {
     "is_engineering": false,
@@ -40710,7 +40694,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "276ac10f"
+    "source_hash": "ee0e2067"
   },
   "greenhouse-scopely-5222228008": {
     "is_engineering": false,
@@ -40736,31 +40720,31 @@
     "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5d3035ba"
+    "source_hash": "7fc5a7f5"
   },
   "ashby-Healthtech-1-928e5939-c372-427e-a5e9-c5f2905c3c2d": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
     "region": "international",
-    "location": "London, UK",
-    "job_summary": "Build scalable, high-quality backend systems and APIs for an NHS healthcare automation platform used by thousands of GP practices. Work in a high-stakes healthcare domain with direct access to real clinicians and patients to validate your work, and influence product direction as a founding engineer in an early-stage, well-backed startup.",
+    "location": "Stratford, East London, UK",
+    "job_summary": "Build and scale full-stack healthcare automation products for the NHS, focusing on backend systems that handle distributed data across clinical environments. Work directly with GP practices to ship failsafe systems handling high-stakes health data at scale.",
     "skills": [
       "TypeScript",
       "React",
-      "API Design",
+      "distributed systems",
+      "API design",
       "PostgreSQL",
-      "Distributed Systems",
-      "Kubernetes",
-      "AWS"
+      "performance optimization",
+      "healthcare/regulated systems"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "72c21c6b"
+    "source_hash": "f7be12a1"
   },
   "greenhouse-robinhood-7922396": {
     "is_engineering": false,
@@ -40889,7 +40873,7 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Build and architect scalable backend systems and REST APIs for an audit, risk, and compliance platform serving Fortune 500 customers. Lead large strategic projects, mentor engineers, and design systems handling complex data pipelines and B2B integrations at scale.",
+    "job_summary": "Build and architect scalable backend systems and REST/JSON APIs in Python/FastAPI for an audit, risk, ESG, and InfoSec SaaS platform serving Fortune 500 companies. Lead large strategic projects, mentor engineers, and design infrastructure handling sensitive compliance data at scale.",
     "skills": [
       "Python",
       "FastAPI",
@@ -40897,15 +40881,15 @@
       "Kubernetes",
       "Docker",
       "REST APIs",
-      "ETL pipelines",
-      "B2B integrations"
+      "ETL Pipelines",
+      "GRC/CyberSecurity"
     ],
     "level": "staff",
     "comp": null,
     "comp_extras": [
       "bonus"
     ],
-    "source_hash": "70930d32"
+    "source_hash": "54ac2c1a"
   },
   "greenhouse-maintainx-5138943007": {
     "is_engineering": false,
@@ -40956,7 +40940,7 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Build and ship backend product features end-to-end using Python, FastAPI, and PostgreSQL for a SaaS audit and risk platform serving Fortune 500 companies. Lead large strategic projects, mentor engineers, and design scalable distributed systems running on Kubernetes.",
+    "job_summary": "Build and ship end-to-end backend product features for an audit, risk, and compliance platform using Python, FastAPI, and PostgreSQL. Design scalable REST APIs and mentor other engineers on a high-growth SaaS team serving Fortune 500 customers.",
     "skills": [
       "Python",
       "FastAPI",
@@ -40972,7 +40956,7 @@
     "comp_extras": [
       "bonus"
     ],
-    "source_hash": "6e78ee57"
+    "source_hash": "675924dd"
   },
   "greenhouse-axiom-8548891002": {
     "is_engineering": false,
@@ -41169,22 +41153,23 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
-    "job_summary": "Build the iOS mobile app that lets Eight Sleep users control their smart sleep pod, configure settings, and gain personalized sleep insights. Ship pixel-perfect features with beautiful animations in a hyper-growth health tech startup where you'll work closely with backend, firmware, ML, and hardware teams.",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and ship pixel-perfect iOS features for Eight Sleep's flagship sleep fitness app, working closely with backend, firmware, and ML engineers. Optimize performance and conduct code reviews for a health tech product used by hundreds of thousands of customers across 30+ countries.",
     "skills": [
       "Swift",
       "SwiftUI",
       "Combine",
       "iOS",
       "App Extensions",
-      "CI/CD"
+      "CI/CD",
+      "Code Generation Tools"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "eac1bf52"
+    "source_hash": "ece79db0"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5993042004": {
     "is_engineering": true,
@@ -41339,14 +41324,14 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
-    "job_summary": "Research, design, and implement advanced speech and audio ML models, inference systems, and production pipelines that process terabytes of audio data daily for AI labs and enterprises. Work at the intersection of cutting-edge signal processing research and production systems, owning the full ML lifecycle from algorithm development to deployment at scale.",
+    "location": "San Francisco, CA",
+    "job_summary": "Build cutting-edge speech and audio ML models, production inference systems, and resilient pipelines processing terabytes of audio daily for leading AI labs and enterprises. This role requires translating research into production-grade systems at scale, with end-to-end ownership from algorithm development through deployment.",
     "skills": [
       "Python",
       "PyTorch",
       "Audio Signal Processing",
       "Speech Processing",
-      "Deep Learning",
+      "Machine Learning",
       "DSP",
       "Production ML Systems",
       "Cloud Technologies"
@@ -41354,7 +41339,7 @@
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1f7781cc"
+    "source_hash": "13d0cd7d"
   },
   "greenhouse-reddit-7931000": {
     "is_engineering": true,
@@ -41389,7 +41374,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "23ad5e27"
+    "source_hash": "f91b6465"
   },
   "greenhouse-spacex-8545793002": {
     "is_engineering": true,
@@ -41430,14 +41415,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "eaf48fde"
+    "source_hash": "360d0d51"
   },
   "greenhouse-databricks-8550948002": {
     "is_engineering": false,
@@ -41668,14 +41653,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Somerville, MA",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "33f563a0"
+    "source_hash": "0f5c4ee0"
   },
   "greenhouse-altoslabs-5996181004": {
     "is_engineering": false,
@@ -41784,13 +41769,13 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": null,
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1bfdafad"
+    "source_hash": "916c45f7"
   },
   "greenhouse-andurilindustries-5139065007": {
     "is_engineering": false,
@@ -41870,10 +41855,10 @@
     "level": "senior",
     "comp": "$150k",
     "comp_extras": [
-      "equity",
-      "bonus"
+      "bonus",
+      "equity"
     ],
-    "source_hash": "cbd0cfd6"
+    "source_hash": "feb85bfc"
   },
   "ashby-freshpaint-87e72e22-195c-4b38-8133-a8c805552b50": {
     "is_engineering": false,
@@ -41888,7 +41873,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ba41f947"
+    "source_hash": "13c36cab"
   },
   "greenhouse-natera-5870828004": {
     "is_engineering": false,
@@ -41948,7 +41933,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "052e1bfa"
+    "source_hash": "0f9566f6"
   },
   "greenhouse-block-5128272008": {
     "is_engineering": false,
@@ -42174,22 +42159,22 @@
     "is_contract": false,
     "is_hybrid": true,
     "region": "us",
-    "location": null,
-    "job_summary": "Own the Bluetooth Low Energy wireless connectivity stack across Eight Sleep's Pod ecosystem, architecting GATT services, connection strategies, and secure OTA firmware updates for a global fleet of temperature-regulated sleep devices. You'll debug cross-platform interoperability issues on iOS/Android, optimize radio duty cycle for ultra-low-power devices, and bring up new Nordic-based silicon through regulatory certification and production testing.",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": "Own the Bluetooth Low Energy wireless connectivity stack for our temperature-regulated sleep Pod hardware ecosystem\u2014architecting GATT services, power optimization, secure OTA firmware updates, and device interoperability across iOS and Android. You'll partner with hardware teams on board bring-up, antenna tuning, regulatory certification, and global manufacturing validation in a fast-growing hardware company.",
     "skills": [
-      "Bluetooth Low Energy (BLE)",
+      "Bluetooth (BLE)",
       "C/C++",
-      "Nordic nRF / SoftDevice",
+      "Nordic nRF",
       "Python",
-      "GATT",
       "Embedded Systems",
-      "Secure OTA / DFU",
-      "RF Testing / Protocol Analysis"
+      "OTA Firmware Updates",
+      "Wireless Security",
+      "Real-time Power Optimization"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "29e0de9f"
+    "source_hash": "6be400d2"
   },
   "greenhouse-archer56-7499030003": {
     "is_engineering": true,
@@ -42607,10 +42592,10 @@
     "location": "London, UK",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "5cdf2dd8"
+    "source_hash": "4d79b964"
   },
   "ashby-clipboard-2ca7fa94-6b57-4358-9105-857b911c15f7": {
     "is_engineering": false,
@@ -42623,7 +42608,7 @@
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "50dc0fad"
+    "source_hash": "257e73bf"
   },
   "ashby-wealthsimple-d6c5fce8-ce92-40d6-b028-07c91bb4eb03": {
     "is_engineering": false,
@@ -42644,21 +42629,20 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Lead the design and delivery of agentic AI systems and intelligent automation workflows to accelerate R&D productivity across Confluent's engineering organization. Drive responsible AI adoption at scale across a SaaS/cloud platform with 60% hands-on execution and 40% strategy.",
+    "job_summary": "Lead the design and delivery of agentic AI systems and intelligent workflows that automate R&D productivity across Confluent's engineering organization. Balance hands-on architecture and implementation (60%) with strategic vision-setting and cross-functional alignment (40%), working with Security and IT to scale AI adoption responsibly at production scale.",
     "skills": [
       "LLM Integration",
       "Workflow Automation",
+      "Agentic Systems",
       "Distributed Systems",
-      "AI/ML Platforms",
+      "Python",
       "Cloud-Native Architecture",
-      "Real-Time Data Systems",
-      "Event-Driven Architecture",
-      "Platform Engineering"
+      "Responsible AI"
     ],
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7b227c8b"
+    "source_hash": "55e8eaab"
   },
   "greenhouse-censys-8500292002": {
     "is_engineering": true,
@@ -42913,37 +42897,37 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Austin, TX",
+    "location": "Westminster, CO",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "3737ead3"
+    "source_hash": "338062d3"
   },
   "ashby-gecko-robotics-241e909f-fa90-4615-a026-4ed7b7a767f9": {
     "is_engineering": true,
     "is_contract": false,
-    "is_hybrid": true,
+    "is_hybrid": false,
     "region": "us",
-    "location": null,
-    "job_summary": "Design and deploy advanced sensor fusion and localization algorithms for underwater inspection and hull-cleaning robots operating in GPS-denied environments. Solve real-world navigation challenges combining IMU, DVL, acoustic positioning, and sonar data with tight field deployment timelines and pragmatic engineering tradeoffs.",
+    "location": "Pittsburgh, PA",
+    "job_summary": "Design and deploy underwater sensor fusion and localization systems for hull-cleaning and NDT inspection robots, integrating IMU, DVL, acoustic positioning, and sonar data into robust state estimates for GPS-denied environments. Solve real-world field localization problems\u2014drift compensation, sensor dropout handling, acoustic multipath\u2014under tight deployment timelines in close-to-structure underwater operations.",
     "skills": [
-      "Extended Kalman Filters",
-      "Unscented Kalman Filters",
-      "Particle Filters",
-      "IMU calibration",
-      "Doppler Velocity Log",
-      "Acoustic positioning systems",
+      "Extended Kalman Filter (EKF)",
+      "Unscented Kalman Filter (UKF)",
+      "Particle Filter",
+      "IMU",
+      "DVL",
       "USBL/LBL",
-      "State-space modeling"
+      "State-Space Modeling",
+      "Acoustic Localization"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "490416ca"
+    "source_hash": "2baf7585"
   },
   "ashby-pylon-labs-1db399d3-409e-411e-9d53-1d8ec6ee794c": {
     "is_engineering": false,
@@ -42963,13 +42947,13 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
+    "location": "Austin, TX",
     "job_summary": null,
     "skills": [],
     "level": "principal",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b74e4ef6"
+    "source_hash": "be474e6f"
   },
   "ashby-pylon-labs-fae49875-afda-4977-9e8f-03473ca08abd": {
     "is_engineering": false,
@@ -43148,28 +43132,19 @@
     "source_hash": "6d4742d4"
   },
   "ashby-ekho-f6859821-786e-4700-8c9c-ee8b1e0e1438": {
-    "is_engineering": true,
+    "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": true,
+    "is_hybrid": false,
     "region": "us",
-    "location": "New York, NY / Remote",
-    "job_summary": "Own Ekho's marketing function end-to-end and build the AI agent orchestration layer that scales critical business operations\u2014from RevOps and CS automation to hiring and BizOps. You'll stand up agents across functions, starting with dealer outbound and expanding the infrastructure downstream as the company grows.",
-    "skills": [
-      "Claude",
-      "AI Agents",
-      "Python",
-      "HubSpot",
-      "GTM Strategy",
-      "RevOps",
-      "Agent Orchestration",
-      "Paid Advertising"
-    ],
-    "level": "mid",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
     "comp": "$150k-$200k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "bd946948"
+    "source_hash": "201587ba"
   },
   "greenhouse-toast-7523485": {
     "is_engineering": false,
@@ -43265,13 +43240,13 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f4b5d27f"
+    "source_hash": "dae6899b"
   },
   "ashby-aiprise-39861721-5ebf-4c9b-a382-a1a7aec9b0bb": {
     "is_engineering": false,
@@ -43286,7 +43261,7 @@
     "comp_extras": [
       "bonus"
     ],
-    "source_hash": "f498a184"
+    "source_hash": "54856ecb"
   },
   "greenhouse-andurilindustries-5139088007": {
     "is_engineering": false,
@@ -43320,14 +43295,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Westminster, CO",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "7727c284"
+    "source_hash": "8180f2be"
   },
   "greenhouse-pairteam-8552828002": {
     "is_engineering": false,
@@ -43581,21 +43556,22 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
-    "job_summary": "Build production AI-powered clinical documentation, provider copilots, and autonomous coding systems that integrate LLMs into real-time clinical workflows. Work across full-stack architecture (Python backend, TypeScript/React frontend, Kubernetes infrastructure) to deliver intelligent healthcare automation that clinicians trust with critical patient care tasks.",
+    "location": "Mountain View, CA",
+    "job_summary": "Build AI-powered clinical documentation and provider copilot systems that integrate LLMs into real-time healthcare workflows. Design fullstack architecture for production LLM systems at scale across hundreds of care sites supporting 500,000+ clinicians.",
     "skills": [
       "Python",
       "TypeScript",
       "React",
-      "Kubernetes",
       "Docker",
+      "Kubernetes",
       "LLM APIs",
-      "Bachelor's in Computer Science or Engineering"
+      "PostgreSQL or similar",
+      "AWS or GCP"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e81054d7"
+    "source_hash": "2aaf059e"
   },
   "ashby-Skydropx-413dbdaf-f739-4867-b32e-70180f5ea9a8": {
     "is_engineering": false,
@@ -43939,14 +43915,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "efb22004"
+    "source_hash": "38ab10aa"
   },
   "lever-waabi-0e086966-2763-41a2-82f5-563be404b608": {
     "is_engineering": false,
@@ -44029,15 +44005,15 @@
     "is_hybrid": true,
     "region": "us",
     "location": "San Francisco, CA / New York, NY / Salt Lake City, UT / Remote",
-    "job_summary": "Design and operate infrastructure systems that support Anrok's tax automation platform, including database scaling, observability, and reliability for a product serving 40% of Forbes Top 50 AI companies. Work at scale across GCP and manage relational databases handling complex tax compliance logic across 50+ US jurisdictions and 100+ countries.",
+    "job_summary": "Design and operate infrastructure systems that enable Anrok's tax automation platform to scale reliably across 50+ US jurisdictions and 100+ countries. Improve database scalability, system observability, and security while managing GCP cloud infrastructure and PostgreSQL at scale.",
     "skills": [
       "GCP",
-      "Pulumi",
       "PostgreSQL",
       "TypeScript",
+      "Pulumi",
       "Kubernetes",
       "Infrastructure as Code",
-      "Cloud Security",
+      "Distributed Systems",
       "Database Scaling"
     ],
     "level": "senior",
@@ -44045,7 +44021,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "babdca52"
+    "source_hash": "c6da5230"
   },
   "ashby-openai-faa6042d-ac67-4a76-a723-3ca7015adc34": {
     "is_engineering": false,
@@ -44337,13 +44313,13 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Remote",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "eb25ac52"
+    "source_hash": "7da1f0bf"
   },
   "greenhouse-neuralink-5469298003": {
     "is_engineering": true,
@@ -44569,10 +44545,10 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Build and expand marketplace infrastructure across new verticals (Home Health, Dental, Hospitals) using a full-stack approach. Make architectural decisions balancing reuse of existing systems with new builds, working closely with operations and go-to-market teams to iterate rapidly from zero to production.",
+    "job_summary": "Build infrastructure and products to expand Clipboard's marketplace into new healthcare verticals (Home Health, Dental, Hospitals). Make architectural decisions on what to reuse from existing long-term care systems versus what to build from scratch, iterating rapidly with operations and go-to-market teams.",
     "skills": [
-      "TypeScript",
       "Node.js",
+      "TypeScript",
       "NestJS",
       "MongoDB",
       "PostgreSQL",
@@ -44583,7 +44559,7 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "779b1543"
+    "source_hash": "e8bfe63d"
   },
   "greenhouse-andurilindustries-5139480007": {
     "is_engineering": true,
@@ -44615,7 +44591,7 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Build payment infrastructure, fraud detection, and financial operations systems that process worker payouts, instant pay, facility invoicing, and billing across hundreds of thousands of healthcare professionals. Own high-stakes transaction systems end-to-end in a fintech environment where correctness is critical and payment timing directly impacts workers' livelihoods.",
+    "job_summary": "Build payment infrastructure and fraud detection systems that process worker payouts, instant pay, facility invoicing, and billing across Clipboard's healthcare marketplace. Work on high-stakes financial systems handling millions in transactions where correctness and reliability directly impact worker financial stability.",
     "skills": [
       "Node.js",
       "TypeScript",
@@ -44629,7 +44605,7 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fc71a8c3"
+    "source_hash": "a8d72584"
   },
   "ashby-clipboard-fb63318b-2900-4352-8a51-516ddb4c912f": {
     "is_engineering": true,
@@ -44637,7 +44613,7 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Build the worker onboarding workflow and credential validation infrastructure that takes healthcare professionals from app sign-up through their first shift, including document parsing, background checks, and compliance logic. Handle full-stack development across React/Ionic mobile frontends and Node/NestJS backends processing sensitive healthcare documentation at scale.",
+    "job_summary": "Build the worker onboarding workflow that takes healthcare professionals from app sign-up through profile completion and first shift, including credential validation, document processing, and compliance logic. Work across React/Ionic frontend and Node/NestJS backend to solve substantive problems in credential validation and document extraction at scale.",
     "skills": [
       "TypeScript",
       "React",
@@ -44650,7 +44626,7 @@
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e6304781"
+    "source_hash": "34f8bc14"
   },
   "ashby-openai-b37da4ff-1648-4cae-ad98-cc968e670aca": {
     "is_engineering": false,
@@ -44678,7 +44654,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "bcfa00c5"
+    "source_hash": "9862db5c"
   },
   "ashby-openai-90c711dc-5f50-46e3-a5ab-82359a56d683": {
     "is_engineering": true,
@@ -45052,35 +45028,36 @@
     "is_hybrid": false,
     "region": "us",
     "location": "San Francisco, CA / Remote",
-    "job_summary": "Design and build Fieldguide's core platform services, APIs, and shared primitives that power product surfaces and AI agents across SaaS, enterprise single-tenant, and government-cloud environments. Lead technical standards and architecture decisions across multiple teams while mentoring senior engineers.",
+    "job_summary": "Design and build Fieldguide's core platform services, APIs, and shared primitives that power all product surfaces and AI agents. Lead cross-team architecture initiatives supporting multi-tenant SaaS, single-tenant enterprise, and government-cloud deployments at scale.",
     "skills": [
       "AWS",
       "Kubernetes",
       "Distributed Systems",
       "API Design",
       "Cloud Architecture",
-      "LLM Integration",
-      "AI Agent Frameworks"
+      "AI/LLM Integration",
+      "Service Architecture",
+      "TypeScript"
     ],
     "level": "staff",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "e2c085f5"
+    "source_hash": "63894269"
   },
   "lever-EnergyVault-8a344b45-3175-40ca-9ceb-db4b843daca3": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Westlake Village, CA",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1067dbbf"
+    "source_hash": "b4a65c4e"
   },
   "greenhouse-natera-5996679004": {
     "is_engineering": false,
@@ -45241,27 +45218,27 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "South Carolina",
     "job_summary": null,
     "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "02213e75"
+    "source_hash": "e2502279"
   },
   "ashby-chainalysis-careers-48e5de6c-bb60-4733-b04f-6d69dee49c97": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Remote",
     "job_summary": null,
     "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "0626a4a1"
+    "source_hash": "b588e67f"
   },
   "workable-weekday-1-CC29813930": {
     "is_engineering": false,
@@ -45340,21 +45317,21 @@
     "is_hybrid": false,
     "region": "us",
     "location": "Remote",
-    "job_summary": "Build AI-powered product quality infrastructure and tooling that captures, triages, and routes customer feedback at scale \u2014 including intelligent bug intake pipelines, real-time dashboards, and integrations across ticketing, payment, and data systems. Work on a first-of-its-kind Voice of the Customer program that closes the loop between what users experience and what gets shipped.",
+    "job_summary": "Build AI-powered product quality infrastructure that captures, triages, and routes customer feedback at scale \u2014 dashboards, bug intake pipelines, and integrations across ticketing, CRM, and data systems. You'll own internal-facing systems that close the loop between customer experience and product decisions in an AI-native code automation platform.",
     "skills": [
       "Python",
-      "SQL",
+      "Data pipelines",
       "ETL",
-      "Data Pipelines",
-      "API Integration",
+      "SQL",
+      "APIs",
       "Dashboards",
-      "React",
-      "TypeScript"
+      "Integrations",
+      "Full-stack development"
     ],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "040641d7"
+    "source_hash": "9fab7193"
   },
   "greenhouse-roblox-7931896": {
     "is_engineering": true,
@@ -45464,14 +45441,14 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b2d97b06"
+    "source_hash": "dd4b520f"
   },
   "ashby-langchain-49e5ee0c-7293-4ce6-80fc-70199e4172f8": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
+    "location": "Los Angeles, CA",
     "job_summary": null,
     "skills": [],
     "level": null,
@@ -45479,14 +45456,14 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "bd299dc5"
+    "source_hash": "f0e46b5e"
   },
   "ashby-ironcladhq-4ebaa744-8252-49f0-a209-9d95ecc79290": {
     "is_engineering": false,
     "is_contract": true,
     "is_hybrid": true,
     "region": "us",
-    "location": "San Francisco, CA / Remote",
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": null,
@@ -45494,7 +45471,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "cf73c00a"
+    "source_hash": "0a42121d"
   },
   "greenhouse-sonyinteractiveentertainmentglobal-5842555004": {
     "is_engineering": false,
@@ -45644,14 +45621,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "London, UK",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4f5a706d"
+    "source_hash": "1cbf1ba6"
   },
   "greenhouse-databricks-8530796002": {
     "is_engineering": true,
@@ -45711,84 +45688,82 @@
     "is_hybrid": false,
     "region": "us",
     "location": "San Francisco, CA",
-    "job_summary": "Build AI-powered systems that understand and rearchitect large-scale legacy applications, focusing on program analysis and agentic systems for critical enterprise software. Work directly with the CTO on architecture, prototyping, and productionization from first principles in a founding role.",
+    "job_summary": "Design and ship AI-driven systems that understand and modernize legacy enterprise applications, working directly with the CTO on architecture and product direction from prototype to production. You'll operate across program analysis, agentic systems, and user-facing workflows to tackle the modernization of mission-critical mainframe and COBOL infrastructure.",
     "skills": [
       "Python",
       "TypeScript",
       "Next.js",
       "Electron",
-      "AI/ML Systems",
-      "Program Analysis",
-      "Testing (TDD)",
-      "Cloud Infrastructure"
+      "AI/ML systems",
+      "Program analysis",
+      "Agentic systems",
+      "COBOL"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "26d15eef"
+    "source_hash": "6ef99be3"
   },
   "ashby-kalshi-59a824e4-a275-457d-b027-6c244c0a8c06": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Remote",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
-    "level": "mid",
+    "level": null,
     "comp": "$100k-$130k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "e0096444"
+    "source_hash": "cbd1aeba"
   },
   "ashby-baseten-1c9b9d23-a1b3-426a-9a88-000be4679960": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Remote",
-    "job_summary": "Lead infrastructure and SRE teams across Baseten's cloud platform, owning multi-cloud Kubernetes infrastructure, reliability standards, and incident management for mission-critical ML inference at scale. You'll set technical direction for GPU infrastructure, observability systems, and enterprise SLAs while developing team leads and balancing long-term strategic investments with operational excellence.",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead and grow multiple infrastructure and SRE teams responsible for Kubernetes, multi-cloud GPU serving, and observability platforms that power AI model inference at scale. You'll own end-to-end reliability posture, set technical direction across cloud infrastructure and incident management, and partner with product and customer teams to scale infrastructure alongside enterprise demands.",
     "skills": [
       "Kubernetes",
       "Terraform",
       "Prometheus",
       "Grafana",
+      "OpenTelemetry",
       "GitHub Actions",
-      "Incident Management",
-      "AWS",
-      "GCP"
+      "ArgoCD",
+      "GPU Infrastructure"
     ],
     "level": "manager",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "ace7ea00"
+    "source_hash": "ddbbdf68"
   },
   "ashby-baseten-1933097e-2f8e-46e2-8442-0c2f4a9394da": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Remote",
-    "job_summary": "Lead a team of cloud platform engineers building and maintaining the infrastructure systems that power Baseten's AI inference platform \u2014 from automated deployments and Kubernetes orchestration to monitoring, performance optimization, and incident response. You'll engage directly in technical decisions, code reviews, and architectural discussions while coaching engineers and translating user needs into infrastructure improvements.",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead a cloud platform engineering team building the infrastructure systems that power Baseten's AI inference platform \u2014 deployments, monitoring, performance optimization, and incident response. You'll manage engineers end-to-end while staying deeply technical in Kubernetes and infrastructure-as-code, directly connected to how ML companies operationalize models.",
     "skills": [
       "Kubernetes",
       "Terraform",
-      "GitHub Actions",
-      "Prometheus",
-      "Grafana",
-      "OpenTelemetry",
-      "GPU Infrastructure",
-      "Multi-cloud Environments"
+      "Cloud Infrastructure",
+      "CI/CD",
+      "Incident Response",
+      "SRE"
     ],
     "level": "manager",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "4ef5d908"
+    "source_hash": "d0ac6451"
   },
   "greenhouse-isaraerospace-4863632101": {
     "is_engineering": false,
@@ -45842,7 +45817,7 @@
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e5396216"
+    "source_hash": "abe222de"
   },
   "greenhouse-okta-7936541": {
     "is_engineering": false,
@@ -45861,14 +45836,14 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "San Francisco, CA / Seattle, WA / New York, NY / Chicago, IL / Remote",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "29ad58fa"
+    "source_hash": "177a2bea"
   },
   "greenhouse-airbnb-7568067": {
     "is_engineering": false,
@@ -45985,7 +45960,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9db91bd7"
+    "source_hash": "2f129a6a"
   },
   "greenhouse-databricks-8548505002": {
     "is_engineering": false,
@@ -46017,30 +45992,27 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "us",
-    "location": null,
-    "job_summary": "Build machine learning systems that power personalization and recommendation features across Spotify's platform, including integrations with voice assistants (Siri, Alexa), AI-powered discovery, and search agent foundations. Work at massive scale serving hundreds of millions of users with novel AI experiences and multimodal interactions.",
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build systems and models that help Spotify understand cultural trends in real time using large language models and agentic workflows, feeding personalized listening experiences for millions. Work at the intersection of content understanding and user-facing personalization at scale.",
     "skills": [
       "Machine Learning",
+      "Large Language Models",
       "Python",
-      "TensorFlow",
-      "PyTorch",
-      "Recommendation Systems",
-      "Distributed Systems",
-      "SQL",
-      "Scala"
+      "Data Engineering",
+      "Agentic Systems"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "698f0cbb"
+    "source_hash": "c13b0fd0"
   },
   "ashby-happyrobot.ai-d2bae179-0079-48c3-8a55-d1835d59156d": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
+    "location": "San Francisco, CA",
     "job_summary": null,
     "skills": [],
     "level": "mid",
@@ -46048,7 +46020,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "a68a97fa"
+    "source_hash": "076259e3"
   },
   "ashby-claim-health-08f325db-b705-4359-b5b9-84d5660ceac6": {
     "is_engineering": false,
@@ -46151,7 +46123,7 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "San Jose, CA / Taipei, Taiwan",
+    "location": "Taipei, Taiwan",
     "job_summary": null,
     "skills": [],
     "level": "senior",
@@ -46159,7 +46131,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "58056352"
+    "source_hash": "492ff934"
   },
   "greenhouse-newrelic-5222090008": {
     "is_engineering": false,
@@ -46234,23 +46206,22 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "us",
-    "location": "Remote",
-    "job_summary": "Build intuitive, performant front-end interfaces for UiPath Test Cloud, a cloud-based AI-powered software testing platform enabling teams to design, run, and manage automated testing at scale. You'll own features end-to-end, architect scalable UI patterns, and drive accessibility and performance excellence across modern browsers and mobile devices.",
+    "region": "international",
+    "location": "Bangalore, India",
+    "job_summary": "Build intuitive, performant, and scalable user interfaces for UiPath Test Cloud, a cloud-based AI-powered software testing platform. Design front-end architecture, optimize rendering and accessibility, and collaborate across teams to deliver cohesive customer experiences.",
     "skills": [
       "Angular",
       "TypeScript",
-      "React",
       "JavaScript",
-      "HTML",
-      "CSS",
-      "WCAG",
-      "Performance Optimization"
+      "React",
+      "HTML/CSS",
+      ".NET",
+      "Java"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fa696a9c"
+    "source_hash": "1ed0489b"
   },
   "greenhouse-quaise-4249295009": {
     "is_engineering": false,
@@ -46284,23 +46255,23 @@
     "is_hybrid": true,
     "region": "us",
     "location": "Sunnyvale, CA",
-    "job_summary": "Develop foundation models, world models, and reinforcement learning systems for autonomous driving embodied AI. Work on multi-year research breakthroughs in geometric understanding, generative modeling, and sim-to-real transfer at the frontier of embodied AI with real-world deployment validation.",
+    "job_summary": "Build foundation models, world models, and reinforcement learning systems for autonomous driving at the intersection of simulation, robotics, and real-world deployment. Work on embodied AI research with multi-year investment in scaling laws, sim-to-real transfer, and geometric understanding of dynamic 3D environments.",
     "skills": [
       "PyTorch",
+      "Python",
       "Transformers",
       "Diffusion Models",
       "Reinforcement Learning",
       "Computer Vision",
       "SLAM",
-      "JAX",
-      "FSDP"
+      "Robotics"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "4ffbc6b0"
+    "source_hash": "a679ce0a"
   },
   "ashby-shepherd-8b413a20-4309-4992-8e1d-648a018cfe30": {
     "is_engineering": false,
@@ -46321,7 +46292,7 @@
     "is_hybrid": true,
     "region": "international",
     "location": "Japan",
-    "job_summary": "Build and maintain resilience infrastructure for autonomous vehicles operating on public roads, ensuring seamless operation of AI-driven navigation systems. Develop monitoring, logging, and automation solutions that preempt failures in a safety-critical, distributed production environment at scale.",
+    "job_summary": "Build resilience and automation infrastructure for autonomous driving systems operating on public roads. Develop monitoring, logging, and fleet management systems for AI-driven vehicles at scale, with on-call responsibilities for production systems.",
     "skills": [
       "Python",
       "C++",
@@ -46330,12 +46301,12 @@
       "Docker",
       "AWS",
       "Prometheus",
-      "Grafana"
+      "Datadog"
     ],
-    "level": "mid",
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1d2f3153"
+    "source_hash": "2e789e5f"
   },
   "greenhouse-zyngacareers-5742259004": {
     "is_engineering": true,
@@ -46430,12 +46401,12 @@
     "location": "Austin, TX",
     "job_summary": null,
     "skills": [],
-    "level": "manager",
+    "level": null,
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "2cc3830f"
+    "source_hash": "b5368af4"
   },
   "ashby-avelios-medical-3ac4ca00-213f-4b6d-af00-336aaf9985f0": {
     "is_engineering": false,
@@ -46762,17 +46733,16 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "And\u00f8ya, Norway",
-    "job_summary": "Develop and maintain PLC software for ground equipment at a launch facility on And\u00f8ya, Norway, designing control systems, automating operations, and supporting test and launch campaigns. Work on safety-critical systems in a space launch environment with direct collaboration between on-site operations and a Germany-based control systems team.",
+    "location": "Andenes, Norway",
+    "job_summary": "Develop, maintain, and program PLC software for ground equipment and control systems at a rocket launch facility in the Arctic. Design PLC hardware setups, upgrade automation systems, and perform risk analyses for safety-critical electrical systems in a fast-paced space launch environment.",
     "skills": [
       "Beckhoff TwinCAT 3",
-      "PLC programming",
       "CODESYS",
-      "Beckhoff PLCs",
-      "Electrical schematics",
-      "Fieldbus systems",
-      "Functional safety",
-      "EU/International standards"
+      "PLC Programming",
+      "Fieldbus Systems",
+      "Electrical Schematics",
+      "Functional Safety System Design",
+      "EU/International Standards Compliance"
     ],
     "level": "mid",
     "comp": null,
@@ -46780,7 +46750,7 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "f3cfbe78"
+    "source_hash": "786bbab6"
   },
   "ashby-flowhub-78a21b33-529d-4fc6-81c4-2915792573bb": {
     "is_engineering": false,
@@ -46833,30 +46803,38 @@
     "source_hash": "3817c681"
   },
   "ashby-statista-43ccc1b3-643f-4f7f-9c62-93c1816360a6": {
-    "is_engineering": false,
+    "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
     "region": "international",
-    "location": null,
-    "job_summary": null,
-    "skills": [],
+    "location": "Hamburg, Germany / Berlin, Germany",
+    "job_summary": "Lead and develop a Revenue Analytics team, owning global revenue reporting dashboards, KPI frameworks, and top-line revenue planning to drive data-informed decision-making across the Sales organization. Work with large financial data models, DWH systems, and modern analytics tools including AI-driven approaches to scale the analytics function across a global company.",
+    "skills": [
+      "PowerBI",
+      "Salesforce",
+      "SQL",
+      "DBT",
+      "Excel",
+      "Data Warehousing",
+      "Python"
+    ],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "63cb2256"
+    "source_hash": "961b3a66"
   },
   "greenhouse-stripe-7882699": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "us",
-    "location": null,
+    "region": "international",
+    "location": "Bengaluru, India",
     "job_summary": null,
     "skills": [],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "93256529"
+    "source_hash": "1513fafb"
   },
   "greenhouse-pendo-8547445002": {
     "is_engineering": false,
@@ -46884,68 +46862,67 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "51d2274a"
+    "source_hash": "8436d235"
   },
   "greenhouse-stripe-7462358": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Bengaluru, India",
     "job_summary": null,
     "skills": [],
     "level": "junior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e42dfe06"
+    "source_hash": "2679d9be"
   },
   "greenhouse-toast-7882075": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "region": "us",
-    "location": null,
-    "job_summary": "Build and maintain Salesforce platform solutions including Apex development, Lightning Web Components, and integrations within an enterprise environment. Lead code reviews, mentor team members, and architect solutions for Salesforce Sales Cloud and CPQ implementations.",
+    "region": "international",
+    "location": "Bangalore, India",
+    "job_summary": "Develop and maintain enterprise Salesforce solutions including Apex, Lightning Web Components, and CPQ implementations. Mentor team members, lead code reviews, and ensure high code quality in a hybrid collaborative environment.",
     "skills": [
-      "Salesforce (Apex, Lightning, VF)",
+      "Salesforce Apex",
+      "Lightning Web Components",
       "Salesforce CPQ",
-      "REST/SOAP Web Services",
-      "Git/GitHub",
-      "Salesforce Platform Developer Certification",
-      "Agile/Scrum",
-      "Salesforce Sales Cloud",
-      "Salesforce Service Cloud"
+      "Salesforce Security and Sharing",
+      "REST APIs",
+      "GitHub",
+      "Agile/Scrum"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "c26bee01"
+    "source_hash": "17ebd069"
   },
   "workable-weekday-1-3D4B6EB1ED": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Delhi, India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fb35a580"
+    "source_hash": "56af8d8c"
   },
   "workable-weekday-1-4123E11B30": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Surat, India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e7c38be3"
+    "source_hash": "61bee3ef"
   },
   "greenhouse-newrelic-5221636008": {
     "is_engineering": false,
@@ -47076,13 +47053,13 @@
     "is_contract": true,
     "is_hybrid": false,
     "region": "international",
-    "location": null,
+    "location": "Nice, France",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "84c5c8c7"
+    "source_hash": "99212c27"
   },
   "lever-ekimetrics-48f80225-5f85-46b0-b90e-83c74dd0724a": {
     "is_engineering": true,
@@ -47231,7 +47208,7 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": "Remote",
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
     "level": "manager",
@@ -47239,7 +47216,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "88ef3a5b"
+    "source_hash": "97fcd6bb"
   },
   "workable-oxford-quantum-circuits-8-2309BE7ADD": {
     "is_engineering": false,
@@ -47375,75 +47352,80 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "us",
-    "location": null,
+    "region": "international",
+    "location": "Singapore",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b2fa0f7b"
+    "source_hash": "7ec9a975"
   },
   "greenhouse-starrez-5221829008": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
     "region": "international",
-    "location": null,
-    "job_summary": "Lead AI quality evaluation and testing strategies for LLM-powered product experiences, defining rubrics, building automated evaluation pipelines, and coaching teams on quality standards. Work at the intersection of AI engineering, product, and domain knowledge to measure and improve AI output safety, accuracy, and reliability in a B2B SaaS environment.",
+    "location": "Melbourne, Australia",
+    "job_summary": "Lead AI quality evaluation and testing strategies for LLM-powered product features, building automated evaluation pipelines and calibrating human reviewers to ensure accuracy, safety, and reliability across student housing workflows. Balance hands-on quality engineering with mentoring peers on shift-left evaluation practices and translating AI failure patterns into actionable product improvements.",
     "skills": [
-      "LLM Evaluation",
-      "Test Automation",
-      "RAG Systems",
-      "Prompt Engineering",
-      "AI Safety",
-      "Agent Workflows",
+      "LLM evaluation",
+      "Test automation",
       "Python",
-      "Data Analysis"
+      "RAG systems",
+      "Agent observability",
+      "Prompt engineering",
+      "Data analysis",
+      "AI safety"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "a5c7735d"
+    "source_hash": "3031f6a4"
   },
   "workable-sperasoft-B917814D46": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Bucharest, Romania",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "cacf07be"
+    "source_hash": "d81ee157"
   },
   "lever-sophos-97a607b0-c141-4b80-a455-9278a5764697": {
-    "is_engineering": null,
+    "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
-    "job_summary": null,
-    "skills": [],
+    "region": "international",
+    "location": "India",
+    "job_summary": "Build and maintain Sophos's cybersecurity platform components using Go, focusing on threat detection, endpoint protection, or cloud security infrastructure that scales across 600,000 organizations.",
+    "skills": [
+      "Go",
+      "Machine Learning",
+      "Cloud Security",
+      "Kubernetes"
+    ],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b039e727"
+    "source_hash": "e69d5fe5"
   },
   "greenhouse-twilio-7845781": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "United Kingdom",
+    "location": "Remote - United Kingdom",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9cf86f11"
+    "source_hash": "fb3f7e65"
   },
   "greenhouse-similarweb-7938197": {
     "is_engineering": true,
@@ -47468,17 +47450,26 @@
     "source_hash": "4c03df35"
   },
   "workable-weekday-1-D8FF85314B": {
-    "is_engineering": null,
+    "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
-    "job_summary": null,
-    "skills": [],
-    "level": null,
+    "region": "international",
+    "location": "Pune, India",
+    "job_summary": "Build backend APIs and services using Python and FastAPI for Weekday's AI hiring platform. Scale a system handling real-time candidate matching and assessment infrastructure.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "Git"
+    ],
+    "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "aa1e232b"
+    "source_hash": "2d42e872"
   },
   "workable-weekday-1-57CE253460": {
     "is_engineering": null,
@@ -47497,79 +47488,79 @@
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "us",
+    "location": "Seward, United States",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "786f674d"
+    "source_hash": "b563f9cf"
   },
   "workable-weekday-1-8ADF362E1F": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Mumbai, India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f959ce46"
+    "source_hash": "d5e06058"
   },
   "greenhouse-wizinc-4665068006": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Switzerland",
+    "location": "Remote - Switzerland",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "44259a3f"
+    "source_hash": "f0afa82b"
   },
   "greenhouse-twilio-7865849": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Spain",
+    "location": "Remote - Spain",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ee970c55"
+    "source_hash": "90ebefba"
   },
   "workable-weekday-1-7E07E4E89A": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "1cdb362b"
+    "source_hash": "e5f20332"
   },
   "greenhouse-twilio-7772685": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Ireland",
+    "location": "Remote - Ireland",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "837708ed"
+    "source_hash": "63d8ac09"
   },
   "bamboo-chowdeck-68": {
     "is_engineering": false,
@@ -47960,29 +47951,29 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "7d3adfec"
+    "source_hash": "8fa24b18"
   },
   "greenhouse-twilio-7926889": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Bangalore, India",
-    "job_summary": "Build Identity and Access Management (IAM) products and features using React and TypeScript for a mission-critical authentication and authorization platform. Work on high-scale cloud-based systems serving hundreds of thousands of customers.",
+    "location": "Remote - India",
+    "job_summary": "Build Identity and Access Management (IAM) products using React and TypeScript across frontend and full-stack systems. Scale mission-critical authentication and authorization services for hundreds of thousands of Twilio customers in a remote-first environment.",
     "skills": [
       "React",
       "TypeScript",
-      "GraphQL",
       "JavaScript",
+      "GraphQL",
       "Jest",
-      "HTML",
-      "CSS",
+      "Cypress",
+      "HTML/CSS",
       "AWS"
     ],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "6d470627"
+    "source_hash": "19e48843"
   },
   "ashby-lago-d6f718de-f99f-44d8-9c15-f0c5e02efff2": {
     "is_engineering": false,
@@ -47997,20 +47988,20 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "8dfe28ab"
+    "source_hash": "35b7b61a"
   },
   "workable-weekday-1-0EB46338A8": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "652af861"
+    "source_hash": "7417ce05"
   },
   "greenhouse-tailscale-4695882005": {
     "is_engineering": false,
@@ -48025,20 +48016,20 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "61f28d2e"
+    "source_hash": "1120219e"
   },
   "workable-weekday-1-DBF2EBDCC4": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Bengaluru, India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "fca6f281"
+    "source_hash": "0a2eef44"
   },
   "greenhouse-stripe-7757554": {
     "is_engineering": false,
@@ -48048,38 +48039,38 @@
     "location": "Dubai, UAE",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "616a3cf9"
+    "source_hash": "c7b182db"
   },
   "workable-weekday-1-28257A2568": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Bengaluru, India",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "4213842a"
+    "source_hash": "72fc3548"
   },
   "ashby-xbowcareers-6aa402eb-4f2f-40cc-b7e0-ae17180b0416": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Seoul, South Korea",
+    "location": "Remote, South Korea",
     "job_summary": null,
     "skills": [],
-    "level": "mid",
-    "comp": "$130,000",
+    "level": null,
+    "comp": "$130k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "260a6d06"
+    "source_hash": "f7cdf225"
   },
   "ashby-xbowcareers-5b84d131-4485-4779-b84b-fe9cda59214a": {
     "is_engineering": false,
@@ -48089,33 +48080,34 @@
     "location": "Remote, South Korea",
     "job_summary": null,
     "skills": [],
-    "level": null,
-    "comp": "$130,000",
+    "level": "mid",
+    "comp": "$130k",
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "54403e1c"
+    "source_hash": "eba8e67e"
   },
   "ashby-statista-1c6dc4d4-2e02-4d77-8ece-bab483f2521f": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
     "region": "international",
-    "location": "Hamburg, Germany",
-    "job_summary": "Build and maintain healthcare data pipelines, ETL systems, and analytics infrastructure that power Statista's global hospital rankings, ratings, and benchmarking products. Work with large-scale healthcare datasets across multiple countries, translating raw data into validated, actionable insights for clinical quality measurement and comparison.",
+    "location": "Hamburg, Germany / Berlin, Germany",
+    "job_summary": "Build and maintain scalable ETL pipelines and data infrastructure for Statista's healthcare rankings, ratings, and benchmarking platform. Work hands-on with large healthcare datasets, design data models for quality metrics, and support direct client engagement in benchmarking projects across international markets.",
     "skills": [
       "Python",
       "SQL",
-      "Power BI",
-      "AWS",
       "ETL/ELT",
+      "AWS",
+      "Power BI",
+      "Tableau",
       "Data Modeling",
-      "Tableau"
+      "Healthcare KPIs"
     ],
     "level": "mid",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "38d84df4"
+    "source_hash": "0c2412ac"
   },
   "greenhouse-andurilindustries-5135311007": {
     "is_engineering": false,
@@ -48224,7 +48216,7 @@
     "is_contract": false,
     "is_hybrid": false,
     "region": "international",
-    "location": "Remote",
+    "location": "UK",
     "job_summary": null,
     "skills": [],
     "level": "mid",
@@ -48232,7 +48224,7 @@
     "comp_extras": [
       "bonus"
     ],
-    "source_hash": "31c12d5c"
+    "source_hash": "50ef112d"
   },
   "smartrecruiters-Eurofins-744000126996284": {
     "is_engineering": true,
@@ -48918,8 +48910,8 @@
     "is_contract": false,
     "is_hybrid": true,
     "region": "us",
-    "location": null,
-    "job_summary": "Build customer-facing weather forecasting dashboards and operational products from NWP and AI model outputs, delivering React frontends with Python backend services across AWS infrastructure. You'll work in a specialized domain requiring fluency with weather models (GFS, ECMWF, GraphCast), geophysical data formats (GRIB2, NetCDF, Zarr), and the Pangeo ecosystem\u2014bridging weather science, cloud engineering, and modern AI tooling.",
+    "location": "Boulder, CO",
+    "job_summary": "Build and deploy customer-facing weather products that fuse AI forecasts with satellite observational data\u2014from interactive React dashboards to Python backend services and AWS infrastructure. Own the full vertical stack in a domain requiring fluency with weather models (NWP and AI forecasters), geophysical data formats (GRIB2, NetCDF, Zarr), and modern agentic AI coding tools.",
     "skills": [
       "React",
       "TypeScript",
@@ -48930,61 +48922,61 @@
       "GRIB2",
       "NetCDF"
     ],
-    "level": "senior",
-    "comp": "$130,500-$171,000",
+    "level": "mid",
+    "comp": "$130,500\u2013$171,000",
     "comp_extras": [
       "equity",
       "bonus"
     ],
-    "source_hash": "bda6e11f"
+    "source_hash": "c59d1ac3"
   },
   "lever-spotify-2a3b6947-2a3b-4d4a-a58d-eb242c3a2cae": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Stockholm, Sweden",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "dfabf933"
+    "source_hash": "8d8cf561"
   },
   "lever-spotify-a69512de-6754-411c-a83f-1f944820e559": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
+    "region": "international",
+    "location": "Stockholm, Sweden",
     "job_summary": null,
     "skills": [],
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "b5a6a18d"
+    "source_hash": "f5be6cd4"
   },
   "greenhouse-toast-7823103": {
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": true,
-    "region": "us",
-    "location": null,
-    "job_summary": "Build security intelligence services, threat models, and anti-abuse tooling across Toast's Java-based restaurant platform. Lead incident response and guide the organization toward security-conscious architecture in a fintech-adjacent environment handling sensitive customer payment and operational data.",
+    "region": "international",
+    "location": "Bengaluru, India",
+    "job_summary": "Build and maintain security services, tools, and intelligence systems across Toast's Java-based restaurant platform to detect, triage, and remediate vulnerabilities and abuse. Design threat models, implement anti-abuse features, and guide the organization toward secure-by-design practices for a fintech-adjacent product handling sensitive customer and payment data at scale.",
     "skills": [
       "Java",
       "Python",
-      "Cloud Application Architecture",
-      "Threat Modeling",
-      "SAST/DAST/SCA",
-      "Fintech Security",
+      "Cloud Application Security",
       "Cryptography",
-      "LLM/AI"
+      "Web Application Security",
+      "LLM/AI",
+      "SAST/DAST",
+      "API Security"
     ],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "2ffd7c03"
+    "source_hash": "a9cd7f93"
   },
   "greenhouse-toast-7851279": {
     "is_engineering": false,
@@ -49000,33 +48992,33 @@
       "equity",
       "bonus"
     ],
-    "source_hash": "47f6a518"
+    "source_hash": "fed81eba"
   },
   "ashby-talkiatry-f7c711f9-0cb2-4049-947c-f4d4af2cbd40": {
     "is_engineering": false,
     "is_contract": false,
     "is_hybrid": false,
     "region": "us",
-    "location": null,
+    "location": "New York, NY",
     "job_summary": null,
     "skills": [],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9335211c"
+    "source_hash": "63424872"
   },
   "greenhouse-toast-7883254": {
     "is_engineering": false,
     "is_contract": false,
-    "is_hybrid": true,
-    "region": "us",
-    "location": null,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bengaluru, India",
     "job_summary": null,
     "skills": [],
-    "level": "senior",
+    "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "ee988ff8"
+    "source_hash": "35050376"
   },
   "ashby-snowflake-00898e37-87aa-47e6-9df7-aefabac4ab01": {
     "is_engineering": false,
@@ -49045,22 +49037,21 @@
     "is_engineering": true,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "us",
-    "location": null,
-    "job_summary": "Lead and grow teams building the Feature Flags Service and Engineering Internal Observability Platform (E360), critical internal platform services that accelerate engineering velocity across UiPath. Manage system design, code quality, and architectural decisions for mission-critical infrastructure serving the entire engineering organization.",
+    "region": "international",
+    "location": "Bucharest, Romania",
+    "job_summary": "Build and maintain mission-critical internal platform services including Feature Flags Service and Engineering Internal Observability Platform (E360) that accelerate velocity across the engineering organization. Manage and grow teams responsible for these foundational systems that serve all of UiPath's engineering teams.",
     "skills": [
       "C#",
       "Java",
       "Python",
       "Kubernetes",
-      "Object-Oriented Programming",
-      "Multithreading",
-      "Asynchronous Programming"
+      "Asynchronous Programming",
+      "Object-Oriented Programming"
     ],
     "level": "manager",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "71fb4a91"
+    "source_hash": "664dc862"
   },
   "ashby-Viz.ai-deba1a86-8dcd-412c-88a4-d96fc9b54aba": {
     "is_engineering": false,
@@ -49075,7 +49066,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "8c1203da"
+    "source_hash": "83f40d4b"
   },
   "ashby-spekit-c2cf0ce6-d580-4ca2-a414-4207d570451a": {
     "is_engineering": false,
@@ -49090,7 +49081,7 @@
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "0424e9cd"
+    "source_hash": "8378c1ac"
   },
   "greenhouse-toast-7727235": {
     "is_engineering": true,
@@ -51366,5 +51357,1210 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "63b0cb73"
+  },
+  "lever-angellist-e0c43af6-5bc2-4a3a-a3c6-9b6448e1d594": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0cf55d41"
+  },
+  "greenhouse-airbnb-7927170": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$128,000\u2014$160,000 CAD",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "26a6d47a"
+  },
+  "greenhouse-antora-5820400004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$35-$40/hour",
+    "comp_extras": [],
+    "source_hash": "07780ff4"
+  },
+  "greenhouse-airbnb-7927169": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$128,000-$160,000 CAD",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "549f63b5"
+  },
+  "greenhouse-altoslabs-5996185004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco Bay Area, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$80,300-$102,900",
+    "comp_extras": [],
+    "source_hash": "9af90890"
+  },
+  "ashby-collective-5f36bdd1-06f8-480c-b17a-f7239283c8d3": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e4e65c7c"
+  },
+  "greenhouse-sonyinteractiveentertainmentglobal-5993047004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f1777d10"
+  },
+  "ashby-ARQ-6e8621c9-3a8b-4656-95ce-66bc786eba94": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Design and develop scalable backend systems powering cross-border fintech infrastructure, including REST APIs, microservices, and critical systems like card payments, treasury management, and transaction booking. Work on greenfield development and system evolution in a hypergrowth fintech environment handling millions of users.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "PostgreSQL",
+      "REST APIs",
+      "Microservices",
+      "Test-Driven Development",
+      "Domain-Driven Design"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c7505a5f"
+  },
+  "greenhouse-airship-4867330101": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$135k-$155k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "43037b92"
+  },
+  "ashby-cursor-d06b43e2-4993-4373-9827-9b1d40d7735b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8e2c3f11"
+  },
+  "smartrecruiters-Eurofins-744000127051484": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "South Bend, IN",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fa52a250"
+  },
+  "smartrecruiters-Eurofins-744000127050690": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Tustin, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "84732f71"
+  },
+  "smartrecruiters-Eurofins-744000127050854": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lexington, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d26117c8"
+  },
+  "greenhouse-figma-5995850004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$50.50-$73.60 (hourly)",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3c07b92d"
+  },
+  "greenhouse-gearbox-7738108003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Frisco, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "81a3aa39"
+  },
+  "greenhouse-huntress-7735577003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$200,000-$225,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5cb97f16"
+  },
+  "lever-hint-e810cbe6-415a-4bf9-9a85-81e1ceacb0dc": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "64850de8"
+  },
+  "greenhouse-kikoff-4251158009": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and operate AI-powered internal tooling (MCP servers, agents) alongside corporate IT infrastructure \u2014 identity, device trust, endpoint hardening, and security automation. Work at a pre-IPO fintech with direct impact on millions of users.",
+    "skills": [
+      "macOS",
+      "Okta",
+      "Rippling",
+      "Bash",
+      "Python",
+      "MDM",
+      "AWS IAM",
+      "Jamf"
+    ],
+    "level": "mid",
+    "comp": "$190k-$240k",
+    "comp_extras": [],
+    "source_hash": "9b5a2214"
+  },
+  "greenhouse-launchdarkly-7736302003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Oakland, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$116,000 - $187,660",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d1fe2c96"
+  },
+  "workable-malama-health-94A0DD3793": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Bernardino, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "10f1be83"
+  },
+  "workable-malama-health-21FB357D5A": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sacramento, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4b76f049"
+  },
+  "workable-malama-health-B9D2CF0A15": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Alameda, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "70b28cf1"
+  },
+  "workable-malama-health-7CF237C28F": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "96ce6596"
+  },
+  "workable-malama-health-CFAF836D71": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Riverside, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a3ed480c"
+  },
+  "greenhouse-nanit-5984476004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$110k-$120k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "106a31f7"
+  },
+  "ashby-openai-1bec5fd1-9cf2-4678-a82d-2d06385718b2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead technical security defense for OpenAI's internal AI coding agents against insider threats, advanced persistent threats, and autonomous AI attacks. Develop threat models, design and prototype security controls, and coordinate cross-team implementation of critical security investments in a fast-paced environment with extreme-scale implications.",
+    "skills": [
+      "Threat Modeling",
+      "Advanced Persistent Threats",
+      "Penetration Testing",
+      "Security Architecture",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8f41328e"
+  },
+  "greenhouse-rocketlab-7737851003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Middle River, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$20-$40",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c493274b"
+  },
+  "ashby-gen-digital-8bbae85d-8a97-4c3a-999a-ceae5a79da71": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$130k-$175k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "cc54285d"
+  },
+  "ashby-openai-e0eef869-cd4d-4737-b7af-75c5a1970aeb": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and test security controls to defend OpenAI's infrastructure against threats from advanced AI agents, focusing on long-lead mitigations across operating systems, cloud platforms, containers, and CI/CD systems. Build prototypes and conduct AI agent penetration tests to stress-test defenses against insider threats at scale.",
+    "skills": [
+      "Cloud Security",
+      "Kubernetes",
+      "CI/CD Security",
+      "Distributed Systems",
+      "Python",
+      "Penetration Testing",
+      "Operating Systems",
+      "Infrastructure Security"
+    ],
+    "level": "senior",
+    "comp": "$293k-$405k",
+    "comp_extras": [],
+    "source_hash": "92f62bbc"
+  },
+  "ashby-metriport-441fe581-e8fd-4836-b335-a92e8ef1fc06": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and scale a healthcare data intelligence platform that integrates with 300+ million patient records across major US healthcare IT systems. Drive end-to-end projects from design through production rollout, including infrastructure scaling, data pipeline transformations, and customer-facing features for real-time medical data exchange.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "React",
+      "AWS",
+      "PostgreSQL",
+      "DynamoDB",
+      "AWS CDK",
+      "Snowflake"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "82c40206"
+  },
+  "greenhouse-spacex-8554851002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cape Canaveral, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d385cfc5"
+  },
+  "greenhouse-scoutmotors-5117828007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$100,000-$125,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "da1b3c0f"
+  },
+  "bamboo-safetychain-174": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e52de25f"
+  },
+  "greenhouse-spacex-8540246002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA / Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$29/hour-$40/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "790935d8"
+  },
+  "greenhouse-spacex-8555044002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "413e031f"
+  },
+  "greenhouse-spacex-8552846002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Woodinville, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$22.00-$29.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1b0ca95e"
+  },
+  "greenhouse-spacex-8553118002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Woodinville, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$22.00-$37.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1a72e9c3"
+  },
+  "greenhouse-spacex-8555072002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4b9a2ebe"
+  },
+  "greenhouse-spacex-8533953002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7c8fcbc0"
+  },
+  "greenhouse-spacex-8555142002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": "Design and train AI/ML models and agentic systems to solve engineering problems for SpaceX launch vehicles and spacecraft, including LLM fine-tuning, reinforcement learning, computer vision, and RAG-based tools. You will own the full model lifecycle from data preparation through production deployment, working on systems that directly accelerate hardware design, flight data analysis, and mission operations at scale.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "LLM Fine-tuning",
+      "Reinforcement Learning",
+      "PostgreSQL",
+      "Kubernetes",
+      "Docker"
+    ],
+    "level": "senior",
+    "comp": "$160,000-$225,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b2cace65"
+  },
+  "greenhouse-spacex-8552919002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cape Canaveral, FL",
+    "job_summary": "Design, implement, and maintain highly available infrastructure and automation systems for SpaceX launch operations, ensuring reliability and scalability across mission-critical environments. Work in a fast-paced aerospace setting where your systems directly enable launch cadence and vehicle development.",
+    "skills": [
+      "Python",
+      "Go",
+      "Bash",
+      "Terraform",
+      "Ansible",
+      "Kubernetes",
+      "Linux",
+      "Windows"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1d3ca79f"
+  },
+  "greenhouse-starrez-5181891008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "India - Hybrid",
+    "job_summary": "Build and maintain scalable data pipelines, ETL/ELT systems, and data models that power analytics, reporting, and embedded intelligence across a multi-tenant SaaS platform serving 1,400+ education clients globally. Work at the intersection of data infrastructure and product, translating requirements from analysts and stakeholders into reliable, cost-optimized cloud data warehouse solutions.",
+    "skills": [
+      "dbt",
+      "Snowflake",
+      "Azure Data Factory",
+      "Airflow",
+      "SQL",
+      "Fivetran",
+      "Azure Synapse",
+      "CI/CD"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c18cbb07"
+  },
+  "lever-spotify-15b92be4-402a-460b-a773-1d8110dd09d4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4b40758c"
+  },
+  "greenhouse-stripe-7922532": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d5c8f699"
+  },
+  "greenhouse-stripe-7458833": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Paris, France",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aa69c6a3"
+  },
+  "lever-superannotate-a988f827-9b9f-463d-b739-bb17c1e77fcf": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "34eb7758"
+  },
+  "lever-SwiftlySystems-42f7f14c-1be2-43d0-9698-e1b758b2161e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "854e2c3e"
+  },
+  "greenhouse-tailscale-4696401005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "\u00a3112,970\u2014\u00a3141,410",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "80e408f4"
+  },
+  "greenhouse-telnyx54-7720937003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Dublin, Ireland",
+    "job_summary": "Design and build APIs, gateways, and microservices infrastructure that deliver Telnyx's communication platform at scale. Debug production issues across distributed systems and work cross-functionally to improve reliability, observability, and engineering standards across the company.",
+    "skills": [
+      "Elixir",
+      "Kubernetes",
+      "Docker",
+      "PostgreSQL",
+      "Microservices Architecture",
+      "RabbitMQ",
+      "Prometheus",
+      "Consul"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "616c631a"
+  },
+  "greenhouse-terrapowerllc-4251090009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$117,922 - $176,883",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "679db931"
+  },
+  "breezy-thirdchannel-inc-6901b515d4a5": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Yankton, SD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "053ce08c"
+  },
+  "greenhouse-threatlocker-5998080004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Orlando, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2c9f66e7"
+  },
+  "greenhouse-testlio-7851214": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$30/hr",
+    "comp_extras": [],
+    "source_hash": "84c98fec"
+  },
+  "greenhouse-toast-7917843": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$59k-$120k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "704c2373"
+  },
+  "breezy-thirdchannel-inc-72023705b8b1": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$50/hr",
+    "comp_extras": [],
+    "source_hash": "22bde776"
+  },
+  "greenhouse-toast-7815008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Dublin, Ireland",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3a5e94d2"
+  },
+  "greenhouse-toast-7917848": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$59,000\u2014$120,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8d4b7c41"
+  },
+  "greenhouse-toast-7772166": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Dublin, Ireland",
+    "job_summary": "Lead the design and development of resilient, scalable backend services that enable Toast's international expansion, architecting complex distributed systems for multi-market restaurant operations. You'll mentor engineers, drive technical excellence, and work directly with pilot customers to ensure successful deployment in new markets.",
+    "skills": [
+      "Java",
+      "Kotlin",
+      "PostgreSQL",
+      "DynamoDB",
+      "Pulsar",
+      "React",
+      "GraphQL",
+      "Distributed Systems"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ebbe8e14"
+  },
+  "ashby-trm-labs-80dcf3a6-3429-485a-8f05-81173b1ea52e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, D.C., MD / VA area",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a0559cb7"
+  },
+  "ashby-Todyl-014f9211-8bd6-41f8-9f5f-377fa0776327": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO",
+    "job_summary": "Own end-to-end design and delivery of Kubernetes-based platform initiatives, including a golden-path self-service production deployment system and security automation at scale. You'll operate as a peer to Architecture and Security on high-stakes decisions shaping Todyl's production infrastructure over the next 2\u20133 years, mentor junior SREs, and actively use AI tooling to eliminate toil.",
+    "skills": [
+      "Kubernetes",
+      "Helm",
+      "ArgoCD",
+      "Terraform",
+      "AWS",
+      "Python",
+      "Bash",
+      "Prometheus"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "62f0ea8e"
+  },
+  "ashby-vanta-fb60fcb9-6a5f-45d4-988d-a7a36c798724": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ceb8e65c"
+  },
+  "greenhouse-waymo-7939376": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Mountain View, CA",
+    "job_summary": "Develop and maintain scalable data pipelines and real-time weather systems for Waymo's autonomous fleet operations. Work on safety-critical infrastructure processing weather data across millions of autonomous miles in diverse environments.",
+    "skills": [
+      "C++",
+      "Python",
+      "Distributed Systems",
+      "Data Pipelines",
+      "Protocol Buffers",
+      "Real-time Systems",
+      "Google Cloud Infrastructure"
+    ],
+    "level": "mid",
+    "comp": "$175,000\u2014$215,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3b74da0c"
+  },
+  "greenhouse-waymo-7901924": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Mountain View, CA / San Francisco, CA",
+    "job_summary": "Build and operate planet-scale logging and data infrastructure powering autonomous driving model development and production decision-making. Work across distributed systems handling onboard data collection, ingestion, processing, storage, and serving with strict efficiency and resiliency requirements.",
+    "skills": [
+      "C++",
+      "Distributed Systems",
+      "Data Engineering",
+      "Backend Infrastructure",
+      "Streaming Infrastructure",
+      "Cloud Storage (S3/GCS)",
+      "Compression Algorithms",
+      "Resource Allocation"
+    ],
+    "level": "senior",
+    "comp": "$175,000-$215,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "b45d7bce"
+  },
+  "greenhouse-waymo-7927430": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Novi, MI / Mountain View, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$196k-$242k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "afb9f313"
+  },
+  "greenhouse-wayve-8554584002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "20b4bee5"
+  },
+  "greenhouse-waymo-7931005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Lead the design and architecture of Waymo's next-generation offboard weather systems, data pipelines, and real-time processing infrastructure to support autonomous fleet operations. Work with geospatial data at scale across distributed platforms handling tens of millions of autonomous miles in diverse weather environments.",
+    "skills": [
+      "Distributed Systems",
+      "Stream Processing",
+      "Real-time Data Processing",
+      "Geospatial Data",
+      "Machine Learning",
+      "Python",
+      "Kubernetes",
+      "Data Pipelines"
+    ],
+    "level": "staff",
+    "comp": "$251k-$310k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8a805b5f"
+  },
+  "ashby-writer-e89c9689-d5ed-4b95-8f3c-b13c6f4c94ba": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Build and deploy high-performance AI agents and LLM-powered applications that serve hundreds of enterprise customers, grounded in their proprietary data. Work at scale on production systems balancing performance, safety, and ethical alignment across research, engineering, and product.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "JAX",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Natural Language Processing"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4527ce35"
+  },
+  "ashby-writer-8889d06e-efa9-4096-b806-f1626fe060ae": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": "Build and deploy high-performance AI agents and LLM-powered applications into production, serving enterprises like Mars, Marriott, and Uber. Drive development of intelligent features grounded in customer data while championing responsible AI practices including bias detection and safety alignment.",
+    "skills": [
+      "Python",
+      "PyTorch",
+      "TensorFlow",
+      "JAX",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Natural Language Processing"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "07be183c"
+  },
+  "ashby-writer-6bbdb7ac-d081-4788-952b-6648be46a3bc": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": "Design and build scalable, production-grade AI agent systems that orchestrate autonomous workflows, manage state, and integrate with enterprise data and external APIs. You'll work on distributed infrastructure supporting memory, communication, skills, and intelligent decision-making for multi-step autonomous tasks at enterprise scale.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "React",
+      "TypeScript",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Vector Databases"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "477f6366"
+  },
+  "ashby-writer-6ee2fc03-6df8-4729-9c1d-ed02636bdb9d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and build scalable, production-ready AI agent systems that orchestrate multi-step autonomous workflows, integrate with enterprise data and APIs, and manage core agent capabilities like memory, reasoning, and skill execution. You'll work on distributed systems handling high-throughput agent operations at scale for Fortune 500 companies.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+      "PostgreSQL",
+      "React",
+      "TypeScript"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "089d2885"
+  },
+  "ashby-writer-add03442-89b8-4a67-ae75-ee74ebe9fa2e": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK / San Francisco, CA / New York, NY",
+    "job_summary": "Build scalable generative AI services and microservices using Python, LLMs, and agentic frameworks that power enterprise-wide AI transformation. Work on low-latency APIs, vector database integration, and production LLM applications with security and performance at scale.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "PostgreSQL",
+      "Kubernetes",
+      "AWS",
+      "LLMs"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1dac57a1"
+  },
+  "ashby-writer-c96e911d-ea44-416f-b267-ebd4b0fa0fc7": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY / London, UK",
+    "job_summary": "Build scalable generative AI services and microservices using Python, LLMs, and agentic workflows to power enterprise AI applications. Work with cutting-edge AI infrastructure at a well-funded enterprise platform company deploying to Fortune 500 customers.",
+    "skills": [
+      "Python",
+      "FastAPI",
+      "PostgreSQL",
+      "AWS",
+      "GCP",
+      "Azure",
+      "Docker",
+      "Kubernetes"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1d468602"
+  },
+  "ashby-zip-6653ab85-6679-4ba1-bce8-5c07e5838a62": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$50-$65/hour",
+    "comp_extras": [],
+    "source_hash": "044a4a8e"
   }
 }
