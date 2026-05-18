@@ -25348,24 +25348,17 @@
     "source_hash": "49984198"
   },
   "lever-q-ctrl-c6ef13cf-fb59-4e66-a17c-b16d7f1cdbe3": {
-    "is_engineering": true,
+    "is_engineering": null,
     "is_contract": false,
     "is_hybrid": false,
-    "region": "unclear",
-    "location": null,
-    "job_summary": "Develop software solutions for calibration and optimization of superconducting quantum hardware, including tuning two-qubit gates and optimizing full processors at scale. Work on quantum error correction and integration with high-performance computing systems at the forefront of near-term quantum advantage.",
-    "skills": [
-      "Python",
-      "Control Theory",
-      "Quantum Computing",
-      "Machine Learning",
-      "Physics",
-      "Optimization Algorithms"
-    ],
+    "region": "us",
+    "location": "Los Angeles, CA",
+    "job_summary": null,
+    "skills": [],
     "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "170cf114"
+    "source_hash": "baa71bd3"
   },
   "ashby-openai-493f5328-27bc-4987-9cc1-47ec3793a4d5": {
     "is_engineering": false,
@@ -46393,12 +46386,12 @@
     "location": "Austin, TX",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [
       "equity"
     ],
-    "source_hash": "b5368af4"
+    "source_hash": "6da709ab"
   },
   "ashby-avelios-medical-3ac4ca00-213f-4b6d-af00-336aaf9985f0": {
     "is_engineering": false,
@@ -53035,5 +53028,475 @@
       "equity"
     ],
     "source_hash": "b13dff9c"
+  },
+  "greenhouse-advancedspace-4247892009": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westminster, CO",
+    "job_summary": "Develop and validate spacecraft navigation algorithms, Kalman filters, and orbit determination systems for lunar missions including CAPSTONE and Oracle. Work with industry-standard tools (MONTE, FreeFlyer, ODTK, GMAT) to solve navigation challenges in cislunar and three-body regimes at Earth-Moon L2.",
+    "skills": [
+      "Kalman Filters",
+      "MONTE",
+      "FreeFlyer",
+      "ODTK",
+      "GMAT",
+      "Python",
+      "MATLAB",
+      "Orbit Determination"
+    ],
+    "level": "senior",
+    "comp": "$115,500-$148,400",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "bfec33ae"
+  },
+  "greenhouse-andurilindustries-5140192007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$41.34\u2014$54.80/hour",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "70c18237"
+  },
+  "greenhouse-andurilindustries-5086889007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Build end-to-end instrumentation systems for autonomous aircraft testing, from sensor specification through real-time telemetry and post-processing across ground and flight test environments. Work on Group 3 UAS platforms with high-voltage powertrains and hardware-in-the-loop integration in a defense setting requiring security clearance.",
+    "skills": [
+      "Data Acquisition (DAQ)",
+      "LabVIEW",
+      "CAN Bus",
+      "Thermocouples",
+      "Strain Gauges",
+      "Oscilloscopes",
+      "Security Clearance",
+      "Aeronautical Engineering"
+    ],
+    "level": "senior",
+    "comp": "$146,000\u2013$208,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "146f368e"
+  },
+  "greenhouse-andurilindustries-5140383007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hudson, NH",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$30-$37k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6d228211"
+  },
+  "greenhouse-andurilindustries-5044338007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$98k-$130k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "3dbe9d8b"
+  },
+  "greenhouse-andurilindustries-4975955007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Architect and develop the Sand Table plugin system using C++ and TypeScript, integrating real-time 3D visualization with extensible APIs for cross-functional teams. This defense technology role requires Secret security clearance and involves shipping immersive command-and-control demonstrations for military customers.",
+    "skills": [
+      "C++",
+      "TypeScript",
+      "game engine development",
+      "3D rendering",
+      "API design",
+      "Real-time systems",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$166,000-$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6afc0fca"
+  },
+  "greenhouse-andurilindustries-5140308007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": null,
+    "skills": [],
+    "level": "staff",
+    "comp": "$191k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8fc78646"
+  },
+  "ashby-butterflymx-8cb014d7-c5f0-449e-8250-517c0d21e43a": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and evolve APIs, services, and full-stack features powering ButterflyMX's property access and security platform serving 20,000+ properties globally. Lead large-scale projects across front-end and back-end layers in a distributed, service-oriented architecture handling IoT device integration and real-time access management.",
+    "skills": [
+      "TypeScript",
+      "JavaScript",
+      "GraphQL",
+      "Docker",
+      "AWS",
+      "SQL",
+      "CI/CD pipelines",
+      "IoT device development"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "33367db1"
+  },
+  "greenhouse-figma-5993635004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Sydney, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a2c3908f"
+  },
+  "smartrecruiters-Gerresheimer-744000127061538": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Peachtree City, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "314d3972"
+  },
+  "workable-hokali-59CD2F32FF": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Richmond, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0e4f16fb"
+  },
+  "greenhouse-mitratech-7863243": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b178bd66"
+  },
+  "greenhouse-ibkr-4243639002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Greenwich, CT",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "de102e47"
+  },
+  "greenhouse-natera-5993425004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1142a656"
+  },
+  "greenhouse-nuro-7569919": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Mountain View, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$132,300-$198,445",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "3d3cddca"
+  },
+  "ashby-opengov-1e7542d4-e167-4354-a6ab-58c44e59e32a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$77k-$87k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "2ba992c7"
+  },
+  "ashby-overview-328660ca-25d7-48f4-ad1a-bbf9b7a75fad": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote / Indiana, OH, KY, IL",
+    "job_summary": "Install and integrate AI-powered vision systems into active manufacturing production lines, configuring hardware, PLCs (Allen Bradley, Siemens, GE), and I/O protocols while troubleshooting electrical and integration issues on-site. Work directly with customer maintenance and production teams in real manufacturing environments under live production constraints, requiring 60\u201380% travel to customer facilities across North America.",
+    "skills": [
+      "PLC Programming",
+      "Allen Bradley",
+      "Siemens",
+      "Electrical Troubleshooting",
+      "Industrial Communication Protocols",
+      "Vision Systems",
+      "Oscilloscope",
+      "Multimeter"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "563d8cf8"
+  },
+  "greenhouse-pinterest-7896291": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": "Build and improve Pinterest's experimentation platform by developing statistical methodologies, workflows, and tools that enable thousands of concurrent experiments to run smoothly and generate reliable insights. Partner with product data science teams to optimize experiment design, analysis, and decision-making at massive scale.",
+    "skills": [
+      "Python",
+      "Apache Airflow",
+      "Git",
+      "Statistical Analysis",
+      "Experimental Design",
+      "SQL"
+    ],
+    "level": "mid",
+    "comp": "$114,297\u2013$235,319",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cedab27b"
+  },
+  "greenhouse-pinterest-7816424": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / San Francisco, CA",
+    "job_summary": "Build and refine metrics, dashboards, and analytical frameworks that measure, monitor, and optimize Pinterest's infrastructure systems. Work with production data pipelines and measurement systems to quantify the impact of infrastructure changes on reliability, performance, and user experience at scale.",
+    "skills": [
+      "SQL",
+      "Python",
+      "Statistics",
+      "Experimentation Design",
+      "Data Pipeline Development",
+      "A/B Testing",
+      "Metrics Definition",
+      "Data Quality"
+    ],
+    "level": "senior",
+    "comp": "$114,297-$235,319",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "235af772"
+  },
+  "greenhouse-pinterest-7923203": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build LLM-assisted labeling systems and human-in-the-loop evaluation platforms that reduce labeling costs and improve data quality at scale. Work on prompt optimization, quality estimation, routing, and measurement frameworks for generative AI workflows across Pinterest's labeling infrastructure.",
+    "skills": [
+      "LLMs",
+      "Machine Learning",
+      "Data Science",
+      "Python",
+      "Prompt Engineering",
+      "Experimentation",
+      "Human-in-the-Loop Systems",
+      "PyTorch"
+    ],
+    "level": "senior",
+    "comp": "$139,764\u2013$287,749",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "ee433b1c"
+  },
+  "greenhouse-spacex-8555179002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e5c2b2ba"
+  },
+  "greenhouse-terrapowerllc-4195019009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bellevue, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$76.7k-$114.9k",
+    "comp_extras": [],
+    "source_hash": "df56185a"
+  },
+  "greenhouse-toast-7394246": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$115k-$234k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1e291aee"
+  },
+  "greenhouse-vannevarlabs-5140427007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "07dea66f"
+  },
+  "ashby-vanta-934d25cb-202f-42a7-8ab3-5a9288f227ad": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d94cee0a"
+  },
+  "ashby-vanta-3ba9b509-f81d-419c-bac2-0ae46fc31ca4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "89dfc7c9"
+  },
+  "greenhouse-waymo-7939542": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Mountain View, CA",
+    "job_summary": "Design and develop Angular/TypeScript applications for Waymo's Fleet Monitoring platform, building mission-critical internal tools that scale autonomous vehicle operations. Work on highly configurable UI systems and reusable platform functionalities in a fast-paced environment.",
+    "skills": [
+      "Angular",
+      "TypeScript",
+      "JavaScript",
+      "React",
+      "Python",
+      "Java",
+      "C++",
+      "Go"
+    ],
+    "level": "senior",
+    "comp": "$175,000-$215,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "3607ad8f"
   }
 }
