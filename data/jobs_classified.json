@@ -46085,7 +46085,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "9a4001b3"
+    "source_hash": "0a2d5d87"
   },
   "ashby-claim-health-b8c653ff-adf8-4210-9682-637e68186285": {
     "is_engineering": false,
@@ -52722,21 +52722,21 @@
     "is_hybrid": false,
     "region": "us",
     "location": "San Francisco, CA",
-    "job_summary": "Own the iOS SDK architecture that embeds Giga's voice and chat AI agents into customer mobile apps, making core technical decisions around UI surfaces, animations, voice integrations, and performance. Push native iOS capabilities\u2014voice routing, background execution, app extensions\u2014to enable seamless agent interactions on device.",
+    "job_summary": "Own the iOS SDK architecture and deep OS integrations that embed Giga's voice and chat AI agents into customer mobile apps. Lead technical direction for UI, animations, voice interactions, and performance at scale across millions of daily users in high-stakes regulated environments.",
     "skills": [
       "Swift",
       "iOS",
       "SDK Design",
-      "Python",
+      "Voice Integration",
       "TypeScript",
       "Next.js",
-      "AWS",
-      "Kubernetes"
+      "Python",
+      "AWS"
     ],
-    "level": "senior",
+    "level": "staff",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "34a62b51"
+    "source_hash": "bc56fe8a"
   },
   "greenhouse-dragos-5214184008": {
     "is_engineering": false,
@@ -53400,7 +53400,7 @@
     "level": null,
     "comp": null,
     "comp_extras": [],
-    "source_hash": "e5c2b2ba"
+    "source_hash": "318911e4"
   },
   "greenhouse-terrapowerllc-4195019009": {
     "is_engineering": false,
@@ -53958,5 +53958,572 @@
       "equity"
     ],
     "source_hash": "e85bce1b"
+  },
+  "ashby-Abridge-cf31374d-65a1-4f26-9fa5-da9cc4312dc0": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Design and implement enterprise automation workflows for user provisioning, access management, and SaaS integrations across Google Workspace, Slack, GitHub, and other core systems. Work in a HIPAA-compliant, SOC 2-audited healthcare environment where you'll build compliance automation and IAM controls at scale.",
+    "skills": [
+      "Python",
+      "REST APIs",
+      "SQL",
+      "Google Workspace",
+      "Slack",
+      "GitHub",
+      "Okta",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c77aa952"
+  },
+  "ashby-Abridge-08a7f06f-c196-4fff-8c44-843ddcb13b8a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "318d855b"
+  },
+  "greenhouse-aircompany-4596283005": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New Britain, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5c479a00"
+  },
+  "greenhouse-andurilindustries-5140621007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Irvine, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$98,000\u2014$130,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6ef0c852"
+  },
+  "greenhouse-blueconic-8555254002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Philadelphia, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$65k-$70k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "63798566"
+  },
+  "ashby-candidhealth-f111d46b-4efb-4b41-9cc2-a6bd49b71cfa": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Denver, CO / New York, NY",
+    "job_summary": "Build security automation and tooling to embed threat modeling, vulnerability management, and secure coding practices across product engineering squads. Healthcare domain requires navigating HIPAA compliance and supply chain security for open-source dependencies at scale across microservices infrastructure.",
+    "skills": [
+      "Python",
+      "Go",
+      "Java",
+      "JavaScript",
+      "Kubernetes",
+      "AWS",
+      "Terraform",
+      "OWASP Top 10"
+    ],
+    "level": "senior",
+    "comp": "$180k-$258k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4bc7c211"
+  },
+  "lever-CesiumAstro-51e24d89-3826-4519-8659-f73ab76983ac": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westminster, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3343c440"
+  },
+  "lever-CesiumAstro-4e68cf0b-fd21-47ff-b0b3-31b47804685c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westminster, CO",
+    "job_summary": "Design, implement, and automate RF test systems and procedures for phased array antennas used in satellite, spacecraft, and aerospace communication platforms. Work with hardware and software to architect test architectures, analyze results, and guide design-for-test integration across product development cycles in a startup environment.",
+    "skills": [
+      "RF measurements",
+      "Test automation",
+      "VSA",
+      "VSG",
+      "VNA",
+      "Phased array testing",
+      "LabVIEW",
+      "Python"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a846c8b3"
+  },
+  "greenhouse-conga-5125820007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$53k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "08ca1393"
+  },
+  "ashby-cursor-2d96088d-01ef-4082-b32e-500574f90751": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91ed8317"
+  },
+  "greenhouse-dragos-5022514008": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and maintain automated test pipelines and frameworks for the Dragos Platform, focusing on asset inventory and vulnerability management features. Collaborate with product teams to automate REST API and frontend tests while improving test infrastructure in a mission-critical ICS/OT cybersecurity environment.",
+    "skills": [
+      "Python",
+      "Pytest",
+      "Playwright",
+      "Jenkins",
+      "GitHub Actions",
+      "Docker",
+      "Kubernetes",
+      "Git"
+    ],
+    "level": "senior",
+    "comp": "$142,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0dd4d8d6"
+  },
+  "smartrecruiters-Eurofins-744000127068689": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oklahoma City, OK",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e53025d8"
+  },
+  "smartrecruiters-Eurofins-744000127065822": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Angelo, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3098bc1f"
+  },
+  "smartrecruiters-Eurofins-744000127067619": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Concord, NH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$17-$19/hour",
+    "comp_extras": [],
+    "source_hash": "8aca30e5"
+  },
+  "smartrecruiters-Eurofins-744000127066832": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Louisville, KY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b07be4b8"
+  },
+  "smartrecruiters-Eurofins-744000127065595": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Des Moines, IA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "091f84e3"
+  },
+  "smartrecruiters-Eurofins-744000127065480": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oklahoma City, OK",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6aea1817"
+  },
+  "breezy-nursing-float-health-ee5dea5a8db9": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pittsburgh, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$75-$85/hr",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b6e6d39b"
+  },
+  "greenhouse-generallegalllp-4251347009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$160k-$190k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "18c38151"
+  },
+  "greenhouse-harnessinc-4662182007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e9e3a77d"
+  },
+  "ashby-horizon3ai-e90e1933-082d-4f26-b685-0460143856df": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$150k-$185k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "54fb306c"
+  },
+  "greenhouse-instacart-7939638": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "CAD$140,000\u2013$147,500",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "1525fe1e"
+  },
+  "greenhouse-instacart-7939636": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$113,000-$142,500 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "31c69443"
+  },
+  "smartrecruiters-InformaGroupPlc-744000127065474": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boulder, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "622996af"
+  },
+  "ashby-kraken.com-e7480aaf-0a1b-4ed4-a047-37cc5b3b88a3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8e1eadb2"
+  },
+  "greenhouse-neuralink-7738240003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Design and implement software design control systems that embed regulatory compliance (IEC 62304, FDA 21 CFR 820.30) into CI/CD pipelines and engineering workflows for medical device software. Build end-to-end traceability frameworks and automation infrastructure supporting rapid iteration, risk management, and audit readiness for safety-critical brain-computer interface software.",
+    "skills": [
+      "IEC 62304",
+      "FDA Design Controls (21 CFR 820.30)",
+      "ISO 14971",
+      "Python",
+      "SQL",
+      "Software Requirements Management",
+      "CI/CD",
+      "Risk Management"
+    ],
+    "level": "junior",
+    "comp": "$71,000\u2014$119,000 USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c61046ad"
+  },
+  "ashby-openai-8784802a-11b1-4182-85a7-6a87c83a1123": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e92b2b3"
+  },
+  "greenhouse-rocketlab-7734775003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Design and analyze trajectories, orbital mechanics, and mission dynamics for Earth orbiting, lunar, and interplanetary spacecraft and launch vehicles. Develop flight dynamics simulation tools and infrastructure while supporting real-time mission operations for national security and exploration missions.",
+    "skills": [
+      "Python",
+      "STK",
+      "Astrogator",
+      "GMAT",
+      "Orbital Mechanics",
+      "Orbit Determination",
+      "Git",
+      "Jira"
+    ],
+    "level": "mid",
+    "comp": "$100,000\u2014$135,000 USD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8daa5340"
+  },
+  "ashby-Skydropx-c90b3249-eb91-4e5b-adde-c9e3b205e119": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tampico, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "702b6f61"
+  },
+  "ashby-Skydropx-10ed68f7-d3ac-439e-89ed-729369359327": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Monterrey, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b7662c30"
+  },
+  "ashby-Skydropx-676b7107-47e0-4931-9008-b9251beeedbe": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tampico, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f9527950"
+  },
+  "ashby-Skydropx-699f3a87-61c2-427f-84fe-c041571d271f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Monterrey, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "306de430"
+  },
+  "greenhouse-spacex-8555271002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5a80a512"
+  },
+  "lever-sophos-3607c5bd-3b9a-41ce-8558-66f17ef05a0e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "South Africa",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3432ddde"
+  },
+  "greenhouse-vast-4682031006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Mojave, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$137,760\u2013$195,552",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e988c436"
+  },
+  "greenhouse-waymo-7902125": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Mountain View, CA",
+    "job_summary": "Build distributed backend systems and state machine infrastructure for Waymo's autonomous vehicle pickup and dropoff experience, coordinating between onboard vehicle systems, mobile apps, and cloud services. Work on systems managing millions of rider trips with strict safety and reliability requirements at scale.",
+    "skills": [
+      "C++",
+      "distributed systems",
+      "backend development",
+      "Google Cloud technologies (Borg, Spanner, Flume)",
+      "API design",
+      "state machines",
+      "iOS or Android development"
+    ],
+    "level": "senior",
+    "comp": "$213,000-$263,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "39cccaef"
   }
 }
