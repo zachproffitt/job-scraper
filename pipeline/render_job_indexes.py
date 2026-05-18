@@ -8,22 +8,10 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from badges import REMOTE_BADGE, HYBRID_BADGE, NEW_BADGE, skill_badge
-from render_common import clean_location, company_logo_html, abbrev_comp, strip_location_from_title, SUPPORTED_ATS
-
-
-def _is_new(j: dict, cutoff: datetime) -> bool:
-    """True if this job was first seen within the last 24 hours."""
-    ts = j.get("first_seen_at", "")
-    if ts:
-        try:
-            dt = datetime.fromisoformat(ts)
-            if dt.tzinfo is None:
-                dt = dt.replace(tzinfo=timezone.utc)
-            return dt >= cutoff
-        except ValueError:
-            pass
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    return j.get("first_seen", "") == today
+from render_common import (
+    clean_location, company_logo_html, abbrev_comp,
+    strip_location_from_title, is_new_within, SUPPORTED_ATS,
+)
 
 
 DATA_DIR = Path(__file__).parent.parent / "data"
@@ -159,9 +147,9 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         by_date[j["first_seen"]].append(j)
 
     total = sum(len(v) for v in by_date.values())
-    new_today = sum(1 for j in jobs if _is_new(j, cutoff))
+    new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
 
-    stats = f"**{total} open roles** ({new_today} new today)"
+    stats = f"**{total} open roles** ({new_recent} new in last 24h)"
     if not remote_only:
         stats += f" &nbsp;·&nbsp; {company_count} companies searched"
 
@@ -220,7 +208,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
             lines.append("")
 
     out_path.write_text("\n".join(lines))
-    print(f"Written {out_path} ({total} jobs, {new_today} new today)")
+    print(f"Written {out_path} ({total} jobs, {new_recent} new in last 24h)")
 
 
 def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: Path) -> None:
@@ -239,7 +227,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
     companies_sorted = sorted(by_company.keys(), key=str.casefold)
     total_jobs = len(jobs)
-    new_today = sum(1 for j in jobs if _is_new(j, cutoff))
+    new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
 
     lines = [
         "# Builder Jobs — By Company",
@@ -250,7 +238,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
             " Listings older than 14 days are removed automatically."
         ),
         "",
-        f"### **{len(companies_sorted)} companies** · **{total_jobs} open roles** ({new_today} new today)",
+        f"### **{len(companies_sorted)} companies** · **{total_jobs} open roles** ({new_recent} new in last 24h)",
         "",
         "[← All roles](README.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)",
         "",
@@ -284,7 +272,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
         for j in company_jobs_sorted:
             meta = format_job_meta(j)
-            is_new = _is_new(j, cutoff)
+            is_new = is_new_within(j, cutoff)
 
             ts = j.get("first_seen_at", "")
             first_seen = j.get("first_seen", "")
@@ -310,7 +298,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         lines.append("")
 
     out_path.write_text("\n".join(lines))
-    print(f"Written {out_path} ({len(companies_sorted)} companies, {total_jobs} jobs, {new_today} new today)")
+    print(f"Written {out_path} ({len(companies_sorted)} companies, {total_jobs} jobs, {new_recent} new in last 24h)")
 
 
 def main():

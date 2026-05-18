@@ -2,10 +2,10 @@
 """Write a GitHub Actions step summary for the pipeline run."""
 
 import json
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from render_common import SUPPORTED_ATS, strip_location_from_title, write_step_summary
+from render_common import SUPPORTED_ATS, strip_location_from_title, is_new_within, write_step_summary
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -13,6 +13,7 @@ DATA_DIR = Path(__file__).parent.parent / "data"
 def main():
     today = datetime.now(timezone.utc).date().isoformat()
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
 
     companies = json.loads((DATA_DIR / "companies.json").read_text())
     classified = json.loads((DATA_DIR / "jobs_classified.json").read_text())
@@ -42,15 +43,15 @@ def main():
             seen_groups.add(key)
             engineering.append(j)
 
-    new_today = [j for j in renderable if j.get("first_seen") == today]
+    new_recent = [j for j in renderable if is_new_within(j, cutoff)]
     seen_new: set[tuple[str, str]] = set()
-    new_today_deduped = []
-    for j in new_today:
+    new_recent_deduped = []
+    for j in new_recent:
         key = (j["company"], strip_location_from_title(j["title"]))
         if key not in seen_new:
             seen_new.add(key)
-            new_today_deduped.append(j)
-    new_today = new_today_deduped
+            new_recent_deduped.append(j)
+    new_recent = new_recent_deduped
 
     log_path = DATA_DIR / "pipeline.log"
     log_lines = []
@@ -65,7 +66,7 @@ def main():
     lines = [
         f"## Pipeline run — {now}",
         "",
-        f"**{len(engineering)}** engineering roles live &nbsp;·&nbsp; **{len(new_today)}** new today &nbsp;·&nbsp; **{total_companies}** companies searched",
+        f"**{len(engineering)}** engineering roles live &nbsp;·&nbsp; **{len(new_recent)}** new in last 24h &nbsp;·&nbsp; **{total_companies}** companies searched",
         "",
         "### Companies by ATS",
         "| ATS | Companies |",

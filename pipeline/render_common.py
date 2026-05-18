@@ -3,6 +3,7 @@
 
 import os
 import re
+from datetime import datetime, timezone
 
 SUPPORTED_ATS = {
     "greenhouse", "lever", "ashby", "smartrecruiters",
@@ -80,6 +81,25 @@ def abbrev_comp(comp: str) -> str:
         n = int(m.group(0).replace(",", ""))
         return f"{n // 1000}k"
     return re.sub(r"\d{1,3}(?:,\d{3})+", shorten, comp)
+
+
+def is_new_within(j: dict, cutoff: datetime) -> bool:
+    """True if a job was first seen within the rolling window ending at `cutoff` from now.
+
+    Uses the precise first_seen_at timestamp when available, falling back to the
+    first_seen date compared against today's UTC date.
+    """
+    ts = j.get("first_seen_at", "")
+    if ts:
+        try:
+            dt = datetime.fromisoformat(ts)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt >= cutoff
+        except ValueError:
+            pass
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    return j.get("first_seen", "") == today
 
 
 def write_step_summary(content: str) -> None:
