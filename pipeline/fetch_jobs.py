@@ -135,9 +135,18 @@ def main():
                 label = " [new company — archived]" if is_new else ""
                 print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... {len(jobs)} jobs{label}")
             except ScraperError as e:
+                error_str = str(e)
                 with lock:
                     error_count += 1
-                    if "404" in str(e):
+                    # 404: job board is gone
+                    # 422: Workday tenant/path no longer valid (acquired companies)
+                    # 403 where slug not in URL: company redirected to ATS homepage (dead account)
+                    is_permanent = (
+                        "404" in error_str
+                        or "422" in error_str
+                        or ("403" in error_str and slug not in error_str)
+                    )
+                    if is_permanent:
                         deactivated.append(name)
                 print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... ERROR")
                 log_error(f"scraper error for {name} ({ats}/{slug}): {e}")
