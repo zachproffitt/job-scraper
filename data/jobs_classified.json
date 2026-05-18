@@ -53498,5 +53498,127 @@
       "bonus"
     ],
     "source_hash": "3607ad8f"
+  },
+  "greenhouse-airbnb-7936526": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$177,000\u2013$208,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "e2eaffac"
+  },
+  "greenhouse-airbnb-7450356": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and productionize end-to-end machine learning models and infrastructure for search ranking and recommendations across Airbnb's platform, optimizing for multiple business objectives. Work at scale with structured and unstructured data (text, images, sequential) on both batch and real-time serving systems in a marketplace context.",
+    "skills": [
+      "Python",
+      "Scala",
+      "PyTorch",
+      "TensorFlow",
+      "Spark",
+      "Airflow",
+      "Kafka",
+      "Kubernetes"
+    ],
+    "level": "staff",
+    "comp": "$212,000\u2014$265,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "fd9d60bd"
+  },
+  "greenhouse-block-4977128008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$84,002-$103,860",
+    "comp_extras": [],
+    "source_hash": "3e907604"
+  },
+  "greenhouse-ceribell-5997264004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$115k-$250k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "ea6ebb65"
+  },
+  "workable-hokali-5AB28FA35C": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fremont, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "528b0f5e"
+  },
+  "lever-Instrumentl-a2c6c454-00a1-4ab0-9c02-cddfffec17b5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ed01d11d"
+  },
+  "greenhouse-natera-5972924004": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Pleasanton, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$17.09-$21.37/hour",
+    "comp_extras": [],
+    "source_hash": "97c44aef"
+  },
+  "ashby-trm-labs-41988841-3686-4d18-a749-c9f9b9960f26": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, D.C., MD, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e1b76080"
   }
 }
