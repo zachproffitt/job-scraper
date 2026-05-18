@@ -82,7 +82,7 @@ jobs:
             echo "No changes in jobs repo"
           else
             git commit -m "$(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase
+            git pull --rebase -X theirs
             git push
           fi
 
@@ -101,9 +101,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes in scraper data"
           else
-            git stash
-            git pull --rebase
-            git stash pop --index
             git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
+            git pull --rebase -X theirs
             git push
           fi
