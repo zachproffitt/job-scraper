@@ -11,15 +11,14 @@ fetch_jobs.py              fetch current listings from all companies
 fetch_job_descriptions.py  fetch full description text for new jobs
 classify_companies.py      generate company summaries via Claude
 classify_jobs.py           classify roles, summarize, extract skills and comp
-render_jobs.py             write one .md per engineering role → builder-jobs/jobs/
-generate_index.py          regenerate README.md in builder-jobs
+render_job_indexes.py      regenerate README.md, REMOTE.md, COMPANIES.md in builder-jobs
 ```
 
 ## Actions
 
 | Workflow | Schedule | What it does |
 |---|---|---|
-| **Jobs** | Hourly | Fetch listings → classify → render → publish to builder-jobs |
+| **Jobs** | Hourly | Fetch listings → classify → publish index to builder-jobs |
 | **Companies** | Sundays | Discover new companies from YC, VC portfolios, and industry curation → detect ATS |
 
 Both workflows write a step summary visible in the Actions dashboard. Logs are committed with each run (`data/pipeline.log`, `data/discovery.log`).
