@@ -51,7 +51,7 @@ def log(msg: str) -> None:
 
 NAMES_FILE = Path("data/company_names.txt")
 COMPANIES_FILE = Path("data/companies.json")
-NOT_FOUND_FILE = Path("data/discovery_not_found.txt")
+NOT_FOUND_FILE = Path("data/discovery_not_found.txt")  # legacy — migrated to no_ats stubs on first run
 
 CAREERS_LINK_RE = re.compile(
     r'href=["\']([^"\']*(?:career|jobs|hiring|work-with-us|join-us|join-our-team|work-here|open-roles)[^"\']*)["\']',
@@ -88,14 +88,31 @@ ATS_PATTERNS = [
 SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
 
 
-def load_not_found() -> set[str]:
-    if not NOT_FOUND_FILE.exists():
-        return set()
-    return {line.strip() for line in NOT_FOUND_FILE.read_text().splitlines() if line.strip()}
-
-
-def save_not_found(domains: set[str]) -> None:
-    NOT_FOUND_FILE.write_text("\n".join(sorted(domains)) + "\n")
+def migrate_legacy(existing: dict, name_domain: dict[str, str]) -> bool:
+    """Add status to legacy entries; import discovery_not_found.txt as no_ats stubs."""
+    changed = False
+    for key, company in existing.items():
+        if "status" not in company:
+            ats = company.get("ats")
+            company["status"] = "active" if ats in SUPPORTED_ATS else "detected"
+            existing[key] = company
+            changed = True
+    if NOT_FOUND_FILE.exists():
+        domain_to_name = {d.lower(): n for n, d in name_domain.items()}
+        imported = 0
+        for domain in NOT_FOUND_FILE.read_text().splitlines():
+            domain = domain.strip()
+            if not domain:
+                continue
+            name = domain_to_name.get(domain.lower())
+            if not name or name.lower() in existing:
+                continue
+            existing[name.lower()] = {"name": name, "website": f"https://{domain}", "status": "no_ats"}
+            imported += 1
+            changed = True
+        NOT_FOUND_FILE.unlink()
+        log(f"Migrated {imported} entries from {NOT_FOUND_FILE.name} to no_ats stubs")
+    return changed
 
 
 def parse_names_file() -> list[tuple[str, str]]:
@@ -279,9 +296,7 @@ def main():
         for c in json.loads(COMPANIES_FILE.read_text()):
             existing[c["name"].lower()] = c
 
-    not_found_domains = load_not_found()
-
-    changed = False
+    changed = migrate_legacy(existing, name_domain)
     fixed = []
     still_broken = []
     newly_found = []
@@ -291,7 +306,7 @@ def main():
 
         # --- Recheck: verify and fix existing entries ---
         if recheck:
-            to_check = list(existing.items())
+            to_check = [(k, c) for k, c in existing.items() if c.get("status") != "no_ats"]
             print(f"Rechecking {len(to_check)} existing companies...")
             print()
 
@@ -341,7 +356,7 @@ def main():
             print(f"Backfilled website field for {backfilled} existing companies.")
 
         # --- Discover new companies ---
-        new_entries = [(n, d) for n, d in entries if n.lower() not in existing and d.lower() not in not_found_domains]
+        new_entries = [(n, d) for n, d in entries if n.lower() not in existing]
 
         if not new_entries:
             print(f"All {len(entries)} companies already resolved.")
@@ -374,10 +389,12 @@ def main():
 
                     if result:
                         ats, slug = result
+                        status = "active" if ats in SUPPORTED_ATS else "detected"
                         entry = {
                             "name": name,
                             "ats": ats,
                             "slug": slug,
+                            "status": status,
                             "website": f"https://{domain}",
                             "category": [],
                         }
@@ -386,15 +403,16 @@ def main():
                         with lock:
                             existing[name.lower()] = entry
                             changed = True
-                            if ats in SUPPORTED_ATS:
+                            if status == "active":
                                 newly_found.append(name)
                             else:
                                 detected_unsupported.append((name, ats, slug))
-                        label = f"{ats}/{slug}" if ats in SUPPORTED_ATS else f"{ats}/{slug} [no scraper]"
+                        label = f"{ats}/{slug}" if status == "active" else f"{ats}/{slug} [no scraper]"
                     else:
                         with lock:
+                            existing[name.lower()] = {"name": name, "website": f"https://{domain}", "status": "no_ats"}
+                            changed = True
                             unresolved.append((name, domain))
-                            not_found_domains.add(domain.lower())
                         label = "not found"
 
                     print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... {label}")
@@ -404,7 +422,6 @@ def main():
                         current_n = n
                     if current_n % 500 == 0:
                         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
-                        save_not_found(not_found_domains)
                         log(f"[checkpoint] saved {current_n}/{len(new_entries)}")
 
         supported_count = len(newly_found)
@@ -421,12 +438,9 @@ def main():
         for name, domain in unresolved:
             log(f"ATS not detected: {name} ({domain})")
 
-    # Write updated companies.json and not-found cache
     if changed:
         COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
         log(f"Written to {COMPANIES_FILE}")
-    save_not_found(not_found_domains)
-    log(f"Not-found cache: {len(not_found_domains)} domains saved to {NOT_FOUND_FILE}")
 
 
 if __name__ == "__main__":

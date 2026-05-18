@@ -9,7 +9,6 @@ from pathlib import Path
 from log import log_error as _log_error
 from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, call_claude as _call_claude, call_ollama as _call_ollama
 
-SUPPORTED_ATS = {"greenhouse", "lever", "ashby", "smartrecruiters", "bamboo", "breezy", "workable", "workday", "eightfold"}
 
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
@@ -92,7 +91,7 @@ def main():
         summary = existing[c["slug"]].get("summary", "")
         return is_bad(summary) or not summary
 
-    to_process = [c for c in companies if c.get("ats") in SUPPORTED_ATS and needs_classify(c)]
+    to_process = [c for c in companies if c.get("status") == "active" and needs_classify(c)]
 
     print(f"Backend: {BACKEND}")
     print(f"{len(to_process)} companies to classify ({len(existing)} already done)\n")

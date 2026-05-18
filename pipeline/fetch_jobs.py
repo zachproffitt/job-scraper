@@ -76,15 +76,21 @@ def main():
     lock = threading.Lock()
     completed = 0
 
+    def is_active(c: dict) -> bool:
+        status = c.get("status")
+        if status:
+            return status == "active"
+        return bool(SCRAPERS.get(c.get("ats")))  # legacy: no status field yet
+
     # Pre-compute new-company flag before threads start (seen_companies is read-only during fetch)
     to_fetch = [
         (company, f"{company['ats']}:{company['slug']}" not in seen_companies)
         for company in companies
-        if SCRAPERS.get(company["ats"])
+        if is_active(company)
     ]
-    skipped = [c for c in companies if not SCRAPERS.get(c["ats"])]
+    skipped = [c for c in companies if c.get("status") == "detected"]
     for c in skipped:
-        print(f"  [skip] {c['name']}: unknown ATS '{c['ats']}'")
+        print(f"  [skip] {c['name']}: {c.get('ats')} (no scraper)")
 
     def fetch_one(args: tuple) -> tuple:
         company, is_new = args
