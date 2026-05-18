@@ -2,13 +2,13 @@
 """Generate README.md, REMOTE.md, and COMPANIES.md for the jobs repo."""
 
 import json
-import re
 import sys
 from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from badges import REMOTE_BADGE, HYBRID_BADGE, NEW_BADGE, skill_badge
+from render_common import clean_location, company_logo_html, abbrev_comp, strip_location_from_title, SUPPORTED_ATS
 
 
 def _is_new(j: dict, cutoff: datetime) -> bool:
@@ -22,71 +22,24 @@ def _is_new(j: dict, cutoff: datetime) -> bool:
             return dt >= cutoff
         except ValueError:
             pass
-    # No timestamp — fall back to date-only comparison (today's date)
     today = cutoff.strftime("%Y-%m-%d")
     return j.get("first_seen", "") == today
-from render_common import clean_location, company_logo_html, abbrev_comp, SUPPORTED_ATS
+
+
+DATA_DIR = Path(__file__).parent.parent / "data"
+JOBS_FILE = DATA_DIR / "jobs_raw.json"
+CLASSIFIED_FILE = DATA_DIR / "jobs_classified.json"
+COMPANIES_FILE = DATA_DIR / "companies.json"
+COMPANIES_CLASSIFIED_FILE = DATA_DIR / "companies_classified.json"
 
 JOBS_REPO = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).parent.parent.parent / "jobs"
 README = JOBS_REPO / "README.md"
 REMOTE_README = JOBS_REPO / "REMOTE.md"
 COMPANIES_README = JOBS_REPO / "COMPANIES.md"
-COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
-COMPANIES_CLASSIFIED_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 
 
-def parse_frontmatter(path: Path) -> dict:
-    text = path.read_text()
-    if not text.startswith("<!--"):
-        return {}
-    end = text.find("-->")
-    if end == -1:
-        return {}
-    meta_text = text[4:end]
-    fm = {}
-    for line in meta_text.splitlines():
-        if ":" in line:
-            key, _, val = line.partition(":")
-            fm[key.strip()] = val.strip()
-    return fm
-
-
-def format_meta(fm: dict) -> str:
-    company = fm.get("company", "")
-    location = fm.get("location", "").strip()
-    remote = fm.get("remote", "").strip()
-    hybrid = fm.get("hybrid", "").strip()
-    level = fm.get("level", "").strip()
-    comp = fm.get("comp", "").strip()
-    comp_extras_raw = fm.get("comp_extras", "").strip()
-    comp_extras = [s.strip() for s in comp_extras_raw.split(",") if s.strip()] if comp_extras_raw else []
-
-    if " | " in location:
-        location = location.split(" | ")[0].strip()
-    if location in ("Not specified", ""):
-        location = ""
-
-    is_remote = remote == "Remote" or location.lower() == "remote"
-    location = clean_location(location, is_remote=is_remote)
-
-    parts = [f"**{company}**"]
-    if location and location.lower() != "remote":
-        parts.append(location)
-    if is_remote:
-        parts.append(REMOTE_BADGE)
-    elif hybrid == "yes":
-        parts.append(HYBRID_BADGE)
-    if level and level not in ("unclear", ""):
-        parts.append(f"`{level.capitalize()}`")
-    if comp:
-        parts.append(f"`{abbrev_comp(comp)}`")
-    for extra in comp_extras:
-        parts.append(f"`{extra.capitalize()}`")
-
-    return " · ".join(parts)
-
-
-def collect_jobs(jobs_repo: Path) -> tuple[list[dict], dict[str, str]]:
+def collect_jobs() -> tuple[list[dict], dict[str, str]]:
+    """Read from data files, filter to renderable engineering jobs, deduplicate multi-city roles."""
     company_logos: dict[str, str] = {}
     if COMPANIES_FILE.exists():
         for c in json.loads(COMPANIES_FILE.read_text()):
@@ -94,45 +47,109 @@ def collect_jobs(jobs_repo: Path) -> tuple[list[dict], dict[str, str]]:
                 domain = c["website"].removeprefix("https://").removeprefix("http://").split("/")[0]
                 company_logos[c["name"]] = domain
 
-    jobs = []
-    for md in sorted(jobs_repo.rglob("*.md")):
-        if md.name in ("README.md", "REMOTE.md", "COMPANIES.md"):
-            continue
-        fm = parse_frontmatter(md)
-        if not fm.get("id"):
-            continue
-        skills_raw = fm.get("skills", "")
-        skills = [s.strip() for s in skills_raw.split(",") if s.strip()] if skills_raw else []
-        comp_extras_raw = fm.get("comp_extras", "")
-        comp_extras = [s.strip() for s in comp_extras_raw.split(",") if s.strip()] if comp_extras_raw else []
-        remote_str = fm.get("remote", "").strip()
-        location_raw = fm.get("location", "").strip()
-        jobs.append({
-            "title": fm.get("title", ""),
-            "company": fm.get("company", ""),
-            "meta": format_meta(fm),
-            "summary": fm.get("summary", ""),
-            "url": fm.get("url", ""),
-            "skills": skills,
-            "first_seen": fm.get("first_seen", "unknown"),
-            "posted_at": fm.get("posted_at", ""),
-            "first_seen_at": fm.get("first_seen_at", ""),
-            "path": str(md.relative_to(jobs_repo)),
-            "remote": remote_str == "Remote",
+    raw_jobs = json.loads(JOBS_FILE.read_text()) if JOBS_FILE.exists() else []
+    classified: dict[str, dict] = {}
+    if CLASSIFIED_FILE.exists():
+        classified = json.loads(CLASSIFIED_FILE.read_text())
+
+    eng_jobs = [
+        j for j in raw_jobs
+        if classified.get(j["id"], {}).get("is_engineering") is True
+        and not classified.get(j["id"], {}).get("is_contract", False)
+        and classified.get(j["id"], {}).get("region") in ("us", "canada", "unclear")
+    ]
+
+    # Deduplicate multi-city roles — same company + normalized title → one index entry
+    groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for job in eng_jobs:
+        base_title = strip_location_from_title(job["title"])
+        groups[(job["company"], base_title)].append(job)
+
+    result = []
+    for (company, base_title), group_jobs in groups.items():
+        rep = group_jobs[0]
+        cl = classified[rep["id"]]
+
+        raw_location = cl.get("location") or rep.get("location") or ""
+        remote_bool = rep.get("remote")
+        remote_str = {True: "Remote", False: "On-site"}.get(remote_bool, "Not specified")
+        is_hybrid = cl.get("is_hybrid", False)
+
+        result.append({
+            "title": base_title,
+            "company": company,
+            "url": rep["url"],
+            "summary": cl.get("job_summary") or "",
+            "skills": cl.get("skills") or [],
+            "first_seen": min(j.get("first_seen") or "" for j in group_jobs),
+            "first_seen_at": min((j.get("first_seen_at") or "" for j in group_jobs), default="") or "",
+            "posted_at": rep.get("posted_at") or "",
+            "remote": remote_bool is True,
             "remote_str": remote_str,
-            "hybrid": fm.get("hybrid", "").strip(),
-            "location_raw": location_raw,
-            "level": fm.get("level", "").strip(),
-            "comp": fm.get("comp", "").strip(),
-            "comp_extras": comp_extras,
+            "hybrid": "yes" if is_hybrid else "",
+            "location_raw": raw_location,
+            "level": cl.get("level") or "",
+            "comp": cl.get("comp") or "",
+            "comp_extras": cl.get("comp_extras") or [],
         })
-    return jobs, company_logos
+
+    return result, company_logos
+
+
+def format_meta(j: dict) -> str:
+    location = j["location_raw"]
+    if " | " in location:
+        location = location.split(" | ")[0].strip()
+    if location in ("Not specified", ""):
+        location = ""
+
+    is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
+    location = clean_location(location, is_remote=is_remote)
+
+    parts = [f"**{j['company']}**"]
+    if location and location.lower() != "remote":
+        parts.append(location)
+    if is_remote:
+        parts.append(REMOTE_BADGE)
+    elif j["hybrid"] == "yes":
+        parts.append(HYBRID_BADGE)
+    if j["level"] and j["level"] not in ("unclear", ""):
+        parts.append(f"`{j['level'].capitalize()}`")
+    if j["comp"]:
+        parts.append(f"`{abbrev_comp(j['comp'])}`")
+    for extra in j["comp_extras"]:
+        parts.append(f"`{extra.capitalize()}`")
+
+    return " · ".join(parts)
+
+
+def format_job_meta(j: dict) -> str:
+    parts = []
+    location = j["location_raw"]
+    if " | " in location:
+        location = location.split(" | ")[0].strip()
+    is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
+    is_hybrid = j["hybrid"] == "yes"
+    if location and location != "Not specified":
+        location = clean_location(location, is_remote=is_remote)
+        if location and location.lower() != "remote":
+            parts.append(location)
+    if is_remote:
+        parts.append(REMOTE_BADGE)
+    elif is_hybrid:
+        parts.append(HYBRID_BADGE)
+    if j["level"] and j["level"] not in ("unclear", ""):
+        parts.append(f"`{j['level'].capitalize()}`")
+    if j["comp"]:
+        parts.append(f"`{abbrev_comp(j['comp'])}`")
+    for extra in j["comp_extras"]:
+        parts.append(f"`{extra.capitalize()}`")
+    return " · ".join(parts)
 
 
 def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
                  out_path: Path, title: str, subtitle: str, remote_only: bool = False) -> None:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
     if remote_only:
         jobs = [j for j in jobs if j["remote"]]
@@ -176,10 +193,11 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
         lines.append(f"## {label}")
         lines.append("")
         for j in date_jobs:
-            lines.append(f"### [{j['title']}]({j['path']})")
+            lines.append(f"### [{j['title']}]({j['url']})")
             domain = company_logos.get(j["company"], "")
             logo = company_logo_html(domain)
-            lines.append(f"{logo}{j['meta']}")
+            meta = format_meta(j)
+            lines.append(f"{logo}{meta}")
             if j["summary"]:
                 lines.append("")
                 apply = f" · [Apply →]({j['url']})" if j.get("url") else ""
@@ -205,40 +223,13 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     print(f"Written {out_path} ({total} jobs, {new_today} new today)")
 
 
-def format_job_meta(j: dict) -> str:
-    parts = []
-    location = j["location_raw"]
-    if " | " in location:
-        location = location.split(" | ")[0].strip()
-    is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
-    is_hybrid = j["hybrid"] == "yes"
-    if location and location != "Not specified":
-        location = clean_location(location, is_remote=is_remote)
-        if location and location.lower() != "remote":
-            parts.append(location)
-    if is_remote:
-        parts.append(REMOTE_BADGE)
-    elif is_hybrid:
-        parts.append(HYBRID_BADGE)
-    level = j["level"]
-    if level and level not in ("unclear", ""):
-        parts.append(f"`{level.capitalize()}`")
-    if j["comp"]:
-        parts.append(f"`{abbrev_comp(j['comp'])}`")
-    for extra in j["comp_extras"]:
-        parts.append(f"`{extra.capitalize()}`")
-    return " · ".join(parts)
-
-
 def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: Path) -> None:
     cutoff = datetime.now(timezone.utc) - timedelta(hours=24)
-    today = cutoff.strftime("%Y-%m-%d")  # for header stats fallback
 
     company_summaries: dict[str, str] = {}
     if COMPANIES_CLASSIFIED_FILE.exists():
         for c in json.loads(COMPANIES_CLASSIFIED_FILE.read_text()):
             raw = c.get("summary", "")
-            # Strip markdown heading lines (artifact of older LLM responses)
             lines = [l for l in raw.splitlines() if not l.strip().startswith("#")]
             company_summaries[c["name"]] = " ".join(l.strip() for l in lines if l.strip())
 
@@ -254,7 +245,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         "# Builder Jobs — By Company",
         "",
         (
-            "Engineering roles grouped by company."
+            "Engineering roles grouped by company, linking directly to each company's job board."
             " Only companies with active openings are shown."
             " Listings older than 14 days are removed automatically."
         ),
@@ -312,7 +303,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
             new_str = f"{NEW_BADGE} " if is_new else ""
             meta_str = f" · {meta}" if meta else ""
-            lines.append(f"- {new_str}[{j['title']}]({j['path']}){meta_str} ({date_str})")
+            lines.append(f"- {new_str}[{j['title']}]({j['url']}){meta_str} ({date_str})")
 
         lines.append("")
         lines.append("---")
@@ -323,11 +314,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
 
 
 def main():
-    if not JOBS_REPO.exists():
-        print(f"Jobs repo not found: {JOBS_REPO}")
-        sys.exit(1)
-
-    jobs, company_logos = collect_jobs(JOBS_REPO)
+    jobs, company_logos = collect_jobs()
 
     company_count = 0
     if COMPANIES_FILE.exists():
@@ -339,8 +326,9 @@ def main():
         out_path=README,
         title="Builder Jobs",
         subtitle=(
-            "For engineers who build. Roles are scraped hourly from YC startups, VC-backed companies,"
-            " and major tech curated across 20+ industries — classified by Claude, and removed after 14 days."
+            "A curated index of engineering roles from YC startups, VC-backed companies,"
+            " and major tech — classified by Claude, updated hourly, and removed after 14 days."
+            " Each listing links directly to the company's job board."
         ),
     )
 
@@ -349,8 +337,8 @@ def main():
         out_path=REMOTE_README,
         title="Builder Jobs — Remote",
         subtitle=(
-            "Remote engineering roles only, scraped hourly and classified by Claude."
-            " Listings older than 14 days are removed automatically."
+            "Remote engineering roles only — linking directly to each company's job board."
+            " Classified by Claude, updated hourly, and removed after 14 days."
         ),
         remote_only=True,
     )
