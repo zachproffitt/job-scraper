@@ -6,6 +6,8 @@ Greenhouse:  per-job API endpoint
 BambooHR:    per-job detail endpoint
 Breezy:      job page HTML
 Workable:    job page HTML
+Workday:     per-job CXS detail endpoint
+Eightfold:   per-position pcsx API
 
 By default only processes jobs first_seen today.
 Use --all to backfill all jobs without descriptions.
@@ -71,11 +73,77 @@ def fetch_html(job: dict, client: httpx.Client) -> str | None:
         return None
 
 
+def fetch_workday(job: dict, client: httpx.Client) -> str | None:
+    """Workday detail: insert /wday/cxs/{tenant}/ between the host and the board path."""
+    slug = job.get("company_slug", "")
+    url = job.get("url", "")
+    if not slug or not url:
+        return None
+    try:
+        tenant, partition, board = slug.split("/", 2)
+    except ValueError:
+        return None
+    host_prefix = f"https://{tenant}.{partition}.myworkdayjobs.com/{board}"
+    if not url.startswith(host_prefix):
+        return None
+    external_path = url[len(host_prefix):]
+    detail_url = f"https://{tenant}.{partition}.myworkdayjobs.com/wday/cxs/{tenant}/{board}{external_path}"
+    try:
+        r = client.get(
+            detail_url,
+            headers={"User-Agent": "Mozilla/5.0", "Accept": "application/json"},
+            timeout=15,
+        )
+        r.raise_for_status()
+        info = r.json().get("jobPostingInfo", {})
+        description = info.get("jobDescription") or ""
+        return html_to_text(description) if description else None
+    except Exception:
+        return None
+
+
+def fetch_eightfold(job: dict, client: httpx.Client) -> str | None:
+    """Eightfold position detail via pcsx API."""
+    slug = job.get("company_slug", "")
+    if not slug or "|" not in slug:
+        return None
+    host, _ = slug.split("|", 1)
+    # Job id format: eightfold-{domain-with-dashes}-{position_id}
+    job_id = job.get("id", "")
+    pos_id = job_id.rsplit("-", 1)[-1] if "-" in job_id else job_id
+    if not pos_id:
+        return None
+    detail_url = f"https://{host}/api/pcsx/position/{pos_id}"
+    try:
+        r = client.get(
+            detail_url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36",
+                "Accept": "application/json",
+                "Referer": f"https://{host}/careers",
+            },
+            timeout=15,
+        )
+        r.raise_for_status()
+        position = r.json().get("data", {}).get("position", {})
+        description = (
+            position.get("description")
+            or position.get("jobDescription")
+            or position.get("body")
+            or ""
+        )
+        return html_to_text(description) if description else None
+    except Exception:
+        return None
+
+
 FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "bamboo": fetch_bamboo,
     "breezy": fetch_html,
     "workable": fetch_html,
+    "workday": fetch_workday,
+    "eightfold": fetch_eightfold,
 }
 
 
