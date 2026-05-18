@@ -172,11 +172,8 @@ USER_TEMPLATE = """\
 
 OLLAMA_TEMPLATE = "/no_think\n" + SYSTEM_PROMPT + "\n" + USER_TEMPLATE
 
-CLASSIFY_VERSION = "2"  # bump to force re-classification of all jobs
-
-
 def content_hash(job: dict) -> str:
-    key = f"v{CLASSIFY_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{job.get('location', '')}"
+    key = f"{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
