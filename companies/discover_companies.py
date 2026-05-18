@@ -209,6 +209,13 @@ def scrape_company(domain: str, client: httpx.Client) -> "tuple[tuple[str, str] 
         if r.status_code == 200:
             careers_url = None
             for href in CAREERS_LINK_RE.findall(r.text):
+                if href.startswith("http") and not href.startswith(base):
+                    # External link — try ATS extraction from URL alone without fetching.
+                    # Never contact domains that aren't the company's own site or a known ATS.
+                    ats_result = extract_ats(href)
+                    if ats_result:
+                        return ats_result, meta
+                    continue
                 if href.startswith("http"):
                     careers_url = href
                 elif href.startswith("/"):
