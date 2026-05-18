@@ -172,8 +172,12 @@ USER_TEMPLATE = """\
 
 OLLAMA_TEMPLATE = "/no_think\n" + SYSTEM_PROMPT + "\n" + USER_TEMPLATE
 
+CLASSIFY_VERSION = "2"  # bump to force re-classification of all jobs
+MAX_RECLASSIFY_PER_RUN = 300  # spread version-bump reclassification across runs
+
+
 def content_hash(job: dict) -> str:
-    key = f"{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}"
+    key = f"v{CLASSIFY_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{job.get('location', '')}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
@@ -333,8 +337,19 @@ def main():
     ]
     without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
 
+    # Today's new jobs always go first; cap total to avoid CI timeout on version bumps
+    with_desc.sort(key=lambda j: 0 if j.get("first_seen") == today else 1)
+    deferred = 0
+    if not classify_all and len(with_desc) > MAX_RECLASSIFY_PER_RUN:
+        deferred = len(with_desc) - MAX_RECLASSIFY_PER_RUN
+        with_desc = with_desc[:MAX_RECLASSIFY_PER_RUN]
+
     print(f"Backend: {BACKEND} ({'Claude ' + CLAUDE_MODEL if BACKEND == 'claude' else 'Ollama ' + OLLAMA_MODEL})")
-    print(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)")
+    print(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)", end="")
+    if deferred:
+        print(f", {deferred} deferred to next run")
+    else:
+        print()
     print(f"Workers: {WORKERS}\n")
 
     if not with_desc:
