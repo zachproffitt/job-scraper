@@ -59,6 +59,9 @@ def main():
             if today in line:
                 log_lines.append(line)
 
+    stats_path = DATA_DIR / "classify_stats.json"
+    classify_stats = json.loads(stats_path.read_text()) if stats_path.exists() else {}
+
     lines = [
         f"## Pipeline run — {now}",
         "",
@@ -70,6 +73,49 @@ def main():
     ]
     for ats, count in sorted(by_ats.items(), key=lambda x: -x[1]):
         lines.append(f"| {ats} | {count} |")
+
+    if classify_stats:
+        classified = classify_stats.get("classified", 0)
+        errors = classify_stats.get("errors", 0)
+        deferred = classify_stats.get("deferred", 0)
+        requests = classify_stats.get("requests", 0)
+        input_tok = classify_stats.get("input_tokens", 0)
+        output_tok = classify_stats.get("output_tokens", 0)
+        cache_write = classify_stats.get("cache_creation_input_tokens", 0)
+        cache_read = classify_stats.get("cache_read_input_tokens", 0)
+
+        cost = (
+            input_tok * 0.80 / 1_000_000
+            + output_tok * 4.00 / 1_000_000
+            + cache_write * 1.00 / 1_000_000
+            + cache_read * 0.08 / 1_000_000
+        )
+
+        status_parts = [f"**{classified}** classified"]
+        if errors:
+            status_parts.append(f"**{errors}** errors")
+        if deferred:
+            status_parts.append(f"**{deferred}** deferred to next run")
+
+        lines += [
+            "",
+            f"### Classification — {' · '.join(status_parts)}",
+        ]
+
+        if requests:
+            per_job_cost = cost / requests
+            lines += [
+                "",
+                f"| | Tokens | Rate | Cost |",
+                f"|---|---|---|---|",
+                f"| Input | {input_tok:,} | $0.80/1M | ${input_tok * 0.80 / 1_000_000:.3f} |",
+                f"| Cache read | {cache_read:,} | $0.08/1M | ${cache_read * 0.08 / 1_000_000:.3f} |",
+                f"| Cache write | {cache_write:,} | $1.00/1M | ${cache_write * 1.00 / 1_000_000:.3f} |",
+                f"| Output | {output_tok:,} | $4.00/1M | ${output_tok * 4.00 / 1_000_000:.3f} |",
+                f"| **Total** | | | **${cost:.3f}** |",
+                "",
+                f"Avg per job: {input_tok // requests:,} input + {cache_read // requests:,} cache read + {output_tok // requests:,} output tokens &nbsp;·&nbsp; **${per_job_cost:.4f}/job**",
+            ]
 
     if log_lines:
         lines += [

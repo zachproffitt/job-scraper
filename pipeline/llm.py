@@ -1,4 +1,5 @@
 import os
+import threading
 import time
 
 BACKEND = os.environ.get("LLM_BACKEND", "claude")
@@ -6,6 +7,20 @@ CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 OLLAMA_MODEL = "qwen3:8b"
 
 _TRANSIENT_STATUS_CODES = {429, 500, 502, 503, 529}
+
+_usage_lock = threading.Lock()
+_usage: dict = {
+    "requests": 0,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+}
+
+
+def get_usage() -> dict:
+    with _usage_lock:
+        return dict(_usage)
 
 
 def call_claude(system: str, user_message: str, max_tokens: int, log_error=None) -> str:
@@ -19,6 +34,13 @@ def call_claude(system: str, user_message: str, max_tokens: int, log_error=None)
                 system=[{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
                 messages=[{"role": "user", "content": user_message}],
             )
+            u = response.usage
+            with _usage_lock:
+                _usage["requests"] += 1
+                _usage["input_tokens"] += u.input_tokens
+                _usage["output_tokens"] += u.output_tokens
+                _usage["cache_creation_input_tokens"] += getattr(u, "cache_creation_input_tokens", 0) or 0
+                _usage["cache_read_input_tokens"] += getattr(u, "cache_read_input_tokens", 0) or 0
             return response.content[0].text.strip()
         except (anthropic.RateLimitError, anthropic.APIStatusError) as e:
             if isinstance(e, anthropic.APIStatusError) and e.status_code not in _TRANSIENT_STATUS_CODES:

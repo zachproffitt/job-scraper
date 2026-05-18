@@ -98,7 +98,7 @@ jobs:
       - name: Commit and push scraper data
         working-directory: scraper
         run: |
-          git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/pipeline.log README.md
+          git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/companies.json data/classify_stats.json data/pipeline.log README.md
           if git diff --cached --quiet; then
             echo "No changes in scraper data"
           else

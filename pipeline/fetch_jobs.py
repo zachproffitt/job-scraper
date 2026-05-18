@@ -73,6 +73,7 @@ def main():
     all_jobs: list[dict] = []
     error_count = 0
     new_count = closed_count = archived_count = 0
+    deactivated: list[str] = []  # company names that 404'd
     lock = threading.Lock()
     completed = 0
 
@@ -136,6 +137,8 @@ def main():
             except ScraperError as e:
                 with lock:
                     error_count += 1
+                    if "404" in str(e):
+                        deactivated.append(name)
                 print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... ERROR")
                 log_error(f"scraper error for {name} ({ats}/{slug}): {e}")
 
@@ -153,6 +156,15 @@ def main():
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     SEEN_FILE.write_text(json.dumps(seen, indent=2))
     SEEN_COMPANIES_FILE.write_text(json.dumps(seen_companies, indent=2))
+
+    if deactivated:
+        deactivated_set = set(deactivated)
+        for c in companies:
+            if c["name"] in deactivated_set:
+                c["status"] = "inactive"
+        COMPANIES_FILE.write_text(json.dumps(companies, indent=2))
+        print(f"Deactivated {len(deactivated)} companies (404): {', '.join(deactivated)}")
+
     print(f"Written to {OUTPUT_FILE}")
     if error_count:
         print(f"  {error_count} scraper errors logged to {LOG_FILE.name}")

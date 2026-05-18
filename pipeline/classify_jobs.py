@@ -13,7 +13,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from log import log_error as _log_error
-from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, call_claude as _call_claude, call_ollama as _call_ollama
+from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, call_claude as _call_claude, call_ollama as _call_ollama, get_usage
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
@@ -423,6 +423,25 @@ def main():
     print(f"\nThis run — builder: {eng}, not: {not_eng}, unclear: {unclear}, errors: {errors}")
     print(f"Written to {OUTPUT_FILE}")
     print(f"Total builder roles in cache: {total_eng}/{len(existing)}")
+
+    usage = get_usage()
+    stats = {
+        "classified": len(with_desc),
+        "skipped_no_desc": without_desc,
+        "deferred": deferred,
+        "errors": errors,
+        **usage,
+    }
+    (Path(__file__).parent.parent / "data" / "classify_stats.json").write_text(json.dumps(stats, indent=2))
+
+    if usage["requests"]:
+        cost = (
+            usage["input_tokens"] * 0.80 / 1_000_000
+            + usage["output_tokens"] * 4.00 / 1_000_000
+            + usage["cache_creation_input_tokens"] * 1.00 / 1_000_000
+            + usage["cache_read_input_tokens"] * 0.08 / 1_000_000
+        )
+        print(f"Tokens — input: {usage['input_tokens']:,}  cache_read: {usage['cache_read_input_tokens']:,}  output: {usage['output_tokens']:,}  est. cost: ${cost:.3f}")
 
 
 if __name__ == "__main__":
