@@ -46060,5 +46060,110 @@
       "equity"
     ],
     "source_hash": "a68a97fa"
+  },
+  "ashby-claim-health-08f325db-b705-4359-b5b9-84d5660ceac6": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8edfb129"
+  },
+  "ashby-opengov-6304cc73-dd7d-481c-9648-20ec21a3f150": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$76,300-$86,300",
+    "comp_extras": [],
+    "source_hash": "a5aa1164"
+  },
+  "ashby-flagright.com-51bdf38b-b7c3-4b0e-8d12-a1d9afe473d7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6cfbd455"
+  },
+  "ashby-claim-health-b0180c40-f6a2-4946-b272-d61e9655d6ca": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5042d60f"
+  },
+  "greenhouse-rocketlab-7734208003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design, develop, and verify ground-based RF communications and navigation systems for launch vehicle and satellite telemetry, tracking, and command links. Work across systems engineering lifecycle including link budget analysis, RF testing, and integration with mission-critical space operations.",
+    "skills": [
+      "RF Systems Engineering",
+      "MATLAB",
+      "Python",
+      "Link Budget Analysis",
+      "CCSDS Standards",
+      "VNA",
+      "Spectrum Analyzer",
+      "HFSS"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4657681e"
+  },
+  "ashby-physicalintelligence-a32cf6ed-b81c-4ee6-8785-d5895cf39ffb": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e882dd5e"
+  },
+  "ashby-claim-health-b8c653ff-adf8-4210-9682-637e68186285": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "847fe119"
   }
 }
