@@ -45876,5 +45876,189 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "29ad58fa"
+  },
+  "greenhouse-airbnb-7568067": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Los Angeles, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$196,000\u2013$245,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c9ac9f1e"
+  },
+  "greenhouse-cloudflare-7929538": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Sydney, Australia",
+    "job_summary": "Provision, configure, and troubleshoot Cloudflare's global edge network hardware and software under senior engineer mentorship, gaining hands-on production experience with infrastructure serving millions of websites. Work with real operational systems (BGP, routing, vendor operating systems) and AI-enabled tooling in a lean, high-trust team environment.",
+    "skills": [
+      "BGP",
+      "Python",
+      "Bash",
+      "Juniper",
+      "Cisco",
+      "Arista",
+      "Linux",
+      "CCNA"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2cd404ac"
+  },
+  "ashby-notion-72dcdd0a-1edc-4ba9-8ba5-6b93b0422c4d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2ac6e61f"
+  },
+  "workable-intellecthq-0134D2894E": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b1330053"
+  },
+  "ashby-physicalintelligence-8e9830f4-89ba-46e6-ab73-648c550aaf3c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Own the integration of robot platforms into Physical Intelligence's fleet, driving system-level closure on hardware-software interfaces, acceptance testing, and reliability improvements. Lead cross-functional work across mechanical, electrical, and software teams in a zero-to-one robotics environment.",
+    "skills": [
+      "Python",
+      "ROS",
+      "ROS2",
+      "Robotics",
+      "Robot Systems Integration",
+      "Mechanical Systems",
+      "Electrical Systems",
+      "Testing & Validation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3675d912"
+  },
+  "ashby-overview-d0f32974-e8fd-4c77-bea8-e6c49dc25a9d": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Taipei, Taiwan",
+    "job_summary": "Build test infrastructure and automation for industrial AI cameras deployed in factories across China and the US. Execute hardware validation, firmware flashing, and automated QA testing to ensure zero-downtime reliability in production environments.",
+    "skills": [
+      "Python",
+      "C",
+      "Firmware",
+      "Embedded Systems",
+      "Hardware Testing",
+      "Automation",
+      "Command-line Tools",
+      "Networking"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9f54087f"
+  },
+  "lever-spotify-77526d53-3811-4336-9c0d-72f6ac0242c7": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Taipei, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9db91bd7"
+  },
+  "greenhouse-databricks-8548505002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9f684b81"
+  },
+  "lever-spotify-721300cd-471b-4f20-ab92-aefe7c4c382d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2896d324"
+  },
+  "lever-spotify-e3e57517-0677-4032-85c1-841fdc9c26c6": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Build machine learning systems that power personalization and recommendation features across Spotify's platform, including integrations with voice assistants (Siri, Alexa), AI-powered discovery, and search agent foundations. Work at massive scale serving hundreds of millions of users with novel AI experiences and multimodal interactions.",
+    "skills": [
+      "Machine Learning",
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Recommendation Systems",
+      "Distributed Systems",
+      "SQL",
+      "Scala"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "698f0cbb"
+  },
+  "ashby-happyrobot.ai-d2bae179-0079-48c3-8a55-d1835d59156d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a68a97fa"
   }
 }
