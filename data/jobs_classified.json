@@ -55054,5 +55054,585 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "0763c243"
+  },
+  "ashby-9fin-94b28b7c-a3c9-4c9d-b6d9-d8ad27837c48": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$100k-$140k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "057023d1"
+  },
+  "greenhouse-altoslabs-5998445004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Cambridge, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "\u00a347k-\u00a361.9k",
+    "comp_extras": [],
+    "source_hash": "3743497b"
+  },
+  "greenhouse-appliedintuition-4696630005": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ann Arbor, MI",
+    "job_summary": "Design and implement high-performance C++ software for Axion, Applied Intuition's defense data and tooling platform, building simulation environments and scalable infrastructure for autonomous systems testing and multi-domain operations. This role requires U.S. citizenship and Secret security clearance eligibility, with direct impact on defense and national security applications.",
+    "skills": [
+      "C++",
+      "Unreal Engine",
+      "Python",
+      "Real-time Simulation",
+      "Systems Programming",
+      "Distributed Systems",
+      "Physics-based Simulation",
+      "Secret Clearance"
+    ],
+    "level": "mid",
+    "comp": "$100,000\u2013$200,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "b2268829"
+  },
+  "greenhouse-block-5101413008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$124,900\u2014$195,300",
+    "comp_extras": [],
+    "source_hash": "e6b7cc7d"
+  },
+  "greenhouse-bridgebio-5139385007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New Jersey, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "d5b5229f"
+  },
+  "greenhouse-bridgebio-5139403007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Denver, CO / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "58db3eea"
+  },
+  "greenhouse-bridgebio-5139411007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8a8611b9"
+  },
+  "greenhouse-bridgebio-5139366007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Albany, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$155,000\u2014$210,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "f7e14abb"
+  },
+  "lever-CesiumAstro-d8988776-9921-4733-b7ae-9bbe6594c657": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "dfecda66"
+  },
+  "ashby-claylabs-e43101dd-4e98-4c60-bc1b-adbbb38c7b15": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build post-sale workflow automations including health scoring, churn detection, and expansion opportunity identification that connect Salesforce, CS platforms, and Clay into a unified GTM system. You'll partner with growth and support teams to transform customer data into proactive, measurable action while dogfooding Clay's platform and pushing it into new use cases.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "Salesforce",
+      "Gainsight",
+      "Vitally",
+      "ChurnZero"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "51ff409a"
+  },
+  "ashby-claylabs-242be863-2f62-44a7-909d-6c351dee81d1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build and own partner and ecosystem workflow automations using AI systems, data integration, and platform extensions to drive Clay's revenue motion. Design systems connecting Salesforce, CRM, and adjacent GTM tools through APIs, webhooks, and automation layers while dogfooding Clay infrastructure and acting as practitioner evangelist.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "Salesforce",
+      "APIs",
+      "AI/ML Systems",
+      "Data Warehouses"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fdaa2dad"
+  },
+  "ashby-claylabs-d5c7f612-10e7-4080-8b8a-d51e70fff9c5": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Build and own sales workflow automations and AI systems that help Clay acquire customers and improve seller efficiency. Design end-to-end systems connecting Salesforce, data warehouses, and Clay's platform to surface customer context and automate pipeline management at scale.",
+    "skills": [
+      "Python",
+      "JavaScript",
+      "TypeScript",
+      "SQL",
+      "Salesforce",
+      "AI/ML systems",
+      "Data Warehouses",
+      "APIs"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4a18c3aa"
+  },
+  "smartrecruiters-Eurofins-744000127073265": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Stafford, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d382c457"
+  },
+  "smartrecruiters-Eurofins-744000127073499": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "73cd3558"
+  },
+  "smartrecruiters-Eurofins-744000127072949": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lancaster, PA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2a07f714"
+  },
+  "greenhouse-humaninterest-7931882": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Orlando, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$130k-$140k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "60bd3f6d"
+  },
+  "ashby-horizon3ai-d521754c-826d-4164-9f0a-321494b3586e": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$149k-$185k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "0c168c25"
+  },
+  "ashby-horizon3ai-866eb5ac-4e45-4657-ad8d-13f2e17029f5": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$89k-$110k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "05f0f145"
+  },
+  "ashby-horizon3ai-191c08b2-6e3a-46a5-b5db-4bc6c42bad20": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$110k-$145k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "8ea1e177"
+  },
+  "ashby-infisical-361a7451-0cfe-491e-b07a-80eac6e29a43": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2a8ea431"
+  },
+  "greenhouse-nanit-5989093004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$180k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "34520693"
+  },
+  "greenhouse-precisionaq-5996348004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$66,000\u2014$94,000",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "8c974cf9"
+  },
+  "greenhouse-rockstargames-7738027003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Edinburgh, Scotland",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "097d132b"
+  },
+  "greenhouse-roofstock-8550895002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6a2c64e"
+  },
+  "greenhouse-roofstock-8550894002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8d170aca"
+  },
+  "greenhouse-roofstock-8550892002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Oakland, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c96a860b"
+  },
+  "greenhouse-roofstock-8550893002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "84bc0c6f"
+  },
+  "ashby-saronic-1c74957f-0895-415b-9324-08b0994747d7": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Design, implement, and test software components for autonomous surface vessels, including navigation algorithms, sensor integration, and real-time decision-making systems. Work on defense-tech autonomous systems requiring U.S. Person status.",
+    "skills": [
+      "Python",
+      "C++",
+      "TypeScript",
+      "JavaScript",
+      "Rust",
+      "Robotics",
+      "Autonomous Systems",
+      "Sensor Fusion"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "02dcf78d"
+  },
+  "greenhouse-spacex-8553017002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "04cb3387"
+  },
+  "greenhouse-spacex-8552991002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bastrop, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0b6c7266"
+  },
+  "greenhouse-toast-7745976": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and build the foundational data infrastructure\u2014real-time streaming, data lakehouse, feature serving, and analytics pipelines\u2014that powers Toast's analytics and AI/ML products across 170,000+ restaurant customers. Lead architectural evolution including migration to Apache Iceberg and scaling streaming infrastructure in a multi-product environment requiring deep technical strategy and cross-functional partnership.",
+    "skills": [
+      "Apache Iceberg",
+      "Apache Kafka",
+      "Apache Spark",
+      "AWS",
+      "Distributed Systems",
+      "Feature Store",
+      "Kotlin",
+      "Java"
+    ],
+    "level": "principal",
+    "comp": "$180k-$368k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5eef2f11"
+  },
+  "greenhouse-toast-7895604": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": "Lead the design and delivery of full-stack employee management features for Toast's restaurant platform, mentoring engineers while building AI-powered solutions that help restaurant operators measure and grow their teams. You'll work across web technologies (React, TypeScript, GraphQL) and backend systems (Java/Kotlin) with emphasis on leveraging AI tools throughout the development lifecycle.",
+    "skills": [
+      "Java",
+      "Kotlin",
+      "React",
+      "TypeScript",
+      "GraphQL",
+      "REST",
+      "AI/ML tools"
+    ],
+    "level": "staff",
+    "comp": "$142,000\u2014$227,000 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "62d94318"
+  },
+  "bamboo-alignops-115": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$45k-$60k",
+    "comp_extras": [],
+    "source_hash": "c1a589a2"
+  },
+  "ashby-intrinsic-safety-2dca04c0-1ec1-4645-a807-20347d3f64ce": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c54e1774"
+  },
+  "greenhouse-vast-4682348006": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$164,000\u2014$232,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a3d7e58a"
+  },
+  "greenhouse-vast-4681134006": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Lead the planning and execution of spacecraft mission operations, ground systems procedures, and flight rules for Vast's commercial space stations. Drive pre-flight testing, on-orbit operations, anomaly resolution, and develop systems and processes that enable safe, successful human spaceflight operations at scale.",
+    "skills": [
+      "Spacecraft Systems Engineering",
+      "Space-to-Ground Communications",
+      "Python",
+      "MATLAB",
+      "C++",
+      "Golang",
+      "React"
+    ],
+    "level": "senior",
+    "comp": "$137k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "25b9559a"
   }
 }
