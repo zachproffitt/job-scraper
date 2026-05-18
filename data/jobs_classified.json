@@ -53620,5 +53620,271 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "e1b76080"
+  },
+  "greenhouse-abclegalservices-7738200003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6d5ca78b"
+  },
+  "greenhouse-abclegalservices-7738192003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c6f02a73"
+  },
+  "greenhouse-abclegalservices-7738204003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15/hr",
+    "comp_extras": [],
+    "source_hash": "82ae1746"
+  },
+  "greenhouse-abclegalservices-7738206003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote, Puerto Rico",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8508ed92"
+  },
+  "greenhouse-abclegalservices-7738203003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2c7eba35"
+  },
+  "greenhouse-abclegalservices-7738198003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "efc17d8f"
+  },
+  "ashby-glimpse-479a22da-44bc-46a6-8ffc-288d55133d17": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f30a9dec"
+  },
+  "lever-gmo-1d64eedf-2aee-4c23-8260-211ae4797b3d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6358e459"
+  },
+  "ashby-helion-2ca6129b-9a44-4ea1-8550-109eefb42b90": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2780a5d4"
+  },
+  "greenhouse-launchdarkly-7738141003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "India",
+    "job_summary": "Build AI-powered agents, scripts, and automations that improve employee productivity across LaunchDarkly's global organization. Integrate workflows with internal systems, measure impact, and reuse shared platform capabilities.",
+    "skills": [
+      "Python",
+      "Claude",
+      "Workato",
+      "Glean",
+      "API Integration",
+      "Version Control",
+      "AI Agents",
+      "Database Querying"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a04a57fb"
+  },
+  "greenhouse-launchdarkly-7738127003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "India",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "acd70bae"
+  },
+  "greenhouse-launchdarkly-7738081003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$145,500-$235,400",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c8ea697f"
+  },
+  "ashby-gen-digital-ee505db7-dd79-4d7b-86b4-2b1a78427bfd": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": "Design and implement microservices and RESTful APIs powering MoneyLion's fintech platform, serving millions of users across consumer, enterprise, and media products. Lead architecture decisions, mentor teams, and ensure compliance with financial regulations and security standards at scale.",
+    "skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "MongoDB",
+      "Docker",
+      "Kubernetes",
+      "RESTful APIs",
+      "fintech/financial regulation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5ec28c33"
+  },
+  "greenhouse-reddit-6469397": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build microservices, distributed systems, and data-intensive backends powering Reddit's advertising platform. Work on systems that optimize ad delivery, measure campaign performance, and support interactive ad formats at scale across 126 million daily active users.",
+    "skills": [
+      "Go",
+      "Python",
+      "Scala",
+      "Kafka",
+      "Spark",
+      "Kubernetes",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "level": "mid",
+    "comp": "$164,200\u2013$229,900",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5cc70801"
+  },
+  "greenhouse-reddit-6512458": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Remote",
+    "job_summary": "Build microservices, distributed systems, and data-intensive backends that power Reddit's advertising platform, serving millions of advertisers and end-users. Work on high-scale systems handling real-time ad serving, campaign measurement, and interactive ad experiences with ownership from ideation to delivery.",
+    "skills": [
+      "Go",
+      "Python",
+      "Scala",
+      "Kafka",
+      "Spark",
+      "PostgreSQL",
+      "Kubernetes",
+      "BigQuery"
+    ],
+    "level": "mid",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "70b94b49"
+  },
+  "greenhouse-rocketlab-7704269003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$100,000\u2014$165,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "1ec94f29"
+  },
+  "greenhouse-spacex-8555213002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Starbase, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "04eb58e8"
   }
 }
