@@ -138,13 +138,19 @@ def main():
                 error_str = str(e)
                 with lock:
                     error_count += 1
+                    # Extract URL from error string for slug check (slug appears in message text too)
+                    url_in_error = ""
+                    for part in error_str.split():
+                        if part.startswith("http"):
+                            url_in_error = part.rstrip("'\"")
+                            break
                     # 404: job board is gone
                     # 422: Workday tenant/path no longer valid (acquired companies)
-                    # 403 where slug not in URL: company redirected to ATS homepage (dead account)
+                    # 403 where slug not in URL: redirected to ATS homepage (dead account)
                     is_permanent = (
                         "404" in error_str
                         or "422" in error_str
-                        or ("403" in error_str and slug not in error_str)
+                        or ("403" in error_str and slug not in url_in_error)
                     )
                     if is_permanent:
                         deactivated.append(name)
