@@ -134,7 +134,9 @@ For each job posting provided, extract the following fields. Use judgment — if
    canada = role is based in Canada or remote open to Canada (and possibly US); not available to US-only candidates
    international = requires presence or work authorization in a non-US, non-Canada country; or on-site outside North America
    unclear = cannot determine from the posting
-   Use the description to override location labels: "Remote" with no restriction → us; "Remote - UK" with no mention of US eligibility → international.
+   Use the <location> field as primary signal; use the description to confirm or override it.
+   "Remote" with no restriction → us; "Remote - UK" or any non-US/Canada city → international.
+   Cities like Tel Aviv, London, Berlin, Bangalore, Singapore → international.
    Respond with exactly one of: us / canada / international / unclear
 
 10. LOCATION: Normalized display location. Use the description to confirm or correct the ATS location field.
@@ -165,13 +167,16 @@ USER_TEMPLATE = """\
 </description>
 <title>{title}</title>
 <company>{company}</company>
+<location>{location}</location>
 </job>"""
 
 OLLAMA_TEMPLATE = "/no_think\n" + SYSTEM_PROMPT + "\n" + USER_TEMPLATE
 
+CLASSIFY_VERSION = "2"  # bump to force re-classification of all jobs
+
 
 def content_hash(job: dict) -> str:
-    key = f"{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}"
+    key = f"v{CLASSIFY_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{job.get('location', '')}"
     return hashlib.md5(key.encode()).hexdigest()[:8]
 
 
@@ -285,11 +290,13 @@ def call_ollama(prompt: str) -> str:
 
 def classify_with_llm(job: dict) -> dict:
     description = html.unescape(job.get("raw_text", "")).strip()
+    location = job.get("location") or "Not specified"
     if BACKEND == "ollama":
         prompt = OLLAMA_TEMPLATE.format(
             title=job["title"],
             company=job["company"],
             description=description,
+            location=location,
         )
         text = call_ollama(prompt)
     else:
@@ -297,6 +304,7 @@ def classify_with_llm(job: dict) -> dict:
             title=job["title"],
             company=job["company"],
             description=description,
+            location=location,
         )
         text = call_claude(SYSTEM_PROMPT, user_message)
     return parse_response(text)
