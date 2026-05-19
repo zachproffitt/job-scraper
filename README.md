@@ -21,7 +21,7 @@ render_job_indexes.py      regenerate README.md, REMOTE.md, COMPANIES.md in buil
 | **Jobs** | Hourly | Fetch listings → classify → publish index to builder-jobs |
 | **Companies** | Sundays | Discover new companies from YC, VC portfolios, and industry curation → detect ATS |
 
-Both workflows write a step summary visible in the Actions dashboard. Logs are committed with each run (`data/pipeline.log`, `data/discovery.log`).
+Both workflows write a step summary visible in the Actions dashboard. Logs are committed with each run (`data/jobs.log`, `data/companies.log`).
 
 Runs hourly via GitHub Actions. Commits to both repos automatically.
 
@@ -58,13 +58,13 @@ Non-engineering, contract, and international (outside US/Canada) roles are filte
 
 ~5,700 companies in `data/companies.json`, sourced from:
 
-- **Y Combinator** — all active batches via Algolia (`companies/discover_yc_companies.py`)
-- **VC portfolios** — Founders Fund, Khosla Ventures, Greylock, Sequoia (`companies/discover_vc_companies.py`)
-- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`companies/discover_industry_companies.py`)
+- **Y Combinator** — all active batches via Algolia (`pipeline/fetch_yc_companies.py`)
+- **VC portfolios** — Founders Fund, Khosla Ventures, Greylock, Sequoia (`pipeline/fetch_vc_companies.py`)
+- **Industry curation** — Claude-enumerated top companies across 20+ sectors (`pipeline/fetch_industry_companies.py`)
 
-ATS detection (`companies/discover_companies.py`) resolves any entry with `"status": "new"` and updates it in place.
+ATS detection (`pipeline/fetch_companies.py`) resolves any entry with `"status": "new"` and updates it in place.
 
-**To add a company manually:** add a stub to `data/companies.json` and trigger the Companies workflow (or run `discover_companies.py` locally):
+**To add a company manually:** add a stub to `data/companies.json` and trigger the Companies workflow (or run `fetch_companies.py` locally):
 
 ```json
 {"name": "Acme Corp", "website": "https://acme.com", "status": "new"}
@@ -109,10 +109,10 @@ PYTHONPATH=. python pipeline/render_job_indexes.py ../jobs
 | File | Description |
 |---|---|
 | `data/companies.json` | All companies: name, website, ATS, slug, status |
-| `data/seen_jobs.json` | Permanent ID registry: `{job_id: first_seen_date}` |
-| `data/seen_companies.json` | First-fetch registry per company |
+| `data/jobs_seen.json` | Permanent ID registry: `{job_id: first_seen_timestamp}` |
+| `data/companies_seen.json` | First-fetch registry per company |
 | `data/jobs_raw.json` | Rolling 14-day window of listings with descriptions (not committed) |
 | `data/jobs_classified.json` | Claude inference results per job ID |
 | `data/companies_classified.json` | Company summaries used in rendered output |
-| `data/pipeline.log` | Log for the Jobs workflow (cleared each run) |
-| `data/discovery.log` | Log for the Companies workflow (cleared each run) |
+| `data/jobs.log` | Log for the Jobs workflow (committed each run) |
+| `data/companies.log` | Log for the Companies workflow (committed each run) |

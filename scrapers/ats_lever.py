@@ -7,7 +7,7 @@ BASE_URL = "https://api.lever.co/v0/postings/{slug}"
 
 def scrape(company: str, slug: str) -> list[Job]:
     try:
-        response = httpx.get(BASE_URL.format(slug=slug), params={"mode": "json"}, timeout=15)
+        response = httpx.get(BASE_URL.format(slug=slug), params={"mode": "json"}, timeout=30)
         response.raise_for_status()
     except httpx.HTTPError as e:
         raise ScraperError(f"Lever request failed for {slug}: {e}") from e
