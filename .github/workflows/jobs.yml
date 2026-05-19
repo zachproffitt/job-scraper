@@ -67,9 +67,6 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: PYTHONPATH=. python pipeline/classify_companies.py
 
-      - name: Remove per-job listing files
-        run: rm -rf jobs/jobs/
-
       - name: Generate index
         working-directory: scraper
         run: PYTHONPATH=. python pipeline/render_job_indexes.py ../jobs
