@@ -54,17 +54,13 @@ EXCLUDE — person is not primarily writing code:
 
 For borderline cases where the title doesn't resolve it, use the description:
 ask "Will this person primarily write code?" — if yes, BUILDER; if no or unclear, exclude.
-A firmware engineer writes code. A hardware engineer designs circuits or physical components — exclude them.
-An electrical engineer working on subsystems, power, or manufacturing is a hardware engineer — exclude them.
-A "Technical Mission Designer" or "Technical Designer" in game dev is a designer who uses scripts — exclude them.
-A "Technical Animator" is borderline — include only if the description is primarily about building animation systems in code.
-"Applied Scientist" and "Research Scientist" at tech or AI companies are borderline — include if the description involves training models, building systems, or writing production code; exclude if primarily publishing research or doing data analysis without building.
-"Solutions Architect" is borderline — include only if the description clearly involves writing code or building systems; exclude if primarily designing solutions for customers without implementation responsibility.
-"Technical Lead" and "Tech Lead" — include; they write code and lead a team.
-"Systems Engineer" is ambiguous by domain — include for software systems, platform, or embedded firmware; exclude for aerospace, defense hardware, mechanical, or RF/optical systems.
-"Site Reliability Engineer" and "SRE" — always include.
+"Technical Mission Designer" or "Technical Designer" in game dev is a designer who uses scripts — exclude.
+"Technical Animator" — include only if the description is primarily about building animation systems in code.
+"Applied Scientist" and "Research Scientist" at tech or AI companies — include if the description involves training models, building systems, or writing production code; exclude if primarily publishing research or doing data analysis without building.
+"Solutions Architect" — include only if the description clearly involves writing code or building systems; exclude if primarily designing solutions for customers without implementation responsibility.
+"Systems Engineer" — include for software systems, platform, or embedded firmware; exclude for aerospace, defense hardware, mechanical, or RF/optical systems.
 
-For each job posting provided, extract the following fields. Use judgment — if the description gives strong signals, use them even if indirect.
+For each job posting, extract the following fields. Use judgment from the description even when signals are indirect.
 
 1. BUILDER: yes / no / unclear
    yes = will primarily write code or build systems
@@ -77,19 +73,17 @@ For each job posting provided, extract the following fields. Use judgment — if
    No perks, no culture. If too vague to summarize honestly, write: vague
 
 3. SKILLS (only if BUILDER is yes): up to 8 specific technologies, languages, tools, frameworks, or notable requirements.
+   Core skills only — what someone uses to build, not what they're required to know about.
    - Extract regardless of phrasing: "experience with tools such as Python" → Python; "familiarity with Go preferred" → Go
    - Include specific tech: PyTorch, Rust, PostgreSQL, Kubernetes, React, AWS, Terraform, CUDA, ROS2
-   - Include education if notable: "PhD Required", "PhD Preferred"
+   - Include notable degree levels: "PhD Required", "PhD Preferred". Degree subjects ("Computer Science", "Computer Engineering") are not skills — every applicant has one.
    - Include clearance if required: "TS/SCI Clearance", "Security Clearance"
-   - Skip pure generics: "backend", "APIs", "the cloud" — but "AWS", "GCP", "Azure" are fine
+   - Skip generics — anything that applies to every engineer or names a category instead of a skill: "Coding", "Programming", "Software Development", "Multiple Programming Languages", "Various Frameworks", "backend", "APIs", "the cloud" (but "AWS", "GCP", "Azure" are fine)
+   - Skip standards, regulations, and compliance frameworks the role references rather than builds with: "ISO 27001", "OWASP Top 10", "GDPR", "SOC 2", "PCI-DSS"
+   - Skip architecture and design patterns (MVVM, MVC, Redux, Clean Architecture, Microservices) unless one is the defining technical challenge
    - Domain terms only when specific: "Distributed Systems" alone is too vague; "Kafka", "Raft Consensus" are fine
-   - Never include skills that apply to every software engineer: "Coding", "Problem Solving", "Software Development", "Software Engineering", "Programming", "Multiple Programming Languages", or any phrasing that just means "writes code".
-   - Never name a category instead of a skill: "Multiple Programming Languages" is not a skill — pick the actual languages. "Various frameworks" is not a skill — pick the framework.
-   - Never list a sub-feature alongside its parent: if "Kotlin" is listed, do not also list "Kotlin Coroutines" or "Kotlin Flow"; if "React" is listed, do not also list "React Hooks". Same rule applies to any language or framework and its sub-libraries.
-   - Architecture and design patterns (MVVM, MVC, MVI, Redux, Clean Architecture, Microservices) are too generic — skip them unless the description singles one out as the defining technical challenge.
-   - After listing, remove skills that are multiple subcategories of the same concept (e.g. if the role is in security, pick at most 2 specific technologies — not "Security Architecture", "Threat Modeling", "Secure by Design", "Platform Security" all at once).
-   - Prefer breadth: if skills cluster in one domain (e.g. all Android, all ML frameworks), pick the 1-2 most specific and use remaining slots for other aspects of the role.
-   - Use proper capitalization: official casing for tech names (Python, PyTorch, PostgreSQL, JavaScript, AWS, GCP), Title Case for other terms (Distributed Systems, Machine Learning, Computer Vision).
+   - Reduce redundancy: don't list sub-features alongside their parent (no "Kotlin Coroutines" if "Kotlin" is listed; no "React Hooks" if "React" is listed); don't list 3+ items from the same ecosystem (pick the 1-2 most distinctive and use remaining slots for other aspects of the role)
+   - Consistent casing: official casing for tech names (Python, PyTorch, PostgreSQL, JavaScript, AWS, GCP); Title Case for descriptive terms (Distributed Systems, Machine Learning, Computer Vision, Game Engine Development)
    If none remain after filtering, write: n/a
 
 4. LEVEL: Seniority of this role. Title keyword takes priority:
