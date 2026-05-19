@@ -8,3 +8,5 @@ data/jobs_raw.json
 data/explore_results.jsonl
 jobs/
 logs/
+.claude/
+*.code-workspace
