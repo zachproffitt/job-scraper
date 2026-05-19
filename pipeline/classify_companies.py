@@ -17,6 +17,7 @@ from llm import BACKEND, chat
 
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
+CLASSIFIED_JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
 LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
@@ -122,13 +123,22 @@ def main():
     existing = load_existing(companies)
 
     # Job lookup keyed by (source, company_slug) so different ATSes don't collide.
+    # Also builds the set of companies with active builder jobs on the board.
     job_lookup: dict[CompanyKey, list[dict]] = {}
+    board_company_keys: set[CompanyKey] = set()
     if JOBS_FILE.exists():
+        jobs_classified = json.loads(CLASSIFIED_JOBS_FILE.read_text()) if CLASSIFIED_JOBS_FILE.exists() else {}
         for job in json.loads(JOBS_FILE.read_text()):
             source = job.get("source", "")
             slug = job.get("company_slug", "")
-            if source and slug:
-                job_lookup.setdefault((source, slug), []).append(job)
+            if not (source and slug):
+                continue
+            job_lookup.setdefault((source, slug), []).append(job)
+            cl = jobs_classified.get(job.get("id", ""), {})
+            if (cl.get("is_engineering") is True
+                    and not cl.get("is_contract", False)
+                    and cl.get("region") in ("us", "canada")):
+                board_company_keys.add((source, slug))
 
     def needs_classify(c: dict) -> bool:
         if classify_all:
@@ -145,7 +155,7 @@ def main():
     to_process = [
         c for c in companies
         if c.get("status") == "active"
-        and job_lookup.get((c["ats"], c["slug"]))
+        and (c["ats"], c["slug"]) in board_company_keys
         and needs_classify(c)
     ]
 
