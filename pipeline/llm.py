@@ -115,9 +115,9 @@ class ClaudeBackend:
     def __init__(self) -> None:
         self._usage = Usage()
         # Anthropic org limit is 50k input tokens/minute; throttle at 40k for
-        # headroom. ~5,500 tokens per classification request (cached system +
-        # ~3k description) caps dispatch at ~7.3 requests/minute.
-        self._rate_limiter = RateLimiter(tokens_per_min=40_000, tokens_per_request=5_500)
+        # headroom. ~4,000 tokens per request (2,545 system + ~1,100 user + buffer)
+        # gives ~10 requests/minute.
+        self._rate_limiter = RateLimiter(tokens_per_min=40_000, tokens_per_request=4_000)
 
     def chat(self, system: str, user_message: str, max_tokens: int,
              log_error: LogError | None = None) -> str:

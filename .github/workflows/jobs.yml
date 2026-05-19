@@ -12,7 +12,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 180
 
     steps:
       - name: Checkout scraper
@@ -51,6 +51,18 @@ jobs:
         working-directory: scraper
         run: PYTHONPATH=. python pipeline/fetch_jobs.py
 
+      - name: Checkpoint seen jobs
+        working-directory: scraper
+        run: |
+          git add data/jobs_seen.json data/companies_seen.json
+          if git diff --cached --quiet; then
+            echo "No new jobs seen"
+          else
+            git commit -m "Jobs seen — $(date -u '+%b %-d at %H:%M UTC')"
+            git pull --rebase -X theirs
+            git push
+          fi
+
       - name: Fetch descriptions
         working-directory: scraper
         run: PYTHONPATH=. python pipeline/fetch_job_descriptions.py
@@ -60,6 +72,18 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: PYTHONPATH=. python pipeline/classify_jobs.py
+
+      - name: Checkpoint classify results
+        working-directory: scraper
+        run: |
+          git add data/jobs_classified.json data/jobs_pipeline_stats.json
+          if git diff --cached --quiet; then
+            echo "No classify changes"
+          else
+            git commit -m "Classify checkpoint — $(date -u '+%b %-d at %H:%M UTC')"
+            git pull --rebase -X theirs
+            git push
+          fi
 
       - name: Classify companies
         working-directory: scraper
