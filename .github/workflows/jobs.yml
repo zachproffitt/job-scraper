@@ -55,17 +55,17 @@ jobs:
         working-directory: scraper
         run: PYTHONPATH=. python pipeline/fetch_job_descriptions.py
 
-      - name: Classify companies
-        working-directory: scraper
-        env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: PYTHONPATH=. python pipeline/classify_companies.py
-
       - name: Classify jobs
         working-directory: scraper
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: PYTHONPATH=. python pipeline/classify_jobs.py
+
+      - name: Classify companies
+        working-directory: scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: PYTHONPATH=. python pipeline/classify_companies.py
 
       - name: Remove per-job listing files
         run: rm -rf jobs/jobs/
