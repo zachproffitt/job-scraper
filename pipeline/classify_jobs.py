@@ -244,7 +244,7 @@ def log_error(message: str) -> None:
 
 
 def classify_with_llm(job: dict) -> dict:
-    description = html.unescape(job.get("raw_text", "")).strip()
+    description = html.unescape(job.get("raw_text") or "").strip()
     location = job.get("location") or "Not specified"
     user_message = USER_TEMPLATE.format(
         title=job["title"],
@@ -275,9 +275,9 @@ def main():
 
     with_desc = [
         j for j in jobs
-        if j.get("raw_text", "").strip() and needs_work(j)
+        if (j.get("raw_text") or "").strip() and needs_work(j)
     ]
-    without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
+    without_desc = sum(1 for j in jobs if not (j.get("raw_text") or "").strip())
 
     with_desc.sort(key=lambda j: 0 if j.get("first_seen") == today else 1)
     deferred = 0
