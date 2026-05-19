@@ -116,9 +116,10 @@ def main():
                         d = serialize_job(job)
                         job_id = d["id"]
                         if job_id in seen:
-                            d["first_seen"] = seen[job_id]
-                            if prev.get(job_id, {}).get("first_seen_at"):
-                                d["first_seen_at"] = prev[job_id]["first_seen_at"]
+                            val = seen[job_id]
+                            d["first_seen"] = val[:10]
+                            if len(val) > 10:
+                                d["first_seen_at"] = val
                         elif is_new:
                             d["first_seen"] = ARCHIVE_DATE
                             seen[job_id] = ARCHIVE_DATE
@@ -126,7 +127,7 @@ def main():
                         else:
                             d["first_seen"] = today
                             d["first_seen_at"] = now_ts
-                            seen[job_id] = today
+                            seen[job_id] = now_ts
                             new_count += 1
                         if prev.get(job_id, {}).get("raw_text"):
                             d["raw_text"] = prev[job_id]["raw_text"]
