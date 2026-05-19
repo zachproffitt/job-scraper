@@ -63,30 +63,60 @@ def is_bad(summary: str) -> bool:
     return any(phrase in summary.lower() for phrase in BAD_PHRASES)
 
 
+CompanyKey = tuple[str, str]  # (ats, slug) — unique across ATSes
+
+
+def load_existing(companies: list[dict]) -> dict[CompanyKey, dict]:
+    """Load existing summaries keyed by (ats, slug).
+
+    Migrates legacy entries that pre-date the composite key by looking up
+    (ats, slug) from companies.json via company name (which is unique by design).
+    """
+    existing: dict[CompanyKey, dict] = {}
+    if not OUTPUT_FILE.exists():
+        return existing
+
+    name_to_key: dict[str, CompanyKey] = {
+        c["name"].lower(): (c["ats"], c["slug"])
+        for c in companies
+        if c.get("name") and c.get("ats") and c.get("slug")
+    }
+
+    for entry in json.loads(OUTPUT_FILE.read_text()):
+        ats, slug = entry.get("ats"), entry.get("slug")
+        if ats and slug:
+            existing[(ats, slug)] = entry
+            continue
+        # Legacy entry — look up the canonical (ats, slug) from companies.json
+        key = name_to_key.get((entry.get("name") or "").lower())
+        if key:
+            entry["ats"], entry["slug"] = key
+            existing[key] = entry
+    return existing
+
+
 def main():
     classify_all = "--all" in sys.argv
 
     companies = json.loads(COMPANIES_FILE.read_text())
+    existing = load_existing(companies)
 
-    existing: dict[str, dict] = {}
-    if OUTPUT_FILE.exists():
-        for c in json.loads(OUTPUT_FILE.read_text()):
-            existing[c["slug"]] = c
-
-    # Build job lookup by company slug for context
-    job_lookup: dict[str, list[dict]] = {}
+    # Job lookup keyed by (source, company_slug) so different ATSes don't collide.
+    job_lookup: dict[CompanyKey, list[dict]] = {}
     if JOBS_FILE.exists():
         for job in json.loads(JOBS_FILE.read_text()):
+            source = job.get("source", "")
             slug = job.get("company_slug", "")
-            if slug:
-                job_lookup.setdefault(slug, []).append(job)
+            if source and slug:
+                job_lookup.setdefault((source, slug), []).append(job)
 
     def needs_classify(c: dict) -> bool:
         if classify_all:
             return True
-        if c["slug"] not in existing:
+        key = (c["ats"], c["slug"])
+        if key not in existing:
             return True
-        summary = existing[c["slug"]].get("summary", "")
+        summary = existing[key].get("summary", "")
         return is_bad(summary) or not summary
 
     to_process = [c for c in companies if c.get("status") == "active" and needs_classify(c)]
@@ -100,12 +130,12 @@ def main():
 
     errors = 0
     for i, company in enumerate(to_process, 1):
-        slug = company["slug"]
-        name = company["name"]
+        ats, slug, name = company["ats"], company["slug"], company["name"]
         website = company.get("website", "")
+        key: CompanyKey = (ats, slug)
 
         # Sample job title for extra context
-        jobs = job_lookup.get(slug, [])
+        jobs = job_lookup.get(key, [])
         sample = next((j for j in jobs if j.get("raw_text")), None)
         job_context = f"\nSample job title: {sample['title']}" if sample else ""
 
@@ -133,7 +163,7 @@ def main():
                 print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: model refused (will retry with --all)")
                 continue
 
-            existing[slug] = {"slug": slug, "name": name, "summary": summary}
+            existing[key] = {"ats": ats, "slug": slug, "name": name, "summary": summary}
             print(f"  [{i:>3}/{len(to_process)}] {name}: {summary[:80]}")
         except Exception as e:
             errors += 1
