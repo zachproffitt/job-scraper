@@ -70,7 +70,7 @@ def collect_jobs() -> tuple[list[dict], dict[str, str]]:
             "summary": cl.get("job_summary") or "",
             "skills": cl.get("skills") or [],
             "first_seen": min(j.get("first_seen") or "" for j in group_jobs),
-            "first_seen_at": min((j.get("first_seen_at") or "" for j in group_jobs), default="") or "",
+            "first_seen_at": min((j["first_seen_at"] for j in group_jobs if j.get("first_seen_at")), default=""),
             "posted_at": rep.get("posted_at") or "",
             "remote": remote_bool is True,
             "remote_str": remote_str,
