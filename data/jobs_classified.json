@@ -28269,10 +28269,10 @@
     "location": "New York, NY",
     "job_summary": null,
     "skills": [],
-    "level": null,
+    "level": "senior",
     "comp": null,
     "comp_extras": [],
-    "source_hash": "f4565812"
+    "source_hash": "4132edfe"
   },
   "ashby-latent-e1ee3c3b-cd90-4493-9c3b-62f3caf200e7": {
     "is_engineering": false,
@@ -49915,7 +49915,7 @@
     "level": null,
     "comp": "$20-$25/hour",
     "comp_extras": [],
-    "source_hash": "d64db397"
+    "source_hash": "63aa819b"
   },
   "smartrecruiters-Eurofins-744000127048709": {
     "is_engineering": false,
@@ -58446,5 +58446,1019 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "00731c9b"
+  },
+  "greenhouse-airbnb-7775934": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and scale Airbnb's Knowledge Graph data infrastructure, building end-to-end systems for large-scale data ingestion, processing, and serving structured knowledge across the marketplace. You'll work on distributed systems handling billions of data connections with strict production reliability requirements.",
+    "skills": [
+      "Kafka",
+      "Flink",
+      "Spark",
+      "Distributed Systems",
+      "Data Infrastructure",
+      "System Design",
+      "Production Debugging"
+    ],
+    "level": "senior",
+    "comp": "$196,000\u2013$230,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4d0f448f"
+  },
+  "workday-altaishealthsolutions-IT-Operations-Technician_": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Oakland, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$74,700-$90,000",
+    "comp_extras": [],
+    "source_hash": "44ea0a63"
+  },
+  "greenhouse-andurilindustries-5080731007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Develop requirements-based test frameworks and automation infrastructure for safety-critical firmware across Anduril's autonomous systems (Bolt, Roadrunner, Barracuda, Dive-XL). Work with defense-grade standards and export-controlled technology requiring U.S. Person status.",
+    "skills": [
+      "C",
+      "Python",
+      "ARM",
+      "CI/CD",
+      "LDRA",
+      "Jama",
+      "JTAG",
+      "Requirements Management"
+    ],
+    "level": "senior",
+    "comp": "$191,000\u2013$253,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dfd0c9a6"
+  },
+  "greenhouse-andurilindustries-5140974007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Boston, MA",
+    "job_summary": "Build Forge, Anduril's production platform for manufacturing and supply chain management, optimizing factory operations and enabling high-rate production of defense systems. You'll work on the factory floor translating manufacturing challenges into full-stack software solutions at a defense prime scaling rapidly.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Next.js",
+      "U.S. Person Status",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$16,600\u2013$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4b8df589"
+  },
+  "greenhouse-andurilindustries-5140969007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Atlanta, GA",
+    "job_summary": "Build Forge, Anduril's supply chain, manufacturing, and deployment software platform that optimizes production processes and enables high-rate manufacturing of defense systems. Requires working on the factory floor to translate manufacturing challenges into full-stack web solutions at scale, with on-call production support responsibilities.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Next.js",
+      "U.S. Person Status",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$144k-$191k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "914e1bb7"
+  },
+  "greenhouse-andurilindustries-5046465007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Costa Mesa, CA",
+    "job_summary": "Build Forge, Anduril's custom supply chain, manufacturing, and deployment platform that optimizes production processes and drives factory floor operations. This role requires hands-on work translating complex manufacturing challenges into full-stack web solutions for U.S. defense systems at scale.",
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "Next.js",
+      "U.S. Person Status",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$166k-$220k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e73bab6a"
+  },
+  "greenhouse-andurilindustries-5140975007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": "Build and own features for Forge, Anduril's production platform that optimizes manufacturing processes, supply chain, and deployment for defense systems. Work directly with factory floor teams to solve manufacturing challenges at scale, with on-call support responsibilities.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "NextJS",
+      "U.S. Person Status",
+      "TS/SCI Clearance"
+    ],
+    "level": "senior",
+    "comp": "$166,000-$220,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "eff1a5ff"
+  },
+  "greenhouse-archer56-7592284003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$83,700-$135,100",
+    "comp_extras": [],
+    "source_hash": "017f7bf8"
+  },
+  "workday-cloudera-Staff-Software-Engineer_251458": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Design and develop cross-product features for Apache Ranger within Cloudera's Shared Data Experience platform, enabling enterprise data security across multiple cloud providers. Build scalable, enterprise-grade software for a distributed team while working with platform engineers, product managers, and customers to iteratively extend Ranger's capabilities for production deployments.",
+    "skills": [
+      "Java",
+      "Python",
+      "C++",
+      "REST APIs",
+      "Microservices",
+      "AWS",
+      "PostgreSQL",
+      "Kubernetes"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9dfde7b3"
+  },
+  "workday-boeing-Simulation-Software-Engineering-Manager_JR2026509352-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA",
+    "job_summary": "Lead and grow software engineering teams building simulation test frameworks and deployment solutions for mission-critical aerospace systems. Requires US Secret Security Clearance and hands-on experience with simulation software development, CI/CD tooling, and safety-critical systems.",
+    "skills": [
+      "Simulation Software",
+      "Requirements Management",
+      "CI/CD",
+      "JIRA",
+      "GitLab",
+      "Jenkins",
+      "SonarQube",
+      "US Secret Security Clearance"
+    ],
+    "level": "manager",
+    "comp": "$171,700-$232,300",
+    "comp_extras": [],
+    "source_hash": "95f90763"
+  },
+  "workday-boeing-Procurement-Agent--Supplier-Contract-Admin-_JR2026503247-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$94,900-$160,500",
+    "comp_extras": [],
+    "source_hash": "5a4fb803"
+  },
+  "workday-crowdstrike-Regional-Sales-Engineer--Enterprise-Accounts--Remote--AUS-_R28835": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2b97b75d"
+  },
+  "ashby-eliseai-f6985d20-18d0-4b44-969e-378f50d10f09": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$85k-$115k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "019fb7e3"
+  },
+  "smartrecruiters-Eurofins-744000127087449": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ef15af7d"
+  },
+  "smartrecruiters-Eurofins-744000127087399": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4acb810d"
+  },
+  "smartrecruiters-Eurofins-744000127087330": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Dandenong South, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "348f4013"
+  },
+  "smartrecruiters-Eurofins-744000127086789": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Columbia, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "aa56ed6f"
+  },
+  "smartrecruiters-Eurofins-744000127086120": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Melbourne, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "69c60789"
+  },
+  "smartrecruiters-Eurofins-744000127085840": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Phoenix, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b07f8efe"
+  },
+  "smartrecruiters-Eurofins-744000127086309": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seattle, WA / Portland, OR",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "14984978"
+  },
+  "smartrecruiters-Eurofins-744000127085400": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bound Brook, NJ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$17.00/Hr",
+    "comp_extras": [],
+    "source_hash": "99895fdd"
+  },
+  "greenhouse-fireworksai-4251648009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$200,000\u2014$230,000",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "dcaa3d70"
+  },
+  "workday-abbott-Production-Cleaning-Specialist---Day-Shift---Casa-Grande--AZ---Entry-Level_31149864-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Casa Grande, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$17.15-$34.25/hour",
+    "comp_extras": [],
+    "source_hash": "1b4b2d99"
+  },
+  "workday-abbott-Analista-de-Planeacin-Financiera--FP-A----CDMX_31149032": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Mexico City, Mexico",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a61226df"
+  },
+  "ashby-ironcladhq-1c866a1c-53fa-4ba1-aca4-01d7b3579619": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$155k-$195k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "35c30396"
+  },
+  "breezy-kaipod-learning-1306ea03f1d4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Arizona, AZ",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91cac9d6"
+  },
+  "workday-intel-Software-Engineering-Intern_JR0284123": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Support Intel's Data Center Group product development through hands-on work in analog design, programming, and tool optimization. Six-month internship requiring relocation to Costa Rica with hybrid work arrangement.",
+    "skills": [
+      "Python",
+      "MySQL",
+      "Power BI",
+      "Electrical Engineering"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "29257883"
+  },
+  "workday-intel-Sales-Operations-Analyst_JR0283771": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Folsom, CA / Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$97,270-$164,880",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5f578593"
+  },
+  "workday-intel-Software-Engineering-Intern_JR0284120": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to Intel's Data Center Group product development through hands-on analog design and software engineering projects. Six-month internship requiring work authorization in Costa Rica with exposure to industry-standard design methodologies and real-world problem-solving in a hybrid environment.",
+    "skills": [
+      "Python",
+      "MySQL",
+      "Power BI",
+      "Electrical Engineering"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f61ec415"
+  },
+  "workday-intel-GPU-Software-Development-Intern_JR0284143": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to software development, optimization, and integration of applications that support Intel's data center products and internal operations. Work on performance tuning, debugging, and feature enablement across operating systems in a hands-on environment with world-class engineers.",
+    "skills": [
+      "C++",
+      "Python",
+      "Shell",
+      "Linux",
+      "Windows",
+      "UNIX"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f560e20a"
+  },
+  "workday-intel-GPU-Software-Development-Intern_JR0284117": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Develop and optimize software applications interfacing with Intel GPU products, working on performance tuning, debugging, and feature enablement across operating systems and applications. Six-month internship in a collaborative environment supporting Intel's Data Center Group.",
+    "skills": [
+      "C++",
+      "Python",
+      "Shell",
+      "Linux",
+      "Windows"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "90ed1f7e"
+  },
+  "workday-intel-Pre-SIlicon-Engineering--Intern_JR0284119": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to functional logic verification of Intel silicon designs and debug issues in pre-silicon verification environments. Work with architecture and design teams on verification plans, test benches, and emulation/simulation to ensure specifications are met.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "UVM",
+      "Python",
+      "Shell",
+      "UNIX",
+      "Windows",
+      "Logic Design"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a6c2207d"
+  },
+  "workday-intel-Pre-SIlicon-Engineering--Intern_JR0284114-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to functional logic verification of Intel silicon designs by developing verification plans, test benches, and debugging issues in a six-month internship program. Work with architecture and design teams on a Data Center Group product in a hybrid environment in Costa Rica.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "UVM",
+      "Python",
+      "Shell",
+      "UNIX",
+      "Linux"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c0051fcc"
+  },
+  "workday-intel-Pre-SIlicon-Engineering--Intern_JR0284113": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to functional logic verification of silicon designs for Intel's Data Center Group processors, developing test benches and verification environments using industry-standard methodologies. Six-month immersion program working with architecture and design teams on a modern x86 platform at scale.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "UVM",
+      "Python",
+      "Shell",
+      "UNIX",
+      "Linux",
+      "Logic Design"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "053621b0"
+  },
+  "workday-intel-Pre-SIlicon-Engineering--Intern_JR0284115": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to functional logic verification of silicon designs for Intel's Data Center Group processors. Work on verification plans, test benches, and debug of design issues in a six-month immersion internship with exposure to industry-standard methodologies.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "UVM",
+      "Python",
+      "Shell",
+      "UNIX",
+      "Linux"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9aa4f997"
+  },
+  "workday-intel-Pre-SIlicon-Engineering--Intern_JR0284116": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to functional logic verification of Intel silicon designs by developing test benches, verification environments, and debugging issues alongside architecture and design teams. Work with industry-standard hardware verification methodologies in a six-month immersion internship at Intel's Data Center Group.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "UVM",
+      "Python",
+      "Shell",
+      "UNIX",
+      "Linux",
+      "Logic Design"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9dcbd7d0"
+  },
+  "workday-intel-Pre-SIlicon-Engineering--Intern_JR0284091": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": "Contribute to functional logic verification of Intel silicon designs, developing test benches and verification environments to ensure architectural coverage and functional correctness. Work with emulation and simulation tools to verify designs, analyze power and performance, and debug issues in a pre-silicon environment supporting the Data Center Group.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "UVM",
+      "Python",
+      "Shell",
+      "UNIX",
+      "Linux"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cddc6727"
+  },
+  "greenhouse-nearfoundation-4870028101": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design, harden, and automate security systems and controls across the NEAR ecosystem, leading the information security program end-to-end including SOC II Type 2 and ISO 27001 readiness. Operate at the intersection of security engineering, compliance automation, and infrastructure hardening in a fast-moving Web3 environment.",
+    "skills": [
+      "Python",
+      "Go",
+      "Bash",
+      "AWS",
+      "GCP",
+      "Okta",
+      "Entra",
+      "SOC II Type 2"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "320b52c5"
+  },
+  "ashby-openai-71f97dd6-63bc-4f86-8c34-dcb71577069a": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Sydney, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "69e81ab6"
+  },
+  "greenhouse-orchard-8552869002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e21faade"
+  },
+  "greenhouse-orchard-8552851002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "003ecdb1"
+  },
+  "greenhouse-orchard-8552854002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "5982297a"
+  },
+  "greenhouse-orchard-8552855002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Seattle, WA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6e119e15"
+  },
+  "greenhouse-orchard-8552860002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Diego, CA / Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$130k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "59b3e8ba"
+  },
+  "ashby-perplexity-6eedd99c-ff6a-470b-a7cc-3303e1c0b7fc": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Own the technical infrastructure for enterprise sales operations \u2014 CPQ, account and lead scoring, data orchestration, and integrations across Salesforce, Snowflake, and the GTM stack. Build custom solutions that replace vendors when needed, scaling the system from current state to multi-hundred-million ARR.",
+    "skills": [
+      "Salesforce",
+      "Snowflake",
+      "SQL",
+      "CPQ",
+      "Python",
+      "Reverse ETL",
+      "Workato",
+      "Apex"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bdf3d8a2"
+  },
+  "lever-plus-2-30dd9b9b-48c8-4777-97f6-8edb30db12e4": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Build and improve an event mining framework for processing massive datasets in distributed computing environments. Work on scaling data pipelines and cloud infrastructure to support autonomous vehicle development at scale.",
+    "skills": [
+      "Spark",
+      "Python",
+      "Distributed Systems",
+      "Cloud Computing",
+      "Data Pipelines"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "308b9b7f"
+  },
+  "greenhouse-psiquantum-7738656003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": "Design and deliver high-performance analog and mixed-signal integrated circuits from architecture through silicon validation, including data converters, amplifiers, and biasing circuits for quantum computing systems. Work across transistor-level design, simulation, layout collaboration, and lab bring-up in a full ownership model with direct impact on utility-scale quantum hardware.",
+    "skills": [
+      "SPICE",
+      "Cadence Virtuoso",
+      "Verilog-A",
+      "SystemVerilog",
+      "CMOS",
+      "SiGe",
+      "FinFET",
+      "Data Converters"
+    ],
+    "level": "senior",
+    "comp": "$145k-$197k USD",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e82301e0"
+  },
+  "workday-hpe-Site-Realibility-Engineer_1207436-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "San Juan, Puerto Rico",
+    "job_summary": "Design, develop, and maintain reliable software systems including operating systems, compilers, networking tools, and databases across multiple platforms. Debug and test software enhancements while collaborating with internal and outsourced development partners on low to moderately complex products.",
+    "skills": [
+      "Cloud Architectures",
+      "DevOps",
+      "Microservices",
+      "Distributed Computing",
+      "Testing & Automation",
+      "Security-First Mindset"
+    ],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6978cc54"
+  },
+  "ashby-Rox-Data-Corp-d17eecc9-f1bb-477a-a8be-14575f02311d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "77f6caeb"
+  },
+  "greenhouse-scopely-5221008008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Culver City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$145k-$165k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "258e6d11"
+  },
+  "ashby-scribe-4cbbac75-4082-4e5f-905b-e985f68bd77c": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": "Build and ship backend features in a Django monolith powering document viewing, editing, and integrations for millions of users. Optimize database queries, caching layers, and endpoint performance across core document workflows at scale.",
+    "skills": [
+      "Python",
+      "Django",
+      "PostgreSQL",
+      "Redis",
+      "Celery",
+      "AWS",
+      "Terraform",
+      "AmazonMQ"
+    ],
+    "level": "mid",
+    "comp": "$140k-$165k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "bb3c7a8b"
+  },
+  "workday-iqvia-DTAS-Strategic-Advisory-Consulting_R1545246": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "07e55af9"
+  },
+  "ashby-span-14185a75-004c-41fb-b832-7fef12e07185": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e3dcea58"
+  },
+  "workday-smithnephew-Recin-Graduados---Ingeniera-Mecnica-o-Biomdica----Coyol-_R89445": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Alajuela, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "12712dbc"
+  },
+  "ashby-turion-space-afa4eddb-ebad-420d-a112-d3a9ea2cea54": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Irvine, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$90k-$135k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "47138976"
+  },
+  "workday-jll-Facility-Equipment-Assessor_REQ495456": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oklahoma City, OK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "61a4808d"
+  },
+  "workday-jll-Associate-Project-Manager_REQ505318": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Rochester, MN",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$67k-$83k",
+    "comp_extras": [],
+    "source_hash": "040d8eec"
+  },
+  "workday-jll-Associate-Project-Manager_REQ505313": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$80k-$97k",
+    "comp_extras": [],
+    "source_hash": "d152f6e1"
+  },
+  "workday-jll-Project-Manager_REQ505319": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$96k-$120k",
+    "comp_extras": [],
+    "source_hash": "b9e4bb4f"
+  },
+  "workday-jll-Director--PDS-Projects_REQ504723": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Guaynabo, PR",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "49673249"
   }
 }
