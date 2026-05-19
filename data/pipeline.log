@@ -1,4 +1,0 @@
-[2026-05-19T00:21:23Z] fetch_jobs: scraper error for Insureon (workday/hubinternational/wd1/HUBInternational): Workday request failed for hubinternational/wd1/HUBInternational: The read operation timed out
-[2026-05-19T00:21:34Z] fetch_jobs: scraper error for DrugDev (workday/iqvia/wd1/IQVIA): Workday request failed for iqvia/wd1/IQVIA: The read operation timed out
-[2026-05-19T00:22:04Z] fetch_jobs: scraper error for Microsoft (eightfold/apply.careers.microsoft.com|microsoft.com): Eightfold request failed for apply.careers.microsoft.com|microsoft.com: Client error '429 TOO MANY REQUESTS' for url 'https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&start=1200&num=20'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
