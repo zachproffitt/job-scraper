@@ -1,8 +1,6 @@
 name: Jobs
 
 on:
-  schedule:
-    - cron: "7 * * * *"
   workflow_dispatch:
 
 concurrency:
@@ -54,12 +52,12 @@ jobs:
       - name: Checkpoint seen jobs
         working-directory: scraper
         run: |
-          git add data/jobs_seen.json data/companies_seen.json
+          git add data/jobs_seen.json data/companies_seen.json data/jobs.log
           if git diff --cached --quiet; then
             echo "No new jobs seen"
           else
             git commit -m "Jobs seen — $(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase --autostash -X theirs
+            git pull --rebase -X theirs
             git push
           fi
 
@@ -76,12 +74,12 @@ jobs:
       - name: Checkpoint classify results
         working-directory: scraper
         run: |
-          git add data/jobs_classified.json data/jobs_pipeline_stats.json
+          git add data/jobs_classified.json data/jobs_pipeline_stats.json data/jobs.log
           if git diff --cached --quiet; then
             echo "No classify changes"
           else
             git commit -m "Classify checkpoint — $(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase --autostash -X theirs
+            git pull --rebase -X theirs
             git push
           fi
 
