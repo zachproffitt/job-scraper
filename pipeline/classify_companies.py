@@ -142,7 +142,12 @@ def main():
         # or have no summary
         return not summary or not entry.get("source")
 
-    to_process = [c for c in companies if c.get("status") == "active" and needs_classify(c)]
+    to_process = [
+        c for c in companies
+        if c.get("status") == "active"
+        and job_lookup.get((c["ats"], c["slug"]))
+        and needs_classify(c)
+    ]
 
     print(f"Backend: {BACKEND}")
     print(f"{len(to_process)} companies to classify ({len(existing)} already done)\n")
