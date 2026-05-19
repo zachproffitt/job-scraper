@@ -7,13 +7,12 @@ import json
 import re
 import sys
 import threading
-import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 
 from log import log_error as _log_error
-from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, call_claude as _call_claude, call_ollama as _call_ollama, get_usage
+from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, estimate_cost
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
@@ -170,8 +169,6 @@ USER_TEMPLATE = """\
 <location>{location}</location>
 </job>"""
 
-OLLAMA_TEMPLATE = "/no_think\n" + SYSTEM_PROMPT + "\n" + USER_TEMPLATE
-
 CLASSIFY_VERSION = "2"  # bump to force re-classification of all jobs
 MAX_RECLASSIFY_PER_RUN = 300  # spread version-bump reclassification across runs
 
@@ -246,69 +243,20 @@ def parse_response(text: str) -> dict:
     return result
 
 
-# Token bucket rate limiter — stays under the 50k input tokens/minute org limit.
-# System prompt ~2.6k tokens + avg description ~2.9k = ~5.5k per request.
-# Target 40k/min (well under 50k limit) → ~7.3 requests/minute max.
-# Lock is held during sleep to serialize dispatch across all worker threads —
-# this prevents the burst that occurs when threads all sleep in parallel and wake together.
-_RATE_LIMIT_TOKENS_PER_MIN = 40_000.0
-_TOKENS_PER_REQUEST = 5_500.0
-_rate_lock = threading.Lock()
-_rate_tokens = 0.0  # Start empty to prevent burst on startup
-_rate_last_refill = time.monotonic()
-
-
-def _acquire_rate_limit() -> None:
-    global _rate_tokens, _rate_last_refill
-    with _rate_lock:  # Intentionally held during sleep to serialize dispatch
-        now = time.monotonic()
-        elapsed = now - _rate_last_refill
-        _rate_tokens = min(
-            _RATE_LIMIT_TOKENS_PER_MIN,
-            _rate_tokens + elapsed / 60.0 * _RATE_LIMIT_TOKENS_PER_MIN,
-        )
-        _rate_last_refill = now
-        if _rate_tokens < _TOKENS_PER_REQUEST:
-            wait = (_TOKENS_PER_REQUEST - _rate_tokens) / (_RATE_LIMIT_TOKENS_PER_MIN / 60.0)
-            time.sleep(wait)
-            _rate_tokens = 0.0
-            _rate_last_refill = time.monotonic()
-        else:
-            _rate_tokens -= _TOKENS_PER_REQUEST
-
-
 def log_error(message: str) -> None:
     _log_error("classify_jobs", message, LOG_FILE)
-
-
-def call_claude(system: str, user_message: str) -> str:
-    _acquire_rate_limit()
-    return _call_claude(system, user_message, max_tokens=512, log_error=log_error)
-
-
-def call_ollama(prompt: str) -> str:
-    return _call_ollama(prompt, num_ctx=4096)
 
 
 def classify_with_llm(job: dict) -> dict:
     description = html.unescape(job.get("raw_text", "")).strip()
     location = job.get("location") or "Not specified"
-    if BACKEND == "ollama":
-        prompt = OLLAMA_TEMPLATE.format(
-            title=job["title"],
-            company=job["company"],
-            description=description,
-            location=location,
-        )
-        text = call_ollama(prompt)
-    else:
-        user_message = USER_TEMPLATE.format(
-            title=job["title"],
-            company=job["company"],
-            description=description,
-            location=location,
-        )
-        text = call_claude(SYSTEM_PROMPT, user_message)
+    user_message = USER_TEMPLATE.format(
+        title=job["title"],
+        company=job["company"],
+        description=description,
+        location=location,
+    )
+    text = chat(SYSTEM_PROMPT, user_message, max_tokens=512, log_error=log_error)
     return parse_response(text)
 
 
@@ -435,12 +383,7 @@ def main():
     (Path(__file__).parent.parent / "data" / "classify_stats.json").write_text(json.dumps(stats, indent=2))
 
     if usage["requests"]:
-        cost = (
-            usage["input_tokens"] * 0.80 / 1_000_000
-            + usage["output_tokens"] * 4.00 / 1_000_000
-            + usage["cache_creation_input_tokens"] * 1.00 / 1_000_000
-            + usage["cache_read_input_tokens"] * 0.08 / 1_000_000
-        )
+        cost = estimate_cost(usage)
         print(f"Tokens — input: {usage['input_tokens']:,}  cache_read: {usage['cache_read_input_tokens']:,}  output: {usage['output_tokens']:,}  est. cost: ${cost:.3f}")
 
 

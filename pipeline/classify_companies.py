@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 from log import log_error as _log_error
-from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, call_claude as _call_claude, call_ollama as _call_ollama
+from llm import BACKEND, chat
 
 
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
@@ -56,9 +56,7 @@ def fetch_homepage(url: str) -> str:
 
 
 def call_llm(system: str, user_message: str) -> str:
-    if BACKEND == "claude":
-        return _call_claude(system, user_message, max_tokens=150, log_error=log_error)
-    return _call_ollama(system + "\n\n" + user_message, num_ctx=2048)
+    return chat(system, user_message, max_tokens=150, log_error=log_error)
 
 
 def is_bad(summary: str) -> bool:

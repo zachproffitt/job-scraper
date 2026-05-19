@@ -15,11 +15,10 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-import anthropic
+from pipeline.llm import chat
 
 COMPANIES_FILE = Path("data/companies.json")
 LOG_FILE = Path("data/discovery.log")
-MODEL = "claude-haiku-4-5-20251001"
 
 
 def log(msg: str) -> None:
@@ -50,14 +49,9 @@ For each company respond with ONLY valid JSON in this exact format, one object p
 Only include the JSON lines, no other text."""
 
 
-def fetch_industries(client: anthropic.Anthropic) -> list[str]:
+def fetch_industries() -> list[str]:
     try:
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=1024,
-            messages=[{"role": "user", "content": INDUSTRIES_PROMPT}],
-        )
-        text = resp.content[0].text.strip()
+        text = chat(system="", user_message=INDUSTRIES_PROMPT, max_tokens=1024)
         # Strip markdown code fences if present
         if text.startswith("```"):
             text = text.split("```")[1]
@@ -84,15 +78,10 @@ def load_existing() -> tuple[set[str], set[str]]:
     return names, domains
 
 
-def query_haiku(client: anthropic.Anthropic, industry: str) -> list[tuple[str, str]]:
+def query_for_industry(industry: str) -> list[tuple[str, str]]:
     prompt = PROMPT_TEMPLATE.format(industry=industry)
     try:
-        resp = client.messages.create(
-            model=MODEL,
-            max_tokens=1024,
-            messages=[{"role": "user", "content": prompt}],
-        )
-        text = resp.content[0].text.strip()
+        text = chat(system="", user_message=prompt, max_tokens=1024)
         results = []
         for line in text.splitlines():
             line = line.strip()
@@ -114,11 +103,10 @@ def query_haiku(client: anthropic.Anthropic, industry: str) -> list[tuple[str, s
 
 def main():
     dry_run = "--dry-run" in sys.argv
-    client = anthropic.Anthropic()
     existing_names, existing_domains = load_existing()
 
     log("Fetching industry categories from Claude...")
-    industries = fetch_industries(client)
+    industries = fetch_industries()
     if not industries:
         log("ERROR: Could not fetch industry list — aborting")
         sys.exit(1)
@@ -128,7 +116,7 @@ def main():
 
     for industry in industries:
         label = industry.split("(")[0].strip()
-        companies = query_haiku(client, industry)
+        companies = query_for_industry(industry)
 
         new_here = []
         for name, domain in companies:
