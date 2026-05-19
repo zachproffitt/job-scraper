@@ -267,14 +267,11 @@ def main():
     today = datetime.now(timezone.utc).date().isoformat()
 
     def needs_work(j: dict) -> bool:
-        ex = existing.get(j["id"])
-        if ex and ex.get("source_hash") == content_hash(j) and not classify_all:
-            return False
-        return (
-            classify_all
-            or j.get("first_seen") == today
-            or j["id"] in existing
-        )
+        if classify_all:
+            return True
+        if j["id"] in existing:
+            return False  # already classified; use --all to reclassify
+        return j.get("first_seen") == today
 
     with_desc = [
         j for j in jobs
@@ -282,7 +279,6 @@ def main():
     ]
     without_desc = sum(1 for j in jobs if not j.get("raw_text", "").strip())
 
-    # Today's new jobs always go first; cap total to avoid CI timeout on version bumps
     with_desc.sort(key=lambda j: 0 if j.get("first_seen") == today else 1)
     deferred = 0
     if not classify_all and len(with_desc) > MAX_RECLASSIFY_PER_RUN:
