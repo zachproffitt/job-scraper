@@ -22,12 +22,12 @@ CLAUDE_MODEL = "claude-haiku-4-5-20251001"
 OLLAMA_MODEL = "qwen3:8b"
 
 # Pricing per million tokens (Haiku 4.5).
-# Source: https://www.anthropic.com/pricing — verified 2026-05-18.
+# Source: https://www.anthropic.com/pricing — verified 2026-05-19.
 # Anthropic does not expose pricing via API; update these when announcements ship.
-CLAUDE_PRICE_INPUT = 0.80
-CLAUDE_PRICE_OUTPUT = 4.00
-CLAUDE_PRICE_CACHE_WRITE = 1.00
-CLAUDE_PRICE_CACHE_READ = 0.08
+CLAUDE_PRICE_INPUT = 1.00
+CLAUDE_PRICE_OUTPUT = 5.00
+CLAUDE_PRICE_CACHE_WRITE = 1.25
+CLAUDE_PRICE_CACHE_READ = 0.10
 
 
 # --- Helpers -----------------------------------------------------------------

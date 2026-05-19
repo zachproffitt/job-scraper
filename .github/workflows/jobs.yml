@@ -59,7 +59,7 @@ jobs:
             echo "No new jobs seen"
           else
             git commit -m "Jobs seen — $(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase -X theirs
+            git pull --rebase --autostash -X theirs
             git push
           fi
 
@@ -81,7 +81,7 @@ jobs:
             echo "No classify changes"
           else
             git commit -m "Classify checkpoint — $(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase -X theirs
+            git pull --rebase --autostash -X theirs
             git push
           fi
 
@@ -103,7 +103,7 @@ jobs:
             echo "No changes in jobs repo"
           else
             git commit -m "$(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase -X theirs
+            git pull --rebase --autostash -X theirs
             git push
           fi
 
@@ -123,6 +123,6 @@ jobs:
             echo "No changes in scraper data"
           else
             git commit -m "Pipeline data — $(date -u '+%b %-d at %H:%M UTC')"
-            git pull --rebase -X theirs
+            git pull --rebase --autostash -X theirs
             git push
           fi
