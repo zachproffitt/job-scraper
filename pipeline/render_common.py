@@ -39,8 +39,12 @@ _US_STATES = {
 _STATE_RE = re.compile(r',\s*\b(' + '|'.join(_US_STATES) + r')\b')
 
 
-def clean_location(location: str, is_remote: bool) -> str:
-    """Strip remote/hybrid noise from a location string and expand US state abbreviations."""
+def clean_location(location: str, is_remote: bool, expand_state: bool = True) -> str:
+    """Strip remote/hybrid noise and optionally expand US state abbreviations.
+
+    expand_state should be False for non-US locations to avoid false matches —
+    e.g. "Bangalore, IN" would otherwise become "Bangalore, Indiana".
+    """
     if not location:
         return location
     if is_remote:
@@ -50,7 +54,9 @@ def clean_location(location: str, is_remote: bool) -> str:
         location = re.sub(r"\b(?:remote|hybrid)\s*[-–,|]\s*", "", location, flags=re.I)
         location = re.sub(r"^\s*(?:remote|hybrid)\s*$", "", location, flags=re.I)
         location = location.strip().strip("-").strip(",").strip("|").strip()
-    return _STATE_RE.sub(lambda m: f", {_US_STATES[m.group(1)]}", location)
+    if expand_state:
+        return _STATE_RE.sub(lambda m: f", {_US_STATES[m.group(1)]}", location)
+    return location
 
 
 def strip_location_from_title(title: str) -> str:

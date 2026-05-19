@@ -76,6 +76,7 @@ def collect_jobs() -> tuple[list[dict], dict[str, str]]:
             "remote_str": remote_str,
             "hybrid": "yes" if is_hybrid else "",
             "location_raw": raw_location,
+            "region": cl.get("region") or "unclear",
             "level": cl.get("level") or "",
             "comp": cl.get("comp") or "",
             "comp_extras": cl.get("comp_extras") or [],
@@ -92,7 +93,7 @@ def format_meta(j: dict) -> str:
         location = ""
 
     is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
-    location = clean_location(location, is_remote=is_remote)
+    location = clean_location(location, is_remote=is_remote, expand_state=j.get("region") == "us")
 
     parts = [f"**{j['company']}**"]
     if location and location.lower() != "remote":
@@ -119,7 +120,7 @@ def format_job_meta(j: dict) -> str:
     is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
     is_hybrid = j["hybrid"] == "yes"
     if location and location != "Not specified":
-        location = clean_location(location, is_remote=is_remote)
+        location = clean_location(location, is_remote=is_remote, expand_state=j.get("region") == "us")
         if location and location.lower() != "remote":
             parts.append(location)
     if is_remote:

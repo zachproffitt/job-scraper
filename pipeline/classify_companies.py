@@ -63,6 +63,8 @@ def is_bad(summary: str) -> bool:
     return any(phrase in summary.lower() for phrase in BAD_PHRASES)
 
 
+SAVE_EVERY = 50  # checkpoint the cache to disk every N companies
+
 CompanyKey = tuple[str, str]  # (ats, slug) — unique across ATSes
 
 
@@ -170,6 +172,10 @@ def main():
             msg = f"{name}: {e}"
             print(f"  [{i:>3}/{len(to_process)}] ERROR {msg}")
             log_error(f"company error: {msg}")
+
+        if i % SAVE_EVERY == 0:
+            OUTPUT_FILE.write_text(json.dumps(list(existing.values()), indent=2))
+            print(f"  [checkpoint] saved {i}/{len(to_process)}")
 
     OUTPUT_FILE.write_text(json.dumps(list(existing.values()), indent=2))
     print(f"\nDone. Written to {OUTPUT_FILE}")

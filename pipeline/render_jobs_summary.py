@@ -6,6 +6,11 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 from render_common import SUPPORTED_ATS, strip_location_from_title, is_new_within, write_step_summary
+from llm import (
+    CLAUDE_PRICE_INPUT, CLAUDE_PRICE_OUTPUT,
+    CLAUDE_PRICE_CACHE_WRITE, CLAUDE_PRICE_CACHE_READ,
+    estimate_cost,
+)
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -85,12 +90,7 @@ def main():
         cache_write = classify_stats.get("cache_creation_input_tokens", 0)
         cache_read = classify_stats.get("cache_read_input_tokens", 0)
 
-        cost = (
-            input_tok * 0.80 / 1_000_000
-            + output_tok * 4.00 / 1_000_000
-            + cache_write * 1.00 / 1_000_000
-            + cache_read * 0.08 / 1_000_000
-        )
+        cost = estimate_cost(classify_stats)
 
         status_parts = [f"**{classified}** classified"]
         if errors:
@@ -109,10 +109,10 @@ def main():
                 "",
                 f"| | Tokens | Rate | Cost |",
                 f"|---|---|---|---|",
-                f"| Input | {input_tok:,} | $0.80/1M | ${input_tok * 0.80 / 1_000_000:.3f} |",
-                f"| Cache read | {cache_read:,} | $0.08/1M | ${cache_read * 0.08 / 1_000_000:.3f} |",
-                f"| Cache write | {cache_write:,} | $1.00/1M | ${cache_write * 1.00 / 1_000_000:.3f} |",
-                f"| Output | {output_tok:,} | $4.00/1M | ${output_tok * 4.00 / 1_000_000:.3f} |",
+                f"| Input | {input_tok:,} | ${CLAUDE_PRICE_INPUT}/1M | ${input_tok * CLAUDE_PRICE_INPUT / 1_000_000:.3f} |",
+                f"| Cache read | {cache_read:,} | ${CLAUDE_PRICE_CACHE_READ}/1M | ${cache_read * CLAUDE_PRICE_CACHE_READ / 1_000_000:.3f} |",
+                f"| Cache write | {cache_write:,} | ${CLAUDE_PRICE_CACHE_WRITE}/1M | ${cache_write * CLAUDE_PRICE_CACHE_WRITE / 1_000_000:.3f} |",
+                f"| Output | {output_tok:,} | ${CLAUDE_PRICE_OUTPUT}/1M | ${output_tok * CLAUDE_PRICE_OUTPUT / 1_000_000:.3f} |",
                 f"| **Total** | | | **${cost:.3f}** |",
                 "",
                 f"Avg per job: {input_tok // requests:,} input + {cache_read // requests:,} cache read + {output_tok // requests:,} output tokens &nbsp;·&nbsp; **${per_job_cost:.4f}/job**",

@@ -264,7 +264,7 @@ def main():
 
         # --- Recheck: verify and fix existing entries ---
         if recheck:
-            to_check = [(k, c) for k, c in existing.items() if c.get("status") not in ("no_ats", "new")]
+            to_check = [(k, c) for k, c in existing.items() if c.get("status") not in ("no_ats", "new", "inactive")]
             print(f"Rechecking {len(to_check)} existing companies...")
             print()
 
@@ -365,11 +365,15 @@ def main():
 
                     print(f"  [{n:>3}/{len(new_entries)}] {name} ({domain})... {label}")
 
-                    with lock:
-                        current_n = n
-                    if current_n % 500 == 0:
-                        COMPANIES_FILE.write_text(json.dumps(list(existing.values()), indent=2))
-                        log(f"[checkpoint] saved {current_n}/{len(new_entries)}")
+                    # Snapshot inside the lock to avoid `dictionary changed size during
+                    # iteration` from concurrent workers; write outside to avoid blocking.
+                    snapshot = None
+                    if n % 500 == 0:
+                        with lock:
+                            snapshot = list(existing.values())
+                    if snapshot is not None:
+                        COMPANIES_FILE.write_text(json.dumps(snapshot, indent=2))
+                        log(f"[checkpoint] saved {n}/{len(new_entries)}")
 
             supported_count = len(newly_found)
             unsupported_count = len(detected_unsupported)
