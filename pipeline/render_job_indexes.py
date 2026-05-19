@@ -149,7 +149,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
     total = sum(len(v) for v in by_date.values())
     new_recent = sum(1 for j in jobs if is_new_within(j, cutoff))
 
-    stats = f"**{total} open roles** ({new_recent} new in last 24h)"
+    stats = f"**{total} open roles** ({new_recent} new)"
     if not remote_only:
         stats += f" &nbsp;·&nbsp; {company_count} companies searched"
 
@@ -208,7 +208,7 @@ def render_index(jobs: list[dict], company_logos: dict[str, str], company_count:
             lines.append("")
 
     out_path.write_text("\n".join(lines))
-    print(f"Written {out_path} ({total} jobs, {new_recent} new in last 24h)")
+    print(f"Written {out_path} ({total} jobs, {new_recent} new)")
 
 
 def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: Path) -> None:
@@ -238,7 +238,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
             " Listings older than 14 days are removed automatically."
         ),
         "",
-        f"### **{len(companies_sorted)} companies** · **{total_jobs} open roles** ({new_recent} new in last 24h)",
+        f"### **{len(companies_sorted)} companies** · **{total_jobs} open roles** ({new_recent} new)",
         "",
         "[← All roles](README.md) &nbsp;·&nbsp; [Remote only →](REMOTE.md) &nbsp;·&nbsp; [How it works →](https://github.com/zachproffitt/builder-jobs-scraper)",
         "",
@@ -298,7 +298,7 @@ def render_companies(jobs: list[dict], company_logos: dict[str, str], out_path: 
         lines.append("")
 
     out_path.write_text("\n".join(lines))
-    print(f"Written {out_path} ({len(companies_sorted)} companies, {total_jobs} jobs, {new_recent} new in last 24h)")
+    print(f"Written {out_path} ({len(companies_sorted)} companies, {total_jobs} jobs, {new_recent} new)")
 
 
 def main():

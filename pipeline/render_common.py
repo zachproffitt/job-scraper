@@ -84,10 +84,14 @@ def abbrev_comp(comp: str) -> str:
 
 
 def is_new_within(j: dict, cutoff: datetime) -> bool:
-    """True if a job was first seen within the rolling window ending at `cutoff` from now.
+    """True if a job was first seen at or after `cutoff` (a rolling window from now).
 
-    Uses the precise first_seen_at timestamp when available, falling back to the
-    first_seen date compared against today's UTC date.
+    Uses the precise first_seen_at timestamp when available. For jobs that lack a
+    timestamp (older entries from before the field was added, or archived jobs),
+    falls back to comparing the first_seen date against the cutoff's date. That
+    fallback is intentionally over-inclusive — a job with date == cutoff_date
+    could be anywhere from 0 to ~24h beyond the window — but matches the user
+    expectation of "include all jobs from the last 24 hours."
     """
     ts = j.get("first_seen_at", "")
     if ts:
@@ -98,8 +102,8 @@ def is_new_within(j: dict, cutoff: datetime) -> bool:
             return dt >= cutoff
         except ValueError:
             pass
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    return j.get("first_seen", "") == today
+    cutoff_date = cutoff.strftime("%Y-%m-%d")
+    return j.get("first_seen", "") >= cutoff_date
 
 
 def write_step_summary(content: str) -> None:

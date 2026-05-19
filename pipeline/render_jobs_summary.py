@@ -66,7 +66,7 @@ def main():
     lines = [
         f"## Pipeline run — {now}",
         "",
-        f"**{len(engineering)}** engineering roles live &nbsp;·&nbsp; **{len(new_recent)}** new in last 24h &nbsp;·&nbsp; **{total_companies}** companies searched",
+        f"**{len(engineering)}** engineering roles live &nbsp;·&nbsp; **{len(new_recent)}** new &nbsp;·&nbsp; **{total_companies}** companies searched",
         "",
         "### Companies by ATS",
         "| ATS | Companies |",
