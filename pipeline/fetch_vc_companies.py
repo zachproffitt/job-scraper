@@ -3,10 +3,10 @@
 Fetch portfolio companies from VC firms and add new stubs to companies.json.
 
 Each VC uses a different scraping strategy depending on what their site exposes.
-Run discover_companies.py afterward to detect ATS.
+Run fetch_companies.py afterward to detect ATS.
 
 Usage:
-    PYTHONPATH=. python tools/discover_vc_companies.py [--dry-run]
+    PYTHONPATH=. python pipeline/fetch_vc_companies.py [--dry-run]
 
     --dry-run   Print what would be added without writing anything.
 
@@ -30,7 +30,7 @@ from pathlib import Path
 import httpx
 
 COMPANIES_FILE = Path("data/companies.json")
-LOG_FILE = Path("data/discovery.log")
+LOG_FILE = Path("data/companies.log")
 HEADERS = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"}
 
 
@@ -82,7 +82,7 @@ def scrape_founders_fund(client: httpx.Client) -> list[tuple[str, str]]:
             name = c.get("title", {}).get("rendered", "").strip()
             slug = c.get("slug", "").strip()
             if name and slug:
-                # Try slug as domain; discover_companies.py will verify/fix
+                # Try slug as domain; fetch_companies.py will verify/fix
                 domain = f"{slug}.com"
                 results.append((name, domain))
         page += 1

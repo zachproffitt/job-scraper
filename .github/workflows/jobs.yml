@@ -43,9 +43,9 @@ jobs:
           git config --global user.name "builder-jobs-bot"
           git config --global user.email "bot@builder-jobs"
 
-      - name: Clear pipeline log
+      - name: Clear jobs log
         working-directory: scraper
-        run: truncate -s 0 data/pipeline.log || true
+        run: truncate -s 0 data/jobs.log || true
 
       - name: Fetch jobs
         working-directory: scraper
@@ -88,7 +88,7 @@ jobs:
 
       - name: Write step summary
         working-directory: scraper
-        run: PYTHONPATH=. python pipeline/render_jobs_summary.py
+        run: PYTHONPATH=. python pipeline/render_jobs_pipeline_summary.py
 
       - name: Update scraper README
         working-directory: scraper
@@ -97,7 +97,7 @@ jobs:
       - name: Commit and push scraper data
         working-directory: scraper
         run: |
-          git add data/seen_jobs.json data/seen_companies.json data/jobs_classified.json data/companies_classified.json data/companies.json data/classify_stats.json data/pipeline.log README.md
+          git add data/jobs_seen.json data/companies_seen.json data/jobs_classified.json data/companies_classified.json data/companies.json data/jobs_pipeline_stats.json data/jobs.log README.md
           if git diff --cached --quiet; then
             echo "No changes in scraper data"
           else

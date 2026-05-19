@@ -13,7 +13,7 @@ from llm import BACKEND, chat
 COMPANIES_FILE = Path(__file__).parent.parent / "data" / "companies.json"
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json"
-LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
+LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
 SYSTEM_PROMPT = """\
 Write 1-2 sentences describing what the company builds and what domain they operate in.

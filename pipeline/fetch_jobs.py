@@ -19,9 +19,9 @@ WORKERS = 10
 DATA_DIR = Path(__file__).parent.parent / "data"
 COMPANIES_FILE = DATA_DIR / "companies.json"
 OUTPUT_FILE = DATA_DIR / "jobs_raw.json"
-SEEN_FILE = DATA_DIR / "seen_jobs.json"
-SEEN_COMPANIES_FILE = DATA_DIR / "seen_companies.json"
-LOG_FILE = DATA_DIR / "pipeline.log"
+JOBS_SEEN_FILE = DATA_DIR / "jobs_seen.json"
+COMPANIES_SEEN_FILE = DATA_DIR / "companies_seen.json"
+LOG_FILE = DATA_DIR / "jobs.log"
 ARCHIVE_DATE = "2020-01-01"  # first-fetch jobs for new companies get this date
 WINDOW_DAYS = 14
 
@@ -54,8 +54,8 @@ def main():
 
     # Permanent ID registry — never pruned, survives the rolling window
     seen: dict[str, str] = {}
-    if SEEN_FILE.exists():
-        seen = json.loads(SEEN_FILE.read_text())
+    if JOBS_SEEN_FILE.exists():
+        seen = json.loads(JOBS_SEEN_FILE.read_text())
 
     # Preserve descriptions from the rolling window
     prev: dict[str, dict] = {}
@@ -65,8 +65,8 @@ def main():
 
     # Companies seen before — new companies have all jobs archived on first fetch
     seen_companies: dict[str, str] = {}
-    if SEEN_COMPANIES_FILE.exists():
-        seen_companies = json.loads(SEEN_COMPANIES_FILE.read_text())
+    if COMPANIES_SEEN_FILE.exists():
+        seen_companies = json.loads(COMPANIES_SEEN_FILE.read_text())
 
     today = datetime.now(timezone.utc).date().isoformat()
     now_ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -173,8 +173,8 @@ def main():
     print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}  |  Archived (new companies): {archived_count}  |  Errors: {error_count}")
 
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
-    SEEN_FILE.write_text(json.dumps(seen, indent=2))
-    SEEN_COMPANIES_FILE.write_text(json.dumps(seen_companies, indent=2))
+    JOBS_SEEN_FILE.write_text(json.dumps(seen, indent=2))
+    COMPANIES_SEEN_FILE.write_text(json.dumps(seen_companies, indent=2))
 
     if deactivated:
         deactivated_set = set(deactivated)

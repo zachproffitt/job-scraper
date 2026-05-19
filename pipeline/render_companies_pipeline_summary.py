@@ -24,7 +24,7 @@ def main():
 
     total_companies = sum(by_ats.values())
 
-    log_path = DATA_DIR / "discovery.log"
+    log_path = DATA_DIR / "companies.log"
     errors = []
     new_added = 0
     if log_path.exists():

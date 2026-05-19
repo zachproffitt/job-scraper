@@ -30,7 +30,7 @@ import httpx
 
 WORKERS = 20
 
-LOG_FILE = Path("data/discovery.log")
+LOG_FILE = Path("data/companies.log")
 
 
 def log(msg: str) -> None:

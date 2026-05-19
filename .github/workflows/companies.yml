@@ -35,29 +35,29 @@ jobs:
           git config --global user.name "builder-jobs-bot"
           git config --global user.email "bot@builder-jobs"
 
-      - name: Clear discovery log
-        run: truncate -s 0 data/discovery.log || true
+      - name: Clear companies log
+        run: truncate -s 0 data/companies.log || true
 
-      - name: Discover YC companies
-        run: PYTHONPATH=. python companies/discover_yc_companies.py
+      - name: Fetch YC companies
+        run: PYTHONPATH=. python pipeline/fetch_yc_companies.py
 
-      - name: Discover VC companies
-        run: PYTHONPATH=. python companies/discover_vc_companies.py
+      - name: Fetch VC companies
+        run: PYTHONPATH=. python pipeline/fetch_vc_companies.py
 
-      - name: Discover industry companies
+      - name: Fetch industry companies
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: PYTHONPATH=. python companies/discover_industry_companies.py
+        run: PYTHONPATH=. python pipeline/fetch_industry_companies.py
 
       - name: Detect ATS for new companies
-        run: PYTHONPATH=. python companies/discover_companies.py
+        run: PYTHONPATH=. python pipeline/fetch_companies.py
 
       - name: Write step summary
-        run: PYTHONPATH=. python pipeline/render_discovery_summary.py
+        run: PYTHONPATH=. python pipeline/render_companies_pipeline_summary.py
 
       - name: Commit and push
         run: |
-          git add data/companies.json data/discovery.log
+          git add data/companies.json data/companies.log
           if git diff --cached --quiet; then
             echo "No new companies found"
           else

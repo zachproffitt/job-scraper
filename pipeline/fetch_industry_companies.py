@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
 Use Claude Haiku to enumerate top engineering companies by industry and
-add new ones to companies.txt.
+add new ones to companies.json.
 
-Run discover_companies.py afterward to detect ATS and update companies.json.
+Run fetch_companies.py afterward to detect ATS and update companies.json.
 
 Usage:
-    PYTHONPATH=. python tools/discover_industry_companies.py [--dry-run]
+    PYTHONPATH=. python pipeline/fetch_industry_companies.py [--dry-run]
 """
 
 import json
@@ -15,10 +15,10 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
-from pipeline.llm import chat
+from llm import chat
 
 COMPANIES_FILE = Path("data/companies.json")
-LOG_FILE = Path("data/discovery.log")
+LOG_FILE = Path("data/companies.log")
 
 
 def log(msg: str) -> None:

@@ -16,7 +16,7 @@ from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, estimate_c
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
-LOG_FILE = Path(__file__).parent.parent / "data" / "pipeline.log"
+LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
 WORKERS = 5 if BACKEND == "claude" else 2
 SAVE_EVERY = 100
@@ -374,7 +374,7 @@ def main():
         "errors": errors,
         **usage,
     }
-    (Path(__file__).parent.parent / "data" / "classify_stats.json").write_text(json.dumps(stats, indent=2))
+    (Path(__file__).parent.parent / "data" / "jobs_pipeline_stats.json").write_text(json.dumps(stats, indent=2))
 
     if usage["requests"]:
         cost = estimate_cost(usage)

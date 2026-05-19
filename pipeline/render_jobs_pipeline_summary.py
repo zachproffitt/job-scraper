@@ -58,14 +58,14 @@ def main():
             new_recent_deduped.append(j)
     new_recent = new_recent_deduped
 
-    log_path = DATA_DIR / "pipeline.log"
+    log_path = DATA_DIR / "jobs.log"
     log_lines = []
     if log_path.exists():
         for line in log_path.read_text().splitlines():
             if today in line:
                 log_lines.append(line)
 
-    stats_path = DATA_DIR / "classify_stats.json"
+    stats_path = DATA_DIR / "jobs_pipeline_stats.json"
     classify_stats = json.loads(stats_path.read_text()) if stats_path.exists() else {}
 
     lines = [

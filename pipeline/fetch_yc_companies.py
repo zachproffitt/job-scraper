@@ -4,10 +4,10 @@ Fetch YC companies and add new stubs to companies.json.
 
 Queries YC's Algolia search index for all active companies, then adds
 any not already in companies.json as {"name", "website", "status": "new"} stubs.
-Run discover_companies.py afterward to detect ATS.
+Run fetch_companies.py afterward to detect ATS.
 
 Usage:
-    PYTHONPATH=. python tools/discover_yc_companies.py [--dry-run]
+    PYTHONPATH=. python pipeline/fetch_yc_companies.py [--dry-run]
 
     --dry-run   Print what would be added without writing anything.
 """
@@ -21,7 +21,7 @@ from pathlib import Path
 import httpx
 
 COMPANIES_FILE = Path("data/companies.json")
-LOG_FILE = Path("data/discovery.log")
+LOG_FILE = Path("data/companies.log")
 
 
 def log(msg: str) -> None:
