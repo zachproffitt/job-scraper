@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Generate company summaries using Claude Haiku."""
+"""Generate company summaries using Claude Haiku.
+
+Sources descriptions from factual data only — never training knowledge.
+Priority: one_liner → meta_description → job raw_text → homepage → skip.
+Claude only reformats; it does not recall or infer anything not in the source.
+"""
 
 import json
 import re
@@ -16,18 +21,16 @@ OUTPUT_FILE = Path(__file__).parent.parent / "data" / "companies_classified.json
 LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
 SYSTEM_PROMPT = """\
-Write 1-2 sentences describing what the company builds and what domain they operate in.
-Be specific and factual. Plain prose only — no markdown, no bullet points, no headers.
-Do not use "leading", "innovative", "cutting-edge", "pioneering". Do not say you lack web access.
-Start directly with the company name or what they build.
-Respond with only the description — no intro, no headers, no labels.
-"""
+You are rewriting a company description from provided source text.
 
-BAD_PHRASES = [
-    "don't have access", "cannot browse", "can't browse",
-    "can't verify", "cannot verify", "i don't have",
-    "could you provide", "please provide",
-]
+Rewrite the source as 1-2 sentences of plain factual prose:
+- Start with the company name followed by what it builds, makes, or does (e.g., "Acme builds X that does Y.")
+- Do not add any information not present in the source text
+- Remove marketing language: "leading", "innovative", "cutting-edge", "pioneering", "world-class", "best-in-class", "revolutionizing"
+- Plain prose only — no markdown, no bullet points, no headers
+- If the source contains no useful factual information about what the company builds or does, respond with exactly: insufficient
+- Respond with only the rewritten description, nothing else
+"""
 
 
 def log_error(message: str) -> None:
@@ -55,12 +58,27 @@ def fetch_homepage(url: str) -> str:
         return ""
 
 
-def call_llm(system: str, user_message: str) -> str:
-    return chat(system, user_message, max_tokens=150, log_error=log_error)
+def call_llm(user_message: str) -> str:
+    return chat(SYSTEM_PROMPT, user_message, max_tokens=150, log_error=log_error)
 
 
-def is_bad(summary: str) -> bool:
-    return any(phrase in summary.lower() for phrase in BAD_PHRASES)
+def get_source(company: dict, jobs: list[dict], website: str) -> tuple[str, str]:
+    """Return (source_text, source_label) using priority chain. Returns ("", "") if none."""
+    if company.get("one_liner"):
+        return company["one_liner"], "one_liner"
+
+    if company.get("meta_description"):
+        return company["meta_description"], "meta_description"
+
+    sample = next((j for j in jobs if j.get("raw_text")), None)
+    if sample:
+        return sample["raw_text"][:3000], "job_posting"
+
+    homepage_text = fetch_homepage(website)
+    if homepage_text:
+        return homepage_text, "homepage"
+
+    return "", ""
 
 
 SAVE_EVERY = 50  # checkpoint the cache to disk every N companies
@@ -118,8 +136,11 @@ def main():
         key = (c["ats"], c["slug"])
         if key not in existing:
             return True
-        summary = existing[key].get("summary", "")
-        return is_bad(summary) or not summary
+        entry = existing[key]
+        summary = entry.get("summary", "")
+        # Reclassify entries that lack a source (generated from training knowledge)
+        # or have no summary
+        return not summary or not entry.get("source")
 
     to_process = [c for c in companies if c.get("status") == "active" and needs_classify(c)]
 
@@ -136,37 +157,26 @@ def main():
         website = company.get("website", "")
         key: CompanyKey = (ats, slug)
 
-        # Sample job title for extra context
         jobs = job_lookup.get(key, [])
-        sample = next((j for j in jobs if j.get("raw_text")), None)
-        job_context = f"\nSample job title: {sample['title']}" if sample else ""
+        source_text, source_label = get_source(company, jobs, website)
 
-        # First attempt: training knowledge only
-        user_message = f"Company: {name}\nWebsite: {website}{job_context}"
+        if not source_text:
+            print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: no source available")
+            continue
+
+        user_message = f"Company: {name}\n\nSource:\n{source_text}"
 
         try:
-            raw = call_llm(SYSTEM_PROMPT, user_message)
+            raw = call_llm(user_message)
             lines = [line for line in raw.splitlines() if not line.startswith("#")]
             summary = " ".join(line.strip() for line in lines if line.strip())
 
-            # If model refused, scrape the homepage and retry once
-            if is_bad(summary) or not summary:
-                print(f"  [{i:>3}/{len(to_process)}] {name}: no training knowledge — scraping homepage...")
-                homepage_text = fetch_homepage(website)
-                if homepage_text:
-                    # Homepage content (long document) precedes the company identifier
-                    user_message2 = f"<homepage>\n{homepage_text}\n</homepage>\n\nCompany: {name}\nWebsite: {website}{job_context}"
-                    raw = call_llm(SYSTEM_PROMPT, user_message2)
-                    lines = [line for line in raw.splitlines() if not line.startswith("#")]
-                    summary = " ".join(line.strip() for line in lines if line.strip())
-
-            if is_bad(summary) or not summary:
-                log_error(f"model refused for {name} even after homepage scrape")
-                print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: model refused (will retry with --all)")
+            if not summary or summary.lower().strip() == "insufficient":
+                print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: source insufficient ({source_label})")
                 continue
 
-            existing[key] = {"ats": ats, "slug": slug, "name": name, "summary": summary}
-            print(f"  [{i:>3}/{len(to_process)}] {name}: {summary[:80]}")
+            existing[key] = {"ats": ats, "slug": slug, "name": name, "summary": summary, "source": source_label}
+            print(f"  [{i:>3}/{len(to_process)}] {name} [{source_label}]: {summary[:80]}")
         except Exception as e:
             errors += 1
             msg = f"{name}: {e}"

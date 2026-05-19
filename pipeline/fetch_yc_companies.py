@@ -137,7 +137,7 @@ def main():
 
     existing_names, existing_domains = load_existing()
 
-    # Filter: active companies with a website
+    # Filter: active companies with a website; capture one_liner
     candidates = []
     for h in hits:
         name = (h.get("name") or "").strip()
@@ -150,35 +150,61 @@ def main():
         domain = website.removeprefix("https://").removeprefix("http://").split("/")[0]
         if not domain:
             continue
-        candidates.append((name, domain))
+        one_liner = (h.get("one_liner") or "").strip()
+        candidates.append((name, domain, one_liner))
+
+    # Build domain → one_liner lookup for backfilling existing entries
+    one_liner_by_domain: dict[str, str] = {
+        domain.removeprefix("www.").lower(): one_liner
+        for _, domain, one_liner in candidates
+        if one_liner
+    }
 
     new_companies = [
-        (name, domain)
-        for name, domain in candidates
+        (name, domain, one_liner)
+        for name, domain, one_liner in candidates
         if name.lower() not in existing_names and domain.removeprefix("www.").lower() not in existing_domains
     ]
 
     log(f"Active companies: {len(candidates)} | New: {len(new_companies)}")
 
-    if not new_companies:
-        log("Nothing to add.")
-        return
-
-    new_companies.sort(key=lambda x: x[0].lower())
-
     if dry_run:
         print("\n[dry-run] Would add:")
-        for name, domain in new_companies:
-            print(f"  {name} | {domain}")
+        for name, domain, one_liner in new_companies:
+            print(f"  {name} | {domain}" + (f" | {one_liner[:60]}" if one_liner else ""))
         return
 
     companies = json.loads(COMPANIES_FILE.read_text()) if COMPANIES_FILE.exists() else []
+
+    # Backfill one_liner for existing YC companies that don't have it
+    backfilled = 0
+    for c in companies:
+        if c.get("one_liner"):
+            continue
+        domain = (c.get("website") or "").removeprefix("https://").removeprefix("http://").split("/")[0].removeprefix("www.").lower()
+        ol = one_liner_by_domain.get(domain, "")
+        if ol:
+            c["one_liner"] = ol
+            backfilled += 1
+
     existing_by_name = {c["name"].lower() for c in companies}
-    for name, domain in new_companies:
+    added = 0
+    for name, domain, one_liner in sorted(new_companies, key=lambda x: x[0].lower()):
         if name.lower() not in existing_by_name:
-            companies.append({"name": name, "website": f"https://{domain}", "status": "new"})
-    COMPANIES_FILE.write_text(json.dumps(companies, indent=2))
-    log(f"Added {len(new_companies)} new stubs to {COMPANIES_FILE}")
+            entry: dict = {"name": name, "website": f"https://{domain}", "status": "new"}
+            if one_liner:
+                entry["one_liner"] = one_liner
+            companies.append(entry)
+            added += 1
+
+    if added or backfilled:
+        COMPANIES_FILE.write_text(json.dumps(companies, indent=2))
+        if added:
+            log(f"Added {added} new stubs to {COMPANIES_FILE}")
+        if backfilled:
+            log(f"Backfilled one_liner for {backfilled} existing YC companies")
+    else:
+        log("Nothing to add or update.")
 
 
 if __name__ == "__main__":
