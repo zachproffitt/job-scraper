@@ -44,7 +44,7 @@ def collect_jobs() -> tuple[list[dict], dict[str, str]]:
         j for j in raw_jobs
         if classified.get(j["id"], {}).get("is_engineering") is True
         and not classified.get(j["id"], {}).get("is_contract", False)
-        and classified.get(j["id"], {}).get("region") in ("us", "canada", "unclear")
+        and classified.get(j["id"], {}).get("region") in ("us", "canada")
     ]
 
     # Deduplicate multi-city roles — same company + normalized title → one index entry

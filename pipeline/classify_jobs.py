@@ -128,8 +128,10 @@ For each job posting, extract the following fields. Use judgment from the descri
    international = requires presence or work authorization in a non-US, non-Canada country; or on-site outside North America
    unclear = cannot determine from the posting
    Use the <location> field as primary signal; use the description to confirm or override it.
-   "Remote" with no restriction → us; "Remote - UK" or any non-US/Canada city → international.
-   Cities like Tel Aviv, London, Berlin, Bangalore, Singapore → international.
+   "Remote" alone with no country restriction → us.
+   If the location contains any non-US/Canada city, country name, or regional identifier — even formatted unusually (e.g. "Israel - Office - Tel Aviv", "Bengaluru, India / Remote") — classify as international, unless the description explicitly states the role is open to US-based candidates.
+   Exception: if the location lists a US or Canada city alongside international ones (e.g. "San Francisco, CA / London, UK") → us, since US candidates can apply.
+   Country names and cities like Israel, India, UK, Germany, Tel Aviv, London, Berlin, Bangalore, Singapore → international.
    Respond with exactly one of: us / canada / international / unclear
 
 10. LOCATION: Normalized display location. Use the description to confirm or correct the ATS location field.
