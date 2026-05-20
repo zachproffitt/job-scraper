@@ -3880,10 +3880,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "Pear-VC",
     "name": "Spur",
-    "summary": "Spur builds testing infrastructure and observability tools designed to help development teams validate and monitor their applications across different environments and conditions. The company operates in the software development and quality assurance domain, focusing on making it easier for engineers to catch bugs and performance issues before code reaches production.",
-    "ats": "ashby"
+    "summary": "Spur is an agentic QA platform that tests e-commerce sites end-to-end to catch bugs before customers encounter them.",
+    "source": "meta_description"
   },
   {
     "slug": "stack-ai",
@@ -8961,10 +8962,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "qualified",
     "name": "Qualified",
-    "summary": "Qualified builds a conversational AI platform that helps B2B companies identify and engage sales-qualified leads through chat, messaging, and video conversations on their websites. The company operates in the sales enablement and lead intelligence space, serving primarily mid-market and enterprise software organizations.",
-    "ats": "ashby"
+    "summary": "Qualified offers Piper, an AI sales development representative agent that converts inbound leads for B2B companies.",
+    "source": "meta_description"
   },
   {
     "slug": "workboard",
@@ -9129,10 +9131,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "bamboo",
     "slug": "safetychain",
     "name": "SafetyChain Software",
-    "summary": "SafetyChain Software provides a cloud-based quality and food safety management platform that helps food and beverage manufacturers track compliance, manage audits, and monitor supplier quality throughout their supply chain.",
-    "ats": "bamboo"
+    "summary": "SafetyChain Software builds a digital plant management platform that helps companies manage compliance, quality, and operations while reducing waste and improving safety and efficiency.",
+    "source": "meta_description"
   },
   {
     "slug": "salesscreen",
