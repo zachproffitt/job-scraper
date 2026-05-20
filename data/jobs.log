@@ -1,4 +1,4 @@
-[2026-05-20T00:29:16Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T00:29:58Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T01:00:06Z] fetch_jobs: scraper error for Demisto (workday/paloaltonetworks/wd5/panwexternalcareers): Workday request failed for paloaltonetworks/wd5/panwexternalcareers: Server error '502 Bad Gateway' for url 'https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-05-20T01:01:45Z] fetch_jobs: scraper error for Microsoft (eightfold/apply.careers.microsoft.com|microsoft.com): Eightfold request failed for apply.careers.microsoft.com|microsoft.com: Client error '429 TOO MANY REQUESTS' for url 'https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&start=1200&num=20'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
