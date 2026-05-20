@@ -16,6 +16,7 @@ from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, estimate_c
 
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
+TITLE_SKIP_FILE = Path(__file__).parent.parent / "data" / "job_title_skip_patterns.json"
 LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
 WORKERS = 5 if BACKEND == "claude" else 2
@@ -233,6 +234,15 @@ USER_TEMPLATE = """\
 
 CLASSIFY_VERSION = "2"  # bump to force re-classification of all jobs
 
+_TITLE_SKIP_PATTERNS: tuple[str, ...] = tuple(
+    json.loads(TITLE_SKIP_FILE.read_text()) if TITLE_SKIP_FILE.exists() else []
+)
+
+
+def title_is_skip(title: str) -> bool:
+    t = title.lower()
+    return any(p in t for p in _TITLE_SKIP_PATTERNS)
+
 
 def content_hash(job: dict) -> str:
     key = f"v{CLASSIFY_VERSION}:{job['id']}:{job['title']}:{job.get('raw_text', '')[:200]}:{job.get('location', '')}"
@@ -338,16 +348,31 @@ def main():
             return False  # already classified; use --all to reclassify
         return j.get("first_seen") == today
 
-    with_desc = [
-        j for j in jobs
-        if (j.get("raw_text") or "").strip() and needs_work(j)
-    ]
+    pending = [j for j in jobs if (j.get("raw_text") or "").strip() and needs_work(j)]
+    title_skipped = [j for j in pending if title_is_skip(j["title"])]
+    with_desc = [j for j in pending if not title_is_skip(j["title"])]
     without_desc = sum(1 for j in jobs if not (j.get("raw_text") or "").strip())
+
+    for job in title_skipped:
+        existing[job["id"]] = {
+            "is_engineering": False,
+            "is_contract": False,
+            "is_hybrid": False,
+            "region": "unclear",
+            "location": None,
+            "job_summary": None,
+            "skills": [],
+            "level": None,
+            "comp": None,
+            "comp_extras": [],
+            "source_hash": content_hash(job),
+        }
+        print(f"  [title-skip] {job['company']}: {job['title']}")
 
     with_desc.sort(key=lambda j: 0 if j.get("first_seen") == today else 1)
 
-    print(f"Backend: {BACKEND} ({'Claude ' + CLAUDE_MODEL if BACKEND == 'claude' else 'Ollama ' + OLLAMA_MODEL})")
-    print(f"{len(with_desc)} jobs to classify today, {without_desc} skipped (no description)")
+    print(f"\nBackend: {BACKEND} ({'Claude ' + CLAUDE_MODEL if BACKEND == 'claude' else 'Ollama ' + OLLAMA_MODEL})")
+    print(f"{len(with_desc)} jobs to classify, {len(title_skipped)} title-skipped, {without_desc} skipped (no description)")
     print(f"Workers: {WORKERS}\n")
 
     if not with_desc:
@@ -424,6 +449,7 @@ def main():
     usage = get_usage()
     stats = {
         "classified": len(with_desc),
+        "title_skipped": len(title_skipped),
         "skipped_no_desc": without_desc,
         "errors": errors,
         **usage,
