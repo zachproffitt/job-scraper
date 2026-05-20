@@ -92265,5 +92265,262 @@
       "equity"
     ],
     "source_hash": "8e3ab67e"
+  },
+  "smartrecruiters-Eurofins-744000127320429": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0aee3596"
+  },
+  "greenhouse-gusto-6650804": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5d7c67e0"
+  },
+  "workday-hubinternational-Account-Manager---Commercial-Insurance_R0036548": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "09752985"
+  },
+  "ashby-rillet-74b55e4d-be0f-42df-a6ed-c92c3dcb8f01": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4a58201f"
+  },
+  "smartrecruiters-Eurofins-744000127319239": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Saint Charles, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ae9461da"
+  },
+  "greenhouse-instacart-7944564": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$155,000\u2014$195,500",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "e7822de5"
+  },
+  "ashby-instructure-cf413f81-c341-47d6-acef-386999ffb81f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Remote / United Kingdom",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "aa98ef47"
+  },
+  "workday-gdit-Senior-Cybersecurity-Engineer---Zero-Trust_RQ219448-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design, implement, and optimize Zero Trust Architecture and enterprise security platforms (SOAR, SIEM, PAM) for federal cybersecurity operations. Requires hands-on experience with Palo Alto technologies and security orchestration platforms; US citizenship and ability to obtain Public Trust 6C clearance required.",
+    "skills": [
+      "Palo Alto Networks",
+      "Zero Trust Architecture",
+      "SOAR",
+      "SIEM",
+      "PAM",
+      "Network Security",
+      "Cybersecurity",
+      "Public Trust 6C Clearance"
+    ],
+    "level": "senior",
+    "comp": "$149,469-$184,000",
+    "comp_extras": [],
+    "source_hash": "5693fed4"
+  },
+  "ashby-paddle-d75ec888-6ccd-4fa0-83d1-24d81d663e15": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "47268268"
+  },
+  "workday-otis-Communications-Business-Partner-----_20160173": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Seoul, Korea",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "42ad7cb8"
+  },
+  "workday-sec-Engineer--GPU-RTL-Design---Pixel-Pipe_R117210-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Jose, CA",
+    "job_summary": "Design and develop RTL blocks for Samsung's next-generation mobile GPU, focusing on pixel pipeline and graphics processing stages. Work on microarchitecture definition and implementation for high-performance graphics IP shipping in premium smartphones; requires export control eligibility.",
+    "skills": [
+      "Verilog",
+      "SystemVerilog",
+      "GPU Architecture",
+      "RTL Design",
+      "ASIC Design",
+      "Graphics Processing",
+      "Synthesis",
+      "Timing Analysis"
+    ],
+    "level": "junior",
+    "comp": "$116k-$174k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "da576a7d"
+  },
+  "workday-logitech-Sr-Total-Rewards-Analyst_146704": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "6764b97e"
+  },
+  "greenhouse-trueanomalyinc-5140261007": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Lead the design and delivery of electrical ground support equipment (EGSE) racks and test enclosures for spacecraft, owning mechanical layout, electrical schematics, and harness design from requirements through first article build. Requires hands-on expertise in rack-level power and data architecture, signal integrity, and HIL test systems in a defense aerospace environment subject to ITAR export control.",
+    "skills": [
+      "EGSE",
+      "Harness Design",
+      "Oscilloscope",
+      "Altium",
+      "SolidWorks",
+      "Python",
+      "ITAR",
+      "Aerospace"
+    ],
+    "level": "manager",
+    "comp": "$150k-$230k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "94152106"
+  },
+  "workday-jll-Regional-Operations-Lead---Pacific_REQ506727": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Canberra, ACT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "927a35d2"
+  },
+  "workday-tapestry-Sales-Associate-II_JR2830": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Petaluma, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$24.25",
+    "comp_extras": [],
+    "source_hash": "6ee32ef9"
+  },
+  "workday-tapestry-Temporary-Associate_JR5448": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cabazon, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$24.25",
+    "comp_extras": [],
+    "source_hash": "bb4749e0"
+  },
+  "workday-visa-Senior-Manager--Events-Marketing_REF082326W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Sydney, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "286a7b3b"
   }
 }
