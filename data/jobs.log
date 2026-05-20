@@ -1,6 +1,3 @@
-[2026-05-20T05:35:08Z] fetch_jobs: scraper error for Insureon (workday/hubinternational/wd1/HUBInternational): Workday request failed for hubinternational/wd1/HUBInternational: Server error '502 Bad Gateway' for url 'https://hubinternational.wd1.myworkdayjobs.com/wday/cxs/hubinternational/HUBInternational/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-20T05:44:12Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T05:44:31Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T07:33:34Z] fetch_jobs: scraper error for Airbus Helicopters (workday/ag/wd3/Airbus): Workday request failed for ag/wd3/Airbus: The read operation timed out
+[2026-05-20T07:34:12Z] fetch_jobs: scraper error for Prox (ashby/prox): Ashby request failed for prox: The read operation timed out
+[2026-05-20T07:34:24Z] fetch_jobs: scraper error for Saronic (ashby/saronic): Ashby request failed for saronic: The read operation timed out
