@@ -300,11 +300,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Kodiak Robotics",
+    "ats": "greenhouse",
     "slug": "kodiak",
-    "summary": "Kodiak Robotics builds the Kodiak Driver, an autonomous driving technology that integrates into any driving platform for reliable movement in any environment.",
-    "source_hash": "ead89c1d",
-    "ats": "greenhouse"
+    "name": "Kodiak Robotics",
+    "summary": "Kodiak Robotics develops the Kodiak Driver, an autonomous vehicle system that integrates into driving platforms to enable driverless operation in various environments.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -1726,10 +1726,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "osano",
-    "name": "Osano",
-    "summary": "Osano builds privacy compliance software that helps organizations manage data protection requirements across multiple regulations including GDPR, CCPA, and other privacy laws. The company operates in the legal technology and data governance domain, providing tools for privacy impact assessments, consent management, and regulatory compliance tracking.",
-    "ats": "greenhouse"
+    "name": "Wirewheel",
+    "summary": "Osano helps organizations build, manage, and scale their privacy programs to comply with regulations including GDPR and CPRA.",
+    "source": "meta_description"
   },
   {
     "slug": "transcendinc",
@@ -2846,10 +2847,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "hudu",
     "name": "Hudu",
-    "summary": "Hudu builds a documentation and knowledge management platform designed specifically for managed service providers (MSPs) and IT service companies to centralize and organize their technical documentation, client information, and internal processes. The platform operates in the IT service management and business operations software domain, helping service providers streamline their documentation workflows and improve client deliverability.",
-    "ats": "ashby"
+    "summary": "Hudu builds a documentation and workflow platform for operations teams to manage standard operating procedures, runbooks, and team workflows.",
+    "source": "meta_description"
   },
   {
     "slug": "humaans",
@@ -3351,10 +3353,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "Osmind",
     "name": "Osmind",
-    "summary": "Osmind develops machine learning software that analyzes brain imaging data to support psychiatric and neurological diagnosis and treatment planning. The company operates in the digital mental health and neurotechnology domain, focusing on making brain imaging more interpretable and clinically useful for healthcare providers.",
-    "ats": "lever"
+    "summary": "Osmind provides an electronic health record system, billing software, and operates a network of over 1,000 psychiatric practices that deliver treatments including Spravato, transcranial magnetic stimulation, vagus nerve stimulation, ketamine, and other psychiatric interventions.",
+    "source": "meta_description"
   },
   {
     "slug": "output",
@@ -3363,10 +3366,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "outschool",
     "name": "Outschool",
-    "summary": "Outschool operates an online marketplace that connects students with independent teachers offering live, small-group and one-on-one classes across a wide range of subjects including academic tutoring, arts, music, coding, and enrichment topics. The platform serves school-age learners whose parents seek alternatives to traditional classroom instruction or supplemental educational experiences.",
-    "ats": "greenhouse"
+    "summary": "Outschool operates an online platform that connects learners with teachers to offer live online classes covering homeschooling, enrichment learning, and academic subjects. The platform has served over 1 million learners and generated more than $100 million in annual bookings since launching in 2017.",
+    "source": "job_posting"
   },
   {
     "slug": "outset",
