@@ -873,10 +873,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "blacksky",
     "name": "BlackSky",
-    "summary": "# BlackSky\n\nBlackSky operates a constellation of small satellites that capture high-resolution imagery and monitor activity on Earth's surface, providing geospatial intelligence data to government and commercial customers. The company focuses on real-time change detection and monitoring capabilities for applications including infrastructure assessment, disaster response, and supply chain visibility.",
-    "ats": "greenhouse"
+    "summary": "BlackSky owns and operates a space-based intelligence platform that provides satellite imagery, automated analytics, and monitoring of global locations and events to government and commercial customers. The company assembles, integrates, and tests satellites for delivery.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -1346,10 +1347,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "keepersecurity",
     "name": "Keeper Security",
-    "summary": "Keeper Security builds a password manager and identity and access management platform that stores encrypted passwords, credentials, and secrets for individuals and enterprises. The company operates in the cybersecurity software domain, specifically in credential management and secure authentication solutions.",
-    "ats": "greenhouse"
+    "summary": "Keeper Security provides a unified control platform for managing privileged access, secrets, remote connections, endpoints, and databases using zero-trust security principles.",
+    "source": "meta_description"
   },
   {
     "slug": "trm-labs",
@@ -2575,10 +2577,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "firecrawl",
     "name": "Firecrawl",
-    "summary": "Firecrawl builds an API platform that converts websites into clean, structured data suitable for use with large language models and other AI applications. The service operates in the web scraping and data extraction domain, enabling developers to programmatically access and process web content without managing the complexity of browser automation or handling dynamic JavaScript-rendered pages.",
-    "ats": "ashby"
+    "summary": "Firecrawl provides an API for searching, scraping, and interacting with web content at scale, delivering cleaned web data to AI agents and builders.",
+    "source": "meta_description"
   },
   {
     "slug": "firstbaseio",
@@ -2982,10 +2985,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "lago",
     "name": "Lago",
-    "summary": "Lago builds an open-source billing and metering platform that helps SaaS companies and subscription businesses manage complex pricing models, usage tracking, and invoice generation. The platform operates in the domain of billing infrastructure and revenue operations, serving as a backend system for companies that need to implement consumption-based, tiered, or hybrid pricing structures.",
-    "ats": "ashby"
+    "summary": "Lago provides event-driven usage metering and billing software for AI and tech businesses, available as both open-source and cloud versions.",
+    "source": "meta_description"
   },
   {
     "slug": "lancedb",
@@ -4933,10 +4937,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "stackadapt",
     "name": "StackAdapt",
-    "summary": "StackAdapt is a programmatic advertising platform that enables advertisers and agencies to buy display, video, and native ads across web and mobile channels. The platform uses machine learning to optimize ad placements and performance across publisher networks and exchanges in real time.",
-    "ats": "greenhouse"
+    "summary": "StackAdapt is an AI-powered marketing platform used by digital marketers.",
+    "source": "meta_description"
   },
   {
     "slug": "tacto",
@@ -5265,10 +5270,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "paloaltonetworks/wd5/panwexternalcareers",
-    "name": "Palo Alto Networks",
-    "summary": "Palo Alto Networks builds enterprise cybersecurity platforms and services including firewalls, cloud security, endpoint protection, and threat intelligence solutions. The company operates in the information security domain, serving organizations to protect their networks, cloud environments, and endpoints against cyber threats.",
-    "ats": "workday"
+    "name": "Sinefa",
+    "summary": "Sinefa provides autonomous digital experience management and digital experience monitoring software, as well as Prisma Access, SASE, Prisma SD-WAN, and user experience solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "devoted/wd1/Devoted",
@@ -5307,10 +5313,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "ffive/wd5/f5jobs",
     "name": "F5 Networks",
-    "summary": "F5 Networks builds application delivery and security software and hardware that optimize, protect, and enable applications across on-premises, cloud, and edge environments. The company provides solutions for load balancing, application performance management, distributed denial-of-service protection, and API security across enterprise, service provider, and cloud infrastructure domains.",
-    "ats": "workday"
+    "summary": "F5 Networks provides application services that ensure applications remain secure and perform consistently across any environment and device.",
+    "source": "meta_description"
   },
   {
     "slug": "flaviar",
@@ -7094,10 +7101,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "commerceiq",
     "name": "CommerceIQ",
-    "summary": "CommerceIQ provides software and services that help brands and retailers optimize their product listings, pricing, and advertising across Amazon and other e-commerce marketplaces. The platform uses data analytics and automation to improve visibility, conversion rates, and profitability for sellers on major online retail channels.",
-    "ats": "greenhouse"
+    "summary": "CommerceIQ provides a unified AI platform that helps retailers streamline sales, media, and shelf operations.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -7751,10 +7759,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "greenhouse",
     "slug": "goguardian",
     "name": "GoGuardian",
-    "summary": "GoGuardian provides cloud-based student safety and digital citizenship solutions for K-12 schools, offering tools for content filtering, device management, and monitoring to help educators keep students safe online while they learn.",
-    "ats": "greenhouse"
+    "summary": "GoGuardian provides tools to K-12 schools for student safety and learning engagement.",
+    "source": "meta_description"
   },
   {
     "slug": "gomaterials",
@@ -7952,10 +7961,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "incode",
     "name": "Incode Technologies",
-    "summary": "Incode Technologies builds identity verification and digital onboarding software using artificial intelligence and biometric technology, serving financial institutions, cryptocurrency platforms, and other organizations that need to verify customer identities and prevent fraud.",
-    "ats": "greenhouse"
+    "summary": "Incode Technologies provides identity verification and fraud prevention services using AI technology, offering secure onboarding, authentication, and KYC compliance solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "InformaGroupPlc",
@@ -8388,10 +8398,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "medable/wd503/explore-career-opportunities",
     "name": "Medable",
-    "summary": "Medable builds a cloud-based clinical trial platform that enables sponsors, CROs, and sites to conduct decentralized and hybrid clinical trials with integrated patient engagement, data collection, and regulatory compliance tools.",
-    "ats": "workday"
+    "summary": "Medable provides an AI trial platform and electronic clinical outcome assessment solutions for clinical trials.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -9480,10 +9491,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "syniverse/wd1/SyniverseCareers",
     "name": "Syniverse",
-    "summary": "Syniverse provides cloud-based telecommunications infrastructure and connectivity services that enable mobile operators, enterprises, and technology providers to manage roaming, messaging, and network interoperability across global telecom networks. The company operates as a critical intermediary in the telecom ecosystem, handling billions of transactions daily for voice, SMS, data, and IoT communications between carriers worldwide.",
-    "ats": "workday"
+    "summary": "Syniverse provides secure, scalable solutions for mobile operators and businesses worldwide.",
+    "source": "meta_description"
   },
   {
     "ats": "workday",

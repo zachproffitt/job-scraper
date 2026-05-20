@@ -2,3 +2,7 @@
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
 [2026-05-20T17:20:44Z] fetch_jobs: scraper error for CrowdStrike (workday/crowdstrike/wd5/crowdstrikecareers): Workday request failed for crowdstrike/wd5/crowdstrikecareers: Server error '502 Bad Gateway' for url 'https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-05-20T17:54:40Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T17:54:58Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
