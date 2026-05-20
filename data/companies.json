@@ -1276,7 +1276,7 @@
     "website": "https://athoc.com",
     "category": [],
     "meta_description": "Coordinate secure, two\u2011way communication with targeting and real\u2011time awareness during crises. See how AtHoc strengthens response. Request a demo.",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "Atlas",
@@ -3878,7 +3878,7 @@
     "website": "https://demisto.com",
     "category": [],
     "meta_description": "Automate security operations with Cortex XSOAR, unifying incident response, threat intel, and workflow automation to enhance SOC efficiency and reduce remediation time.",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "Demodesk",
@@ -3997,10 +3997,10 @@
     "status": "active"
   },
   {
-    "name": "Discover",
+    "name": "Capital One",
     "ats": "workday",
     "slug": "capitalone/wd12/Capital_One",
-    "website": "https://discover.com",
+    "website": "https://capitalone.com",
     "category": [],
     "meta_description": "Discover offers online banking, reward credit cards, home equity loans, and personal loans to help meet your financial needs.",
     "status": "active"
@@ -5264,7 +5264,7 @@
     "website": "https://frame.io",
     "category": [],
     "meta_description": "Frame.io centralizes all of your files, feedback, and people on one secure platform, so you can deliver exceptional creative faster.",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "Freenome",
@@ -5771,7 +5771,7 @@
     "slug": "grafanalabs",
     "website": "https://grafana.com",
     "meta_description": "Avoid lock-in and ensure reliability with Grafana Cloud. The AI-powered platform built on open standards unifies metrics, logs, traces, profiles, and business data.",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "Grafana Labs",
@@ -8150,10 +8150,10 @@
     "status": "active"
   },
   {
-    "name": "MANTL",
+    "name": "Alkami",
     "ats": "workday",
     "slug": "alkami/wd12/Alkami",
-    "website": "https://mantl.com",
+    "website": "https://alkami.com",
     "category": [],
     "meta_description": "MANTL helps banks and credit unions open more accounts across more channels with the highest-performing origination software on the market.",
     "status": "active"
@@ -12177,7 +12177,7 @@
     "website": "https://sinefa.com",
     "category": [],
     "meta_description": "Autonomous digital experience management, digital experience monitoring, Prisma Access, SASE, user experience, Prisma SD-WAN",
-    "status": "active"
+    "status": "inactive"
   },
   {
     "name": "SingleStore",
@@ -12945,10 +12945,10 @@
     "status": "active"
   },
   {
-    "name": "Streamlabs",
+    "name": "Logitech",
     "ats": "workday",
     "slug": "logitech/wd5/Logitech",
-    "website": "https://streamlabs.com",
+    "website": "https://logitech.com",
     "category": [],
     "meta_description": "The most popular streaming platform for Twitch, YouTube and Facebook. Cloud-based and used by 70% of Twitch. Grow with Streamlabs Desktop, alerts, 1000+ overlays, analytics, chatbot, tipping, merch and more.",
     "status": "active"
