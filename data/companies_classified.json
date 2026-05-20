@@ -7593,10 +7593,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "five9",
     "name": "Five9",
-    "summary": "Five9 provides cloud-based contact center software that enables businesses to manage inbound and outbound customer communications across voice, email, chat, and social channels. The platform serves enterprise and mid-market companies across industries like financial services, healthcare, retail, and technology with workforce management, quality assurance, and analytics capabilities.",
-    "ats": "greenhouse"
+    "summary": "Five9 provides cloud contact center and AI services for organizations.",
+    "source": "meta_description"
   },
   {
     "slug": "flowhub",
