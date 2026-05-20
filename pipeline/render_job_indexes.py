@@ -107,7 +107,8 @@ def format_meta(j: dict) -> str:
     if j["comp"]:
         parts.append(f"`{abbrev_comp(j['comp'])}`")
     for extra in j["comp_extras"]:
-        parts.append(f"`{extra.capitalize()}`")
+        if extra.lower() != "bonus":
+            parts.append(f"`{extra.capitalize()}`")
 
     return " · ".join(parts)
 
@@ -132,7 +133,8 @@ def format_job_meta(j: dict) -> str:
     if j["comp"]:
         parts.append(f"`{abbrev_comp(j['comp'])}`")
     for extra in j["comp_extras"]:
-        parts.append(f"`{extra.capitalize()}`")
+        if extra.lower() != "bonus":
+            parts.append(f"`{extra.capitalize()}`")
     return " · ".join(parts)
 
 
