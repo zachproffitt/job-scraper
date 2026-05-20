@@ -63,23 +63,23 @@ def call_llm(user_message: str) -> str:
     return chat(SYSTEM_PROMPT, user_message, max_tokens=150, log_error=log_error)
 
 
-def get_source(company: dict, jobs: list[dict], website: str) -> tuple[str, str]:
-    """Return (source_text, source_label) using priority chain. Returns ("", "") if none."""
+def get_sources(company: dict, jobs: list[dict]) -> list[tuple[str, str]]:
+    """Ordered list of (text, label) to try. Homepage excluded — fetched lazily as last resort."""
+    candidates = []
     if company.get("one_liner"):
-        return company["one_liner"], "one_liner"
-
+        candidates.append((company["one_liner"], "one_liner"))
     if company.get("meta_description"):
-        return company["meta_description"], "meta_description"
-
+        candidates.append((company["meta_description"], "meta_description"))
     sample = next((j for j in jobs if j.get("raw_text")), None)
     if sample:
-        return sample["raw_text"][:3000], "job_posting"
+        candidates.append((sample["raw_text"][:3000], "job_posting"))
+    return candidates
 
-    homepage_text = fetch_homepage(website)
-    if homepage_text:
-        return homepage_text, "homepage"
 
-    return "", ""
+def parse_llm_response(raw: str) -> str:
+    lines = [line for line in raw.splitlines() if not line.startswith("#")]
+    text = " ".join(line.strip() for line in lines if line.strip())
+    return "" if text.lower().strip() == "insufficient" else text
 
 
 SAVE_EVERY = 50  # checkpoint the cache to disk every N companies
@@ -173,30 +173,49 @@ def main():
         key: CompanyKey = (ats, slug)
 
         jobs = job_lookup.get(key, [])
-        source_text, source_label = get_source(company, jobs, website)
+        sources = get_sources(company, jobs)
 
-        if not source_text:
-            print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: no source available")
+        summary = source_label = None
+        api_error = False
+
+        for source_text, label in sources:
+            try:
+                summary = parse_llm_response(call_llm(f"Company: {name}\n\nSource:\n{source_text}"))
+            except Exception as e:
+                errors += 1
+                msg = f"{name}: {e}"
+                print(f"  [{i:>3}/{len(to_process)}] ERROR {msg}")
+                log_error(f"company error: {msg}")
+                api_error = True
+                break
+            if summary:
+                source_label = label
+                break
+
+        if not api_error and summary is None:
+            homepage_text = fetch_homepage(website)
+            if homepage_text:
+                try:
+                    summary = parse_llm_response(call_llm(f"Company: {name}\n\nSource:\n{homepage_text}"))
+                    if summary:
+                        source_label = "homepage"
+                except Exception as e:
+                    errors += 1
+                    msg = f"{name}: {e}"
+                    print(f"  [{i:>3}/{len(to_process)}] ERROR {msg}")
+                    log_error(f"company error: {msg}")
+                    api_error = True
+
+        if api_error:
             continue
 
-        user_message = f"Company: {name}\n\nSource:\n{source_text}"
+        if not summary:
+            reason = "no source available" if not sources and not website else "all sources insufficient"
+            print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: {reason}")
+            continue
 
-        try:
-            raw = call_llm(user_message)
-            lines = [line for line in raw.splitlines() if not line.startswith("#")]
-            summary = " ".join(line.strip() for line in lines if line.strip())
-
-            if not summary or summary.lower().strip() == "insufficient":
-                print(f"  [{i:>3}/{len(to_process)}] SKIP {name}: source insufficient ({source_label})")
-                continue
-
-            existing[key] = {"ats": ats, "slug": slug, "name": name, "summary": summary, "source": source_label}
-            print(f"  [{i:>3}/{len(to_process)}] {name} [{source_label}]: {summary[:80]}")
-        except Exception as e:
-            errors += 1
-            msg = f"{name}: {e}"
-            print(f"  [{i:>3}/{len(to_process)}] ERROR {msg}")
-            log_error(f"company error: {msg}")
+        existing[key] = {"ats": ats, "slug": slug, "name": name, "summary": summary, "source": source_label}
+        print(f"  [{i:>3}/{len(to_process)}] {name} [{source_label}]: {summary[:80]}")
 
         if i % SAVE_EVERY == 0:
             OUTPUT_FILE.write_text(json.dumps(list(existing.values()), indent=2))
