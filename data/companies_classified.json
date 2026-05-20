@@ -5721,10 +5721,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "trimble/wd1/TrimbleCareers",
     "name": "Trimble",
-    "summary": "Trimble develops software and hardware solutions for construction, agriculture, and transportation industries that use GPS, laser, and sensor technologies to improve productivity and accuracy in field operations. Their products include equipment positioning systems, fleet management software, and data collection tools used by construction firms, farmers, and logistics companies worldwide.",
-    "ats": "workday"
+    "summary": "Trimble builds data pipelines, analytics, and automation solutions on Snowflake that integrate with ERP and revenue accounting platforms to support enterprise financial and revenue processes. The company seeks a Senior Snowflake/AI Automation Engineer to design and optimize data models and workflows that automate revenue recognition, forecasting, and reporting while ensuring data accuracy and compliance with audit requirements.",
+    "source": "job_posting"
   },
   {
     "slug": "union54",
@@ -6084,10 +6085,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "thomsonreuters/wd5/External_Career_Site",
     "name": "Thomson Reuters",
-    "summary": "Thomson Reuters provides financial data, analytics, and workflow solutions to professionals in banking, legal, tax, accounting, and media sectors. The company operates through divisions that deliver real-time market information, legal research platforms, and enterprise software for risk management and compliance.",
-    "ats": "workday"
+    "summary": "Thomson Reuters provides technology solutions and content for professionals.",
+    "source": "meta_description"
   },
   {
     "slug": "jobs.dolby.com|theoplayer.com",
