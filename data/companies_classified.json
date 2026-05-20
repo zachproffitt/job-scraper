@@ -475,11 +475,11 @@
     "source": "job_posting"
   },
   {
-    "name": "Skydio",
+    "ats": "ashby",
     "slug": "skydio",
-    "summary": "Skydio develops autonomous drones using AI and advanced hardware for applications in energy, public safety, and defense.",
-    "source_hash": "754865fa",
-    "ats": "ashby"
+    "name": "Skydio",
+    "summary": "Skydio makes autonomous drones designed for users including utility inspectors, first responders, and military personnel. The company develops drone hardware, software, and cloud platforms that enable remote drone operations for emergency response and public safety applications.",
+    "source": "job_posting"
   },
   {
     "name": "Sofar Ocean",
@@ -608,11 +608,11 @@
     "ats": "greenhouse"
   },
   {
-    "name": "TerraPower",
+    "ats": "greenhouse",
     "slug": "terrapowerllc",
-    "summary": "TerraPower develops nuclear reactor and storage technologies and advances cancer treatment methods.",
-    "source_hash": "f9589c2e",
-    "ats": "greenhouse"
+    "name": "TerraPower",
+    "summary": "TerraPower develops nuclear reactor and storage technology, and advances methods to treat cancer.",
+    "source": "meta_description"
   },
   {
     "name": "Second Dinner",
@@ -1119,10 +1119,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "planetscale",
     "name": "PlanetScale",
-    "summary": "PlanetScale builds a MySQL-compatible serverless database platform that handles automatic scaling, branching, and deployment features. They operate in the cloud database infrastructure space, providing MySQL as a service with a focus on developer experience and operational simplicity.",
-    "ats": "greenhouse"
+    "summary": "PlanetScale offers cloud hosting for Vitess and Postgres databases.",
+    "source": "meta_description"
   },
   {
     "slug": "prefect",
@@ -5126,10 +5127,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "bigcommerce/wd12/Commerce",
-    "name": "BigCommerce",
-    "summary": "BigCommerce is a cloud-based e-commerce platform that enables businesses to build and manage online stores with features including product catalogs, shopping carts, payment processing, and order management. The company serves retailers of all sizes across various industries, from small independent sellers to large enterprise merchants.",
-    "ats": "workday"
+    "name": "Feedonomics",
+    "summary": "Feedonomics optimizes product feed data to display products across multiple shopping discovery channels.",
+    "source": "meta_description"
   },
   {
     "slug": "bios-3",
@@ -5976,10 +5978,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "workday",
     "slug": "relx/wd3/LexisNexisLegal",
     "name": "LexisNexis",
-    "summary": "LexisNexis provides legal research, business intelligence, and risk assessment solutions to law firms, corporations, government agencies, and other professional services firms. The company operates in the legal technology and data analytics domain, offering comprehensive databases of case law, statutes, regulations, and business information alongside software tools for legal research, document management, and compliance.",
-    "ats": "workday"
+    "summary": "LexisNexis provides legal, government, business, and high-tech information sources.",
+    "source": "meta_description"
   },
   {
     "slug": "lilt-corporate",
@@ -8283,10 +8286,11 @@
     "ats": "lever"
   },
   {
+    "ats": "workday",
     "slug": "liveramp/wd5/LiveRampCareers",
     "name": "LiveRamp",
-    "summary": "LiveRamp provides data connectivity and identity resolution software that enables advertisers, publishers, and platforms to connect, activate, and measure marketing campaigns across digital channels using privacy-compliant customer data matching and audience insights.",
-    "ats": "workday"
+    "summary": "LiveRamp operates a data collaboration network that connects marketing signals, agents, and platforms to help businesses reach customers and measure marketing impact.",
+    "source": "meta_description"
   },
   {
     "slug": "loancrate",
@@ -9505,10 +9509,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "talkiatry",
     "name": "Talkiatry",
-    "summary": "Talkiatry is a telehealth platform that connects patients with psychiatrists for virtual psychiatric evaluations and medication management. The service operates in the mental health and digital healthcare space, enabling patients to access psychiatric care remotely without traditional office visits.",
-    "ats": "ashby"
+    "summary": "Talkiatry provides online psychiatry services that accept insurance and treat conditions including ADHD and anxiety.",
+    "source": "meta_description"
   },
   {
     "slug": "talkspace",
