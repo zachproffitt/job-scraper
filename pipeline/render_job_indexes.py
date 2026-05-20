@@ -95,26 +95,29 @@ def format_meta(j: dict) -> str:
     is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
     location = clean_location(location, is_remote=is_remote, expand_state=j.get("region") == "us")
 
-    parts = [f"**{j['company']}**"]
+    text_parts = [f"**{j['company']}**"]
     if location and location.lower() != "remote":
-        parts.append(location)
+        text_parts.append(location)
+
+    chips = []
     if is_remote:
-        parts.append(REMOTE_BADGE)
+        chips.append(REMOTE_BADGE)
     elif j["hybrid"] == "yes":
-        parts.append(HYBRID_BADGE)
+        chips.append(HYBRID_BADGE)
     if j["level"] and j["level"] not in ("unclear", ""):
-        parts.append(f"`{j['level'].capitalize()}`")
+        chips.append(f"`{j['level'].capitalize()}`")
     if j["comp"]:
-        parts.append(f"`{abbrev_comp(j['comp'])}`")
+        chips.append(f"`{abbrev_comp(j['comp'])}`")
     for extra in j["comp_extras"]:
         if extra.lower() != "bonus":
-            parts.append(f"`{extra.capitalize()}`")
+            chips.append(f"`{extra.capitalize()}`")
 
-    return " · ".join(parts)
+    text = " · ".join(text_parts)
+    return (text + " · " + " ".join(chips)) if chips else text
 
 
 def format_job_meta(j: dict) -> str:
-    parts = []
+    text_parts = []
     location = j["location_raw"]
     if " | " in location:
         location = location.split(" | ")[0].strip()
@@ -123,19 +126,22 @@ def format_job_meta(j: dict) -> str:
     if location and location != "Not specified":
         location = clean_location(location, is_remote=is_remote, expand_state=j.get("region") == "us")
         if location and location.lower() != "remote":
-            parts.append(location)
+            text_parts.append(location)
+
+    chips = []
     if is_remote:
-        parts.append(REMOTE_BADGE)
+        chips.append(REMOTE_BADGE)
     elif is_hybrid:
-        parts.append(HYBRID_BADGE)
+        chips.append(HYBRID_BADGE)
     if j["level"] and j["level"] not in ("unclear", ""):
-        parts.append(f"`{j['level'].capitalize()}`")
+        chips.append(f"`{j['level'].capitalize()}`")
     if j["comp"]:
-        parts.append(f"`{abbrev_comp(j['comp'])}`")
+        chips.append(f"`{abbrev_comp(j['comp'])}`")
     for extra in j["comp_extras"]:
         if extra.lower() != "bonus":
-            parts.append(f"`{extra.capitalize()}`")
-    return " · ".join(parts)
+            chips.append(f"`{extra.capitalize()}`")
+    text = " · ".join(text_parts)
+    return (text + " · " + " ".join(chips)) if chips else text
 
 
 def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
