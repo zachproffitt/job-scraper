@@ -86,24 +86,25 @@ def collect_jobs() -> tuple[list[dict], dict[str, str]]:
 
 
 def format_meta(j: dict) -> str:
-    location = j["location_raw"]
-    if " | " in location:
-        location = location.split(" | ")[0].strip()
-    if location in ("Not specified", ""):
-        location = ""
-
-    is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
-    location = clean_location(location, is_remote=is_remote, expand_state=j.get("region") == "us")
+    raw_location = j["location_raw"]
+    location_parts = [p.strip() for p in raw_location.split(" | ")] if " | " in raw_location else [raw_location]
+    location_parts = [p for p in location_parts if p and p not in ("Not specified", "")]
+    is_remote = j["remote_str"] == "Remote" or any(p.lower() == "remote" for p in location_parts)
+    cleaned = [
+        clean_location(p, is_remote=False, expand_state=j.get("region") == "us")
+        for p in location_parts if p.lower() != "remote"
+    ]
+    location = " / ".join(p for p in cleaned if p)
 
     text_parts = [f"**{j['company']}**"]
-    if location and location.lower() != "remote":
+    if location:
         text_parts.append(location)
+    if is_remote:
+        text_parts.append(REMOTE_BADGE)
+    elif j["hybrid"] == "yes":
+        text_parts.append(HYBRID_BADGE)
 
     chips = []
-    if is_remote:
-        chips.append(REMOTE_BADGE)
-    elif j["hybrid"] == "yes":
-        chips.append(HYBRID_BADGE)
     if j["level"] and j["level"] not in ("unclear", ""):
         chips.append(f"`{j['level'].capitalize()}`")
     if j["comp"]:
@@ -117,22 +118,26 @@ def format_meta(j: dict) -> str:
 
 
 def format_job_meta(j: dict) -> str:
-    text_parts = []
-    location = j["location_raw"]
-    if " | " in location:
-        location = location.split(" | ")[0].strip()
-    is_remote = j["remote_str"] == "Remote" or location.lower() == "remote"
+    raw_location = j["location_raw"]
+    location_parts = [p.strip() for p in raw_location.split(" | ")] if " | " in raw_location else [raw_location]
+    location_parts = [p for p in location_parts if p and p not in ("Not specified", "")]
+    is_remote = j["remote_str"] == "Remote" or any(p.lower() == "remote" for p in location_parts)
     is_hybrid = j["hybrid"] == "yes"
-    if location and location != "Not specified":
-        location = clean_location(location, is_remote=is_remote, expand_state=j.get("region") == "us")
-        if location and location.lower() != "remote":
-            text_parts.append(location)
+    cleaned = [
+        clean_location(p, is_remote=False, expand_state=j.get("region") == "us")
+        for p in location_parts if p.lower() != "remote"
+    ]
+    location = " / ".join(p for p in cleaned if p)
+
+    text_parts = []
+    if location:
+        text_parts.append(location)
+    if is_remote:
+        text_parts.append(REMOTE_BADGE)
+    elif is_hybrid:
+        text_parts.append(HYBRID_BADGE)
 
     chips = []
-    if is_remote:
-        chips.append(REMOTE_BADGE)
-    elif is_hybrid:
-        chips.append(HYBRID_BADGE)
     if j["level"] and j["level"] not in ("unclear", ""):
         chips.append(f"`{j['level'].capitalize()}`")
     if j["comp"]:
@@ -140,8 +145,12 @@ def format_job_meta(j: dict) -> str:
     for extra in j["comp_extras"]:
         if extra.lower() != "bonus":
             chips.append(f"`{extra.capitalize()}`")
+
     text = " · ".join(text_parts)
-    return (text + " · " + " ".join(chips)) if chips else text
+    chips_str = " ".join(chips)
+    if text and chips_str:
+        return text + " · " + chips_str
+    return text or chips_str
 
 
 def render_index(jobs: list[dict], company_logos: dict[str, str], company_count: int,
