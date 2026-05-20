@@ -7594,10 +7594,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "greenhouse",
     "slug": "federato",
     "name": "Federato",
-    "summary": "Federato builds a platform for managing and orchestrating federated learning workflows across distributed data sources and infrastructure. The company enables organizations to train machine learning models collaboratively while keeping data decentralized and maintaining privacy compliance.",
-    "ats": "greenhouse"
+    "summary": "Federato builds an AI-native insurance platform that handles the full policy lifecycle, including risk assessment, quoting, and portfolio management.",
+    "source": "meta_description"
   },
   {
     "slug": "fetchrewards",
@@ -9171,10 +9172,11 @@
     "ats": "workable"
   },
   {
+    "ats": "workday",
     "slug": "lnw/wd5/SciPlayExternalCareersSite",
     "name": "SciPlay",
-    "summary": "SciPlay develops and publishes digital games focused on puzzle and casual gaming genres, operating primarily through mobile platforms and web browsers with titles designed to appeal to mass-market audiences seeking entertainment and mental stimulation.",
-    "ats": "workday"
+    "summary": "SciPlay makes social casino and casual games.",
+    "source": "meta_description"
   },
   {
     "slug": "screencastify",
