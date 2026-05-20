@@ -92084,5 +92084,186 @@
       "equity"
     ],
     "source_hash": "ffc79db9"
+  },
+  "greenhouse-airbnb-7944540": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5aab93a0"
+  },
+  "greenhouse-anthropic-5183021008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$315k-$365k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c9b6547b"
+  },
+  "greenhouse-cloudflare-7606240": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX / San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$48k",
+    "comp_extras": [],
+    "source_hash": "33df3ab6"
+  },
+  "workday-gdit-Systems-Technician--TS-SCI-with-polygraph_RQ220426-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Springfield, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$70.7k-$95.7k",
+    "comp_extras": [],
+    "source_hash": "c27bd4f5"
+  },
+  "greenhouse-reddit-7863304": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Lead measurement strategy and analytics for Reddit's user safety initiatives\u2014defining metrics, frameworks, and dashboards that quantify safety experiences at scale. Design causal inference experiments and build statistical/ML models to evaluate the impact of safety product launches and enforcement changes, guiding strategic decisions across the Safety org.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Statistics",
+      "Causal Inference",
+      "Machine Learning",
+      "Experimentation",
+      "GenAI"
+    ],
+    "level": "staff",
+    "comp": "$217,000\u2014$303,900",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "41bf0663"
+  },
+  "greenhouse-roblox-7940279": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Mateo, CA",
+    "job_summary": "Lead the Account Security team (7+ engineers) to build product and infrastructure systems that detect and mitigate account takeover across 100M+ monthly active accounts on Roblox's platform. Develop and execute account security strategy including cryptographic binding of user secrets to hardware, client-side tampering detection, passkeys integration, and post-login ATO detection models.",
+    "skills": [
+      "Account Security",
+      "Identity Management",
+      "Fraud Detection",
+      "Abuse Detection",
+      "Security Architecture",
+      "Cryptography"
+    ],
+    "level": "manager",
+    "comp": "$295,250-$345,040",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "361b02a4"
+  },
+  "greenhouse-spacex-8556521002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$135k-$190k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "dc05dd02"
+  },
+  "workday-sec-Principal-Engineer--GPU-Architect---Modeling_R117205": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Lead GPU architecture teams to define the vision, modeling strategy, and performance roadmap for Samsung's next-generation mobile GPUs, balancing performance, power, and area across memory systems, AI/ML acceleration, ray tracing, and shader/texture capabilities. Requires 12+ years of GPU architecture expertise and ability to influence cross-functional teams and executive strategy.",
+    "skills": [
+      "GPU Architecture",
+      "Performance Modeling",
+      "Memory Systems Design",
+      "Ray Tracing",
+      "AI/ML Acceleration",
+      "Shader Architecture",
+      "PPA Optimization",
+      "Microarchitectural Analysis"
+    ],
+    "level": "principal",
+    "comp": "$221700-$364800",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "c40761f7"
+  },
+  "ashby-vitalize-08d569f8-9f7f-413d-982d-1194499077f1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "659c50ae"
+  },
+  "workday-tmobile-Sr-Engineer--Enterprise-AI_REQ351961-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design, build, and deploy enterprise AI applications using LLMs, RAG pipelines, and agentic frameworks integrated with systems like Salesforce, ServiceNow, and Snowflake. Build scalable AI-enabled services and autonomous agents that improve employee productivity across T-Mobile's enterprise environment.",
+    "skills": [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "RAG",
+      "Vector Databases",
+      "Salesforce",
+      "ServiceNow",
+      "Snowflake"
+    ],
+    "level": "senior",
+    "comp": "$133,100-$240,100",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "8e3ab67e"
   }
 }
