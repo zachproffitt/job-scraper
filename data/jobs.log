@@ -1,4 +1,5 @@
-[2026-05-20T12:30:18Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T12:30:23Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T13:14:07Z] fetch_jobs: scraper error for Crystal Dynamics (greenhouse/crystaldynamics): Greenhouse request failed for crystaldynamics: The read operation timed out
+[2026-05-20T13:15:50Z] fetch_jobs: scraper error for Microsoft (eightfold/apply.careers.microsoft.com|microsoft.com): Eightfold request failed for apply.careers.microsoft.com|microsoft.com: Server error '504 Gateway Time-out' for url 'https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&start=200&num=20'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
+[2026-05-20T13:16:18Z] fetch_jobs: scraper error for Qualcomm (eightfold/careers.qualcomm.com|qualcomm.com): Eightfold request failed for careers.qualcomm.com|qualcomm.com: Client error '429 TOO MANY REQUESTS' for url 'https://careers.qualcomm.com/api/pcsx/search?domain=qualcomm.com&start=880&num=20'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
