@@ -1358,10 +1358,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "vectranetworks",
     "name": "Vectra AI",
-    "summary": "# Vectra AI\n\nVectra AI builds network detection and response (NDR) software that uses machine learning to identify and investigate suspicious activity and threats on enterprise networks. The company operates in the cybersecurity domain, specifically focused on threat detection across cloud and on-premises infrastructure.",
-    "ats": "greenhouse"
+    "summary": "Vectra AI provides network security products that detect and respond to attacks across network, identity, and cloud environments.",
+    "source": "meta_description"
   },
   {
     "slug": "anchorage",
@@ -4489,10 +4490,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "ashby",
     "slug": "1password",
     "name": "1Password",
-    "summary": "1Password builds a password manager and digital vault service that securely stores and manages passwords, credit cards, documents, and other sensitive information for individuals and teams. The company operates in the cybersecurity and identity management space, offering both consumer and enterprise solutions across multiple platforms.",
-    "ats": "ashby"
+    "summary": "1Password provides password and secrets management, app access management, and AI tool security for teams of various sizes.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -6177,10 +6179,11 @@
     "ats": "workable"
   },
   {
+    "ats": "workday",
     "slug": "jll/wd1/jllcareers",
     "name": "JLL",
-    "summary": "JLL is a professional services and investment management company that provides real estate services including leasing, sales, property management, valuation, and advisory services to occupiers, owners, and investors globally. They operate across commercial real estate, residential, hospitality, and infrastructure sectors, serving clients in more than 80 countries.",
-    "ats": "workday"
+    "summary": "JLL provides real estate services and solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "logiwacareers",
@@ -6459,10 +6462,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "workday",
     "slug": "amplify/wd1/Amplify_Careers",
     "name": "Amplify",
-    "summary": "Amplify builds a content management and marketing automation platform that helps educational publishers and edtech companies create, manage, and distribute digital learning content at scale.",
-    "ats": "workday"
+    "summary": "Amplify partners with K-12 teachers to provide curriculums and assessments for student learning.",
+    "source": "meta_description"
   },
   {
     "slug": "andplus",
