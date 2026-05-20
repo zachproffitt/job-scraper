@@ -3105,10 +3105,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "mem0",
     "name": "Mem0",
-    "summary": "Mem0 builds a memory layer for AI applications that enables large language models and AI agents to retain, recall, and learn from past interactions and context across conversations. The platform operates in the AI infrastructure domain, providing developers with tools to add persistent memory capabilities to chatbots, virtual assistants, and autonomous agents.",
-    "ats": "ashby"
+    "summary": "Mem0 develops a platform that enables AI agents to learn from past user interactions and improve their intelligence and personalization.",
+    "source": "meta_description"
   },
   {
     "slug": "mercura",
@@ -4834,10 +4835,11 @@
     "ats": "smartrecruiters"
   },
   {
+    "ats": "greenhouse",
     "slug": "pendo",
     "name": "Pendo",
-    "summary": "Pendo builds a product analytics and in-app guidance platform that helps software companies understand how users interact with their applications and deliver targeted experiences through in-app messaging, surveys, and walkthroughs.",
-    "ats": "greenhouse"
+    "summary": "Pendo provides an analytics and adoption platform that connects applications and agents to user success and business outcomes.",
+    "source": "meta_description"
   },
   {
     "slug": "pennylane",
@@ -5768,10 +5770,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "workday/wd5/Workday",
     "name": "Workday",
-    "summary": "Workday develops cloud-based enterprise resource planning and human capital management software that helps organizations manage their finances, human resources, planning, and analytics operations.",
-    "ats": "workday"
+    "summary": "Workday builds an AI platform for managing people, money, and agents. Paradox, acquired by Workday, provides a conversational recruiting platform that automates high-volume recruiting tasks such as interview scheduling, candidate screening, and answering candidate questions across mobile, chat, and SMS.",
+    "source": "job_posting"
   },
   {
     "slug": "writesonic",

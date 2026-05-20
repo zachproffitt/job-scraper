@@ -1,2 +1,6 @@
 [2026-05-20T03:21:53Z] fetch_jobs: scraper error for BigCommerce (workday/bigcommerce/wd12/Commerce): Workday request failed for bigcommerce/wd12/Commerce: The read operation timed out
 [2026-05-20T03:25:50Z] fetch_jobs: scraper error for T-Mobile (workday/tmobile/wd1/External): Workday request failed for tmobile/wd1/External: The read operation timed out
+[2026-05-20T03:31:44Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T03:32:08Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
