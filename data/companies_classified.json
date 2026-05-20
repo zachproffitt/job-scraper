@@ -828,10 +828,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "quaise",
     "name": "Quaise Energy",
-    "summary": "Quaise Energy develops millimeter-wave drilling technology to create geothermal wells at depths and temperatures significantly greater than conventional drilling allows, aiming to access geothermal resources for electricity generation and industrial heat applications.",
-    "ats": "greenhouse"
+    "summary": "Quaise Energy builds and operates millimeter-wave drilling technology to harness superhot geothermal energy from deep below the Earth's surface for power generation. The company develops high-power RF and millimeter-wave transmission systems and gyrotron sources to enable superhot geothermal energy production at scale.",
+    "source": "job_posting"
   },
   {
     "slug": "relaytherapeutics",
@@ -4362,10 +4363,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "greenhouse",
     "slug": "mongodb",
     "name": "MongoDB",
-    "summary": "MongoDB develops a NoSQL document database platform that stores data in flexible JSON-like documents rather than traditional relational tables, serving developers and enterprises across industries including financial services, healthcare, retail, and technology who need scalable database solutions with flexible schemas.",
-    "ats": "greenhouse"
+    "summary": "MongoDB develops a database platform that helps organizations store, manage, and access data across distributed systems.",
+    "source": "job_posting"
   },
   {
     "slug": "lyft",

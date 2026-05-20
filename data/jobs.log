@@ -1,2 +1,6 @@
 [2026-05-20T19:53:37Z] fetch_jobs: scraper error for Evisort (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: Server error '502 Bad Gateway' for url 'https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-05-20T20:11:02Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T20:11:15Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
