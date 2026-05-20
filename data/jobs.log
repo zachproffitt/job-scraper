@@ -3,3 +3,7 @@
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/504
 [2026-05-20T13:16:18Z] fetch_jobs: scraper error for Qualcomm (eightfold/careers.qualcomm.com|qualcomm.com): Eightfold request failed for careers.qualcomm.com|qualcomm.com: Client error '429 TOO MANY REQUESTS' for url 'https://careers.qualcomm.com/api/pcsx/search?domain=qualcomm.com&start=880&num=20'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+[2026-05-20T13:28:02Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T13:28:08Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403

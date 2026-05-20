@@ -5444,10 +5444,11 @@
     "ats": "eightfold"
   },
   {
+    "ats": "workday",
     "slug": "modernatx/wd1/M_tx",
     "name": "Moderna",
-    "summary": "Moderna develops messenger RNA (mRNA) therapeutics and vaccines for treating infectious diseases, oncology, and rare genetic disorders. The company designs, manufactures, and commercializes mRNA-based medicines, with its most notable product being the COVID-19 vaccine developed in partnership with the National Institute of Allergy and Infectious Diseases.",
-    "ats": "workday"
+    "summary": "Moderna develops messenger RNA (mRNA) therapeutics and vaccines.",
+    "source": "meta_description"
   },
   {
     "slug": "mrelief",
