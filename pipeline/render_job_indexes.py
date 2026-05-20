@@ -99,12 +99,12 @@ def format_meta(j: dict) -> str:
     text_parts = [f"**{j['company']}**"]
     if location:
         text_parts.append(location)
-    if is_remote:
-        text_parts.append(REMOTE_BADGE)
-    elif j["hybrid"] == "yes":
-        text_parts.append(HYBRID_BADGE)
 
     chips = []
+    if is_remote:
+        chips.append(REMOTE_BADGE)
+    elif j["hybrid"] == "yes":
+        chips.append(HYBRID_BADGE)
     if j["level"] and j["level"] not in ("unclear", ""):
         chips.append(f"`{j['level'].capitalize()}`")
     if j["comp"]:
@@ -132,12 +132,12 @@ def format_job_meta(j: dict) -> str:
     text_parts = []
     if location:
         text_parts.append(location)
-    if is_remote:
-        text_parts.append(REMOTE_BADGE)
-    elif is_hybrid:
-        text_parts.append(HYBRID_BADGE)
 
     chips = []
+    if is_remote:
+        chips.append(REMOTE_BADGE)
+    elif is_hybrid:
+        chips.append(HYBRID_BADGE)
     if j["level"] and j["level"] not in ("unclear", ""):
         chips.append(f"`{j['level'].capitalize()}`")
     if j["comp"]:

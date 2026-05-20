@@ -205,7 +205,7 @@ For each job posting, extract the following fields. Use judgment from the descri
    US on-site: "City, ST" using 2-letter state code (e.g. "Boulder, CO" · "New York, NY" · "San Francisco, CA")
    US remote: "Remote"
    International on-site: "City, Country" (e.g. "London, UK" · "Berlin, Germany" · "Toronto, Canada")
-   Multiple locations: join with " / " (e.g. "New York, NY / Remote" · "San Francisco, CA / New York, NY")
+   Multiple locations: join all with " / " — never abbreviate to "N locations" (e.g. "New York, NY / Austin, TX / Remote" · "San Francisco, CA / New York, NY / Seattle, WA")
    "Remote, US" or "United States - Remote" → Remote
    If location cannot be determined from the posting: n/a
 
