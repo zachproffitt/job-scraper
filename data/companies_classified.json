@@ -1188,10 +1188,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "reddit",
     "name": "Reddit",
-    "summary": "Reddit builds and operates an online discussion platform where users create communities (subreddits) centered around topics of interest, post content, and engage in threaded conversations. The platform generates revenue primarily through advertising and premium subscription services.",
-    "ats": "greenhouse"
+    "summary": "Reddit is a community platform where users submit, vote, and comment on topics across more than 100,000 active communities, serving approximately 126 million daily active unique visitors. The company operates a Trust & Safety organization that works to protect users from harmful content and behaviors across the site.",
+    "source": "job_posting"
   },
   {
     "slug": "zwift",
@@ -5809,10 +5810,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "perplexity",
     "name": "Perplexity",
-    "summary": "Perplexity is an AI-powered search engine that provides direct answers to user queries by synthesizing information from across the web in real-time. The platform operates in the conversational AI and search technology space, offering an alternative to traditional search engines through a chat-based interface that cites sources and explains its reasoning.",
-    "ats": "ashby"
+    "summary": "Perplexity builds an AI search and productivity tool that serves enterprise customers through a scaled customer success model focused on onboarding, adoption, retention, and expansion across SMB and Mid-Market accounts.",
+    "source": "job_posting"
   },
   {
     "slug": "reflectionai",
