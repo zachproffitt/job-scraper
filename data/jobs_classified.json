@@ -92522,5 +92522,551 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "286a7b3b"
+  },
+  "workday-elevancehealth-Quality-Assurance-Pharmacy-Technician-II_JR188886": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "7d108a01"
+  },
+  "workday-hpe-HPE-Networking-Critical-Account-Manager_1203579-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5e99e277"
+  },
+  "workday-bakerhughes-Senior-Engineer--Project-Engineering---Systems_R164390": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Shanghai, China",
+    "job_summary": "Lead the design, build, test, and delivery of complete non-destructive testing (NDT) systems\u2014particularly ultrasound immersion tank equipment\u2014from engineering through on-site customer acceptance. Requires 10+ years of hands-on experience in automatic machinery and system-level engineering, with direct NDT industry experience preferred; based in Shanghai with international team leadership.",
+    "skills": [
+      "Ultrasound Testing",
+      "Mechanical Engineering",
+      "Automation Systems",
+      "System Design",
+      "Robotics Integration",
+      "Project Leadership",
+      "NDT Domain Knowledge",
+      "Immersion Tank Systems"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2e6af92b"
+  },
+  "workday-bakerhughes-Lead-Engineer--Project-Engineering---Systems_R164391": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Shanghai, China",
+    "job_summary": "Lead the design, build, test, and delivery of complete non-destructive testing (NDT) systems\u2014primarily ultrasonic testing equipment\u2014from concept through customer site commissioning and acceptance. Requires 10+ years of hands-on experience in automatic machinery and system engineering, with deep NDT domain knowledge and technical leadership of cross-functional global teams.",
+    "skills": [
+      "NDT (Non-Destructive Testing)",
+      "Ultrasonic Testing (UT)",
+      "Mechanical Engineering",
+      "Automation",
+      "System Design",
+      "Robotics Integration",
+      "Project Engineering"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "d44d73fb"
+  },
+  "workday-bakerhughes-Project-Management-Manager---Project-Leadership_R164397": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Suzhou, China",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ba2bbdbb"
+  },
+  "workday-devoted-Provider-Network-Manager_R3180-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ohio / Michigan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$110k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "35a2b080"
+  },
+  "workday-boeing-Senior-Fulfillment-Manager_JR2026509868-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Ladson, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$167,450-$226,550",
+    "comp_extras": [],
+    "source_hash": "f490c1c3"
+  },
+  "greenhouse-five9-6000547004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / San Ramon, CA",
+    "job_summary": "Lead the complete platform engineering function across on-premises and cloud infrastructure, operating Kubernetes, OpenStack, CI/CD, and Internal Developer Platforms as software products for internal engineering teams. Build and scale a globally distributed platform engineering organization while establishing modern SRE practices, infrastructure-as-code standardization, and self-service developer capabilities across hybrid and multi-cloud environments.",
+    "skills": [
+      "Python",
+      "Go",
+      "Terraform",
+      "Ansible",
+      "Kubernetes",
+      "OpenStack",
+      "CI/CD",
+      "Infrastructure as Code"
+    ],
+    "level": "manager",
+    "comp": "$135,900-$448,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "83d6ea01"
+  },
+  "workday-bah-University---Financial-Analyst-Intern_R0228523": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "McLean, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": "intern",
+    "comp": "$43,700-$90,000",
+    "comp_extras": [],
+    "source_hash": "7e64cbeb"
+  },
+  "workday-abbott-Key-Account-Specialist_31150317": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Selangor, Malaysia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0237a9d3"
+  },
+  "workday-dxctechnology-Senior-Case-Manager---VIC_51556974": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Melbourne, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "42219115"
+  },
+  "workday-gdit-Clinical-Deployment-Site-Lead--VA-EHRM-_RQ220441-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$124,093-$144,900",
+    "comp_extras": [],
+    "source_hash": "7acdd4ac"
+  },
+  "workday-intel-Platform-Power-Thermal-Performance-Research-Intern_JR0284219": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Shanghai, China",
+    "job_summary": "Profile and optimize CPU performance for AI workloads (text-to-image, text-to-video) on Xeon processors; identify and validate bottlenecks in CPU IO management, latency, and bandwidth. Requires hands-on Linux performance profiling and x86 CPU architecture knowledge.",
+    "skills": [
+      "x86 CPU Architecture",
+      "Linux",
+      "Performance Profiling",
+      "AI Systems",
+      "Xeon",
+      "CUDA",
+      "Kernel",
+      "Storage"
+    ],
+    "level": "intern",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "add76432"
+  },
+  "workday-intel-Module-Development-Engineer--Defect-Inspection_JR0283793": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hillsboro, OR",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$133.8k-$188.9k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "479af9ff"
+  },
+  "workday-iqvia-Senior-Counsel_R1544650": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Sydney, Australia / Melbourne, Australia / Brisbane, Australia / Perth, Australia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "085711e7"
+  },
+  "workday-ag-Kinston--NC-Hiring-Event_JR10415594": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Kinston, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "148b10d7"
+  },
+  "greenhouse-pinterest-7869925": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$119,489-$209,106",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "ad80d2d1"
+  },
+  "workday-hpe-Sales-Specialist--Storage--Hawaiian-Islands-_1206952-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$194.5k-$456.5k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "9f8dfa80"
+  },
+  "workday-hpe-Distinguished-Technologist---Director--AI-Strategy-and-Enablement--OCTO---HPE-Labs-_1206055-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Colorado / California / Texas",
+    "job_summary": "Lead AI/ML strategy and architecture across HPE's enterprise infrastructure products, translating research innovations into production-grade systems; establish governance standards, MLOps patterns, and responsible AI practices while mentoring applied AI engineers and data scientists across the organization.",
+    "skills": [
+      "Machine Learning",
+      "Large Language Models",
+      "MLOps",
+      "Data Engineering",
+      "Cloud Architecture",
+      "AWS",
+      "Azure",
+      "Model Governance"
+    ],
+    "level": "principal",
+    "comp": "$170k-$412.5k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "50547362"
+  },
+  "workday-hpe-HPE-Labs---Research-Engineer_1206781-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Milpitas, CA",
+    "job_summary": "Build networked systems technologies and architectures for next-generation AI, HPC, and enterprise infrastructure at HPE Labs, focusing on areas like cloud orchestration, 5G/6G, disaggregated systems, and network programmability. Requires PhD in Computer Science or Electrical & Computer Engineering and strong systems-building skills; on-site in Milpitas, CA.",
+    "skills": [
+      "C/C++",
+      "Python",
+      "Linux Kernel",
+      "CUDA",
+      "PyTorch",
+      "Kubernetes",
+      "TensorFlow",
+      "Network Protocols"
+    ],
+    "level": "senior",
+    "comp": "$120k-$243k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "04f75f6c"
+  },
+  "workday-hpe-Software-Development-Engineer-in-Test_1201933-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Spring, TX",
+    "job_summary": "Build and maintain automated test infrastructure for HPE's edge-to-cloud products, including UI and API test suites across virtualization, containers, and cloud platforms. Drive quality engineering practices across distributed teams while mentoring junior engineers on test automation strategy and execution.",
+    "skills": [
+      "Playwright",
+      "Selenium",
+      "Java",
+      "TypeScript",
+      "Python",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": "$119.5k-$275k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "3bf3bc45"
+  },
+  "lever-spotify-43e0d904-84f7-4cfa-a293-579fb9ac271f": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "f70ac86f"
+  },
+  "greenhouse-twilio-7797340": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Design and deliver high-quality reference code, quickstarts, and POCs for Twilio's agentic communication platform, serving as the hands-on technical bridge between product strategy and developer adoption. Shape the product roadmap by translating customer friction into actionable feedback while establishing thought leadership through open source, technical publications, and conference talks.",
+    "skills": [
+      "JavaScript",
+      "TypeScript",
+      "Python",
+      "REST APIs",
+      "AI/LLM Integration",
+      "Cloud Systems Architecture",
+      "Distributed Systems"
+    ],
+    "level": "principal",
+    "comp": "$188,240-$276,700",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4e3c1bf6"
+  },
+  "workday-nvidia-Senior-Debug-System-Engineer--Datacenter_JR2017978": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$200k-$322k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "06f8e8ca"
+  },
+  "workday-nvidia-Principal-Silicon-Failure-Analysis-Engineer_JR2018430": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "principal",
+    "comp": "$200k-$322k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a8dd8dd4"
+  },
+  "workday-nvidia-Implementation-Methodology-Engineer---GPU_JR2011872": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Own synthesis and physical design implementation flows and methodologies for NVIDIA's GPU designs. Optimize power, performance, and area through logic optimization and EDA tool expertise; requires deep knowledge of physical design implementation and synthesis tools.",
+    "skills": [
+      "Synopsys DC",
+      "Cadence Genus",
+      "Cadence Innovus",
+      "Logic Optimization",
+      "Physical Synthesis",
+      "Python",
+      "Tcl",
+      "Formal Equivalence Checking"
+    ],
+    "level": "mid",
+    "comp": "$136k-$264.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "2713878b"
+  },
+  "workday-nvidia-Senior-Product-Development-Engineer---Boards_JR2016909": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$136k-$212.75k (L3), $168k-$258.75k (L4)",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "cd6b5af5"
+  },
+  "workday-nvidia-Senior-Datacenter-Product-Development-Engineer_JR2018282": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Own the end-to-end product lifecycle for NVIDIA's GPU-accelerated server boards (HGX/MGX/DGX), driving diagnostic test development, production optimization, and yield improvement across high-complexity datacenter systems. Requires deep expertise in high-speed signal integrity, HPC server architecture, and manufacturing test\u2014working through a matrixed team to scale production while meeting cost, quality, and DPPM targets.",
+    "skills": [
+      "PCIe",
+      "InfiniBand",
+      "Python",
+      "FPGA",
+      "Linux",
+      "Signal Integrity",
+      "HPC Server Architecture",
+      "Manufacturing Test"
+    ],
+    "level": "senior",
+    "comp": "$168k-$322k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "a31da59d"
+  },
+  "workday-nvidia-Senior-Security-Architect--Cloud-Authentication-and-Authorization_JR2018329": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$184k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "c5c22b9a"
+  },
+  "workday-jll-Senior-Director--Performance-Management_REQ509081": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / Sacramento, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$128k-$155k",
+    "comp_extras": [],
+    "source_hash": "4891ee73"
+  },
+  "workday-jll-Facilities-Coordinator_REQ496239": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c88b5b5c"
+  },
+  "workday-tapestry-Senior-Manager--Data-Engineer_JR5335-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Tokyo, Japan",
+    "job_summary": "Design and operate scalable cloud-native data platforms (AWS, Azure, GCP, Snowflake) and reliable automated pipelines for Tapestry's Japan and Korea operations. Lead both backend infrastructure and functional data ownership, working across distributed teams and translating business requirements into production data products; requires business-level English and conversational Japanese.",
+    "skills": [
+      "Python",
+      "SQL",
+      "Apache Spark",
+      "AWS Glue",
+      "Airflow",
+      "Terraform",
+      "Java",
+      "PostgreSQL"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "ed6ce241"
   }
 }
