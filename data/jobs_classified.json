@@ -93068,5 +93068,252 @@
     "comp": null,
     "comp_extras": [],
     "source_hash": "ed6ce241"
+  },
+  "ashby-benchling-e7d8051d-d779-41b0-891f-0eb40c36a22c": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8e5a9289"
+  },
+  "greenhouse-altoslabs-5998695004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redwood City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$172.4k-$221k",
+    "comp_extras": [],
+    "source_hash": "5e00dcc0"
+  },
+  "greenhouse-figma-5996930004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / New York, NY",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$155,500\u2013$230,500",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "9cf58a51"
+  },
+  "greenhouse-reddit-7768983": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Chicago, IL",
+    "job_summary": "Build AI-powered creative workflows that integrate Reddit's data infrastructure, LLM optimization, and advertising systems to automate asset generation, reporting, and creative analysis at scale. Work with agentic AI systems and multi-agent orchestration to reduce manual processes across the creative production pipeline.",
+    "skills": [
+      "Python",
+      "SQL",
+      "BigQuery",
+      "LLM Optimization",
+      "API Integrations",
+      "Agentic AI",
+      "Data Pipelines",
+      "Looker"
+    ],
+    "level": "mid",
+    "comp": "$115,500\u2013$161,700",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "c0dd59ed"
+  },
+  "workday-hpe-On-site-HPC-Technical-Consultant-ORNL--Onsite--Oakridge--TN_1207275-3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Oak Ridge, TN",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$81.5k-$187.5k",
+    "comp_extras": [],
+    "source_hash": "7572ccb7"
+  },
+  "workday-hpe-Technical-Architect---POC-Lab--Alpharetta--GA-_1207053-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Alpharetta, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$81.5k-$187.5k",
+    "comp_extras": [],
+    "source_hash": "196c5bf9"
+  },
+  "workday-smithnephew-Associate-OTC---Hong-Kong---Taiwan--Mandarin-_R90616": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Kuala Lumpur, Malaysia",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1cfa124c"
+  },
+  "workday-nvidia-Senior-Board-Test-Engineer_JR2017920": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Develop manufacturing test solutions and diagnostic software for NVIDIA's Data Center GPUs and CPUs, defining test strategies, automation infrastructure, and coverage across board and system products. Requires hands-on debugging at manufacturing sites globally and 5+ years of post-silicon validation experience.",
+    "skills": [
+      "Python",
+      "Bash",
+      "IPMI",
+      "PCIe",
+      "BMC",
+      "Post-Silicon Validation",
+      "Manufacturing Test",
+      "Thermal Solutions"
+    ],
+    "level": "senior",
+    "comp": "$132k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "92588d75"
+  },
+  "workday-nvidia-AI-and-Creator-Developer-Marketing-Manager--China_JR2017756": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Beijing, China",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "683a8f48"
+  },
+  "workday-nvidia-Senior-Manager--Supplier-Quality-Engineering_JR2018085": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$208k-$327.75k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d02ca686"
+  },
+  "workday-nvidia-Manager--System-Test-Engineering_JR2018182-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Lead a team of engineers building automated test solutions, diagnostic infrastructure, and manufacturing test methodologies for NVIDIA datacenter system products. Requires 6+ years of post-silicon validation experience and 2+ years of team leadership.",
+    "skills": [
+      "Python",
+      "Bash",
+      "Post-Silicon Validation",
+      "Test Automation",
+      "Manufacturing Test"
+    ],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "244b6fbe"
+  },
+  "workday-nvidia-Senior-Board-Test-Engineer_JR2017894": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Develop manufacturing test solutions and automation for Data Center GPUs/CPUs, including test strategies, fixtures, diagnostic software, and DFT validation across production facilities in the US, Mexico, and Taiwan.",
+    "skills": [
+      "Python",
+      "Bash",
+      "IPMI",
+      "PCIe",
+      "BMC",
+      "Post-Silicon Validation",
+      "Manufacturing Test"
+    ],
+    "level": "senior",
+    "comp": "$132k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "da5f6091"
+  },
+  "workday-nvidia-System-Level-Test-Engineer_JR2017918": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Build and validate manufacturing test programs for NVIDIA's Data Center GPU products, working across hardware, firmware, and software teams to ensure diagnostic reliability at scale. Requires deep Linux kernel and low-level driver expertise plus silicon manufacturing test process knowledge.",
+    "skills": [
+      "Python",
+      "Linux",
+      "ASIC Debug",
+      "Embedded Systems",
+      "Silicon Manufacturing",
+      "C",
+      "Firmware",
+      "Git"
+    ],
+    "level": "mid",
+    "comp": "$132k-$253k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6819f5ad"
+  },
+  "workday-nvidia-ATE-Test-Development-Engineer_JR2018073": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Develop and maintain automated test equipment (ATE) programs for GPU, Tegra, and automotive products using the Advantest 93K platform; define test methodologies, debug product failures, and optimize production yield and cost. Requires hands-on experience with ATE test development and DFT techniques (SCAN, ATPG, MBIST) for high-complexity semiconductor products.",
+    "skills": [
+      "Advantest 93K",
+      "VHDL",
+      "Perl",
+      "Python",
+      "C++",
+      "DFT (SCAN/ATPG/MBIST)",
+      "Analog Circuit Design"
+    ],
+    "level": "mid",
+    "comp": "$100k-$207k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "d462bd01"
   }
 }
