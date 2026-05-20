@@ -1,8 +1,4 @@
-[2026-05-20T15:17:06Z] fetch_jobs: scraper error for CSC (workday/dxctechnology/wd1/DXCJobs): Workday request failed for dxctechnology/wd1/DXCJobs: Server error '502 Bad Gateway' for url 'https://dxctechnology.wd1.myworkdayjobs.com/wday/cxs/dxctechnology/DXCJobs/jobs'
+[2026-05-20T17:19:59Z] fetch_jobs: scraper error for Adobe (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: Server error '520 <none>' for url 'https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-20T17:20:44Z] fetch_jobs: scraper error for CrowdStrike (workday/crowdstrike/wd5/crowdstrikecareers): Workday request failed for crowdstrike/wd5/crowdstrikecareers: Server error '502 Bad Gateway' for url 'https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-20T15:20:17Z] fetch_jobs: scraper error for Vantor (workday/maxar/wd1/Vantor): Workday request failed for maxar/wd1/Vantor: The read operation timed out
-[2026-05-20T15:20:33Z] fetch_jobs: scraper error for T-Mobile (workday/tmobile/wd1/External): Workday request failed for tmobile/wd1/External: The read operation timed out
-[2026-05-20T15:58:25Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T15:58:31Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
