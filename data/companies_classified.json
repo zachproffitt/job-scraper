@@ -105,11 +105,11 @@
     "source": "meta_description"
   },
   {
-    "name": "True Anomaly",
+    "ats": "greenhouse",
     "slug": "trueanomalyinc",
-    "summary": "True Anomaly builds mission-critical software for space operations used by defense and aerospace organizations.",
-    "source_hash": "9d89c44c",
-    "ats": "greenhouse"
+    "name": "True Anomaly",
+    "summary": "True Anomaly develops capabilities for space superiority.",
+    "source": "meta_description"
   },
   {
     "name": "Sierra Space",
@@ -2033,10 +2033,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "benepass",
     "name": "Benepass",
-    "summary": "Benepass builds a benefits management platform that helps employers and employees navigate health insurance options, wellness programs, and dependent care benefits. The company operates in the employee benefits administration space, providing tools for benefits enrollment, decision support, and claims management.",
-    "ats": "ashby"
+    "summary": "Benepass provides flexible benefits programs for employees.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -2903,10 +2904,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "inversionspace",
     "name": "Inversion Space",
-    "summary": "Inversion Space builds advanced reentry vehicles designed to deliver payloads from space to anywhere on Earth in under an hour, with their flagship product Arc serving as an autonomous, reusable space-based delivery system for defense and logistics applications. The company operates in the space technology and hypersonics domain, developing spacecraft and reentry capsules that can operate through extreme atmospheric conditions and land with high precision.",
-    "ats": "greenhouse"
+    "summary": "Inversion Space develops space-based transportation systems for Earth.",
+    "source": "meta_description"
   },
   {
     "slug": "invert",
@@ -4748,10 +4750,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "lucidsoftware",
     "name": "Lucid Software",
-    "summary": "Lucid Software provides cloud-based visual collaboration tools including Lucidchart for diagramming, Lucidspark for whiteboarding, and Lucidscale for architecture visualization, serving teams across product development, engineering, and business operations.",
-    "ats": "greenhouse"
+    "summary": "Lucid Software provides tools for documenting business processes and keeping people and AI agents aligned.",
+    "source": "meta_description"
   },
   {
     "slug": "magicleap",
@@ -5575,10 +5578,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "sec/wd3/Samsung_Careers",
     "name": "Samsung R&D",
-    "summary": "Samsung R&D develops semiconductors, display technologies, battery systems, and consumer electronics including smartphones, televisions, and home appliances. The company operates across multiple industries including consumer electronics, telecommunications, semiconductors, and energy storage solutions.",
-    "ats": "workday"
+    "summary": "Samsung R&D develops smartphones, tablets, laptops, televisions, and other electronic and smart appliances.",
+    "source": "meta_description"
   },
   {
     "slug": "satellogic",
@@ -7141,10 +7145,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "corelight",
     "name": "Corelight Inc.",
-    "summary": "Corelight builds network detection and response (NDR) software that monitors encrypted and unencrypted network traffic to identify threats and security incidents. The company operates in the cybersecurity domain, providing tools for security teams to detect compromised systems and investigate network-based attacks.",
-    "ats": "greenhouse"
+    "summary": "Corelight provides network visibility and analytics software for threat detection and investigation.",
+    "source": "meta_description"
   },
   {
     "slug": "correlationone",
