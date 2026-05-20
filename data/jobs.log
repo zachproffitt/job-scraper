@@ -1,19 +1,2 @@
-[2026-05-20T07:33:34Z] fetch_jobs: scraper error for Airbus Helicopters (workday/ag/wd3/Airbus): Workday request failed for ag/wd3/Airbus: The read operation timed out
-[2026-05-20T07:34:12Z] fetch_jobs: scraper error for Prox (ashby/prox): Ashby request failed for prox: The read operation timed out
-[2026-05-20T07:34:24Z] fetch_jobs: scraper error for Saronic (ashby/saronic): Ashby request failed for saronic: The read operation timed out
-[2026-05-20T07:46:00Z] classify_companies: transient API error (attempt 1/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT2JZmXJK43MdW44NgC'} — retrying in 1s
-[2026-05-20T07:46:08Z] classify_companies: transient API error (attempt 2/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT2yrQx8ru1D15HcYr3'} — retrying in 2s
-[2026-05-20T07:46:19Z] classify_companies: transient API error (attempt 3/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT3j2DGPfS4wuKs5HAs'} — retrying in 4s
-[2026-05-20T07:46:31Z] classify_companies: transient API error (attempt 4/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT4e1s1nrNLACkRRxuV'} — retrying in 8s
-[2026-05-20T07:46:47Z] classify_companies: transient API error (attempt 5/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT5pWRNRHobboC61e6M'} — retrying in 16s
-[2026-05-20T07:47:03Z] classify_companies: company error: Exscientia: Claude API unavailable after 5 retries
-[2026-05-20T07:47:03Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T07:47:12Z] classify_companies: transient API error (attempt 1/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT7hvMHYevYggkiYPzh'} — retrying in 1s
-[2026-05-20T07:47:22Z] classify_companies: transient API error (attempt 2/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT8LmPrbU2FG55TCAQx'} — retrying in 2s
-[2026-05-20T07:47:31Z] classify_companies: transient API error (attempt 3/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT96XAoRLcDTXUSRCfk'} — retrying in 4s
-[2026-05-20T07:47:44Z] classify_companies: transient API error (attempt 4/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDT9zbWBqgYAfYugTLeT'} — retrying in 8s
-[2026-05-20T07:48:02Z] classify_companies: transient API error (attempt 5/5): Error code: 529 - {'type': 'error', 'error': {'type': 'overloaded_error', 'message': 'Overloaded'}, 'request_id': 'req_011CbDTBNURJQSMh1X9HWP4E'} — retrying in 16s
-[2026-05-20T07:48:18Z] classify_companies: company error: Rockstar Games: Claude API unavailable after 5 retries
-[2026-05-20T07:48:18Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T09:24:42Z] fetch_jobs: scraper error for DrugDev (workday/iqvia/wd1/IQVIA): Workday request failed for iqvia/wd1/IQVIA: Server error '502 Bad Gateway' for url 'https://iqvia.wd1.myworkdayjobs.com/wday/cxs/iqvia/IQVIA/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
