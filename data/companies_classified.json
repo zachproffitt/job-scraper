@@ -2143,10 +2143,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "lever",
     "slug": "canarytechnologies",
     "name": "Canary Technologies",
-    "summary": "Canary Technologies builds cloud-based software platforms for facility management and real estate operations, enabling property managers and building operators to streamline maintenance, asset tracking, and tenant communications across their portfolios.",
-    "ats": "lever"
+    "summary": "Canary Technologies makes hospitality software for hotels that handles guest experience, operations, and revenue management, and is used by over 20,000 hotels worldwide.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
