@@ -1,8 +1,2 @@
-[2026-05-20T19:02:05Z] fetch_jobs: scraper error for CityMD (workday/shm/wd5/Summit_CityMD): Workday request failed for shm/wd5/Summit_CityMD: Server error '502 Bad Gateway' for url 'https://shm.wd5.myworkdayjobs.com/wday/cxs/shm/Summit_CityMD/jobs'
+[2026-05-20T19:53:37Z] fetch_jobs: scraper error for Evisort (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: Server error '502 Bad Gateway' for url 'https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-20T19:04:35Z] fetch_jobs: scraper error for Nvidia (workday/nvidia/wd5/NVIDIAExternalCareerSite): Workday request failed for nvidia/wd5/NVIDIAExternalCareerSite: Server error '502 Bad Gateway' for url 'https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-20T19:29:51Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T19:30:09Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
