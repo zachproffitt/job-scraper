@@ -1,4 +1,4 @@
-[2026-05-20T01:44:08Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T01:44:26Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-20T01:49:25Z] fetch_jobs: scraper error for Adobe (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: Server error '520 <none>' for url 'https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-20T01:49:42Z] fetch_jobs: scraper error for Baker Hughes (workday/bakerhughes/wd5/BakerHughes): Workday request failed for bakerhughes/wd5/BakerHughes: Server error '502 Bad Gateway' for url 'https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
