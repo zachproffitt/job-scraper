@@ -1,8 +1,0 @@
-[2026-05-20T00:12:47Z] fetch_jobs: scraper error for Microsoft (eightfold/apply.careers.microsoft.com|microsoft.com): Eightfold request failed for apply.careers.microsoft.com|microsoft.com: Client error '429 TOO MANY REQUESTS' for url 'https://apply.careers.microsoft.com/api/pcsx/search?domain=microsoft.com&start=20&num=20'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
-[2026-05-20T00:21:05Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T00:21:29Z] classify_companies: homepage fetch failed for https://reddit.com: Client error '403 Blocked' for url 'https://www.reddit.com/'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-20T00:21:47Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
