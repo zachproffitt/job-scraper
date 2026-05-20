@@ -5,9 +5,4 @@ NEW_BADGE = '<img src="https://img.shields.io/badge/NEW-EC4899?style=flat-square
 
 
 def skill_badge(skill: str) -> str:
-    label = skill.strip().replace("-", "--").replace("_", "__").replace(" ", "_")
-    label = (label
-        .replace("(", "%28").replace(")", "%29")
-        .replace(",", "%2C").replace("/", "%2F")
-        .replace("+", "%2B").replace("#", "%23"))
-    return f'<img src="https://img.shields.io/badge/{label}-{SKILL_COLOR}?style=flat-square" alt="{skill}">'
+    return f"`{skill}`"
