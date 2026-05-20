@@ -127,6 +127,7 @@ For each job posting, extract the following fields. Use judgment from the descri
    - Domain terms only when specific: "Distributed Systems" alone is too vague; "Kafka", "Raft Consensus" are fine
    - Reduce redundancy: don't list sub-features alongside their parent (no "Kotlin Coroutines" if "Kotlin" is listed; no "React Hooks" if "React" is listed); don't list 3+ items from the same ecosystem (pick the 1-2 most distinctive and use remaining slots for other aspects of the role)
    - Consistent casing: official casing for tech names (Python, PyTorch, PostgreSQL, JavaScript, AWS, GCP); Title Case for descriptive terms (Distributed Systems, Machine Learning, Computer Vision, Game Engine Development)
+   - Use well-known acronyms to save space: IaC (not "Infrastructure as Code"), HPC (not "High Performance Computing"), NLP (not "Natural Language Processing"), CV (not "Computer Vision"), RL (not "Reinforcement Learning"), IoT (not "Internet of Things"), ETL (not "Extract Transform Load"), FPGA (not "Field Programmable Gate Array"), DSP (not "Digital Signal Processing")
 
    Include these when they appear (specific enough to be meaningful):
    - Niche or newer languages: Zig, Mojo, Julia, Chapel, Elixir, Erlang, OCaml
