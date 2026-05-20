@@ -132610,5 +132610,2130 @@
       "bonus"
     ],
     "source_hash": "a2799573"
+  },
+  "lever-atomcomputing-e2dc127b-05eb-42d8-9833-90dbe614d413": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2b8d31a4"
+  },
+  "greenhouse-block-5185388008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e67f329d"
+  },
+  "workday-workday-Medium-Enterprise-Account-Executive---Nonprofit_JR-0107330": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97120059"
+  },
+  "workday-adobe-Staff-Product-Designer--Adobe-Stock_R168834": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "3cd5706f"
+  },
+  "workday-iqvia-Nurse-educator-field_R1545803": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "196d6954"
+  },
+  "workday-iqvia-Nurse-educator-field_R1545804": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "8e45ab2f"
+  },
+  "ashby-notion-2dd301f6-42da-40a2-a064-0f6fcfbdca77": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "91f1594f"
+  },
+  "workday-iqvia-TMF-Quality-Project-Manager--Remote-_R1537082": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2ea985e1"
+  },
+  "workday-jll-Project-Manager_REQ507004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "74bf1d75"
+  },
+  "workday-tapestry-Sales-Associate-II_JR5521": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "bdfc321b"
+  },
+  "workday-tapestry-Sales-Associate_JR5545": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0256e822"
+  },
+  "workday-tapestry-Assistant-Store-Leader-Visual-Operations_JR5192": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "90835784"
+  },
+  "workday-tmobile-Account-Executive--SMB-Sales---Hartford--CT_REQ356171-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "unclear",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9d07ff8b"
+  },
+  "greenhouse-airbnb-7947156": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$196,000\u2014$245,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "4291753f"
+  },
+  "bamboo-anovasolutions-447": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "94affbbf"
+  },
+  "greenhouse-apptronik-6001767004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Define the end-to-end software architecture for deploying humanoid robots (Apollo) at customer sites, including deployment infrastructure, human-robot interaction interfaces, and field integration patterns. Establish technical direction for last-mile engineering across heterogeneous customer environments while mentoring field engineering teams; requires travel up to 25% for on-site customer demonstrations and critical deployments.",
+    "skills": [
+      "ROS",
+      "Robotics",
+      "Teleoperation",
+      "Human-Robot Interaction",
+      "Distributed Systems",
+      "MLOps",
+      "Observability",
+      "Real-time Control Systems"
+    ],
+    "level": "staff",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b1e295cb"
+  },
+  "ashby-benchling-2e19ad6a-2350-4837-b07d-0ea7191cc3b1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "London, UK",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "232ea194"
+  },
+  "workday-elevancehealth-SCA-Data-Technician_JR192050": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "New York, NY / Maryland, MD",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$20.04-$21.04",
+    "comp_extras": [],
+    "source_hash": "743aeba7"
+  },
+  "workday-elevancehealth-CFSP-Managed-Care-Coordinator----Wake-County_JR193946": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Wake County, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c06d5638"
+  },
+  "greenhouse-bridgebio-5138507007": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote / Central region / East region",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$220,000\u2014$260,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "daac8ccb"
+  },
+  "lever-canarytechnologies-0494cddc-3bed-4ec6-8b79-6cfa24120e44": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and ship first-party iOS or Android mobile apps for hotel staff and guests, owning end-to-end feature delivery with high ownership over production apps used by thousands of hoteliers globally.",
+    "skills": [
+      "Swift",
+      "Kotlin",
+      "iOS",
+      "Android"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "20e43e7a"
+  },
+  "lever-canarytechnologies-9a872e88-2268-4d3b-b027-679625bb03ad": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build and maintain Canary's mobile SDK that enables 20,000+ hoteliers across 100+ countries to integrate hospitality-specific AI features into their applications. Design APIs and abstractions for hotel operations, guest management, and AI-powered workflows at scale.",
+    "skills": [
+      "Mobile SDK Development",
+      "API Design",
+      "iOS",
+      "Android",
+      "REST APIs",
+      "SDK Documentation"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "75785f7b"
+  },
+  "workday-collectorsuniverse-Grader-Program-Administrator_JR104908": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Ana, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$24-$30 hourly",
+    "comp_extras": [],
+    "source_hash": "a79b37a8"
+  },
+  "lever-cfsenergy-e5cffed0-7293-4169-8ebe-4907d87f005d": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Milpitas, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "fbe760a5"
+  },
+  "workday-bakerhughes-Field-Operator-II_R164705": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "4604d41c"
+  },
+  "greenhouse-doma-7927008": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Arlington, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2ef1f725"
+  },
+  "workday-boeing-Mid-Level-Information-Technology-Business-Partner_JR2026511420-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hazelwood, MO",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$96,050 - $129,950",
+    "comp_extras": [],
+    "source_hash": "2a728bde"
+  },
+  "workday-boeing-Quality-Production-Specialist--Experienced-_JR2026505875-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "New Orleans, LA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$89,250 - $120,750",
+    "comp_extras": [],
+    "source_hash": "4ac00500"
+  },
+  "workday-boeing-Structure-and-Payload-Design-Engineer--Associate-and-Mid-Level-_JR2026498936-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Design structural and interior modification systems for commercial aircraft (737, 777, 787) using 3D CAD tools, managing supplier development and regulatory compliance throughout the product lifecycle. Must be on-site in Long Beach, CA.",
+    "skills": [
+      "CATIA",
+      "Teamcenter",
+      "Model Based Definition (MBD)",
+      "14 CFR Part 25",
+      "Integration Visualization Tool (IVT)",
+      "Mechanical Engineering",
+      "Aerospace Engineering"
+    ],
+    "level": "mid",
+    "comp": "$90,950-$150,650",
+    "comp_extras": [],
+    "source_hash": "d30ca3af"
+  },
+  "workday-boeing-Structural-Analysis-Engineer--Mid-Level-or-Senior---Structural-Analysis-_JR2026504182-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Seal Beach, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$117.9k-$174.9k",
+    "comp_extras": [],
+    "source_hash": "1a7aaf6e"
+  },
+  "greenhouse-enova-7947884": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "South Jordan, UT",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$108k-$144.2k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "8c9065df"
+  },
+  "greenhouse-epicgames-6001038004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cary, NC",
+    "job_summary": "Build Horde, Epic's in-house CI/CD and developer platform that powers build health, remote execution, storage, and critical services for internal game projects and external Unreal licensees. Requires deep expertise in large-scale, high-volume CI/CD systems and .NET backend architecture at enterprise scale.",
+    "skills": [
+      "C#",
+      ".NET",
+      "ASP.NET",
+      "gRPC",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Azure"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "0f35d603"
+  },
+  "greenhouse-epicgames-6001040004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Multiple Locations (New York, NY / California / Washington)",
+    "job_summary": "Build and maintain Horde, Epic's internal CI/CD and developer platform powering remote execution, build health, and storage services at massive scale across game development and external licensees. Work on architecture, plugin systems, and backend services handling high-volume workflows across distributed teams and cloud infrastructure.",
+    "skills": [
+      "C#",
+      ".NET",
+      "ASP.NET",
+      "gRPC",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Azure"
+    ],
+    "level": "senior",
+    "comp": "$172,736\u2013$278,682",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "07e14f05"
+  },
+  "greenhouse-epicgames-6001785004": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Vancouver, Canada",
+    "job_summary": "Develop and maintain Horde, Epic's internal CI/CD and developer platform powering build systems, remote execution, and storage services for game development at scale. Expert-level C# and .NET required for a mission-critical system serving internal teams and external Unreal licensees across distributed teams.",
+    "skills": [
+      "C#",
+      ".NET",
+      "ASP.NET",
+      "gRPC",
+      "MongoDB",
+      "Redis",
+      "AWS",
+      "Azure"
+    ],
+    "level": "senior",
+    "comp": "$166,195-$243,752 CAD",
+    "comp_extras": [],
+    "source_hash": "f14f0686"
+  },
+  "workday-evolent-Sr-Analyst--Performance-Suite-Analytics--Multiple-Positions-_JR-916320": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$85k",
+    "comp_extras": [],
+    "source_hash": "25fad296"
+  },
+  "ashby-fathom.video-588f4df7-42d1-41f9-934e-cd6727f88b3b": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "44e7da31"
+  },
+  "ashby-fieldguide-5147ad09-1d4e-4cbf-93b0-b584ff46ce74": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / Remote",
+    "job_summary": "Design and build high-quality features for audit and assurance software, working directly with customers on their most challenging workflow problems. Travel up to 25% required; contribute to technical strategy and mentorship at senior/staff level.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Python",
+      "GraphQL",
+      "AWS",
+      "PostgreSQL"
+    ],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b46da696"
+  },
+  "greenhouse-fireworksai-4254355009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote / San Mateo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2c1c01e5"
+  },
+  "workday-bah-Systems-Integration-Engineer--Senior_R0240628": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Lead systems integration for next-generation military satellite communications across space, ground, and crypto segments in a DoD Major Defense Acquisition Program. Requires TS/SCI clearance and direct involvement with U.S. Space Force personnel.",
+    "skills": [
+      "Model-Based Systems Engineering",
+      "Digital Engineering",
+      "Risk Management",
+      "TS/SCI Clearance",
+      "Microsoft Office (Teams, Word, Excel, PowerPoint, Outlook)",
+      "Agile",
+      "JIRA"
+    ],
+    "level": "senior",
+    "comp": "$86,800-$198,000",
+    "comp_extras": [],
+    "source_hash": "6ed87a29"
+  },
+  "workday-bah-Strategic-Communications-Specialist--Lead_R0240627": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$86.8k-$198k",
+    "comp_extras": [],
+    "source_hash": "10e6ad72"
+  },
+  "workday-bah-SATCOM-Systems-Engineer_R0240615": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$61,900-$141,000",
+    "comp_extras": [],
+    "source_hash": "827d57ee"
+  },
+  "workday-bah-Mission-Defense-SME_R0240626": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Eglin AFB, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$86,800-$198,000",
+    "comp_extras": [],
+    "source_hash": "33d07f64"
+  },
+  "workday-bah-Cybersecurity-Mission-Specialist-and-Information-System-Security-Manager_R0240109-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Eglin AFB, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$86,800-$198,000",
+    "comp_extras": [],
+    "source_hash": "85e25812"
+  },
+  "workday-bah-Certification-Systems-Engineer--Lead_R0240616": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "El Segundo, CA",
+    "job_summary": "Lead GPS security certification technical assessments and system integration for DoD Space Force acquisitions. Requires 10+ years DoD GPS software and systems engineering experience, Secret clearance (TS/SCI preferred), and expertise in embedded systems security architecture and multi-level data protection.",
+    "skills": [
+      "DoD GPS",
+      "Embedded Systems Security",
+      "Information Assurance",
+      "ASIC",
+      "FPGA",
+      "Cryptography",
+      "Cybersecurity",
+      "Secret Clearance"
+    ],
+    "level": "senior",
+    "comp": "$99k-$225k",
+    "comp_extras": [],
+    "source_hash": "7ef3d911"
+  },
+  "workday-abbott-Senior-Specialist--Product-Performance--Medical-Affairs_31150930-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Temecula, CA / Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$99,300\u2013$198,700",
+    "comp_extras": [],
+    "source_hash": "869f6451"
+  },
+  "workday-abbott-Business-Development-Representative--Informatics---Minnesota-Wisconsin-Michigan_31150876-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$86,700\u2013$173,300",
+    "comp_extras": [],
+    "source_hash": "1535d22c"
+  },
+  "workday-abbott-Gerncia-de-Produto-nvel-Snior--foco-em-Oncologia---Diviso-de-Farmacuticos-Estabelecidos--EPD----So-Paulo-SP_31139842": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "S\u00e3o Paulo, Brazil",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a2bb0fc1"
+  },
+  "workday-abbott-Tbbi-Sat-Temsilcisi---Hatay_31150998": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Hatay, Turkey",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2f8dd210"
+  },
+  "workday-abbott-Tbbi-Sat-Temsilcisi---Trakya--stanbul-Avrupa--_31150997": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Istanbul, Turkey",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1683c911"
+  },
+  "workday-abbott-Tbbi-Sat-Temsilcisi---stanbul-Asya_31150996": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Istanbul, Turkey",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "cc420e73"
+  },
+  "workday-abbott-Quality-Technician-I_31149908-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Westfield, IN",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$32.8k-$65.7k",
+    "comp_extras": [],
+    "source_hash": "97085b9d"
+  },
+  "workday-abbott-Senior-Principal-Engineer---Imaging--Digital-Solutions_31149060-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": "Build high-performance medical image visualization platforms for diagnostic medical devices, including 2D/3D/4D rendering pipelines with DICOM workflows, GPU acceleration, and clinical-grade image analysis. Requires 10+ years software engineering with 5+ years leading medical imaging architecture in regulated healthcare environments.",
+    "skills": [
+      "Python",
+      "C++",
+      "VTK",
+      "Qt",
+      "PyTorch",
+      "Kubernetes",
+      "AWS",
+      "GPU Acceleration"
+    ],
+    "level": "principal",
+    "comp": "$130,700-$261,300",
+    "comp_extras": [],
+    "source_hash": "4a6b9824"
+  },
+  "greenhouse-gitlab-8550333002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$139,200\u2013$235,200",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0735b77d"
+  },
+  "workday-firstam-Associate-Commercial-Escrow-Officer--US-Remote-_R056646": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$55,818-$74,525",
+    "comp_extras": [],
+    "source_hash": "fc124909"
+  },
+  "ashby-helion-969ac1da-9f49-4137-831f-3329a9a2a227": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Everett, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "c7e456fd"
+  },
+  "workday-iheartmedia-P-T-News-Writer-Producer---Weekend---Holiday-Mornings_Req38407-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Medford, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$17.66-$22.08",
+    "comp_extras": [],
+    "source_hash": "975b5f1c"
+  },
+  "workday-iheartmedia-P-T-Master-Control-Producer_Req38409-3": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Medford, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$15.00-$16.82/hr",
+    "comp_extras": [],
+    "source_hash": "61fdba68"
+  },
+  "workday-ifg-Cashier_JR102852": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Torrance, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$35k",
+    "comp_extras": [],
+    "source_hash": "313fcac5"
+  },
+  "workday-hubinternational-HR-Technology-Solutions-Consultant--Dayforce-_R0034172": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Chicago, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": "mid",
+    "comp": "$80k-$115k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "18fccda5"
+  },
+  "workday-hubinternational-Client-Care-Representative---Auto-Associate_R0036568": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Duncan, BC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$40k-$45k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "7c27e880"
+  },
+  "workday-gdit-DevOps-Automation-Engineer_RQ220551-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Washington, DC / Austin, TX",
+    "job_summary": "Architect and implement DevOps and IAM automation frameworks supporting enterprise identity lifecycle, governance, and access management across on-premise and cloud environments for the VA. Requires 10+ years of healthcare IAM delivery experience, hands-on work with SailPoint/Saviynt platforms, and ability to obtain Public Trust clearance.",
+    "skills": [
+      "SailPoint",
+      "Saviynt",
+      "Infrastructure as Code",
+      "AWS",
+      "CI/CD",
+      "Identity Access Management",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "level": "senior",
+    "comp": "$142,792-$191,719",
+    "comp_extras": [],
+    "source_hash": "eed0d83b"
+  },
+  "workday-gdit-Effects-Coordinator_RQ218858-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Fort Bragg, NC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$89,250-$120,750",
+    "comp_extras": [],
+    "source_hash": "f584971d"
+  },
+  "workday-gdit-Full-stack-Developer_RQ220288-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": "Build microservices-based backend and web application services for the USPTO using Java, Spring Boot, and AWS cloud infrastructure. Requires US Public Trust clearance and US citizenship/green card with 2+ years residency.",
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Angular",
+      "AWS",
+      "Docker",
+      "Oracle",
+      "DynamoDB",
+      "Terraform"
+    ],
+    "level": "mid",
+    "comp": "$107,100-$144,900",
+    "comp_extras": [],
+    "source_hash": "ee06bea4"
+  },
+  "workday-gdit-Statistician-Data-Analyst_RQ220537-2": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": "Build reporting products, dashboards, and analytics capabilities for a government health services program using SQL, Python/R, and Tableau. Requires Public Trust clearance and on-site work at a Washington, DC government facility.",
+    "skills": [
+      "SQL",
+      "Python",
+      "R",
+      "Tableau",
+      "Palantir",
+      "Data Modeling",
+      "Statistical Analysis",
+      "ETL"
+    ],
+    "level": "senior",
+    "comp": "$107,744-$143,750",
+    "comp_extras": [],
+    "source_hash": "f9dcd5a2"
+  },
+  "greenhouse-linqia-8558893002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Bogot\u00e1, Colombia",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "130ac581"
+  },
+  "greenhouse-linqia-8558877002": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b888e5e6"
+  },
+  "workday-intel-Exempt-Admin-Contract-Employee_JR0284195": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "San Jose, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "1e5cbd6a"
+  },
+  "workday-intel-CPU-Formal-Verification-Engineer_JR0284201-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Hillsboro, OR / Phoenix, AZ / Folsom, CA / Santa Clara, CA / Austin, TX",
+    "job_summary": "Develop formal verification infrastructure and proofs for Intel's CPU and SoC microarchitectures using model checking and equivalence checking tools. Work directly with architects and RTL developers on complex protocols across multiple manufacturing sites.",
+    "skills": [
+      "Jasper",
+      "Formal Verification",
+      "Model Checking",
+      "Equivalence Checking",
+      "Binary Decision Diagrams",
+      "Data Flow Graphs",
+      "Verilog",
+      "SystemVerilog"
+    ],
+    "level": "junior",
+    "comp": "$105,650-$149,150",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "0d9faa53"
+  },
+  "workday-iqvia-Sr-Clinical-QA-Auditor_R1532681": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Washington, DC",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": "$75.4k-$188.6k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "a006f89b"
+  },
+  "workday-iqvia-Director-of-Client-Services-Program-Operations_R1545847": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Northborough, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$130k-$150k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "b44518ed"
+  },
+  "greenhouse-natera-6001478004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Dallas, TX / Fort Worth, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$195k-$225k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "6147452a"
+  },
+  "greenhouse-natera-6001412004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA / San Jose, CA / Sacramento, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$195,000\u2014$235,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "7f0a2aec"
+  },
+  "greenhouse-natera-5994946004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$79,700\u2013$99,600",
+    "comp_extras": [],
+    "source_hash": "dfe70c84"
+  },
+  "ashby-notion-ad93efa3-4caf-4a8c-9e99-b1d86de92e93": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$315k-$360k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "6752df68"
+  },
+  "greenhouse-nuro-7943784": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$49.92k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "e0e40e1d"
+  },
+  "greenhouse-nuro-7943795": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$52k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "53588afd"
+  },
+  "greenhouse-nuro-7378961": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Houston, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$49.92k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "a14b5d0f"
+  },
+  "workday-taylor-Shipping-and-Receiving-Clerk_R28759": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Kent, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$21.00/hr (approximately $42k annually)",
+    "comp_extras": [],
+    "source_hash": "f20df6b0"
+  },
+  "ashby-openai-a20026b8-d0b9-4317-b096-1187b6acc8f0": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$385k-$405k",
+    "comp_extras": [],
+    "source_hash": "cb99bfc6"
+  },
+  "greenhouse-pinterest-7909296": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$120,321\u2013$247,718",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f06a48bb"
+  },
+  "greenhouse-rocketlab-7740690003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Wallops Island, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "83fd9e84"
+  },
+  "greenhouse-rocketlab-7741924003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Wallops Island, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "15f97eb8"
+  },
+  "greenhouse-rocketlab-7741227003": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Long Beach, CA",
+    "job_summary": "Lead the development, customization, and cloud migration of Rocket Lab's Infor LN ERP system, designing custom extensions, APIs, and third-party integrations across manufacturing and aerospace operations. On-site role in Long Beach, CA; requires ITAR eligibility (U.S. citizen or permanent resident).",
+    "skills": [
+      "Infor LN",
+      "Infor ION",
+      "Infor OS",
+      "Custom Program Scripts",
+      "SOAP",
+      "REST APIs",
+      "BDE Development",
+      "Manufacturing ERP"
+    ],
+    "level": "senior",
+    "comp": "$124,500\u2013$155,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "efc395c8"
+  },
+  "greenhouse-rockstargames-7737044003": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Andover, MA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$68k-$85k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "ae181ad6"
+  },
+  "greenhouse-roofstock-8555650002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Charlotte, NC / Columbia, SC / Myrtle Beach, SC",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$40k-$45k",
+    "comp_extras": [],
+    "source_hash": "2b713359"
+  },
+  "ashby-saronic-f418b71d-d2e1-49e3-9a54-b41a2c5f5e97": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e1b170ab"
+  },
+  "workday-servicetitan-Content-Marketing-Lead_JR114884": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "canada",
+    "location": "Toronto, ON",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$111,000-$156,700 CAD",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "38d338fd"
+  },
+  "greenhouse-spacex-8558817002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": "Build SpaceX's AI platform infrastructure \u2014 secure gateways, proxy systems, and MLOps tooling that enables every team across the company to deploy frontier models and AI-driven automation at scale. Set technical vision for risk-mitigation systems (AI code review, PR assistants) and drive company-wide adoption of trustworthy AI capabilities.",
+    "skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "MLOps",
+      "Distributed Systems",
+      "Infrastructure as Code",
+      "Zero-Trust Security",
+      "Cloud Platforms"
+    ],
+    "level": "principal",
+    "comp": "$200k-$285k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "a2e842fa"
+  },
+  "greenhouse-spacex-8558835002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": "Architect SpaceX's AI platform and security infrastructure\u2014designing secure gateways, proxy systems, and MLOps tooling that enable every team to leverage frontier models at scale. Drive long-term technical vision for AI-first workflows across the company, with responsibility for model onboarding, compute scaling, risk-mitigation systems, and organization-wide adoption; requires ITAR eligibility (US citizen, green card holder, refugee, or asylee status).",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Docker",
+      "MLOps",
+      "Zero-Trust Security",
+      "Infrastructure-as-Code",
+      "Distributed Systems",
+      "Observability"
+    ],
+    "level": "principal",
+    "comp": "$210,000-$295,000",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "5df1e9be"
+  },
+  "greenhouse-spacex-8558839002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": "Architect and lead SpaceX's AI platform infrastructure\u2014secure gateways, proxy systems, and MLOps tooling that enable every team to deploy frontier models and automation at scale. Requires US citizenship or permanent residency per ITAR regulations.",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Docker",
+      "MLOps",
+      "Distributed Systems",
+      "Infrastructure as Code",
+      "Zero-Trust Security",
+      "Observability"
+    ],
+    "level": "principal",
+    "comp": "$210k-$295k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "aa0fb657"
+  },
+  "greenhouse-spacex-8558857002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": "Build secure, scalable AI platform systems and proxy infrastructure that enable engineers across SpaceX to deploy and integrate frontier AI models with production software at scale. Design full-stack solutions including Docker-based gateways, multi-provider integrations, and developer productivity tools, with ITAR authorization required.",
+    "skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "Go",
+      "TypeScript",
+      "AWS",
+      "Infrastructure-as-Code",
+      "MLOps"
+    ],
+    "level": "mid",
+    "comp": "$125k-$175k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "accdee43"
+  },
+  "greenhouse-spacex-8558858002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": "Build secure, scalable AI platform infrastructure and proxy systems that enable SpaceX teams to integrate frontier models, manage compute resources, and deploy AI-powered solutions across the organization. Work involves designing multi-provider gateways, implementing MLOps tooling, and developing risk-mitigation systems like AI-assisted code review.",
+    "skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "Go",
+      "TypeScript",
+      "MLOps",
+      "Infrastructure as Code",
+      "Observability"
+    ],
+    "level": "junior",
+    "comp": "$135k-$185k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "4fdece33"
+  },
+  "greenhouse-spacex-8558859002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": "Build secure, scalable AI platform infrastructure and proxy systems that enable engineers across SpaceX to integrate frontier models, perform data analysis, and deploy AI solutions company-wide. Requires hands-on work with Docker, multi-cloud integrations, MLOps, and infrastructure-as-code in a mission-critical aerospace environment subject to ITAR export controls.",
+    "skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "Go",
+      "TypeScript",
+      "MLOps",
+      "Infrastructure as Code",
+      "ITAR Compliance"
+    ],
+    "level": "junior",
+    "comp": "$135k-$185k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "075795e0"
+  },
+  "greenhouse-spacex-8558869002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Redmond, WA",
+    "job_summary": "Design and operate secure, scalable AI platform systems and proxy infrastructure that enable SpaceX teams to integrate frontier models, perform advanced analysis, and deploy solutions at company scale. Lead onboarding of new models, optimize proxy systems for performance and security, and build risk-mitigation tools like AI-powered code review and PR automation across the organization.",
+    "skills": [
+      "Python",
+      "Docker",
+      "Kubernetes",
+      "Go",
+      "TypeScript",
+      "Rust",
+      "Infrastructure-as-Code",
+      "CI/CD"
+    ],
+    "level": "senior",
+    "comp": "$160k-$225k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "1f81f920"
+  },
+  "greenhouse-spacex-8558870002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Sunnyvale, CA",
+    "job_summary": "Design and scale secure, multi-tenant AI platform gateways and proxy systems that enable every team at SpaceX to integrate frontier models, perform analysis, and deploy solutions company-wide. Build risk-mitigation infrastructure including intelligent code review and PR automation tools; requires ITAR eligibility (US citizenship or green card).",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Docker",
+      "Go",
+      "TypeScript",
+      "Rust",
+      "Infrastructure as Code",
+      "Distributed Systems"
+    ],
+    "level": "senior",
+    "comp": "$170k-$235k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "583c1576"
+  },
+  "greenhouse-spacex-8558871002": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Palo Alto, CA",
+    "job_summary": "Design and scale secure, resilient AI platform infrastructure including proxy systems, model gateways, and MLOps tooling used company-wide at SpaceX. Build developer productivity and risk-mitigation tools leveraging frontier AI models across multiple cloud and compute providers; requires US citizenship or permanent residency for ITAR compliance.",
+    "skills": [
+      "Python",
+      "Kubernetes",
+      "Docker",
+      "Go",
+      "TypeScript",
+      "Rust",
+      "infrastructure-as-code",
+      "CI/CD"
+    ],
+    "level": "senior",
+    "comp": "$170k-$235k",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "04fce9e2"
+  },
+  "greenhouse-spacex-8555812002": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Hawthorne, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$23.00-$38.00/hour",
+    "comp_extras": [
+      "equity",
+      "bonus"
+    ],
+    "source_hash": "8c195e24"
+  },
+  "greenhouse-stripe-7930151": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e2059b88"
+  },
+  "greenhouse-stripe-7558757": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote / San Francisco, CA / New York, NY / Seattle, WA / Toronto, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "97a5110c"
+  },
+  "greenhouse-taskrabbit-7930453": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Remote, Portugal",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "\u20ac40k-\u20ac50k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "5510f15f"
+  },
+  "ashby-turion-space-5da6c5f6-4bf3-45e2-9c13-eeb25c4aa141": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$80k-$120k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "26028c8b"
+  },
+  "workday-jll-Professional--PDS-Projects_REQ507796-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Cincinnati, OH",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$73.5k-$90k",
+    "comp_extras": [],
+    "source_hash": "22ffb999"
+  },
+  "workday-jll-Associate-Regional-Maintenance-Manager_REQ509438": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Remote \u2013 Olympia, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$140k-$150k",
+    "comp_extras": [],
+    "source_hash": "a2fb6a58"
+  },
+  "workday-jll-Professional--Sourcing_REQ504342": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Belen, Costa Rica",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "5756174e"
+  },
+  "workday-jll-Painter-Maintenance-Technician_REQ507795": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "St. Petersburg, FL / Tampa, FL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$37,500-$43,700",
+    "comp_extras": [],
+    "source_hash": "99fb895e"
+  },
+  "workday-jll-AV-Event-Tech-Set-Up_REQ509433-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Arlington, VA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$65k-$85k",
+    "comp_extras": [],
+    "source_hash": "37050280"
+  },
+  "ashby-vapi-1b66109b-16a5-41a5-8773-9131e0b489d4": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "San Francisco, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$140k-$180k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f3adefd2"
+  },
+  "workday-wisk-Chef-de-service---Gestion-et-support-des-donnes-PLM---Manager--PLM-Data-Management---Support_JR100478": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Laval, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "50ec45f1"
+  },
+  "greenhouse-zyngacareers-5995418004": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Bay Area, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$78.9k-$116.76k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "dcb4db24"
+  },
+  "workday-nvidia-Senior-System-Software-Engineer--Cloud-Services---GeForce-Now_JR2017441": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": null,
+    "job_summary": "Design and build scalable cloud services and infrastructure for GeForce NOW, NVIDIA's cloud gaming platform serving millions of concurrent users globally. Requires expertise in distributed systems, cloud infrastructure, and low-latency service design at internet scale.",
+    "skills": [
+      "Go",
+      "Java",
+      "AWS",
+      "Terraform",
+      "Kubernetes",
+      "Distributed Systems",
+      "PostgreSQL"
+    ],
+    "level": "senior",
+    "comp": "$224k-$356.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "4e603ddd"
+  },
+  "workday-nvidia-High-Speed-Interconnect-Architect_JR2018009": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$224k-$356.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "62db93a6"
+  },
+  "workday-nvidia-Senior-MEP-Engineer---Datacenter-Lab-Infrastructure_JR2016959": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Santa Clara, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$152k-$287.5k",
+    "comp_extras": [
+      "equity"
+    ],
+    "source_hash": "f2b2c676"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5549": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Hsinchu, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2ab14d00"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5547": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Kaohsiung, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "18efa58a"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5544": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Taichung, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "b4b32a13"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5154": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "New Taipei, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "2eb1440e"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5174": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "New Taipei City, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eb4143c8"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5542": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Taoyuan City, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "e6cfc129"
+  },
+  "workday-tapestry-Part-Time-Field-Sales---Hourly_JR5541": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "international",
+    "location": "Taoyuan City, Taiwan",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "df6caebb"
+  },
+  "workday-tmobile-Mobile-Associate---Retail-Sales_REQ352760-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Carlyle, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18.00/hour",
+    "comp_extras": [],
+    "source_hash": "ba0cfa19"
+  },
+  "workday-tmobile-Mobile-Associate--Store-In-Store--Retail-Sales_REQ353598-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Springfield, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18/hr",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "dd2ce382"
+  },
+  "workday-tmobile-Sr-Mobile-Expert_REQ354182-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lynnwood, WA",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$34.00/hr",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "89861599"
+  },
+  "workday-tmobile-Mobile-Associate--Store-in-Store--Retail-Sales_REQ355626-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Green Bay, WI",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18.00/hour",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "118911b8"
+  },
+  "workday-tmobile-Mobile-Associate---Retail-Sales_REQ351195-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Highland, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18.00/hr",
+    "comp_extras": [],
+    "source_hash": "79dd1db1"
+  },
+  "workday-tmobile-Mobile-Associate--Store-in-Store---Retail-Sales_REQ355936-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "East Peoria, IL",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$18.00/hr",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "ae02e287"
+  },
+  "workday-tmobile-Sr-Engineer--Software_REQ354629-1": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Bothell, WA / Bellevue, WA / Frisco, TX",
+    "job_summary": "Design and build full-stack retail applications using Java, React, React Native, and Angular, with responsibility for microservices architecture, RESTful APIs, and enterprise system integration in high-availability production environments.",
+    "skills": [
+      "Java",
+      "React",
+      "React Native",
+      "Angular",
+      "JavaScript",
+      "Microservices",
+      "RESTful APIs",
+      "System Integration"
+    ],
+    "level": "senior",
+    "comp": "$113,600-$205,000",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "373205d6"
+  },
+  "workday-tmobile-Retail-Associate-Manager_REQ355689-2": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Lufkin, TX",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": "$43.2k-$72k",
+    "comp_extras": [
+      "bonus"
+    ],
+    "source_hash": "c5250cfd"
+  },
+  "workday-visa-Product-Analyst---24-Month-Fixed-Term-Contract_REF082278W": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Auckland, New Zealand",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "eaf06b09"
+  },
+  "workday-visa-Campaign-Analysts-x-2---24-month-Fixed-Term-Contract_REF082217W": {
+    "is_engineering": false,
+    "is_contract": true,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "Auckland, New Zealand",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "9d3e40cf"
+  },
+  "workday-visa-Marketing-Analyst_REF081604W-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Atlanta, GA",
+    "job_summary": null,
+    "skills": [],
+    "level": "junior",
+    "comp": "$93.2k-$144.7k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "0230783d"
+  },
+  "workday-visa-Staff-Software-Engineer_REF080504W": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Austin, TX",
+    "job_summary": "Design and develop Visa's home-grown network infrastructure-as-code platform, a foundational system processing 65,000+ secure transactions per second globally. Work on distributed systems and automation services that influence internal standards for scalability, security, and reusability across the organization.",
+    "skills": [
+      "Python",
+      "Angular",
+      "JavaScript",
+      "TypeScript",
+      "API Design",
+      "Distributed Systems",
+      "Infrastructure as Code"
+    ],
+    "level": "staff",
+    "comp": "$131,600-$210,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "46300974"
+  },
+  "workday-visa-Analyst--Technical-Solutions_REF081977W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "international",
+    "location": "S\u00e3o Paulo, Brazil",
+    "job_summary": null,
+    "skills": [],
+    "level": null,
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "a2f5eb47"
+  },
+  "workday-visa-Senior-Implementation-Consultant_REF080707W": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "canada",
+    "location": "Toronto, Canada",
+    "job_summary": null,
+    "skills": [],
+    "level": "senior",
+    "comp": null,
+    "comp_extras": [],
+    "source_hash": "816096a3"
+  },
+  "workday-visa-IT-Audit-Manager_REF082406W-1": {
+    "is_engineering": false,
+    "is_contract": false,
+    "is_hybrid": false,
+    "region": "us",
+    "location": "Foster City, CA",
+    "job_summary": null,
+    "skills": [],
+    "level": "manager",
+    "comp": "$134.6k-$215.3k",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "b50fbe4d"
+  },
+  "workday-visa-SW-Engineer_REF079905W": {
+    "is_engineering": true,
+    "is_contract": false,
+    "is_hybrid": true,
+    "region": "us",
+    "location": "Denver, CO",
+    "job_summary": "Develop scalable real-time, low-latency processing solutions for Visa's payment systems infrastructure, implementing REST APIs, microservices, and containerized applications. Work on the Reliability Engineering Automations platform serving 24/7 global transaction processing across 200+ countries.",
+    "skills": [
+      "Java",
+      "Python",
+      "React",
+      "Angular",
+      "PostgreSQL",
+      "Docker",
+      "Kubernetes",
+      "Jenkins"
+    ],
+    "level": "junior",
+    "comp": "$83,100-$129,300",
+    "comp_extras": [
+      "bonus",
+      "equity"
+    ],
+    "source_hash": "005c5ff0"
   }
 }
