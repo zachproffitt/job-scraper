@@ -650,11 +650,11 @@
     "ats": "ashby"
   },
   {
-    "name": "Rockstar Games",
+    "ats": "greenhouse",
     "slug": "rockstargames",
-    "summary": "Rockstar Games builds video games, including the Grand Theft Auto series.",
-    "source_hash": "6f38f848",
-    "ats": "greenhouse"
+    "name": "Rockstar Games",
+    "summary": "Rockstar Games creates entertainment experiences and video games. The Rockstar Games Tools Team creates and maintains software tools used by game development disciplines to support the creation of Rockstar Games projects.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -702,10 +702,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "openai",
     "name": "OpenAI",
-    "summary": "OpenAI builds artificial intelligence systems, including large language models like GPT-4 and ChatGPT, which they offer through APIs and consumer applications. The company operates in the artificial intelligence software domain, providing tools for text generation, code generation, and other AI-powered capabilities to developers, businesses, and consumers.",
-    "ats": "ashby"
+    "summary": "OpenAI is an AI research and deployment company dedicated to ensuring that general-purpose artificial intelligence benefits all of humanity.",
+    "source": "job_posting"
   },
   {
     "slug": "xai",
@@ -9207,10 +9208,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "sifive/wd1/sifivecareers",
     "name": "SiFive",
-    "summary": "SiFive designs and sells customizable RISC-V processor cores and related semiconductor intellectual property, enabling companies to build their own chips rather than licensing designs from traditional providers like ARM. They operate in the semiconductor design tools and IP licensing domain, serving customers across automotive, IoT, enterprise, and other industries.",
-    "ats": "workday"
+    "summary": "SiFive designs and develops processors and systems based on the RISC-V instruction set architecture.",
+    "source": "meta_description"
   },
   {
     "slug": "signpost",
