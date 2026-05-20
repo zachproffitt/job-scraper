@@ -370,11 +370,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Etched",
+    "ats": "ashby",
     "slug": "Etched",
-    "summary": "Etched builds AI inference systems purpose-built for transformers, delivering 10x higher performance and lower cost/latency than B200 using ASICs.",
-    "source_hash": "176d5671",
-    "ats": "ashby"
+    "name": "Etched",
+    "summary": "Etched builds AI inference systems with custom ASICs designed specifically for transformers, delivering higher performance and lower cost and latency compared to GPU alternatives. The company's hardware enables applications like real-time video generation and complex reasoning agents that would be impractical with GPUs.",
+    "source": "job_posting"
   },
   {
     "name": "d-Matrix",
@@ -3365,10 +3365,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "overview",
     "name": "Overview",
-    "summary": "Overview builds AI-powered document analysis and search tools that help organizations process, understand, and extract insights from large volumes of unstructured documents and text data. The company operates in the enterprise software and artificial intelligence domain, serving use cases in legal discovery, compliance, investigative journalism, and knowledge management.",
-    "ats": "ashby"
+    "summary": "Overview builds AI-powered quality control systems that integrate directly into manufacturing production lines to work alongside existing PLCs and equipment. The company deploys these systems in real production environments at customers like Tesla, SpaceX, and Amphenol.",
+    "source": "job_posting"
   },
   {
     "slug": "pairteam",
@@ -7429,10 +7430,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "empower/wd12/empower",
     "name": "Empower Retirement",
-    "summary": "Empower Retirement provides retirement planning and investment management services, including 401(k) plans, IRAs, and financial advisory services for individuals and employers. The company operates in the financial services and retirement benefits administration sector, serving millions of plan participants across the United States.",
-    "ats": "workday"
+    "summary": "Empower Retirement provides retirement planning advisory services to public employees, helping them achieve financial readiness through individual consultations and group presentations on defined contribution Government 457 plans. The company employs Retirement Plan Advisors who conduct retirement readiness reviews, develop stakeholder partnerships, and use data-driven analysis to improve retirement outcomes for plan participants.",
+    "source": "job_posting"
   },
   {
     "slug": "energyhub",
@@ -9108,10 +9110,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "saronic",
     "name": "Saronic",
-    "summary": "Saronic develops autonomous surface vessels for maritime operations including inspection, surveillance, and environmental monitoring. The company's USVs (unmanned surface vehicles) operate in the marine technology sector, serving applications in offshore energy, coastal defense, and environmental protection.",
-    "ats": "ashby"
+    "summary": "Saronic builds autonomous vessels for maritime applications.",
+    "source": "meta_description"
   },
   {
     "slug": "esw",
