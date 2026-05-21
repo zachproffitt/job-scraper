@@ -1,3 +1,5 @@
 [2026-05-21T17:48:49Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
 [2026-05-21T17:52:19Z] fetch_jobs: scraper error for Tempus AI (workday/tempus/wd5/Tempus_Careers): Workday request failed for tempus/wd5/Tempus_Careers: Server error '520 <none>' for url 'https://tempus.wd5.myworkdayjobs.com/wday/cxs/tempus/Tempus_Careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-21T18:03:08Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403

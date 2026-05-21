@@ -710,10 +710,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "xai",
     "name": "xAI",
-    "summary": "# xAI\n\nxAI builds large language models and AI systems, most notably Grok, a conversational AI assistant. The company operates in the artificial intelligence domain, focusing on developing AI models that can process and generate text.",
-    "ats": "greenhouse"
+    "summary": "xAI creates AI systems designed to understand the universe and aid humanity in pursuing knowledge.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -1269,10 +1270,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "ChefRobotics",
     "name": "Chef Robotics",
-    "summary": "# Chef Robotics\n\nChef Robotics builds robotic systems that perform food preparation tasks in commercial kitchens, such as chopping, plating, and cooking. The company operates in the food service automation domain, targeting restaurants and food production facilities.",
-    "ats": "lever"
+    "summary": "Chef Robotics builds robots for food manufacturers that automate meal assembly.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -5824,10 +5826,11 @@
     "source": "homepage"
   },
   {
+    "ats": "greenhouse",
     "slug": "fireworksai",
     "name": "Fireworks AI",
-    "summary": "Fireworks AI provides a platform for deploying and serving open-source large language models with optimized inference performance, allowing developers to run models like Llama, Mistral, and others with low latency and high throughput at scale.",
-    "ats": "greenhouse"
+    "summary": "Fireworks AI builds a platform that delivers generative AI models with fast and scalable inference capabilities, including function calling and multimodal models. The company is a Series C startup backed by investors including Benchmark, Sequoia, Lightspeed, Index, and Evantic.",
+    "source": "job_posting"
   },
   {
     "slug": "kalshi",
@@ -7229,10 +7232,11 @@
     "ats": "workable"
   },
   {
+    "ats": "greenhouse",
     "slug": "zenput",
     "name": "Crunchtime",
-    "summary": "Crunchtime provides cloud-based workforce management and scheduling software for the restaurant and hospitality industry, helping operators manage labor costs, compliance, and staff scheduling.",
-    "ats": "greenhouse"
+    "summary": "Crunchtime builds a software platform that global restaurant and foodservice operators use to manage operations across their locations, including inventory management, staff scheduling, learning and development, food safety, and operational tasks, serving over 150,000 locations across 100+ countries for brands including Chipotle, Domino's, Dunkin', and Five Guys.",
+    "source": "job_posting"
   },
   {
     "slug": "curology",
@@ -9079,10 +9083,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "resilience/wd1/Resilience_Careers",
     "name": "Resilience",
-    "summary": "Resilience builds software and services for supply chain visibility and risk management, helping enterprises track goods, suppliers, and logistics operations across global networks.",
-    "ats": "workday"
+    "summary": "Resilience is a biomanufacturing contract development and manufacturing organization that provides end-to-end solutions for biologics manufacturing.",
+    "source": "meta_description"
   },
   {
     "slug": "revinate",
