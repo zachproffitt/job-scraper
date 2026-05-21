@@ -1,11 +1,11 @@
 {
-  "classified": 416,
-  "title_skipped": 141,
-  "skipped_no_desc": 15500,
+  "classified": 73,
+  "title_skipped": 24,
+  "skipped_no_desc": 13585,
   "errors": 0,
-  "requests": 416,
-  "input_tokens": 473220,
-  "output_tokens": 76956,
+  "requests": 73,
+  "input_tokens": 90460,
+  "output_tokens": 13105,
   "cache_creation_input_tokens": 4221,
-  "cache_read_input_tokens": 1751715
+  "cache_read_input_tokens": 303912
 }
