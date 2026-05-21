@@ -175,11 +175,11 @@
     "ats": "lever"
   },
   {
-    "name": "Q-CTRL",
+    "ats": "lever",
     "slug": "q-ctrl",
-    "summary": "Q-CTRL develops software to expand quantum computing capabilities and enable quantum sensing solutions for navigation and industrial applications.",
-    "source_hash": "8ef88c2e",
-    "ats": "lever"
+    "name": "Q-CTRL",
+    "summary": "Q-CTRL makes infrastructure software that expands the utility of quantum computers and delivers quantum sensing capabilities.",
+    "source": "meta_description"
   },
   {
     "name": "Helion Energy",
