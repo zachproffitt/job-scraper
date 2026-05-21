@@ -1362,10 +1362,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "trm-labs",
     "name": "TRM Labs",
-    "summary": "TRM Labs provides blockchain intelligence and financial crime compliance software that helps cryptocurrency exchanges, financial institutions, and other digital asset platforms detect and prevent money laundering, fraud, and illicit activity.",
-    "ats": "ashby"
+    "summary": "TRM Labs provides tools and services used by government agencies and private institutions to investigate and combat illicit activity, including criminal networks, sanctioned actors, and state-backed threats.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
@@ -1753,10 +1754,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "ironcladhq",
     "name": "Ironclad",
-    "summary": "Ironclad builds a contract management platform that helps legal and business teams create, negotiate, and manage contracts. The software operates in the contract lifecycle management domain, serving enterprise customers who need to streamline their contracting processes.",
-    "ats": "ashby"
+    "summary": "Ironclad provides software that enables users to design and deploy contracts quickly and extract insights from legal agreements to manage risk.",
+    "source": "meta_description"
   },
   {
     "slug": "webflow",
@@ -3548,10 +3550,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "Promise",
     "name": "Promise",
-    "summary": "Promise builds a buy now, pay later (BNPL) platform that allows consumers to make purchases and pay for them in installments. The company operates in the financial services and consumer lending space, offering point-of-sale financing solutions primarily for e-commerce and retail transactions.",
-    "ats": "ashby"
+    "summary": "Promise provides software that utilities and governments use to manage relief and repayment programs.",
+    "source": "meta_description"
   },
   {
     "slug": "Protex AI",
@@ -4360,10 +4363,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "omadahealth",
     "name": "Omada Health",
-    "summary": "Omada Health builds digital health platforms and software tools designed to help manage chronic diseases like diabetes, hypertension, and behavioral health through remote patient monitoring, coaching, and personalized interventions. The company operates in the digital therapeutics and preventive care space, serving health plans, employers, and healthcare providers.",
-    "ats": "greenhouse"
+    "summary": "Omada Health provides virtual care and personalized chronic disease management programs.",
+    "source": "meta_description"
   },
   {
     "slug": "sisense",
@@ -6643,10 +6647,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "lever",
     "slug": "autofi",
     "name": "Autofi",
-    "summary": "AutoFi provides software and services that enable automotive retailers and lenders to offer digital retail experiences for vehicle financing and point-of-sale transactions. The company operates in the automotive finance technology sector, helping dealerships streamline their sales processes and improve customer engagement through digital tools.",
-    "ats": "lever"
+    "summary": "AutoFi provides digital commerce technology that powers sales and finance experiences for automotive brands and dealers, processing $4 billion in funded loans annually through its platform. The platform enables dealers to sell vehicles online and in showrooms while managing the financing experience.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -9838,5 +9843,12 @@
     "name": "UpMetrics",
     "summary": "UpMetrics is a business planning and financial forecasting software platform that helps entrepreneurs and small business owners create comprehensive business plans, financial projections, and pitch decks. The company operates in the business intelligence and planning tools space, serving startups, small businesses, and consultants who need to model financial scenarios and present their business strategy to investors or stakeholders.",
     "ats": "lever"
+  },
+  {
+    "ats": "greenhouse",
+    "slug": "samsara",
+    "name": "Samsara",
+    "summary": "Samsara builds a platform called the Connected Operations Cloud that collects Internet of Things data from organizations in industries including agriculture, construction, field services, transportation, and manufacturing to provide actionable insights and improve their operations. The platform includes products for video-based safety, vehicle telematics, driver workflows, and equipment monitoring.",
+    "source": "job_posting"
   }
 ]
