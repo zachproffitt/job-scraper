@@ -5964,10 +5964,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "hinge-health",
     "name": "Hinge Health",
-    "summary": "Hinge Health provides digital musculoskeletal care through a platform that combines therapeutic exercises, clinician support, and behavioral coaching to treat conditions like back pain, joint pain, and arthritis without surgery or opioids. The company operates in the digital health and occupational health space, serving employers, health plans, and individual patients seeking conservative treatment options for musculoskeletal disorders.",
-    "ats": "ashby"
+    "summary": "Hinge Health provides a personalized virtual physical therapy program for joint and muscle pain.",
+    "source": "meta_description"
   },
   {
     "slug": "jumpcrypto",
