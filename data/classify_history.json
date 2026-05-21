@@ -1,0 +1,12 @@
+[
+  {
+    "ts": "2026-05-21T19:05:41Z",
+    "classified": 67,
+    "builder": 20,
+    "not_builder": 47,
+    "unclear": 0,
+    "builder_rate": 0.2985,
+    "title_skipped": 28,
+    "location_skipped": 3
+  }
+]
