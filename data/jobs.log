@@ -1,17 +1,19 @@
-[2026-05-21T18:11:10Z] fetch_jobs: scraper error for Adobe (workday/adobe/wd5/external_experienced): Workday request failed for adobe/wd5/external_experienced: Server error '502 Bad Gateway' for url 'https://adobe.wd5.myworkdayjobs.com/wday/cxs/adobe/external_experienced/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T18:11:21Z] fetch_jobs: scraper error for Anduril Industries (greenhouse/andurilindustries): Greenhouse request failed for andurilindustries: The read operation timed out
-[2026-05-21T18:11:24Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
-[2026-05-21T18:12:06Z] fetch_jobs: scraper error for Abbott (workday/abbott/wd5/abbottcareers): Workday request failed for abbott/wd5/abbottcareers: Server error '520 <none>' for url 'https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs'
+[2026-05-21T18:53:02Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
+[2026-05-21T18:54:22Z] fetch_jobs: scraper error for Evisort (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: Server error '520 <none>' for url 'https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
-[2026-05-21T18:13:05Z] fetch_jobs: scraper error for Juniper Networks (workday/hpe/wd5/Jobsathpe): Workday request failed for hpe/wd5/Jobsathpe: The read operation timed out
-[2026-05-21T18:13:50Z] fetch_jobs: scraper error for Rackspace (workday/rackspace/wd1/External): Workday request failed for rackspace/wd1/External: Server error '502 Bad Gateway' for url 'https://rackspace.wd1.myworkdayjobs.com/wday/cxs/rackspace/External/jobs'
+[2026-05-21T18:54:36Z] fetch_jobs: scraper error for GumGum (greenhouse/gumgum): Greenhouse request failed for gumgum: The read operation timed out
+[2026-05-21T18:54:44Z] fetch_jobs: scraper error for DXC Technology (workday/dxctechnology/wd1/DXCJobs): Workday request failed for dxctechnology/wd1/DXCJobs: Server error '502 Bad Gateway' for url 'https://dxctechnology.wd1.myworkdayjobs.com/wday/cxs/dxctechnology/DXCJobs/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T18:14:10Z] fetch_jobs: scraper error for Nvidia (workday/nvidia/wd5/NVIDIAExternalCareerSite): Workday request failed for nvidia/wd5/NVIDIAExternalCareerSite: Server error '502 Bad Gateway' for url 'https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T18:14:12Z] fetch_jobs: scraper error for Otis (workday/otis/wd5/REC_Ext_Gateway): Workday request failed for otis/wd5/REC_Ext_Gateway: Server error '520 <none>' for url 'https://otis.wd5.myworkdayjobs.com/wday/cxs/otis/REC_Ext_Gateway/jobs'
+[2026-05-21T18:54:53Z] fetch_jobs: scraper error for Abbott (workday/abbott/wd5/abbottcareers): Workday request failed for abbott/wd5/abbottcareers: The read operation timed out
+[2026-05-21T18:55:00Z] fetch_jobs: scraper error for iHeartMedia (workday/iheartmedia/wd5/External_iHM): Workday request failed for iheartmedia/wd5/External_iHM: The read operation timed out
+[2026-05-21T18:55:05Z] fetch_jobs: scraper error for Juniper Networks (workday/hpe/wd5/Jobsathpe): Workday request failed for hpe/wd5/Jobsathpe: Server error '520 <none>' for url 'https://hpe.wd5.myworkdayjobs.com/wday/cxs/hpe/Jobsathpe/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
-[2026-05-21T18:15:17Z] fetch_jobs: scraper error for Workday (workday/workday/wd5/Workday): Workday request failed for workday/wd5/Workday: Server error '502 Bad Gateway' for url 'https://workday.wd5.myworkdayjobs.com/wday/cxs/workday/Workday/jobs'
+[2026-05-21T18:56:20Z] fetch_jobs: scraper error for Nvidia (workday/nvidia/wd5/NVIDIAExternalCareerSite): Workday request failed for nvidia/wd5/NVIDIAExternalCareerSite: Server error '502 Bad Gateway' for url 'https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T18:21:50Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T18:56:23Z] fetch_jobs: scraper error for Sunrun (workday/sunrun/wd5/Sunrun_Careers): Workday request failed for sunrun/wd5/Sunrun_Careers: Server error '520 <none>' for url 'https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-21T18:56:39Z] fetch_jobs: scraper error for Trimble (workday/trimble/wd1/TrimbleCareers): Workday request failed for trimble/wd1/TrimbleCareers: Server error '502 Bad Gateway' for url 'https://trimble.wd1.myworkdayjobs.com/wday/cxs/trimble/TrimbleCareers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-05-21T18:56:54Z] fetch_jobs: scraper error for JLL (workday/jll/wd1/jllcareers): Workday request failed for jll/wd1/jllcareers: The read operation timed out
+[2026-05-21T18:56:59Z] fetch_jobs: scraper error for Thomson Reuters (workday/thomsonreuters/wd5/External_Career_Site): Workday request failed for thomsonreuters/wd5/External_Career_Site: Server error '502 Bad Gateway' for url 'https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
