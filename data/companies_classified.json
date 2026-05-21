@@ -683,10 +683,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "oklo",
     "name": "Oklo",
-    "summary": "# Oklo\n\nOklo designs and develops micro nuclear reactors intended for deployment in remote locations and industrial applications that require compact, modular power generation. The company operates in the advanced nuclear energy sector, focusing on reactor design, fuel recycling, and regulatory licensing to commercialize small modular reactor (SMR) technology.",
-    "ats": "greenhouse"
+    "summary": "Oklo develops and operates advanced nuclear reactors and is building a nuclear training organization to support safe and efficient plant operations for its advanced reactor facilities.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -6953,10 +6954,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "cerence/wd5/Cerence",
     "name": "Cerence Inc.",
-    "summary": "Cerence Inc. develops AI-powered software platforms for the automotive industry, including voice recognition, natural language processing, and conversational AI systems that enable in-vehicle infotainment and driver assistance applications. The company provides its technology to automakers, suppliers, and other connected device manufacturers to create intelligent human-machine interfaces.",
-    "ats": "workday"
+    "summary": "Cerence Inc. delivers conversational and agentic AI-powered user experiences for automotive and other applications.",
+    "source": "meta_description"
   },
   {
     "slug": "ceribell",
