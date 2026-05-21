@@ -76,7 +76,7 @@ jobs:
       - name: Checkpoint classify results
         working-directory: scraper
         run: |
-          git add data/jobs_classified.json data/jobs_pipeline_stats.json data/jobs.log
+          git add data/jobs_classified.json data/jobs_pipeline_stats.json data/classify_history.json data/jobs.log
           if git diff --cached --quiet; then
             echo "No classify changes"
           else
@@ -118,7 +118,7 @@ jobs:
       - name: Commit and push scraper data
         working-directory: scraper
         run: |
-          git add data/jobs_seen.json data/companies_seen.json data/jobs_classified.json data/companies_classified.json data/companies.json data/jobs_pipeline_stats.json data/jobs.log README.md
+          git add data/jobs_seen.json data/companies_seen.json data/jobs_classified.json data/companies_classified.json data/companies.json data/jobs_pipeline_stats.json data/classify_history.json data/jobs.log README.md
           if git diff --cached --quiet; then
             echo "No changes in scraper data"
           else

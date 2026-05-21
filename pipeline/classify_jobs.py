@@ -17,6 +17,7 @@ from llm import BACKEND, CLAUDE_MODEL, OLLAMA_MODEL, chat, get_usage, estimate_c
 JOBS_FILE = Path(__file__).parent.parent / "data" / "jobs_raw.json"
 OUTPUT_FILE = Path(__file__).parent.parent / "data" / "jobs_classified.json"
 TITLE_SKIP_FILE = Path(__file__).parent.parent / "data" / "job_title_skip_patterns.json"
+HISTORY_FILE = Path(__file__).parent.parent / "data" / "classify_history.json"
 LOG_FILE = Path(__file__).parent.parent / "data" / "jobs.log"
 
 WORKERS = 5 if BACKEND == "claude" else 2
@@ -508,8 +509,14 @@ def main():
     print(f"Total builder roles in cache: {total_eng}/{len(existing)}")
 
     usage = get_usage()
+    classified = len(with_desc)
+    builder_rate = eng / classified if classified > 0 else 0.0
     stats = {
-        "classified": len(with_desc),
+        "classified": classified,
+        "builder": eng,
+        "not_builder": not_eng,
+        "unclear": unclear,
+        "builder_rate": round(builder_rate, 4),
         "title_skipped": len(title_skipped),
         "location_skipped": len(location_skipped),
         "skipped_no_desc": without_desc,
@@ -517,6 +524,22 @@ def main():
         **usage,
     }
     (Path(__file__).parent.parent / "data" / "jobs_pipeline_stats.json").write_text(json.dumps(stats, indent=2))
+
+    # Append this run to rolling history
+    history: list[dict] = []
+    if HISTORY_FILE.exists():
+        history = json.loads(HISTORY_FILE.read_text())
+    history.append({
+        "ts": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "classified": classified,
+        "builder": eng,
+        "not_builder": not_eng,
+        "unclear": unclear,
+        "builder_rate": round(builder_rate, 4),
+        "title_skipped": len(title_skipped),
+        "location_skipped": len(location_skipped),
+    })
+    HISTORY_FILE.write_text(json.dumps(history, indent=2))
 
     if usage["requests"]:
         cost = estimate_cost(usage)
