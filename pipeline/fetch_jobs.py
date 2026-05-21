@@ -59,9 +59,11 @@ def main():
 
     # Preserve descriptions from the rolling window
     prev: dict[str, dict] = {}
+    prev_by_company: dict[str, list[dict]] = {}
     if OUTPUT_FILE.exists():
         for j in json.loads(OUTPUT_FILE.read_text()):
             prev[j["id"]] = j
+            prev_by_company.setdefault(j.get("company", ""), []).append(j)
 
     # Companies seen before — new companies have all jobs archived on first fetch
     seen_companies: dict[str, str] = {}
@@ -72,7 +74,7 @@ def main():
     now_ts = datetime.now(timezone.utc).isoformat(timespec="seconds")
     all_jobs: list[dict] = []
     error_count = 0
-    new_count = closed_count = archived_count = 0
+    new_count = closed_count = archived_count = carried_count = 0
     deactivated: list[str] = []  # company names that 404'd
     lock = threading.Lock()
     completed = 0
@@ -137,6 +139,7 @@ def main():
                 print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... {len(jobs)} jobs{label}")
             except ScraperError as e:
                 error_str = str(e)
+                carried: list[dict] = []
                 with lock:
                     error_count += 1
                     # Extract URL from error string. httpx wraps URLs in single quotes
@@ -159,7 +162,12 @@ def main():
                     )
                     if is_permanent:
                         deactivated.append(name)
-                print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... ERROR")
+                    else:
+                        carried = prev_by_company.get(name, [])
+                        all_jobs.extend(carried)
+                        carried_count += len(carried)
+                carry_note = f" [+{len(carried)} carried from prev]" if carried else ""
+                print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... ERROR{carry_note}")
                 log_error(f"scraper error for {name} ({ats}/{slug}): {e}")
 
     closed_count = len(prev) - sum(1 for j in all_jobs if j["id"] in prev)
@@ -171,7 +179,7 @@ def main():
     aged_out = before - len(all_jobs)
 
     print(f"\nTotal: {len(all_jobs)} jobs from {len(companies)} companies")
-    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}  |  Archived (new companies): {archived_count}  |  Errors: {error_count}")
+    print(f"New: {new_count}  |  Closed: {closed_count}  |  Aged out (>{WINDOW_DAYS}d): {aged_out}  |  Archived (new companies): {archived_count}  |  Carried (errors): {carried_count}  |  Errors: {error_count}")
 
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     JOBS_SEEN_FILE.write_text(json.dumps(seen, indent=2))
