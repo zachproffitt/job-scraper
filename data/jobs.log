@@ -2,3 +2,7 @@
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
 [2026-05-21T00:53:16Z] fetch_jobs: scraper error for JLL (workday/jll/wd1/jllcareers): Workday request failed for jll/wd1/jllcareers: Server error '520 <none>' for url 'https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-21T01:01:43Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T01:01:55Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403

@@ -3764,10 +3764,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "ShortStory",
     "name": "Short Story",
-    "summary": "Short Story builds subscription boxes that deliver curated short story collections and literary magazines to readers' homes on a monthly basis. They operate in the direct-to-consumer subscription and literary publishing domain, focusing on making contemporary and classic short fiction accessible to book enthusiasts.",
-    "ats": "ashby"
+    "summary": "Short Story curates and delivers high-quality fashion clothing tailored specifically for petite women.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -7432,10 +7433,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "greenhouse",
     "slug": "edo",
     "name": "EDO",
-    "summary": "EDO provides cybersecurity solutions focused on protecting organizations from web-based threats, including malware, phishing, and data exfiltration attacks through browser-based vulnerabilities and supply chain compromises.",
-    "ats": "greenhouse"
+    "summary": "EDO provides advertising leaders with predictive and historical behavioral engagement data to determine the effectiveness of Convergent TV campaigns.",
+    "source": "meta_description"
   },
   {
     "slug": "edume",
