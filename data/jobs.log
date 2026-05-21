@@ -1,8 +1,7 @@
-[2026-05-21T00:52:03Z] fetch_jobs: scraper error for Boeing Defense, Space & Security (workday/boeing/wd1/EXTERNAL_CAREERS): Workday request failed for boeing/wd1/EXTERNAL_CAREERS: Server error '502 Bad Gateway' for url 'https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs'
+[2026-05-21T01:16:47Z] fetch_jobs: scraper error for AiDash (greenhouse/aidashinc): Greenhouse request failed for aidashinc: The read operation timed out
+[2026-05-21T01:17:03Z] fetch_jobs: scraper error for Charm Industrial (lever/charmindustrial): Lever request failed for charmindustrial: Server disconnected without sending a response.
+[2026-05-21T01:19:58Z] fetch_jobs: scraper error for Sunrun (workday/sunrun/wd5/Sunrun_Careers): Workday request failed for sunrun/wd5/Sunrun_Careers: Server error '502 Bad Gateway' for url 'https://sunrun.wd5.myworkdayjobs.com/wday/cxs/sunrun/Sunrun_Careers/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T00:53:16Z] fetch_jobs: scraper error for JLL (workday/jll/wd1/jllcareers): Workday request failed for jll/wd1/jllcareers: Server error '520 <none>' for url 'https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
-[2026-05-21T01:01:43Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-21T01:01:55Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T01:20:01Z] fetch_jobs: scraper error for Tovala (lever/tovala): Lever request failed for tovala: Server disconnected without sending a response.
+[2026-05-21T01:20:30Z] fetch_jobs: scraper error for Nvidia (workday/nvidia/wd5/NVIDIAExternalCareerSite): Workday request failed for nvidia/wd5/NVIDIAExternalCareerSite: Server error '502 Bad Gateway' for url 'https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSite/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
