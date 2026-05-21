@@ -15082,7 +15082,9 @@
   {
     "name": "Acorns",
     "website": "https://acorns.com",
-    "status": "no_ats"
+    "status": "active",
+    "ats": "ashby",
+    "slug": "acorns"
   },
   {
     "name": "ActiveCampaign",
@@ -27067,7 +27069,9 @@
   {
     "name": "Samsara",
     "website": "https://samsara.com",
-    "status": "no_ats"
+    "status": "active",
+    "ats": "greenhouse",
+    "slug": "samsara"
   },
   {
     "name": "The Sandbox",
@@ -36428,5 +36432,61 @@
     "name": "Terminal",
     "website": "https://www.withterminal.com",
     "status": "no_ats"
+  },
+  {
+    "name": "Urban Sky",
+    "website": "https://urbansky.com",
+    "ats": "greenhouse",
+    "slug": "urbansky",
+    "status": "active"
+  },
+  {
+    "name": "FS Studio",
+    "website": "https://fsstudio.com",
+    "ats": "ashby",
+    "slug": "fs-studio",
+    "status": "active"
+  },
+  {
+    "name": "Owner",
+    "website": "https://owner.com",
+    "ats": "ashby",
+    "slug": "owner",
+    "status": "active"
+  },
+  {
+    "name": "Bellota Labs",
+    "website": "https://bellotalabs.com",
+    "ats": "lever",
+    "slug": "bellotalabs",
+    "status": "active"
+  },
+  {
+    "name": "Filevine",
+    "website": "https://filevine.com",
+    "ats": "lever",
+    "slug": "filevine",
+    "status": "active"
+  },
+  {
+    "name": "Loot Labs",
+    "website": "https://lootlabs.gg",
+    "ats": "ashby",
+    "slug": "loot-labs",
+    "status": "active"
+  },
+  {
+    "name": "Flashbots",
+    "website": "https://flashbots.net",
+    "ats": "ashby",
+    "slug": "flashbots.net",
+    "status": "active"
+  },
+  {
+    "name": "Bastion",
+    "website": "https://bastion.com",
+    "ats": "ashby",
+    "slug": "bastion",
+    "status": "active"
   }
 ]
