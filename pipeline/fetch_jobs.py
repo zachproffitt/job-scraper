@@ -75,7 +75,6 @@ def main():
     all_jobs: list[dict] = []
     error_count = 0
     new_count = closed_count = archived_count = carried_count = 0
-    deactivated: list[str] = []  # company names that 404'd
     lock = threading.Lock()
     completed = 0
 
@@ -138,34 +137,12 @@ def main():
                 label = " [new company — archived]" if is_new else ""
                 print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... {len(jobs)} jobs{label}")
             except ScraperError as e:
-                error_str = str(e)
                 carried: list[dict] = []
                 with lock:
                     error_count += 1
-                    # Extract URL from error string. httpx wraps URLs in single quotes
-                    # ("for url 'https://…'"), so strip leading quotes before checking.
-                    url_in_error = ""
-                    for part in error_str.split():
-                        candidate = part.lstrip("'\"")
-                        if candidate.startswith("http"):
-                            url_in_error = candidate.rstrip("'\".,")
-                            break
-                    # 404: job board is gone
-                    # 422: Workday tenant/path no longer valid (acquired companies)
-                    # 403 where slug not in URL: redirected to ATS homepage (dead account).
-                    # Require a non-empty URL — otherwise we can't tell whether the slug was
-                    # absent or just unparseable, and shouldn't auto-deactivate on transient 403s.
-                    is_permanent = (
-                        "404" in error_str
-                        or "422" in error_str
-                        or ("403" in error_str and url_in_error and slug not in url_in_error)
-                    )
-                    if is_permanent:
-                        deactivated.append(name)
-                    else:
-                        carried = prev_by_company.get(name, [])
-                        all_jobs.extend(carried)
-                        carried_count += len(carried)
+                    carried = prev_by_company.get(name, [])
+                    all_jobs.extend(carried)
+                    carried_count += len(carried)
                 carry_note = f" [+{len(carried)} carried from prev]" if carried else ""
                 print(f"  [{n:>3}/{len(to_fetch)}] {name} ({ats})... ERROR{carry_note}")
                 log_error(f"scraper error for {name} ({ats}/{slug}): {e}")
@@ -184,14 +161,6 @@ def main():
     OUTPUT_FILE.write_text(json.dumps(all_jobs, indent=2))
     JOBS_SEEN_FILE.write_text(json.dumps(seen, indent=2))
     COMPANIES_SEEN_FILE.write_text(json.dumps(seen_companies, indent=2))
-
-    if deactivated:
-        deactivated_set = set(deactivated)
-        for c in companies:
-            if c["name"] in deactivated_set:
-                c["status"] = "inactive"
-        COMPANIES_FILE.write_text(json.dumps(companies, indent=2))
-        print(f"Deactivated {len(deactivated)} companies (404): {', '.join(deactivated)}")
 
     print(f"Written to {OUTPUT_FILE}")
     if error_count:
