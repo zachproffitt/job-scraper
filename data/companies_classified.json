@@ -3432,10 +3432,11 @@
     "ats": "lever"
   },
   {
+    "ats": "ashby",
     "slug": "permitflow",
     "name": "PermitFlow",
-    "summary": "PermitFlow builds AI agents that automate the construction permitting process, handling tasks from initial intake through permit issuance and project closeout. The company operates in the construction software domain, serving commercial contractors, home builders, developers, and other construction trades by reducing permitting timelines and administrative overhead.",
-    "ats": "ashby"
+    "summary": "PermitFlow provides a platform that handles permit preparation, submission, and tracking across municipalities nationwide.",
+    "source": "meta_description"
   },
   {
     "slug": "Pharos",
@@ -8379,10 +8380,11 @@
     "ats": "breezy"
   },
   {
+    "ats": "workday",
     "slug": "lytx/wd1/Lytx",
     "name": "Lytx",
-    "summary": "Lytx develops AI-powered video telematics and fleet management software that uses dashboard cameras and mobile devices to monitor driver behavior, vehicle performance, and road safety in commercial fleets. The company operates in the transportation and logistics sector, providing insights to reduce accidents, lower insurance costs, and improve operational efficiency for businesses managing vehicles.",
-    "ats": "workday"
+    "summary": "Lytx makes video telematics systems that help fleet operators improve safety, efficiency, and DOT compliance.",
+    "source": "meta_description"
   },
   {
     "slug": "mabl",
@@ -8975,10 +8977,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "workday",
     "slug": "q2ebanking/wd5/Q2",
     "name": "Q2",
-    "summary": "Q2 provides digital banking and payment solutions for financial institutions, including online and mobile banking platforms, bill payment services, and fraud prevention tools that help banks and credit unions deliver digital experiences to their customers.",
-    "ats": "workday"
+    "summary": "Q2 creates end-to-end banking and lending software and services for financial institutions.",
+    "source": "meta_description"
   },
   {
     "slug": "qloo",
