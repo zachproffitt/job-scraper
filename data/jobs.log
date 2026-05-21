@@ -1,7 +1,5 @@
-[2026-05-21T15:25:46Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
-[2026-05-21T15:27:08Z] fetch_jobs: scraper error for Abbott (workday/abbott/wd5/abbottcareers): Workday request failed for abbott/wd5/abbottcareers: Server error '502 Bad Gateway' for url 'https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T15:29:03Z] fetch_jobs: scraper error for Otis (workday/otis/wd5/REC_Ext_Gateway): Workday request failed for otis/wd5/REC_Ext_Gateway: Server error '502 Bad Gateway' for url 'https://otis.wd5.myworkdayjobs.com/wday/cxs/otis/REC_Ext_Gateway/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
-[2026-05-21T15:37:42Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T17:06:20Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
+[2026-05-21T17:07:57Z] fetch_jobs: scraper error for Headspace (greenhouse/hs): Greenhouse request failed for hs: The read operation timed out
+[2026-05-21T17:08:01Z] fetch_jobs: scraper error for Huntress (greenhouse/huntress): Greenhouse request failed for huntress: The read operation timed out
+[2026-05-21T17:08:03Z] fetch_jobs: scraper error for inKind (greenhouse/inkind): Greenhouse request failed for inkind: The read operation timed out
+[2026-05-21T17:08:19Z] fetch_jobs: scraper error for iHeartMedia (workday/iheartmedia/wd5/External_iHM): Workday request failed for iheartmedia/wd5/External_iHM: The read operation timed out
