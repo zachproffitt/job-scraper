@@ -321,11 +321,11 @@
     "ats": "greenhouse"
   },
   {
-    "name": "Epirus",
+    "ats": "greenhouse",
     "slug": "epirus",
-    "summary": "Epirus builds non-kinetic cUAS and counter swarm systems using directed energy, high-power microwaves, AI, and advanced electronics.",
-    "source_hash": "a506419c",
-    "ats": "greenhouse"
+    "name": "Epirus",
+    "summary": "Epirus makes high-power microwave systems that use directed energy and AI-based electronics for electronic warfare and counter-unmanned aerial system applications.",
+    "source": "meta_description"
   },
   {
     "name": "Vannevar Labs",
@@ -787,10 +787,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "calicolabs",
     "name": "Calico Labs",
-    "summary": "Calico Labs is a research organization founded by Google/Alphabet that focuses on understanding the biology of aging and developing therapeutics to extend human lifespan and healthspan. The company conducts basic research in aging biology and runs drug development programs targeting age-related diseases.",
-    "ats": "greenhouse"
+    "summary": "Calico Labs is an Alphabet-founded research and development company that uses advanced technologies and model systems to increase understanding of the biology that controls human aging, with the goal of developing interventions that enable people to lead longer and healthier lives.",
+    "source": "job_posting"
   },
   {
     "slug": "capellaspace",
