@@ -5636,10 +5636,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "jci/wd5/JCI",
     "name": "Sensormatic Electronics",
-    "summary": "Sensormatic Electronics manufactures electronic security and asset management systems for retail and commercial environments, including electronic article surveillance (EAS) tags and detectors, video surveillance equipment, and inventory management solutions. The company serves the retail, healthcare, and loss prevention industries with integrated security and operational visibility platforms.",
-    "ats": "workday"
+    "summary": "Sensormatic Electronics makes retail systems including RFID, EAS, anti-theft tags and labels, detachers, inventory management, and retail traffic solutions.",
+    "source": "meta_description"
   },
   {
     "slug": "sequencebio",
