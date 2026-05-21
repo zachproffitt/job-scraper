@@ -377,11 +377,11 @@
     "source": "job_posting"
   },
   {
-    "name": "d-Matrix",
+    "ats": "ashby",
     "slug": "d-matrix",
-    "summary": "d-Matrix builds generative AI technologies for software and hardware innovation.",
-    "source_hash": "c417ded2",
-    "ats": "ashby"
+    "name": "d-Matrix",
+    "summary": "d-Matrix builds software and hardware for generative AI applications. The company is hiring a Senior Supply Chain Manager to oversee end-to-end supply planning and execution for silicon and PCIe card product lines from its Santa Clara headquarters.",
+    "source": "job_posting"
   },
   {
     "name": "Form Energy",
@@ -601,11 +601,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Recursion",
+    "ats": "greenhouse",
     "slug": "recursionpharmaceuticals",
-    "summary": "Recursion builds AI platforms for drug discovery using biological data.",
-    "source_hash": "01f61db9",
-    "ats": "greenhouse"
+    "name": "Recursion",
+    "summary": "Recursion is an AI drug discovery company that uses artificial intelligence to decode biology and develop drugs.",
+    "source": "meta_description"
   },
   {
     "ats": "greenhouse",
