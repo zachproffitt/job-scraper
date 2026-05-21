@@ -3,3 +3,7 @@
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
 [2026-05-21T12:39:17Z] fetch_jobs: scraper error for Thomson Reuters (workday/thomsonreuters/wd5/External_Career_Site): Workday request failed for thomsonreuters/wd5/External_Career_Site: Server error '502 Bad Gateway' for url 'https://thomsonreuters.wd5.myworkdayjobs.com/wday/cxs/thomsonreuters/External_Career_Site/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
+[2026-05-21T13:22:38Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T13:22:50Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403

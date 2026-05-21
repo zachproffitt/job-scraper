@@ -1517,10 +1517,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "lattice",
     "name": "Lattice",
-    "summary": "# Lattice\n\nLattice builds people management software that helps organizations with performance management, goal tracking, engagement surveys, and compensation planning. The company operates in the HR tech/human capital management domain, serving mid-market and enterprise companies.",
-    "ats": "greenhouse"
+    "summary": "Lattice makes HR and AI tools that help teams manage people and performance on a single platform.",
+    "source": "meta_description"
   },
   {
     "slug": "Leapsome",
@@ -5660,10 +5661,11 @@
     "ats": "workable"
   },
   {
+    "ats": "workday",
     "slug": "salesforce/wd12/Slack",
     "name": "Slack",
-    "summary": "Slack is a messaging and collaboration platform that enables teams to communicate and coordinate work through channels, direct messages, and integrated tools. The platform serves businesses across various industries by consolidating conversations, file sharing, and third-party app integrations in a centralized workspace.",
-    "ats": "workday"
+    "summary": "Slack builds a work platform that enables teams to manage projects, automate workflows, and connect with each other securely.",
+    "source": "meta_description"
   },
   {
     "slug": "solugen",
