@@ -1,9 +1,3 @@
-[2026-05-21T03:22:33Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
-[2026-05-21T03:23:18Z] fetch_jobs: scraper error for CrowdStrike (workday/crowdstrike/wd5/crowdstrikecareers): Workday request failed for crowdstrike/wd5/crowdstrikecareers: Server error '520 <none>' for url 'https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikecareers/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
-[2026-05-21T03:24:05Z] fetch_jobs: scraper error for IQVIA (workday/iqvia/wd1/IQVIA): Workday request failed for iqvia/wd1/IQVIA: Server error '520 <none>' for url 'https://iqvia.wd1.myworkdayjobs.com/wday/cxs/iqvia/IQVIA/jobs'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
-[2026-05-21T03:33:19Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
-[2026-05-21T03:33:25Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T05:36:56Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
+[2026-05-21T05:39:14Z] fetch_jobs: scraper error for Otis (workday/otis/wd5/REC_Ext_Gateway): Workday request failed for otis/wd5/REC_Ext_Gateway: Server error '502 Bad Gateway' for url 'https://otis.wd5.myworkdayjobs.com/wday/cxs/otis/REC_Ext_Gateway/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/502
