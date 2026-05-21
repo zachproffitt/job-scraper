@@ -31,7 +31,7 @@ def scrape(company: str, slug: str) -> list[Job]:
             url=item["jobUrl"],
             source="ashby",
             location=item.get("location"),
-            remote=item.get("isRemote"),
+            remote=item.get("workplaceType", "").lower() == "remote" if item.get("workplaceType") else item.get("isRemote"),
             posted_at=posted_at,
             raw_text=item.get("descriptionPlain", "").strip(),
         ))
