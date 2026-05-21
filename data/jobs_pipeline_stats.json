@@ -1,12 +1,12 @@
 {
-  "classified": 198,
-  "title_skipped": 86,
-  "location_skipped": 26,
-  "skipped_no_desc": 15409,
+  "classified": 74,
+  "title_skipped": 32,
+  "location_skipped": 3,
+  "skipped_no_desc": 15335,
   "errors": 0,
-  "requests": 198,
-  "input_tokens": 272858,
-  "output_tokens": 33538,
+  "requests": 74,
+  "input_tokens": 90685,
+  "output_tokens": 12210,
   "cache_creation_input_tokens": 4221,
-  "cache_read_input_tokens": 831537
+  "cache_read_input_tokens": 308133
 }
