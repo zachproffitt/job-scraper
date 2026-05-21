@@ -126,11 +126,11 @@
     "source": "meta_description"
   },
   {
-    "name": "Axiom Space",
+    "ats": "greenhouse",
     "slug": "axiom",
-    "summary": "Axiom Space builds space habitats and modules to enable long-term human presence in space.",
-    "source_hash": "72239b28",
-    "ats": "greenhouse"
+    "name": "Axiom Space",
+    "summary": "Axiom Space builds commercial space stations and related infrastructure for human habitation and research in space.",
+    "source": "meta_description"
   },
   {
     "name": "Apex",
@@ -773,10 +773,11 @@
     "source": "homepage"
   },
   {
+    "ats": "greenhouse",
     "slug": "altoslabs",
     "name": "Altos Labs",
-    "summary": "Altos Labs is a longevity biotechnology company that focuses on cellular reprogramming and rejuvenation to reverse aging and age-related diseases. The company develops techniques to reset cells to younger states, with the goal of treating conditions like cancer, heart disease, and neurodegeneration.",
-    "ats": "greenhouse"
+    "summary": "Altos Labs builds artificial intelligence systems and infrastructure to solve complex problems in biology and support cell rejuvenation research aimed at reversing disease and injury.",
+    "source": "job_posting"
   },
   {
     "slug": "beta",
@@ -1332,10 +1333,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "ashby",
     "slug": "render",
     "name": "Render",
-    "summary": "# Render\n\nRender is a cloud platform that provides infrastructure services for deploying and running web applications, APIs, databases, and background jobs. The company operates in the cloud computing and platform-as-a-service (PaaS) space, competing with services like Heroku and AWS.",
-    "ats": "ashby"
+    "summary": "Render provides cloud infrastructure for deploying and scaling applications and agents.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -4381,10 +4383,11 @@
     "source": "job_posting"
   },
   {
+    "ats": "greenhouse",
     "slug": "lyft",
     "name": "Lyft",
-    "summary": "Lyft operates a ride-hailing platform that connects passengers with drivers using mobile applications to request on-demand transportation services in cities across North America. The company operates primarily in the United States and Canada, competing in the urban mobility and transportation services sector.",
-    "ats": "greenhouse"
+    "summary": "Lyft operates a ridesharing platform that connects drivers and passengers. The company is hiring a Data Analyst for its People Analytics team to build dashboards and insights using ThoughtSpot analytics tools, manage survey programs in Qualtrics, and support HR and talent decision-making with data-driven analysis.",
+    "source": "job_posting"
   },
   {
     "ats": "greenhouse",
@@ -4522,10 +4525,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "airops",
     "name": "AirOps",
-    "summary": "AirOps builds a platform for creating and deploying AI workflows that integrate with business applications and data sources, enabling teams to automate complex processes without extensive coding. The platform operates in the enterprise automation and AI-as-a-service space, targeting organizations looking to leverage language models and AI for operational efficiency.",
-    "ats": "ashby"
+    "summary": "AirOps builds an AI search and AEO platform that helps content get cited in AI search results and tracks visibility across ChatGPT, Perplexity, Gemini, and Google.",
+    "source": "meta_description"
   },
   {
     "slug": "anterior",
@@ -5018,10 +5022,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "viseai",
     "name": "Vise",
-    "summary": "Vise builds financial planning and wealth management software designed to help financial advisors deliver personalized advice to their clients at scale, operating in the fintech and wealth management technology domain.",
-    "ats": "greenhouse"
+    "summary": "Vise is a technology platform that helps financial advisors build, manage, and explain personalized investment portfolios.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -7483,10 +7488,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "invoicecloud",
     "name": "EngageSmart",
-    "summary": "EngageSmart provides cloud-based customer engagement and communication software for small and mid-sized businesses, enabling them to automate marketing, sales, and customer service through email, SMS, and other channels. The company operates in the customer relationship management and marketing automation space, serving industries like home services, healthcare, and professional services.",
-    "ats": "greenhouse"
+    "summary": "EngageSmart provides a secure bill payment platform that enables online and electronic bill payments for utilities, insurance, and government organizations with PCI compliance.",
+    "source": "meta_description"
   },
   {
     "slug": "enigmaio",
@@ -8575,10 +8581,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "neighborlybrands/wd1/neighborly",
     "name": "Neighborly",
-    "summary": "Neighborly provides a community engagement platform that helps local governments, nonprofits, and community organizations build stronger connections with residents through tools for communication, feedback collection, and collaborative problem-solving.",
-    "ats": "workday"
+    "summary": "Neighborly connects customers with local home service professionals for various household needs.",
+    "source": "meta_description"
   },
   {
     "slug": "taylor/wd1/External",
