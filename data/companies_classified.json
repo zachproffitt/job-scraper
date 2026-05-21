@@ -1312,10 +1312,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "Coder",
     "name": "Coder",
-    "summary": "# Coder\n\nCoder builds a platform that provisions remote development environments on cloud infrastructure, allowing developers to access standardized workspaces through a web browser or IDE. The company operates in the developer tools and infrastructure space, serving organizations that want to centralize and manage development environments.",
-    "ats": "ashby"
+    "summary": "Coder provides self-hosted infrastructure that gives developers a secure, governed environment to run AI coding agents at scale, with full control over agent permissions, audit logging, and compliance.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -3150,10 +3151,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "meticulous",
     "name": "Meticulous",
-    "summary": "Meticulous builds AI-powered testing software that automatically generates and maintains test cases for web and mobile applications. The company operates in the software quality assurance and continuous integration domain, helping development teams reduce manual testing effort and improve code reliability.",
-    "ats": "ashby"
+    "summary": "Meticulous auto-generates and auto-maintains visual frontend browser tests.",
+    "source": "meta_description"
   },
   {
     "ats": "ashby",
@@ -7645,10 +7647,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "workday",
     "slug": "forcepoint/wd1/external-careers",
     "name": "Forcepoint",
-    "summary": "Forcepoint develops cloud-native security software that protects organizations against data loss and cyber threats across web, email, and cloud applications. The company operates in the cybersecurity domain, providing data loss prevention (DLP), secure web gateway, and cloud access security broker solutions to enterprises.",
-    "ats": "workday"
+    "summary": "Forcepoint provides data security software that combines data security posture management, data loss prevention, and data detection and response capabilities to prevent breaches, reduce AI risk, and stop data loss.",
+    "source": "meta_description"
   },
   {
     "slug": "newsela",
@@ -8017,10 +8020,11 @@
     "ats": "bamboo"
   },
   {
+    "ats": "workday",
     "slug": "hubinternational/wd1/HUBInternational",
     "name": "Insureon",
-    "summary": "Insureon is an online insurance marketplace that helps small businesses and self-employed professionals find and compare general liability, workers' compensation, and other commercial insurance policies. The platform streamlines the quote process by allowing customers to receive multiple policy options from different insurers in minutes rather than navigating traditional insurance brokers.",
-    "ats": "workday"
+    "summary": "Insureon provides online quotes and coverage for business insurance, allowing customers to obtain quotes in less than 24 hours through partnerships with insurance companies.",
+    "source": "meta_description"
   },
   {
     "slug": "insurify",
@@ -8047,10 +8051,11 @@
     "ats": "lever"
   },
   {
+    "ats": "workday",
     "slug": "invenergyllc/wd1/invenergycareers",
     "name": "Invenergy",
-    "summary": "Invenergy develops and operates power generation facilities including wind, solar, natural gas, and energy storage projects across North America and Europe. The company finances, builds, and manages renewable and conventional energy infrastructure for utilities, corporations, and communities.",
-    "ats": "workday"
+    "summary": "Invenergy is a privately held independent power producer and energy infrastructure company operating in North America.",
+    "source": "meta_description"
   },
   {
     "slug": "invoca",
@@ -8716,10 +8721,11 @@
     "ats": "lever"
   },
   {
+    "ats": "workday",
     "slug": "optiv/wd5/Optiv_Careers",
     "name": "Optiv",
-    "summary": "Optiv is a cybersecurity consulting and solutions provider that helps organizations assess, design, and implement security programs to protect their infrastructure, applications, and data across cloud and on-premises environments. The company serves enterprise clients across various industries including financial services, healthcare, government, and technology sectors.",
-    "ats": "workday"
+    "summary": "Optiv provides cybersecurity advisory services and solutions to help manage cyber risk.",
+    "source": "meta_description"
   },
   {
     "slug": "orchard",
@@ -8999,10 +9005,11 @@
     "ats": "lever"
   },
   {
+    "ats": "greenhouse",
     "slug": "rapidsos",
     "name": "RapidSOS",
-    "summary": "RapidSOS builds cloud-based emergency communications software that integrates with 911 systems and first responders, enabling faster and more accurate emergency response through real-time data sharing, location services, and caller information across public safety agencies.",
-    "ats": "greenhouse"
+    "summary": "RapidSOS provides AI software that delivers intelligence to first responders and security teams during emergencies.",
+    "source": "meta_description"
   },
   {
     "slug": "Rasa",
@@ -9194,10 +9201,11 @@
     "ats": "workable"
   },
   {
+    "ats": "ashby",
     "slug": "scribe",
     "name": "Scribe",
-    "summary": "Scribe is a platform that automatically creates step-by-step process documentation and standard operating procedures by capturing user actions on a computer screen, then converting them into visual guides with screenshots, text instructions, and videos. The company serves businesses across various industries that need to document workflows, train employees, and maintain institutional knowledge without manual documentation efforts.",
-    "ats": "ashby"
+    "summary": "Scribe makes software that automatically documents processes by creating visual guides with text, links, and screenshots.",
+    "source": "meta_description"
   },
   {
     "slug": "sealed",
