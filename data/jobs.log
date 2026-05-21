@@ -1,7 +1,3 @@
-[2026-05-21T17:06:20Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
-[2026-05-21T17:07:57Z] fetch_jobs: scraper error for Headspace (greenhouse/hs): Greenhouse request failed for hs: The read operation timed out
-[2026-05-21T17:08:01Z] fetch_jobs: scraper error for Huntress (greenhouse/huntress): Greenhouse request failed for huntress: The read operation timed out
-[2026-05-21T17:08:03Z] fetch_jobs: scraper error for inKind (greenhouse/inkind): Greenhouse request failed for inkind: The read operation timed out
-[2026-05-21T17:08:19Z] fetch_jobs: scraper error for iHeartMedia (workday/iheartmedia/wd5/External_iHM): Workday request failed for iheartmedia/wd5/External_iHM: The read operation timed out
-[2026-05-21T17:32:54Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
-For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T17:48:49Z] fetch_jobs: scraper error for Buoy Health (bamboo/buoyhealth): BambooHR JSON parse failed for buoyhealth: Expecting value: line 1 column 1 (char 0)
+[2026-05-21T17:52:19Z] fetch_jobs: scraper error for Tempus AI (workday/tempus/wd5/Tempus_Careers): Workday request failed for tempus/wd5/Tempus_Careers: Server error '520 <none>' for url 'https://tempus.wd5.myworkdayjobs.com/wday/cxs/tempus/Tempus_Careers/jobs'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
