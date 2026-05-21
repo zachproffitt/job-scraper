@@ -264,9 +264,9 @@ _INTL_LOCATION_RE = re.compile(
 # "New Mexico" listed explicitly because \bmexico\b would otherwise match it.
 _US_SAFE_RE = re.compile(
     r"\bUnited States\b|\bUSA\b|\bNew Mexico\b"
-    r"|[,\s](?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|"
+    r"|(?:^|[,/;\s])(?:AL|AK|AZ|AR|CA|CO|CT|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|"
     r"NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY|DC)"
-    r"(?:[,\s]|$)",
+    r"(?:[,/;\s]|$)",
     re.IGNORECASE,
 )
 
