@@ -3,3 +3,7 @@
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
 [2026-05-21T03:24:05Z] fetch_jobs: scraper error for IQVIA (workday/iqvia/wd1/IQVIA): Workday request failed for iqvia/wd1/IQVIA: Server error '520 <none>' for url 'https://iqvia.wd1.myworkdayjobs.com/wday/cxs/iqvia/IQVIA/jobs'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/520
+[2026-05-21T03:33:19Z] classify_companies: homepage fetch failed for https://oklo.com: Client error '403 Forbidden' for url 'https://oklo.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+[2026-05-21T03:33:25Z] classify_companies: homepage fetch failed for https://spire.com: Client error '403 Forbidden' for url 'https://spire.com'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
