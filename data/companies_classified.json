@@ -4801,10 +4801,11 @@
     "source": "meta_description"
   },
   {
+    "ats": "ashby",
     "slug": "mandolin",
     "name": "Mandolin",
-    "summary": "Mandolin provides a cloud-based supply chain platform that helps food and agriculture companies manage procurement, traceability, and logistics operations across their supply networks.",
-    "ats": "ashby"
+    "summary": "Mandolin provides AI agents that handle healthcare workflows including intake, benefits verification, prior authorizations, and revenue cycle management to replace fragmented processes.",
+    "source": "meta_description"
   },
   {
     "slug": "mariadbplc",
@@ -6092,10 +6093,11 @@
     "ats": "workday"
   },
   {
+    "ats": "workday",
     "slug": "kcura/wd1/External_Career_Site",
     "name": "Relativity",
-    "summary": "Relativity builds a software platform for legal, compliance, and investigative teams to manage, analyze, and review large volumes of documents and data during litigation, regulatory investigations, and internal inquiries. The platform enables organizations to reduce costs and accelerate case resolution through AI-powered document processing, search capabilities, and collaboration tools.",
-    "ats": "workday"
+    "summary": "Relativity builds an AI-powered platform called RelativityOne that helps legal professionals analyze complex data and derive insights from it.",
+    "source": "meta_description"
   },
   {
     "slug": "roofstock",
