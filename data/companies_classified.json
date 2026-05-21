@@ -5014,10 +5014,11 @@
     "ats": "ashby"
   },
   {
+    "ats": "ashby",
     "slug": "uipath",
     "name": "UiPath",
-    "summary": "UiPath develops robotic process automation (RPA) software that enables organizations to automate repetitive business processes by creating digital robots that can mimic human interactions with applications and systems. The platform serves enterprises across industries including finance, healthcare, manufacturing, and insurance to increase operational efficiency and reduce manual work.",
-    "ats": "ashby"
+    "summary": "UiPath provides a business orchestration and automation platform that combines AI agents, robots, and people to deliver outcomes at scale.",
+    "source": "meta_description"
   },
   {
     "slug": "udacity",
@@ -7574,10 +7575,11 @@
     "ats": "lever"
   },
   {
+    "ats": "workday",
     "slug": "evolent/wd1/External",
     "name": "Evolent Health",
-    "summary": "Evolent Health is a health services company that operates accountable care organizations and manages healthcare delivery for millions of members, focusing on value-based care models where providers assume financial risk for patient outcomes. The company works with health plans, employers, and government programs to deliver coordinated care while reducing costs through data analytics and care management services.",
-    "ats": "workday"
+    "summary": "Evolent Health partners with health plans and providers to improve health outcomes for people with complex and costly health conditions by connecting fragmented parts of the healthcare system. The company employs physicians and other staff to conduct utilization management and medical necessity reviews for healthcare services.",
+    "source": "job_posting"
   },
   {
     "slug": "evolutioniq",
@@ -9478,10 +9480,11 @@
     "ats": "greenhouse"
   },
   {
+    "ats": "greenhouse",
     "slug": "striveworks",
     "name": "Striveworks",
-    "summary": "Striveworks builds machine learning software and services that help organizations operationalize AI models in production environments. The company focuses on enabling enterprises to deploy, monitor, and manage machine learning systems reliably across their operations.",
-    "ats": "greenhouse"
+    "summary": "Striveworks builds software that helps organizations build, launch, and maintain AI models quickly, with AI that adapts to changing conditions.",
+    "source": "meta_description"
   },
   {
     "slug": "studypoint",
